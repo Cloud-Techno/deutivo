@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeutschMaster - Flashcards & Gamification</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #FFC107;
+            --secondary: #DD0000;
+            --dark: #1a1a1a;
+            --light: #f8f9fa;
+            --white: #ffffff;
+            --gray: #6c757d;
+            --glass-bg: rgba(255, 255, 255, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.6);
+            --gradient-bg: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            --success: #28a745;
+            --card-w: 300px;
+            --card-h: 350px;
+        }
+
+        [data-theme="dark"] {
+            --light: #121212;
+            --white: #1e1e1e;
+            --gray: #aaa;
+            --glass-bg: rgba(30, 30, 30, 0.7);
+            --glass-border: rgba(255, 255, 255, 0.1);
+            --gradient-bg: linear-gradient(135deg, #121212 0%, #000000 100%);
+            --dark: #f4f6f8;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; outline: none; font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+        body { background: var(--gradient-bg); color: var(--dark); min-height: 100vh; padding-top: 130px; transition: background 0.3s; }
+        button { cursor: pointer; border: none; font-family: inherit; }
+
+        /* --- HEADER --- */
+        header { 
+            background: var(--white); 
+            padding: 15px 30px; 
+            display: flex; justify-content: space-between; align-items: center; 
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05); 
+            position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; 
+        }
+        .logo { font-size: 1.4rem; font-weight: 800; color: var(--secondary); display: flex; align-items: center; gap: 10px; }
+        
+        /* User Login & Admin */
+        .user-controls { display: flex; gap: 15px; align-items: center; }
+        .user-input { 
+            padding: 8px 12px; border: 1px solid var(--border); border-radius: 6px; 
+            background: var(--light); color: var(--dark); font-weight: 600; width: 150px;
+        }
+        .admin-btn { padding: 8px 15px; background: var(--dark); color: var(--white); border-radius: 6px; font-size: 0.9rem; transition: 0.3s; }
+        .admin-btn:hover { background: var(--secondary); }
+
+        /* Lang & Theme */
+        .header-right { display: flex; gap: 20px; align-items: center; }
+        .lang-flags { display: flex; gap: 8px; }
+        .flag-btn { font-size: 1.4rem; background: none; opacity: 0.5; transition: 0.2s; }
+        .flag-btn.active { opacity: 1; transform: scale(1.1); }
+        .theme-toggle { font-size: 1.2rem; background: none; color: var(--dark); }
+
+        /* --- STATUS BAR --- */
+        .status-bar {
+            background: var(--white);
+            height: 60px; /* Biraz daha uzun yapıldı isim için */
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 0 30px;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            position: fixed; top: 60px; left: 0; width: 100%; z-index: 999;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+        }
+
+        /* Timer Section */
+        .timer-section { display: flex; align-items: center; gap: 15px; }
+        .timer-display { font-family: 'Courier New', monospace; font-size: 1.2rem; font-weight: 700; color: var(--dark); min-width: 80px; }
+        .timer-controls button { padding: 5px 12px; border-radius: 4px; font-weight: bold; font-size: 0.8rem; }
+        .btn-start { background: #e8f5e9; color: #2e7d32; }
+        .btn-pause { background: #fff3e0; color: #ef6c00; }
+
+        /* Progress Section */
+        .progress-section { flex: 1; max-width: 600px; margin: 0 30px; display: flex; flex-direction: column; gap: 2px; }
+        .progress-info { font-size: 0.85rem; display: flex; justify-content: space-between; align-items: center; width: 100%; }
+        .progress-track { width: 100%; height: 8px; background: #eee; border-radius: 4px; overflow: hidden; }
+        .progress-fill { height: 100%; width: 0%; background: linear-gradient(90deg, var(--primary), var(--secondary)); transition: width 0.5s ease; }
+        .stars-display { font-size: 1.1rem; color: var(--primary); letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .welcome-msg { font-weight: bold; color: var(--secondary); margin-right: 10px; }
+
+        /* --- GOOGLE ADS STYLING --- */
+        .ad-space { 
+            background: #f4f6f8; 
+            border: 1px dashed #ccc; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            color: #999; 
+            font-size: 0.8rem; 
+            text-transform: uppercase; 
+            letter-spacing: 1px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .ad-space:hover { background: #e9ecef; border-color: var(--secondary); }
+        
+        .ad-header-banner { 
+            width: 100%; 
+            max-width: 1200px; 
+            height: 90px; 
+            margin: 10px auto 20px auto; 
+        }
+
+        .ad-sidebar-rect { 
+            width: 100%; 
+            height: 250px; 
+            margin-top: 20px; 
+        }
+
+        /* --- LAYOUT --- */
+        .app-container { display: flex; max-width: 1400px; margin: 0 auto; padding: 0 20px 20px 20px; gap: 30px; }
+        
+        /* Sidebar */
+        .sidebar { width: 240px; flex-shrink: 0; position: sticky; top: 140px; height: calc(100vh - 150px); display: flex; flex-direction: column; }
+        .nav-menu { background: var(--white); padding: 20px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); flex: 1; }
+        .nav-item { display: flex; align-items: center; padding: 12px; margin-bottom: 5px; border-radius: 10px; color: var(--gray); font-weight: 600; cursor: pointer; transition: 0.2s; }
+        .nav-item:hover { background: var(--light); color: var(--secondary); }
+        .nav-item.active { background: var(--secondary); color: var(--white); box-shadow: 0 4px 15px rgba(221,0,0,0.2); }
+
+        /* Main Content */
+        .main-content { flex: 1; min-width: 0; }
+        .section { display: none; animation: fadeIn 0.4s ease; }
+        .section.active { display: block; }
+
+        /* --- FILTERS --- */
+        .filter-container {
+            margin-bottom: 25px; padding: 20px; border-radius: 16px;
+            background: var(--glass-bg); backdrop-filter: blur(10px); border: 1px solid var(--glass-border);
+        }
+        .filter-row { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+        .glass-btn {
+            background: rgba(255,255,255,0.5); padding: 8px 16px; border-radius: 8px; font-weight: 600; font-size: 0.9rem;
+            border: 1px solid var(--glass-border); transition: 0.2s;
+        }
+        .glass-btn:hover { background: rgba(255,255,255,0.8); }
+        .glass-btn.active { background: var(--secondary); color: var(--white); border-color: var(--secondary); }
+        .glass-btn.type-active { background: linear-gradient(135deg, #FFC107, #FF9800); color: white; border: none; }
+
+        /* --- FLASHCARDS --- */
+        .flashcards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(var(--card-w), 1fr)); gap: 25px; }
+
+        .flashcard {
+            background-color: transparent;
+            width: 100%;
+            height: var(--card-h);
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        .flashcard-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border-radius: 16px;
+        }
+
+        .flashcard.flipped .flashcard-inner { transform: rotateY(180deg); }
+
+        .flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            border-radius: 16px;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 20px;
+            background: var(--white);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .fc-type { font-size: 0.8rem; text-transform: uppercase; color: var(--gray); margin-bottom: 10px; }
+        .fc-word { font-size: 2.5rem; font-weight: 800; color: var(--secondary); margin-bottom: 5px; }
+        .fc-level { position: absolute; top: 15px; right: 15px; font-weight: bold; color: var(--primary); background: #fff8e1; padding: 4px 10px; border-radius: 20px; }
+        .fc-hint { font-size: 0.85rem; color: #aaa; margin-top: 20px; }
+
+        .flashcard-back { transform: rotateY(180deg); background: #fdfdfd; }
+        .fc-german { font-size: 2rem; font-weight: bold; color: var(--dark); font-family: 'Courier New', monospace; margin-bottom: 15px; }
+        .fc-sentences { text-align: left; width: 100%; font-size: 0.9rem; color: #555; margin-bottom: 20px; line-height: 1.5; }
+        .fc-sent-row { margin-bottom: 5px; }
+        .fc-label { font-weight: bold; color: var(--secondary); display: block; margin-bottom: 2px; }
+        
+        .btn-learn {
+            width: 100%; padding: 12px; background: var(--success); color: white; 
+            border-radius: 8px; font-weight: bold; display: flex; align-items: center; justify-content: center; gap: 8px;
+            transition: 0.3s;
+        }
+        .btn-learn:hover { background: #218838; transform: translateY(-2px); }
+        .btn-learn.learned { background: #ddd; color: #666; cursor: default; }
+
+        /* --- ADMIN PANEL --- */
+        .admin-wrapper { background: var(--white); padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
+        .admin-tabs { display: flex; border-bottom: 2px solid #eee; margin-bottom: 20px; }
+        .admin-tab { padding: 10px 20px; cursor: pointer; font-weight: 600; color: var(--gray); border-bottom: 2px solid transparent; margin-bottom: -2px; }
+        .admin-tab.active { color: var(--secondary); border-bottom-color: var(--secondary); }
+        .admin-content { display: none; }
+        .admin-content.active { display: block; }
+        .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        .form-group label { display: block; font-size: 0.85rem; font-weight: bold; margin-bottom: 5px; }
+        .form-control { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: var(--light); }
+        .btn-submit { grid-column: 1/-1; background: var(--secondary); color: white; padding: 12px; border-radius: 6px; font-weight: bold; }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .status-bar { flex-direction: column; height: auto; padding: 15px; gap: 10px; }
+            .progress-section { width: 100%; margin: 0; }
+            .app-container { flex-direction: column; }
+            .sidebar { width: 100%; position: static; height: auto; }
+            .nav-menu { display: flex; overflow-x: auto; padding: 10px; }
+            .nav-item { white-space: nowrap; margin-right: 10px; }
+            .flashcard { height: 400px; }
+            .ad-header-banner { height: 60px; }
+        }
+
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="logo">🇩🇪 <span data-i18n="logoTitle">DeutschMaster</span></div>
+    
+    <div class="user-controls">
+        <input type="text" id="usernameInput" class="user-input" placeholder="Adınızı girin..." onchange="updateUser()">
+        <button class="admin-btn" onclick="toggleAdmin()" data-i18n="adminBtn">Admin Paneli</button>
+    </div>
+
+    <div class="header-right">
+        <div class="lang-flags">
+            <button class="flag-btn active" onclick="setLanguage('tr')">🇹🇷</button>
+            <button class="flag-btn" onclick="setLanguage('en')">🇬🇧</button>
+            <button class="flag-btn" onclick="setLanguage('pl')">🇵🇱</button>
+            <button class="flag-btn" onclick="setLanguage('ua')">🇺🇦</button>
+        </div>
+        <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
+    </div>
+</header>
+
+<!-- STATUS BAR -->
+<div class="status-bar">
+    <div class="timer-section">
+        <div class="timer-display" id="timerDisplay">00:00:00</div>
+        <div class="timer-controls">
+            <button class="btn-start" onclick="startTimer()" data-i18n="start">▶ Başlat</button>
+            <button class="btn-pause" onclick="pauseTimer()" data-i18n="pause">⏸ Durdur</button>
+        </div>
+    </div>
+
+    <div class="progress-section">
+        <div class="progress-info">
+            <span id="welcomeContainer" style="display:none;"><span class="welcome-msg" id="welcomeText"></span> | </span>
+            <span data-i18n="progress">İlerleme:</span> <strong id="learnedCount">0</strong> / 50 <span data-i18n="words">Kelime</span>
+            <span class="stars-display" id="starsDisplay">⭐ 0.0</span>
+        </div>
+        <div class="progress-track">
+            <div class="progress-fill" id="progressBar"></div>
+        </div>
+    </div>
+</div>
+
+<!-- HEADER AD BANNER -->
+<div class="ad-space ad-header-banner">
+    Google Ads Header (728x90)
+</div>
+
+<div class="app-container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <nav class="nav-menu">
+            <div class="nav-item active" onclick="switchTab('vocabulary', this)" data-i18n="vocab">📘 Flashcards</div>
+            <div class="nav-item" onclick="switchTab('grammar', this)" data-i18n="grammar">📝 Gramer</div>
+            <div class="nav-item" onclick="switchTab('phrases', this)" data-i18n="phrases">💬 Kalıplar</div>
+            <div class="nav-item" onclick="switchTab('exam', this)" data-i18n="exam">🎯 Sınav</div>
+        </nav>
+        <!-- SIDEBAR AD -->
+        <div class="ad-space ad-sidebar-rect">
+            Google Ads Sidebar (300x250)
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        
+        <!-- VOCABULARY (FLASHCARDS) -->
+        <section id="vocabulary" class="section active">
+            <div class="filter-container">
+                <div class="filter-row">
+                    <button class="glass-btn type-active" onclick="setFilter('type', 'verb', this)" data-i18n="verb">Verb</button>
+                    <button class="glass-btn" onclick="setFilter('type', 'noun', this)" data-i18n="noun">Noun</button>
+                    <button class="glass-btn" onclick="setFilter('type', 'adjective', this)" data-i18n="adj">Adjective</button>
+                    <button class="glass-btn" onclick="setFilter('type', 'adverb', this)" data-i18n="adv">Adverb</button>
+                </div>
+                <div class="filter-row">
+                    <button class="glass-btn active" onclick="setFilter('level', 'A1', this)">A1</button>
+                    <button class="glass-btn active" onclick="setFilter('level', 'A2', this)">A2</button>
+                    <button class="glass-btn active" onclick="setFilter('level', 'B1', this)">B1</button>
+                    <button class="glass-btn active" onclick="setFilter('level', 'B2', this)">B2</button>
+                </div>
+            </div>
+
+            <div id="flashcardsGrid" class="flashcards-grid">
+                <!-- JS Renders Cards Here -->
+            </div>
+        </section>
+
+        <!-- OTHER SECTIONS -->
+        <section id="grammar" class="section"><h2 data-i18n="grammarTitle">Gramer Konuları</h2><p data-i18n="grammarDesc">Gramer içerikleri burada listelenecek.</p></section>
+        <section id="phrases" class="section"><h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2><p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p></section>
+        <section id="exam" class="section"><h2 data-i18n="examTitle">Sınav Hazırlık</h2><p data-i18n="examDesc">Sınav soruları burada listelenecek.</p></section>
+
+        <!-- ADMIN PANEL (Tabs) -->
+        <section id="admin" class="section">
+            <div class="admin-wrapper">
+                <div class="admin-tabs">
+                    <div class="admin-tab active" onclick="switchAdminTab('admin-words', this)" data-i18n="addWord">Kelime Ekle</div>
+                    <div class="admin-tab" onclick="switchAdminTab('admin-grammar', this)" data-i18n="addGrammar">Gramer Ekle</div>
+                    <div class="admin-tab" onclick="switchAdminTab('admin-phrases', this)" data-i18n="addPhrase">Kalıp Ekle</div>
+                    <div class="admin-tab" onclick="switchAdminTab('admin-exam', this)" data-i18n="addExam">Soru Ekle</div>
+                </div>
+
+                <!-- Tab 1: Words -->
+                <div id="admin-words" class="admin-content active">
+                    <h3 data-i18n="newWord">Yeni Kelime Ekle</h3>
+                    <div class="form-grid" style="margin-top:15px;">
+                        <div class="form-group"><label data-i18n="lblGerman">Almanca</label><input type="text" id="aw_de" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblType">Tür (Verb/Noun)</label><select id="aw_type" class="form-control"><option>verb</option><option>noun</option><option>adjective</option><option>adverb</option></select></div>
+                        <div class="form-group"><label data-i18n="lblTurkish">Türkçe</label><input type="text" id="aw_tr" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblLevel">Seviye</label><select id="aw_level" class="form-control"><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></div>
+                        <div class="form-group"><label data-i18n="lblPerfekt">Perfekt (haben/sein)</label><select id="aw_aux" class="form-control"><option>haben</option><option>sein</option></select></div>
+                        <div class="form-group"><label data-i18n="lblPresent">Present Cümle</label><input type="text" id="aw_ex1" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblPerfektSent">Perfekt Cümle</label><input type="text" id="aw_ex2" class="form-control"></div>
+                        <button class="btn-submit" onclick="adminAdd('word')" data-i18n="save">KAYDET</button>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Grammar -->
+                <div id="admin-grammar" class="admin-content">
+                    <h3 data-i18n="newGrammar">Gramer Konusu Ekle</h3>
+                    <div class="form-grid" style="margin-top:15px;">
+                        <div class="form-group"><label data-i18n="lblTitle">Konu Başlığı</label><input type="text" id="ag_title" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblLevel">Seviye</label><select id="ag_level" class="form-control"><option>A1</option><option>A2</option><option>B1</option></select></div>
+                        <div class="form-group" style="grid-column: 1/-1"><label data-i18n="lblDesc">Açıklama</label><textarea id="ag_content" class="form-control" rows="3"></textarea></div>
+                        <button class="btn-submit" onclick="adminAdd('grammar')" data-i18n="save">KAYDET</button>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Phrases -->
+                <div id="admin-phrases" class="admin-content">
+                    <h3 data-i18n="newPhrase">Kalıp Ekle</h3>
+                    <div class="form-grid" style="margin-top:15px;">
+                        <div class="form-group"><label data-i18n="lblGerman">Almanca</label><input type="text" id="ap_de" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblTurkish">Türkçe</label><input type="text" id="ap_tr" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblType">Tipi (Formal/Informal)</label><input type="text" id="ap_type" class="form-control"></div>
+                        <button class="btn-submit" onclick="adminAdd('phrase')" data-i18n="save">KAYDET</button>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Exam -->
+                <div id="admin-exam" class="admin-content">
+                    <h3 data-i18n="newExam">Sınav Sorusu Ekle</h3>
+                    <div class="form-grid" style="margin-top:15px;">
+                        <div class="form-group" style="grid-column: 1/-1"><label data-i18n="lblQuestion">Soru</label><input type="text" id="ae_q" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblOptA">Seçenek A</label><input type="text" id="ae_op1" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblOptB">Seçenek B</label><input type="text" id="ae_op2" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblOptC">Seçenek C</label><input type="text" id="ae_op3" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblOptD">Seçenek D</label><input type="text" id="ae_op4" class="form-control"></div>
+                        <div class="form-group"><label data-i18n="lblCorrect">Doğru Cevap (0-3)</label><input type="number" id="ae_ans" class="form-control" min="0" max="3"></div>
+                        <button class="btn-submit" onclick="adminAdd('exam')" data-i18n="save">KAYDET</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script>
+    /* --- MOCK DATABASE --- */
+    const db = {
+        vocab: [
+            { id: 1, type: "verb", level: "A1", tr: "Yürümek", en: "To go", de: "gehen", aux: "sein", ex1: "Ich gehe.", ex2: "Ich bin gegangen." },
+            { id: 2, type: "verb", level: "A1", tr: "Yapmak", en: "To do", de: "machen", aux: "haben", ex1: "Ich mache das.", ex2: "Ich habe das gemacht." },
+            { id: 3, type: "verb", level: "A1", tr: "Sevmek", en: "To like", de: "mögen", aux: "haben", ex1: "Ich mag dich.", ex2: "Ich habe dich gemocht." },
+            { id: 4, type: "verb", level: "A2", tr: "Gelmek", en: "To come", de: "kommen", aux: "sein", ex1: "Er kommt.", ex2: "Er ist gekommen." },
+            { id: 5, type: "verb", level: "B1", tr: "Anlamak", en: "To understand", de: "verstehen", aux: "haben", ex1: "Verstehen Sie?", ex2: "Haben Sie verstanden?" }
+        ],
+        grammar: [],
+        phrases: [],
+        exam: []
+    };
+
+    /* --- TRANSLATIONS (FULL SUPPORT) --- */
+    const translations = {
+        tr: {
+            logoTitle: "DeutschMaster", adminBtn: "Admin Paneli", start: "▶ Başlat", pause: "⏸ Durdur", progress: "İlerleme:", words: "Kelime", vocab: "Flashcards", grammar: "Gramer", phrases: "Kalıplar", exam: "Sınav",
+            verb: "Verb", noun: "Noun", adj: "Adjective", adv: "Adverb",
+            grammarTitle: "Gramer Konuları", grammarDesc: "Gramer içerikleri burada listelenecek.",
+            phrasesTitle: "Günlük Kalıplar", phrasesDesc: "Konuşma kalıpları burada listelenecek.",
+            examTitle: "Sınav Hazırlık", examDesc: "Sınav soruları burada listelenecek.",
+            addWord: "Kelime Ekle", addGrammar: "Gramer Ekle", addPhrase: "Kalıp Ekle", addExam: "Soru Ekle",
+            newWord: "Yeni Kelime Ekle", newGrammar: "Gramer Konusu Ekle", newPhrase: "Kalıp Ekle", newExam: "Sınav Sorusu Ekle",
+            lblGerman: "Almanca", lblTurkish: "Türkçe", lblType: "Tür", lblLevel: "Seviye", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Present Cümle", lblPerfektSent: "Perfekt Cümle", lblDesc: "Açıklama", lblTitle: "Konu Başlığı", lblQuestion: "Soru", lblOptA: "Seçenek A", lblOptB: "Seçenek B", lblOptC: "Seçenek C", lblOptD: "Seçenek D", lblCorrect: "Doğru Cevap (0-3)", save: "KAYDET",
+            cardHint: "👆 Çevirmek için tıkla", btnLearn: "ÖĞRENDİM (+1 Puan)", btnLearned: "✔ Öğrenildi", welcome: "Hoşgeldin,"
+        },
+        en: {
+            logoTitle: "DeutschMaster", adminBtn: "Admin Panel", start: "▶ Start", pause: "⏸ Pause", progress: "Progress:", words: "Words", vocab: "Flashcards", grammar: "Grammar", phrases: "Phrases", exam: "Exam",
+            verb: "Verb", noun: "Noun", adj: "Adjective", adv: "Adverb",
+            grammarTitle: "Grammar Topics", grammarDesc: "Grammar content will be listed here.",
+            phrasesTitle: "Daily Phrases", phrasesDesc: "Conversation phrases will be listed here.",
+            examTitle: "Exam Prep", examDesc: "Exam questions will be listed here.",
+            addWord: "Add Word", addGrammar: "Add Grammar", addPhrase: "Add Phrase", addExam: "Add Question",
+            newWord: "Add New Word", newGrammar: "Add Grammar Topic", newPhrase: "Add Phrase", newExam: "Add Exam Question",
+            lblGerman: "German", lblTurkish: "Turkish", lblType: "Type", lblLevel: "Level", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Present Sent", lblPerfektSent: "Perfekt Sent", lblDesc: "Description", lblTitle: "Topic Title", lblQuestion: "Question", lblOptA: "Option A", lblOptB: "Option B", lblOptC: "Option C", lblOptD: "Option D", lblCorrect: "Correct Ans (0-3)", save: "SAVE",
+            cardHint: "👆 Click to translate", btnLearn: "LEARNED (+1 Point)", btnLearned: "✔ Learned", welcome: "Welcome,"
+        },
+        pl: {
+            logoTitle: "DeutschMaster", adminBtn: "Panel Admina", start: "▶ Start", pause: "⏸ Pauza", progress: "Postęp:", words: "Słowa", vocab: "Fiszki", grammar: "Gramatyka", phrases: "Zwroty", exam: "Egzamin",
+            verb: "Czasownik", noun: "Rzeczownik", adj: "Przymiotnik", adv: "Przysłówek",
+            grammarTitle: "Tematy Gramatyki", grammarDesc: "Treści gramatyczne będą tutaj.",
+            phrasesTitle: "Codzienne Zwroty", phrasesDesc: "Zwroty konwersacyjne będą tutaj.",
+            examTitle: "Przygotowanie do Egzaminu", examDesc: "Pytania egzaminacyjne będą tutaj.",
+            addWord: "Dodaj Słowo", addGrammar: "Dodaj Gramatykę", addPhrase: "Dodaj Zwrot", addExam: "Dodaj Pytanie",
+            newWord: "Dodaj Nowe Słowo", newGrammar: "Dodaj Temat Gramatyki", newPhrase: "Dodaj Zwrot", newExam: "Dodaj Pytanie",
+            lblGerman: "Niemiecki", lblTurkish: "Turecki", lblType: "Typ", lblLevel: "Poziom", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Zd. Czas Ter.", lblPerfektSent: "Zd. Perfekt", lblDesc: "Opis", lblTitle: "Tytuł Tematu", lblQuestion: "Pytanie", lblOptA: "Opcja A", lblOptB: "Opcja B", lblOptC: "Opcja C", lblOptD: "Opcja D", lblCorrect: "Prawidłowa (0-3)", save: "ZAPISZ",
+            cardHint: "👆 Kliknij aby przetłumaczyć", btnLearn: "NAUCZONE (+1 Punkt)", btnLearned: "✔ Nauczone", welcome: "Witaj,"
+        },
+        ua: {
+            logoTitle: "DeutschMaster", adminBtn: "Панель Адміна", start: "▶ Старт", pause: "⏸ Пауза", progress: "Прогрес:", words: "Слова", vocab: "Флеш-картки", grammar: "Граматика", phrases: "Фрази", exam: "Іспит",
+            verb: "Дієслово", noun: "Іменник", adj: "Прикметник", adv: "Прислівник",
+            grammarTitle: "Теми Граматики", grammarDesc: "Граматичний контент буде тут.",
+            phrasesTitle: "Щоденні Фрази", phrasesDesc: "Фрази для розмови будуть тут.",
+            examTitle: "Підготовка до Іспиту", examDesc: "Питання іспиту будуть тут.",
+            addWord: "Додати Слово", addGrammar: "Додати Граматику", addPhrase: "Додати Фразу", addExam: "Додати Питання",
+            newWord: "Додати Нове Слово", newGrammar: "Додати Тему Граматики", newPhrase: "Додати Фразу", newExam: "Додати Питання",
+            lblGerman: "Німецька", lblTurkish: "Турецька", lblType: "Тип", lblLevel: "Рівень", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Речення Пр.", lblPerfektSent: "Речення Perfekt", lblDesc: "Опис", lblTitle: "Назва Теми", lblQuestion: "Питання", lblOptA: "Варіант A", lblOptB: "Варіант B", lblOptC: "Варіант C", lblOptD: "Варіант D", lblCorrect: "Правильна (0-3)", save: "ЗБЕРЕГТИ",
+            cardHint: "👆 Натисніть щоб перекласти", btnLearn: "ВИВЧЕНО (+1 Бал)", btnLearned: "✔ Вивчено", welcome: "Вітаємо,"
+        }
+    };
+
+    /* --- STATE & GAMIFICATION --- */
+    let state = {
+        lang: 'tr',
+        user: { name: '', timeSpent: 0, wordsLearned: 0 },
+        timer: { seconds: 0, interval: null, isRunning: false },
+        filters: { type: 'verb', level: 'A1' },
+        learnedIds: []
+    };
+
+    /* --- INIT --- */
+    document.addEventListener('DOMContentLoaded', () => {
+        renderFlashcards();
+        updateProgressUI();
+    });
+
+    /* --- FULL LANGUAGE SWITCHING --- */
+    function setLanguage(lang) {
+        state.lang = lang;
+        // Update Flags UI
+        document.querySelectorAll('.flag-btn').forEach(b => b.classList.remove('active'));
+        event.target.classList.add('active');
+        
+        // Update Texts
+        const texts = translations[lang];
+        document.querySelectorAll('[data-i18n]').forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if(texts[key]) el.textContent = texts[key];
+        });
+
+        // Re-render dynamic content (Flashcards) to show correct language translations
+        renderFlashcards();
+    }
+
+    /* --- TIMER LOGIC --- */
+    function startTimer() {
+        if(!state.timer.isRunning) {
+            state.timer.isRunning = true;
+            state.timer.interval = setInterval(() => {
+                state.timer.seconds++;
+                updateTimerDisplay();
+                if (state.timer.seconds % 60 === 0) {
+                    state.user.timeSpent++;
+                    updateProgressUI(); 
+                }
+            }, 1000);
+        }
+    }
+
+    function pauseTimer() {
+        state.timer.isRunning = false;
+        clearInterval(state.timer.interval);
+    }
+
+    function updateTimerDisplay() {
+        const h = Math.floor(state.timer.seconds / 3600).toString().padStart(2,'0');
+        const m = Math.floor((state.timer.seconds % 3600) / 60).toString().padStart(2,'0');
+        const s = (state.timer.seconds % 60).toString().padStart(2,'0');
+        document.getElementById('timerDisplay').textContent = `${h}:${m}:${s}`;
+    }
+
+    /* --- GAMIFICATION LOGIC --- */
+    function calculateStars() {
+        const starsFromTime = state.user.timeSpent / 25;
+        const starsFromWords = state.learnedIds.length / 50;
+        return (starsFromTime + starsFromWords).toFixed(1);
+    }
+
+    function markAsLearned(id, btn) {
+        if (!state.learnedIds.includes(id)) {
+            state.learnedIds.push(id);
+            const texts = translations[state.lang];
+            btn.classList.add('learned');
+            btn.innerHTML = texts.btnLearned;
+            updateProgressUI();
+        }
+    }
+
+    function updateProgressUI() {
+        const totalWords = state.learnedIds.length;
+        const goal = 50;
+        const percentage = Math.min((totalWords / goal) * 100, 100);
+        
+        document.getElementById('learnedCount').textContent = totalWords;
+        document.getElementById('progressBar').style.width = percentage + '%';
+        document.getElementById('starsDisplay').textContent = '⭐ ' + calculateStars();
+    }
+
+    function updateUser() {
+        const name = document.getElementById('usernameInput').value;
+        state.user.name = name;
+        const container = document.getElementById('welcomeContainer');
+        const text = document.getElementById('welcomeText');
+        
+        if(name) {
+            container.style.display = 'inline';
+            const texts = translations[state.lang];
+            text.textContent = texts.welcome + ' ' + name;
+        } else {
+            container.style.display = 'none';
+        }
+    }
+
+    /* --- FLASHCARDS --- */
+    function renderFlashcards() {
+        const container = document.getElementById('flashcardsGrid');
+        container.innerHTML = '';
+        const texts = translations[state.lang];
+
+        // Filter logic (OR logic for levels as requested to allow multiple selection if desired, keeping simple AND for now or OR)
+        // Current filter logic matches simple AND for type, let's adapt to show all selected if user clicks multiple, or just strict single.
+        // Keeping simple single select logic for Type, but Level seems to want multiple active? Let's keep strict AND for single active level for simplicity unless specified.
+        
+        // Note: In HTML, multiple buttons can be 'active'. Let's assume user wants to see Verbs AND Nouns? No, usually radio behavior.
+        // Previous code used simple replacement. I will keep simple single select.
+        
+        const filtered = db.vocab.filter(w => w.type === state.filters.type && w.level === state.filters.level);
+
+        if (filtered.length === 0) {
+            container.innerHTML = '<div style="grid-column:1/-1; text-align:center;">Bu kriterlere uygun kart yok.</div>';
+            return;
+        }
+
+        filtered.forEach(w => {
+            const card = document.createElement('div');
+            card.className = 'flashcard';
+            card.onclick = function(e) {
+                if(e.target.tagName !== 'BUTTON') this.classList.toggle('flipped');
+            };
+
+            card.innerHTML = `
+                <div class="flashcard-inner">
+                    <div class="flashcard-front">
+                        <span class="fc-level">${w.level}</span>
+                        <span class="fc-type">${w.type}</span>
+                        <div class="fc-word">${w[state.lang]}</div>
+                        <div class="fc-hint">${texts.cardHint}</div>
+                    </div>
+                    
+                    <div class="flashcard-back">
+                        <div class="fc-german">${w.de}</div>
+                        
+                        <div class="fc-sentences">
+                            <div class="fc-sent-row">
+                                <span class="fc-label">Present:</span> ${w.ex1}
+                            </div>
+                            <div class="fc-sent-row">
+                                <span class="fc-label">Perfekt (${w.aux}):</span> 
+                                <span style="color:var(--success)">${w.ex2}</span>
+                            </div>
+                        </div>
+
+                        <button class="btn-learn" onclick="markAsLearned(${w.id}, this)">
+                            <i class="fas fa-check"></i> ${texts.btnLearn}
+                        </button>
+                    </div>
+                </div>
+            `;
+            container.appendChild(card);
+        });
+    }
+
+    function setFilter(cat, val, btn) {
+        state.filters[cat] = val;
+        
+        // Visual updates (Handle multiple levels if user wants, here simple active toggle)
+        if (cat === 'level') {
+             // Allow multiple levels? For this logic, let's treat them as filters (Set logic)
+             if(btn.classList.contains('active')) {
+                 // Allow deselecting levels
+                 btn.classList.remove('active', 'glass-btn'); 
+                 // Complex logic to manage array of levels... sticking to simpler single active for 'type', 
+                 // but user might want 'A1 AND A2'. Let's stick to the previous simpler logic of single active to avoid breaking the UX flow unless requested specifically.
+                 // Reverting to single active visual to keep code clean as per "only change what is asked".
+                 btn.classList.add('active'); // Force active
+             }
+        } else {
+             const parent = btn.parentElement;
+             parent.querySelectorAll('.glass-btn').forEach(b => {
+                 b.classList.remove('active', 'type-active');
+             });
+        }
+
+        if(cat === 'type') btn.classList.add('type-active');
+        else btn.classList.add('active');
+
+        renderFlashcards();
+    }
+
+    /* --- NAVIGATION --- */
+    function switchTab(id, el) {
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.getElementById(id).classList.add('active');
+        document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+        el.classList.add('active');
+        
+        if(id === 'admin') document.querySelector('.admin-tab').click();
+    }
+
+    function toggleAdmin() {
+        const adminSec = document.getElementById('admin');
+        const isActive = adminSec.classList.contains('active');
+        if(!isActive) switchTab('admin', null);
+    }
+
+    /* --- ADMIN TABS & LOGIC --- */
+    function switchAdminTab(contentId, btn) {
+        document.querySelectorAll('.admin-content').forEach(c => c.classList.remove('active'));
+        document.getElementById(contentId).classList.add('active');
+        document.querySelectorAll('.admin-tab').forEach(t => t.classList.remove('active'));
+        btn.classList.add('active');
+    }
+
+    function adminAdd(type) {
+        let newItem = { id: Date.now() };
+        
+        if(type === 'word') {
+            newItem.de = document.getElementById('aw_de').value;
+            newItem.tr = document.getElementById('aw_tr').value;
+            newItem.type = document.getElementById('aw_type').value;
+            newItem.level = document.getElementById('aw_level').value;
+            newItem.aux = document.getElementById('aw_aux').value;
+            newItem.ex1 = document.getElementById('aw_ex1').value;
+            newItem.ex2 = document.getElementById('aw_ex2').value;
+            if(!newItem.de || !newItem.tr) return alert("Lütfen gerekli alanları doldurun.");
+            db.vocab.push(newItem);
+            renderFlashcards();
+        } 
+        else if (type === 'grammar') {
+            newItem.title = document.getElementById('ag_title').value;
+            newItem.level = document.getElementById('ag_level').value;
+            newItem.content = document.getElementById('ag_content').value;
+            if(!newItem.title) return alert("Lütfen başlık girin.");
+            db.grammar.push(newItem);
+        }
+        else if (type === 'phrase') {
+            newItem.de = document.getElementById('ap_de').value;
+            newItem.tr = document.getElementById('ap_tr').value;
+            newItem.type = document.getElementById('ap_type').value;
+            db.phrases.push(newItem);
+        }
+        else if (type === 'exam') {
+            newItem.q = document.getElementById('ae_q').value;
+            newItem.options = [
+                document.getElementById('ae_op1').value,
+                document.getElementById('ae_op2').value,
+                document.getElementById('ae_op3').value,
+                document.getElementById('ae_op4').value
+            ];
+            newItem.correct = parseInt(document.getElementById('ae_ans').value);
+            db.exam.push(newItem);
+        }
+
+        alert("İçerik başarıyla eklendi!");
+        document.querySelectorAll('.admin-content.active input, .admin-content.active textarea').forEach(i => i.value = '');
+    }
+
+    function toggleTheme() {
+        document.body.setAttribute('data-theme', document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+    }
+
+</script>
+</body>
+</html>
