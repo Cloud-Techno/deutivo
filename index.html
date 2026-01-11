@@ -97,11 +97,16 @@
         .app-container { display: flex; max-width: 1400px; margin: 0 auto; padding: 0 20px 20px 20px; gap: 30px; }
         
         /* Sidebar */
-        .sidebar { width: 240px; flex-shrink: 0; position: sticky; top: 140px; height: calc(100vh - 150px); display: flex; flex-direction: column; }
-        .nav-menu { background: var(--white); padding: 20px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); flex: 1; }
-        .nav-item { display: flex; align-items: center; padding: 12px; margin-bottom: 5px; border-radius: 10px; color: var(--gray); font-weight: 600; cursor: pointer; transition: 0.2s; }
+        .sidebar { width: 260px; flex-shrink: 0; position: sticky; top: 140px; height: calc(100vh - 150px); display: flex; flex-direction: column; }
+        .nav-menu { background: var(--white); padding: 20px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); flex: 1; display: flex; flex-direction: column; gap: 5px; overflow-y: auto; }
+        
+        .nav-group-title { font-size: 0.75rem; text-transform: uppercase; color: #999; margin: 10px 0 5px 10px; font-weight: 700; }
+        
+        .nav-item { display: flex; align-items: center; padding: 12px 15px; border-radius: 10px; color: var(--gray); font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 0.95rem; }
         .nav-item:hover { background: var(--light); color: var(--secondary); }
         .nav-item.active { background: var(--secondary); color: var(--white); box-shadow: 0 4px 15px rgba(221,0,0,0.2); }
+        
+        .nav-sub-item { padding-left: 30px; font-size: 0.9rem; }
 
         /* Main Content */
         .main-content { flex: 1; min-width: 0; }
@@ -135,22 +140,38 @@
         .btn-learn:hover { background: #218838; transform: translateY(-2px); }
         .btn-learn.learned { background: #ddd; color: #666; cursor: default; }
 
-        /* --- READING SECTION --- */
+        /* --- GRAMMAR ACCORDION --- */
+        .grammar-list { display: flex; flex-direction: column; gap: 15px; }
+        .grammar-item { background: var(--white); border-radius: 12px; border: 1px solid var(--border); overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.03); }
+        .grammar-header { 
+            padding: 15px 20px; background: #fcfcfc; cursor: pointer; display: flex; justify-content: space-between; align-items: center; 
+            transition: background 0.2s; border-bottom: 1px solid transparent;
+        }
+        .grammar-header:hover { background: #f1f1f1; }
+        .grammar-title { font-weight: 700; font-size: 1.1rem; color: var(--dark); }
+        .grammar-badge { background: var(--secondary); color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.75rem; margin-left: 10px; }
+        .grammar-toggle-icon { transition: transform 0.3s ease; color: var(--gray); }
+        .grammar-toggle-icon.rotate { transform: rotate(180deg); }
+        
+        .grammar-body { 
+            display: none; padding: 20px; border-top: 1px solid #eee; color: #444; line-height: 1.6; 
+            background: #fff; animation: slideDown 0.3s ease;
+        }
+        .grammar-body.open { display: block; }
+
+        /* --- READING & EXAM --- */
         .reading-content { background: var(--white); padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.03); line-height: 1.8; margin-bottom: 20px; }
-        .reading-title { font-size: 1.8rem; color: var(--secondary); margin-bottom: 20px; font-weight: 700; }
-        .passage-text { font-size: 1.1rem; color: var(--dark); margin-bottom: 30px; text-align: justify; }
-        .grammar-box { background: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin-bottom: 30px; border-radius: 4px; }
         .vocab-list-reading { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 15px; }
         .vocab-item-read { background: var(--light); padding: 10px; border-radius: 8px; border: 1px solid #eee; }
         .vocab-de-bold { font-weight: bold; color: var(--secondary); display: block; }
+        
+        .exam-item { background: var(--white); padding: 20px; border-radius: 12px; border: 1px solid var(--border); margin-bottom: 15px; }
+        .exam-q { font-weight: bold; margin-bottom: 15px; color: var(--secondary); font-size: 1.1rem; }
+        .exam-opt { display: block; padding: 8px 12px; border: 1px solid #eee; border-radius: 6px; margin-bottom: 8px; cursor: pointer; transition: 0.2s; }
+        .exam-opt:hover { background: var(--light); border-color: #ccc; }
+        .exam-opt.correct { background: #d4edda; border-color: #c3e6cb; color: #155724; }
 
-        /* --- EXAM LIST --- */
-        .exam-item { background: var(--white); padding: 15px; border-radius: 10px; border: 1px solid var(--border); margin-bottom: 10px; }
-        .exam-q { font-weight: bold; margin-bottom: 10px; color: var(--secondary); }
-        .exam-opt { display: block; padding: 5px; border-bottom: 1px solid #eee; }
-        .exam-opt.correct { color: var(--success); font-weight: bold; }
-
-        /* --- ADMIN PANEL --- */
+        /* --- ADMIN --- */
         .admin-wrapper { background: var(--white); padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
         .admin-tabs { display: flex; border-bottom: 2px solid #eee; margin-bottom: 20px; overflow-x: auto; }
         .admin-tab { padding: 10px 20px; cursor: pointer; font-weight: 600; color: var(--gray); border-bottom: 2px solid transparent; margin-bottom: -2px; white-space: nowrap; }
@@ -161,8 +182,6 @@
         .form-group label { display: block; font-size: 0.85rem; font-weight: bold; margin-bottom: 5px; }
         .form-control { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: var(--light); }
         .btn-submit { grid-column: 1/-1; background: var(--secondary); color: white; padding: 12px; border-radius: 6px; font-weight: bold; }
-
-        /* Conditional Input Visibility */
         .hidden { display: none; }
 
         /* Mobile Responsive */
@@ -171,15 +190,16 @@
             .progress-section { width: 100%; margin: 0; }
             .app-container { flex-direction: column; }
             .sidebar { width: 100%; position: static; height: auto; }
-            .nav-menu { display: flex; overflow-x: auto; padding: 10px; }
-            .nav-item { white-space: nowrap; margin-right: 10px; }
+            .nav-menu { display: flex; flex-direction: column; padding: 10px; }
+            .nav-item { white-space: nowrap; }
+            .nav-sub-item { padding-left: 20px; }
             .flashcard { height: 400px; }
             .ad-header-banner { height: 60px; }
             .form-grid { grid-template-columns: 1fr; }
-            .admin-tabs { flex-wrap: nowrap; }
         }
 
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
     </style>
 </head>
 <body>
@@ -232,14 +252,21 @@
 </div>
 
 <div class="app-container">
-    <!-- SIDEBAR -->
+    <!-- SIDEBAR (UPDATED WITH EXAM SUB ITEMS) -->
     <aside class="sidebar">
         <nav class="nav-menu">
             <div class="nav-item active" onclick="switchTab('vocabulary', this)" data-i18n="vocab">📘 Flashcards</div>
             <div class="nav-item" onclick="switchTab('grammar', this)" data-i18n="grammar">📝 Gramer</div>
             <div class="nav-item" onclick="switchTab('phrases', this)" data-i18n="phrases">💬 Kalıplar</div>
             <div class="nav-item" onclick="switchTab('reading', this)" data-i18n="reading">📖 Okuma</div>
-            <div class="nav-item" onclick="switchTab('exam', this)" data-i18n="exam">🎯 Sınav</div>
+            
+            <!-- Exam Group -->
+            <div class="nav-group-title" data-i18n="exam">Sınavlar</div>
+            <div class="nav-item nav-sub-item" onclick="openExam('TELC', this)">TELC</div>
+            <div class="nav-item nav-sub-item" onclick="openExam('Goethe', this)">Goethe</div>
+            <div class="nav-item nav-sub-item" onclick="openExam('TestDaF', this)">TestDaF</div>
+            <div class="nav-item nav-sub-item" onclick="openExam('DSH', this)">DSH</div>
+            <div class="nav-item nav-sub-item" onclick="openExam('FIDE', this)">FIDE</div>
         </nav>
         <!-- SIDEBAR AD -->
         <div class="ad-space ad-sidebar-rect">
@@ -250,7 +277,7 @@
     <!-- MAIN CONTENT -->
     <main class="main-content">
         
-        <!-- VOCABULARY (FLASHCARDS) -->
+        <!-- VOCABULARY -->
         <section id="vocabulary" class="section active">
             <div class="filter-container">
                 <div class="filter-row">
@@ -272,11 +299,27 @@
             </div>
         </section>
 
-        <!-- OTHER SECTIONS -->
-        <section id="grammar" class="section"><h2 data-i18n="grammarTitle">Gramer Konuları</h2><p data-i18n="grammarDesc">Gramer içerikleri burada listelenecek.</p></section>
+        <!-- GRAMMAR (ACCORDION STYLE) -->
+        <section id="grammar" class="section">
+            <div class="filter-container">
+                <div class="filter-row">
+                    <button class="glass-btn active" onclick="setGrammarFilter('A1', this)">A1</button>
+                    <button class="glass-btn" onclick="setGrammarFilter('A2', this)">A2</button>
+                    <button class="glass-btn" onclick="setGrammarFilter('B1', this)">B1</button>
+                    <button class="glass-btn" onclick="setGrammarFilter('B2', this)">B2</button>
+                    <button class="glass-btn" onclick="setGrammarFilter('C1', this)">C1</button>
+                </div>
+            </div>
+
+            <div id="grammarList" class="grammar-list">
+                <!-- JS Renders Accordion Items Here -->
+            </div>
+        </section>
+
+        <!-- PHRASES -->
         <section id="phrases" class="section"><h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2><p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p></section>
         
-        <!-- READING SECTION -->
+        <!-- READING -->
         <section id="reading" class="section">
             <div class="filter-container">
                 <div class="filter-row">
@@ -286,29 +329,23 @@
                     <button class="glass-btn" onclick="setReadingFilter('B2', this)">B2</button>
                 </div>
             </div>
-
-            <div id="readingContainer">
-                <!-- JS Renders Reading Content Here -->
-            </div>
+            <div id="readingContainer"></div>
         </section>
 
-        <!-- EXAM SECTION -->
+        <!-- EXAM (UPDATED TO SHOW LEVELS, NOT TYPE TABS) -->
         <section id="exam" class="section">
             <div class="filter-container">
                 <div class="filter-row">
-                    <button class="glass-btn active" onclick="setExamFilter('TELC', this)">TELC</button>
-                    <button class="glass-btn" onclick="setExamFilter('Goethe', this)">Goethe</button>
-                    <button class="glass-btn" onclick="setExamFilter('TestDaF', this)">TestDaF</button>
-                    <button class="glass-btn" onclick="setExamFilter('DSH', this)">DSH</button>
-                    <button class="glass-btn" onclick="setExamFilter('FIDE', this)">FIDE</button>
+                    <button class="glass-btn active" onclick="setExamLevel('A1', this)">A1</button>
+                    <button class="glass-btn" onclick="setExamLevel('A2', this)">A2</button>
+                    <button class="glass-btn" onclick="setExamLevel('B1', this)">B1</button>
+                    <button class="glass-btn" onclick="setExamLevel('B2', this)">B2</button>
                 </div>
             </div>
-            <div id="examContent">
-                <!-- JS Renders Exam List Here -->
-            </div>
+            <div id="examContent"></div>
         </section>
 
-        <!-- ADMIN PANEL (Tabs) -->
+        <!-- ADMIN PANEL -->
         <section id="admin" class="section">
             <div class="admin-wrapper">
                 <div class="admin-tabs">
@@ -318,31 +355,21 @@
                     <div class="admin-tab" onclick="switchAdminTab('admin-exam', this)" data-i18n="addExam">Soru Ekle</div>
                 </div>
 
-                <!-- Tab 1: Words (UPDATED 4 LANGS + CONDITIONAL) -->
+                <!-- Tab 1: Words -->
                 <div id="admin-words" class="admin-content active">
                     <h3 data-i18n="newWord">Yeni Kelime Ekle</h3>
                     <div class="form-grid" style="margin-top:15px;">
                         <div class="form-group"><label data-i18n="lblGerman">Almanca</label><input type="text" id="aw_de" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblType">Tür (Verb/Noun)</label><select id="aw_type" class="form-control" onchange="toggleWordInputs()"><option value="verb">Verb</option><option value="noun">Noun</option><option value="adjective">Adjective</option><option value="adverb">Adverb</option></select></div>
-                        
-                        <!-- 4 Language Inputs -->
+                        <div class="form-group"><label data-i18n="lblType">Tür</label><select id="aw_type" class="form-control" onchange="toggleWordInputs()"><option value="verb">Verb</option><option value="noun">Noun</option><option value="adjective">Adjective</option><option value="adverb">Adverb</option></select></div>
                         <div class="form-group"><label data-i18n="lblTurkish">Türkçe</label><input type="text" id="aw_tr" class="form-control"></div>
                         <div class="form-group"><label>English</label><input type="text" id="aw_en" class="form-control"></div>
                         <div class="form-group"><label>Polski</label><input type="text" id="aw_pl" class="form-control"></div>
                         <div class="form-group"><label>Українська</label><input type="text" id="aw_ua" class="form-control"></div>
-
                         <div class="form-group"><label data-i18n="lblLevel">Seviye</label><select id="aw_level" class="form-control"><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></div>
-                        
-                        <!-- Conditionals -->
-                        <!-- Verb Only -->
                         <div id="group-verb" class="form-group"><label data-i18n="lblPerfekt">Perfekt (haben/sein)</label><select id="aw_aux" class="form-control"><option>haben</option><option>sein</option></select></div>
                         <div id="group-verb-sent" class="form-group"><label data-i18n="lblPerfektSent">Perfekt Cümle</label><input type="text" id="aw_ex2" class="form-control"></div>
-                        
-                        <!-- Adj/Adv Only -->
                         <div id="group-syn" class="form-group hidden"><label>Eş Anlamlı (Synonym)</label><input type="text" id="aw_syn" class="form-control"></div>
-
                         <div class="form-group"><label data-i18n="lblPresent">Present Cümle</label><input type="text" id="aw_ex1" class="form-control"></div>
-                        
                         <button class="btn-submit" onclick="adminAdd('word')" data-i18n="save">KAYDET</button>
                     </div>
                 </div>
@@ -391,206 +418,23 @@
 </div>
 
 <script>
-    /* --- MOCK DATABASE (UPDATED) --- */
+    /* --- MOCK DATABASE --- */
     const db = {
         vocab: [
-  { id: 1, type: "verb", level: "A1", tr: "Gitmek", en: "To go", pl: "Iść", ua: "Йти", de: "gehen", aux: "sein", ex1: "Ich gehe.", ex2: "Ich bin gegangen." },
-  { id: 2, type: "verb", level: "A1", tr: "Gelmek", en: "To come", pl: "Przyjść", ua: "Прийти", de: "kommen", aux: "sein", ex1: "Ich komme.", ex2: "Ich bin gekommen." },
-  { id: 3, type: "verb", level: "A1", tr: "Yapmak", en: "To do", pl: "Robić", ua: "Робити", de: "machen", aux: "haben", ex1: "Ich mache das.", ex2: "Ich habe das gemacht." },
-  { id: 4, type: "verb", level: "A1", tr: "Olmak", en: "To be", pl: "Być", ua: "Бути", de: "sein", aux: "sein", ex1: "Ich bin hier.", ex2: "Ich bin hier gewesen." },
-  { id: 5, type: "verb", level: "A1", tr: "Sahip olmak", en: "To have", pl: "Mieć", ua: "Мати", de: "haben", aux: "haben", ex1: "Ich habe Zeit.", ex2: "Ich habe Zeit gehabt." },
-
-  { id: 6, type: "verb", level: "A1", tr: "Yemek", en: "To eat", pl: "Jeść", ua: "Їсти", de: "essen", aux: "haben", ex1: "Ich esse Brot.", ex2: "Ich habe Brot gegessen." },
-  { id: 7, type: "verb", level: "A1", tr: "İçmek", en: "To drink", pl: "Pić", ua: "Пити", de: "trinken", aux: "haben", ex1: "Ich trinke Wasser.", ex2: "Ich habe Wasser getrunken." },
-  { id: 8, type: "verb", level: "A1", tr: "Uyumak", en: "To sleep", pl: "Spać", ua: "Спати", de: "schlafen", aux: "haben", ex1: "Ich schlafe.", ex2: "Ich habe geschlafen." },
-  { id: 9, type: "verb", level: "A1", tr: "Çalışmak", en: "To work", pl: "Pracować", ua: "Працювати", de: "arbeiten", aux: "haben", ex1: "Ich arbeite.", ex2: "Ich habe gearbeitet." },
-  { id: 10, type: "verb", level: "A1", tr: "Öğrenmek", en: "To learn", pl: "Uczyć się", ua: "Вчити", de: "lernen", aux: "haben", ex1: "Ich lerne Deutsch.", ex2: "Ich habe Deutsch gelernt." },
-
-  { id: 11, type: "verb", level: "A1", tr: "Okumak", en: "To read", pl: "Czytać", ua: "Читати", de: "lesen", aux: "haben", ex1: "Ich lese.", ex2: "Ich habe gelesen." },
-  { id: 12, type: "verb", level: "A1", tr: "Yazmak", en: "To write", pl: "Pisać", ua: "Писати", de: "schreiben", aux: "haben", ex1: "Ich schreibe.", ex2: "Ich habe geschrieben." },
-  { id: 13, type: "verb", level: "A1", tr: "Konuşmak", en: "To speak", pl: "Mówić", ua: "Говорити", de: "sprechen", aux: "haben", ex1: "Ich spreche.", ex2: "Ich habe gesprochen." },
-  { id: 14, type: "verb", level: "A1", tr: "Görmek", en: "To see", pl: "Widzieć", ua: "Бачити", de: "sehen", aux: "haben", ex1: "Ich sehe dich.", ex2: "Ich habe dich gesehen." },
-  { id: 15, type: "verb", level: "A1", tr: "Duymak", en: "To hear", pl: "Słyszeć", ua: "Чути", de: "hören", aux: "haben", ex1: "Ich höre Musik.", ex2: "Ich habe Musik gehört." },
-  { id: 16, type: "verb", level: "A1", tr: "Oynamak", en: "To play", pl: "Grać", ua: "Грати", de: "spielen", aux: "haben", ex1: "Ich spiele.", ex2: "Ich habe gespielt." },
-  { id: 17, type: "verb", level: "A1", tr: "Yaşamak", en: "To live", pl: "Żyć", ua: "Жити", de: "leben", aux: "haben", ex1: "Ich lebe hier.", ex2: "Ich habe hier gelebt." },
-  { id: 18, type: "verb", level: "A1", tr: "Kalmak", en: "To stay", pl: "Zostać", ua: "Залишатися", de: "bleiben", aux: "sein", ex1: "Ich bleibe.", ex2: "Ich bin geblieben." },
-  { id: 19, type: "verb", level: "A1", tr: "Gitmek (araçla)", en: "To drive", pl: "Jechać", ua: "Їхати", de: "fahren", aux: "sein", ex1: "Ich fahre.", ex2: "Ich bin gefahren." },
-  { id: 20, type: "verb", level: "A1", tr: "Koşmak", en: "To run", pl: "Biegać", ua: "Бігти", de: "laufen", aux: "sein", ex1: "Ich laufe.", ex2: "Ich bin gelaufen." },
-
-  { id: 21, type: "verb", level: "A1", tr: "Almak", en: "To take", pl: "Brać", ua: "Брати", de: "nehmen", aux: "haben", ex1: "Ich nehme das.", ex2: "Ich habe das genommen." },
-  { id: 22, type: "verb", level: "A1", tr: "Vermek", en: "To give", pl: "Dać", ua: "Дати", de: "geben", aux: "haben", ex1: "Ich gebe das.", ex2: "Ich habe das gegeben." },
-  { id: 23, type: "verb", level: "A1", tr: "Bulmak", en: "To find", pl: "Znaleźć", ua: "Знайти", de: "finden", aux: "haben", ex1: "Ich finde das.", ex2: "Ich habe das gefunden." },
-  { id: 24, type: "verb", level: "A1", tr: "Sormak", en: "To ask", pl: "Pytać", ua: "Питати", de: "fragen", aux: "haben", ex1: "Ich frage.", ex2: "Ich habe gefragt." },
-  { id: 25, type: "verb", level: "A1", tr: "Cevap vermek", en: "To answer", pl: "Odpowiadać", ua: "Відповідати", de: "antworten", aux: "haben", ex1: "Ich antworte.", ex2: "Ich habe geantwortet." },
-
-  { id: 26, type: "verb", level: "A1", tr: "Açmak", en: "To open", pl: "Otwierać", ua: "Відкривати", de: "öffnen", aux: "haben", ex1: "Ich öffne die Tür.", ex2: "Ich habe die Tür geöffnet." },
-  { id: 27, type: "verb", level: "A1", tr: "Kapatmak", en: "To close", pl: "Zamykać", ua: "Закривати", de: "schließen", aux: "haben", ex1: "Ich schließe das Fenster.", ex2: "Ich habe das Fenster geschlossen." },
-  { id: 28, type: "verb", level: "A1", tr: "Başlamak", en: "To begin", pl: "Zaczynać", ua: "Починати", de: "beginnen", aux: "haben", ex1: "Ich beginne.", ex2: "Ich habe begonnen." },
-  { id: 29, type: "verb", level: "A1", tr: "Bitirmek", en: "To finish", pl: "Kończyć", ua: "Закінчувати", de: "beenden", aux: "haben", ex1: "Ich beende das.", ex2: "Ich habe das beendet." },
-  { id: 30, type: "verb", level: "A1", tr: "Beklemek", en: "To wait", pl: "Czekać", ua: "Чекати", de: "warten", aux: "haben", ex1: "Ich warte.", ex2: "Ich habe gewartet." },
-
-  { id: 31, type: "verb", level: "A1", tr: "Sevmek", en: "To like", pl: "Lubić", ua: "Любити", de: "mögen", aux: "haben", ex1: "Ich mag dich.", ex2: "Ich habe dich gemocht." },
-  { id: 32, type: "verb", level: "A1", tr: "İstemek", en: "To want", pl: "Chcieć", ua: "Хотіти", de: "wollen", aux: "haben", ex1: "Ich will das.", ex2: "Ich habe das gewollt." },
-  { id: 33, type: "verb", level: "A1", tr: "Satın almak", en: "To buy", pl: "Kupować", ua: "Купувати", de: "kaufen", aux: "haben", ex1: "Ich kaufe Brot.", ex2: "Ich habe Brot gekauft." },
-  { id: 34, type: "verb", level: "A1", tr: "Satmak", en: "To sell", pl: "Sprzedawać", ua: "Продавати", de: "verkaufen", aux: "haben", ex1: "Ich verkaufe das.", ex2: "Ich habe das verkauft." },
-  { id: 35, type: "verb", level: "A1", tr: "Yardım etmek", en: "To help", pl: "Pomagać", ua: "Допомагати", de: "helfen", aux: "haben", ex1: "Ich helfe dir.", ex2: "Ich habe dir geholfen." },
-
-  { id: 36, type: "verb", level: "A1", tr: "Getirmek", en: "To bring", pl: "Przynosić", ua: "Приносити", de: "bringen", aux: "haben", ex1: "Ich bringe das.", ex2: "Ich habe das gebracht." },
-  { id: 37, type: "verb", level: "A1", tr: "Ziyaret etmek", en: "To visit", pl: "Odwiedzać", ua: "Відвідувати", de: "besuchen", aux: "haben", ex1: "Ich besuche dich.", ex2: "Ich habe dich besucht." },
-  { id: 38, type: "verb", level: "A1", tr: "Temizlemek", en: "To clean", pl: "Czyścić", ua: "Чистити", de: "putzen", aux: "haben", ex1: "Ich putze.", ex2: "Ich habe geputzt." },
-  { id: 39, type: "verb", level: "A1", tr: "Pişirmek", en: "To cook", pl: "Gotować", ua: "Готувати", de: "kochen", aux: "haben", ex1: "Ich koche.", ex2: "Ich habe gekocht." },
-  { id: 40, type: "verb", level: "A1", tr: "Dans etmek", en: "To dance", pl: "Tańczyć", ua: "Танцювати", de: "tanzen", aux: "haben", ex1: "Ich tanze.", ex2: "Ich habe getanzt." },
-  { id: 41, type: "verb", level: "A1", tr: "Şarkı söylemek", en: "To sing", pl: "Śpiewać", ua: "Співати", de: "singen", aux: "haben", ex1: "Ich singe.", ex2: "Ich habe gesungen." },
-  { id: 42, type: "verb", level: "A1", tr: "Öğrenim görmek", en: "To study", pl: "Studiować", ua: "Вчитися", de: "studieren", aux: "haben", ex1: "Ich studiere.", ex2: "Ich habe studiert." },
-  { id: 43, type: "verb", level: "A1", tr: "Seyahat etmek", en: "To travel", pl: "Podróżować", ua: "Подорожувати", de: "reisen", aux: "sein", ex1: "Ich reise.", ex2: "Ich bin gereist." },
-  { id: 44, type: "verb", level: "A1", tr: "Telefon etmek", en: "To call", pl: "Dzwonić", ua: "Телефонувати", de: "telefonieren", aux: "haben", ex1: "Ich telefoniere.", ex2: "Ich habe telefoniert." },
-  { id: 45, type: "verb", level: "A1", tr: "Fotoğraf çekmek", en: "To photograph", pl: "Fotografować", ua: "Фотографувати", de: "fotografieren", aux: "haben", ex1: "Ich fotografiere.", ex2: "Ich habe fotografiert." },
-
-  { id: 46, type: "verb", level: "A1", tr: "Tanışmak", en: "To meet", pl: "Poznawać", ua: "Знайомитися", de: "kennenlernen", aux: "haben", ex1: "Ich lerne ihn kennen.", ex2: "Ich habe ihn kennengelernt." },
-  { id: 47, type: "verb", level: "A1", tr: "Göstermek", en: "To show", pl: "Pokazywać", ua: "Показувати", de: "zeigen", aux: "haben", ex1: "Ich zeige das.", ex2: "Ich habe das gezeigt." },
-  { id: 48, type: "verb", level: "A1", tr: "Anlatmak", en: "To explain", pl: "Tłumaczyć", ua: "Пояснювати", de: "erklären", aux: "haben", ex1: "Ich erkläre das.", ex2: "Ich habe das erklärt." },
-  { id: 49, type: "verb", level: "A1", tr: "Öğretmek", en: "To teach", pl: "Uczyć", ua: "Навчати", de: "unterrichten", aux: "haben", ex1: "Ich unterrichte.", ex2: "Ich habe unterrichtet." },
-  { id: 50, type: "verb", level: "A1", tr: "Sormak (rica)", en: "To ask for", pl: "Prosić", ua: "Просити", de: "bitten", aux: "haben", ex1: "Ich bitte dich.", ex2: "Ich habe dich gebeten." },
-
-  { id: 51, type: "verb", level: "A1", tr: "Anlamak", en: "To understand", pl: "Rozumieć", ua: "Розуміти", de: "verstehen", aux: "haben", ex1: "Ich verstehe.", ex2: "Ich habe verstanden." },
-  { id: 52, type: "verb", level: "A1", tr: "Denemek", en: "To try", pl: "Próbować", ua: "Пробувати", de: "versuchen", aux: "haben", ex1: "Ich versuche.", ex2: "Ich habe versucht." },
-  { id: 53, type: "verb", level: "A1", tr: "Gerekli olmak", en: "To need", pl: "Potrzebować", ua: "Потребувати", de: "brauchen", aux: "haben", ex1: "Ich brauche Hilfe.", ex2: "Ich habe Hilfe gebraucht." },
-  { id: 54, type: "verb", level: "A1", tr: "Ödemek", en: "To pay", pl: "Płacić", ua: "Платити", de: "bezahlen", aux: "haben", ex1: "Ich bezahle.", ex2: "Ich habe bezahlt." },
-  { id: 55, type: "verb", level: "A1", tr: "Kazanmak", en: "To earn", pl: "Zarabiać", ua: "Заробляти", de: "verdienen", aux: "haben", ex1: "Ich verdiene Geld.", ex2: "Ich habe Geld verdient." },
-
-  { id: 56, type: "verb", level: "A1", tr: "Başlamak (ders)", en: "To start", pl: "Zaczynać", ua: "Починати", de: "anfangen", aux: "haben", ex1: "Ich fange an.", ex2: "Ich habe angefangen." },
-  { id: 57, type: "verb", level: "A1", tr: "Durmak", en: "To stop", pl: "Zatrzymywać się", ua: "Зупинятися", de: "halten", aux: "haben", ex1: "Ich halte an.", ex2: "Ich habe angehalten." },
-  { id: 58, type: "verb", level: "A1", tr: "Açıklamak", en: "To describe", pl: "Opisywać", ua: "Описувати", de: "beschreiben", aux: "haben", ex1: "Ich beschreibe das.", ex2: "Ich habe das beschrieben." },
-  { id: 59, type: "verb", level: "A1", tr: "Kullanmak", en: "To use", pl: "Używać", ua: "Використовувати", de: "benutzen", aux: "haben", ex1: "Ich benutze das.", ex2: "Ich habe das benutzt." },
-  { id: 60, type: "verb", level: "A1", tr: "Aç kalmak", en: "To be hungry", pl: "Być głodnym", ua: "Бути голодним", de: "hungern", aux: "haben", ex1: "Ich hungere.", ex2: "Ich habe gehungert." },
-
-  { id: 61, type: "verb", level: "A1", tr: "Soğuk olmak", en: "To be cold", pl: "Marznąć", ua: "Мерзнути", de: "frieren", aux: "haben", ex1: "Ich friere.", ex2: "Ich habe gefroren." },
-  { id: 62, type: "verb", level: "A1", tr: "Yardım istemek", en: "To ask for help", pl: "Prosić o pomoc", ua: "Просити про допомогу", de: "um Hilfe bitten", aux: "haben", ex1: "Ich bitte um Hilfe.", ex2: "Ich habe um Hilfe gebeten." },
-  { id: 63, type: "verb", level: "A1", tr: "Alışveriş yapmak", en: "To shop", pl: "Robić zakupy", ua: "Робити покупки", de: "einkaufen", aux: "haben", ex1: "Ich kaufe ein.", ex2: "Ich habe eingekauft." },
-  { id: 64, type: "verb", level: "A1", tr: "Rezervasyon yapmak", en: "To reserve", pl: "Rezerwować", ua: "Бронювати", de: "reservieren", aux: "haben", ex1: "Ich reserviere.", ex2: "Ich habe reserviert." },
-  { id: 65, type: "verb", level: "A1", tr: "Öğle yemeği yemek", en: "To have lunch", pl: "Jeść obiad", ua: "Обідати", de: "zu Mittag essen", aux: "haben", ex1: "Ich esse zu Mittag.", ex2: "Ich habe zu Mittag gegessen." },
-
-  { id: 66, type: "verb", level: "A1", tr: "Kahvaltı yapmak", en: "To have breakfast", pl: "Jeść śniadanie", ua: "Снідати", de: "frühstücken", aux: "haben", ex1: "Ich frühstücke.", ex2: "Ich habe gefrühstückt." },
-  { id: 67, type: "verb", level: "A1", tr: "Akşam yemeği yemek", en: "To have dinner", pl: "Jeść kolację", ua: "Вечеряти", de: "zu Abend essen", aux: "haben", ex1: "Ich esse zu Abend.", ex2: "Ich habe zu Abend gegessen." },
-  { id: 68, type: "verb", level: "A1", tr: "Evde olmak", en: "To be at home", pl: "Być w domu", ua: "Бути вдома", de: "zu Hause sein", aux: "sein", ex1: "Ich bin zu Hause.", ex2: "Ich bin zu Hause gewesen." },
-  { id: 69, type: "verb", level: "A1", tr: "Dışarı çıkmak", en: "To go out", pl: "Wychodzić", ua: "Виходити", de: "ausgehen", aux: "sein", ex1: "Ich gehe aus.", ex2: "Ich bin ausgegangen." },
-  { id: 70, type: "verb", level: "A1", tr: "Geri gelmek", en: "To come back", pl: "Wracać", ua: "Повертатися", de: "zurückkommen", aux: "sein", ex1: "Ich komme zurück.", ex2: "Ich bin zurückgekommen." },
-
-  { id: 71, type: "verb", level: "A1", tr: "Uyanmak", en: "To wake up", pl: "Budzić się", ua: "Прокидатися", de: "aufwachen", aux: "sein", ex1: "Ich wache auf.", ex2: "Ich bin aufgewacht." },
-  { id: 72, type: "verb", level: "A1", tr: "Uykuya dalmak", en: "To fall asleep", pl: "Zasypiać", ua: "Засинати", de: "einschlafen", aux: "sein", ex1: "Ich schlafe ein.", ex2: "Ich bin eingeschlafen." },
-  { id: 73, type: "verb", level: "A1", tr: "Kalkmak", en: "To get up", pl: "Wstawać", ua: "Вставати", de: "aufstehen", aux: "sein", ex1: "Ich stehe auf.", ex2: "Ich bin aufgestanden." },
-  { id: 74, type: "verb", level: "A1", tr: "Oturmak", en: "To sit", pl: "Siedzieć", ua: "Сидіти", de: "sitzen", aux: "haben", ex1: "Ich sitze.", ex2: "Ich habe gesessen." },
-  { id: 75, type: "verb", level: "A1", tr: "Ayakta durmak", en: "To stand", pl: "Staċ", ua: "Стояти", de: "stehen", aux: "haben", ex1: "Ich stehe.", ex2: "Ich habe gestanden." },
-
-  { id: 76, type: "verb", level: "A1", tr: "Taşımak", en: "To carry", pl: "Nosić", ua: "Нести", de: "tragen", aux: "haben", ex1: "Ich trage das.", ex2: "Ich habe das getragen." },
-  { id: 77, type: "verb", level: "A1", tr: "Düşmek", en: "To fall", pl: "Upadać", ua: "Падати", de: "fallen", aux: "sein", ex1: "Ich falle.", ex2: "Ich bin gefallen." },
-  { id: 78, type: "verb", level: "A1", tr: "Gülmek", en: "To laugh", pl: "Śmiać się", ua: "Сміятися", de: "lachen", aux: "haben", ex1: "Ich lache.", ex2: "Ich habe gelacht." },
-  { id: 79, type: "verb", level: "A1", tr: "Ağlamak", en: "To cry", pl: "Płakać", ua: "Плакати", de: "weinen", aux: "haben", ex1: "Ich weine.", ex2: "Ich habe geweint." },
-  { id: 80, type: "verb", level: "A1", tr: "Gülümsemek", en: "To smile", pl: "Uśmiechać się", ua: "Посміхатися", de: "lächeln", aux: "haben", ex1: "Ich lächle.", ex2: "Ich habe gelächelt." },
-   { id: 81, type: "verb", level: "A2", tr: "Tartışmak (konu üzerinde)", en: "To argue", pl: "Kłócić się", ua: "Сваритися", de: "streiten", aux: "haben", ex1: "Wir streiten oft.", ex2: "Wir haben oft gestritten." },
-  { id: 82, type: "verb", level: "A2", tr: "Tespit etmek", en: "To detect", pl: "Wykrywać", ua: "Виявляти", de: "entdecken", aux: "haben", ex1: "Ich entdecke einen Fehler.", ex2: "Ich habe einen Fehler entdeckt." },
-  { id: 83, type: "verb", level: "A2", tr: "Katılmak (kurs vb.)", en: "To join", pl: "Dołączać", ua: "Приєднуватися", de: "beitreten", aux: "sein", ex1: "Ich trete dem Kurs bei.", ex2: "Ich bin dem Kurs beigetreten." },
-  { id: 84, type: "verb", level: "A2", tr: "Kaydetmek (dosya)", en: "To record/save", pl: "Nagrywać/Zapisywać", ua: "Записувати/Зберігати", de: "aufzeichnen", aux: "haben", ex1: "Ich zeichne das Meeting auf.", ex2: "Ich habe das Meeting aufgezeichnet." },
-  { id: 85, type: "verb", level: "A2", tr: "Duyurmak", en: "To announce", pl: "Ogłaszać", ua: "Оголошувати", de: "ankündigen", aux: "haben", ex1: "Ich kündige den Termin an.", ex2: "Ich habe den Termin angekündigt." },
-
-  { id: 86, type: "verb", level: "A2", tr: "Geliştirmek", en: "To develop", pl: "Rozwijać", ua: "Розвивати", de: "entwickeln", aux: "haben", ex1: "Ich entwickle eine Idee.", ex2: "Ich habe eine Idee entwickelt." },
-  { id: 87, type: "verb", level: "A2", tr: "Yatırım yapmak", en: "To invest", pl: "Inwestować", ua: "Інвестувати", de: "investieren", aux: "haben", ex1: "Ich investiere Geld.", ex2: "Ich habe Geld investiert." },
-  { id: 88, type: "verb", level: "A2", tr: "Karşılamak (insan)", en: "To welcome", pl: "Witać", ua: "Вітати", de: "begrüßen", aux: "haben", ex1: "Ich begrüße die Gäste.", ex2: "Ich habe die Gäste begrüßt." },
-  { id: 89, type: "verb", level: "A2", tr: "Vedalaşmak", en: "To say goodbye", pl: "Żegnać się", ua: "Прощатися", de: "verabschieden", aux: "haben", ex1: "Ich verabschiede mich.", ex2: "Ich habe mich verabschiedet." },
-  { id: 90, type: "verb", level: "A2", tr: "Başlamak (proje)", en: "To initiate", pl: "Rozpoczynać", ua: "Розпочинати", de: "initiieren", aux: "haben", ex1: "Ich initiiere das Projekt.", ex2: "Ich habe das Projekt initiiert." },
-
-  { id: 91, type: "verb", level: "A2", tr: "İlerlemek", en: "To progress", pl: "Postępować", ua: "Прогресувати", de: "vorankommen", aux: "sein", ex1: "Ich komme gut voran.", ex2: "Ich bin gut vorangekommen." },
-  { id: 92, type: "verb", level: "A2", tr: "Gözlemlemek", en: "To observe", pl: "Obserwować", ua: "Спостерігати", de: "beobachten", aux: "haben", ex1: "Ich beobachte die Situation.", ex2: "Ich habe die Situation beobachtet." },
-  { id: 93, type: "verb", level: "A2", tr: "Onaylamak (resmi)", en: "To approve", pl: "Zatwierdzać", ua: "Схвалювати", de: "genehmigen", aux: "haben", ex1: "Ich genehmige den Antrag.", ex2: "Ich habe den Antrag genehmigt." },
-  { id: 94, type: "verb", level: "A2", tr: "Dikkat etmek", en: "To pay attention", pl: "Uważać", ua: "Звертати увагу", de: "aufpassen", aux: "haben", ex1: "Ich passe auf die Kinder auf.", ex2: "Ich habe auf die Kinder aufgepasst." },
-  { id: 95, type: "verb", level: "A2", tr: "Sorumluluk almak", en: "To take responsibility", pl: "Brać odpowiedzialność", ua: "Брати відповідальність", de: "Verantwortung übernehmen", aux: "haben", ex1: "Ich übernehme die Verantwortung.", ex2: "Ich habe die Verantwortung übernommen." },
-
-  { id: 96, type: "verb", level: "A2", tr: "Yönetmek", en: "To lead/manage", pl: "Zarządzać", ua: "Керувати", de: "leiten", aux: "haben", ex1: "Ich leite das Team.", ex2: "Ich habe das Team geleitet." },
-  { id: 97, type: "verb", level: "A2", tr: "Sunmak", en: "To present", pl: "Prezentować", ua: "Презентувати", de: "präsentieren", aux: "haben", ex1: "Ich präsentiere mein Projekt.", ex2: "Ich habe mein Projekt präsentiert." },
-  { id: 98, type: "verb", level: "A2", tr: "Tartışmak (karşılıklı fikir)", en: "To debate", pl: "Debatować", ua: "Дебатувати", de: "debattieren", aux: "haben", ex1: "Wir debattieren über das Thema.", ex2: "Wir haben über das Thema debattiert." },
-  { id: 99, type: "verb", level: "A2", tr: "İfade etmek", en: "To express", pl: "Wyrażać", ua: "Виражати", de: "ausdrücken", aux: "haben", ex1: "Ich drücke meine Meinung aus.", ex2: "Ich habe meine Meinung ausgedrückt." },
-  { id: 100, type: "verb", level: "A2", tr: "Teyit etmek", en: "To verify", pl: "Weryfikować", ua: "Перевіряти", de: "überprüfen", aux: "haben", ex1: "Ich überprüfe die Angaben.", ex2: "Ich habe die Angaben überprüft." },
-
-  { id: 101, type: "verb", level: "A2", tr: "Karşılaşmak", en: "To encounter", pl: "Napotykać", ua: "Зустрічати", de: "begegnen", aux: "sein", ex1: "Ich begegne einem Freund.", ex2: "Ich bin einem Freund begegnet." },
-  { id: 102, type: "verb", level: "A2", tr: "Korumak", en: "To protect", pl: "Chronić", ua: "Захищати", de: "schützen", aux: "haben", ex1: "Ich schütze die Daten.", ex2: "Ich habe die Daten geschützt." },
-  { id: 103, type: "verb", level: "A2", tr: "Katkıda bulunmak", en: "To contribute", pl: "Przyczyniać się", ua: "Вносити свій вклад", de: "beitragen", aux: "haben", ex1: "Ich trage zum Projekt bei.", ex2: "Ich habe zum Projekt beigetragen." },
-  { id: 104, type: "verb", level: "A2", tr: "Yorum yapmak", en: "To comment", pl: "Komentować", ua: "Коментувати", de: "kommentieren", aux: "haben", ex1: "Ich kommentiere den Beitrag.", ex2: "Ich habe den Beitrag kommentiert." },
-  { id: 105, type: "verb", level: "A2", tr: "Düzeltmek", en: "To correct", pl: "Poprawiać", ua: "Виправляти", de: "korrigieren", aux: "haben", ex1: "Ich korrigiere den Text.", ex2: "Ich habe den Text korrigiert." },
-
-  { id: 106, type: "verb", level: "A2", tr: "Planı uygulamak", en: "To implement", pl: "Wdrażać", ua: "Впроваджувати", de: "umsetzen", aux: "haben", ex1: "Ich setze den Plan um.", ex2: "Ich habe den Plan umgesetzt." },
-  { id: 107, type: "verb", level: "A2", tr: "Tahmin yürütmek", en: "To predict", pl: "Przewidywać", ua: "Передбачати", de: "vorhersagen", aux: "haben", ex1: "Ich sage das Wetter voraus.", ex2: "Ich habe das Wetter vorausgesagt." },
-  { id: 108, type: "verb", level: "A2", tr: "Katılmak (protesto, etkinlik)", en: "To take part", pl: "Brać udział", ua: "Брати участь", de: "teilnehmen an", aux: "haben", ex1: "Ich nehme an der Veranstaltung teil.", ex2: "Ich habe an der Veranstaltung teilgenommen." },
-  { id: 109, type: "verb", level: "A2", tr: "Karşılık vermek", en: "To respond", pl: "Odpowiadać", ua: "Відповідати", de: "antworten", aux: "haben", ex1: "Ich antworte auf die Frage.", ex2: "Ich habe auf die Frage geantwortet." },
-  { id: 110, type: "verb", level: "A2", tr: "Sorun bildirmek", en: "To report a problem", pl: "Zgłaszać problem", ua: "Повідомляти про проблему", de: "ein Problem melden", aux: "haben", ex1: "Ich melde ein Problem.", ex2: "Ich habe ein Problem gemeldet." },
-
-  { id: 111, type: "verb", level: "A2", tr: "İfade etmek (duygu, düşünce)", en: "To convey", pl: "Przekazywać", ua: "Передавати", de: "vermitteln", aux: "haben", ex1: "Ich vermittle meine Gefühle.", ex2: "Ich habe meine Gefühle vermittelt." },
-  { id: 112, type: "verb", level: "A2", tr: "Yönlendirmek", en: "To guide", pl: "Kierować", ua: "Направляти", de: "leiten", aux: "haben", ex1: "Ich leite die Gruppe.", ex2: "Ich habe die Gruppe geleitet." },
-  { id: 113, type: "verb", level: "A2", tr: "Belirtmek", en: "To indicate", pl: "Wskazywać", ua: "Вказувати", de: "anzeigen", aux: "haben", ex1: "Ich zeige den Weg an.", ex2: "Ich habe den Weg angezeigt." },
-  { id: 114, type: "verb", level: "A2", tr: "Etki yapmak", en: "To affect", pl: "Wpływać", ua: "Впливати", de: "beeinflussen", aux: "haben", ex1: "Ich beeinflusse das Ergebnis.", ex2: "Ich habe das Ergebnis beeinflusst." },
-  { id: 115, type: "verb", level: "A2", tr: "Kendini geliştirmek", en: "To improve oneself", pl: "Rozwijać się", ua: "Розвиватися", de: "sich verbessern", aux: "haben", ex1: "Ich verbessere mich.", ex2: "Ich habe mich verbessert." },
-
-  { id: 116, type: "verb", level: "A2", tr: "Görüşmek (resmi)", en: "To interview", pl: "Przeprowadzać rozmowę", ua: "Проводити співбесіду", de: "interviewen", aux: "haben", ex1: "Ich interviewe den Kandidaten.", ex2: "Ich habe den Kandidaten interviewt." },
-  { id: 117, type: "verb", level: "A2", tr: "Araştırmak", en: "To research", pl: "Badać", ua: "Досліджувати", de: "recherchieren", aux: "haben", ex1: "Ich recherchiere ein Thema.", ex2: "Ich habe ein Thema recherchiert." },
-  { id: 118, type: "verb", level: "A2", tr: "Fikir değiştirmek", en: "To change one’s mind", pl: "Zmieniać zdanie", ua: "Міняти думку", de: "seine Meinung ändern", aux: "haben", ex1: "Ich ändere meine Meinung.", ex2: "Ich habe meine Meinung geändert." },
-  { id: 119, type: "verb", level: "A2", tr: "İtiraz etmek", en: "To object", pl: "Sprzeciwiać się", ua: "Заперечувати", de: "widersprechen", aux: "haben", ex1: "Ich widerspreche dem Vorschlag.", ex2: "Ich habe dem Vorschlag widersprochen." },
-  { id: 120, type: "verb", level: "A2", tr: "Bağlantı kurmak", en: "To network", pl: "Nawiązywać kontakty", ua: "Налагоджувати зв'язки", de: "netwerken", aux: "haben", ex1: "Ich networke auf der Messe.", ex2: "Ich habe auf der Messe genetworkt." },
-  { "id": 121, "type": "verb", "level": "A2", "tr": "Planlamak", "en": "To plan", "pl": "Planować", "ua": "Планувати", "de": "planen", "aux": "haben", "ex1": "Ich plane meinen Tag.", "ex2": "Ich habe meinen Tag geplant." },
-  { "id": 122, "type": "verb", "level": "A2", "tr": "Öneride bulunmak", "en": "To suggest", "pl": "Sugerować", "ua": "Пропонувати", "de": "vorschlagen", "aux": "haben", "ex1": "Ich schlage eine Idee vor.", "ex2": "Ich habe eine Idee vorgeschlagen." },
-  { "id": 123, "type": "verb", "level": "A2", "tr": "İmzalamak", "en": "To sign", "pl": "Podpisywać", "ua": "Підписувати", "de": "unterschreiben", "aux": "haben", "ex1": "Ich unterschreibe das Dokument.", "ex2": "Ich habe das Dokument unterschrieben." },
-  { "id": 124, "type": "verb", "level": "A2", "tr": "Göndermek", "en": "To send", "pl": "Wysyłać", "ua": "Відправляти", "de": "senden", "aux": "haben", "ex1": "Ich sende eine E-Mail.", "ex2": "Ich habe eine E-Mail gesendet." },
-  { "id": 125, "type": "verb", "level": "A2", "tr": "Alışkanlık edinmek", "en": "To get used to", "pl": "Przyzwyczajać się", "ua": "Звикати", "de": "sich gewöhnen", "aux": "haben", "ex1": "Ich gewöhne mich an die neue Stadt.", "ex2": "Ich habe mich an die neue Stadt gewöhnt." },
-  { "id": 126, "type": "verb", "level": "A2", "tr": "Katkıda bulunmak", "en": "To participate", "pl": "Uczestniczyć", "ua": "Брати участь", "de": "mitmachen", "aux": "haben", "ex1": "Ich mache beim Kurs mit.", "ex2": "Ich habe beim Kurs mitgemacht." },
-  { "id": 127, "type": "verb", "level": "A2", "tr": "Takip etmek", "en": "To follow", "pl": "Śledzić", "ua": "Слідкувати", "de": "folgen", "aux": "sein", "ex1": "Ich folge dem Plan.", "ex2": "Ich bin dem Plan gefolgt." },
-  { "id": 128, "type": "verb", "level": "A2", "tr": "Seçmek", "en": "To choose", "pl": "Wybierać", "ua": "Обирати", "de": "wählen", "aux": "haben", "ex1": "Ich wähle ein Buch.", "ex2": "Ich habe ein Buch gewählt." },
-  { "id": 129, "type": "verb", "level": "A2", "tr": "Gelişmek", "en": "To evolve", "pl": "Rozwijać się", "ua": "Розвиватися", "de": "sich entwickeln", "aux": "haben", "ex1": "Ich entwickle meine Fähigkeiten.", "ex2": "Ich habe meine Fähigkeiten entwickelt." },
-  { "id": 130, "type": "verb", "level": "A2", "tr": "Karşılaştırmak", "en": "To compare", "pl": "Porównywać", "ua": "Порівнювати", "de": "vergleichen", "aux": "haben", "ex1": "Ich vergleiche die Ergebnisse.", "ex2": "Ich habe die Ergebnisse verglichen." },
-
-  { "id": 131, "type": "verb", "level": "A2", "tr": "Dikkat çekmek", "en": "To attract attention", "pl": "Przyciągać uwagę", "ua": "Привертати увагу", "de": "auf sich aufmerksam machen", "aux": "haben", "ex1": "Das Bild macht auf sich aufmerksam.", "ex2": "Das Bild hat auf sich aufmerksam gemacht." },
-  { "id": 132, "type": "verb", "level": "A2", "tr": "Tartışmak (fikir paylaşmak)", "en": "To discuss", "pl": "Dyskutować", "ua": "Обговорювати", "de": "diskutieren", "aux": "haben", "ex1": "Wir diskutieren das Problem.", "ex2": "Wir haben das Problem diskutiert." },
-  { "id": 133, "type": "verb", "level": "A2", "tr": "Kısıtlamak", "en": "To restrict", "pl": "Ograniczać", "ua": "Обмежувати", "de": "einschränken", "aux": "haben", "ex1": "Ich schränke meinen Konsum ein.", "ex2": "Ich habe meinen Konsum eingeschränkt." },
-  { "id": 134, "type": "verb", "level": "A2", "tr": "Yönetmek (proje)", "en": "To coordinate", "pl": "Koordynować", "ua": "Координувати", "de": "koordinieren", "aux": "haben", "ex1": "Ich koordiniere das Projekt.", "ex2": "Ich habe das Projekt koordiniert." },
-  { "id": 135, "type": "verb", "level": "A2", "tr": "Onaylamak (küçük)", "en": "To confirm", "pl": "Potwierdzać", "ua": "Підтверджувати", "de": "bestätigen", "aux": "haben", "ex1": "Ich bestätige die Information.", "ex2": "Ich habe die Information bestätigt." },
-  { "id": 136, "type": "verb", "level": "A2", "tr": "Saklamak", "en": "To hide", "pl": "Chować", "ua": "Ховати", "de": "verstecken", "aux": "haben", "ex1": "Ich verstecke das Geschenk.", "ex2": "Ich habe das Geschenk versteckt." },
-  { "id": 137, "type": "verb", "level": "A2", "tr": "Anlamak (derin)", "en": "To comprehend", "pl": "Pojmować", "ua": "Зрозуміти", "de": "begreifen", "aux": "haben", "ex1": "Ich begreife die Situation.", "ex2": "Ich habe die Situation begriffen." },
-  { "id": 138, "type": "verb", "level": "A2", "tr": "Ölçmek", "en": "To measure", "pl": "Mierzyć", "ua": "Вимірювати", "de": "messen", "aux": "haben", "ex1": "Ich messe die Länge.", "ex2": "Ich habe die Länge gemessen." },
-  { "id": 139, "type": "verb", "level": "A2", "tr": "Denemek (yeni şey)", "en": "To experiment", "pl": "Eksperymentować", "ua": "Експериментувати", "de": "experimentieren", "aux": "haben", "ex1": "Ich experimentiere im Labor.", "ex2": "Ich habe im Labor experimentiert." },
-  { "id": 140, "type": "verb", "level": "A2", "tr": "İfade etmek (düşünce)", "en": "To articulate", "pl": "Artykułować", "ua": "Висловлювати", "de": "artikulieren", "aux": "haben", "ex1": "Ich artikuliere meine Gedanken.", "ex2": "Ich habe meine Gedanken artikuliert." },
-
-  { "id": 141, "type": "verb", "level": "A2", "tr": "Birleştirmek", "en": "To combine", "pl": "Łączyć", "ua": "Поєднувати", "de": "kombinieren", "aux": "haben", "ex1": "Ich kombiniere die Farben.", "ex2": "Ich habe die Farben kombiniert." },
-  { "id": 142, "type": "verb", "level": "A2", "tr": "Güvenmek", "en": "To trust", "pl": "Ufać", "ua": "Довіряти", "de": "vertrauen", "aux": "haben", "ex1": "Ich vertraue dir.", "ex2": "Ich habe dir vertraut." },
-  { "id": 143, "type": "verb", "level": "A2", "tr": "Tahmin etmek", "en": "To guess", "pl": "Zgadnąć", "ua": "Вгадати", "de": "raten", "aux": "haben", "ex1": "Ich rate die Antwort.", "ex2": "Ich habe die Antwort geraten." },
-  { "id": 144, "type": "verb", "level": "A2", "tr": "Denetlemek", "en": "To supervise", "pl": "Nadzorować", "ua": "Контролювати", "de": "überwachen", "aux": "haben", "ex1": "Ich überwache die Arbeit.", "ex2": "Ich habe die Arbeit überwacht." },
-  { "id": 145, "type": "verb", "level": "A2", "tr": "Gözden geçirmek", "en": "To review", "pl": "Przeglądać", "ua": "Переглядати", "de": "überprüfen", "aux": "haben", "ex1": "Ich überprüfe die Unterlagen.", "ex2": "Ich habe die Unterlagen überprüft." },
-  { "id": 146, "type": "verb", "level": "A2", "tr": "Özür dilemek", "en": "To apologize", "pl": "Przepraszać", "ua": "Вибачатися", "de": "sich entschuldigen", "aux": "haben", "ex1": "Ich entschuldige mich.", "ex2": "Ich habe mich entschuldigt." },
-  { "id": 147, "type": "verb", "level": "A2", "tr": "İkna etmek", "en": "To persuade", "pl": "Przekonywać", "ua": "Переконувати", "de": "überzeugen", "aux": "haben", "ex1": "Ich überzeuge ihn.", "ex2": "Ich habe ihn überzeugt." },
-  { "id": 148, "type": "verb", "level": "A2", "tr": "Karar vermek", "en": "To decide", "pl": "Decydować", "ua": "Рішати", "de": "entscheiden", "aux": "haben", "ex1": "Ich entscheide mich für das Angebot.", "ex2": "Ich habe mich für das Angebot entschieden." },
-  { "id": 149, "type": "verb", "level": "A2", "tr": "Katkı sağlamak", "en": "To facilitate", "pl": "Ułatwiać", "ua": "Сприяти", "de": "erleichtern", "aux": "haben", "ex1": "Ich erleichtere die Arbeit.", "ex2": "Ich habe die Arbeit erleichtert." },
-  { "id": 150, "type": "verb", "level": "A2", "tr": "İş birliği yapmak", "en": "To cooperate", "pl": "Współpracować", "ua": "Співпрацювати", "de": "kooperieren", "aux": "haben", "ex1": "Ich kooperiere mit dem Team.", "ex2": "Ich habe mit dem Team kooperiert." },
-   { "id": 151, "type": "verb", "level": "A2", "tr": "Tartışmak (konuşmak)", "en": "To talk over", "pl": "Omówić", "ua": "Обговорювати", "de": "besprechen", "aux": "haben", "ex1": "Wir besprechen die Details.", "ex2": "Wir haben die Details besprochen." },
-  { "id": 152, "type": "verb", "level": "A2", "tr": "Kayıt olmak", "en": "To register", "pl": "Rejestrować się", "ua": "Реєструватися", "de": "sich anmelden", "aux": "haben", "ex1": "Ich melde mich für den Kurs an.", "ex2": "Ich habe mich für den Kurs angemeldet." },
-  { "id": 153, "type": "verb", "level": "A2", "tr": "Yöneltmek", "en": "To direct", "pl": "Kierować", "ua": "Спрямовувати", "de": "leiten", "aux": "haben", "ex1": "Ich leite das Projektteam.", "ex2": "Ich habe das Projektteam geleitet." },
-  { "id": 154, "type": "verb", "level": "A2", "tr": "Dikkat çekmek (görsel)", "en": "To highlight", "pl": "Podkreślać", "ua": "Виділяти", "de": "hervorheben", "aux": "haben", "ex1": "Ich hebe die wichtigen Punkte hervor.", "ex2": "Ich habe die wichtigen Punkte hervorgehoben." },
-  { "id": 155, "type": "verb", "level": "A2", "tr": "Karşı çıkmak", "en": "To oppose", "pl": "Sprzeciwiać się", "ua": "Протистояти", "de": "sich widersetzen", "aux": "haben", "ex1": "Ich setze mich der Entscheidung entgegen.", "ex2": "Ich habe mich der Entscheidung entgegengesetzt." },
-  { "id": 156, "type": "verb", "level": "A2", "tr": "Takdir etmek", "en": "To appreciate", "pl": "Doceniać", "ua": "Цінувати", "de": "wertschätzen", "aux": "haben", "ex1": "Ich schätze deine Arbeit.", "ex2": "Ich habe deine Arbeit geschätzt." },
-  { "id": 157, "type": "verb", "level": "A2", "tr": "Hedeflemek", "en": "To aim", "pl": "Celować", "ua": "Цілитися", "de": "anstreben", "aux": "haben", "ex1": "Ich strebe eine Beförderung an.", "ex2": "Ich habe eine Beförderung angestrebt." },
-  { "id": 158, "type": "verb", "level": "A2", "tr": "Kısıtlamak", "en": "To limit", "pl": "Ograniczać", "ua": "Обмежувати", "de": "begrenzen", "aux": "haben", "ex1": "Ich begrenze meinen Zuckerverbrauch.", "ex2": "Ich habe meinen Zuckerverbrauch begrenzt." },
-  { "id": 159, "type": "verb", "level": "A2", "tr": "Yeniden denemek", "en": "To retry", "pl": "Ponownie próbować", "ua": "Спробувати знову", "de": "wiederholen", "aux": "haben", "ex1": "Ich wiederhole den Versuch.", "ex2": "Ich habe den Versuch wiederholt." },
-  { "id": 160, "type": "verb", "level": "A2", "tr": "İlerletmek", "en": "To advance", "pl": "Posuwać się naprzód", "ua": "Прогресувати", "de": "vorantreiben", "aux": "haben", "ex1": "Ich treibe das Projekt voran.", "ex2": "Ich habe das Projekt vorangetrieben." },
-   { "id": 161, "type": "verb", "level": "B1", "tr": "Tartışmak (derinlemesine)", "en": "To discuss", "pl": "Dyskutować", "ua": "Обговорювати", "de": "diskutieren", "aux": "haben", "ex1": "Wir diskutieren das Problem.", "ex2": "Wir haben das Problem diskutiert." },
-  { "id": 162, "type": "verb", "level": "B1", "tr": "Analiz etmek", "en": "To analyze", "pl": "Analizować", "ua": "Аналізувати", "de": "analysieren", "aux": "haben", "ex1": "Ich analysiere die Daten.", "ex2": "Ich habe die Daten analysiert." },
-  { "id": 163, "type": "verb", "level": "B1", "tr": "Karşılaştırmak", "en": "To compare", "pl": "Porównywać", "ua": "Порівнювати", "de": "vergleichen", "aux": "haben", "ex1": "Ich vergleiche die Ergebnisse.", "ex2": "Ich habe die Ergebnisse verglichen." },
-  { "id": 164, "type": "verb", "level": "B1", "tr": "Çözüm bulmak", "en": "To solve", "pl": "Rozwiązywać", "ua": "Вирішувати", "de": "lösen", "aux": "haben", "ex1": "Ich löse das Problem.", "ex2": "Ich habe das Problem gelöst." },
-  { "id": 165, "type": "verb", "level": "B1", "tr": "Tartışmak (karşıt fikir)", "en": "To debate", "pl": "Debatować", "ua": "Дебатувати", "de": "diskutieren", "aux": "haben", "ex1": "Wir debattieren über Politik.", "ex2": "Wir haben über Politik debattiert." },
-  { "id": 166, "type": "verb", "level": "B1", "tr": "Geliştirmek (beceri)", "en": "To enhance", "pl": "Ulepszać", "ua": "Покращувати", "de": "verbessern", "aux": "haben", "ex1": "Ich verbessere meine Sprachkenntnisse.", "ex2": "Ich habe meine Sprachkenntnisse verbessert." },
-  { "id": 167, "type": "verb", "level": "B1", "tr": "Eleştirmek", "en": "To criticize", "pl": "Krytykować", "ua": "Критикувати", "de": "kritisieren", "aux": "haben", "ex1": "Ich kritisiere den Bericht.", "ex2": "Ich habe den Bericht kritisiert." },
-  { "id": 168, "type": "verb", "level": "B1", "tr": "Tartışmak (problem üzerine)", "en": "To argue about", "pl": "Kłócić się o", "ua": "Сваритися через", "de": "streiten über", "aux": "haben", "ex1": "Wir streiten über die Details.", "ex2": "Wir haben über die Details gestritten." },
-  { "id": 169, "type": "verb", "level": "B1", "tr": "Dikkatlice incelemek", "en": "To examine", "pl": "Badać", "ua": "Досліджувати", "de": "untersuchen", "aux": "haben", "ex1": "Ich untersuche die Situation.", "ex2": "Ich habe die Situation untersucht." },
-  { "id": 170, "type": "verb", "level": "B1", "tr": "Fark etmek", "en": "To notice", "pl": "Zauważać", "ua": "Помічати", "de": "bemerken", "aux": "haben", "ex1": "Ich bemerke den Fehler.", "ex2": "Ich habe den Fehler bemerkt." }
-
-],
-        grammar: [],
-        phrases: [],
-        exam: [],
+            { id: 1, type: "verb", level: "A1", tr: "Yürümek", en: "To go", pl: "Iść", ua: "Йти", de: "gehen", aux: "sein", ex1: "Ich gehe.", ex2: "Ich bin gegangen." },
+            { id: 2, type: "verb", level: "A1", tr: "Yapmak", en: "To do", pl: "Robić", ua: "Робити", de: "machen", aux: "haben", ex1: "Ich mache das.", ex2: "Ich habe das gemacht." },
+            { id: 3, type: "adjective", level: "A2", tr: "Güzel", en: "Beautiful", pl: "Piękny", ua: "Красивий", de: "schön", syn: "hübsch", ex1: "Das Wetter ist schön." },
+            { id: 4, type: "noun", level: "A1", tr: "Kitap", en: "Book", pl: "Książka", ua: "Книга", de: "das Buch", ex1: "Ich lese das Buch." }
+        ],
+        grammar: [
+            { id: 1, level: "A1", title: "Der Die Das (Artikel)", content: "Almancada her ismin cinsiyeti vardır. <strong>Der (Maskulin - Erkek)</strong>, <strong>Die (Feminin - Dişi)</strong>, <strong>Das (Neuter - Nötr)</strong>. Bu cinsiyetler öğrenilmelidir." },
+            { id: 2, level: "A1", title: "Personale Pronomen (Şahıs Zamirleri)", content: "Ich (Ben), Du (Sen), Er (O-Er), Sie (O-Kadın), Es (O-Şey/Cinsiyetsiz), Wir (Biz), Ihr (Siz), Sie (Onlar)." },
+            { id: 3, level: "A2", title: "Perfekt (Geçmiş Zaman)", content: "Günlük dilde kullanılan geçmiş zamandır. Yardımcı fiil <strong>haben</strong> veya <strong>sein</strong> ile fiilin 3. halinin (Partizip II) birleşmesiyle oluşur. Örnek: Ich <strong>habe</strong> gemacht." },
+            { id: 4, level: "B1", title: "Konjunktiv II (Sanal Kip)", content: "İstek, dilek veya kurgusal durumları anlatmak için kullanılır. Fiil köküne 'te' veya 'de' eklenir. Örnek: Ich <strong>würde</strong> gerne kommen." },
+            { id: 5, level: "B1", title: "Nebensätze (Bağlaçlı Cümlecikler)", content: "Weil (Çünkü), dass (ki), wenn (eğer) gibi bağlaçlarla başlayan cümleciklerde fiil her zaman en sonda durur." },
+            { id: 6, level: "B2", title: "Passiv (Edilgen Çatı)", content: "İşin kim tarafından yapıldığından çok yapıldığı önemlidir. 'werden' fiili ile oluşturulur. Örnek: Das Haus <strong>wird</strong> gebaut (Ev inşa ediliyor)." },
+            { id: 7, level: "C1", title: "Nominalisierung (İsimleştirme)", content: "Fiiller veya sıfatlar isme dönüştürülerek daha akademik bir dil kullanılır. Örnek: 'Das Laufen' (Koşmak - isim hali)." }
+        ],
         reading: [
             {
                 level: "A1",
@@ -601,36 +445,23 @@
                     { de: "das Café", tr: "Kafe", en: "Café", pl: "Kawiarnia", ua: "Кафе" },
                     { de: "der Kaffee", tr: "Kahve", en: "Coffee", pl: "Kawa", ua: "Кава" },
                     { de: "heiß", tr: "Sıcak", en: "Hot", pl: "Gorący", ua: "Гарячий" },
-                    { de: "regnen", tr: "Yağmak (yağmur)", en: "To rain", pl: "Padać (deszcz)", ua: "Падати (дощ)" },
-                    { de: "der Regenschirm", tr: "Şemsiye", en: "Umbrella", pl: "Parasol", ua: "Парасолька" },
-                    { de: "drinnen", tr: "İçeride", en: "Inside", pl: "Wewnątrz", ua: "Усередині" },
-                    { de: "das Buch", tr: "Kitap", en: "Book", pl: "Książka", ua: "Книга" },
-                    { de: "lesen", tr: "Okumak", en: "To read", pl: "Czytać", ua: "Читати" },
-                    { de: "interessant", tr: "İlginç", en: "Interesting", pl: "Interesujący", ua: "Цікавий" },
-                    { de: "bleiben", tr: "Kalmak", en: "To stay", pl: "Zostać", ua: "Залишатися" }
-                ]
-            },
-            {
-                level: "A2",
-                title: "Berliner Geschichte",
-                text: "Berlin ist eine große Stadt in Deutschland. Die Stadt hat eine lange Geschichte. Viele Touristen besuchen den Brandenburger Tor jedes Jahr. Das Museum ist auch sehr bekannt. Man kann dort alte Kunstwerke sehen.",
-                grammar: "Relativsatz usage: 'die Stadt, die eine lange Geschichte hat'.",
-                vocab: [
-                    { de: "die Stadt", tr: "Şehir", en: "City", pl: "Miasto", ua: "Місто" },
-                    { de: "die Geschichte", tr: "Tarih", en: "History", pl: "Historia", ua: "Історія" },
-                    { de: "besuchen", tr: "Ziyaret etmek", en: "To visit", pl: "Odwiedzać", ua: "Відвідувати" },
-                    { de: "das Museum", tr: "Müze", en: "Museum", pl: "Muzeum", ua: "Музей" },
-                    { de: "bekannt", tr: "Ünlü", en: "Famous", pl: "Znany", ua: "Відомий" }
+                    { de: "das Buch", tr: "Kitap", en: "Book", pl: "Książka", ua: "Книга" }
                 ]
             }
+        ],
+        exam: [
+            { id: 1, type: "TELC", level: "A1", q: "___ du Deutsch?", options: ["Sprichst", "Sprichst du", "Sprechen", "Sprich"], correct: 0 },
+            { id: 2, type: "TELC", level: "A1", q: "Das ist ___ Haus.", options: ["eine", "ein", "der", "die"], correct: 1 },
+            { id: 3, type: "Goethe", level: "B1", q: "Ich muss morgen ___ Kaffee trinken.", options: ["keinen", "keine", "kein", "nicht"], correct: 0 },
+            { id: 4, type: "TestDaF", level: "B2", q: "Die Entscheidung, dass wir ___, war richtig.", options: ["kommen", "kommen werden", "kamen", "gekommen sind"], correct: 1 }
         ]
     };
 
     /* --- TRANSLATIONS --- */
     const translations = {
         tr: {
-            logoTitle: "DeutschMaster", adminBtn: "Admin Paneli", start: "▶ Başlat", pause: "⏸ Durdur", progress: "İlerleme:", words: "Kelime", vocab: "Flashcards", grammar: "Gramer", phrases: "Kalıplar", reading: "Okuma", exam: "Sınav",
-            verb: "Verb", noun: "Noun", adj: "Adjective", adv: "Adverb",
+            logoTitle: "DeutschMaster", adminBtn: "Admin Paneli", start: "▶ Başlat", pause: "⏸ Durdur", progress: "İlerleme:", words: "Kelime", vocab: "Flashcards", grammar: "Gramer", phrases: "Kalıplar", reading: "Okuma", exam: "Sınavlar",
+            verb: "Fiil", noun: "İsim", adj: "Sıfat", adv: "Zarf",
             grammarTitle: "Gramer Konuları", grammarDesc: "Gramer içerikleri burada listelenecek.",
             phrasesTitle: "Günlük Kalıplar", phrasesDesc: "Konuşma kalıpları burada listelenecek.",
             readingTitle: "Okuma Parçaları",
@@ -641,7 +472,7 @@
             enterName: "Adınızı girin...", lblExamType: "Sınav Türü"
         },
         en: {
-            logoTitle: "DeutschMaster", adminBtn: "Admin Panel", start: "▶ Start", pause: "⏸ Pause", progress: "Progress:", words: "Words", vocab: "Flashcards", grammar: "Grammar", phrases: "Phrases", reading: "Reading", exam: "Exam",
+            logoTitle: "DeutschMaster", adminBtn: "Admin Panel", start: "▶ Start", pause: "⏸ Pause", progress: "Progress:", words: "Words", vocab: "Flashcards", grammar: "Grammar", phrases: "Phrases", reading: "Reading", exam: "Exams",
             verb: "Verb", noun: "Noun", adj: "Adjective", adv: "Adverb",
             grammarTitle: "Grammar Topics", grammarDesc: "Grammar content will be listed here.",
             phrasesTitle: "Daily Phrases", phrasesDesc: "Conversation phrases will be listed here.",
@@ -653,7 +484,7 @@
             enterName: "Enter your name...", lblExamType: "Exam Type"
         },
         pl: {
-            logoTitle: "DeutschMaster", adminBtn: "Panel Admina", start: "▶ Start", pause: "⏸ Pauza", progress: "Postęp:", words: "Słowa", vocab: "Fiszki", grammar: "Gramatyka", phrases: "Zwroty", reading: "Czytanie", exam: "Egzamin",
+            logoTitle: "DeutschMaster", adminBtn: "Panel Admina", start: "▶ Start", pause: "⏸ Pauza", progress: "Postęp:", words: "Słowa", vocab: "Fiszki", grammar: "Gramatyka", phrases: "Zwroty", reading: "Czytanie", exam: "Egzaminy",
             verb: "Czasownik", noun: "Rzeczownik", adj: "Przymiotnik", adv: "Przysłówek",
             grammarTitle: "Tematy Gramatyki", grammarDesc: "Treści gramatyczne będą tutaj.",
             phrasesTitle: "Codzienne Zwroty", phrasesDesc: "Zwroty konwersacyjne będą tutaj.",
@@ -665,7 +496,7 @@
             enterName: "Wprowadź imię...", lblExamType: "Typ Egzaminu"
         },
         ua: {
-            logoTitle: "DeutschMaster", adminBtn: "Панель Адміна", start: "▶ Старт", pause: "⏸ Пауза", progress: "Прогрес:", words: "Слова", vocab: "Флеш-картки", grammar: "Граматика", phrases: "Фрази", reading: "Читання", exam: "Іспит",
+            logoTitle: "DeutschMaster", adminBtn: "Панель Адміна", start: "▶ Старт", pause: "⏸ Пауза", progress: "Прогрес:", words: "Слова", vocab: "Флеш-картки", grammar: "Граматика", phrases: "Фрази", reading: "Читання", exam: "Іспити",
             verb: "Дієслово", noun: "Іменник", adj: "Прикметник", adv: "Прислівник",
             grammarTitle: "Теми Граматики", grammarDesc: "Граматичний контент буде тут.",
             phrasesTitle: "Щоденні Фрази", phrasesDesc: "Фрази для розмови будуть тут.",
@@ -684,7 +515,9 @@
         user: { name: '', timeSpent: 0, wordsLearned: 0 },
         timer: { seconds: 0, interval: null, isRunning: false },
         filters: { type: 'verb', level: 'A1' },
-        examFilter: 'TELC',
+        grammarFilter: 'A1',
+        examFilter: 'TELC', // Default Exam Type
+        examLevel: 'A1',   // Default Exam Level
         readingFilter: 'A1',
         learnedIds: []
     };
@@ -693,9 +526,10 @@
     document.addEventListener('DOMContentLoaded', () => {
         renderFlashcards();
         updateProgressUI();
+        renderGrammar(); // Init Grammar
         renderExams();
         renderReading();
-        toggleWordInputs(); // Init admin visibility
+        toggleWordInputs();
     });
 
     /* --- LANGUAGE SWITCH --- */
@@ -713,11 +547,12 @@
         document.querySelector('[data-ph="enterName"]').placeholder = texts.enterName;
 
         renderFlashcards();
+        renderGrammar();
         renderExams();
         renderReading();
     }
 
-    /* --- TIMER & GAMIFICATION (Same as before) --- */
+    /* --- TIMER & GAMIFICATION --- */
     function startTimer() {
         if(!state.timer.isRunning) {
             state.timer.isRunning = true;
@@ -804,12 +639,15 @@
             card.onclick = function(e) {
                 if(e.target.tagName !== 'BUTTON') this.classList.toggle('flipped');
             };
+            
+            // Translate Type
+            const typeText = texts[w.type] || w.type;
 
             card.innerHTML = `
                 <div class="flashcard-inner">
                     <div class="flashcard-front">
                         <span class="fc-level">${w.level}</span>
-                        <span class="fc-type">${w.type}</span>
+                        <span class="fc-type">${typeText}</span>
                         <div class="fc-word">${w[state.lang]}</div>
                         <div class="fc-hint">${texts.cardHint}</div>
                     </div>
@@ -851,48 +689,77 @@
         renderFlashcards();
     }
 
-    /* --- READING LOGIC --- */
-    function setReadingFilter(level, btn) {
-        state.readingFilter = level;
+    /* --- GRAMMAR LOGIC (ACCORDION) --- */
+    function setGrammarFilter(level, btn) {
+        state.grammarFilter = level;
         const parent = btn.parentElement;
         parent.querySelectorAll('.glass-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
-        renderReading();
+        renderGrammar();
     }
 
-    function renderReading() {
-        const container = document.getElementById('readingContainer');
+    function toggleGrammar(header) {
+        const content = header.nextElementSibling;
+        const icon = header.querySelector('.grammar-toggle-icon');
+        
+        // Toggle Open/Close class
+        if (content.style.display === 'block') {
+            content.style.display = 'none';
+            icon.classList.remove('rotate');
+        } else {
+            content.style.display = 'block';
+            icon.classList.add('rotate');
+        }
+    }
+
+    function renderGrammar() {
+        const container = document.getElementById('grammarList');
         container.innerHTML = '';
 
-        const item = db.reading.find(r => r.level === state.readingFilter);
+        const filtered = db.grammar.filter(g => g.level === state.grammarFilter);
 
-        if (!item) {
-            container.innerHTML = '<p style="text-align:center; padding:20px;">Bu seviyede okuma parçası yok.</p>';
+        if (filtered.length === 0) {
+            container.innerHTML = '<div style="text-align:center; padding:20px; color:#999;">Bu seviyede gramer konusu yok.</div>';
             return;
         }
 
-        // Render Vocab List
-        let vocabHtml = '';
-        item.vocab.forEach(v => {
-            vocabHtml += `<div class="vocab-item-read"><span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}</div>`;
-        });
-
-        container.innerHTML = `
-            <div class="reading-content">
-                <div class="reading-title">${item.title}</div>
-                <div class="passage-text">${item.text}</div>
-                <div class="grammar-box"><strong>Gramer Notu:</strong> ${item.grammar}</div>
-                <h3 style="margin-bottom:15px; color:var(--secondary);">Yeni Öğrenilen Kelimeler</h3>
-                <div class="vocab-list-reading">
-                    ${vocabHtml}
+        filtered.forEach(g => {
+            const item = document.createElement('div');
+            item.className = 'grammar-item';
+            item.innerHTML = `
+                <div class="grammar-header" onclick="toggleGrammar(this)">
+                    <div style="display:flex; align-items:center;">
+                        <span class="grammar-title">${g.title}</span>
+                        <span class="grammar-badge">${g.level}</span>
+                    </div>
+                    <i class="fas fa-chevron-down grammar-toggle-icon"></i>
                 </div>
-            </div>
-        `;
+                <div class="grammar-body">
+                    ${g.content}
+                </div>
+            `;
+            container.appendChild(item);
+        });
     }
 
-    /* --- EXAM LOGIC --- */
-    function setExamFilter(type, btn) {
+    /* --- EXAM LOGIC (UPDATED) --- */
+    function openExam(type, btn) {
+        // This is called from Sidebar
         state.examFilter = type;
+        
+        // Activate Main Tab
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        document.getElementById('exam').classList.add('active');
+        
+        // Sidebar Active State
+        document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+        btn.classList.add('active');
+
+        renderExams();
+    }
+
+    function setExamLevel(level, btn) {
+        state.examLevel = level;
         const parent = btn.parentElement;
         parent.querySelectorAll('.glass-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -903,10 +770,11 @@
         const container = document.getElementById('examContent');
         container.innerHTML = '';
         
-        const filtered = db.exam.filter(e => e.type === state.examFilter);
+        // Filter by Exam Type (from sidebar) AND Level (from tab)
+        const filtered = db.exam.filter(e => e.type === state.examFilter && e.level === state.examLevel);
         
         if(filtered.length === 0) {
-            container.innerHTML = '<p style="text-align:center; padding:20px; color:#999;">Henüz soru eklenmedi.</p>';
+            container.innerHTML = `<p style="text-align:center; padding:20px; color:#999;">Henüz ${state.examFilter} - ${state.examLevel} için soru eklenmedi.</p>`;
             return;
         }
 
@@ -923,6 +791,42 @@
             div.innerHTML = `<div class="exam-q">${e.q}</div>${optionsHtml}`;
             container.appendChild(div);
         });
+    }
+
+    /* --- READING LOGIC --- */
+    function setReadingFilter(level, btn) {
+        state.readingFilter = level;
+        const parent = btn.parentElement;
+        parent.querySelectorAll('.glass-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderReading();
+    }
+
+    function renderReading() {
+        const container = document.getElementById('readingContainer');
+        container.innerHTML = '';
+
+        const item = db.reading.find(r => r.level === state.readingFilter);
+
+        if (!item) {
+            container.innerHTML = '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
+            return;
+        }
+
+        let vocabHtml = '';
+        item.vocab.forEach(v => {
+            vocabHtml += `<div class="vocab-item-read"><span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}</div>`;
+        });
+
+        container.innerHTML = `
+            <div class="reading-content">
+                <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">${item.title}</div>
+                <div class="passage-text">${item.text}</div>
+                <div class="grammar-box"><strong>Gramer Notu:</strong> ${item.grammar}</div>
+                <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">Yeni Öğrenilen Kelimeler</h3>
+                <div class="vocab-list-reading">${vocabHtml}</div>
+            </div>
+        `;
     }
 
     /* --- NAVIGATION --- */
@@ -964,7 +868,6 @@
             groupVerbSent.classList.add('hidden');
             groupSyn.classList.remove('hidden');
         } else {
-            // Noun
             groupVerb.classList.add('hidden');
             groupVerbSent.classList.add('hidden');
             groupSyn.classList.add('hidden');
@@ -983,7 +886,6 @@
             newItem.type = document.getElementById('aw_type').value;
             newItem.level = document.getElementById('aw_level').value;
             
-            // Conditionals
             if(newItem.type === 'verb') {
                 newItem.aux = document.getElementById('aw_aux').value;
                 newItem.ex2 = document.getElementById('aw_ex2').value;
@@ -1003,6 +905,7 @@
             newItem.content = document.getElementById('ag_content').value;
             if(!newItem.title) return alert("Lütfen başlık girin.");
             db.grammar.push(newItem);
+            renderGrammar();
         }
         else if (type === 'phrase') {
             newItem.de = document.getElementById('ap_de').value;
@@ -1012,6 +915,7 @@
         }
         else if (type === 'exam') {
             newItem.type = document.getElementById('ae_type').value;
+            newItem.level = document.getElementById('ae_level') ? document.getElementById('ae_level').value : 'A1'; // Simple default
             newItem.q = document.getElementById('ae_q').value;
             newItem.options = [
                 document.getElementById('ae_op1').value,
