@@ -73,16 +73,67 @@ const db = {
     };
 
     /* --- INIT --- */
-    document.addEventListener('DOMContentLoaded', () => {
-        renderFlashcards();
-        updateProgressUI();
-        renderGrammar(); // Init Grammar
-        renderExams();
-        renderReading();
-        toggleWordInputs();
-        // burasi sonradan eklendi
-        updateTimerDisplay();
-    });
+// document.addEventListener('DOMContentLoaded', () => {
+//     const adminSection = document.getElementById('admin');
+//     const adminBtn = document.querySelector('.admin-btn');
+
+//     // URL query parametresi ile kontrol
+//     if (window.location.search.includes('addData')) {
+//         adminSection.classList.add('active'); // Admin panelini aç
+//         document.querySelectorAll('.section').forEach(s => {
+//             if (s.id !== 'admin') s.classList.remove('active'); // Diğerlerini kapat
+//         });
+
+//         const firstAdminTab = document.querySelector('.admin-tab');
+//         if(firstAdminTab) firstAdminTab.click(); // İlk tabı seç
+//     } else {
+//         adminSection.classList.remove('active'); // Kapalı tut
+//     }
+
+//     renderFlashcards();
+//     updateProgressUI();
+//     renderGrammar();
+//     renderExams();
+//     renderReading();
+//     toggleWordInputs();
+//     updateTimerDisplay();
+// });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const adminSection = document.getElementById('admin');
+    const adminBtn = document.querySelector('.admin-btn');
+
+    // Tüm admin ile ilgili buton ve sekmeleri gizle
+    if(adminSection) adminSection.style.display = 'none';
+    if(adminBtn) adminBtn.style.display = 'none';
+
+    // URL ?addData içeriyorsa admin panelini aç
+    if (window.location.search.includes('addData')) {
+        if(adminSection) adminSection.style.display = 'block';
+        if(adminBtn) adminBtn.style.display = 'inline-block';
+
+        // Diğer tüm sekmeleri kapat, sadece admin aç
+        document.querySelectorAll('.section').forEach(s => {
+            if(s.id !== 'admin') s.classList.remove('active');
+        });
+        adminSection.classList.add('active');
+
+        // Admin tablarını varsayılan olarak aç
+        const firstAdminTab = document.querySelector('.admin-tab');
+        if(firstAdminTab) firstAdminTab.click();
+    }
+
+    // Normal render işlemleri
+    renderFlashcards();
+    updateProgressUI();
+    renderGrammar();
+    renderExams();
+    renderReading();
+    toggleWordInputs();
+    updateTimerDisplay();
+});
+
 
     /* --- LANGUAGE SWITCH --- */
     function setLanguage(lang) {
