@@ -18,7 +18,10 @@ const db = {
             newWord: "Yeni Kelime Ekle", newGrammar: "Gramer Konusu Ekle", newPhrase: "Kalıp Ekle", newExam: "Sınav Sorusu Ekle",
             lblGerman: "Almanca", lblTurkish: "Türkçe", lblType: "Tür", lblLevel: "Seviye", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Present Cümle", lblPerfektSent: "Perfekt Cümle", lblDesc: "Açıklama", lblTitle: "Konu Başlığı", lblQuestion: "Soru", lblOptA: "Seçenek A", lblOptB: "Seçenek B", lblOptC: "Seçenek C", lblOptD: "Seçenek D", lblCorrect: "Doğru Cevap (0-3)", save: "KAYDET",
             cardHint: "👆 Çevirmek için tıkla", btnLearn: "ÖĞRENDİM (+1 Puan)", btnLearned: "✔ Öğrenildi", welcome: "Hoşgeldin,",
-            enterName: "Adınızı girin...", lblExamType: "Sınav Türü"
+            enterName: "Adınızı girin...", lblExamType: "Sınav Türü",
+            readingGrammarNote: "Gramer Notu",
+            readingNewWords: "Yeni Öğrenilen Kelimeler"
+
         },
         en: {
             logoTitle: "DeutschMaster", adminBtn: "Admin Panel", start: "▶ Start", pause: "⏸ Pause", progress: "Progress:", words: "Words", vocab: "Flashcards", grammar: "Grammar", phrases: "Phrases", reading: "Reading", exam: "Exams",
@@ -30,7 +33,10 @@ const db = {
             newWord: "Add New Word", newGrammar: "Add Grammar Topic", newPhrase: "Add Phrase", newExam: "Add Exam Question",
             lblGerman: "German", lblTurkish: "Turkish", lblType: "Type", lblLevel: "Level", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Present Sent", lblPerfektSent: "Perfekt Sent", lblDesc: "Description", lblTitle: "Topic Title", lblQuestion: "Question", lblOptA: "Option A", lblOptB: "Option B", lblOptC: "Option C", lblOptD: "Option D", lblCorrect: "Correct Ans (0-3)", save: "SAVE",
             cardHint: "👆 Click to translate", btnLearn: "LEARNED (+1 Point)", btnLearned: "✔ Learned", welcome: "Welcome,",
-            enterName: "Enter your name...", lblExamType: "Exam Type"
+            enterName: "Enter your name...", lblExamType: "Exam Type",
+            readingGrammarNote: "Grammar Note",
+            readingNewWords: "New Vocabulary"
+
         },
         pl: {
             logoTitle: "DeutschMaster", adminBtn: "Panel Admina", start: "▶ Start", pause: "⏸ Pauza", progress: "Postęp:", words: "Słowa", vocab: "Fiszki", grammar: "Gramatyka", phrases: "Zwroty", reading: "Czytanie", exam: "Egzaminy",
@@ -42,7 +48,10 @@ const db = {
             newWord: "Dodaj Nowe Słowo", newGrammar: "Dodaj Temat Gramatyki", newPhrase: "Dodaj Zwrot", newExam: "Dodaj Pytanie",
             lblGerman: "Niemiecki", lblTurkish: "Turecki", lblType: "Typ", lblLevel: "Poziom", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Zd. Czas Ter.", lblPerfektSent: "Zd. Perfekt", lblDesc: "Opis", lblTitle: "Tytuł Tematu", lblQuestion: "Pytanie", lblOptA: "Opcja A", lblOptB: "Opcja B", lblOptC: "Opcja C", lblOptD: "Opcja D", lblCorrect: "Prawidłowa (0-3)", save: "ZAPISZ",
             cardHint: "👆 Kliknij aby przetłumaczyć", btnLearn: "NAUCZONE (+1 Punkt)", btnLearned: "✔ Nauczone", welcome: "Witaj,",
-            enterName: "Wprowadź imię...", lblExamType: "Typ Egzaminu"
+            enterName: "Wprowadź imię...", lblExamType: "Typ Egzaminu",
+            readingGrammarNote: "Notatka gramatyczna",
+            readingNewWords: "Nowe słowa"
+
         },
         ua: {
             logoTitle: "DeutschMaster", adminBtn: "Панель Адміна", start: "▶ Старт", pause: "⏸ Пауза", progress: "Прогрес:", words: "Слова", vocab: "Флеш-картки", grammar: "Граматика", phrases: "Фрази", reading: "Читання", exam: "Іспити",
@@ -54,7 +63,10 @@ const db = {
             newWord: "Додати Нове Слово", newGrammar: "Додати Тему Граматики", newPhrase: "Додати Фразу", newExam: "Додати Питання",
             lblGerman: "Німецька", lblTurkish: "Турецька", lblType: "Тип", lblLevel: "Рівень", lblPerfekt: "Perfekt (haben/sein)", lblPresent: "Речення Пр.", lblPerfektSent: "Речення Perfekt", lblDesc: "Опис", lblTitle: "Назва Теми", lblQuestion: "Питання", lblOptA: "Варіант A", lblOptB: "Варіант B", lblOptC: "Варіант C", lblOptD: "Варіант D", lblCorrect: "Правильна (0-3)", save: "ЗБЕРЕГТИ",
             cardHint: "👆 Натисніть щоб перекласти", btnLearn: "ВИВЧЕНО (+1 Бал)", btnLearned: "✔ Вивчено", welcome: "Вітаємо,",
-            enterName: "Введіть ваше ім'я...", lblExamType: "Тип Іспиту"
+            enterName: "Введіть ваше ім'я...", lblExamType: "Тип Іспиту",
+            readingGrammarNote: "Граматична нотатка",
+            readingNewWords: "Нові слова"
+
         }
     };
 
@@ -72,32 +84,7 @@ const db = {
         learnedIds: []
     };
 
-    /* --- INIT --- */
-// document.addEventListener('DOMContentLoaded', () => {
-//     const adminSection = document.getElementById('admin');
-//     const adminBtn = document.querySelector('.admin-btn');
 
-//     // URL query parametresi ile kontrol
-//     if (window.location.search.includes('addData')) {
-//         adminSection.classList.add('active'); // Admin panelini aç
-//         document.querySelectorAll('.section').forEach(s => {
-//             if (s.id !== 'admin') s.classList.remove('active'); // Diğerlerini kapat
-//         });
-
-//         const firstAdminTab = document.querySelector('.admin-tab');
-//         if(firstAdminTab) firstAdminTab.click(); // İlk tabı seç
-//     } else {
-//         adminSection.classList.remove('active'); // Kapalı tut
-//     }
-
-//     renderFlashcards();
-//     updateProgressUI();
-//     renderGrammar();
-//     renderExams();
-//     renderReading();
-//     toggleWordInputs();
-//     updateTimerDisplay();
-// });
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -431,32 +418,84 @@ function renderGrammar() {
         renderReading();
     }
 
+    // function renderReading() {
+    //     const container = document.getElementById('readingContainer');
+    //     container.innerHTML = '';
+
+    //     const item = db.reading.find(r => r.level === state.readingFilter);
+
+    //     if (!item) {
+    //         container.innerHTML = '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
+    //         return;
+    //     }
+
+    //     let vocabHtml = '';
+    //     item.vocab.forEach(v => {
+    //         vocabHtml += `<div class="vocab-item-read"><span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}</div>`;
+    //     });
+
+    //     container.innerHTML = `
+    //         <div class="reading-content">
+    //             <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">${item.title}</div>
+    //             <div class="passage-text">${item.text}</div>
+    //             <div class="grammar-box"><strong>Gramer Notu:</strong> ${item.grammar}</div>
+    //             <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">Yeni Öğrenilen Kelimeler</h3>
+    //             <div class="vocab-list-reading">${vocabHtml}</div>
+    //         </div>
+    //     `;
+    // }
+
     function renderReading() {
-        const container = document.getElementById('readingContainer');
-        container.innerHTML = '';
+    const container = document.getElementById('readingContainer');
+    container.innerHTML = '';
 
-        const item = db.reading.find(r => r.level === state.readingFilter);
+    const item = db.reading.find(r => r.level === state.readingFilter);
 
-        if (!item) {
-            container.innerHTML = '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
-            return;
-        }
+    if (!item) {
+        container.innerHTML =
+            '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
+        return;
+    }
 
-        let vocabHtml = '';
-        item.vocab.forEach(v => {
-            vocabHtml += `<div class="vocab-item-read"><span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}</div>`;
-        });
+    const texts = translations[state.lang];
 
-        container.innerHTML = `
-            <div class="reading-content">
-                <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">${item.title}</div>
-                <div class="passage-text">${item.text}</div>
-                <div class="grammar-box"><strong>Gramer Notu:</strong> ${item.grammar}</div>
-                <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">Yeni Öğrenilen Kelimeler</h3>
-                <div class="vocab-list-reading">${vocabHtml}</div>
+    // ✅ Gramer açıklaması dili
+    const grammarText =
+        item.grammar?.[state.lang] || item.grammar?.tr || '';
+
+    let vocabHtml = '';
+    item.vocab.forEach(v => {
+        vocabHtml += `
+            <div class="vocab-item-read">
+                <span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}
             </div>
         `;
-    }
+    });
+
+    container.innerHTML = `
+        <div class="reading-content">
+            <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">
+                ${item.title}
+            </div>
+
+            <div class="passage-text">
+                ${item.text}
+            </div>
+
+            <div class="grammar-box">
+                <strong>${texts.readingGrammarNote}:</strong> ${grammarText}
+            </div>
+
+            <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">
+                ${texts.readingNewWords}
+            </h3>
+
+            <div class="vocab-list-reading">
+                ${vocabHtml}
+            </div>
+        </div>
+    `;
+}
 
     /* --- NAVIGATION --- */
     function switchTab(id, el) {
