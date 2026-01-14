@@ -197,3 +197,37 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
         @keyframes slideDown { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
  
+        .reading-index-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.reading-index-box {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: var(--glass);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.reading-index-box:hover {
+    transform: scale(1.05);
+}
+
+.reading-index-box.active {
+    background: var(--secondary);
+    color: #fff;
+}
+
+
+.reading-index-box.read {
+    background: #2ecc71;
+    color: #fff;
+}

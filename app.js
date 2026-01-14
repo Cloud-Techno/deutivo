@@ -81,6 +81,7 @@ const db = {
         examFilter: 'TELC', // Default Exam Type
         examLevel: 'A1',   // Default Exam Level
         readingFilter: 'A1',
+        readingIndex: 0,
         learnedIds: []
     };
 
@@ -412,11 +413,18 @@ function renderGrammar() {
     /* --- READING LOGIC --- */
     function setReadingFilter(level, btn) {
         state.readingFilter = level;
+         state.readingIndex = 0;
         const parent = btn.parentElement;
         parent.querySelectorAll('.glass-btn').forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
         renderReading();
     }
+
+    function setReadingIndex(index) {
+    state.readingIndex = index;
+    renderReading();
+}
+
 
     // function renderReading() {
     //     const container = document.getElementById('readingContainer');
@@ -445,23 +453,101 @@ function renderGrammar() {
     //     `;
     // }
 
-    function renderReading() {
+//     function renderReading() {
+//     const container = document.getElementById('readingContainer');
+//     container.innerHTML = '';
+
+//     const item = db.reading.find(r => r.level === state.readingFilter);
+
+//     if (!item) {
+//         container.innerHTML =
+//             '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
+//         return;
+//     }
+
+//     const texts = translations[state.lang];
+
+//     // ✅ Gramer açıklaması dili
+//     const grammarText =
+//         item.grammar?.[state.lang] || item.grammar?.tr || '';
+
+//     let vocabHtml = '';
+//     item.vocab.forEach(v => {
+//         vocabHtml += `
+//             <div class="vocab-item-read">
+//                 <span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}
+//             </div>
+//         `;
+//     });
+
+//     container.innerHTML = `
+//         <div class="reading-content">
+//             <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">
+//                 ${item.title}
+//             </div>
+
+//             <div class="passage-text">
+//                 ${item.text}
+//             </div>
+
+//             <div class="grammar-box">
+//                 <strong>${texts.readingGrammarNote}:</strong> ${grammarText}
+//             </div>
+
+//             <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">
+//                 ${texts.readingNewWords}
+//             </h3>
+
+//             <div class="vocab-list-reading">
+//                 ${vocabHtml}
+//             </div>
+//         </div>
+//     `;
+// }
+function renderReading() {
     const container = document.getElementById('readingContainer');
     container.innerHTML = '';
 
-    const item = db.reading.find(r => r.level === state.readingFilter);
+    const readings = db.reading.filter(r => r.level === state.readingFilter);
 
-    if (!item) {
+    if (!readings.length) {
         container.innerHTML =
             '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
         return;
     }
 
-    const texts = translations[state.lang];
+    if (state.readingIndex >= readings.length) {
+        state.readingIndex = 0;
+    }
 
-    // ✅ Gramer açıklaması dili
-    const grammarText =
-        item.grammar?.[state.lang] || item.grammar?.tr || '';
+    const item = readings[state.readingIndex];
+    const progress = getReadingProgress();
+
+if (!progress[state.readingFilter]) {
+    progress[state.readingFilter] = [];
+}
+
+if (!progress[state.readingFilter].includes(state.readingIndex)) {
+    progress[state.readingFilter].push(state.readingIndex);
+    saveReadingProgress(progress);
+}
+
+    const texts = translations[state.lang];
+    const grammarText = item.grammar?.[state.lang] || item.grammar?.tr || '';
+
+    let indexHtml = '';
+readings.forEach((_, i) => {
+    const isRead = progress[state.readingFilter]?.includes(i);
+
+    indexHtml += `
+        <div class="reading-index-box
+            ${i === state.readingIndex ? 'active' : ''}
+            ${isRead ? 'read' : ''}"
+            onclick="setReadingIndex(${i})">
+            ${isRead ? '✓' : i + 1}
+        </div>
+    `;
+});
 
     let vocabHtml = '';
     item.vocab.forEach(v => {
@@ -473,20 +559,22 @@ function renderGrammar() {
     });
 
     container.innerHTML = `
+        <div class="reading-index-bar">
+            ${indexHtml}
+        </div>
+
         <div class="reading-content">
             <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">
                 ${item.title}
             </div>
 
-            <div class="passage-text">
-                ${item.text}
-            </div>
+            <div class="passage-text">${item.text}</div>
 
             <div class="grammar-box">
                 <strong>${texts.readingGrammarNote}:</strong> ${grammarText}
             </div>
 
-            <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">
+            <h3 style="margin-top:30px; color:var(--secondary);">
                 ${texts.readingNewWords}
             </h3>
 
@@ -604,3 +692,18 @@ function renderGrammar() {
         document.body.setAttribute('data-theme', document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
     }
 
+
+    function getReadingProgress() {
+    return JSON.parse(localStorage.getItem('readingProgress')) || {};
+}
+
+function saveReadingProgress(progress) {
+    localStorage.setItem('readingProgress', JSON.stringify(progress));
+}
+
+function resetReadingProgress(level) {
+    const progress = getReadingProgress();
+    progress[level] = [];
+    saveReadingProgress(progress);
+    renderReading();
+}
