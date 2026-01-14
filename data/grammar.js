@@ -1996,7 +1996,485 @@ window.grammarData = [
     "Bevor er ging, sagte er tschüss.",
     "Als ich ankam, war das Haus leer."
   ]
+},
+{
+  "id": 92,
+  "level": "B2",
+  "title": "Futur I – (werden + Infinitiv)",
+  "content": {
+    "tr": "B2’de Futur I, gelecekte olacak olayları veya niyetleri ifade etmek için kullanılır.\n\n<strong>1. Yapı</strong>\n- werden + infinitiv\n- Örnek: Ich werde morgen ins Kino gehen. (Yarın sinemaya gideceğim.)\n\n<strong>2. Kullanım</strong>\n- Gelecek planları, tahminler, niyetler\n- Sözlü ve yazılı anlatımda yaygın\n\n<strong>3. Örnekler</strong>\n- Er wird nächste Woche reisen. (Gelecek hafta seyahat edecek.)\n- Wir werden das Projekt abschließen. (Projeyi tamamlayacağız.)",
+    "en": "At B2, Futur I is used to express future events or intentions.\n\n<strong>1. Structure</strong>\n- werden + infinitive\n- Example: Ich werde morgen ins Kino gehen. (I will go to the cinema tomorrow.)\n\n<strong>2. Usage</strong>\n- Future plans, predictions, intentions\n- Common in spoken and written language\n\n<strong>3. Examples</strong>\n- Er wird nächste Woche reisen. (He will travel next week.)\n- Wir werden das Projekt abschließen. (We will complete the project.)",
+    "pl": "Na poziomie B2 Futur I używa się do wyrażania przyszłych zdarzeń lub zamiarów.\n\n<strong>1. Struktura</strong>\n- werden + bezokolicznik\n- Przykład: Ich werde morgen ins Kino gehen. (Jutro pójdę do kina.)\n\n<strong>2. Zastosowanie</strong>\n- Plany na przyszłość, przewidywania, zamiary\n- Częste w mowie i piśmie\n\n<strong>3. Przykłady</strong>\n- Er wird nächste Woche reisen. (On będzie podróżować w przyszłym tygodniu.)\n- Wir werden das Projekt abschließen. (Skończymy projekt.)",
+    "ua": "На рівні B2 Futur I використовується для вираження майбутніх подій або намірів.\n\n<strong>1. Структура</strong>\n- werden + інфінітив\n- Приклад: Ich werde morgen ins Kino gehen. (Я піду завтра в кіно.)\n\n<strong>2. Використання</strong>\n- Майбутні плани, прогнози, наміри\n- Поширено у усній та письмовій мові\n\n<strong>3. Приклади</strong>\n- Er wird nächste Woche reisen. (Він поїде наступного тижня.)\n- Wir werden das Projekt abschließen. (Ми завершимо проєкт.)"
+  },
+  "examples": [
+    "Ich werde morgen ins Kino gehen.",
+    "Er wird nächste Woche reisen.",
+    "Wir werden das Projekt abschließen.",
+    "Sie wird bald eine Prüfung schreiben.",
+    "Wird er kommen? Ja, er wird.",
+    "Wir werden uns morgen treffen.",
+    "Ich werde dir später helfen."
+  ]
+},
+{
+  "id": 93,
+  "level": "B2",
+  "title": "Futur II – (werden + Partizip II + haben/sein)",
+  "content": {
+    "tr": "B2’de Futur II, gelecekte tamamlanmış olacak olayları ifade etmek için kullanılır.\n\n<strong>1. Yapı</strong>\n- werden + Partizip II + haben/sein\n- Örnek: Bis morgen werde ich die Arbeit erledigt haben. (Yarına kadar işi bitirmiş olacağım.)\n\n<strong>2. Kullanım</strong>\n- Tahmin edilen tamamlanmış olaylar, gelecek öngörüleri\n- Resmi yazı veya rapor dilinde sık\n\n<strong>3. Örnekler</strong>\n- Er wird bis nächste Woche angekommen sein. (O, gelecek haftaya kadar varmış olacak.)\n- Wir werden das Problem gelöst haben. (Sorunu çözmüş olacağız.)",
+    "en": "At B2, Futur II is used to express events that will have been completed in the future.\n\n<strong>1. Structure</strong>\n- werden + past participle + haben/sein\n- Example: Bis morgen werde ich die Arbeit erledigt haben. (By tomorrow, I will have finished the work.)\n\n<strong>2. Usage</strong>\n- Predicted completed events, future forecasts\n- Common in formal writing or reports\n\n<strong>3. Examples</strong>\n- Er wird bis nächste Woche angekommen sein. (He will have arrived by next week.)\n- Wir werden das Problem gelöst haben. (We will have solved the problem.)",
+    "pl": "Na poziomie B2 Futur II używa się do wyrażania zdarzeń, które będą zakończone w przyszłości.\n\n<strong>1. Struktura</strong>\n- werden + imiesłów przeszły + haben/sein\n- Przykład: Bis morgen werde ich die Arbeit erledigt haben. (Do jutra zakończę pracę.)\n\n<strong>2. Zastosowanie</strong>\n- Przewidywane zakończone zdarzenia, prognozy przyszłości\n- Częste w piśmie formalnym lub raportach\n\n<strong>3. Przykłady</strong>\n- Er wird bis nächste Woche angekommen sein. (Do następnego tygodnia przyjedzie.)\n- Wir werden das Problem gelöst haben. (Rozwiążemy problem.)",
+    "ua": "На рівні B2 Futur II використовується для вираження подій, які будуть завершені в майбутньому.\n\n<strong>1. Структура</strong>\n- werden + Partizip II + haben/sein\n- Приклад: Bis morgen werde ich die Arbeit erledigt haben. (До завтра я закінчу роботу.)\n\n<strong>2. Використання</strong>\n- Передбачувані завершені події, прогнози на майбутнє\n- Поширено у формальному письмі або звітах\n\n<strong>3. Приклади</strong>\n- Er wird bis nächste Woche angekommen sein. (Він приїде до наступного тижня.)\n- Wir werden das Problem gelöst haben. (Ми вирішимо проблему.)"
+  },
+  "examples": [
+    "Bis morgen werde ich die Arbeit erledigt haben.",
+    "Er wird bis nächste Woche angekommen sein.",
+    "Wir werden das Problem gelöst haben.",
+    "Sie wird das Buch gelesen haben, bevor der Kurs beginnt.",
+    "Bis zum Abend werden wir das Projekt abgeschlossen haben.",
+    "Er wird schon gegangen sein, wenn du kommst.",
+    "Wir werden die Aufgabe erledigt haben."
+  ]
+},
+{
+  "id": 94,
+  "level": "B2",
+  "title": "Erweiterte Adjektiv- und Partizipialkonstruktionen – (mit Partizip I und II)",
+  "content": {
+    "tr": "B2’de sıfat ve participial yapılar cümleleri daha zengin ve açıklayıcı hâle getirir.\n\n<strong>1. Partizip I</strong>\n- Fiilin -end hali sıfat gibi kullanılır\n- Örnek: Der lachende Mann ist mein Onkel. (Gülmekte olan adam benim amcam.)\n\n<strong>2. Partizip II</strong>\n- Fiilin -t veya düzensiz hali sıfat gibi kullanılır\n- Örnek: Das gebrochene Fenster muss repariert werden. (Kırık pencere tamir edilmeli.)\n\n<strong>3. Kullanım</strong>\n- Resmi yazı ve betimlemelerde, cümleyi daha kısa ve etkili hâle getirir\n- Örnek: Die von der Sonne erwärmten Steine sind angenehm. (Güneşle ısınan taşlar hoş.)",
+    "en": "At B2, adjective and participial constructions make sentences richer and more descriptive.\n\n<strong>1. Participle I</strong>\n- Present participle (-end form) used as adjective\n- Example: Der lachende Mann ist mein Onkel. (The laughing man is my uncle.)\n\n<strong>2. Participle II</strong>\n- Past participle (-t or irregular) used as adjective\n- Example: Das gebrochene Fenster muss repariert werden. (The broken window must be repaired.)\n\n<strong>3. Usage</strong>\n- In formal writing and descriptions, makes sentences shorter and more effective\n- Example: Die von der Sonne erwärmten Steine sind angenehm. (The stones warmed by the sun are pleasant.)",
+    "pl": "Na poziomie B2 konstrukcje przymiotnikowe i imiesłowowe czynią zdania bardziej bogate i opisowe.\n\n<strong>1. Imiesłów I</strong>\n- Forma -end czasownika używana jako przymiotnik\n- Przykład: Der lachende Mann ist mein Onkel. (Śmiejący się mężczyzna jest moim wujkiem.)\n\n<strong>2. Imiesłów II</strong>\n- Forma -t lub nieregularna używana jako przymiotnik\n- Przykład: Das gebrochene Fenster muss repariert werden. (Połamane okno musi być naprawione.)\n\n<strong>3. Zastosowanie</strong>\n- W pisaniu formalnym i opisach, skraca i wzbogaca zdania\n- Przykład: Die von der Sonne erwärmten Steine sind angenehm. (Kamienie ogrzane słońcem są przyjemne.)",
+    "ua": "На рівні B2 прикметникові та дієприкметникові конструкції роблять речення більш насиченими та описовими.\n\n<strong>1. Partizip I</strong>\n- Дієприкметник теперішнього часу (-end форма) використовується як прикметник\n- Приклад: Der lachende Mann ist mein Onkel. (Сміючийся чоловік — мій дядько.)\n\n<strong>2. Partizip II</strong>\n- Дієприкметник минулого часу (-t або неправильна форма) використовується як прикметник\n- Приклад: Das gebrochene Fenster muss repariert werden. (Зламане вікно потрібно відремонтувати.)\n\n<strong>3. Використання</strong>\n- У формальному письмі та описах робить речення коротшими та ефективнішими\n- Приклад: Die von der Sonne erwärmten Steine sind angenehm. (Камені, нагріті сонцем, приємні.)"
+  },
+  "examples": [
+    "Der lachende Mann ist mein Onkel.",
+    "Das gebrochene Fenster muss repariert werden.",
+    "Die von der Sonne erwärmten Steine sind angenehm.",
+    "Die singenden Kinder spielen im Garten.",
+    "Ein interessantes Buch liegt auf dem Tisch.",
+    "Die beschädigten Autos werden repariert.",
+    "Der lesende Junge sitzt ruhig im Park."
+  ]
+},
+{
+  "id": 95,
+  "level": "B2",
+  "title": "Konjunktiv II Vergangenheit – (Irreales in der Vergangenheit)",
+  "content": {
+    "tr": "B2’de Konjunktiv II Vergangenheit, geçmişteki hayali veya gerçekleşmemiş durumları anlatmak için kullanılır.\n\n<strong>1. Yapı</strong>\n- hätte/wäre + Partizip II\n- Örnek: Wenn ich mehr Zeit gehabt hätte, wäre ich früher gekommen. (Daha fazla zamanım olsaydı, daha erken gelirdim.)\n\n<strong>2. Kullanım</strong>\n- Geçmişteki hayali durumlar, pişmanlıklar veya varsayımlar\n\n<strong>3. Örnekler</strong>\n- Hätte ich das gewusst, hätte ich es anders gemacht. (Bunu bilseydim, farklı yapardım.)\n- Wäre er nicht krank gewesen, hätte er teilgenommen. (Hasta olmasaydı, katılırdı.)",
+    "en": "At B2, Konjunktiv II Vergangenheit is used to express hypothetical or unreal situations in the past.\n\n<strong>1. Structure</strong>\n- hätte/wäre + past participle\n- Example: Wenn ich mehr Zeit gehabt hätte, wäre ich früher gekommen. (If I had had more time, I would have come earlier.)\n\n<strong>2. Usage</strong>\n- Past hypothetical situations, regrets, or assumptions\n\n<strong>3. Examples</strong>\n- Hätte ich das gewusst, hätte ich es anders gemacht. (If I had known that, I would have done it differently.)\n- Wäre er nicht krank gewesen, hätte er teilgenommen. (If he had not been sick, he would have participated.)",
+    "pl": "Na poziomie B2 Konjunktiv II Vergangenheit używa się do wyrażania hipotetycznych lub nieprawdziwych sytuacji w przeszłości.\n\n<strong>1. Struktura</strong>\n- hätte/wäre + imiesłów przeszły\n- Przykład: Wenn ich mehr Zeit gehabt hätte, wäre ich früher gekommen. (Gdybym miał więcej czasu, przyszedłbym wcześniej.)\n\n<strong>2. Zastosowanie</strong>\n- Hipotetyczne sytuacje w przeszłości, żale lub założenia\n\n<strong>3. Przykłady</strong>\n- Hätte ich das gewusst, hätte ich es anders gemacht. (Gdybym to wiedział, zrobiłbym inaczej.)\n- Wäre er nicht krank gewesen, hätte er teilgenommen. (Gdyby nie był chory, wziąłby udział.)",
+    "ua": "На рівні B2 Konjunktiv II Vergangenheit використовується для гіпотетичних або нереальних ситуацій у минулому.\n\n<strong>1. Структура</strong>\n- hätte/wäre + Partizip II\n- Приклад: Wenn ich mehr Zeit gehabt hätte, wäre ich früher gekommen. (Якби у мене було більше часу, я б прийшов раніше.)\n\n<strong>2. Використання</strong>\n- Гіпотетичні минулі ситуації, жалкування або припущення\n\n<strong>3. Приклади</strong>\n- Hätte ich das gewusst, hätte ich es anders gemacht. (Якби я це знав, зробив би інакше.)\n- Wäre er nicht krank gewesen, hätte er teilgenommen. (Якби він не був хворий, він би взяв участь.)"
+  },
+  "examples": [
+    "Wenn ich mehr Zeit gehabt hätte, wäre ich früher gekommen.",
+    "Hätte ich das gewusst, hätte ich es anders gemacht.",
+    "Wäre er nicht krank gewesen, hätte er teilgenommen.",
+    "Hätte ich das Buch gelesen, hätte ich die Prüfung bestanden.",
+    "Wäre sie pünktlich gewesen, hätten wir nicht gewartet.",
+    "Hätte ich die Aufgabe gemacht, wäre es einfacher gewesen.",
+    "Wären wir früher losgegangen, hätten wir den Zug nicht verpasst."
+  ]
+},
+{
+  "id": 96,
+  "level": "B2",
+  "title": "Erweiterte Passivkonstruktionen – (mit werden + Modalverben + Perfekt)",
+  "content": {
+    "tr": "B2’de Passiv yapılar artık daha karmaşıktır; modal fiiller ve Perfekt ile birlikte eylem zorunluluğu ve geçmiş vurgusu yapılabilir.\n\n<strong>1. Yapı</strong>\n- Modalverb + Partizip II + worden\n- Örnek: Das Problem hat gelöst werden müssen. (Problem çözülmek zorunda kaldı.)\n\n<strong>2. Kullanım</strong>\n- Resmi yazılar, talimatlar veya teknik açıklamalar\n- Eylemin zorunluluğu ve geçmişteki durum vurgulanır\n\n<strong>3. Örnekler</strong>\n- Der Bericht hat geschrieben werden müssen. (Rapor yazılmak zorundaydı.)\n- Die Aufgaben haben erledigt werden sollen. (Görevler yapılmalıydı.)",
+    "en": "At B2, passive constructions become more complex; modal verbs and perfect tense can indicate obligation and past actions.\n\n<strong>1. Structure</strong>\n- Modal verb + past participle + worden\n- Example: Das Problem hat gelöst werden müssen. (The problem had to be solved.)\n\n<strong>2. Usage</strong>\n- Formal writings, instructions, or technical explanations\n- Emphasizes obligation and past actions\n\n<strong>3. Examples</strong>\n- Der Bericht hat geschrieben werden müssen. (The report had to be written.)\n- Die Aufgaben haben erledigt werden sollen. (The tasks should have been completed.)",
+    "pl": "Na poziomie B2 konstrukcje bierne stają się bardziej złożone; czasowniki modalne i czas przeszły Perfekt mogą wskazywać obowiązek i przeszłe działania.\n\n<strong>1. Struktura</strong>\n- Czasownik modalny + imiesłów przeszły + worden\n- Przykład: Das Problem hat gelöst werden müssen. (Problem musiał zostać rozwiązany.)\n\n<strong>2. Zastosowanie</strong>\n- Pisanie formalne, instrukcje lub wyjaśnienia techniczne\n- Podkreśla obowiązek i działania w przeszłości\n\n<strong>3. Przykłady</strong>\n- Der Bericht hat geschrieben werden müssen. (Raport musiał zostać napisany.)\n- Die Aufgaben haben erledigt werden sollen. (Zadania powinny zostać wykonane.)",
+    "ua": "На рівні B2 пасивні конструкції стають складнішими; модальні дієслова та Perfekt можуть вказувати на обов’язок та минулі дії.\n\n<strong>1. Структура</strong>\n- Модальне дієслово + Partizip II + worden\n- Приклад: Das Problem hat gelöst werden müssen. (Проблему довелося вирішити.)\n\n<strong>2. Використання</strong>\n- Офіційні тексти, інструкції або технічні пояснення\n- Підкреслює обов’язок та минулі дії\n\n<strong>3. Приклади</strong>\n- Der Bericht hat geschrieben werden müssen. (Звіт довелося написати.)\n- Die Aufgaben haben erledigt werden sollen. (Завдання мали бути виконані.)"
+  },
+  "examples": [
+    "Das Problem hat gelöst werden müssen.",
+    "Der Bericht hat geschrieben werden müssen.",
+    "Die Aufgaben haben erledigt werden sollen.",
+    "Die Fenster haben geputzt werden müssen.",
+    "Der Vertrag hat unterschrieben werden sollen.",
+    "Das Auto hat repariert werden müssen.",
+    "Die Briefe haben verschickt werden sollen."
+  ]
+},
+{
+  "id": 97,
+  "level": "B2",
+  "title": "Erweiterte Konjunktionalsätze II – (falls, solange, indem …)",
+  "content": {
+    "tr": "B2’de konjonksiyonel cümleler artık daha ileri seviyede, şart, süre ve yöntem ilişkilerini ifade eder.\n\n<strong>1. Türler</strong>\n- Bedingung: falls, wenn\n- Dauer: solange, während\n- Art und Weise: indem, dadurch dass\n\n<strong>2. Örnekler</strong>\n- Falls es regnet, bleiben wir zu Hause. (Eğer yağmur yağarsa, evde kalırız.)\n- Solange du lernst, wirst du Fortschritte machen. (Sen çalıştığın sürece ilerleme kaydedeceksin.)\n- Indem er übt, verbessert er seine Fähigkeiten. (Pratik yaparak yeteneklerini geliştiriyor.)",
+    "en": "At B2, conjunction clauses are now more advanced, expressing condition, duration, and manner.\n\n<strong>1. Types</strong>\n- Condition: falls, wenn\n- Duration: solange, während\n- Manner: indem, dadurch dass\n\n<strong>2. Examples</strong>\n- Falls es regnet, bleiben wir zu Hause. (If it rains, we stay at home.)\n- Solange du lernst, wirst du Fortschritte machen. (As long as you study, you will make progress.)\n- Indem er übt, verbessert er seine Fähigkeiten. (By practicing, he improves his skills.)",
+    "pl": "Na poziomie B2 zdania spójnikowe są bardziej zaawansowane, wyrażają warunek, czas trwania i sposób.\n\n<strong>1. Rodzaje</strong>\n- Warunek: falls, wenn\n- Czas trwania: solange, während\n- Sposób: indem, dadurch dass\n\n<strong>2. Przykłady</strong>\n- Falls es regnet, bleiben wir zu Hause. (Jeśli pada deszcz, zostajemy w domu.)\n- Solange du lernst, wirst du Fortschritte machen. (Tak długo jak się uczysz, poczynisz postępy.)\n- Indem er übt, verbessert er seine Fähigkeiten. (Poprzez ćwiczenie, poprawia swoje umiejętności.)",
+    "ua": "На рівні B2 сполучникові речення є більш просунутими, виражають умову, тривалість та спосіб.\n\n<strong>1. Типи</strong>\n- Умова: falls, wenn\n- Тривалість: solange, während\n- Спосіб: indem, dadurch dass\n\n<strong>2. Приклади</strong>\n- Falls es regnet, bleiben wir zu Hause. (Якщо йде дощ, ми залишаємося вдома.)\n- Solange du lernst, wirst du Fortschritte machen. (Поки ти вчишся, будеш робити прогрес.)\n- Indem er übt, verbessert er seine Fähigkeiten. (Практикуючись, він покращує свої навички.)"
+  },
+  "examples": [
+    "Falls es regnet, bleiben wir zu Hause.",
+    "Solange du lernst, wirst du Fortschritte machen.",
+    "Indem er übt, verbessert er seine Fähigkeiten.",
+    "Dadurch dass sie viel übt, wird sie besser.",
+    "Wenn du willst, können wir zusammen arbeiten.",
+    "Während er spricht, hört niemand zu.",
+    "Falls er kommt, sagen wir ihm Bescheid."
+  ]
+},
+{
+  "id": 98,
+  "level": "B2",
+  "title": "Partizipialkonstruktionen II – (Partizip I + II zur Satzverkürzung)",
+  "content": {
+    "tr": "B2’de participial yapılar, cümleleri kısaltmak ve daha etkili hâle getirmek için kullanılır.\n\n<strong>1. Partizip I</strong>\n- Fiilin -end haliyle sıfat veya zarf gibi kullanılır\n- Örnek: Der lachende Junge spielt im Garten. (Gülmekte olan çocuk bahçede oynuyor.)\n\n<strong>2. Partizip II</strong>\n- Fiilin geçmiş hali sıfat veya zarf gibi kullanılır\n- Örnek: Das gebrochene Glas wurde repariert. (Kırık cam tamir edildi.)\n\n<strong>3. Kullanım</strong>\n- Resmi yazı ve anlatımlarda, cümleleri daha kısa ve etkili hâle getirir\n- Örnek: Die von der Sonne erwärmten Steine sind angenehm. (Güneşle ısınan taşlar hoş.)",
+    "en": "At B2, participial constructions are used to shorten sentences and make them more effective.\n\n<strong>1. Participle I</strong>\n- Present participle (-end form) used as adjective or adverb\n- Example: Der lachende Junge spielt im Garten. (The laughing boy is playing in the garden.)\n\n<strong>2. Participle II</strong>\n- Past participle used as adjective or adverb\n- Example: Das gebrochene Glas wurde repariert. (The broken glass was repaired.)\n\n<strong>3. Usage</strong>\n- In formal writing and narration, makes sentences shorter and more effective\n- Example: Die von der Sonne erwärmten Steine sind angenehm. (The stones warmed by the sun are pleasant.)",
+    "pl": "Na poziomie B2 konstrukcje imiesłowowe służą do skracania zdań i czynią je bardziej efektywnymi.\n\n<strong>1. Imiesłów I</strong>\n- Forma -end czasownika używana jako przymiotnik lub przysłówek\n- Przykład: Der lachende Junge spielt im Garten. (Śmiejący się chłopiec bawi się w ogrodzie.)\n\n<strong>2. Imiesłów II</strong>\n- Forma przeszła czasownika używana jako przymiotnik lub przysłówek\n- Przykład: Das gebrochene Glas wurde repariert. (Połamany kieliszek został naprawiony.)\n\n<strong>3. Zastosowanie</strong>\n- W piśmie formalnym i narracji, skraca i wzbogaca zdania\n- Przykład: Die von der Sonne erwärmten Steine sind angenehm. (Kamienie ogrzane słońcem są przyjemne.)",
+    "ua": "На рівні B2 дієприкметникові конструкції використовуються для скорочення речень та надання їм більшої ефективності.\n\n<strong>1. Partizip I</strong>\n- Дієприкметник теперішнього часу (-end форма) використовується як прикметник або прислівник\n- Приклад: Der lachende Junge spielt im Garten. (Сміючийся хлопчик грає в саду.)\n\n<strong>2. Partizip II</strong>\n- Дієприкметник минулого часу використовується як прикметник або прислівник\n- Приклад: Das gebrochene Glas wurde repariert. (Зламане скло було відремонтовано.)\n\n<strong>3. Використання</strong>\n- У формальному письмі та оповіданні скорочує речення та робить їх ефективнішими\n- Приклад: Die von der Sonne erwärmten Steine sind angenehm. (Камені, нагріті сонцем, приємні.)"
+  },
+  "examples": [
+    "Der lachende Junge spielt im Garten.",
+    "Das gebrochene Glas wurde repariert.",
+    "Die von der Sonne erwärmten Steine sind angenehm.",
+    "Die singenden Kinder laufen fröhlich herum.",
+    "Der lesende Mann sitzt auf der Bank.",
+    "Das beschädigte Auto wird repariert.",
+    "Die im Regen stehenden Leute warten."
+  ]
+},
+{
+  "id": 99,
+  "level": "B2",
+  "title": "Erweiterte Relativsätze – (mit Präpositionen und Genitiv)",
+  "content": {
+    "tr": "B2’de relatif cümleler, daha karmaşık yapılarla, edat ve genitif kullanılarak anlatılır.\n\n<strong>1. Yapı</strong>\n- Relativpronomen + fiil sonda\n- Örnek: Das ist der Mann, dessen Auto gestohlen wurde. (Bu, arabası çalınan adamdır.)\n\n<strong>2. Kullanım</strong>\n- İleri seviye tanımlamalar ve detaylı açıklamalar\n- Örnek: Die Frau, mit der ich gesprochen habe, ist Ärztin. (Konuştuğum kadın doktordur.)\n\n<strong>3. Örnekler</strong>\n- Der Schüler, dessen Tasche fehlt, sucht sie. (Çantası kaybolan öğrenci onu arıyor.)\n- Das Buch, über das wir gesprochen haben, ist interessant. (Konuştuğumuz kitap ilginçtir.)",
+    "en": "At B2, relative clauses are used with more complex structures, including prepositions and genitive.\n\n<strong>1. Structure</strong>\n- Relative pronoun + verb at the end\n- Example: Das ist der Mann, dessen Auto gestohlen wurde. (This is the man whose car was stolen.)\n\n<strong>2. Usage</strong>\n- Advanced definitions and detailed explanations\n- Example: Die Frau, mit der ich gesprochen habe, ist Ärztin. (The woman I spoke with is a doctor.)\n\n<strong>3. Examples</strong>\n- Der Schüler, dessen Tasche fehlt, sucht sie. (The student whose bag is missing is looking for it.)\n- Das Buch, über das wir gesprochen haben, ist interessant. (The book we talked about is interesting.)",
+    "pl": "Na poziomie B2 zdania względne używane są w bardziej złożonych konstrukcjach, w tym z przyimkami i dopełniaczem.\n\n<strong>1. Struktura</strong>\n- Zaimek względny + czasownik na końcu\n- Przykład: Das ist der Mann, dessen Auto gestohlen wurde. (To jest mężczyzna, którego samochód został skradziony.)\n\n<strong>2. Zastosowanie</strong>\n- Zaawansowane definicje i szczegółowe opisy\n- Przykład: Die Frau, mit der ich gesprochen habe, ist Ärztin. (Kobieta, z którą rozmawiałem, jest lekarką.)\n\n<strong>3. Przykłady</strong>\n- Der Schüler, dessen Tasche fehlt, sucht sie. (Uczeń, którego torba zaginęła, jej szuka.)\n- Das Buch, über das wir gesprochen haben, ist interessant. (Książka, o której rozmawialiśmy, jest interesująca.)",
+    "ua": "На рівні B2 відносні речення використовуються у більш складних конструкціях, включаючи прийменники та генітив.\n\n<strong>1. Структура</strong>\n- Відносний займенник + дієслово в кінці\n- Приклад: Das ist der Mann, dessen Auto gestohlen wurde. (Це чоловік, у якого вкрали автомобіль.)\n\n<strong>2. Використання</strong>\n- Просунуті визначення та детальні пояснення\n- Приклад: Die Frau, mit der ich gesprochen habe, ist Ärztin. (Жінка, з якою я говорив, лікар.)\n\n<strong>3. Приклади</strong>\n- Der Schüler, dessen Tasche fehlt, sucht sie. (Учень, у якого загубилася сумка, шукає її.)\n- Das Buch, über das wir gesprochen haben, ist interessant. (Книга, про яку ми говорили, цікава.)"
+  },
+  "examples": [
+    "Das ist der Mann, dessen Auto gestohlen wurde.",
+    "Die Frau, mit der ich gesprochen habe, ist Ärztin.",
+    "Der Schüler, dessen Tasche fehlt, sucht sie.",
+    "Das Buch, über das wir gesprochen haben, ist interessant.",
+    "Der Mann, dessen Hund weglief, suchte ihn.",
+    "Die Kollegin, mit der wir arbeiten, ist nett.",
+    "Das Haus, dessen Dach neu ist, sieht schön aus."
+  ]
+},
+{
+  "id": 100,
+  "level": "B2",
+  "title": "Erweiterte Konjunktionalsätze III – (sobald, bevor, ohne dass …)",
+  "content": {
+    "tr": "B2’de konjonksiyonel cümleler artık zaman, neden ve şart ilişkilerini daha ileri seviyede ifade eder.\n\n<strong>1. Türler</strong>\n- Zeit: sobald, bevor\n- Bedingung: ohne dass, falls\n- Nedeni ve zıtlık: damit, sodass\n\n<strong>2. Örnekler</strong>\n- Sobald er kommt, beginnen wir. (O gelir gelmez başlıyoruz.)\n- Bevor du gehst, musst du das Formular ausfüllen. (Gitmeden önce formu doldurmalısın.)\n- Sie arbeitet, ohne dass sie müde wird. (O, yorgun olmadan çalışıyor.)",
+    "en": "At B2, conjunction clauses now express time, reason, and condition relationships at a more advanced level.\n\n<strong>1. Types</strong>\n- Time: sobald, bevor\n- Condition: ohne dass, falls\n- Reason and contrast: damit, sodass\n\n<strong>2. Examples</strong>\n- Sobald er kommt, beginnen wir. (As soon as he comes, we start.)\n- Bevor du gehst, musst du das Formular ausfüllen. (Before you leave, you must fill out the form.)\n- Sie arbeitet, ohne dass sie müde wird. (She works without getting tired.)",
+    "pl": "Na poziomie B2 zdania spójnikowe wyrażają czas, przyczynę i warunek na bardziej zaawansowanym poziomie.\n\n<strong>1. Rodzaje</strong>\n- Czas: sobald, bevor\n- Warunek: ohne dass, falls\n- Przyczyna i kontrast: damit, sodass\n\n<strong>2. Przykłady</strong>\n- Sobald er kommt, beginnen wir. (Jak tylko przyjdzie, zaczynamy.)\n- Bevor du gehst, musst du das Formular ausfüllen. (Zanim pójdziesz, musisz wypełnić formularz.)\n- Sie arbeitet, ohne dass sie müde wird. (Ona pracuje, nie męcząc się.)",
+    "ua": "На рівні B2 сполучникові речення виражають час, причину та умову на більш просунутому рівні.\n\n<strong>1. Типи</strong>\n- Час: sobald, bevor\n- Умова: ohne dass, falls\n- Причина та протилежність: damit, sodass\n\n<strong>2. Приклади</strong>\n- Sobald er kommt, beginnen wir. (Як тільки він прийде, ми починаємо.)\n- Bevor du gehst, musst du das Formular ausfüllen. (Перед тим як іти, ти повинен заповнити форму.)\n- Sie arbeitet, ohne dass sie müde wird. (Вона працює, не втомлюючись.)"
+  },
+  "examples": [
+    "Sobald er kommt, beginnen wir.",
+    "Bevor du gehst, musst du das Formular ausfüllen.",
+    "Sie arbeitet, ohne dass sie müde wird.",
+    "Wir warten, bis er anruft.",
+    "Er verlässt das Haus, ohne dass jemand es bemerkt.",
+    "Sobald das Wetter besser wird, gehen wir raus.",
+    "Bevor sie spricht, denkt sie nach."
+  ]
+},
+{
+  "id": 101,
+  "level": "C1",
+  "title": "Konjunktiv I – indirekte Rede",
+  "content": {
+    "tr": "C1 seviyesinde Konjunktiv I, dolaylı anlatım (indirekte Rede) için kullanılır. Haber veya alıntı aktarımında önemlidir.\n\n<strong>1. Yapı</strong>\n- Präsens: er sagt → er sage\n- Präteritum: er sagte → er sagte (aynı şekil olabilir)\n\n<strong>2. Kullanım</strong>\n- Gazetecilik, akademik yazılar, resmi konuşmalar\n- Örnek: Er sagte, er komme morgen. (O, yarın geleceğini söyledi.)\n\n<strong>3. İpuçları</strong>\n- Konjunktiv I ile fiil çekimi genellikle son pozisyonda olur.\n- Eğer Konjunktiv I ile karışıklık olursa, Konjunktiv II kullanılabilir.",
+    "en": "At C1, Konjunktiv I is used for indirect speech. It is important for reporting statements or quotes.\n\n<strong>1. Structure</strong>\n- Present: er sagt → er sage\n- Past: er sagte → er sagte (may remain same)\n\n<strong>2. Usage</strong>\n- Journalism, academic writing, formal speech\n- Example: Er sagte, er komme morgen. (He said that he would come tomorrow.)\n\n<strong>3. Tips</strong>\n- Verb is usually at the end in Konjunktiv I.\n- If ambiguity occurs, Konjunktiv II may be used.",
+    "pl": "Na poziomie C1 Konjunktiv I używany jest do mowy zależnej. Ważne w przekazywaniu wypowiedzi lub cytatów.\n\n<strong>1. Struktura</strong>\n- Czas teraźniejszy: er sagt → er sage\n- Czas przeszły: er sagte → er sagte (może pozostać taki sam)\n\n<strong>2. Zastosowanie</strong>\n- Dziennikarstwo, pisma akademickie, mowa formalna\n- Przykład: Er sagte, er komme morgen. (Powiedział, że przyjdzie jutro.)\n\n<strong>3. Wskazówki</strong>\n- Czasownik zwykle na końcu w Konjunktiv I.\n- Jeśli wystąpi niejasność, używa się Konjunktiv II.",
+    "ua": "На рівні C1 Konjunktiv I використовується для непрямої мови. Важливо при передачі заяв або цитат.\n\n<strong>1. Структура</strong>\n- Теперішній час: er sagt → er sage\n- Минулий час: er sagte → er sagte (може залишатися таким самим)\n\n<strong>2. Використання</strong>\n- Журналістика, академічні тексти, офіційні промови\n- Приклад: Er sagte, er komme morgen. (Він сказав, що прийде завтра.)\n\n<strong>3. Поради</strong>\n- Дієслово зазвичай у кінці в Konjunktiv I.\n- Якщо виникає двозначність, можна використати Konjunktiv II."
+  },
+  "examples": [
+    "Er sagte, er komme morgen.",
+    "Sie behauptete, sie sei krank.",
+    "Der Lehrer erklärte, die Prüfung beginne um 9 Uhr.",
+    "Der Politiker sagte, er werde die Reform unterstützen.",
+    "Die Zeitung berichtete, der Vorfall habe sich gestern ereignet.",
+    "Er meinte, er habe keine Zeit.",
+    "Sie erklärte, sie könne heute nicht teilnehmen."
+  ]
+},
+{
+  "id": 102,
+  "level": "C1",
+  "title": "Konjunktiv II – Irreale Situationen, Höflichkeit",
+  "content": {
+    "tr": "C1’de Konjunktiv II, hayali durumları, varsayımları ve resmi nezaket ifadelerini ifade etmek için kullanılır.\n\n<strong>1. Yapı</strong>\n- würde + Infinitiv veya düzensiz fiillerin özel çekimi\n- Örnek: Wenn ich reich wäre, würde ich eine Weltreise machen. (Zengin olsaydım, dünya turuna çıkardım.)\n\n<strong>2. Kullanım</strong>\n- Gerçekleşmemiş olaylar, dilekler, nazik talepler\n- Örnek: Könnten Sie mir bitte helfen? (Bana yardım edebilir misiniz?)\n\n<strong>3. İpuçları</strong>\n- C1’de Konjunktiv II daha doğal ve resmi dille bütünleşir.",
+    "en": "At C1, Konjunktiv II is used for unreal situations, hypothetical events, and polite expressions.\n\n<strong>1. Structure</strong>\n- würde + infinitive or irregular verb forms\n- Example: Wenn ich reich wäre, würde ich eine Weltreise machen. (If I were rich, I would go on a world tour.)\n\n<strong>2. Usage</strong>\n- Unfulfilled events, wishes, polite requests\n- Example: Könnten Sie mir bitte helfen? (Could you please help me?)\n\n<strong>3. Tips</strong>\n- At C1, Konjunktiv II is integrated naturally into formal speech and writing.",
+    "pl": "Na poziomie C1 Konjunktiv II używany jest do sytuacji nieistniejących, hipotetycznych i uprzejmych zwrotów.\n\n<strong>1. Struktura</strong>\n- würde + bezokolicznik lub forma nieregularna czasownika\n- Przykład: Wenn ich reich wäre, würde ich eine Weltreise machen. (Gdybym był bogaty, odbyłbym podróż dookoła świata.)\n\n<strong>2. Zastosowanie</strong>\n- Nieistniejące wydarzenia, życzenia, grzeczne prośby\n- Przykład: Könnten Sie mir bitte helfen? (Czy mógłby mi Pan/Pani pomóc?)\n\n<strong>3. Wskazówki</strong>\n- Na poziomie C1 Konjunktiv II jest naturalnie wpleciony w formalny język pisany i mówiony.",
+    "ua": "На рівні C1 Konjunktiv II використовується для нереальних ситуацій, гіпотетичних подій та ввічливих формулювань.\n\n<strong>1. Структура</strong>\n- würde + інфінітив або неправильні форми дієслова\n- Приклад: Wenn ich reich wäre, würde ich eine Weltreise machen. (Якби я був багатий, я б здійснив кругосвітню подорож.)\n\n<strong>2. Використання</strong>\n- Нереальні події, побажання, ввічливі прохання\n- Приклад: Könnten Sie mir bitte helfen? (Ви могли б мені допомогти?)\n\n<strong>3. Поради</strong>\n- На C1 Konjunktiv II природньо інтегрований у формальну мову письмову та усну."
+  },
+  "examples": [
+    "Wenn ich reich wäre, würde ich eine Weltreise machen.",
+    "Könnten Sie mir bitte helfen?",
+    "Wenn ich du wäre, würde ich das Angebot annehmen.",
+    "Er würde gern länger bleiben, wenn er Zeit hätte.",
+    "Wäre ich gestern zu Hause geblieben, hätte ich den Anruf gehört.",
+    "Hättest du das gewusst, hättest du anders reagiert.",
+    "Sie würde das Projekt übernehmen, wenn sie die Ressourcen hätte."
+  ]
+},
+{
+  "id": 103,
+  "level": "C1",
+  "title": "Passivkonstruktionen – (Vorgangspassiv, Zustandspassiv, Modalverben)",
+  "content": {
+    "tr": "C1’de Passiv yapılar, eylem ve durum odaklı olarak karmaşık hâle gelir; modal fiiller ve zamanlar ile birlikte kullanılır.\n\n<strong>1. Vorgangspassiv</strong>\n- Eylemi vurgular, werden + Partizip II\n- Örnek: Das Haus wird gebaut. (Ev inşa ediliyor.)\n\n<strong>2. Zustandspassiv</strong>\n- Durumu vurgular, sein + Partizip II\n- Örnek: Das Haus ist gebaut. (Ev inşa edilmiş durumda.)\n\n<strong>3. Modalverben im Passiv</strong>\n- Müssen, sollen, können + werden + Partizip II\n- Örnek: Das Problem muss gelöst werden. (Problem çözülmek zorunda.)",
+    "en": "At C1, passive constructions become more complex, focusing on action or state; modal verbs and tenses are combined.\n\n<strong>1. Vorgangspassiv</strong>\n- Focuses on action, werden + past participle\n- Example: Das Haus wird gebaut. (The house is being built.)\n\n<strong>2. Zustandspassiv</strong>\n- Focuses on state, sein + past participle\n- Example: Das Haus ist gebaut. (The house is built / in a finished state.)\n\n<strong>3. Modal verbs in Passive</strong>\n- müssen, sollen, können + werden + past participle\n- Example: Das Problem muss gelöst werden. (The problem has to be solved.)",
+    "pl": "Na poziomie C1 konstrukcje bierne stają się bardziej złożone, koncentrując się na działaniu lub stanie; czasowniki modalne i czasy są łączone.\n\n<strong>1. Vorgangspassiv</strong>\n- Skupia się na działaniu, werden + imiesłów przeszły\n- Przykład: Das Haus wird gebaut. (Dom jest budowany.)\n\n<strong>2. Zustandspassiv</strong>\n- Skupia się na stanie, sein + imiesłów przeszły\n- Przykład: Das Haus ist gebaut. (Dom jest wybudowany / w stanie ukończonym.)\n\n<strong>3. Czasowniki modalne w bierniku</strong>\n- müssen, sollen, können + werden + imiesłów przeszły\n- Przykład: Das Problem muss gelöst werden. (Problem musi zostać rozwiązany.)",
+    "ua": "На рівні C1 пасивні конструкції стають складнішими, зосереджуючись на дії або стані; модальні дієслова та часи комбінуються.\n\n<strong>1. Vorgangspassiv</strong>\n- Фокусується на дії, werden + Partizip II\n- Приклад: Das Haus wird gebaut. (Будинок будується.)\n\n<strong>2. Zustandspassiv</strong>\n- Фокусується на стані, sein + Partizip II\n- Приклад: Das Haus ist gebaut. (Будинок побудований / у завершеному стані.)\n\n<strong>3. Модальні дієслова в пасиві</strong>\n- müssen, sollen, können + werden + Partizip II\n- Приклад: Das Problem muss gelöst werden. (Проблему потрібно вирішити.)"
+  },
+  "examples": [
+    "Das Haus wird gebaut.",
+    "Das Haus ist gebaut.",
+    "Das Problem muss gelöst werden.",
+    "Die Aufgaben sollen erledigt werden.",
+    "Der Brief kann geschrieben werden.",
+    "Die Wohnung wird renoviert.",
+    "Das Auto ist repariert."
+  ]
+},
+{
+  "id": 104,
+  "level": "C1",
+  "title": "Nominalstil – (Verben in Substantive verwandeln)",
+  "content": {
+    "tr": "C1 seviyesinde Nominalstil, yazılı anlatımı daha resmi ve akademik hâle getirmek için fiilleri isimleştirme yöntemidir.\n\n<strong>1. Yapı</strong>\n- Fiil kökü + uygun isim eki (z.B. -ung, -heit, -keit, -nis)\n- Örnek: 'analysieren' → 'die Analyse', 'diskutieren' → 'die Diskussion'\n\n<strong>2. Kullanım</strong>\n- Akademik metinlerde, raporlarda, resmi yazışmalarda\n- Fiili cümlede kullanmak yerine isimle cümleyi zenginleştirir\n\n<strong>3. İpuçları</strong>\n- Cümle yapısını değiştirirken genellikle **Präpositionen** ile birlikte kullanılır\n- Örnek: Durch die Analyse der Daten konnten wichtige Ergebnisse gewonnen werden. (Veri analizleri sayesinde önemli sonuçlar elde edildi.)",
+    "en": "At C1, Nominalstil (nominal style) turns verbs into nouns to create more formal and academic writing.\n\n<strong>1. Structure</strong>\n- Verb stem + appropriate noun ending (e.g., -ung, -heit, -keit, -nis)\n- Example: 'analysieren' → 'die Analyse', 'diskutieren' → 'die Diskussion'\n\n<strong>2. Usage</strong>\n- Academic texts, reports, official documents\n- Replacing verbs with nouns enriches the sentence structure\n\n<strong>3. Tips</strong>\n- Often combined with prepositions when restructuring sentences\n- Example: Durch die Analyse der Daten konnten wichtige Ergebnisse gewonnen werden. (Important results were obtained through data analysis.)",
+    "pl": "Na poziomie C1 Nominalstil przekształca czasowniki w rzeczowniki, aby nadać tekstowi bardziej formalny i akademicki charakter.\n\n<strong>1. Struktura</strong>\n- Rdzeń czasownika + odpowiedni sufiks (np. -ung, -heit, -keit, -nis)\n- Przykład: 'analysieren' → 'die Analyse', 'diskutieren' → 'die Diskussion'\n\n<strong>2. Zastosowanie</strong>\n- Teksty akademickie, raporty, pisma urzędowe\n- Zastępowanie czasowników rzeczownikami wzbogaca strukturę zdania\n\n<strong>3. Wskazówki</strong>\n- Zwykle używa się razem z przyimkami przy zmianie konstrukcji\n- Przykład: Durch die Analyse der Daten konnten wichtige Ergebnisse gewonnen werden. (Dzięki analizie danych uzyskano ważne wyniki.)",
+    "ua": "На рівні C1 Nominalstil перетворює дієслова на іменники, щоб зробити письмовий текст більш формальним та академічним.\n\n<strong>1. Структура</strong>\n- Основа дієслова + відповідний суфікс (наприклад, -ung, -heit, -keit, -nis)\n- Приклад: 'analysieren' → 'die Analyse', 'diskutieren' → 'die Diskussion'\n\n<strong>2. Використання</strong>\n- Академічні тексти, звіти, офіційні документи\n- Заміна дієслів на іменники збагачує структуру речення\n\n<strong>3. Поради</strong>\n- Зазвичай використовується з прийменниками при зміні структури речення\n- Приклад: Durch die Analyse der Daten konnten wichtige Ergebnisse gewonnen werden. (Завдяки аналізу даних отримано важливі результати.)"
+  },
+  "examples": [
+    "Durch die Analyse der Daten konnten wichtige Ergebnisse gewonnen werden.",
+    "Die Diskussion der Ergebnisse fand gestern statt.",
+    "Aufgrund der Untersuchung wurden neue Hypothesen formuliert.",
+    "Die Verbesserung der Prozesse ist notwendig.",
+    "Die Bewertung der Leistung erfolgt durch die Lehrer.",
+    "Durch die Planung des Projektes konnte Zeit gespart werden.",
+    "Die Umsetzung der Maßnahmen war erfolgreich."
+  ]
+},
+{
+  "id": 105,
+  "level": "C1",
+  "title": "Erweiterte Adverbialsätze – (Konzession, Bedingung, Ursache-Wirkung)",
+  "content": {
+    "tr": "C1’de adverbial cümleler artık daha karmaşık: kabul (concession), şart (condition), neden-sonuç ilişkileri ileri seviyede anlatılır.\n\n<strong>1. Konzessivsatz</strong>\n- obwohl, obgleich, auch wenn\n- Örnek: Obwohl er krank war, kam er zur Arbeit. (Hasta olmasına rağmen işe geldi.)\n\n<strong>2. Bedingungssatz</strong>\n- falls, sofern, vorausgesetzt dass\n- Örnek: Falls es regnet, bleiben wir zu Hause. (Yağmur yağarsa evde kalırız.)\n\n<strong>3. Kausalsatz</strong>\n- da, weil, zumal\n- Örnek: Da er viel gelernt hatte, bestand er die Prüfung. (Çok çalıştığı için sınavı geçti.)\n\n<strong>4. İpuçları</strong>\n- Fiil genellikle sonda yer alır.\n- Cümleleri daha resmi ve akıcı hâle getirir.",
+    "en": "At C1, adverbial clauses become more complex: concession, condition, and cause-effect relationships are expressed at an advanced level.\n\n<strong>1. Concessive clause</strong>\n- obwohl, obgleich, auch wenn\n- Example: Obwohl er krank war, kam er zur Arbeit. (Although he was sick, he came to work.)\n\n<strong>2. Conditional clause</strong>\n- falls, sofern, vorausgesetzt dass\n- Example: Falls es regnet, bleiben wir zu Hause. (If it rains, we stay at home.)\n\n<strong>3. Causal clause</strong>\n- da, weil, zumal\n- Example: Da er viel gelernt hatte, bestand er die Prüfung. (Since he had studied a lot, he passed the exam.)\n\n<strong>4. Tips</strong>\n- Verb usually goes to the end.\n- Makes sentences more formal and fluent.",
+    "pl": "Na poziomie C1 zdania okolicznikowe stają się bardziej złożone: wyrażają koncesję, warunek i relacje przyczyna-skutek.\n\n<strong>1. Zdanie koncesyjne</strong>\n- obwohl, obgleich, auch wenn\n- Przykład: Obwohl er krank war, kam er zur Arbeit. (Chociaż był chory, przyszedł do pracy.)\n\n<strong>2. Zdanie warunkowe</strong>\n- falls, sofern, vorausgesetzt dass\n- Przykład: Falls es regnet, bleiben wir zu Hause. (Jeżeli będzie padać, zostaniemy w domu.)\n\n<strong>3. Zdanie przyczynowe</strong>\n- da, weil, zumal\n- Przykład: Da er viel gelernt hatte, bestand er die Prüfung. (Ponieważ dużo się uczył, zdał egzamin.)\n\n<strong>4. Wskazówki</strong>\n- Czasownik zazwyczaj na końcu.\n- Zdania stają się bardziej formalne i płynne.",
+    "ua": "На рівні C1 обставинні речення стають складнішими: виражають поступку, умову та причинно-наслідкові зв’язки.\n\n<strong>1. Концесивне речення</strong>\n- obwohl, obgleich, auch wenn\n- Приклад: Obwohl er krank war, kam er zur Arbeit. (Хоча він був хворий, він прийшов на роботу.)\n\n<strong>2. Умовне речення</strong>\n- falls, sofern, vorausgesetzt dass\n- Приклад: Falls es regnet, bleiben wir zu Hause. (Якщо буде дощ, залишаємося вдома.)\n\n<strong>3. Причинове речення</strong>\n- da, weil, zumal\n- Приклад: Da er viel gelernt hatte, bestand er die Prüfung. (Оскільки він багато вчився, він склав іспит.)\n\n<strong>4. Поради</strong>\n- Дієслово зазвичай в кінці.\n- Робить речення більш офіційними та плавними."
+  },
+  "examples": [
+    "Obwohl er krank war, kam er zur Arbeit.",
+    "Falls es regnet, bleiben wir zu Hause.",
+    "Da er viel gelernt hatte, bestand er die Prüfung.",
+    "Auch wenn sie müde ist, arbeitet sie weiter.",
+    "Vorausgesetzt, dass alle Teilnehmer kommen, beginnt das Meeting pünktlich.",
+    "Obgleich er wenig Zeit hatte, half er seinem Freund.",
+    "Zumal er schon Erfahrung hatte, übernahm er die Leitung."
+  ]
+},
+{
+  "id": 106,
+  "level": "C1",
+  "title": "Erweiterte Relativsätze II – (Präposition + Genitiv/ Dativ/ Akkusativ)",
+  "content": {
+    "tr": "C1’de relatif cümleler artık ileri seviyede, özellikle **preposition + kasus** ile karmaşık ilişkileri gösterir.\n\n<strong>1. Yapı</strong>\n- Präposition + Relativpronomen + fiil sonda\n- Örnek: Das ist der Mann, mit dem ich gesprochen habe. (Konuştuğum adam budur.)\n\n<strong>2. Kullanım</strong>\n- Gelişmiş tanımlamalar ve resmi metinlerde kullanılır\n- Örnek: Die Organisation, für die er arbeitet, ist international bekannt. (Çalıştığı kuruluş uluslararası üne sahiptir.)\n\n<strong>3. İpuçları</strong>\n- Dativ, Akkusativ ve Genitiv ile kullanımlar karışabilir; dikkatli ol\n- Cümlelerde resmi ve akademik üslup sağlamak için tercih edilir.",
+    "en": "At C1, relative clauses reach an advanced level, especially showing complex relationships with preposition + case.\n\n<strong>1. Structure</strong>\n- Preposition + relative pronoun + verb at the end\n- Example: Das ist der Mann, mit dem ich gesprochen habe. (This is the man I spoke with.)\n\n<strong>2. Usage</strong>\n- Advanced definitions and in formal texts\n- Example: Die Organisation, für die er arbeitet, ist international bekannt. (The organization he works for is internationally known.)\n\n<strong>3. Tips</strong>\n- Dative, accusative, and genitive cases can be tricky; pay attention\n- Preferred for formal and academic style.",
+    "pl": "Na poziomie C1 zdania względne osiągają zaawansowany poziom, szczególnie pokazując złożone relacje z przyimkiem + przypadek.\n\n<strong>1. Struktura</strong>\n- Przyimek + zaimek względny + czasownik na końcu\n- Przykład: Das ist der Mann, mit dem ich gesprochen habe. (To jest mężczyzna, z którym rozmawiałem.)\n\n<strong>2. Zastosowanie</strong>\n- Zaawansowane definicje i teksty formalne\n- Przykład: Die Organisation, für die er arbeitet, ist international bekannt. (Organizacja, w której pracuje, jest międzynarodowo znana.)\n\n<strong>3. Wskazówki</strong>\n- Użycie Dativ, Akkusativ i Genitiv może być trudne; uważaj\n- Preferowane w stylu formalnym i akademickim.",
+    "ua": "На рівні C1 відносні речення досягають просунутого рівня, особливо при демонстрації складних відносин через прийменник + відмінок.\n\n<strong>1. Структура</strong>\n- Прийменник + відносний займенник + дієслово в кінці\n- Приклад: Das ist der Mann, mit dem ich gesprochen habe. (Це чоловік, з яким я розмовляв.)\n\n<strong>2. Використання</strong>\n- Просунуті визначення та офіційні тексти\n- Приклад: Die Organisation, für die er arbeitet, ist international bekannt. (Організація, в якій він працює, відома на міжнародному рівні.)\n\n<strong>3. Поради</strong>\n- Dativ, Akkusativ та Genitiv можуть плутати; будьте уважні\n- Використовується для офіційного та академічного стилю."
+  },
+  "examples": [
+    "Das ist der Mann, mit dem ich gesprochen habe.",
+    "Die Organisation, für die er arbeitet, ist international bekannt.",
+    "Das Buch, über das wir diskutierten, ist vergriffen.",
+    "Die Stadt, in der ich geboren wurde, hat sich stark verändert.",
+    "Der Lehrer, dessen Klasse sehr groß ist, unterrichtet gut.",
+    "Das Projekt, an dem sie beteiligt ist, wurde abgeschlossen.",
+    "Die Firma, mit deren Hilfe das Projekt realisiert wurde, ist führend."
+  ]
+},
+{
+  "id": 107,
+  "level": "C1",
+  "title": "Indirekte Fragen – (ob / wer / was / wie …)",
+  "content": {
+    "tr": "C1’de indirekte Fragen (dolaylı sorular) resmi yazışma ve akademik metinlerde sık kullanılır. Fiil cümlenin sonunda yer alır.\n\n<strong>1. Yapı</strong>\n- Fragewort + cümle + Verb am Ende\n- Örnek: Ich weiß nicht, wer das gesagt hat. (Kimin söylediğini bilmiyorum.)\n\n<strong>2. Kapsam</strong>\n- ob-sorular: Ich frage mich, ob er kommt. (Gelecek mi diye merak ediyorum.)\n- wer/was/wo/wie: Ich weiß nicht, wo er wohnt. (Nerede yaşadığını bilmiyorum.)\n\n<strong>3. İpuçları</strong>\n- Dolaylı sorular resmi ve akademik yazılarda daha nazik bir ifade sağlar.\n- Cümle sonu fiil kuralına dikkat edin.",
+    "en": "At C1, indirect questions are used frequently in formal writing and academic texts. The verb goes to the end.\n\n<strong>1. Structure</strong>\n- Question word + clause + verb at the end\n- Example: Ich weiß nicht, wer das gesagt hat. (I do not know who said that.)\n\n<strong>2. Scope</strong>\n- ob-questions: Ich frage mich, ob er kommt. (I wonder if he will come.)\n- wer/was/wo/wie: Ich weiß nicht, wo er wohnt. (I don’t know where he lives.)\n\n<strong>3. Tips</strong>\n- Indirect questions make expressions more polite in formal writing.\n- Pay attention to verb-at-the-end rule.",
+    "pl": "Na poziomie C1 pytania pośrednie są często używane w pismach formalnych i tekstach akademickich. Czasownik stoi na końcu.\n\n<strong>1. Struktura</strong>\n- Fragewort + zdanie + czasownik na końcu\n- Przykład: Ich weiß nicht, wer das gesagt hat. (Nie wiem, kto to powiedział.)\n\n<strong>2. Zakres</strong>\n- pytania ob: Ich frage mich, ob er kommt. (Zastanawiam się, czy przyjdzie.)\n- wer/was/wo/wie: Ich weiß nicht, wo er wohnt. (Nie wiem, gdzie mieszka.)\n\n<strong>3. Wskazówki</strong>\n- Pytania pośrednie są grzeczniejsze w oficjalnym piśmie.\n- Zwróć uwagę na czasownik na końcu zdania.",
+    "ua": "На рівні C1 непрямі запитання часто використовуються в офіційних текстах та академічних роботах. Дієслово стоїть у кінці.\n\n<strong>1. Структура</strong>\n- Fragewort + речення + дієслово в кінці\n- Приклад: Ich weiß nicht, wer das gesagt hat. (Я не знаю, хто це сказав.)\n\n<strong>2. Область застосування</strong>\n- ob-запитання: Ich frage mich, ob er kommt. (Цікаво, чи він прийде.)\n- wer/was/wo/wie: Ich weiß nicht, wo er wohnt. (Я не знаю, де він живе.)\n\n<strong>3. Поради</strong>\n- Непрямі запитання роблять висловлювання ввічливішими в офіційних текстах.\n- Дотримуйтесь правила розміщення дієслова в кінці."
+  },
+  "examples": [
+    "Ich weiß nicht, wer das gesagt hat.",
+    "Ich frage mich, ob er kommt.",
+    "Kannst du mir sagen, wo das Büro ist?",
+    "Wir wissen nicht, wann der Zug abfährt.",
+    "Er wollte wissen, wie sie das Problem löst.",
+    "Sie fragte, ob ich Zeit habe.",
+    "Ich habe keine Ahnung, was er denkt."
+  ]
+},
+{
+  "id": 108,
+  "level": "C1",
+  "title": "Nominalisierte Adjektive – (formal, stilistisch)",
+  "content": {
+    "tr": "C1’de sıfatların isimleştirilmesi (nominalisierte Adjektive) yazılı dilde resmi ve akademik stil sağlar.\n\n<strong>1. Yapı</strong>\n- Sıfat + Artikel: das Gute, der Alte, die Wichtige\n- Örnek: Das Gute am Plan ist, dass er flexibel ist. (Planın iyi yanı, esnek olmasıdır.)\n\n<strong>2. Kullanım</strong>\n- Akademik yazılar, raporlar, makaleler\n- Sıfatlar isimleştirilerek cümlede vurguyu değiştirir\n\n<strong>3. İpuçları</strong>\n- Çoğu zaman **Präposition + nominalisierte Adjektive** ile kullanılır: für das Wichtige, wegen des Guten",
+    "en": "At C1, nominalized adjectives give a formal and academic style in writing.\n\n<strong>1. Structure</strong>\n- Adjective + article: das Gute, der Alte, die Wichtige\n- Example: Das Gute am Plan ist, dass er flexibel ist. (The good thing about the plan is that it is flexible.)\n\n<strong>2. Usage</strong>\n- Academic texts, reports, articles\n- Nominalized adjectives change the focus within sentences\n\n<strong>3. Tips</strong>\n- Often used with prepositions: für das Wichtige, wegen des Guten",
+    "pl": "Na poziomie C1 rzeczowniki utworzone ze przymiotników nadają styl formalny i akademicki.\n\n<strong>1. Struktura</strong>\n- Przymiotnik + rodzajnik: das Gute, der Alte, die Wichtige\n- Przykład: Das Gute am Plan ist, dass er flexibel ist. (Dobrą stroną planu jest to, że jest elastyczny.)\n\n<strong>2. Zastosowanie</strong>\n- Teksty akademickie, raporty, artykuły\n- Nominalizowane przymiotniki zmieniają akcent w zdaniu\n\n<strong>3. Wskazówki</strong>\n- Często używane z przyimkami: für das Wichtige, wegen des Guten",
+    "ua": "На рівні C1 іменники з прикметників надають письмовому тексту формальний та академічний стиль.\n\n<strong>1. Структура</strong>\n- Прикметник + артикль: das Gute, der Alte, die Wichtige\n- Приклад: Das Gute am Plan ist, dass er flexibel ist. (Хороше в плані те, що він гнучкий.)\n\n<strong>2. Використання</strong>\n- Академічні тексти, звіти, статті\n- Іменники з прикметників змінюють акцент у реченні\n\n<strong>3. Поради</strong>\n- Часто використовується з прийменниками: für das Wichtige, wegen des Guten"
+  },
+  "examples": [
+    "Das Gute am Plan ist, dass er flexibel ist.",
+    "Für das Wichtige sollten wir mehr Zeit einplanen.",
+    "Wegen des Guten musste er warten.",
+    "Das Alte im Museum ist sehr beeindruckend.",
+    "Die Wichtige im Bericht wurde hervorgehoben.",
+    "Trotz des Neuen blieb alles beim Alten.",
+    "Das Interessante an der Diskussion war der neue Vorschlag."
+  ]
+},
+{
+  "id": 109,
+  "level": "C1",
+  "title": "Idioms und feste Wendungen – (Redewendungen, Sprichwörter)",
+  "content": {
+    "tr": "C1’de deyimler ve sabit ifadeler, yazılı ve sözlü ifadeyi zenginleştirir ve akıcılık sağlar.\n\n<strong>1. Yapı</strong>\n- Sabit ifade veya deyim, genellikle kalıplaşmış\n- Örnek: etwas auf die lange Bank schieben (bir işi ertelemek)\n\n<strong>2. Kullanım</strong>\n- Akademik makalelerde, resmi konuşmalarda, gazetecilikte\n- Konuşmayı doğal ve akıcı hâle getirir\n\n<strong>3. İpuçları</strong>\n- Deyimlerin anlamı genellikle mecazdır; kelimesi kelimesine çevrilmez.\n- Cümle içinde bağlamına uygun kullan",
+    "en": "At C1, idioms and fixed expressions enrich both written and spoken language, making it more fluent.\n\n<strong>1. Structure</strong>\n- Fixed phrase or idiom, usually set\n- Example: etwas auf die lange Bank schieben (to postpone something)\n\n<strong>2. Usage</strong>\n- Academic papers, formal speech, journalism\n- Makes expression natural and fluent\n\n<strong>3. Tips</strong>\n- Idioms are usually figurative; not translated literally\n- Use in context appropriately",
+    "pl": "Na poziomie C1 idiomy i stałe wyrażenia wzbogacają język pisany i mówiony, czyniąc go bardziej płynnym.\n\n<strong>1. Struktura</strong>\n- Stałe wyrażenie lub idiom, zazwyczaj utrwalone\n- Przykład: etwas auf die lange Bank schieben (odłożyć coś na później)\n\n<strong>2. Zastosowanie</strong>\n- Teksty akademickie, mowa formalna, dziennikarstwo\n- Uczynia wypowiedź naturalną i płynną\n\n<strong>3. Wskazówki</strong>\n- Idiomy mają zazwyczaj znaczenie przenośne; nie tłumaczyć dosłownie\n- Stosować odpowiednio w kontekście",
+    "ua": "На рівні C1 ідіоми та сталi вирази збагачують письмову та усну мову, роблячи її більш плавною.\n\n<strong>1. Структура</strong>\n- Стійкий вираз або ідіома, зазвичай усталений\n- Приклад: etwas auf die lange Bank schieben (відкласти щось)\n\n<strong>2. Використання</strong>\n- Академічні статті, офіційна мова, журналістика\n- Робить висловлювання природним та плавним\n\n<strong>3. Поради</strong>\n- Ідіоми зазвичай мають переносне значення; не перекладати буквально\n- Використовувати відповідно до контексту"
+  },
+  "examples": [
+    "Er hat die Arbeit auf die lange Bank geschoben.",
+    "Das ist das A und O in diesem Projekt.",
+    "Sie schlägt zwei Fliegen mit einer Klappe.",
+    "Alles hat seine Grenzen.",
+    "Er ist mit allen Wassern gewaschen.",
+    "Das Kind bringt die Katze zum Schmusen.",
+    "Man soll den Tag nicht vor dem Abend loben."
+  ]
+},
+{
+  "id": 110,
+  "level": "C1",
+  "title": "Konjunktiv I – (indirekte Rede, Berichterstattung)",
+  "content": {
+    "tr": "C1 seviyesinde Konjunktiv I, özellikle dolaylı anlatımda (indirekte Rede) ve akademik / gazetecilik metinlerinde tarafsızlık sağlamak için kullanılır.\n\n<strong>1. Amaç</strong>\n- Konuşanın sözlerini aktarmak\n- Yorumsuz ve tarafsız anlatım sağlamak\n\n<strong>2. Yapı</strong>\n- fiil kökü + Konjunktiv I eki\n- sagen → er sage\n- haben → er habe\n- sein → er sei\n\n<strong>3. Kullanım alanları</strong>\n- Haber metinleri\n- Akademik raporlar\n- Resmi açıklamalar\n\n<strong>4. Konjunktiv II ile fark</strong>\n- Konjunktiv I bilgi aktarır\n- Konjunktiv II şüphe veya mesafe ifade eder",
+    "en": "At C1 level, Konjunktiv I is mainly used in indirect speech to report statements neutrally, especially in academic and journalistic texts.\n\n<strong>Purpose</strong>\n- Reporting statements\n- Maintaining neutrality\n\n<strong>Structure</strong>\n- verb stem + Konjunktiv I ending\n\n<strong>Usage</strong>\n- News reports\n- Academic writing\n- Official statements",
+    "pl": "Na poziomie C1 Konjunktiv I jest używany głównie w mowie zależnej w celu neutralnego przekazywania informacji.\n\n<strong>Zastosowanie</strong>\n- Teksty prasowe\n- Raporty akademickie\n- Oficjalne komunikaty",
+    "ua": "На рівні C1 Konjunktiv I використовується для нейтральної передачі чужих висловлювань у непрямій мові.\n\n<strong>Використання</strong>\n- Новини\n- Академічні тексти\n- Офіційні заяви"
+  },
+  "examples": [
+    "Er sagt, er habe keine Zeit.",
+    "Die Sprecherin erklärte, der Vertrag sei gültig.",
+    "Der Autor schreibt, das Ergebnis zeige klare Unterschiede.",
+    "Sie behauptet, sie sei unschuldig.",
+    "Der Bericht stellt fest, die Lage bleibe stabil.",
+    "Er meinte, er komme später.",
+    "Die Zeitung schrieb, die Preise stiegen weiter."
+  ]
+},
+{
+  "id": 111,
+  "level": "C1",
+  "title": "Erweiterte Relativsätze – (Präposition + Relativpronomen)",
+  "content": {
+    "tr": "C1’de genişletilmiş relatif cümleler, akademik ve yazılı dilde daha karmaşık bilgileri tek cümlede ifade etmeyi sağlar.\n\n<strong>1. Yapı</strong>\n- Präposition + Relativpronomen + Verb am Ende\n- Örnek: Das Thema, über das wir gesprochen haben, ist sehr aktuell.\n\n<strong>2. Dikkat edilmesi gerekenler</strong>\n- Präposition ana cümledeki fiile bağlıdır\n- Relativpronomen cinsiyet ve hâle göre değişir\n\n<strong>3. Stilistik etki</strong>\n- Metni daha yoğun ve akademik hâle getirir\n- Bilgi tekrarını önler",
+    "en": "At C1, extended relative clauses allow complex information to be expressed precisely in academic writing.\n\n<strong>Structure</strong>\n- preposition + relative pronoun + verb at the end\n\n<strong>Effect</strong>\n- Makes texts denser and more formal",
+    "pl": "Na poziomie C1 rozbudowane zdania względne umożliwiają precyzyjne wyrażanie złożonych informacji.\n\n<strong>Struktura</strong>\n- przyimek + zaimek względny + czasownik na końcu",
+    "ua": "На рівні C1 розширені відносні речення дозволяють точно передавати складну інформацію.\n\n<strong>Структура</strong>\n- прийменник + відносний займенник + дієслово в кінці"
+  },
+  "examples": [
+    "Das Thema, über das wir gesprochen haben, ist sehr aktuell.",
+    "Die Firma, für die er arbeitet, expandiert stark.",
+    "Der Grund, aus dem er kündigte, blieb unklar.",
+    "Die Studie, auf die sich der Artikel bezieht, ist neu.",
+    "Die Stadt, in der er geboren wurde, liegt im Süden.",
+    "Das Projekt, an dem wir arbeiten, ist komplex.",
+    "Die Regelung, nach der wir handeln, ist verbindlich."
+  ]
+},
+{
+  "id": 112,
+  "level": "C1",
+  "title": "Partizipialkonstruktionen – (verkürzte Nebensätze)",
+  "content": {
+    "tr": "C1 seviyesinde Partizipialkonstruktionen, yan cümleleri kısaltarak metni daha akıcı ve akademik hâle getirir.\n\n<strong>1. Partizip I</strong>\n- gleichzeitig ablaufende Handlung\n- Örnek: Die lachenden Kinder spielten im Park.\n\n<strong>2. Partizip II</strong>\n- abgeschlossene Handlung\n- Örnek: Die abgeschlossene Arbeit wurde veröffentlicht.\n\n<strong>3. Stilistik kullanım</strong>\n- Akademik metinler\n- Resmi raporlar\n- Yazılı anlatımda yoğunluk sağlar",
+    "en": "At C1, participle constructions shorten subordinate clauses and create a more academic writing style.\n\n<strong>Types</strong>\n- Participle I: simultaneous actions\n- Participle II: completed actions",
+    "pl": "Na poziomie C1 konstrukcje imiesłowowe skracają zdania podrzędne i nadają styl akademicki.\n\n<strong>Rodzaje</strong>\n- Partizip I i II",
+    "ua": "На рівні C1 дієприкметникові конструкції роблять текст більш стислим та формальним.\n\n<strong>Типи</strong>\n- Partizip I та Partizip II"
+  },
+  "examples": [
+    "Die lachenden Kinder spielten im Park.",
+    "Die abgeschlossene Arbeit wurde veröffentlicht.",
+    "Die in Berlin lebende Autorin stellte ihr Buch vor.",
+    "Der gestern veröffentlichte Bericht sorgte für Diskussionen.",
+    "Die schnell wachsende Firma sucht Fachkräfte.",
+    "Die bereits erwähnten Probleme bleiben bestehen.",
+    "Die sorgfältig vorbereitete Präsentation überzeugte alle."
+  ]
+},
+{
+  "id": 113,
+  "level": "C1",
+  "title": "Nominalstil und Verbalstil – (akademischer vs. dynamischer Stil)",
+  "content": {
+    "tr": "C1 seviyesinde Nominalstil ve Verbalstil, özellikle akademik ve resmi metinlerde anlam yoğunluğu ve stil farkı yaratmak için kullanılır.\n\n<strong>1. Nominalstil</strong>\n- Fiiller yerine isimler kullanılır\n- Daha resmi ve yoğun anlatım sağlar\n- Örnek: Die Durchführung der Analyse erfolgte gestern.\n\n<strong>2. Verbalstil</strong>\n- Fiiller ön plandadır\n- Daha akıcı ve anlaşılırdır\n- Örnek: Wir analysierten die Daten gestern.\n\n<strong>3. Karşılaştırma</strong>\n- Nominalstil: akademik metinler, raporlar\n- Verbalstil: günlük dil, anlatı metinleri",
+    "en": "At C1 level, nominal and verbal styles are used to adjust formality and information density, especially in academic writing.\n\n<strong>Nominal style</strong>\n- Uses nouns instead of verbs\n- More formal and compact\n\n<strong>Verbal style</strong>\n- Uses verbs\n- More dynamic and readable",
+    "pl": "Na poziomie C1 styl nominalny i werbalny służą do różnicowania formalności i gęstości informacji.\n\n<strong>Styl nominalny</strong>\n- Preferuje rzeczowniki\n\n<strong>Styl werbalny</strong>\n- Preferuje czasowniki",
+    "ua": "На рівні C1 номінальний та дієслівний стилі використовуються для зміни формальності та щільності тексту.\n\n<strong>Номінальний стиль</strong>\n- Переважають іменники\n\n<strong>Дієслівний стиль</strong>\n- Переважають дієслова"
+  },
+  "examples": [
+    "Die Durchführung der Analyse erfolgte gestern.",
+    "Die Entscheidung über das Projekt wurde getroffen.",
+    "Wir analysierten die Daten gestern.",
+    "Man entschied sich für eine neue Strategie.",
+    "Die Verbesserung der Qualität ist notwendig.",
+    "Wir verbessern die Qualität kontinuierlich.",
+    "Die Umsetzung der Maßnahme verzögert sich."
+  ]
+},
+{
+  "id": 114,
+  "level": "C1",
+  "title": "Diskursmarker – (hingegen, dennoch, folglich …)",
+  "content": {
+    "tr": "C1’de Diskursmarker, metin içindeki mantıksal ilişkileri açık ve profesyonel şekilde kurmak için kullanılır.\n\n<strong>1. Karşıtlık</strong>\n- hingegen, dennoch, allerdings\n- Örnek: Er ist sehr erfahren, hingegen fehlt ihm Zeit.\n\n<strong>2. Sonuç</strong>\n- folglich, daher, somit\n- Örnek: Die Nachfrage steigt, folglich erhöhen sich die Preise.\n\n<strong>3. Metinsel işlev</strong>\n- Argümanları bağlar\n- Akademik tutarlılık sağlar",
+    "en": "At C1, discourse markers help structure arguments clearly and logically in formal texts.\n\n<strong>Functions</strong>\n- Contrast\n- Result\n- Clarification",
+    "pl": "Na poziomie C1 markery dyskursu pomagają logicznie łączyć argumenty w tekście.\n\n<strong>Funkcje</strong>\n- Kontrast\n- Skutek",
+    "ua": "На рівні C1 дискурсивні маркери забезпечують логічну послідовність тексту.\n\n<strong>Функції</strong>\n- Протиставлення\n- Наслідок"
+  },
+  "examples": [
+    "Er ist qualifiziert, dennoch fehlt ihm Erfahrung.",
+    "Die Kosten sind hoch, hingegen ist der Nutzen groß.",
+    "Die Nachfrage steigt, folglich erhöhen sich die Preise.",
+    "Es regnete stark, daher wurde das Spiel abgesagt.",
+    "Die Ergebnisse sind eindeutig, somit ist eine Entscheidung möglich.",
+    "Allerdings muss der Zeitplan angepasst werden.",
+    "Die Lösung ist komplex, dennoch umsetzbar."
+  ]
+},
+{
+  "id": 115,
+  "level": "C1",
+  "title": "Erweiterte Passivformen – (Zustandspassiv, Ersatzformen)",
+  "content": {
+    "tr": "C1 seviyesinde edilgen yapıların ileri biçimleri, sürecin mi yoksa sonucun mu önemli olduğunu vurgulamak için kullanılır.\n\n<strong>1. Vorgangspassiv</strong>\n- werden + Partizip II\n- Odak: süreç\n- Örnek: Die Tür wird geöffnet.\n\n<strong>2. Zustandspassiv</strong>\n- sein + Partizip II\n- Odak: sonuç\n- Örnek: Die Tür ist geöffnet.\n\n<strong>3. Ersatzformen</strong>\n- sich lassen, sein + zu + Infinitiv\n- Örnek: Das Problem lässt sich lösen.\n\n<strong>4. Stilistik kullanım</strong>\n- Akademik ve teknik metinler\n- Talimatlar ve açıklamalar",
+    "en": "At C1, advanced passive forms distinguish between an ongoing process and a resulting state.\n\n<strong>Types</strong>\n- Process passive\n- State passive\n- Passive substitutes",
+    "pl": "Na poziomie C1 zaawansowane formy strony biernej podkreślają proces lub rezultat.\n\n<strong>Rodzaje</strong>\n- Passiv procesu\n- Passiv stanu",
+    "ua": "На рівні C1 розширені пасивні форми розрізняють процес і результат дії.\n\n<strong>Типи</strong>\n- Процесуальний пасив\n- Становий пасив"
+  },
+  "examples": [
+    "Die Tür wird geöffnet.",
+    "Die Tür ist geöffnet.",
+    "Der Vertrag wird unterschrieben.",
+    "Der Vertrag ist unterschrieben.",
+    "Das Problem lässt sich lösen.",
+    "Die Aufgabe ist leicht zu verstehen.",
+    "Die Maschine ist repariert."
+  ]
 }
-
-
 ];
