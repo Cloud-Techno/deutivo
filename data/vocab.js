@@ -48,7 +48,7 @@ window.vocabData = [
   { id: 39, type: "verb", level: "A1", tr: "Pişirmek", en: "To cook", pl: "Gotować", ua: "Готувати", de: "kochen", aux: "haben", ex1: "Ich koche.", ex2: "Ich habe gekocht." },
   { id: 40, type: "verb", level: "A1", tr: "Dans etmek", en: "To dance", pl: "Tańczyć", ua: "Танцювати", de: "tanzen", aux: "haben", ex1: "Ich tanze.", ex2: "Ich habe getanzt." },
   { id: 41, type: "verb", level: "A1", tr: "Şarkı söylemek", en: "To sing", pl: "Śpiewać", ua: "Співати", de: "singen", aux: "haben", ex1: "Ich singe.", ex2: "Ich habe gesungen." },
-  { id: 42, type: "verb", level: "A1", tr: "Öğrenim görmek", en: "To study", pl: "Studiować", ua: "Вчитися", de: "studieren", aux: "haben", ex1: "Ich studiere.", ex2: "Ich habe studiert." },
+  { id: 42, type: "verb", level: "A1", tr: "Uni Öğrenim görmek", en: "To study", pl: "Studiować", ua: "Вчитися", de: "studieren", aux: "haben", ex1: "Ich studiere.", ex2: "Ich habe studiert." },
   { id: 43, type: "verb", level: "A1", tr: "Seyahat etmek", en: "To travel", pl: "Podróżować", ua: "Подорожувати", de: "reisen", aux: "sein", ex1: "Ich reise.", ex2: "Ich bin gereist." },
   { id: 44, type: "verb", level: "A1", tr: "Telefon etmek", en: "To call", pl: "Dzwonić", ua: "Телефонувати", de: "telefonieren", aux: "haben", ex1: "Ich telefoniere.", ex2: "Ich habe telefoniert." },
   { id: 45, type: "verb", level: "A1", tr: "Fotoğraf çekmek", en: "To photograph", pl: "Fotografować", ua: "Фотографувати", de: "fotografieren", aux: "haben", ex1: "Ich fotografiere.", ex2: "Ich habe fotografiert." },
@@ -63,7 +63,7 @@ window.vocabData = [
   { id: 52, type: "verb", level: "A1", tr: "Denemek", en: "To try", pl: "Próbować", ua: "Пробувати", de: "versuchen", aux: "haben", ex1: "Ich versuche.", ex2: "Ich habe versucht." },
   { id: 53, type: "verb", level: "A1", tr: "Gerekli olmak", en: "To need", pl: "Potrzebować", ua: "Потребувати", de: "brauchen", aux: "haben", ex1: "Ich brauche Hilfe.", ex2: "Ich habe Hilfe gebraucht." },
   { id: 54, type: "verb", level: "A1", tr: "Ödemek", en: "To pay", pl: "Płacić", ua: "Платити", de: "bezahlen", aux: "haben", ex1: "Ich bezahle.", ex2: "Ich habe bezahlt." },
-  { id: 55, type: "verb", level: "A1", tr: "Kazanmak", en: "To earn", pl: "Zarabiać", ua: "Заробляти", de: "verdienen", aux: "haben", ex1: "Ich verdiene Geld.", ex2: "Ich habe Geld verdient." },
+  { id: 55, type: "verb", level: "A1", tr: "Para Kazanmak", en: "To earn money", pl: "Zarabiać (pieniądze)", ua: "Заробляти (гроші)", de: "verdienen", aux: "haben", ex1: "Ich verdiene Geld.", ex2: "Ich habe Geld verdient." },
 
   { id: 56, type: "verb", level: "A1", tr: "Başlamak (ders)", en: "To start", pl: "Zaczynać", ua: "Починати", de: "anfangen", aux: "haben", ex1: "Ich fange an.", ex2: "Ich habe angefangen." },
   { id: 57, type: "verb", level: "A1", tr: "Durmak", en: "To stop", pl: "Zatrzymywać się", ua: "Зупинятися", de: "halten", aux: "haben", ex1: "Ich halte an.", ex2: "Ich habe angehalten." },
