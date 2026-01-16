@@ -20,7 +20,9 @@ const db = {
             cardHint: "👆 Çevirmek için tıkla", btnLearn: "ÖĞRENDİM (+1 Puan)", btnLearned: "✔ Öğrenildi", welcome: "Hoşgeldin,",
             enterName: "Adınızı girin...", lblExamType: "Sınav Türü",
             readingGrammarNote: "Gramer Notu",
-            readingNewWords: "Yeni Öğrenilen Kelimeler"
+            readingNewWords: "Yeni Öğrenilen Kelimeler",
+            readingMarkRead: "Okudum",
+            readingDone: "Tamamlandı"
 
         },
         en: {
@@ -35,7 +37,9 @@ const db = {
             cardHint: "👆 Click to translate", btnLearn: "LEARNED (+1 Point)", btnLearned: "✔ Learned", welcome: "Welcome,",
             enterName: "Enter your name...", lblExamType: "Exam Type",
             readingGrammarNote: "Grammar Note",
-            readingNewWords: "New Vocabulary"
+            readingNewWords: "New Vocabulary",
+            readingMarkRead: "Mark as Read",
+            readingDone: "Completed"
 
         },
         pl: {
@@ -50,7 +54,9 @@ const db = {
             cardHint: "👆 Kliknij aby przetłumaczyć", btnLearn: "NAUCZONE (+1 Punkt)", btnLearned: "✔ Nauczone", welcome: "Witaj,",
             enterName: "Wprowadź imię...", lblExamType: "Typ Egzaminu",
             readingGrammarNote: "Notatka gramatyczna",
-            readingNewWords: "Nowe słowa"
+            readingNewWords: "Nowe słowa",
+            readingMarkRead: "Przeczytane",
+            readingDone: "Ukończono"
 
         },
         ua: {
@@ -65,7 +71,9 @@ const db = {
             cardHint: "👆 Натисніть щоб перекласти", btnLearn: "ВИВЧЕНО (+1 Бал)", btnLearned: "✔ Вивчено", welcome: "Вітаємо,",
             enterName: "Введіть ваше ім'я...", lblExamType: "Тип Іспиту",
             readingGrammarNote: "Граматична нотатка",
-            readingNewWords: "Нові слова"
+            readingNewWords: "Нові слова",
+            readingMarkRead: "Прочитано",
+            readingDone: "Завершено"
 
         }
     };
@@ -426,51 +434,48 @@ function renderGrammar() {
 }
 
 
-    // function renderReading() {
-    //     const container = document.getElementById('readingContainer');
-    //     container.innerHTML = '';
 
-    //     const item = db.reading.find(r => r.level === state.readingFilter);
-
-    //     if (!item) {
-    //         container.innerHTML = '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
-    //         return;
-    //     }
-
-    //     let vocabHtml = '';
-    //     item.vocab.forEach(v => {
-    //         vocabHtml += `<div class="vocab-item-read"><span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}</div>`;
-    //     });
-
-    //     container.innerHTML = `
-    //         <div class="reading-content">
-    //             <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">${item.title}</div>
-    //             <div class="passage-text">${item.text}</div>
-    //             <div class="grammar-box"><strong>Gramer Notu:</strong> ${item.grammar}</div>
-    //             <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">Yeni Öğrenilen Kelimeler</h3>
-    //             <div class="vocab-list-reading">${vocabHtml}</div>
-    //         </div>
-    //     `;
-    // }
-
-//     function renderReading() {
+// function renderReading() {
 //     const container = document.getElementById('readingContainer');
 //     container.innerHTML = '';
 
-//     const item = db.reading.find(r => r.level === state.readingFilter);
+//     const readings = db.reading.filter(r => r.level === state.readingFilter);
 
-//     if (!item) {
+//     if (!readings.length) {
 //         container.innerHTML =
 //             '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
 //         return;
 //     }
 
+//     if (state.readingIndex >= readings.length) {
+//         state.readingIndex = 0;
+//     }
+
+//     const item = readings[state.readingIndex];
+//     const progress = getReadingProgress();
+
+//     if (!progress[state.readingFilter]) {
+//         progress[state.readingFilter] = [];
+//     }
+
 //     const texts = translations[state.lang];
+//     const grammarText = item.grammar?.[state.lang] || item.grammar?.tr || '';
 
-//     // ✅ Gramer açıklaması dili
-//     const grammarText =
-//         item.grammar?.[state.lang] || item.grammar?.tr || '';
+//     // Index bar
+//     let indexHtml = '';
+//     readings.forEach((_, i) => {
+//         const isRead = progress[state.readingFilter]?.includes(i);
+//         indexHtml += `
+//             <div class="reading-index-box
+//                 ${i === state.readingIndex ? 'active' : ''} 
+//                 ${isRead ? 'read' : ''}"
+//                 onclick="setReadingIndex(${i})">
+//                 ${isRead ? '✓' : i + 1}
+//             </div>
+//         `;
+//     });
 
+//     // Kelimeler
 //     let vocabHtml = '';
 //     item.vocab.forEach(v => {
 //         vocabHtml += `
@@ -480,134 +485,149 @@ function renderGrammar() {
 //         `;
 //     });
 
+//     // ✅ İçeriği renderla, buton burada ekleniyor
 //     container.innerHTML = `
+//         <div class="reading-index-bar">
+//             ${indexHtml}
+//         </div>
+
 //         <div class="reading-content">
 //             <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">
 //                 ${item.title}
 //             </div>
 
-//             <div class="passage-text">
-//                 ${item.text}
-//             </div>
+//             <div class="passage-text">${item.text}</div>
 
 //             <div class="grammar-box">
 //                 <strong>${texts.readingGrammarNote}:</strong> ${grammarText}
 //             </div>
 
-//             <h3 style="margin-bottom:15px; color:var(--secondary); margin-top:30px;">
+//             <h3 style="margin-top:30px; color:var(--secondary);">
 //                 ${texts.readingNewWords}
 //             </h3>
 
 //             <div class="vocab-list-reading">
 //                 ${vocabHtml}
 //             </div>
+
+//             <button id="markReadBtn" class="reading-read-btn">
+//                 ${progress[state.readingFilter]?.includes(state.readingIndex) ? '✔ Okundu' : 'Mark as Read (+10)'}
+//             </button>
 //         </div>
 //     `;
+
+//     // ✅ Buton event bağlama
+//     document.getElementById('markReadBtn').onclick = () => {
+//         markReadingAsRead(state.readingFilter, state.readingIndex);
+//     };
 // }
+
+/* --- READING LOGIC --- */
+/* --- READING LOGIC --- */
 function renderReading() {
     const container = document.getElementById('readingContainer');
-    container.innerHTML = '';
-
     const readings = db.reading.filter(r => r.level === state.readingFilter);
 
     if (!readings.length) {
-        container.innerHTML =
-            '<p style="text-align:center; padding:20px; color:#999;">Bu seviyede okuma parçası yok.</p>';
+        container.innerHTML = '<p style="text-align:center; padding:20px;">İçerik bulunamadı.</p>';
         return;
-    }
-
-    if (state.readingIndex >= readings.length) {
-        state.readingIndex = 0;
     }
 
     const item = readings[state.readingIndex];
     const progress = getReadingProgress();
+    const currentLevelReads = progress[state.readingFilter] || [];
+    const isAlreadyRead = currentLevelReads.includes(state.readingIndex);
+    const texts = translations[state.lang];
 
-    if (!progress[state.readingFilter]) {
-        progress[state.readingFilter] = [];
+    // Üst Bar: Numaralar (CSS'de belirttiğimiz açık yeşil/koyu yeşil mantığıyla çalışır)
+    let indexHtml = readings.map((_, i) => {
+        const isRead = currentLevelReads.includes(i);
+        return `
+            <div class="reading-index-box ${i === state.readingIndex ? 'active' : ''} ${isRead ? 'read' : ''}" 
+                 onclick="setReadingIndex(${i})">
+                ${i + 1}
+            </div>`;
+    }).join('');
+
+    // Kelime Listesi (strong kullanılarak ve dile göre çekilerek)
+    let vocabHtml = '';
+    if (item.vocab && item.vocab.length > 0) {
+        item.vocab.forEach(v => {
+            vocabHtml += `
+                <div class="vocab-item-read">
+                    <strong>${v.de}</strong>: ${v[state.lang] || v.tr}
+                </div>`;
+        });
     }
 
-    const texts = translations[state.lang];
-    const grammarText = item.grammar?.[state.lang] || item.grammar?.tr || '';
-
-    // Index bar
-    let indexHtml = '';
-    readings.forEach((_, i) => {
-        const isRead = progress[state.readingFilter]?.includes(i);
-        indexHtml += `
-            <div class="reading-index-box
-                ${i === state.readingIndex ? 'active' : ''} 
-                ${isRead ? 'read' : ''}"
-                onclick="setReadingIndex(${i})">
-                ${isRead ? '✓' : i + 1}
-            </div>
-        `;
-    });
-
-    // Kelimeler
-    let vocabHtml = '';
-    item.vocab.forEach(v => {
-        vocabHtml += `
-            <div class="vocab-item-read">
-                <span class="vocab-de-bold">${v.de}</span> ${v[state.lang]}
-            </div>
-        `;
-    });
-
-    // ✅ İçeriği renderla, buton burada ekleniyor
+    // Ana İçerik Render
     container.innerHTML = `
-        <div class="reading-index-bar">
-            ${indexHtml}
-        </div>
-
+        <div class="reading-index-bar">${indexHtml}</div>
         <div class="reading-content">
-            <div style="font-size:1.5rem; color:var(--secondary); margin-bottom:20px; font-weight:bold;">
-                ${item.title}
-            </div>
-
-            <div class="passage-text">${item.text}</div>
-
-            <div class="grammar-box">
-                <strong>${texts.readingGrammarNote}:</strong> ${grammarText}
-            </div>
-
-            <h3 style="margin-top:30px; color:var(--secondary);">
-                ${texts.readingNewWords}
-            </h3>
-
-            <div class="vocab-list-reading">
+            <h2 style="color:var(--secondary); margin-bottom:15px; font-size:1.3rem;">${item.title}</h2>
+            <div class="passage-text" style="margin-bottom:20px; line-height:1.6;">${item.text}</div>
+            
+            <h3 style="font-size:1.1rem; color:var(--secondary); margin-bottom:10px;">${texts.readingNewWords || 'Yeni Kelimeler'}</h3>
+            <div class="vocab-list-reading" style="margin-bottom:25px;">
                 ${vocabHtml}
             </div>
+            
+            <div class="grammar-box" style="padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:4px; margin-bottom:25px; font-size:0.95rem;">
+                <div style="margin-bottom:5px; font-weight:bold; color:#333;">
+                    <i class="fas fa-info-circle"></i> ${texts.readingGrammarNote}:
+                </div>
+                <div style="color:#555;">${item.grammar?.[state.lang] || item.grammar?.tr}</div>
+            </div>
 
-            <button id="markReadBtn" class="reading-read-btn">
-                ${progress[state.readingFilter]?.includes(state.readingIndex) ? '✔ Okundu' : 'Mark as Read (+10)'}
+            <button id="markReadBtn" class="reading-read-btn ${isAlreadyRead ? 'is-read' : 'not-read'}">
+                <i class="fas ${isAlreadyRead ? 'fa-check-double' : 'fa-check'}"></i>
+                <span>${isAlreadyRead ? (texts.readingDone || 'Tamamlandı') : (texts.readingMarkRead || 'Okudum')}</span>
             </button>
         </div>
     `;
 
-    // ✅ Buton event bağlama
     document.getElementById('markReadBtn').onclick = () => {
-        markReadingAsRead(state.readingFilter, state.readingIndex);
+        if (!isAlreadyRead) {
+            markReadingAsRead(state.readingFilter, state.readingIndex);
+        }
     };
 }
 
-// --- Okundu işlemi ---
+
 function markReadingAsRead(level, index) {
     const progress = getReadingProgress();
-
     if (!progress[level]) progress[level] = [];
 
     if (!progress[level].includes(index)) {
         progress[level].push(index);
         saveReadingProgress(progress);
 
-        // Puan ekle
-        state.user.wordsLearned += 10;
+        // Kullanıcıya puan ver ve arayüzü güncelle
+        state.user.wordsLearned += 10; 
         updateProgressUI();
-
-        renderReading(); // Butonun durumu güncellensin
+        
+        // Konfeti efekti veya küçük bir başarı mesajı eklenebilir
+        renderReading(); 
     }
 }
+
+// --- baska .. Okundu işlemi baska ---
+// function markReadingAsRead(level, index) {
+//     const progress = getReadingProgress();
+
+//     if (!progress[level]) progress[level] = [];
+
+//     if (!progress[level].includes(index)) {
+//         progress[level].push(index);
+//         saveReadingProgress(progress);
+
+//         // Puan ekle
+//         state.user.wordsLearned += 10;
+//         updateProgressUI();
+
+//         renderReading(); // Butonun durumu güncellensin
+//     }
+// }
 
 
     /* --- NAVIGATION --- */

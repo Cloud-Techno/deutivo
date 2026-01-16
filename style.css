@@ -236,3 +236,78 @@
 [data-theme="dark"] .flashcard .fc-german {
     color: #ff4d4d; /* okunabilir canlı kırmızı */
 }
+/* Temel Kutu Stili: Başlangıçta Açık Yeşil */
+/* Okuma Numaraları: Küçük ve Minimalist */
+.reading-index-box {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    /* Varsayılan: Henüz okunmamış ve aktif değilse Açık Yeşil */
+    background: #e8f5e9; 
+    color: #2e7d32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.8rem;
+    border: 1px solid #c8e6c9;
+    transition: none; /* En yüksek hız için */
+}
+
+/* Hover efekti tamamen kapalı */
+.reading-index-box:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* OKUNMUŞ DURUMU: Koyu Yeşil */
+.reading-index-box.read {
+    background: #28a745 !important; 
+    color: white !important;
+    border: none;
+}
+
+/* ÜZERİNDE OLDUĞUN (AKTİF) KUTU */
+/* Kırmızı rengi kaldırdım. Seçili olduğunu sadece belirgin bir kenarlıkla gösterir, rengi bozmaz */
+.reading-index-box.active {
+    border: 2px solid #1b5e20; /* Koyu yeşil bir çerçeve */
+    background: #e8f5e9; /* Arka plan yine açık yeşil kalır */
+}
+
+/* Eğer hem aktif hem de okunmuşsa koyu yeşil kalmaya devam eder */
+.reading-index-box.read.active {
+    background: #28a745 !important;
+    border: 2px solid #145a32;
+}
+
+/* OKUDUM BUTONU: Sitenin ana kırmızısı */
+.reading-read-btn {
+    margin-top: 25px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+/* Henüz okunmamış (Okudum Butonu) */
+.reading-read-btn.not-read {
+    background: var(--secondary); /* Kırmızı */
+    color: white;
+}
+
+/* OKUNDU / TAMAMLANDI DURUMU: Tok Kırmızı */
+.reading-read-btn.is-read {
+    background: #b30000; /* İstediğin koyu kırmızı */
+    color: white;
+    opacity: 1;
+    cursor: default;
+}
+
+/* Kelime Listesi Kalınlaştırma (strong için) */
+.vocab-item-read strong {
+    font-weight: 700;
+    color: #000;
+}
