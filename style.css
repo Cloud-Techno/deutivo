@@ -840,3 +840,7 @@ header {
 [data-theme="dark"] .vocab-item-read strong {
   color: #ffffff; /* beyaz */
 }
+
+[data-theme="dark"] .reading-index-box {
+  color: #2e7d32; /* light moddaki koyu yeşil */
+}
