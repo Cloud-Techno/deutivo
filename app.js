@@ -21,8 +21,8 @@ const translations = {
     exam: "Sınavlar",
     verb: "Fiil",
     noun: "İsim",
-    adj: "Sıfat",
-    adv: "Zarf",
+    adjective: "Sıfat",
+    adverb: "Zarf",
     grammarTitle: "Gramer Konuları",
     grammarDesc: "Gramer içerikleri burada listelenecek.",
     phrasesTitle: "Günlük Kalıplar",
@@ -77,8 +77,8 @@ const translations = {
     exam: "Exams",
     verb: "Verb",
     noun: "Noun",
-    adj: "Adjective",
-    adv: "Adverb",
+    adjective: "Adjective",
+    adverb: "Adverb",
     grammarTitle: "Grammar Topics",
     grammarDesc: "Grammar content will be listed here.",
     phrasesTitle: "Daily Phrases",
@@ -133,8 +133,8 @@ const translations = {
     exam: "Egzaminy",
     verb: "Czasownik",
     noun: "Rzeczownik",
-    adj: "Przymiotnik",
-    adv: "Przysłówek",
+    adjective: "Przymiotnik",
+    adverb: "Przysłówek",
     grammarTitle: "Tematy Gramatyki",
     grammarDesc: "Treści gramatyczne będą tutaj.",
     phrasesTitle: "Codzienne Zwroty",
@@ -189,8 +189,8 @@ const translations = {
     exam: "Іспити",
     verb: "Дієслово",
     noun: "Іменник",
-    adj: "Прикметник",
-    adv: "Прислівник",
+    adjective: "Прикметник",
+    adverb: "Прислівник",
     grammarTitle: "Теми Граматики",
     grammarDesc: "Граматичний контент буде тут.",
     phrasesTitle: "Щоденні Фрази",
@@ -389,6 +389,58 @@ function updateUser() {
 }
 
 /* --- FLASHCARDS --- */
+// function renderFlashcards() {
+//   const container = document.getElementById("flashcardsGrid");
+//   container.innerHTML = "";
+//   const texts = translations[state.lang];
+
+//   const filtered = db.vocab.filter(
+//     (w) => w.type === state.filters.type && w.level === state.filters.level,
+//   );
+
+//   if (filtered.length === 0) {
+//     container.innerHTML =
+//       '<div style="grid-column:1/-1; text-align:center;">Bu kriterlere uygun kart yok.</div>';
+//     return;
+//   }
+
+//   filtered.forEach((w) => {
+//     const card = document.createElement("div");
+//     card.className = "flashcard";
+//     card.onclick = function (e) {
+//       if (e.target.tagName !== "BUTTON") this.classList.toggle("flipped");
+//     };
+
+//     // Translate Type
+//     const typeText = texts[w.type] || w.type;
+
+//     card.innerHTML = `
+//                 <div class="flashcard-inner">
+//                     <div class="flashcard-front">
+//                         <span class="fc-level">${w.level}</span>
+//                         <span class="fc-type">${typeText}</span>
+//                         <div class="fc-word">${w[state.lang]}</div>
+//                         <div class="fc-hint">${texts.cardHint}</div>
+//                     </div>
+
+//                     <div class="flashcard-back">
+//                         <div class="fc-german">${w.de}</div>
+
+//                         <div class="fc-sentences">
+//                             ${w.ex1 ? `<div class="fc-sent-row"><span class="fc-label">Present:</span> ${w.ex1}</div>` : ""}
+//                             ${w.ex2 ? `<div class="fc-sent-row"><span class="fc-label">Perfekt (${w.aux || ""}):</span> <span style="color:var(--success)">${w.ex2}</span></div>` : ""}
+//                             ${w.syn ? `<div class="fc-sent-row" style="color:#666; font-size:0.8rem; margin-top:5px;"><span class="fc-label">Synonym:</span> ${w.syn}</div>` : ""}
+//                         </div>
+
+//                         <button class="btn-learn" onclick="markAsLearned(${w.id}, this)">
+//                             <i class="fas fa-check"></i> ${texts.btnLearn}
+//                         </button>
+//                     </div>
+//                 </div>
+//             `;
+//     container.appendChild(card);
+//   });
+// }
 function renderFlashcards() {
   const container = document.getElementById("flashcardsGrid");
   container.innerHTML = "";
@@ -411,8 +463,15 @@ function renderFlashcards() {
       if (e.target.tagName !== "BUTTON") this.classList.toggle("flipped");
     };
 
-    // Translate Type
+    // 1. TÜR ÇEVİRİSİ (Artık "adjective" anahtarı eşleştiği için doğru çalışacak)
     const typeText = texts[w.type] || w.type;
+
+    // 2. KÜÇÜK HARF MANTIĞI
+    // Eğer tür "noun" (İsim) değilse, Almancayı küçük harfe çevir.
+    let displayGerman = w.de;
+    if (w.type !== "noun") {
+      displayGerman = w.de.toLowerCase();
+    }
 
     card.innerHTML = `
                 <div class="flashcard-inner">
@@ -424,7 +483,7 @@ function renderFlashcards() {
                     </div>
                     
                     <div class="flashcard-back">
-                        <div class="fc-german">${w.de}</div>
+                        <div class="fc-german">${displayGerman}</div>
                         
                         <div class="fc-sentences">
                             ${w.ex1 ? `<div class="fc-sent-row"><span class="fc-label">Present:</span> ${w.ex1}</div>` : ""}
