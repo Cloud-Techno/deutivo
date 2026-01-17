@@ -836,3 +836,7 @@ header {
   color: #f1f1f1; /* yazılar için açık renk */
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
+
+[data-theme="dark"] .vocab-item-read strong {
+  color: #ffffff; /* beyaz */
+}
