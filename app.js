@@ -389,6 +389,7 @@ function updateUser() {
 }
 
 /* --- FLASHCARDS --- */
+
 // function renderFlashcards() {
 //   const container = document.getElementById("flashcardsGrid");
 //   container.innerHTML = "";
@@ -411,8 +412,15 @@ function updateUser() {
 //       if (e.target.tagName !== "BUTTON") this.classList.toggle("flipped");
 //     };
 
-//     // Translate Type
+//     // 1. TÜR ÇEVİRİSİ (Artık "adjective" anahtarı eşleştiği için doğru çalışacak)
 //     const typeText = texts[w.type] || w.type;
+
+//     // 2. KÜÇÜK HARF MANTIĞI
+//     // Eğer tür "noun" (İsim) değilse, Almancayı küçük harfe çevir.
+//     let displayGerman = w.de;
+//     if (w.type !== "noun") {
+//       displayGerman = w.de.toLowerCase();
+//     }
 
 //     card.innerHTML = `
 //                 <div class="flashcard-inner">
@@ -424,7 +432,7 @@ function updateUser() {
 //                     </div>
 
 //                     <div class="flashcard-back">
-//                         <div class="fc-german">${w.de}</div>
+//                         <div class="fc-german">${displayGerman}</div>
 
 //                         <div class="fc-sentences">
 //                             ${w.ex1 ? `<div class="fc-sent-row"><span class="fc-label">Present:</span> ${w.ex1}</div>` : ""}
@@ -463,27 +471,32 @@ function renderFlashcards() {
       if (e.target.tagName !== "BUTTON") this.classList.toggle("flipped");
     };
 
-    // 1. TÜR ÇEVİRİSİ (Artık "adjective" anahtarı eşleştiği için doğru çalışacak)
     const typeText = texts[w.type] || w.type;
 
-    // 2. KÜÇÜK HARF MANTIĞI
-    // Eğer tür "noun" (İsim) değilse, Almancayı küçük harfe çevir.
-    let displayGerman = w.de;
+    // --- KÜÇÜK HARF MANTIĞI ---
+    let displayFront = w[state.lang]; // Ön yüzdeki kelime (TR, EN, PL, UA)
+    let displayGerman = w.de; // Arka yüzdeki kelime (DE)
+    let lowerCaseStyle = ""; // CSS zorlaması
+
+    // Eğer kelime türü 'noun' (İsim) DEĞİLSE her şeyi küçült
     if (w.type !== "noun") {
-      displayGerman = w.de.toLowerCase();
+      displayFront = displayFront.toLowerCase();
+      displayGerman = displayGerman.toLowerCase();
+      lowerCaseStyle = "text-transform: lowercase !important;";
     }
+    // -------------------------
 
     card.innerHTML = `
                 <div class="flashcard-inner">
                     <div class="flashcard-front">
                         <span class="fc-level">${w.level}</span>
                         <span class="fc-type">${typeText}</span>
-                        <div class="fc-word">${w[state.lang]}</div>
+                        <div class="fc-word" style="${lowerCaseStyle}">${displayFront}</div>
                         <div class="fc-hint">${texts.cardHint}</div>
                     </div>
                     
                     <div class="flashcard-back">
-                        <div class="fc-german">${displayGerman}</div>
+                        <div class="fc-german" style="${lowerCaseStyle}">${displayGerman}</div>
                         
                         <div class="fc-sentences">
                             ${w.ex1 ? `<div class="fc-sent-row"><span class="fc-label">Present:</span> ${w.ex1}</div>` : ""}
