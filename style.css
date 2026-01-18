@@ -844,3 +844,63 @@ header {
 [data-theme="dark"] .reading-index-box {
   color: #2e7d32; /* light moddaki koyu yeşil */
 }
+
+/* --- GRAMER GECE MODU (DARK MODE) PROFESYONEL DÜZENLEME --- */
+[data-theme="dark"] .grammar-item {
+  background: var(
+    --white
+  ) !important; /* CSS değişkeninizdeki koyu rengi kullanır (#1e1e1e) */
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme="dark"] .grammar-header {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.03
+  ) !important; /* Çok hafif bir parlaklık verir */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .grammar-header:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.07
+  ) !important; /* Mouse ile üzerine gelince belirginleşir */
+}
+
+[data-theme="dark"] .grammar-title {
+  color: #ffffff !important; /* Başlıklar saf beyaz */
+}
+
+[data-theme="dark"] .grammar-body {
+  background: transparent !important; /* Header ile bütünleşik görünmesi için */
+  color: #cccccc !important; /* Gövde metni yumuşak gri (göz yormaz) */
+  border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+[data-theme="dark"] .grammar-badge {
+  background: var(--secondary); /* Kırmızı badge rengini korur */
+  color: white;
+}
+
+/* Örnek cümleler (grammar-examples) bölümü için */
+[data-theme="dark"] .grammar-examples .example {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(
+    --primary
+  ) !important; /* Almanca örnekleri sarı/altın tonunda vurgular */
+  border-left: 3px solid var(--primary);
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+/* İkon rengi */
+[data-theme="dark"] .grammar-toggle-icon {
+  color: var(--gray) !important;
+}
