@@ -1070,7 +1070,7 @@ window.vocabData = [
     id: 82,
     type: "verb",
     level: "A2",
-    tr: "Keşfetmek",
+    tr: "keşfetmek",
     en: "To discover",
     pl: "Odkrywać",
     ua: "Відкривати",
