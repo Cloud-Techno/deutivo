@@ -1,234 +1,529 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning Platform</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">🇩🇪 <span data-i18n="logoTitle">Hallo</span></div>
 
+      <div class="user-controls">
+        <input
+          type="text"
+          id="usernameInput"
+          class="user-input"
+          data-ph="enterName"
+          placeholder="Adınızı girin..."
+          onchange="updateUser()"
+        />
+        <button class="admin-btn" onclick="toggleAdmin()" data-i18n="adminBtn">
+          Admin Paneli
+        </button>
+      </div>
 
-<header>
-    <div class="logo">🇩🇪 <span data-i18n="logoTitle">Hallo</span></div>
-    
-    <div class="user-controls">
-        <input type="text" id="usernameInput" class="user-input" data-ph="enterName" placeholder="Adınızı girin..." onchange="updateUser()">
-        <button class="admin-btn" onclick="toggleAdmin()" data-i18n="adminBtn">Admin Paneli</button>
-    </div>
-
-    <div class="header-right">
+      <div class="header-right">
         <div class="lang-flags">
-            <button class="flag-btn active" onclick="setLanguage('tr')">🇹🇷</button>
-            <button class="flag-btn" onclick="setLanguage('en')">🇬🇧</button>
-            <button class="flag-btn" onclick="setLanguage('pl')">🇵🇱</button>
-            <button class="flag-btn" onclick="setLanguage('ua')">🇺🇦</button>
+          <button class="flag-btn" onclick="setLanguage('en')">🇬🇧</button>
+          <button class="flag-btn active" onclick="setLanguage('tr')">
+            🇹🇷
+          </button>
+          <button class="flag-btn" onclick="setLanguage('pl')">🇵🇱</button>
+          <button class="flag-btn" onclick="setLanguage('ua')">🇺🇦</button>
         </div>
         <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
-    </div>
-</header>
+      </div>
+    </header>
 
-<!-- STATUS BAR -->
-<div class="status-bar">
-    <div class="timer-section">
+    <!-- STATUS BAR -->
+    <div class="status-bar">
+      <div class="timer-section">
         <div class="timer-display" id="timerDisplay">00:00:00</div>
         <div class="timer-controls">
-            <button class="btn-start" onclick="startTimer()" data-i18n="start">▶ Başlat</button>
-            <button class="btn-pause" onclick="pauseTimer()" data-i18n="pause">⏸ Durdur</button>
+          <button class="btn-start" onclick="startTimer()" data-i18n="start">
+            ▶ Başlat
+          </button>
+          <button class="btn-pause" onclick="pauseTimer()" data-i18n="pause">
+            ⏸ Durdur
+          </button>
         </div>
-    </div>
+      </div>
 
-    <div class="progress-section">
+      <div class="progress-section">
         <div class="progress-info">
-            <span id="welcomeContainer" style="display:none;"><span class="welcome-msg" id="welcomeText"></span> | </span>
-            <span data-i18n="progress">İlerleme:</span> <strong id="learnedCount">0</strong> / 50 <span data-i18n="words">Kelime</span>
-            <span class="stars-display" id="starsDisplay">⭐ 0.0</span>
+          <span id="welcomeContainer" style="display: none"
+            ><span class="welcome-msg" id="welcomeText"></span> |
+          </span>
+          <span data-i18n="progress">İlerleme:</span>
+          <strong id="learnedCount">0</strong> / 50
+          <span data-i18n="words">Kelime</span>
+          <span class="stars-display" id="starsDisplay">⭐ 0.0</span>
         </div>
         <div class="progress-track">
-            <div class="progress-fill" id="progressBar"></div>
+          <div class="progress-fill" id="progressBar"></div>
         </div>
+      </div>
     </div>
-</div>
 
-<!-- HEADER AD BANNER -->
-<div class="ad-space ad-header-banner">
-    Google Ads Header (728x90)
-</div>
+    <!-- HEADER AD BANNER -->
+    <div class="ad-space ad-header-banner">Google Ads Header (728x90)</div>
 
-<div class="app-container">
-    <!-- SIDEBAR (UPDATED WITH EXAM SUB ITEMS) -->
-    <aside class="sidebar">
+    <div class="app-container">
+      <!-- SIDEBAR (UPDATED WITH EXAM SUB ITEMS) -->
+      <aside class="sidebar">
         <nav class="nav-menu">
-            <div class="nav-item active" onclick="switchTab('vocabulary', this)" data-i18n="vocab">📘 Flashcards</div>
-            <div class="nav-item" onclick="switchTab('grammar', this)" data-i18n="grammar">📝 Gramer</div>
-            <div class="nav-item" onclick="switchTab('reading', this)" data-i18n="reading">📖 Okuma</div>
-            <div class="nav-item" onclick="switchTab('phrases', this)" data-i18n="phrases">💬 Kalıplar</div>
-            
-            <!-- Exam Group -->
-            <div class="nav-group-title" data-i18n="exam">Sınavlar</div>
-            <div class="nav-item nav-sub-item" onclick="openExam('TELC', this)">TELC</div>
-            <div class="nav-item nav-sub-item" onclick="openExam('Goethe', this)">Goethe</div>
-            <div class="nav-item nav-sub-item" onclick="openExam('TestDaF', this)">TestDaF</div>
-            <div class="nav-item nav-sub-item" onclick="openExam('DSH', this)">DSH</div>
-            <div class="nav-item nav-sub-item" onclick="openExam('FIDE', this)">FIDE</div>
+          <div
+            class="nav-item active"
+            onclick="switchTab('vocabulary', this)"
+            data-i18n="vocab"
+          >
+            📘 Flashcards
+          </div>
+          <div
+            class="nav-item"
+            onclick="switchTab('grammar', this)"
+            data-i18n="grammar"
+          >
+            📝 Gramer
+          </div>
+          <div
+            class="nav-item"
+            onclick="switchTab('reading', this)"
+            data-i18n="reading"
+          >
+            📖 Okuma
+          </div>
+          <div
+            class="nav-item"
+            onclick="switchTab('phrases', this)"
+            data-i18n="phrases"
+          >
+            💬 Kalıplar
+          </div>
+
+          <!-- Exam Group -->
+          <div class="nav-group-title" data-i18n="exam">Sınavlar</div>
+          <div class="nav-item nav-sub-item" onclick="openExam('TELC', this)">
+            TELC
+          </div>
+          <div class="nav-item nav-sub-item" onclick="openExam('Goethe', this)">
+            Goethe
+          </div>
+          <div
+            class="nav-item nav-sub-item"
+            onclick="openExam('TestDaF', this)"
+          >
+            TestDaF
+          </div>
+          <div class="nav-item nav-sub-item" onclick="openExam('DSH', this)">
+            DSH
+          </div>
+          <div class="nav-item nav-sub-item" onclick="openExam('FIDE', this)">
+            FIDE
+          </div>
         </nav>
         <!-- SIDEBAR AD -->
-        <div class="ad-space ad-sidebar-rect">
-            Google Ads Sidebar (300x250)
-        </div>
-    </aside>
+        <div class="ad-space ad-sidebar-rect">Google Ads Sidebar (300x250)</div>
+      </aside>
 
-    <!-- MAIN CONTENT -->
-    <main class="main-content">
-        
+      <!-- MAIN CONTENT -->
+      <main class="main-content">
         <!-- VOCABULARY -->
         <section id="vocabulary" class="section active">
-            <div class="filter-container">
-                <div class="filter-row">
-                    <button class="glass-btn type-active" onclick="setFilter('type', 'verb', this)" data-i18n="verb">Verb</button>
-                    <button class="glass-btn" onclick="setFilter('type', 'noun', this)" data-i18n="noun">Noun</button>
-                    <button class="glass-btn" onclick="setFilter('type', 'adjective', this)" data-i18n="adj">Adjective</button>
-                    <button class="glass-btn" onclick="setFilter('type', 'adverb', this)" data-i18n="adv">Adverb</button>
-                </div>
-                <div class="filter-row">
-                    <button class="glass-btn active" onclick="setFilter('level', 'A1', this)">A1</button>
-                    <button class="glass-btn active" onclick="setFilter('level', 'A2', this)">A2</button>
-                    <button class="glass-btn active" onclick="setFilter('level', 'B1', this)">B1</button>
-                    <button class="glass-btn active" onclick="setFilter('level', 'B2', this)">B2</button>
-                    <button class="glass-btn active" onclick="setFilter('level', 'C1', this)">C1</button>
-                </div>
+          <div class="filter-container">
+            <div class="filter-row">
+              <button
+                class="glass-btn type-active"
+                onclick="setFilter('type', 'verb', this)"
+                data-i18n="verb"
+              >
+                Verb
+              </button>
+              <button
+                class="glass-btn"
+                onclick="setFilter('type', 'noun', this)"
+                data-i18n="noun"
+              >
+                Noun
+              </button>
+              <button
+                class="glass-btn"
+                onclick="setFilter('type', 'adjective', this)"
+                data-i18n="adj"
+              >
+                Adjective
+              </button>
+              <button
+                class="glass-btn"
+                onclick="setFilter('type', 'adverb', this)"
+                data-i18n="adv"
+              >
+                Adverb
+              </button>
             </div>
+            <div class="filter-row">
+              <button
+                class="glass-btn active"
+                onclick="setFilter('level', 'A1', this)"
+              >
+                A1
+              </button>
+              <button
+                class="glass-btn active"
+                onclick="setFilter('level', 'A2', this)"
+              >
+                A2
+              </button>
+              <button
+                class="glass-btn active"
+                onclick="setFilter('level', 'B1', this)"
+              >
+                B1
+              </button>
+              <button
+                class="glass-btn active"
+                onclick="setFilter('level', 'B2', this)"
+              >
+                B2
+              </button>
+              <button
+                class="glass-btn active"
+                onclick="setFilter('level', 'C1', this)"
+              >
+                C1
+              </button>
+            </div>
+          </div>
 
-            <div id="flashcardsGrid" class="flashcards-grid">
-                <!-- JS Renders Cards Here -->
-            </div>
+          <div id="flashcardsGrid" class="flashcards-grid">
+            <!-- JS Renders Cards Here -->
+          </div>
         </section>
 
         <!-- GRAMMAR (ACCORDION STYLE) -->
         <section id="grammar" class="section">
-            <div class="filter-container">
-                <div class="filter-row">
-                    <button class="glass-btn active" onclick="setGrammarFilter('A1', this)">A1</button>
-                    <button class="glass-btn" onclick="setGrammarFilter('A2', this)">A2</button>
-                    <button class="glass-btn" onclick="setGrammarFilter('B1', this)">B1</button>
-                    <button class="glass-btn" onclick="setGrammarFilter('B2', this)">B2</button>
-                    <button class="glass-btn" onclick="setGrammarFilter('C1', this)">C1</button>
-                </div>
+          <div class="filter-container">
+            <div class="filter-row">
+              <button
+                class="glass-btn active"
+                onclick="setGrammarFilter('A1', this)"
+              >
+                A1
+              </button>
+              <button class="glass-btn" onclick="setGrammarFilter('A2', this)">
+                A2
+              </button>
+              <button class="glass-btn" onclick="setGrammarFilter('B1', this)">
+                B1
+              </button>
+              <button class="glass-btn" onclick="setGrammarFilter('B2', this)">
+                B2
+              </button>
+              <button class="glass-btn" onclick="setGrammarFilter('C1', this)">
+                C1
+              </button>
             </div>
+          </div>
 
-            <div id="grammarList" class="grammar-list">
-                <!-- JS Renders Accordion Items Here -->
-            </div>
+          <div id="grammarList" class="grammar-list">
+            <!-- JS Renders Accordion Items Here -->
+          </div>
         </section>
 
         <!-- PHRASES -->
-        <section id="phrases" class="section"><h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2><p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p></section>
-        
+        <section id="phrases" class="section">
+          <h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2>
+          <p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p>
+        </section>
+
         <!-- READING -->
         <section id="reading" class="section">
-            <div class="filter-container">
-                <div class="filter-row">
-                    <button class="glass-btn active" onclick="setReadingFilter('A1', this)">A1</button>
-                    <button class="glass-btn" onclick="setReadingFilter('A2', this)">A2</button>
-                    <button class="glass-btn" onclick="setReadingFilter('B1', this)">B1</button>
-                    <button class="glass-btn" onclick="setReadingFilter('B2', this)">B2</button>
-                </div>
+          <div class="filter-container">
+            <div class="filter-row">
+              <button
+                class="glass-btn active"
+                onclick="setReadingFilter('A1', this)"
+              >
+                A1
+              </button>
+              <button class="glass-btn" onclick="setReadingFilter('A2', this)">
+                A2
+              </button>
+              <button class="glass-btn" onclick="setReadingFilter('B1', this)">
+                B1
+              </button>
+              <button class="glass-btn" onclick="setReadingFilter('B2', this)">
+                B2
+              </button>
             </div>
-            <div id="readingContainer"></div>
+          </div>
+          <div id="readingContainer"></div>
         </section>
 
         <!-- EXAM (UPDATED TO SHOW LEVELS, NOT TYPE TABS) -->
         <section id="exam" class="section">
-            <div class="filter-container">
-                <div class="filter-row">
-                    <button class="glass-btn active" onclick="setExamLevel('A1', this)">A1</button>
-                    <button class="glass-btn" onclick="setExamLevel('A2', this)">A2</button>
-                    <button class="glass-btn" onclick="setExamLevel('B1', this)">B1</button>
-                    <button class="glass-btn" onclick="setExamLevel('B2', this)">B2</button>
-                </div>
+          <div class="filter-container">
+            <div class="filter-row">
+              <button
+                class="glass-btn active"
+                onclick="setExamLevel('A1', this)"
+              >
+                A1
+              </button>
+              <button class="glass-btn" onclick="setExamLevel('A2', this)">
+                A2
+              </button>
+              <button class="glass-btn" onclick="setExamLevel('B1', this)">
+                B1
+              </button>
+              <button class="glass-btn" onclick="setExamLevel('B2', this)">
+                B2
+              </button>
             </div>
-            <div id="examContent"></div>
+          </div>
+          <div id="examContent"></div>
         </section>
 
         <!-- ADMIN PANEL -->
         <section id="admin" class="section">
-            <div class="admin-wrapper">
-                <div class="admin-tabs">
-                    <div class="admin-tab active" onclick="switchAdminTab('admin-words', this)" data-i18n="addWord">Kelime Ekle</div>
-                    <div class="admin-tab" onclick="switchAdminTab('admin-grammar', this)" data-i18n="addGrammar">Gramer Ekle</div>
-                    <div class="admin-tab" onclick="switchAdminTab('admin-phrases', this)" data-i18n="addPhrase">Kalıp Ekle</div>
-                    <div class="admin-tab" onclick="switchAdminTab('admin-exam', this)" data-i18n="addExam">Soru Ekle</div>
-                </div>
-
-                <!-- Tab 1: Words -->
-                <div id="admin-words" class="admin-content active">
-                    <h3 data-i18n="newWord">Yeni Kelime Ekle</h3>
-                    <div class="form-grid" style="margin-top:15px;">
-                        <div class="form-group"><label data-i18n="lblGerman">Almanca</label><input type="text" id="aw_de" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblType">Tür</label><select id="aw_type" class="form-control" onchange="toggleWordInputs()"><option value="verb">Verb</option><option value="noun">Noun</option><option value="adjective">Adjective</option><option value="adverb">Adverb</option></select></div>
-                        <div class="form-group"><label data-i18n="lblTurkish">Türkçe</label><input type="text" id="aw_tr" class="form-control"></div>
-                        <div class="form-group"><label>English</label><input type="text" id="aw_en" class="form-control"></div>
-                        <div class="form-group"><label>Polski</label><input type="text" id="aw_pl" class="form-control"></div>
-                        <div class="form-group"><label>Українська</label><input type="text" id="aw_ua" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblLevel">Seviye</label><select id="aw_level" class="form-control"><option>A1</option><option>A2</option><option>B1</option><option>B2</option></select></div>
-                        <div id="group-verb" class="form-group"><label data-i18n="lblPerfekt">Perfekt (haben/sein)</label><select id="aw_aux" class="form-control"><option>haben</option><option>sein</option></select></div>
-                        <div id="group-verb-sent" class="form-group"><label data-i18n="lblPerfektSent">Perfekt Cümle</label><input type="text" id="aw_ex2" class="form-control"></div>
-                        <div id="group-syn" class="form-group hidden"><label>Eş Anlamlı (Synonym)</label><input type="text" id="aw_syn" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblPresent">Present Cümle</label><input type="text" id="aw_ex1" class="form-control"></div>
-                        <button class="btn-submit" onclick="adminAdd('word')" data-i18n="save">KAYDET</button>
-                    </div>
-                </div>
-
-                <!-- Tab 2: Grammar -->
-                <div id="admin-grammar" class="admin-content">
-                    <h3 data-i18n="newGrammar">Gramer Konusu Ekle</h3>
-                    <div class="form-grid" style="margin-top:15px;">
-                        <div class="form-group"><label data-i18n="lblTitle">Konu Başlığı</label><input type="text" id="ag_title" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblLevel">Seviye</label><select id="ag_level" class="form-control"><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option></select></div>
-                        <div class="form-group" style="grid-column: 1/-1"><label data-i18n="lblDesc">Açıklama</label><textarea id="ag_content" class="form-control" rows="3"></textarea></div>
-                        <button class="btn-submit" onclick="adminAdd('grammar')" data-i18n="save">KAYDET</button>
-                    </div>
-                </div>
-
-                <!-- Tab 3: Phrases -->
-                <div id="admin-phrases" class="admin-content">
-                    <h3 data-i18n="newPhrase">Kalıp Ekle</h3>
-                    <div class="form-grid" style="margin-top:15px;">
-                        <div class="form-group"><label data-i18n="lblGerman">Almanca</label><input type="text" id="ap_de" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblTurkish">Türkçe</label><input type="text" id="ap_tr" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblType">Tipi (Formal/Informal)</label><input type="text" id="ap_type" class="form-control"></div>
-                        <button class="btn-submit" onclick="adminAdd('phrase')" data-i18n="save">KAYDET</button>
-                    </div>
-                </div>
-
-                <!-- Tab 4: Exam -->
-                <div id="admin-exam" class="admin-content">
-                    <h3 data-i18n="newExam">Sınav Sorusu Ekle</h3>
-                    <div class="form-grid" style="margin-top:15px;">
-                        <div class="form-group" style="grid-column: 1/-1"><label data-i18n="lblExamType">Sınav Türü</label><select id="ae_type" class="form-control"><option>TELC</option><option>Goethe</option><option>TestDaF</option><option>DSH</option><option>FIDE</option></select></div>
-                        <div class="form-group" style="grid-column: 1/-1"><label data-i18n="lblQuestion">Soru</label><input type="text" id="ae_q" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblOptA">Seçenek A</label><input type="text" id="ae_op1" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblOptB">Seçenek B</label><input type="text" id="ae_op2" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblOptC">Seçenek C</label><input type="text" id="ae_op3" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblOptD">Seçenek D</label><input type="text" id="ae_op4" class="form-control"></div>
-                        <div class="form-group"><label data-i18n="lblCorrect">Doğru Cevap (0-3)</label><input type="number" id="ae_ans" class="form-control" min="0" max="3"></div>
-                        <button class="btn-submit" onclick="adminAdd('exam')" data-i18n="save">KAYDET</button>
-                    </div>
-                </div>
-
+          <div class="admin-wrapper">
+            <div class="admin-tabs">
+              <div
+                class="admin-tab active"
+                onclick="switchAdminTab('admin-words', this)"
+                data-i18n="addWord"
+              >
+                Kelime Ekle
+              </div>
+              <div
+                class="admin-tab"
+                onclick="switchAdminTab('admin-grammar', this)"
+                data-i18n="addGrammar"
+              >
+                Gramer Ekle
+              </div>
+              <div
+                class="admin-tab"
+                onclick="switchAdminTab('admin-phrases', this)"
+                data-i18n="addPhrase"
+              >
+                Kalıp Ekle
+              </div>
+              <div
+                class="admin-tab"
+                onclick="switchAdminTab('admin-exam', this)"
+                data-i18n="addExam"
+              >
+                Soru Ekle
+              </div>
             </div>
+
+            <!-- Tab 1: Words -->
+            <div id="admin-words" class="admin-content active">
+              <h3 data-i18n="newWord">Yeni Kelime Ekle</h3>
+              <div class="form-grid" style="margin-top: 15px">
+                <div class="form-group">
+                  <label data-i18n="lblGerman">Almanca</label
+                  ><input type="text" id="aw_de" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblType">Tür</label
+                  ><select
+                    id="aw_type"
+                    class="form-control"
+                    onchange="toggleWordInputs()"
+                  >
+                    <option value="verb">Verb</option>
+                    <option value="noun">Noun</option>
+                    <option value="adjective">Adjective</option>
+                    <option value="adverb">Adverb</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblTurkish">Türkçe</label
+                  ><input type="text" id="aw_tr" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>English</label
+                  ><input type="text" id="aw_en" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Polski</label
+                  ><input type="text" id="aw_pl" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label>Українська</label
+                  ><input type="text" id="aw_ua" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblLevel">Seviye</label
+                  ><select id="aw_level" class="form-control">
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                  </select>
+                </div>
+                <div id="group-verb" class="form-group">
+                  <label data-i18n="lblPerfekt">Perfekt (haben/sein)</label
+                  ><select id="aw_aux" class="form-control">
+                    <option>haben</option>
+                    <option>sein</option>
+                  </select>
+                </div>
+                <div id="group-verb-sent" class="form-group">
+                  <label data-i18n="lblPerfektSent">Perfekt Cümle</label
+                  ><input type="text" id="aw_ex2" class="form-control" />
+                </div>
+                <div id="group-syn" class="form-group hidden">
+                  <label>Eş Anlamlı (Synonym)</label
+                  ><input type="text" id="aw_syn" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblPresent">Present Cümle</label
+                  ><input type="text" id="aw_ex1" class="form-control" />
+                </div>
+                <button
+                  class="btn-submit"
+                  onclick="adminAdd('word')"
+                  data-i18n="save"
+                >
+                  KAYDET
+                </button>
+              </div>
+            </div>
+
+            <!-- Tab 2: Grammar -->
+            <div id="admin-grammar" class="admin-content">
+              <h3 data-i18n="newGrammar">Gramer Konusu Ekle</h3>
+              <div class="form-grid" style="margin-top: 15px">
+                <div class="form-group">
+                  <label data-i18n="lblTitle">Konu Başlığı</label
+                  ><input type="text" id="ag_title" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblLevel">Seviye</label
+                  ><select id="ag_level" class="form-control">
+                    <option>A1</option>
+                    <option>A2</option>
+                    <option>B1</option>
+                    <option>B2</option>
+                    <option>C1</option>
+                  </select>
+                </div>
+                <div class="form-group" style="grid-column: 1/-1">
+                  <label data-i18n="lblDesc">Açıklama</label
+                  ><textarea
+                    id="ag_content"
+                    class="form-control"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button
+                  class="btn-submit"
+                  onclick="adminAdd('grammar')"
+                  data-i18n="save"
+                >
+                  KAYDET
+                </button>
+              </div>
+            </div>
+
+            <!-- Tab 3: Phrases -->
+            <div id="admin-phrases" class="admin-content">
+              <h3 data-i18n="newPhrase">Kalıp Ekle</h3>
+              <div class="form-grid" style="margin-top: 15px">
+                <div class="form-group">
+                  <label data-i18n="lblGerman">Almanca</label
+                  ><input type="text" id="ap_de" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblTurkish">Türkçe</label
+                  ><input type="text" id="ap_tr" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblType">Tipi (Formal/Informal)</label
+                  ><input type="text" id="ap_type" class="form-control" />
+                </div>
+                <button
+                  class="btn-submit"
+                  onclick="adminAdd('phrase')"
+                  data-i18n="save"
+                >
+                  KAYDET
+                </button>
+              </div>
+            </div>
+
+            <!-- Tab 4: Exam -->
+            <div id="admin-exam" class="admin-content">
+              <h3 data-i18n="newExam">Sınav Sorusu Ekle</h3>
+              <div class="form-grid" style="margin-top: 15px">
+                <div class="form-group" style="grid-column: 1/-1">
+                  <label data-i18n="lblExamType">Sınav Türü</label
+                  ><select id="ae_type" class="form-control">
+                    <option>TELC</option>
+                    <option>Goethe</option>
+                    <option>TestDaF</option>
+                    <option>DSH</option>
+                    <option>FIDE</option>
+                  </select>
+                </div>
+                <div class="form-group" style="grid-column: 1/-1">
+                  <label data-i18n="lblQuestion">Soru</label
+                  ><input type="text" id="ae_q" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblOptA">Seçenek A</label
+                  ><input type="text" id="ae_op1" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblOptB">Seçenek B</label
+                  ><input type="text" id="ae_op2" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblOptC">Seçenek C</label
+                  ><input type="text" id="ae_op3" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblOptD">Seçenek D</label
+                  ><input type="text" id="ae_op4" class="form-control" />
+                </div>
+                <div class="form-group">
+                  <label data-i18n="lblCorrect">Doğru Cevap (0-3)</label
+                  ><input
+                    type="number"
+                    id="ae_ans"
+                    class="form-control"
+                    min="0"
+                    max="3"
+                  />
+                </div>
+                <button
+                  class="btn-submit"
+                  onclick="adminAdd('exam')"
+                  data-i18n="save"
+                >
+                  KAYDET
+                </button>
+              </div>
+            </div>
+          </div>
         </section>
+      </main>
+    </div>
 
-    </main>
-</div>
+    <script src="data/vocab.js"></script>
+    <script src="data/grammar.js"></script>
+    <script src="data/reading.js"></script>
+    <script src="data/exam.js"></script>
 
-<script src="data/vocab.js"></script>
-<script src="data/grammar.js"></script>
-<script src="data/reading.js"></script>
-<script src="data/exam.js"></script>
-
-<script src="app.js"></script>
-
-</body>
+    <script src="app.js"></script>
+  </body>
 </html>
