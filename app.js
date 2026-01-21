@@ -237,16 +237,64 @@ const translations = {
 let state = {
   lang: "tr",
   user: { name: "", timeSpent: 0, wordsLearned: 0 },
-  // timer: { seconds: 0, interval: null, isRunning: false },
   timer: { ref: null, sec: 1500, running: false },
   filters: { type: "verb", level: "A1" },
   grammarFilter: "A1",
   examFilter: "TELC", // Default Exam Type
   examLevel: "A1", // Default Exam Level
+  examCategory: "all", // "mektup", "lesen", "sprachbaustein", "all"
   readingFilter: "A1",
   readingIndex: 0,
   learnedIds: [],
+  totalPoints: 0, // Total points earned
+  learnedGrammar: [], // Grammar topics learned
+  completedTimers: 0, // Number of 25-min sessions completed
 };
+
+/* --- RANKING SYSTEM --- */
+const ranks = {
+  tr: [
+    { min: 0, max: 499, name: "Teğmen", icon: "⭐" },
+    { min: 500, max: 999, name: "Üsteğmen", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Yüzbaşı", icon: "⭐⭐" },
+    { min: 1500, max: 1999, name: "Binbaşı", icon: "⭐⭐" },
+    { min: 2000, max: 2499, name: "Yarbay", icon: "⭐⭐⭐" },
+    { min: 2500, max: 2999, name: "Albay", icon: "⭐⭐⭐" },
+    { min: 3000, max: Infinity, name: "General", icon: "⭐⭐⭐⭐" }
+  ],
+  en: [
+    { min: 0, max: 499, name: "Lieutenant", icon: "⭐" },
+    { min: 500, max: 999, name: "First Lieutenant", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Captain", icon: "⭐⭐" },
+    { min: 1500, max: 1999, name: "Major", icon: "⭐⭐" },
+    { min: 2000, max: 2499, name: "Lieutenant Colonel", icon: "⭐⭐⭐" },
+    { min: 2500, max: 2999, name: "Colonel", icon: "⭐⭐⭐" },
+    { min: 3000, max: Infinity, name: "General", icon: "⭐⭐⭐⭐" }
+  ],
+  pl: [
+    { min: 0, max: 499, name: "Podporucznik", icon: "⭐" },
+    { min: 500, max: 999, name: "Porucznik", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Kapitan", icon: "⭐⭐" },
+    { min: 1500, max: 1999, name: "Major", icon: "⭐⭐" },
+    { min: 2000, max: 2499, name: "Podpułkownik", icon: "⭐⭐⭐" },
+    { min: 2500, max: 2999, name: "Pułkownik", icon: "⭐⭐⭐" },
+    { min: 3000, max: Infinity, name: "Generał", icon: "⭐⭐⭐⭐" }
+  ],
+  ua: [
+    { min: 0, max: 499, name: "Лейтенант", icon: "⭐" },
+    { min: 500, max: 999, name: "Старший лейтенант", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Капітан", icon: "⭐⭐" },
+    { min: 1500, max: 1999, name: "Майор", icon: "⭐⭐" },
+    { min: 2000, max: 2499, name: "Підполковник", icon: "⭐⭐⭐" },
+    { min: 2500, max: 2999, name: "Полковник", icon: "⭐⭐⭐" },
+    { min: 3000, max: Infinity, name: "Генерал", icon: "⭐⭐⭐⭐" }
+  ]
+};
+
+function getRank(points) {
+  const rankList = ranks[state.lang] || ranks.tr;
+  return rankList.find(r => points >= r.min && points <= r.max) || rankList[0];
+}
 
 document.addEventListener("DOMContentLoaded", () => {
   const adminSection = document.getElementById("admin");
@@ -296,13 +344,24 @@ function setLanguage(lang) {
     if (texts[key]) el.textContent = texts[key];
   });
 
-  document.querySelector('[data-ph="enterName"]').placeholder = texts.enterName;
+  document.querySelector('[data-ph="enterName"]')?.setAttribute('placeholder', texts.enterName);
 
+  // Re-render all content with new language
   renderFlashcards();
   renderGrammar();
   renderExams();
   renderReading();
-  updateUser();
+
+  // Update rank display in new language - IMPORTANT!
+  updateRankDisplay();
+  updateProgressUI();
+
+  // Update user welcome message if exists
+  const name = state.user.name;
+  if (name) {
+    const text = document.getElementById("welcomeText");
+    if (text) text.textContent = texts.welcome + " " + name;
+  }
 }
 
 /* --- TIMER (GERİ SAYIM / POMODORO) --- */
@@ -321,11 +380,24 @@ function updateTimerDisplay() {
   document.getElementById("timerDisplay").innerText = `${m}:${s}`;
 }
 
+function toggleTimer() {
+  if (state.timer.running) {
+    pauseTimer();
+  } else {
+    startTimer();
+  }
+}
+
 function startTimer() {
   // Zaten çalışıyorsa veya süre 0 ise başlatma
   if (state.timer.running || state.timer.sec <= 0) return;
 
   state.timer.running = true;
+
+  // Update button text
+  const btn = document.getElementById("timerToggleBtn");
+  const texts = translations[state.lang];
+  if (btn) btn.innerHTML = `<span data-i18n="pause">⏸ ${texts.pause}</span>`;
 
   state.timer.ref = setInterval(() => {
     state.timer.sec--; // Geriye say
@@ -335,9 +407,14 @@ function startTimer() {
     // Süre bitti mi?
     if (state.timer.sec <= 0) {
       pauseTimer();
-      // Süre bitince 00:00 olarak kalsın, uyarı versin
       updateTimerDisplay();
-      alert("Süre Doldu! 25 Dakika tamamlandı. Mola zamanı! ☕");
+
+      // Award 5 points for completing 25 minutes
+      state.totalPoints += 5;
+      state.completedTimers += 1;
+      updateProgressUI();
+
+      alert("Süre Doldu! 25 Dakika tamamlandı. Mola zamanı! ☕\n+5 Puan kazandınız!");
     }
   }, 1000);
 }
@@ -345,6 +422,11 @@ function startTimer() {
 function pauseTimer() {
   state.timer.running = false;
   clearInterval(state.timer.ref);
+
+  // Update button text
+  const btn = document.getElementById("timerToggleBtn");
+  const texts = translations[state.lang];
+  if (btn) btn.innerHTML = `<span data-i18n="start">▶ ${texts.start}</span>`;
 }
 function calculateStars() {
   const starsFromTime = state.user.timeSpent / 25;
@@ -355,26 +437,77 @@ function calculateStars() {
 function markAsLearned(id, btn) {
   if (!state.learnedIds.includes(id)) {
     state.learnedIds.push(id);
+    state.totalPoints += 1; // Add 1 point per word
+
     const texts = translations[state.lang];
     btn.classList.add("learned");
     btn.innerHTML = texts.btnLearned;
+
+    // Update UI immediately
     updateProgressUI();
   }
 }
 
 function updateProgressUI() {
   const totalWords = state.learnedIds.length;
-  const goal = 50;
+
+  // Calculate dynamic goal based on current filter
+  const totalAvailable = db.vocab.filter(
+    (w) => w.type === state.filters.type && w.level === state.filters.level
+  ).length;
+  const goal = totalAvailable || 50; // Fallback to 50 if no items
+
   const percentage = Math.min((totalWords / goal) * 100, 100);
 
   document.getElementById("learnedCount").textContent = totalWords;
+  const goalCountEl = document.getElementById("goalCount");
+  if (goalCountEl) goalCountEl.textContent = goal;
   document.getElementById("progressBar").style.width = percentage + "%";
-  document.getElementById("starsDisplay").textContent =
-    "⭐ " + calculateStars();
+
+  // Update rank and points display
+  const rank = getRank(state.totalPoints);
+  const starsDisplay = document.getElementById("starsDisplay");
+  if (starsDisplay) {
+    starsDisplay.textContent = `${rank.icon} ${state.totalPoints} `;
+  }
+
+  // Update rank name in status bar
+  const rankNameEl = document.getElementById("rankName");
+  if (rankNameEl) {
+    rankNameEl.textContent = rank.name;
+  }
+
+  // Update logo with current rank
+  updateRankDisplay();
+}
+
+function updateRankDisplay() {
+  const rank = getRank(state.totalPoints);
+
+  // Update logo
+  const logoSpan = document.querySelector('.logo span');
+  if (logoSpan) {
+    logoSpan.textContent = rank.name;
+  }
+
+  // Update rank name in status bar
+  const rankNameEl = document.getElementById("rankName");
+  if (rankNameEl) {
+    rankNameEl.textContent = rank.name;
+  }
 }
 
 function updateUser() {
-  const name = document.getElementById("usernameInput").value;
+  const desktopInput = document.getElementById("usernameInput");
+  const mobileInput = document.getElementById("usernameInputMobile");
+
+  // Get value from whichever input was changed
+  const name = desktopInput?.value || mobileInput?.value || "";
+
+  // Sync both inputs
+  if (desktopInput) desktopInput.value = name;
+  if (mobileInput) mobileInput.value = name;
+
   state.user.name = name;
   const container = document.getElementById("welcomeContainer");
   const text = document.getElementById("welcomeText");
@@ -389,66 +522,6 @@ function updateUser() {
 }
 
 /* --- FLASHCARDS --- */
-
-// function renderFlashcards() {
-//   const container = document.getElementById("flashcardsGrid");
-//   container.innerHTML = "";
-//   const texts = translations[state.lang];
-
-//   const filtered = db.vocab.filter(
-//     (w) => w.type === state.filters.type && w.level === state.filters.level,
-//   );
-
-//   if (filtered.length === 0) {
-//     container.innerHTML =
-//       '<div style="grid-column:1/-1; text-align:center;">Bu kriterlere uygun kart yok.</div>';
-//     return;
-//   }
-
-//   filtered.forEach((w) => {
-//     const card = document.createElement("div");
-//     card.className = "flashcard";
-//     card.onclick = function (e) {
-//       if (e.target.tagName !== "BUTTON") this.classList.toggle("flipped");
-//     };
-
-//     // 1. TÜR ÇEVİRİSİ (Artık "adjective" anahtarı eşleştiği için doğru çalışacak)
-//     const typeText = texts[w.type] || w.type;
-
-//     // 2. KÜÇÜK HARF MANTIĞI
-//     // Eğer tür "noun" (İsim) değilse, Almancayı küçük harfe çevir.
-//     let displayGerman = w.de;
-//     if (w.type !== "noun") {
-//       displayGerman = w.de.toLowerCase();
-//     }
-
-//     card.innerHTML = `
-//                 <div class="flashcard-inner">
-//                     <div class="flashcard-front">
-//                         <span class="fc-level">${w.level}</span>
-//                         <span class="fc-type">${typeText}</span>
-//                         <div class="fc-word">${w[state.lang]}</div>
-//                         <div class="fc-hint">${texts.cardHint}</div>
-//                     </div>
-
-//                     <div class="flashcard-back">
-//                         <div class="fc-german">${displayGerman}</div>
-
-//                         <div class="fc-sentences">
-//                             ${w.ex1 ? `<div class="fc-sent-row"><span class="fc-label">Present:</span> ${w.ex1}</div>` : ""}
-//                             ${w.ex2 ? `<div class="fc-sent-row"><span class="fc-label">Perfekt (${w.aux || ""}):</span> <span style="color:var(--success)">${w.ex2}</span></div>` : ""}
-//                             ${w.syn ? `<div class="fc-sent-row" style="color:#666; font-size:0.8rem; margin-top:5px;"><span class="fc-label">Synonym:</span> ${w.syn}</div>` : ""}
-//                         </div>
-
-//                         <button class="btn-learn" onclick="markAsLearned(${w.id}, this)">
-//                             <i class="fas fa-check"></i> ${texts.btnLearn}
-//                         </button>
-//                     </div>
-//                 </div>
-//             `;
-//     container.appendChild(card);
-//   });
-// }
 function renderFlashcards() {
   const container = document.getElementById("flashcardsGrid");
   container.innerHTML = "";
@@ -464,7 +537,9 @@ function renderFlashcards() {
     return;
   }
 
-  filtered.forEach((w) => {
+  const total = filtered.length;
+
+  filtered.forEach((w, index) => {
     const card = document.createElement("div");
     card.className = "flashcard";
     card.onclick = function (e) {
@@ -489,7 +564,8 @@ function renderFlashcards() {
     card.innerHTML = `
                 <div class="flashcard-inner">
                     <div class="flashcard-front">
-                        <span class="fc-level">${w.level}</span>
+                        <span class="fc-level" style="left:15px; right:auto; background:#eee; color:#666;">${w.level}</span>
+                        <span class="fc-level">${index + 1} / ${total}</span>
                         <span class="fc-type">${typeText}</span>
                         <div class="fc-word" style="${lowerCaseStyle}">${displayFront}</div>
                         <div class="fc-hint">${texts.cardHint}</div>
@@ -512,6 +588,9 @@ function renderFlashcards() {
             `;
     container.appendChild(card);
   });
+
+  // Update section-specific progress
+  updateSectionProgress('vocab', filtered.length);
 }
 
 function setFilter(cat, val, btn) {
@@ -578,30 +657,53 @@ function renderGrammar() {
         </div>`
       : "";
 
+    const isLearned = state.learnedGrammar.includes(g.id);
+    const learnedClass = isLearned ? 'grammar-learned' : '';
+    const learnedBadge = isLearned ? '<span style="color:#28a745; margin-left:10px;">✓ Öğrenildi</span>' : '';
+
     const item = document.createElement("div");
-    item.className = "grammar-item";
+    item.className = `grammar-item ${learnedClass}`;
     item.innerHTML = `
       <div class="grammar-header" onclick="toggleGrammar(this)">
         <div style="display:flex; align-items:center;">
           <span class="grammar-title">${g.title}</span>
           <span class="grammar-badge">${g.level}</span>
+          ${learnedBadge}
         </div>
         <i class="fas fa-chevron-down grammar-toggle-icon"></i>
       </div>
       <div class="grammar-body">
         <p>${text}</p>
         ${examplesHTML}
+        ${!isLearned ? `<button class="btn-learn" onclick="markGrammarLearned(${g.id}, this)" style="margin-top:15px;">
+          <i class="fas fa-check"></i> Öğrendim (+2 Puan)
+        </button>` : ''}
       </div>
     `;
 
     container.appendChild(item);
   });
+
+  // Update section-specific progress
+  updateSectionProgress('grammar', filtered.length);
+}
+
+function markGrammarLearned(id, btn) {
+  if (!state.learnedGrammar.includes(id)) {
+    state.learnedGrammar.push(id);
+    state.totalPoints += 2; // 2 points per grammar topic
+    updateProgressUI();
+    renderGrammar(); // Re-render to show learned state
+  }
 }
 
 /* --- EXAM LOGIC (UPDATED) --- */
 function openExam(type, btn) {
   // This is called from Sidebar
   state.examFilter = type;
+
+  // Show/Hide Exam Categories
+  document.getElementById("examCategories").style.display = "block";
 
   // Activate Main Tab
   document
@@ -628,17 +730,33 @@ function setExamLevel(level, btn) {
   renderExams();
 }
 
+function setExamCategory(cat, btn) {
+  state.examCategory = cat;
+  const parent = btn.parentElement;
+  parent
+    .querySelectorAll(".glass-btn")
+    .forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  renderExams();
+}
+
 function renderExams() {
   const container = document.getElementById("examContent");
   container.innerHTML = "";
 
-  // Filter by Exam Type (from sidebar) AND Level (from tab)
+  // Filter by Exam Type (from sidebar) AND Level (from tab) AND Category
   const filtered = db.exam.filter(
-    (e) => e.type === state.examFilter && e.level === state.examLevel,
+    (e) => {
+      const matchesType = e.type === state.examFilter;
+      const matchesLevel = e.level === state.examLevel;
+      // If category is 'all', matches everything, otherwise check exact match or if category is undefined (legacy data support)
+      const matchesCategory = state.examCategory === 'all' || e.category === state.examCategory;
+      return matchesType && matchesLevel && matchesCategory;
+    }
   );
 
   if (filtered.length === 0) {
-    container.innerHTML = `<p style="text-align:center; padding:20px; color:#999;">Henüz ${state.examFilter} - ${state.examLevel} için soru eklenmedi.</p>`;
+    container.innerHTML = `<p style="text-align:center; padding:20px; color:#999;">Henüz ${state.examFilter} - ${state.examLevel} (${state.examCategory}) için soru eklenmedi.</p>`;
     return;
   }
 
@@ -652,7 +770,10 @@ function renderExams() {
       optionsHtml += `<div class="exam-opt ${isCorrect ? "correct" : ""}">${idx + 1}) ${opt}</div>`;
     });
 
-    div.innerHTML = `<div class="exam-q">${e.q}</div>${optionsHtml}`;
+    // Add badge for category if exists
+    const catBadge = e.category ? `<span style="font-size:0.7rem; background:#f0f0f0; padding:2px 6px; border-radius:4px; margin-right:5px; text-transform:uppercase;">${e.category}</span>` : "";
+
+    div.innerHTML = `<div class="exam-q">${catBadge} ${e.q}</div>${optionsHtml}`;
     container.appendChild(div);
   });
 }
@@ -1030,4 +1151,211 @@ function toggleReadForCurrent() {
 
   saveReadingProgress(progress);
   updateProgressUI();
+}
+
+/* --- MOBILE MENU & FLASHCARD NAV (FIXED) --- */
+function toggleMobileMenu() {
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.getElementById('sidebarOverlay');
+  if (sidebar) sidebar.classList.toggle('open');
+  if (overlay) overlay.classList.toggle('active');
+}
+
+function nextFlashcard() {
+  const container = document.getElementById('flashcardsGrid');
+  if (!container) return;
+
+  // Calculate card width (85vw + gap)
+  const cardWidth = window.innerWidth * 0.85 + 15;
+
+  container.scrollBy({
+    left: cardWidth,
+    behavior: 'smooth'
+  });
+}
+
+/* --- FLASHCARD NAVIGATION (PREV) --- */
+function prevFlashcard() {
+  const container = document.getElementById('flashcardsGrid');
+  if (!container) return;
+
+  // Calculate card width (85vw + gap)
+  const cardWidth = window.innerWidth * 0.85 + 15;
+
+  container.scrollBy({
+    left: -cardWidth,
+    behavior: 'smooth'
+  });
+}
+
+/* --- RANK INFO MODAL --- */
+function showRankInfo() {
+  const rank = getRank(state.totalPoints);
+  const nextRankThreshold = getNextRankThreshold(state.totalPoints);
+  const pointsNeeded = nextRankThreshold - state.totalPoints;
+
+  const rankList = ranks[state.lang] || ranks.tr;
+
+  let rankListHTML = rankList.map(r => {
+    const isCurrent = state.totalPoints >= r.min && state.totalPoints <= r.max;
+    const style = isCurrent ? 'background: #e3f2fd; font-weight: bold;' : '';
+    return `<div style="padding: 8px; ${style}">${r.icon} ${r.name} (${r.min}-${r.max === Infinity ? '∞' : r.max} puan)</div>`;
+  }).join('');
+
+  const messages = {
+    tr: {
+      title: '🎖️ Rütbe Sistemi',
+      current: 'Mevcut Rütbeniz',
+      points: 'Toplam Puanınız',
+      next: 'Sonraki Rütbe',
+      needed: 'Gereken Puan',
+      howToEarn: '💡 Puan Kazanma Yolları',
+      word: '• Kelime öğrenme: +1 puan',
+      grammar: '• Gramer konusu: +2 puan',
+      readingAB: '• Okuma (A1-B1): +3 puan',
+      readingB2: '• Okuma (B2+): +5 puan',
+      timer: '• 25 dakika tamamlama: +5 puan',
+      allRanks: '📊 Tüm Rütbeler'
+    },
+    en: {
+      title: '🎖️ Ranking System',
+      current: 'Current Rank',
+      points: 'Total Points',
+      next: 'Next Rank',
+      needed: 'Points Needed',
+      howToEarn: '💡 How to Earn Points',
+      word: '• Learn a word: +1 point',
+      grammar: '• Grammar topic: +2 points',
+      readingAB: '• Reading (A1-B1): +3 points',
+      readingB2: '• Reading (B2+): +5 points',
+      timer: '• Complete 25 minutes: +5 points',
+      allRanks: '📊 All Ranks'
+    },
+    pl: {
+      title: '🎖️ System Rang',
+      current: 'Obecna Ranga',
+      points: 'Łączne Punkty',
+      next: 'Następna Ranga',
+      needed: 'Potrzebne Punkty',
+      howToEarn: '💡 Jak Zdobyć Punkty',
+      word: '• Nauka słowa: +1 punkt',
+      grammar: '• Temat gramatyki: +2 punkty',
+      readingAB: '• Czytanie (A1-B1): +3 punkty',
+      readingB2: '• Czytanie (B2+): +5 punktów',
+      timer: '• Ukończenie 25 minut: +5 punktów',
+      allRanks: '📊 Wszystkie Rangi'
+    },
+    ua: {
+      title: '🎖️ Система Рангів',
+      current: 'Поточний Ранг',
+      points: 'Загальні Бали',
+      next: 'Наступний Ранг',
+      needed: 'Потрібно Балів',
+      howToEarn: '💡 Як Заробити Бали',
+      word: '• Вивчення слова: +1 бал',
+      grammar: '• Тема граматики: +2 бали',
+      readingAB: '• Читання (A1-B1): +3 бали',
+      readingB2: '• Читання (B2+): +5 балів',
+      timer: '• Завершення 25 хвилин: +5 балів',
+      allRanks: '📊 Всі Ранги'
+    }
+  };
+
+  const msg = messages[state.lang] || messages.tr;
+  const nextRank = rankList.find(r => r.min > state.totalPoints);
+
+  const modalHTML = `
+    <div class="modal-overlay" onclick="closeRankInfo()">
+      <div class="modal-content" onclick="event.stopPropagation()">
+        <h2 style="margin-top:0; color: var(--primary);">${msg.title}</h2>
+        
+        <div style="background: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+          <div style="margin-bottom: 10px;">
+            <strong>${msg.current}:</strong> ${rank.icon} ${rank.name}
+          </div>
+          <div style="margin-bottom: 10px;">
+            <strong>${msg.points}:</strong> ${state.totalPoints}
+          </div>
+          ${nextRank ? `
+            <div style="margin-bottom: 10px;">
+              <strong>${msg.next}:</strong> ${nextRank.icon} ${nextRank.name}
+            </div>
+            <div>
+              <strong>${msg.needed}:</strong> ${pointsNeeded}
+            </div>
+          ` : '<div style="color: #28a745;"><strong>🎉 Maksimum rütbeye ulaştınız!</strong></div>'}
+        </div>
+        
+        <h3 style="color: var(--secondary);">${msg.howToEarn}</h3>
+        <div style="background: #fff3cd; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
+          <div style="margin-bottom: 8px;">${msg.word}</div>
+          <div style="margin-bottom: 8px;">${msg.grammar}</div>
+          <div style="margin-bottom: 8px;">${msg.readingAB}</div>
+          <div style="margin-bottom: 8px;">${msg.readingB2}</div>
+          <div>${msg.timer}</div>
+        </div>
+        
+        <h3 style="color: var(--secondary);">${msg.allRanks}</h3>
+        <div style="max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 8px;">
+          ${rankListHTML}
+        </div>
+        
+        <button onclick="closeRankInfo()" style="margin-top: 20px; padding: 10px 20px; background: var(--primary); color: white; border: none; border-radius: 5px; cursor: pointer; width: 100%;">
+          Kapat
+        </button>
+      </div>
+    </div>
+  `;
+
+  const modalDiv = document.createElement('div');
+  modalDiv.id = 'rankInfoModal';
+  modalDiv.innerHTML = modalHTML;
+  document.body.appendChild(modalDiv);
+}
+
+function closeRankInfo() {
+  const modal = document.getElementById('rankInfoModal');
+  if (modal) modal.remove();
+}
+
+function getNextRankThreshold(currentPoints) {
+  const rankList = ranks[state.lang] || ranks.tr;
+  const nextRank = rankList.find(r => r.min > currentPoints);
+  return nextRank ? nextRank.min : Infinity;
+}
+
+/* --- SECTION-SPECIFIC PROGRESS TRACKING --- */
+function updateSectionProgress(section, totalItems) {
+  let learnedCount = 0;
+
+  if (section === 'vocab') {
+    // Count learned words in current filter
+    const filtered = db.vocab.filter(
+      (w) => w.type === state.filters.type && w.level === state.filters.level
+    );
+    learnedCount = filtered.filter(w => state.learnedIds.includes(w.id)).length;
+  } else if (section === 'grammar') {
+    // Count learned grammar topics in current filter
+    const filtered = db.grammar.filter((g) => g.level === state.grammarFilter);
+    learnedCount = filtered.filter(g => state.learnedGrammar.includes(g.id)).length;
+  } else if (section === 'reading') {
+    // Count read passages in current level
+    const progress = getReadingProgress();
+    const currentLevelReads = progress[state.readingFilter] || [];
+    learnedCount = currentLevelReads.length;
+  }
+
+  const percentage = totalItems > 0 ? Math.min((learnedCount / totalItems) * 100, 100) : 0;
+
+  // Update progress bar
+  const progressBar = document.getElementById(`${section}ProgressBar`);
+  if (progressBar) {
+    progressBar.style.width = percentage + "%";
+  }
+
+  // Update count text
+  const progressCount = document.getElementById(`${section}ProgressCount`);
+  if (progressCount) {
+    progressCount.textContent = `${learnedCount} / ${totalItems}`;
+  }
 }
