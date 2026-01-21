@@ -254,40 +254,32 @@ let state = {
 /* --- RANKING SYSTEM --- */
 const ranks = {
   tr: [
-    { min: 0, max: 499, name: "Teğmen", icon: "⭐" },
-    { min: 500, max: 999, name: "Üsteğmen", icon: "⭐" },
-    { min: 1000, max: 1499, name: "Yüzbaşı", icon: "⭐⭐" },
-    { min: 1500, max: 1999, name: "Binbaşı", icon: "⭐⭐" },
-    { min: 2000, max: 2499, name: "Yarbay", icon: "⭐⭐⭐" },
-    { min: 2500, max: 2999, name: "Albay", icon: "⭐⭐⭐" },
-    { min: 3000, max: Infinity, name: "General", icon: "⭐⭐⭐⭐" }
+    { min: 0, max: 499, name: "Bronz", icon: "🥉" },
+    { min: 500, max: 999, name: "Gümüş", icon: "🥈" },
+    { min: 1000, max: 1499, name: "Altın", icon: "🥇" },
+    { min: 1500, max: 2499, name: "Platin", icon: "💎" },
+    { min: 2500, max: Infinity, name: "Elmas", icon: "💠" }
   ],
   en: [
-    { min: 0, max: 499, name: "Lieutenant", icon: "⭐" },
-    { min: 500, max: 999, name: "First Lieutenant", icon: "⭐" },
-    { min: 1000, max: 1499, name: "Captain", icon: "⭐⭐" },
-    { min: 1500, max: 1999, name: "Major", icon: "⭐⭐" },
-    { min: 2000, max: 2499, name: "Lieutenant Colonel", icon: "⭐⭐⭐" },
-    { min: 2500, max: 2999, name: "Colonel", icon: "⭐⭐⭐" },
-    { min: 3000, max: Infinity, name: "General", icon: "⭐⭐⭐⭐" }
+    { min: 0, max: 499, name: "Bronze", icon: "🥉" },
+    { min: 500, max: 999, name: "Silver", icon: "🥈" },
+    { min: 1000, max: 1499, name: "Gold", icon: "🥇" },
+    { min: 1500, max: 2499, name: "Platinum", icon: "💎" },
+    { min: 2500, max: Infinity, name: "Diamond", icon: "💠" }
   ],
   pl: [
-    { min: 0, max: 499, name: "Podporucznik", icon: "⭐" },
-    { min: 500, max: 999, name: "Porucznik", icon: "⭐" },
-    { min: 1000, max: 1499, name: "Kapitan", icon: "⭐⭐" },
-    { min: 1500, max: 1999, name: "Major", icon: "⭐⭐" },
-    { min: 2000, max: 2499, name: "Podpułkownik", icon: "⭐⭐⭐" },
-    { min: 2500, max: 2999, name: "Pułkownik", icon: "⭐⭐⭐" },
-    { min: 3000, max: Infinity, name: "Generał", icon: "⭐⭐⭐⭐" }
+    { min: 0, max: 499, name: "Brąz", icon: "🥉" },
+    { min: 500, max: 999, name: "Srebro", icon: "🥈" },
+    { min: 1000, max: 1499, name: "Złoto", icon: "🥇" },
+    { min: 1500, max: 2499, name: "Platyna", icon: "💎" },
+    { min: 2500, max: Infinity, name: "Diament", icon: "💠" }
   ],
   ua: [
-    { min: 0, max: 499, name: "Лейтенант", icon: "⭐" },
-    { min: 500, max: 999, name: "Старший лейтенант", icon: "⭐" },
-    { min: 1000, max: 1499, name: "Капітан", icon: "⭐⭐" },
-    { min: 1500, max: 1999, name: "Майор", icon: "⭐⭐" },
-    { min: 2000, max: 2499, name: "Підполковник", icon: "⭐⭐⭐" },
-    { min: 2500, max: 2999, name: "Полковник", icon: "⭐⭐⭐" },
-    { min: 3000, max: Infinity, name: "Генерал", icon: "⭐⭐⭐⭐" }
+    { min: 0, max: 499, name: "Бронза", icon: "🥉" },
+    { min: 500, max: 999, name: "Срібло", icon: "🥈" },
+    { min: 1000, max: 1499, name: "Золото", icon: "🥇" },
+    { min: 1500, max: 2499, name: "Платина", icon: "💎" },
+    { min: 2500, max: Infinity, name: "Діамант", icon: "💠" }
   ]
 };
 
