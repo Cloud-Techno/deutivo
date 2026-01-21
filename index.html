@@ -234,15 +234,17 @@
             <button class="glass-btn" onclick="setExamLevel('B2', this)">
               B2
             </button>
+            <button class="glass-btn" onclick="setExamLevel('C1', this)">
+              C1
+            </button>
           </div>
         </div>
         <!-- Exam Categories (Sub-tabs) -->
         <div class="filter-container" id="examCategories" style="display:none; margin-top:10px;">
           <div class="filter-row">
-            <button class="glass-btn" onclick="setExamCategory('mektup', this)">Mektup</button>
+            <button class="glass-btn active" onclick="setExamCategory('Brief', this)">Brief</button>
             <button class="glass-btn" onclick="setExamCategory('lesen', this)">Lesen</button>
             <button class="glass-btn" onclick="setExamCategory('sprachbaustein', this)">Sprachbaustein</button>
-            <button class="glass-btn active" onclick="setExamCategory('all', this)">Karışık</button>
           </div>
         </div>
         <div id="examContent"></div>

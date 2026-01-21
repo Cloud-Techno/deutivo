@@ -12,6 +12,8 @@
   --card-w: 300px;
   --card-h: 350px;
   --card-bg: #ffffff;
+  --border: #e9ecef;
+  /* Added border variable for consistency */
 }
 
 [data-theme="dark"] {
@@ -22,6 +24,8 @@
   --glass-border: rgba(255, 255, 255, 0.1);
   --gradient-bg: linear-gradient(135deg, #121212 0%, #000000 100%);
   --dark: #f4f6f8;
+  --border: #333333;
+  /* Dark mode border */
 }
 
 * {
@@ -625,17 +629,41 @@ header {
 
 .exam-item {
   background: var(--white);
-  padding: 20px;
-  border-radius: 12px;
+  padding: 30px;
+  /* Increased padding */
+  border-radius: 16px;
   border: 1px solid var(--border);
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  /* Soft shadow */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.exam-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
 }
 
 .exam-q {
-  font-weight: bold;
-  margin-bottom: 15px;
+  font-weight: 400;
+  /* Regular weight */
+  margin-bottom: 20px;
+  color: var(--dark);
+  font-size: 1.15rem;
+  /* Slightly larger for readability */
+  line-height: 1.7;
+  /* Relaxed line height */
+  letter-spacing: 0.015em;
+  /* Cleaner look */
+}
+
+/* Style for the strong headers inside the question HTML (Soru/Cevap) to stand out nicely */
+.exam-q strong {
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 8px;
   color: var(--secondary);
-  font-size: 1.1rem;
+  /* Distinct color for headers */
 }
 
 .exam-opt {
@@ -657,6 +685,24 @@ header {
   background: #d4edda;
   border-color: #c3e6cb;
   color: #155724;
+}
+
+[data-theme="dark"] .exam-opt.correct {
+  background: rgba(40, 167, 69, 0.2);
+  border-color: #28a745;
+  color: #fff;
+}
+
+.exam-opt.wrong {
+  background: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+[data-theme="dark"] .exam-opt.wrong {
+  background: rgba(220, 53, 69, 0.2);
+  border-color: #dc3545;
+  color: #fff;
 }
 
 /* --- ADMIN --- */
@@ -1895,4 +1941,79 @@ header {
   .section-progress-track {
     height: 10px;
   }
+}/* --- BRIEF (WRITING) SECTION STYLES --- */
+.brief-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.brief-header {
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--border);
+    padding-bottom: 5px;
+}
+
+.brief-label {
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--gray);
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+.brief-task-box {
+    background: var(--bg-body);
+    /* Adaptive background */
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary);
+    color: var(--dark);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.brief-answer-trigger {
+    margin-top: 15px;
+}
+
+.brief-answer-box {
+    background: var(--card-bg);
+    /* Adaptive background */
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    margin-top: 15px;
+    color: var(--dark);
+    font-family: inherit;
+    line-height: 1.7;
+    display: none;
+    /* Hidden by default */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.03);
+    position: relative;
+}
+
+.brief-answer-box::before {
+    content: "📝";
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
+
+/* Dark mode specific adjustments if variables aren't enough */
+[data-theme="dark"] .brief-task-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-left-color: var(--secondary);
+}
+
+[data-theme="dark"] .brief-answer-box {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: rgba(255, 255, 255, 0.1);
 }

@@ -464,6 +464,10 @@ window.vocabData = [
   { id: 399, type: "verb", level: "C1", tr: "Koordine etmek / optimize etmek", en: "To streamline", pl: "Usprawniać", ua: "Оптимізувати", de: "optimieren", aux: "haben", ex1: "Wir optimieren die Abläufe, obwohl Zeitdruck herrscht.", ex2: "Die Prozesse wurden optimiert." },
   { id: 400, type: "verb", level: "C1", tr: "Yönetmek / yürütmek", en: "To execute strategically", pl: "Strategicznie realizować", ua: "Стратегічно виконувати", de: "strategisch ausführen", aux: "haben", ex1: "Das Team führt die Aufgaben strategisch aus, obwohl Herausforderungen bestehen.", ex2: "Die Maßnahmen wurden strategisch umgesetzt." },
 
+
+  // SIFATLAR
+
+
   { id: 401, type: "adjective", level: "A1", tr: "Büyük", en: "Big", pl: "Duży", ua: "Великий", de: "groß", syn: "riesig", ex1: "Das Haus ist groß.", ex2: "", },
   { id: 402, type: "adjective", level: "A1", tr: "Küçük", en: "Small", pl: "Mały", ua: "Малий", de: "klein", syn: "winzig", ex1: "Der Hund ist klein.", ex2: "", },
   { id: 403, type: "adjective", level: "A1", tr: "İyi", en: "Good", pl: "Dobry", ua: "Добрий", de: "gut", syn: "prima", ex1: "Das Wetter ist gut.", ex2: "", },

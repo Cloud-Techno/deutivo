@@ -62,6 +62,11 @@ const translations = {
     readingNewWords: "Yeni Öğrenilen Kelimeler",
     readingMarkRead: "Okudum",
     readingDone: "Tamamlandı",
+    lblSubject: "Konu",
+    lblTask: "Görev",
+    lblTaskDesc: "Görev Tanımı",
+    lblAnswerExample: "Cevap (Örnek Mektup)",
+    btnShowAnswer: "👁️ Cevabı Göster / Gizle",
   },
   en: {
     logoTitle: "DeutschMaster",
@@ -118,6 +123,11 @@ const translations = {
     readingNewWords: "New Vocabulary",
     readingMarkRead: "Mark as Read",
     readingDone: "Completed",
+    lblSubject: "Topic",
+    lblTask: "Task",
+    lblTaskDesc: "Task Description",
+    lblAnswerExample: "Answer Example",
+    btnShowAnswer: "👁️ Show / Hide Answer",
   },
   pl: {
     logoTitle: "DeutschMaster",
@@ -174,6 +184,11 @@ const translations = {
     readingNewWords: "Nowe słowa",
     readingMarkRead: "Przeczytane",
     readingDone: "Ukończono",
+    lblSubject: "Temat",
+    lblTask: "Zadanie",
+    lblTaskDesc: "Opis Zadania",
+    lblAnswerExample: "Przykład Odpowiedzi",
+    btnShowAnswer: "👁️ Pokaż / Ukryj Odpowiedź",
   },
   ua: {
     logoTitle: "DeutschMaster",
@@ -230,6 +245,11 @@ const translations = {
     readingNewWords: "Нові слова",
     readingMarkRead: "Прочитано",
     readingDone: "Завершено",
+    lblSubject: "Тема",
+    lblTask: "Завдання",
+    lblTaskDesc: "Опис Завдання",
+    lblAnswerExample: "Приклад Відповіді",
+    btnShowAnswer: "👁️ Показати / Приховати Відповідь",
   },
 };
 
@@ -242,7 +262,7 @@ let state = {
   grammarFilter: "A1",
   examFilter: "TELC", // Default Exam Type
   examLevel: "A1", // Default Exam Level
-  examCategory: "all", // "mektup", "lesen", "sprachbaustein", "all"
+  examCategory: "Brief", // "Brief", "lesen", "sprachbaustein"
   readingFilter: "A1",
   readingIndex: 0,
   learnedIds: [],
@@ -254,30 +274,30 @@ let state = {
 /* --- RANKING SYSTEM --- */
 const ranks = {
   tr: [
-    { min: 0, max: 499, name: "Bronz", icon: "🥉" },
-    { min: 500, max: 999, name: "Gümüş", icon: "🥈" },
-    { min: 1000, max: 1499, name: "Altın", icon: "🥇" },
+    { min: 0, max: 499, name: "Bronz", icon: "🟠" },
+    { min: 500, max: 999, name: "Gümüş", icon: "⚪" },
+    { min: 1000, max: 1499, name: "Altın", icon: "🟡" },
     { min: 1500, max: 2499, name: "Platin", icon: "💎" },
     { min: 2500, max: Infinity, name: "Elmas", icon: "💠" }
   ],
   en: [
-    { min: 0, max: 499, name: "Bronze", icon: "🥉" },
-    { min: 500, max: 999, name: "Silver", icon: "🥈" },
-    { min: 1000, max: 1499, name: "Gold", icon: "🥇" },
+    { min: 0, max: 499, name: "Bronze", icon: "🟠" },
+    { min: 500, max: 999, name: "Silver", icon: "⚪" },
+    { min: 1000, max: 1499, name: "Gold", icon: "🟡" },
     { min: 1500, max: 2499, name: "Platinum", icon: "💎" },
     { min: 2500, max: Infinity, name: "Diamond", icon: "💠" }
   ],
   pl: [
-    { min: 0, max: 499, name: "Brąz", icon: "🥉" },
-    { min: 500, max: 999, name: "Srebro", icon: "🥈" },
-    { min: 1000, max: 1499, name: "Złoto", icon: "🥇" },
+    { min: 0, max: 499, name: "Brąz", icon: "🟠" },
+    { min: 500, max: 999, name: "Srebro", icon: "⚪" },
+    { min: 1000, max: 1499, name: "Złoto", icon: "🟡" },
     { min: 1500, max: 2499, name: "Platyna", icon: "💎" },
     { min: 2500, max: Infinity, name: "Diament", icon: "💠" }
   ],
   ua: [
-    { min: 0, max: 499, name: "Бронза", icon: "🥉" },
-    { min: 500, max: 999, name: "Срібло", icon: "🥈" },
-    { min: 1000, max: 1499, name: "Золото", icon: "🥇" },
+    { min: 0, max: 499, name: "Бронза", icon: "🟠" },
+    { min: 500, max: 999, name: "Срібло", icon: "⚪" },
+    { min: 1000, max: 1499, name: "Золото", icon: "🟡" },
     { min: 1500, max: 2499, name: "Платина", icon: "💎" },
     { min: 2500, max: Infinity, name: "Діамант", icon: "💠" }
   ]
@@ -739,10 +759,25 @@ function renderExams() {
   // Filter by Exam Type (from sidebar) AND Level (from tab) AND Category
   const filtered = db.exam.filter(
     (e) => {
-      const matchesType = e.type === state.examFilter;
+      // If Exam Type is not selected/default, ignore type filter or handle accordingly.
+      // But currently state.examFilter defaults to "TELC".
+      // Users might want to see Briefs regardless of Exam Type (TELC/Goethe etc)
+      // or we should assign types to Briefs.
+      // For now, let's assume we match Type.
+      // If category is 'Brief', show it regardless of the Exam Type filter (TELC/Goethe/etc)
+      // to ensure users see writing tasks in all tabs.
+      const isBrief = (e.category === 'Brief' || e.category === 'mektup');
+      const matchesType = isBrief ? true : e.type === state.examFilter;
+
       const matchesLevel = e.level === state.examLevel;
       // If category is 'all', matches everything, otherwise check exact match or if category is undefined (legacy data support)
       const matchesCategory = state.examCategory === 'all' || e.category === state.examCategory;
+
+      // Special case: If viewing 'Brief', maybe ignore Type if briefs are generic? 
+      // User said "Brief bölümü için...", implies a separate section or category logic.
+      // But the current UI filters by Type AND Level AND Category.
+      // I will ensure the new Brief items have the correct Type (or I'll add logic here to be more lenient).
+      // Let's stick to the filter logic: matchesType && matchesLevel && matchesCategory
       return matchesType && matchesLevel && matchesCategory;
     }
   );
@@ -756,19 +791,95 @@ function renderExams() {
     const div = document.createElement("div");
     div.className = "exam-item";
 
+    const catBadge = e.category ? `<span style="font-size:0.7rem; background:var(--light); color:var(--dark); padding:2px 6px; border-radius:4px; margin-right:5px; text-transform:uppercase;">${e.category}</span>` : "";
+
+    // --- BRIEF (WRITING) RENDER LOGIC ---
+    // --- BRIEF (WRITING) RENDER LOGIC ---
+    if (e.category === 'Brief' || e.category === 'mektup') {
+      const texts = translations[state.lang];
+
+      let htmlContent = "";
+
+      // NEW DATA FORMAT CHECK (Title, Task, Answer fields)
+      if (e.task && e.title) {
+        htmlContent = `
+               <div class="brief-container">
+                   <div>
+                       <div class="brief-header">${texts.lblSubject || "Subject"}: ${e.title}</div>
+                   </div>
+                   
+                   <div>
+                       <span class="brief-label">${texts.lblTaskDesc || "Task"}:</span>
+                       <div class="brief-task-box">${e.task}</div>
+                   </div>
+
+                   <div class="brief-answer-trigger">
+                       <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+                           ${texts.btnShowAnswer}
+                       </button>
+                       <div class="brief-answer-box">
+                           <span class="brief-label" style="margin-bottom:10px;">${texts.lblAnswerExample || "Answer"}:</span>
+                           ${e.answer}
+                       </div>
+                   </div>
+               </div>
+           `;
+      }
+      // FALLBACK TO LEGACY (HTML in q)
+      else {
+        let textContent = e.q || "";
+        htmlContent = `<div class="exam-q" style="white-space: pre-wrap;">${catBadge} ${textContent}</div>`;
+        if (e.answer) {
+          htmlContent += `
+               <div style="margin-top:15px;">
+                  <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'" style="font-size:0.8rem; padding: 5px 10px;">
+                      ${texts.btnShowAnswer || "Show Answer"}
+                  </button>
+                  <div class="brief-answer-box" style="display:none;">${e.answer}</div>
+               </div>
+               `;
+        }
+      }
+
+      div.innerHTML = htmlContent;
+      container.appendChild(div);
+      return;
+    }
+
+    // --- MULTIPLE CHOICE RENDER LOGIC ---
     let optionsHtml = "";
-    e.options.forEach((opt, idx) => {
-      const isCorrect = idx === e.correct;
-      optionsHtml += `<div class="exam-opt ${isCorrect ? "correct" : ""}">${idx + 1}) ${opt}</div>`;
-    });
+    if (e.options && Array.isArray(e.options)) {
+      e.options.forEach((opt, idx) => {
+        const isCorrect = idx === e.correct;
+        // In a real exam app, we wouldn't show 'correct' class immediately needed logic to click and check.
+        // But based on previous code, it seems static or simple. 
+        // Previous code: class="exam-opt ${isCorrect ? "correct" : ""}" -> showed answer immediately?
+        // Wait, the previous code showed the correct answer immediately by class?
+        // "isCorrect ? 'correct' : ''"
+        // Let's keep it simple or interactive. 
+        // Interactive: Click to check.
+        optionsHtml += `<button class="exam-opt" onclick="checkAnswer(this, ${isCorrect})">${idx + 1}) ${opt}</button>`;
+      });
+    }
 
-    // Add badge for category if exists
-    const catBadge = e.category ? `<span style="font-size:0.7rem; background:#f0f0f0; padding:2px 6px; border-radius:4px; margin-right:5px; text-transform:uppercase;">${e.category}</span>` : "";
-
-    div.innerHTML = `<div class="exam-q">${catBadge} ${e.q}</div>${optionsHtml}`;
+    div.innerHTML = `<div class="exam-q">${catBadge} ${e.q}</div><div class="exam-options">${optionsHtml}</div>`;
     container.appendChild(div);
   });
 }
+
+// Helper to check answer for MC items
+window.checkAnswer = function (btn, isCorrect) {
+  // Remove previous classes to allow re-checking or visual reset if needed (though typically one-shot)
+  btn.classList.remove('correct', 'wrong');
+
+  if (isCorrect) {
+    btn.classList.add('correct');
+    // Removed inline styles to rely on CSS classes for dark mode support
+  } else {
+    btn.classList.add('wrong');
+    // Removed inline styles
+  }
+};
 
 /* --- READING LOGIC --- */
 function setReadingFilter(level, btn) {
