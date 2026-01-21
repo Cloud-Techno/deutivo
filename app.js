@@ -10,8 +10,8 @@ const translations = {
   tr: {
     logoTitle: "DeutschMaster",
     adminBtn: "Admin Paneli",
-    start: "▶ Başlat",
-    pause: "⏸ Durdur",
+    start: "Başlat",
+    pause: "Durdur",
     progress: "İlerleme:",
     words: "Kelime",
     vocab: "Flashcards",
@@ -71,8 +71,8 @@ const translations = {
   en: {
     logoTitle: "DeutschMaster",
     adminBtn: "Admin Panel",
-    start: "▶ Start",
-    pause: "⏸ Pause",
+    start: "Start",
+    pause: "Pause",
     progress: "Progress:",
     words: "Words",
     vocab: "Flashcards",
@@ -132,8 +132,8 @@ const translations = {
   pl: {
     logoTitle: "DeutschMaster",
     adminBtn: "Panel Admina",
-    start: "▶ Start",
-    pause: "⏸ Pauza",
+    start: "Start",
+    pause: "Pauza",
     progress: "Postęp:",
     words: "Słowa",
     vocab: "Fiszki",
@@ -193,8 +193,8 @@ const translations = {
   ua: {
     logoTitle: "DeutschMaster",
     adminBtn: "Панель Адміна",
-    start: "▶ Старт",
-    pause: "⏸ Пауза",
+    start: "Старт",
+    pause: "Пауза",
     progress: "Прогрес:",
     words: "Слова",
     vocab: "Флеш-картки",
@@ -409,7 +409,7 @@ function startTimer() {
   // Update button text
   const btn = document.getElementById("timerToggleBtn");
   const texts = translations[state.lang];
-  if (btn) btn.innerHTML = `<span data-i18n="pause">⏸ ${texts.pause}</span>`;
+  if (btn) btn.innerHTML = `<span data-i18n="pause">${texts.pause}</span>`;
 
   state.timer.ref = setInterval(() => {
     state.timer.sec--; // Geriye say
@@ -421,14 +421,30 @@ function startTimer() {
       pauseTimer();
       updateTimerDisplay();
 
-      // Award 5 points for completing 25 minutes
-      state.totalPoints += 5;
-      state.completedTimers += 1;
-      updateProgressUI();
-
-      alert("Süre Doldu! 25 Dakika tamamlandı. Mola zamanı! ☕\n+5 Puan kazandınız!");
+      if (state.timer.isBreak) {
+        setTimeout(() => {
+          alert("Mola bitti! Hadi çalışmaya dönelim! 🚀");
+          state.timer.isBreak = false;
+          state.timer.sec = 1500; // Reset to 25 mins
+          updateTimerDisplay();
+        }, 10);
+      } else {
+        // Award 5 points for completing 25 minutes
+        state.totalPoints += 5;
+        state.completedTimers += 1;
+        updateProgressUI();
+        alert("Süre Doldu! 25 Dakika tamamlandı. Mola zamanı! ☕\n+5 Puan kazandınız!");
+      }
     }
   }, 1000);
+}
+
+function startBreak() {
+  pauseTimer();
+  state.timer.sec = 300; // 5 minutes
+  state.timer.isBreak = true;
+  updateTimerDisplay();
+  startTimer();
 }
 
 function pauseTimer() {
@@ -438,7 +454,7 @@ function pauseTimer() {
   // Update button text
   const btn = document.getElementById("timerToggleBtn");
   const texts = translations[state.lang];
-  if (btn) btn.innerHTML = `<span data-i18n="start">▶ ${texts.start}</span>`;
+  if (btn) btn.innerHTML = `<span data-i18n="start">${texts.start}</span>`;
 }
 function calculateStars() {
   const starsFromTime = state.user.timeSpent / 25;
@@ -730,6 +746,16 @@ function openExam(type, btn) {
   btn.classList.add("active");
 
   renderExams();
+
+  // Close mobile menu if open (User Request fix)
+  if (window.innerWidth <= 768) {
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (sidebar && sidebar.classList.contains('open')) {
+      sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('active');
+    }
+  }
 }
 
 function setExamLevel(level, btn) {
@@ -814,7 +840,7 @@ function renderExams() {
                    </div>
 
                    <div class="brief-answer-trigger">
-                       <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'">
+                       <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'">
                            ${texts.btnShowAnswer}
                        </button>
                        <div class="brief-answer-box">
@@ -832,7 +858,7 @@ function renderExams() {
         if (e.answer) {
           htmlContent += `
                <div style="margin-top:15px;">
-                  <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'none' ? 'block' : 'none'" style="font-size:0.8rem; padding: 5px 10px;">
+                  <button class="glass-btn small" onclick="this.nextElementSibling.style.display = this.nextElementSibling.style.display === 'block' ? 'none' : 'block'" style="font-size:0.8rem; padding: 5px 10px;">
                       ${texts.btnShowAnswer || "Show Answer"}
                   </button>
                   <div class="brief-answer-box" style="display:none;">${e.answer}</div>
@@ -1106,6 +1132,16 @@ function switchTab(id, el) {
   el.classList.add("active");
 
   if (id === "admin") document.querySelector(".admin-tab").click();
+
+  // Close mobile menu if open
+  if (window.innerWidth <= 768) {
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (sidebar && sidebar.classList.contains('open')) {
+      sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('active');
+    }
+  }
 }
 
 function toggleAdmin() {

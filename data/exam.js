@@ -46,7 +46,7 @@ window.examData = [
         "type": "Writing",
         "level": "A1",
         "category": "Brief",
-        "title": "Yeni \u015eehir ve Ev (Brief an Freund)",
+        "title": "Neue Wohnung (Brief an Freund)",
         "task": "Sie sind vor einer Woche nach Hamburg umgezogen und m\u00f6chten Ihrem Freund Tom davon erz\u00e4hlen. Schreiben Sie eine E-Mail an Tom.<br><br>Berichten Sie \u00fcber folgende Punkte:<br>1. Wie ist Ihre neue Wohnung? (Gr\u00f6\u00dfe, Zimmer, Lage)<br>2. Wie gef\u00e4llt Ihnen Ihre neue Arbeit?<br>3. Laden Sie Tom zu sich ein.",
         "answer": "Betreff: Hallo aus meiner neuen Stadt Hamburg!<br><br>Lieber Tom,<br><br>wie geht es dir? Mir geht es sehr gut! Ich wohne jetzt seit einer Woche in Hamburg. Meine neue Wohnung im Zentrum ist klein, aber sehr gem\u00fctlich. Ich habe zwei Zimmer und einen sch\u00f6nen Balkon mit Blumen.<br><br>Ich arbeite jetzt in einer B\u00e4ckerei. Die Arbeit macht Spa\u00df und meine Kollegen sind sehr nett.<br><br>Besuch mich doch mal! Hast du n\u00e4chstes Wochenende Zeit? Du kannst bei mir schlafen.<br><br>Viele Gr\u00fc\u00dfe<br>Dein Ali"
     },
