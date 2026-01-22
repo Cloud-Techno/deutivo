@@ -791,9 +791,13 @@ function renderExams() {
       // or we should assign types to Briefs.
       // For now, let's assume we match Type.
       // If category is 'Brief', show it regardless of the Exam Type filter (TELC/Goethe/etc)
+      // If category is 'Brief', show it regardless of the Exam Type filter (TELC/Goethe/etc)
       // to ensure users see writing tasks in all tabs.
       const isBrief = (e.category === 'Brief' || e.category === 'mektup');
-      const matchesType = isBrief ? true : e.type === state.examFilter;
+      const isReading = (e.category === 'Lesen' || e.category === 'lesen');
+      // If we are in Reading mode, bypass Type check if needed, but currently Type is set to TELC in data. 
+      // Actually we want reading to show up if the user SELECTED reading category.
+      const matchesType = (isBrief || (isReading && state.examCategory === 'Lesen')) ? true : e.type === state.examFilter;
 
       const matchesLevel = e.level === state.examLevel;
       // If category is 'all', matches everything, otherwise check exact match or if category is undefined (legacy data support)
@@ -807,6 +811,12 @@ function renderExams() {
       return matchesType && matchesLevel && matchesCategory;
     }
   );
+
+  // CHECK FOR READING SECTION
+  if (state.examCategory === 'Lesen' || state.examCategory === 'lesen') {
+    renderReadingSection(filtered, container);
+    return;
+  }
 
   if (filtered.length === 0) {
     container.innerHTML = `<p style="text-align:center; padding:20px; color:#999;">Henüz ${state.examFilter} - ${state.examLevel} (${state.examCategory}) için soru eklenmedi.</p>`;
@@ -1496,5 +1506,93 @@ function updateSectionProgress(section, totalItems) {
   const progressCount = document.getElementById(`${section}ProgressCount`);
   if (progressCount) {
     progressCount.textContent = `${learnedCount} / ${totalItems}`;
+  }
+}
+
+// Current active question index for Reading section
+let currentReadingIndex = 0;
+
+function renderReadingSection(filtered, container) {
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style='text-align:center; padding:20px; color:#999;'>Bu seviye için okuma parçası bulunamadı.</div>`;
+    return;
+  }
+
+  // Ensure index is valid
+  if (currentReadingIndex >= filtered.length) currentReadingIndex = 0;
+
+  const currentItem = filtered[currentReadingIndex];
+  const total = filtered.length;
+
+  // --- 1. NAVIGATION (15 Buttons) ---
+  let navHTML = `<div class="reading-nav-grid">`;
+  filtered.forEach((_, idx) => {
+    const activeClass = idx === currentReadingIndex ? 'active' : '';
+    navHTML += `<button class="reading-nav-btn ${activeClass}" onclick="setReadingIndex(${idx})">${idx + 1}</button>`;
+  });
+  navHTML += `</div>`;
+
+  // --- 2. READING CONTENT (Title + Text) ---
+  const contentHTML = `
+    <div class="reading-card">
+       <div class="reading-header">
+          <span class="reading-badge">${currentItem.level}</span>
+          <span class="reading-title">${currentItem.title}</span>
+       </div>
+       <div class="reading-instruction">${currentItem.task || "Lesen Sie den Text."}</div>
+       <div class="reading-body">
+          ${currentItem.content}
+       </div>
+    </div>
+  `;
+
+  // --- 3. QUESTIONS (Sub-questions) ---
+  let questionsHTML = `<div class="reading-questions-box">`;
+
+  if (currentItem.sub_questions && Array.isArray(currentItem.sub_questions)) {
+    currentItem.sub_questions.forEach((q, i) => {
+      questionsHTML += `
+            <div class="reading-question-item">
+               <div class="rq-text">${q}</div>
+            </div>`;
+    });
+  }
+  // Fallback for legacy format (q & answer)
+  else if (currentItem.q) {
+    questionsHTML += `<div class="reading-question-item"><div class="rq-text">${currentItem.q}</div></div>`;
+  }
+
+  questionsHTML += `</div>`;
+
+  // --- 4. SHOW ANSWER TOGGLE ---
+  const answerHTML = `
+    <div class="reading-answer-section">
+       <button class="btn-show-reading-answer" onclick="toggleReadingAnswer(this)">
+          👁️ Cevapları Göster / Gizle
+       </button>
+       <div class="reading-answer-content" style="display:none;">
+          ${currentItem.answer || "Cevap yok."}
+       </div>
+    </div>
+  `;
+
+  container.innerHTML = navHTML + contentHTML + questionsHTML + answerHTML;
+}
+
+function setReadingIndex(idx) {
+  currentReadingIndex = idx;
+  // Rerender with new index
+  renderExams();
+  // Scroll to top of exam content to show new question
+  const el = document.getElementById("examContent");
+  if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function toggleReadingAnswer(btn) {
+  const content = btn.nextElementSibling;
+  if (content.style.display === "block") {
+    content.style.display = "none";
+  } else {
+    content.style.display = "block";
   }
 }

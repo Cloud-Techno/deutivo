@@ -82,9 +82,9 @@ window.examData = [
         "type": "Writing",
         "level": "A1",
         "category": "Brief",
-        "title": "Verabredung (Heidi schreibt an Noah)",
-        "task": "Sie m\u00f6chten Ihren Freund Noah treffen. Schreiben Sie ihm eine Nachricht.<br><br>Schlagen Sie vor:<br>1. Einen Tag und eine Uhrzeit f\u00fcr das Treffen.<br>2. Einen Ort (z.B. Caf\u00e9).<br>3. Eine gemeinsame Aktivit\u00e4t (Spazieren, Kino).",
-        "answer": "Hallo Noah,<br><br>wie geht es dir? Lange nicht gesehen! Ich vermisse dich sehr.<br><br>Hast du am kommenden Wochenende Zeit? Ich habe am Samstag frei und w\u00fcrde dich gerne wiedersehen. Wollen wir uns um 15 Uhr im Caf\u00e9 'Sonne' am Markt treffen? Dort gibt es sehr leckeren Kuchen.<br><br>Danach k\u00f6nnen wir vielleicht zusammen im Park spazieren gehen, wenn das Wetter gut ist. Melde dich bitte kurz bei mir.<br><br>Liebe Gr\u00fc\u00dfe<br>Deine Heidi"
+        "title": "Nachricht an den Sohn (Heidi an Noah)",
+        "task": "Ihr Sohn Noah studiert im Ausland. Schreiben Sie ihm eine E-Mail.<br><br>Schreiben Sie:<br>1. Fragen Sie, wie es ihm geht und wie das Universit\u00e4tsleben ist.<br>2. Sagen Sie, dass Sie ihn sehr vermissen.<br>3. Fragen Sie, ob er in den Weihnachtsferien nach Hause kommt.",
+        "answer": "Lieber Noah,<br><br>wie geht es dir mein Sohn? Ich hoffe, du bist gesund und das Studium im Ausland macht dir Spa\u00df.<br><br>Ich vermisse dich hier zu Hause sehr. Seit du weg bist, ist es in der Wohnung sehr ruhig. Ich denke jeden Tag an dich.<br><br>Bald ist Weihnachten. Wann beginnen deine Ferien? Kommst du \u00fcber die Feiertage nach Hause? Ich w\u00fcrde mich riesig freuen und koche dir dein Lieblingsessen.<br><br>Bitte melde dich bald!<br><br>Deine Mama Heidi"
     },
     {
         "id": 105,
@@ -490,5 +490,211 @@ window.examData = [
         "title": "Beschwerde: Internetanbieter (Formal)",
         "task": "Schlechtes Internet trotz teurem Vertrag. Schreiben Sie.<br><br>Punkte:<br>1. Vertragsdetails.<br>2. Problem (zu langsam/Ausf\u00e4lle).<br>3. Frist zur Behebung.<br>4. Androhung der K\u00fcndigung.",
         "answer": "Kundennummer: DE-987654321<br>Betreff: Mangelhafte Leistung und Fristsetzung<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe bei Ihnen den Tarif 'Speed-Internet 1000' gebucht, f\u00fcr den ich monatlich 49,99 Euro bezahle. Laut Vertrag garantieren Sie eine Bandbreite von bis zu 1000 Mbit/s. Die Realit\u00e4t sieht jedoch seit Wochen anders aus.<br><br>Regelm\u00e4\u00dfige Messungen zu verschiedenen Tageszeiten zeigen, dass bei mir maximal 50 Mbit/s ankommen. Das ist nur ein Bruchteil der vertraglich vereinbarten Leistung. Zudem bricht die Verbindung in den Abendstunden regelm\u00e4\u00dfig komplett zusammen, was f\u00fcr mich im Homeoffice untragbar ist.<br><br>Ich habe Ihre Hotline bereits dreimal kontaktiert, wurde aber immer nur vertr\u00f6stet. Meine Geduld ist nun am Ende. Ich fordere Sie hiermit auf, die vertraglich vereinbarte Leistung bis sp\u00e4testens zum 10. Februar vollst\u00e4ndig herzustellen.<br><br>Sollte diese Frist fruchtlos verstreichen, werde ich von meinem Sonderk\u00fcndigungsrecht Gebrauch machen und die Zahlungen entsprechend k\u00fcrzen. Ich erwarte eine schriftliche Stellungnahme zu diesem Sachverhalt.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Hannes W\u00fctend"
+    },
+    {
+        "id": 200,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 1: Gesund bleiben",
+        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Viele Menschen essen im Winter zu wenig Obst. Das ist nicht gut. \u00c4rzte sagen: Man soll jeden Tag einen Apfel oder eine Orange essen. Vitamine sind wichtig gegen Erk\u00e4ltungen.\n      </div>\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 2</strong><br>\n        Sport ist auch im Winter m\u00f6glich. Gehen Sie spazieren! Frische Luft ist gesund f\u00fcr die Lunge und das Herz. Aber ziehen Sie sich warm an!\n      </div>\n      ",
+        "task": "Lesen Sie die Texte. Welche \u00dcberschrift passt? (a, b oder c)",
+        "sub_questions": [
+            "Welche \u00dcberschrift passt zu Text 1?<br>a) Obst im Winter teuer<br>b) Vitamine sind wichtig<br>c) Kochen mit \u00c4pfeln",
+            "Welche \u00dcberschrift passt zu Text 2?<br>a) Sportstudio ist besser<br>b) Kleidung kaufen<br>c) Bewegung an der frischen Luft"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>Text 1: <strong>b</strong> (Vitamine sind wichtig)<br>Text 2: <strong>c</strong> (Bewegung an der frischen Luft)"
+    },
+    {
+        "id": 201,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 1: Einkaufen",
+        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Der Supermarkt 'Alles Frisch' hat neue \u00d6ffnungszeiten. Wir sind jetzt auch am Samstag bis 20 Uhr f\u00fcr Sie da. Sonntag ist Ruhetag.\n      </div>\n      ",
+        "task": "Lesen Sie die Texte. Welche \u00dcberschrift passt?",
+        "sub_questions": [
+            "Was ist das Thema?<br>a) Neue Preise<br>b) L\u00e4ngere \u00d6ffnungszeiten<br>c) Arbeit am Sonntag"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (L\u00e4ngere \u00d6ffnungszeiten)"
+    },
+    {
+        "id": 202,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 1: Verkehrsmittel",
+        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Achtung Fahrg\u00e4ste: Die Stra\u00dfenbahn Linie 4 f\u00e4hrt heute nicht zum Hauptbahnhof. Wegen Bauarbeiten m\u00fcssen Sie den Bus 4a nehmen. Der Bus f\u00e4hrt alle 10 Minuten.\n      </div>\n      ",
+        "task": "Welche \u00dcberschrift passt zu dem Text?",
+        "sub_questions": [
+            "Thema des Textes:<br>a) Neue Stra\u00dfenbahn<br>b) Fahrplan\u00e4nderung wegen Bauarbeiten<br>c) Urlaub mit dem Bus"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (Fahrplan\u00e4nderung wegen Bauarbeiten)"
+    },
+    {
+        "id": 203,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 1: Wohnen",
+        "content": "\n     <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text</strong><br>\n        Suche Nachmieter f\u00fcr helle 2-Zimmer-Wohnung im Zentrum. Miete 500 Euro warm. Keine Haustiere erlaubt. Ab 1. Mai frei.\n     </div>\n     ",
+        "task": "Was passt zum Text?",
+        "sub_questions": [
+            "Was sucht die Person?<br>a) Ein Haustier<br>b) Eine neue Wohnung<br>c) Einen Nachmieter"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>c</strong> (Einen Nachmieter)"
+    },
+    {
+        "id": 204,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 1: Freizeit",
+        "content": "\n    <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n       Im Stadtpark gibt es am Sonntag ein gro\u00dfes Fest f\u00fcr Familien. Musik, Essen und Spiele f\u00fcr Kinder. Eintritt frei! Beginn 14 Uhr.\n    </div>\n    ",
+        "task": "W\u00e4hlen Sie die richtige \u00dcberschrift.",
+        "sub_questions": [
+            "Worum geht es?<br>a) Konzert in der Oper<br>b) Familienfest im Park<br>c) Spielplatz geschlossen"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (Familienfest im Park)"
+    },
+    {
+        "id": 205,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 2: E-Mail von Lisa",
+        "content": "\n      <div style='border:1px solid #ccc; padding:15px; background:white;'>\n        Hallo Maria,<br><br>\n        wie geht es dir? Ich habe eine neue Arbeit im Krankenhaus. Ich bin jetzt Krankenschwester. Die Arbeit ist schwer, aber sie macht mir Spa\u00df. \n        Morgen habe ich frei. Wollen wir ins Kino gehen? Es l\u00e4uft ein toller Film.<br>\n        Treffen wir uns um 18 Uhr vor dem 'Kino Palast'? Danach k\u00f6nnen wir Pizza essen.<br><br>\n        Liebe Gr\u00fc\u00dfe<br>Lisa\n      </div>\n      ",
+        "task": "Lesen Sie die E-Mail. Sind die Aussagen Richtig oder Falsch?",
+        "sub_questions": [
+            "1. Lisa arbeitet jetzt in einer Schule. (Richtig/Falsch)",
+            "2. Lisa m\u00f6chte morgen ins Kino gehen. (Richtig/Falsch)",
+            "3. Sie treffen sich nach dem Essen. (Richtig/Falsch)"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>1. <strong>Falsch</strong> (Sie arbeitet im Krankenhaus)<br>2. <strong>Richtig</strong><br>3. <strong>Falsch</strong> (Sie essen <strong>danach</strong> Pizza)"
+    },
+    {
+        "id": 206,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 2: Einladung zur Hochzeit",
+        "content": "\n      <div style='border:1px solid #ccc; padding:15px; background:white;'>\n        Liebe Tante Anna,<br><br>\n        Stefan und ich heiraten! Die Feier ist am 12. Juli in M\u00fcnchen. Wir laden dich herzlich ein.\n        Die Trauung ist um 14 Uhr im Rathaus. Am Abend feiern wir im Hotel 'Zur Post'.\n        Kannst du bitte einen Kuchen mitbringen? Das w\u00e4re super!<br><br>\n        Deine Nichte Sarah\n      </div>\n      ",
+        "task": "Lesen Sie den Brief. Richtig oder Falsch?",
+        "sub_questions": [
+            "1. Die Hochzeit ist im Juni. (Richtig/Falsch)",
+            "2. Das Fest am Abend ist in einem Hotel. (Richtig/Falsch)",
+            "3. Anna soll Essen mitbringen. (Richtig/Falsch)"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>1. <strong>Falsch</strong> (Juli)<br>2. <strong>Richtig</strong><br>3. <strong>Richtig</strong> (Kuchen)"
+    },
+    {
+        "id": 207,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 2: Kursinformation",
+        "content": "\n      <div style='border:1px solid #ccc; padding:15px; background:white;'>\n        Sehr geehrte Teilnehmer,<br><br>\n        der Deutschkurs A1 findet heute leider nicht im Raum 104 statt. Wir treffen uns heute im Computerraum (Raum 202).\n        Bitte vergessen Sie Ihre Passw\u00f6rter nicht. Wir machen heute \u00dcbungen im Internet.<br><br>\n        Mit freundlichen Gr\u00fc\u00dfen<br>Sprachschule M\u00fcller\n      </div>\n      ",
+        "task": "Lesen Sie die Nachricht. Richtig oder Falsch?",
+        "sub_questions": [
+            "1. Der Kurs ist heute in einem anderen Raum. (Richtig/Falsch)",
+            "2. Der Kurs f\u00e4llt heute aus. (Richtig/Falsch)",
+            "3. Die Teilnehmer brauchen einen Computer. (Richtig/Falsch)"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>1. <strong>Richtig</strong> (Raum 202)<br>2. <strong>Falsch</strong> (Findet statt)<br>3. <strong>Richtig</strong> (\u00dcbungen im Internet)"
+    },
+    {
+        "id": 208,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 2: Urlaub",
+        "content": "\n      <div style='border:1px solid #ccc; padding:15px; background:white;'>\n        Lieber Peter,<br>\n        Gr\u00fc\u00dfe aus Italien! Das Wetter ist leider schlecht, es regnet seit drei Tagen. Aber das Hotel ist sehr sch\u00f6n und das Essen schmeckt fantastisch.\n        Wir besuchen viele Museen. Am Sonntag fahren wir wieder nach Hause.<br>\n        Bis bald, Klaus\n      </div>\n      ",
+        "task": "Lesen Sie die Postkarte. Richtig oder Falsch?",
+        "sub_questions": [
+            "1. Klaus ist in Spanien. (Richtig/Falsch)",
+            "2. Das Wetter ist gut. (Richtig/Falsch)",
+            "3. Sie fahren am Sonntag zur\u00fcck. (Richtig/Falsch)"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>1. <strong>Falsch</strong> (Italien)<br>2. <strong>Falsch</strong> (Es regnet)<br>3. <strong>Richtig</strong>"
+    },
+    {
+        "id": 209,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 2: Termin beim Arzt",
+        "content": "\n      <div style='border:1px solid #ccc; padding:15px; background:white;'>\n        Hallo Herr Yilmaz, Ihr Termin bei Dr. Weiss morgen um 10 Uhr muss leider verschoben werden. \n        Der Arzt ist krank. Neuer Termin: N\u00e4chsten Montag um 15 Uhr. Bitte best\u00e4tigen Sie kurz. Danke!\n      </div>\n      ",
+        "task": "Lesen Sie die SMS. Richtig oder Falsch?",
+        "sub_questions": [
+            "1. Herr Yilmaz hat morgen einen Termin. (Richtig/Falsch)",
+            "2. Der Arzt ist im Urlaub. (Richtig/Falsch)",
+            "3. Der neue Termin ist am Montag Nachmittag. (Richtig/Falsch)"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br>1. <strong>Falsch</strong> (Wurde verschoben)<br>2. <strong>Falsch</strong> (Krank)<br>3. <strong>Richtig</strong> (15 Uhr)"
+    },
+    {
+        "id": 210,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 3: Restaurant suche",
+        "content": "\n      <div style='display:flex; gap:10px;'>\n        <div style='border:1px solid #ddd; padding:10px; flex:1;'>\n            <strong>A) Pizzeria Roma</strong><br>\n            Beste Pizza in der Stadt! Wir liefern auch nach Hause. Leider keine Tische im Freien.\n        </div>\n        <div style='border:1px solid #ddd; padding:10px; flex:1;'>\n            <strong>B) Gasthaus zur Linde</strong><br>\n            Deutsche K\u00fcche. Gro\u00dfer Biergarten unter alten B\u00e4umen. Spielplatz f\u00fcr Kinder.\n        </div>\n      </div>\n      ",
+        "task": "Sie suchen ein Restaurant. Sie wollen drau\u00dfen sitzen. Welches passt?",
+        "sub_questions": [
+            "Welches Restaurant w\u00e4hlen Sie?<br>a) Pizzeria Roma<br>b) Gasthaus zur Linde"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (Biergarten = drau\u00dfen sitzen)"
+    },
+    {
+        "id": 211,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 3: Zugfahrt",
+        "content": "\n      <table border='1' cellspacing='0' cellpadding='5' style='width:100%; font-size:0.9rem;'>\n        <tr><th>Zug</th><th>Abfahrt</th><th>Ankunft</th></tr>\n        <tr><td>ICE 500</td><td>08:30</td><td>12:00</td></tr>\n        <tr><td>EC 120</td><td>14:00</td><td>18:30</td></tr>\n      </table>\n      ",
+        "task": "Sie wollen am Morgen nach Berlin fahren. Welchen Zug nehmen Sie?",
+        "sub_questions": [
+            "Sie wollen morgens fahren. Welcher Zug passt?<br>a) ICE 500<br>b) EC 120"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>a</strong> (08:30 ist am Morgen)"
+    },
+    {
+        "id": 212,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 3: Flohmarkt",
+        "content": "\n      <div style='background:#eee; padding:10px;'>\n        <strong>Anzeige 1:</strong> Gro\u00dfer Stadt-Flohmarkt am Samstag. Verkauf von Kleidung und M\u00f6beln. Anmeldung bis Freitag.\n      </div><br>\n      <div style='background:#eee; padding:10px;'>\n        <strong>Anzeige 2:</strong> Neuer\u00f6ffnung Supermarkt. Wir verkaufen alles billig!\n      </div>\n      ",
+        "task": "Sie wollen alte Sachen verkaufen. Wo k\u00f6nnen Sie das machen?",
+        "sub_questions": [
+            "Wo k\u00f6nnen Sie verkaufen?<br>a) Anzeige 1<br>b) Anzeige 2"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>a</strong> (Flohmarkt)"
+    },
+    {
+        "id": 213,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 3: Sprachkurs",
+        "content": "\n      <strong>Kurs A:</strong> Intensivkurs Deutsch. Montag bis Freitag, 9:00 - 13:00 Uhr.<br>\n      <strong>Kurs B:</strong> Abendkurs Deutsch f\u00fcr Berufst\u00e4tige. Dienstag und Donnerstag, 18:30 - 20:30 Uhr.\n      ",
+        "task": "Sie m\u00f6chten Abends Deutsch lernen. Welcher Kurs passt?",
+        "sub_questions": [
+            "Welcher Kurs ist am Abend?<br>a) Kurs A<br>b) Kurs B"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (18:30 Uhr)"
+    },
+    {
+        "id": 214,
+        "type": "TELC",
+        "level": "A1",
+        "category": "Lesen",
+        "title": "Teil 3: Wohnungssuche",
+        "content": "\n      <div style='border:1px solid #ccc; padding:5px;'>\n        <strong>Wohnung 1:</strong> Sch\u00f6ne 3-Zimmer-Wohnung, zentral, 800\u20ac. Haustiere leider verboten.\n      </div>\n      <div style='border:1px solid #ccc; padding:5px; margin-top:5px;'>\n        <strong>Wohnung 2:</strong> Kleines Haus im Gr\u00fcnen mit Garten. Ideal f\u00fcr Familien mit Hund oder Katze.\n      </div>\n      ",
+        "task": "Sie haben einen Hund. Welche Wohnung k\u00f6nnen Sie mieten?",
+        "sub_questions": [
+            "Welche Anzeige passt zu Ihnen?<br>a) Wohnung 1<br>b) Wohnung 2"
+        ],
+        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (Ideal f\u00fcr Hund)"
     }
 ];
