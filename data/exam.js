@@ -491,45 +491,161 @@ window.examData = [
         "task": "Schlechtes Internet trotz teurem Vertrag. Schreiben Sie.<br><br>Punkte:<br>1. Vertragsdetails.<br>2. Problem (zu langsam/Ausf\u00e4lle).<br>3. Frist zur Behebung.<br>4. Androhung der K\u00fcndigung.",
         "answer": "Kundennummer: DE-987654321<br>Betreff: Mangelhafte Leistung und Fristsetzung<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe bei Ihnen den Tarif 'Speed-Internet 1000' gebucht, f\u00fcr den ich monatlich 49,99 Euro bezahle. Laut Vertrag garantieren Sie eine Bandbreite von bis zu 1000 Mbit/s. Die Realit\u00e4t sieht jedoch seit Wochen anders aus.<br><br>Regelm\u00e4\u00dfige Messungen zu verschiedenen Tageszeiten zeigen, dass bei mir maximal 50 Mbit/s ankommen. Das ist nur ein Bruchteil der vertraglich vereinbarten Leistung. Zudem bricht die Verbindung in den Abendstunden regelm\u00e4\u00dfig komplett zusammen, was f\u00fcr mich im Homeoffice untragbar ist.<br><br>Ich habe Ihre Hotline bereits dreimal kontaktiert, wurde aber immer nur vertr\u00f6stet. Meine Geduld ist nun am Ende. Ich fordere Sie hiermit auf, die vertraglich vereinbarte Leistung bis sp\u00e4testens zum 10. Februar vollst\u00e4ndig herzustellen.<br><br>Sollte diese Frist fruchtlos verstreichen, werde ich von meinem Sonderk\u00fcndigungsrecht Gebrauch machen und die Zahlungen entsprechend k\u00fcrzen. Ich erwarte eine schriftliche Stellungnahme zu diesem Sachverhalt.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Hannes W\u00fctend"
     },
+
     {
-        "id": 200,
-        "type": "TELC",
-        "level": "A1",
-        "category": "Lesen",
-        "title": "Teil 1: Gesund bleiben",
-        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Viele Menschen essen im Winter zu wenig Obst. Das ist nicht gut. \u00c4rzte sagen: Man soll jeden Tag einen Apfel oder eine Orange essen. Vitamine sind wichtig gegen Erk\u00e4ltungen.\n      </div>\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 2</strong><br>\n        Sport ist auch im Winter m\u00f6glich. Gehen Sie spazieren! Frische Luft ist gesund f\u00fcr die Lunge und das Herz. Aber ziehen Sie sich warm an!\n      </div>\n      ",
-        "task": "Lesen Sie die Texte. Welche \u00dcberschrift passt? (a, b oder c)",
-        "sub_questions": [
-            "Welche \u00dcberschrift passt zu Text 1?<br>a) Obst im Winter teuer<br>b) Vitamine sind wichtig<br>c) Kochen mit \u00c4pfeln",
-            "Welche \u00dcberschrift passt zu Text 2?<br>a) Sportstudio ist besser<br>b) Kleidung kaufen<br>c) Bewegung an der frischen Luft"
-        ],
-        "answer": "<strong>L\u00f6sung:</strong><br>Text 1: <strong>b</strong> (Vitamine sind wichtig)<br>Text 2: <strong>c</strong> (Bewegung an der frischen Luft)"
-    },
-    {
-        "id": 201,
-        "type": "TELC",
-        "level": "A1",
-        "category": "Lesen",
-        "title": "Teil 1: Einkaufen",
-        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Der Supermarkt 'Alles Frisch' hat neue \u00d6ffnungszeiten. Wir sind jetzt auch am Samstag bis 20 Uhr f\u00fcr Sie da. Sonntag ist Ruhetag.\n      </div>\n      ",
-        "task": "Lesen Sie die Texte. Welche \u00dcberschrift passt?",
-        "sub_questions": [
-            "Was ist das Thema?<br>a) Neue Preise<br>b) L\u00e4ngere \u00d6ffnungszeiten<br>c) Arbeit am Sonntag"
-        ],
-        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (L\u00e4ngere \u00d6ffnungszeiten)"
-    },
-    {
-        "id": 202,
-        "type": "TELC",
-        "level": "A1",
-        "category": "Lesen",
-        "title": "Teil 1: Verkehrsmittel",
-        "content": "\n      <div style='background:#f9f9f9; padding:10px; margin-bottom:10px;'>\n        <strong>Text 1</strong><br>\n        Achtung Fahrg\u00e4ste: Die Stra\u00dfenbahn Linie 4 f\u00e4hrt heute nicht zum Hauptbahnhof. Wegen Bauarbeiten m\u00fcssen Sie den Bus 4a nehmen. Der Bus f\u00e4hrt alle 10 Minuten.\n      </div>\n      ",
-        "task": "Welche \u00dcberschrift passt zu dem Text?",
-        "sub_questions": [
-            "Thema des Textes:<br>a) Neue Stra\u00dfenbahn<br>b) Fahrplan\u00e4nderung wegen Bauarbeiten<br>c) Urlaub mit dem Bus"
-        ],
-        "answer": "<strong>L\u00f6sung:</strong><br><strong>b</strong> (Fahrplan\u00e4nderung wegen Bauarbeiten)"
+        id: 200,
+        type: "TELC",
+        level: "A1",
+        category: "Lesen",
+        title: "A1 Leseverstehen - Vollständige Prüfung",
+        content: `
+      <!-- TEIL 1 -->
+      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff;'>
+        <h3 style='margin-top:0; color:var(--secondary); font-size:1.3rem; border-bottom:1px solid #f5f5f5; padding-bottom:10px;'>Teil 1</h3>
+        <p style='color:#666; font-size:0.95rem; margin-bottom:15px;'>Lesen Sie die Überschriften a–d und die Texte 1–3. Welche Überschrift passt zu welchem Text?</p>
+        
+        <div style='background:var(--light); padding:12px; margin:15px 0; border-radius:8px; font-size:0.9rem;'>
+          <strong>Überschriften:</strong><br>
+          <div style='margin-top:8px; display:grid; grid-template-columns:1fr 1fr; gap:8px;'>
+            <span>a) Der Winter ist da!</span>
+            <span>b) Obst und Gemüse im Winter</span>
+            <span>c) Raucher sind oft krank</span>
+            <span>d) Hohe Preise für Fahrkarten</span>
+          </div>
+        </div>
+
+        <div style='margin:15px 0; font-size:0.9rem;'>
+          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
+            <strong>1.</strong> Der kalte Sommer macht das Leben im Winter teuer. Es gibt weniger Äpfel und Erdäpfel. Gesunde Lebensmittel kosten heuer viel Geld.
+          </div>
+          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
+            <strong>2.</strong> Der Winter kommt, die Tickets für Bus, Straßenbahn und U-Bahn werden teuer. In ganz Österreich müssen die Kunden mehr Geld dafür bezahlen.
+          </div>
+          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
+            <strong>3.</strong> Wer viele Zigaretten raucht, muss oft zum Arzt, gerade im kalten Winter. Ärzte empfehlen: Weniger Zigaretten rauchen, mehr Obst essen.
+          </div>
+        </div>
+
+        <div style='padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:12px; margin-top:20px;'>
+          <strong style='color:var(--secondary);'>Fragen:</strong>
+          <div style='margin-top:8px; font-size:0.95rem;'>
+            <p style='margin:5px 0;'><strong>1.</strong> Welche Überschrift passt zu Text 1? (a-d)</p>
+            <p style='margin:5px 0;'><strong>2.</strong> Welche Überschrift passt zu Text 2? (a-d)</p>
+            <p style='margin:5px 0;'><strong>3.</strong> Welche Überschrift passt zu Text 3? (a-d)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEIL 2 -->
+      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff;'>
+        <h3 style='margin-top:0; color:var(--secondary); font-size:1.3rem; border-bottom:1px solid #f5f5f5; padding-bottom:10px;'>Teil 2</h3>
+        <p style='color:#666; font-size:0.95rem; margin-bottom:15px;'>E-Mail von der Lehrerin Lisa.</p>
+        
+        <div style='background:#fafafa; padding:15px; border:1px solid #f0f0f0; border-radius:8px; font-size:0.95rem; line-height:1.6;'>
+          Hallo an alle! Wir treffen uns morgen, Dienstag, um 15 Uhr vor der Schule und fahren in die Stadt zum Stadt-Museum. 
+          Bitte bringt 5 Euro für Eintritt und Fahrschein mit. Bücher brauchen wir morgen nicht. Am Donnerstag ist wieder normaler Unterricht.
+        </div>
+
+        <div style='padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:12px; margin-top:20px;'>
+          <strong style='color:var(--secondary);'>Richtig oder Falsch?</strong>
+          <div style='margin-top:8px; font-size:0.95rem;'>
+            <p style='margin:8px 0;'><strong>4.</strong> Treffen um 15 Uhr am Museum.</p>
+            <p style='margin:8px 0;'><strong>5.</strong> Eintritt und Ticket kosten zusammen 5 Euro.</p>
+            <p style='margin:8px 0;'><strong>6.</strong> Donnerstag ist kein Unterricht.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TEIL 3 -->
+      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff; line-height: 1.5;'>
+        <h2 style='margin-top:0; font-size:1.4rem; color:#333; margin-bottom:10px;'>4 Lesen, Teil 3</h2>
+        <p style='margin-bottom:15px; font-weight: 400;'>Sie suchen einen Kinderarzt für Ihr Kind. Lesen Sie die Anzeigen. Wo rufen Sie an?<br><br>
+        <em>Lesen Sie die Fragen 7–9.<br>
+        Kreuzen Sie die richtige Lösung (a oder b) auf dem Antwortbogen an.</em></p>
+        
+        <!-- Question 7 (33 in image) -->
+        <div style='margin-bottom:35px;'>
+          <p style='margin-bottom:5px;'><strong>7</strong> Ihr Sohn hat hohes Fieber. Es ist Donnerstag.<br>Welche Telefonnummer rufen Sie an?<br>
+          <strong>a</strong> 07472/64289<br>
+          <strong>b</strong> 050/17 5 17</p>
+          
+          <div style='display:flex; gap:15px; margin-top:15px;'>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>Kinderarzt Dr. Gruber</div>
+               Montag bis Mittwoch von 9–12 Uhr,<br>
+               Freitag von 10–17 Uhr,<br>
+               Donnerstag geschlossen.<br>
+               Termine unter 07472/64289
+            </div>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>DR. MICHELMEIR</div>
+               <em>Ärztin für Kinder und Jugendliche</em><br><br>
+               Termine per Telefon für Montag, Mittwoch, Donnerstag und Freitag.<br>
+               050/17 5 17
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 8 (34 in image) -->
+        <div style='margin-bottom:35px;'>
+          <p style='margin-bottom:5px;'><strong>8</strong> Sie kommen erst um 17 Uhr von der Arbeit und wollen dann mit dem Kind zum Arzt.<br>Welche Telefonnummer rufen Sie an?<br>
+          <strong>a</strong> 07488/77 686<br>
+          <strong>b</strong> 07482/23645</p>
+          
+          <div style='display:flex; gap:15px; margin-top:15px;'>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>Kinderarzt Dr. Hauswirth</div>
+               Montag bis Freitag Vormittag<br>
+               von 9–12 Uhr, Termine auch am<br>
+               Nachmittag bis 16 Uhr.<br>
+               Tel. 07488/77 686
+            </div>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>Kinderarzt Dr. Kahlil</div>
+               Ordination geöffnet Montag, Mittwoch und<br>
+               Freitag Nachmittag; nach telefonischer<br>
+               Anmeldung auch am Abend.<br>
+               07482/23645
+            </div>
+          </div>
+        </div>
+
+        <!-- Question 9 (35 in image) -->
+        <div>
+          <p style='margin-bottom:5px;'><strong>9</strong> Ihr Kind ist 3 Jahre alt.<br>Welche Telefonnummer rufen Sie an?<br>
+          <strong>a</strong> 07472/7223<br>
+          <strong>b</strong> 07415/670-0</p>
+          
+          <div style='display:flex; gap:15px; margin-top:15px;'>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>Dr. Geldner · Kinderärztin für Schulkinder und Jugendliche</div>
+               Termine nach telefonischer Anmeldung<br>
+               auch vor der Schule ab 7 Uhr.<br><br>
+               <div style='font-weight:bold; text-align:right;'>07472/7223</div>
+            </div>
+            <div style='flex:1; background:#ebebeb; padding:15px; border-radius:2px; font-size:0.9rem; text-align:center;'>
+               <div style='font-weight:bold; margin-bottom:8px;'>DR. LIEBIG</div>
+               Ordination für Babys und Kleinkinder,<br>
+               jeden Vormittag ab 8 Uhr.<br>
+               <em>Informationsnachmittage für Eltern jeden ersten Mittwoch im Monat.</em><br>
+               07415/670-0
+            </div>
+          </div>
+        </div>
+      </div>
+    `,
+
+        answer: `
+      <div style='padding:20px; border-left:5px solid var(--secondary); background:#fffcfc; border-radius:12px; border-top:1px solid #eee; border-right:1px solid #eee; border-bottom:1px solid #eee;'>
+        <h3 style='margin-top:0; color:var(--secondary);'>📝 Lösungen</h3>
+        
+        <div style='margin-bottom:15px; font-size:0.95rem;'>
+          <strong>Teil 1:</strong> 1-b, 2-d, 3-c<br>
+          <strong>Teil 2:</strong> 4-Falsch, 5-Richtig, 6-Falsch<br>
+          <strong>Teil 3:</strong> 7-Dr. Michelmeir, 8-Dr. Kahlil, 9-Dr. Liebig
+        </div>
+      </div>
+    `
     },
     {
         "id": 203,

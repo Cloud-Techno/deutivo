@@ -1509,8 +1509,8 @@ function updateSectionProgress(section, totalItems) {
   }
 }
 
-// Current active question index for Reading section
-let currentReadingIndex = 0;
+// Current active question index for Reading section (Exam View)
+let currentExamReadingIndex = 0;
 
 function renderReadingSection(filtered, container) {
   if (filtered.length === 0) {
@@ -1519,16 +1519,16 @@ function renderReadingSection(filtered, container) {
   }
 
   // Ensure index is valid
-  if (currentReadingIndex >= filtered.length) currentReadingIndex = 0;
+  if (currentExamReadingIndex >= filtered.length) currentExamReadingIndex = 0;
 
-  const currentItem = filtered[currentReadingIndex];
+  const currentItem = filtered[currentExamReadingIndex];
   const total = filtered.length;
 
   // --- 1. NAVIGATION (15 Buttons) ---
   let navHTML = `<div class="reading-nav-grid">`;
   filtered.forEach((_, idx) => {
-    const activeClass = idx === currentReadingIndex ? 'active' : '';
-    navHTML += `<button class="reading-nav-btn ${activeClass}" onclick="setReadingIndex(${idx})">${idx + 1}</button>`;
+    const activeClass = idx === currentExamReadingIndex ? 'active' : '';
+    navHTML += `<button class="reading-nav-btn ${activeClass}" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
   });
   navHTML += `</div>`;
 
@@ -1547,22 +1547,24 @@ function renderReadingSection(filtered, container) {
   `;
 
   // --- 3. QUESTIONS (Sub-questions) ---
-  let questionsHTML = `<div class="reading-questions-box">`;
+  let questionsHTML = "";
 
-  if (currentItem.sub_questions && Array.isArray(currentItem.sub_questions)) {
+  if (currentItem.sub_questions && Array.isArray(currentItem.sub_questions) && currentItem.sub_questions.length > 0) {
+    questionsHTML = `<div class="reading-questions-box">`;
     currentItem.sub_questions.forEach((q, i) => {
       questionsHTML += `
             <div class="reading-question-item">
                <div class="rq-text">${q}</div>
             </div>`;
     });
+    questionsHTML += `</div>`;
   }
   // Fallback for legacy format (q & answer)
   else if (currentItem.q) {
-    questionsHTML += `<div class="reading-question-item"><div class="rq-text">${currentItem.q}</div></div>`;
+    questionsHTML = `<div class="reading-questions-box">
+            <div class="reading-question-item"><div class="rq-text">${currentItem.q}</div></div>
+          </div>`;
   }
-
-  questionsHTML += `</div>`;
 
   // --- 4. SHOW ANSWER TOGGLE ---
   const answerHTML = `
@@ -1579,8 +1581,8 @@ function renderReadingSection(filtered, container) {
   container.innerHTML = navHTML + contentHTML + questionsHTML + answerHTML;
 }
 
-function setReadingIndex(idx) {
-  currentReadingIndex = idx;
+function setExamReadingIndex(idx) {
+  currentExamReadingIndex = idx;
   // Rerender with new index
   renderExams();
   // Scroll to top of exam content to show new question
