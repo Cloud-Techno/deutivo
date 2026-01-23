@@ -5556,707 +5556,3023 @@ window.examData = [
         type: "TELC",
         level: "B1",
         category: "Lesen",
-        title: "B1 Leseverstehen – Medien & Arbeitswelt",
+        title: "B1 Leseverstehen – Arbeit & Berufswelt",
         content: `
-<!-- TEIL 1: Headings Matching -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:10px; margin-bottom:10px;'>
-    <div style='background:#0d47a1; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>1</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 1</h2>
-  </div>
-  <p style='margin-bottom:15px;'>Lesen Sie die Texte 1–5 ve die Überschriften a–j. Welche Überschrift passt zu welchem Text?<br>
-  <strong>Beispiel:</strong> Text 0 -> Überschrift <strong>z</strong></p>
-
-  <div style='display:flex; flex-direction:column; gap:20px;'>
-    <!-- Beispiel 0 -->
-    <div style='background:#fcfcfc; padding:10px; border:1px solid #eee; border-radius:8px;'>
-      <div style='display:flex; gap:15px;'>
-        <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#ccc; text-align:right;'>0</div>
-        <div style='flex:1;'>
-          Kostenlose Apps für das Smartphone sind heute Standard. Doch oft bezahlen Nutzer mit ihren persönlichen Daten, ohne es zu merken. Experten raten dazu, die Einstellungen genau zu prüfen.
-          <p style='margin:5px 0 0 0; font-style:italic; text-align:right;'>Lösung: z) Datensicherheit bei Gratis-Angeboten</p>
-        </div>
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>1</div>
-      <div style='flex:1;'>
-        Immer mehr Menschen entscheiden sich gegen den Kauf von Zeitungen ve nutzen stattdessen Online-Portale. Dort erhalten sie Informationen in Echtzeit ve können Artikel direkt in sozialen Netzwerken teilen ve kommentieren.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>2</div>
-      <div style='flex:1;'>
-        Das Radio hat in den letzten Jahren eine Renaissance erlebt. Podcasts bieten die Möglichkeit, Sendungen zu jedem beliebigen Zeitpunkt zu hören. Vor allem junge Hörer schätzen die Vielfalt der Themen.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>3</div>
-      <div style='flex:1;'>
-        Streaming-Dienste verdrängen klassische Fernsehsender. Zuschauer möchten nicht mehr warten, bis ein Film gesendet wird. Sie bevorzugen es, Serien am Stück zu schauen, wann immer es in ihren Zeitplan passt.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>4</div>
-      <div style='flex:1;'>
-        Früher suchte man im Branchenbuch nach Terminen. Heute nutzt man Sprachassistenten oder Online-Formulare. Die direkte digitale Kommunikation mit Firmen spart Zeit ve ist rund um die Uhr möglich.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>5</div>
-      <div style='flex:1;'>
-        Künstliche Intelligenz kann mittlerweile Texte verfassen, die fast wie von Menschen klingen. Journalisten nutzen diese Technik bereits für einfache Nachrichten wie Wetterberichte oder Sportergebnisse.
-      </div>
-    </div>
-  </div>
-
-  <div style='margin-top:20px; padding:10px; background:#f0f4f8; border-radius:8px; display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.85rem;'>
-    <div>a) Das Ende des klassischen Radios?</div>
-    <div>b) Neue Wege der Terminbuchung</div>
-    <div>c) Fernsehen nach eigenem Stundenplan</div>
-    <div>d) Journalismus durch Software</div>
-    <div>e) Internetportale ersetzen Printmedien</div>
-    <div>f) Warum Zeitungen wieder beliebter werden</div>
-    <div>g) Podcast-Produktion für Anfänger</div>
-    <div>h) So sparen Sie Kosten beim Streaming</div>
-    <div>i) Gefahren der Spracherkennung</div>
-    <div>j) Digitale Vernetzung am Arbeitsplatz</div>
-  </div>
-</div>
-
-<!-- TEIL 2: Detailed Article -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:10px; margin-bottom:10px;'>
-    <div style='background:#0d47a1; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>2</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 2</h2>
-  </div>
-  <p style='margin-bottom:15px;'>Lesen Sie den Text ve entscheiden Sie, welche Antwort (a, b oder c) jeweils richtig ist.</p>
-  
-  <div style='background:#fff; padding:30px; border:1px solid #eee; border-top:8px solid #0d47a1; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin:20px auto; max-width:550px;'>
-    <h1 style='margin:0 0 20px 0; font-size:1.4rem; font-weight:800; color:#111; line-height:1.2;'>Digitaler Nomadismus: Arbeiten, wo andere Urlaub machen?</h1>
-    
-    <div style='font-size:1rem; color:#333; text-align:justify; font-family: serif; line-height:1.6;'>
-      <p style='margin-bottom:15px;'>Mit dem Laptop am Strand sitzen ve gleichzeitig Geld verdienen – für viele klingt das nach dem perfekten Leben. Sogenannte digitale Nomaden haben keinen festen Arbeitsplatz. Dank stabiler Internetverbindungen weltweit können sie ihre Aufgaben von überall aus erledigen. Meist handelt es sich um Berufe wie Programmierer, Grafikdesigner oder Texter.</p>
-      
-      <p style='margin-bottom:15px;'>Doch die Realität ist oft weniger romantisch als die Fotos in den sozialen Medien vermuten lassen. Maya Berg (29), die seit drei Jahren als freiberufliche Webdesignerin durch Südostasien reist, berichtet von den Schattenseiten: „Es ist oft schwierig, die Konzentration zu halten, wenn man jeden Monat an einem neuen Ort ist. Außerdem verbringt man viel Zeit mit organisatorischen Dingen wie der Suche nach einer schnellen Internetverbindung oder einem ruhigen Platz zum Arbeiten.“</p>
-      
-      <p style='margin-bottom:15px;'>Ein weiteres Problem ist die soziale Komponente. Man lernt zwar viele Menschen kennen, aber tiefe Freundschaften entwickeln sich selten, da man ständig weiterzieht. „Manchmal fühle ich mich einsam, obwohl ich von paradiesischer Natur umgeben bin“, gibt Maya zu. Trotz dieser Herausforderungen möchte sie vorerst nicht in ein klassisches Büro zurückkehren. Die Freiheit, ihren Tag selbst zu strukturieren ve fremde Kulturen kennenzulernen, ist ihr wichtiger als die Sicherheit eines festen Wohnsitzes.</p>
-    </div>
-    <div style='margin-top:20px; font-size:0.85rem; color:#777;'>Quelle: Wirtschaft heute (angepasst)</div>
-  </div>
-
-  <div style='display:flex; flex-direction:column; gap:25px; margin-top:20px;'>
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>6. Digitale Nomaden benötigen vor allem ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>einen festen Vertrag mit einer Firma in ihrem Heimatland.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>einen Zugang zum weltweiten Datennetz für ihre Arbeit.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>immer einen Platz direkt am Meer, um kreativ zu sein.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>7. Maya Berg sagt über ihren Berufsalltag, dass ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>sie fast keine Zeit mehr für ihre Arbeit in Südostasien findet.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>sie die Organisation ihrer Reisen als sehr einfach empfindet.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>die häufigen Ortswechsel das Arbeiten manchmal erschweren.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>8. Ein Problem für viele Reisende ist laut Text ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>dass sie keine Zeit finden, neue Leute zu treffen.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>der Mangel an engen persönlichen Beziehungen.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>dass die Natur an den Zielorten nicht wirklich schön ist.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>9. Maya entscheidet sich für dieses Leben, weil ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>sie die Unabhängigkeit ve neues Wissen über die Welt schätzt.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>sie in Deutschland kein festes Büro finden konnte.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>ihr die finanzielle Sicherheit eines festen Wohnsitzes nicht fehlt.</span></div>
-      </div>
-    </div>
-
-    <div>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>10. Der Text macht deutlich, dass digitales Nomadentum ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>nur für junge Menschen ohne Berufserfahrung geeignet ist.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>eine Mischung aus großen Freiheiten ve persönlichen Hürden bietet.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>bald die einzige Form der Arbeit für Grafikdesigner sein wird.</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TEIL 3: Ad Matching -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:8px; margin-bottom:10px;'>
-    <div style='background:#0d47a1; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>3</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 3</h2>
-  </div>
-  
-  <p style='margin-bottom:20px;'>Welche Anzeige passt zu welcher Situation? Für eine Aufgabe gibt es keine Lösung (X).</p>
-
-  <div style='display:flex; flex-direction:column; gap:15px; margin-bottom:25px;'>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>11</div><div>Ein bekannter Programmierer möchte ein Buch über seine Karriere schreiben ve sucht einen Verlag.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>12</div><div>Sie suchen eine Software, mit der man einfach Fotos bearbeiten ve Filter verwenden kann.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>13</div><div>Ihre Firma braucht eine neue Website ve einen Experten für digitales Marketing.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>14</div><div>Sie möchten programmieren lernen ve suchen einen Intensivkurs für Anfänger am Wochenende.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>15</div><div>Sie suchen ein technisches Magazin, das regelmäßig über neue Gadgets ve Trends informiert.</div></div>
-  </div>
-
-  <div style='display:grid; grid-template-columns: 1fr 1fr; gap:15px;'>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>a) CreativeStudio:</strong> Wir gestalten Ihren Webauftritt! Modernes Design ve SEO-Optimierung aus einer Hand.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>b) Tech-Niks:</strong> Das Magazin für alle Computer-Freaks. Monatlich neu am Kiosk oder als E-Paper.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>c) Foto-Genial:</strong> App für iOS & Android. Profi-Filter ve einfache Retusche mit nur einem Klick.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>d) Coding-Camp:</strong> In 48 Stunden zum ersten eigenen Programm. Workshops in Berlin ve München.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>e) Media-Markt:</strong> Sonderangebote für Laptops ve Drucker. Nur diese Woche!</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>f) Job-Börse:</strong> Wir suchen Redakteure für unsere Technik-Seite. Erfahrung im Journalismus erwünscht.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>g) Smart-Home:</strong> Vernetzen Sie Ihr Haus. Beratung ve Installation durch unsere Profis.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #0d47a1;'><strong>h) Verlag "Zukunft":</strong> Wir veröffentlichen Fachbücher zum Thema Technologie ve IT-Management.</div>
-  </div>
-</div>
-`,
-        answer: `
-<div style='padding:20px; border-left:5px solid #0d47a1; background:#f0f4f8; border-radius:12px; border:1px solid #eee;'>
-  <h3>📝 Lösungen - B1 Lesen Set 1</h3>
-  <strong>Teil 1:</strong> 1-e, 2-a (Podcast Renaissance), 3-c, 4-b, 5-d<br>
-  <strong>Teil 2:</strong> 6-b, 7-c, 8-b, 9-a, 10-b<br>
-  <strong>Teil 3:</strong> 11-h, 12-c, 13-a, 14-d, 15-b
-</div>
-`
-    },
-    {
-        id: 402,
-        type: "TELC",
-        level: "B1",
-        category: "Lesen",
-        title: "B1 Leseverstehen – Klima & Umwelt",
-        content: `
-<!-- TEIL 1: Headings Matching -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:10px; margin-bottom:10px;'>
-    <div style='background:#2d6a4f; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>1</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 1</h2>
-  </div>
-  <p style='margin-bottom:15px;'>Welche Überschrift passt zu welchem Text?<br>
-  <strong>Beispiel:</strong> Text 0 -> Überschrift <strong>z</strong></p>
-
-  <div style='display:flex; flex-direction:column; gap:20px;'>
-    <div style='background:#fcfcfc; padding:10px; border:1px solid #eee; border-radius:8px;'>
-      <div style='display:flex; gap:15px;'>
-        <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#ccc; text-align:right;'>0</div>
-        <div style='flex:1;'>
-          Plastik im Meer ist ein weltweites Problem. Viele Städte verbieten nun Einweggeschirr in Restaurants, um die Abfallmenge zu reduzieren ve die Strände sauber zu halten.
-          <p style='margin:5px 0 0 0; font-style:italic; text-align:right;'>Lösung: z) Maßnahmen gegen Plastikmüll</p>
-        </div>
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>1</div>
-      <div style='flex:1;'>
-        Immer mehr Menschen entscheiden sich für das Fahrrad statt für das Auto, besonders auf kurzen Strecken in der Innenstadt. Das schont nicht nur das Klima, sondern fördert auch die Gesundheit der Bürger.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>2</div>
-      <div style='flex:1;'>
-        Erneuerbare Energien wie Wind ve Sonne decken bereits einen großen Teil des Strombedarfs in Deutschland. Experten betonen, dass der Ausbau dieser Technologien für die Energiewende unverzichtbar ist.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>3</div>
-      <div style='flex:1;'>
-        Second-Hand-Kleidung liegt voll im Trend. Anstatt ständig neue Mode zu kaufen, tauschen viele junge Leute ihre Kleider oder kaufen in speziellen Läden ein, um Ressourcen zu sparen.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>4</div>
-      <div style='flex:1;'>
-        Bäume in der Stadt kühlen die Luft ab ve binden Schadstoffe. Da es in Metropolen oft sehr heiß wird, pflanzen viele Kommunen nun mehr Grün an, um die Lebensqualität zu verbessern.
-      </div>
-    </div>
-
-    <div style='display:flex; gap:15px;'>
-      <div style='width:30px; font-size:1.5rem; font-weight:bold; color:#777; text-align:right;'>5</div>
-      <div style='flex:1;'>
-        Um Lebensmittelverschwendung zu vermeiden, teilen Nachbarn über Online-Apps Reste von Mahlzeiten oder Obst ve Gemüse. So landet weniger im Müll ve die Gemeinschaft wird gestärkt.
-      </div>
-    </div>
-  </div>
-
-  <div style='margin-top:20px; padding:10px; background:#f0f7f0; border-radius:8px; display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.85rem;'>
-    <div>a) Waldspaziergang am Wochenende</div>
-    <div>b) Neue Energie aus natürlichen Quellen</div>
-    <div>c) Nachhaltiger Konsum durch gebrauchte Mode</div>
-    <div>d) Apps gegen den Hunger in der Welt</div>
-    <div>e) Radfahren als umweltfreundliche Alternative</div>
-    <div>f) Warum Elektroautos noch zu teuer sind</div>
-    <div>g) Grüne Oasen gegen Hitze in der Stadt</div>
-    <div>h) Gemeinsam gegen die Verschwendung von Essen</div>
-    <div>i) Teure Rohstoffe für die Industrie</div>
-    <div>j) Rekordtemperaturen im Sommer erwartet</div>
-  </div>
-</div>
-
-<!-- TEIL 2: Detailed Article -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:10px; margin-bottom:10px;'>
-    <div style='background:#2d6a4f; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>2</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 2</h2>
-  </div>
-  <p style='margin-bottom:15px;'>Lesen Sie den Text ve entscheiden Sie, welche Antwort (a, b oder c) jeweils richtig ist.</p>
-  
-  <div style='background:#fff; padding:30px; border:1px solid #eee; border-top:8px solid #2d6a4f; box-shadow: 0 5px 20px rgba(0,0,0,0.05); margin:20px auto; max-width:550px;'>
-    <h1 style='margin:0 0 20px 0; font-size:1.4rem; font-weight:800; color:#1b4332; line-height:1.2;'>Holzhochhäuser: Die Rückkehr eines alten Baustoffs</h1>
-    
-    <div style='font-size:1rem; color:#333; text-align:justify; font-family: serif; line-height:1.6;'>
-      <p style='margin-bottom:15px;'>Beton ve Stahl prägten jahrzehntelang das Bild unserer Städte. Doch nun erlebt ein traditioneller Baustoff eine Überraschung: Holz. Überall auf der Welt entstehen derzeit Hochhäuser aus Holz, die nicht nur optisch beeindrucken, sondern auch eine wichtige Rolle für den Umweltschutz spielen.</p>
-      
-      <p style='margin-bottom:15px;'>Holz hat einen entscheidenden Vorteil gegenüber Beton: Es speichert CO2. Während die Produktion von Zement ve Stahl enorme Mengen an Treibhausgasen freisetzt, binden Bäume während ihres Wachstums klimaschädliches Kohlendioxid. Wenn dieses Holz später im Bau verwendet wird, bleibt das CO2 langfristig im Gebäude gespeichert. Moderne Technologien machen es heute möglich, Holz so stabil zu verarbeiten, dass sogar Gebäude mit mehr als 20 Stockwerken kein Problem darstellen.</p>
-      
-      <p style='margin-bottom:15px;'>Kritiker äußern oft Bedenken hinsichtlich der Sicherheit, vor allem beim Brandschutz. Experten weisen jedoch darauf hin, dass massivem Holz Feuer weniger anhaben kann, als viele denken. Es brennt zwar oberflächlich, aber der Kern bleibt stabil ve verliert seine Tragfähigkeit langsamer als Stahlträger, die bei großer Hitze schmelzen können. Ein weiterer Pluspunkt ist das angenehme Raumklima in Holzgebäuden. Bewohner berichten oft von einem natürlicheren Wohngefühl ve weniger Stress. Dennoch ist der Bau mit Holz momentan noch etwas teurer als herkömmliche Methoden, was viele Investoren abschreckt.</p>
-    </div>
-  </div>
-
-  <div style='display:flex; flex-direction:column; gap:25px; margin-top:20px;'>
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>6. Warum gilt Holz als umweltfreundliches Baumaterial?</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>Weil es bei der Herstellung weniger Zement benötigt als Beton.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>Weil es schädliche Gase aus der Atmosphäre aufnimmt ve speichert.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>Weil es in deutschen Städten seit Jahrzehnten traditionell genutzt wird.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>7. Dank moderner Technik ist es heute möglich, ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>sehr hohe Gebäude komplett aus Holz zu errichten.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>Bäume schneller wachsen zu lassen, um CO2 zu binden.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>die Kosten für den Transport von Holz zu senken.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>8. Was sagt der Text über das Verhalten von Holz im Brandfall?</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>Holz ist gefährlicher als Stahl, da es sofort in Flammen aufgeht.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>Stahlträger bieten bei großer Hitze mehr Sicherheit als Holz.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>Holz behält seine Stabilität länger als Metall, wenn es brennt.</span></div>
-      </div>
-    </div>
-
-    <div style='border-bottom:1px solid #f0f0f0; padding-bottom:15px;'>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>9. Für die Bewohner von Holzhäusern ist vor allem ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>die geringe Miete ein entscheidender Vorteil.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>das Wohlbefinden in den Räumen ein positiver Aspekt.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>die Sicherheit vor Investoren wichtig.</span></div>
-      </div>
-    </div>
-
-    <div>
-      <p style='font-weight:bold; margin:0 0 10px 0;'>10. Ein Nachteil für den breiten Einsatz von Holz ist momentan noch ...</p>
-      <div style='display:flex; flex-direction:column; gap:8px;'>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>a</div><span>die fehlende Begeisterung der Architekten.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>b</div><span>die schlechte Verfügbarkeit von massiven Stämmen.</span></div>
-        <div style='display:flex; gap:10px;'><div style='width:22px; height:22px; border:1px solid #333; display:flex; align-items:center; justify-content:center; flex-shrink:0;'>c</div><span>die höhere finanzielle Belastung im Vergleich zum herkömmlichen Bau.</span></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TEIL 3: Ad Matching -->
-<div style='margin-bottom:20px; border:1px solid #eee; padding:15px; border-radius:10px; background:#fff; line-height: 1.4; font-size: 0.95rem;'>
-  <div style='display:flex; align-items:center; gap:8px; margin-bottom:10px;'>
-    <div style='background:#2d6a4f; color:#fff; padding:1px 8px; font-weight:bold; font-size:1.1rem;'>3</div>
-    <h2 style='margin:0; font-size:1.2rem; color:#333;'>Leseverstehen, Teil 3</h2>
-  </div>
-  
-  <p style='margin-bottom:20px;'>Welche Anzeige passt zu welcher Situation? Für eine Aufgabe gibt es keine Lösung (X).</p>
-
-  <div style='display:flex; flex-direction:column; gap:15px; margin-bottom:25px;'>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>11</div><div>Sie möchten Ihr Haus umweltfreundlich heizen ve suchen eine Beratung zu Solaranlagen.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>12</div><div>Sie suchen ein Hotel, das biologische Lebensmittel verwendet ve Wert auf Umweltschutz legt.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>13</div><div>Sie möchten im Urlaub aktiv sein ve suchen eine Fahrrad-Tour durch die Alpen.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>14</div><div>Sie interessieren sich für ein Studium im Bereich Umwelttechnik ve suchen Infos einer Uni.</div></div>
-    <div style='display:flex; gap:15px;'><div style='font-weight:bold;'>15</div><div>Sie möchten Plastikverpackungen vermeiden ve suchen einen Laden, in dem man unverpackt einkauft.</div></div>
-  </div>
-
-  <div style='display:grid; grid-template-columns: 1fr 1fr; gap:15px;'>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>a) Öko-Park-Hotel:</strong> Entspannung pur! Regionale Bio-Küche, Natur-Schwimmbad ve 100% Ökostrom.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>b) Sonnen-Profis:</strong> Wir installieren Ihre Photovoltaik-Anlage. Kostenlose Erstberatung bei Ihnen zu Hause.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>c) Pur & Los:</strong> Der neue Unverpackt-Laden in der Innenstadt. Bringen Sie Ihre eigenen Gläser mit!</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>d) Hochschule Nord:</strong> Jetzt bewerben für den Bachelor "Nachhaltige Energien ve Umweltmanagement".</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>e) Bio-Markt "Frische":</strong> Täglich frisches Obst ve Gemüse vom Bauernhof nebenan.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>f) Wander-Welt:</strong> Die schönsten Wege durch Deutschland. Geführte Touren für Senioren.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>g) Klima-Kongress:</strong> Experten diskutieren über die Zukunft unserer Meere. Eintritt frei.</div>
-    <div style='border:1px solid #ddd; padding:10px; border-left:4px solid #2d6a4f;'><strong>h) E-Bike-Spezialist:</strong> Verkauf ve Service für Ihr Elektrofahrrad. Top-Marken zu fairen Preisen.</div>
-  </div>
-</div>
-`,
-        answer: `
-<div style='padding:20px; border-left:5px solid #2d6a4f; background:#f0f7f4; border-radius:12px; border:1px solid #eee;'>
-  <h3>📝 Lösungen - B1 Lesen Set 2</h3>
-  <strong>Teil 1:</strong> 1-e, 2-b, 3-c, 4-g, 5-h<br>
-  <strong>Teil 2:</strong> 6-b, 7-a, 8-c, 9-b, 10-c<br>
-  <strong>Teil 3:</strong> 11-b, 12-a, 13-X (Alpler turu yok, sadece yaşlılar için yürüyüş turu var), 14-d, 15-c
-</div>
-`
-    },
-    {
-        id: 403,
-        type: "TELC",
-        level: "B1",
-        category: "Lesen",
-        title: "B1 Leseverstehen – Freizeit & Technik",
-        content: `
-<!-- TEIL 1: Leseverstehen -->
 <div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
-  <!-- Header -->
   <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
     Leseverstehen <span style='color:#999;'>Teil 1</span>
   </h2>
   
-  <!-- Instructions -->
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Pünktlichkeit: Ein wichtiger Faktor beim Vorstellungsgespräch</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Homeoffice: Vorteile für Arbeitgeber und Arbeitnehmer</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Berufliche Veränderung: Umschulung mit 40</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Gehaltsverhandlung: So fordern Sie mehr Geld</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Duale Ausbildung: Praxis und Theorie kombiniert</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Fachkräftemangel in der Pflegebranche</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Körpersprache im Job: Was Ihre Haltung verrät</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Kündigung schreiben: Was man rechtlich beachten muss</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Sabbatical: Eine lange Auszeit vom Beruf</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Jobmessen: Direktkontakt zu großen Firmen</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> In Deutschland ist dieses System sehr beliebt: Jugendliche lernen ihren Beruf nicht nur in der Berufsschule, sondern arbeiten gleichzeitig in einem Betrieb. So sammeln sie von Anfang an praktische Erfahrung und verdienen bereits ihr erstes eigenes Gehalt.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Der erste Eindruck zählt. Nicht nur Ihre Kleidung, sondern auch wie Sie sitzen oder Ihre Hände bewegen, beeinflusst das Gespräch. Eine aufrechte Haltung signalisiert Selbstbewusstsein, während verschränkte Arme oft als Abwehrhaltung wahrgenommen werden.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Wer sich beruflich neu orientieren möchte, muss nicht noch einmal ein komplettes Studium beginnen. Es gibt zahlreiche Programme, die es ermöglichen, innerhalb von zwei Jahren einen neuen Berufsabschluss zu erlangen, was besonders für Menschen mit viel Lebenserfahrung attraktiv ist.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Einmal um die Welt reisen oder ein Haus bauen, ohne den Job zu verlieren? Viele Unternehmen erlauben es ihren Mitarbeitern mittlerweile, über einen längeren Zeitraum Überstunden zu sammeln, um dann mehrere Monate am Stück bezahlt frei zu nehmen.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Anstatt hunderte Bewerbungen per Post zu verschicken, können Sie am Wochenende in die Messehalle kommen. Dort präsentieren sich über 50 Betriebe an Ständen. Sie können direkt mit den Personalchefs sprechen und oft sogar schon einen Termin für ein Vorstellungsgespräch vereinbaren.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Das Ende der 40-Stunden-Woche?</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>Immer mehr junge Arbeitnehmer in Deutschland legen Wert auf eine gute "Work-Life-Balance". Das bedeutet, dass ihnen ihre Freizeit und Zeit für die Familie genauso wichtig ist wie ihre Karriere. Die klassische 40-Stunden-Woche wird deshalb oft kritisch gesehen.</p>
+      <p style='margin-bottom:12px;'>Einige Firmen testen bereits die 4-Tage-Woche. Die Mitarbeiter arbeiten weniger Stunden bei gleichem Gehalt. „Ich bin viel motivierter und seltener krank“, sagt Julia, eine Grafikdesignerin, die freitags nun immer frei hat. Studien zeigen, dass die Produktivität durch die zusätzliche Erholung oft sogar steigt.</p>
+      <p style='margin-bottom:12px;'>Allerdings ist dieses Modell nicht für jede Branche geeignet. In Krankenhäusern oder in der Gastronomie ist es schwierig umzusetzen, da dort ständig Personal vor Ort sein muss. Zudem befürchten Kritiker, dass die Arbeit an den verbleibenden vier Tagen zu stressig wird, weil die gleichen Aufgaben in kürzerer Zeit erledigt werden müssen.</p>
+      <p style='margin-bottom:0;'>Trotz der Kritik ist der Trend zur Flexibilität nicht aufzuhalten. In Zeiten des Fachkräftemangels müssen Firmen ihren Angestellten mehr bieten als nur ein gutes Gehalt, um attraktiv zu bleiben.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was bedeutet "Work-Life-Balance"?</strong><br>a) Dass man 40 Stunden pro Woche arbeitet. b) Ein gutes Gleichgewicht zwischen Arbeit und Privatleben. c) Dass man im Büro schlafen darf.</div>
+    <div><strong>7. Welchen Vorteil hat die 4-Tage-Woche laut Julia?</strong><br>a) Sie verdient mehr Geld. b) Sie ist motivierter und seltener krank. c) Sie muss gar nicht mehr arbeiten.</div>
+    <div><strong>8. Was sagen Studien über die Produktivität bei weniger Arbeitszeit?</strong><br>a) Sie sinkt deutlich. b) Sie bleibt gleich oder steigt sogar. c) Sie hat nichts mit der Arbeitszeit zu tun.</div>
+    <div><strong>9. Warum ist das Modell nicht für alle Berufe einfach?</strong><br>a) Weil manche Berufe (z.B. im Krankenhaus) ständige Präsenz brauchen. b) Weil die Chefs in der Gastronomie zu streng sind. c) Weil die Kunden das nicht wollen.</div>
+    <div><strong>10. Warum bieten Firmen heute mehr Flexibilität an?</strong><br>a) Weil sie zu viel Geld haben. b) Um in Zeiten von Fachkräftemangel für Mitarbeiter attraktiv zu sein. c) Weil das Gesetz es vorschreibt.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Siz profesyonel bir CV (Lebenslauf) yazdırmak için yardım arıyorsunuz.</div>
+    <div><strong>12</strong> Bir restoranda garson olarak çalışmak istiyorsunuz.</div>
+    <div><strong>13</strong> Almancanızı iş hayatı için geliştirmek (Business Deutsch) istiyorsunuz.</div>
+    <div><strong>14</strong> İş yerindeki haklarınız (işten çıkarılma vs.) hakkında hukuki bilgiye ihtiyacınız var.</div>
+    <div><strong>15</strong> Emeklilik planlaması hakkında bir danışmanlık arıyorsunuz.</div>
+    <div><strong>16</strong> Evden çalışırken (Homeoffice) çocuklarınıza bakacak birini arıyorsunuz.</div>
+    <div><strong>17</strong> Bir şirkette staj (Praktikum) yapmak için ilanlara bakıyorsunuz.</div>
+    <div><strong>18</strong> Ofis malzemeleri (kağıt, kalem, yazıcı) satın almanız gerekiyor.</div>
+    <div><strong>19</strong> Yabancı diplomanızın Almanya'da tanınması (Anerkennung) için bilgi arıyorsunuz.</div>
+    <div><strong>20</strong> Kendi işinizi kurmak (selbstständig machen) için destek istiyorsunuz.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Karriere-Check: Wir optimieren Ihre Bewerbungsunterlagen und Ihr Foto.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Gastro-Jobs: Servicekräfte und Köche für unser Team gesucht. Melden Sie sich!</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Business-Sprachkurs: Erfolgreich kommunizieren im Büro. Anmeldung online.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Rechtsanwalt für Arbeitsrecht: Beratung bei Kündigung und Zeugnissen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Gründung-Aktiv: Beratung für Start-ups und neue Selbstständige.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> IQ-Netzwerk: Beratung zur Anerkennung ausländischer Berufsabschlüsse.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Praktikums-Börse: Finde deinen Platz für 2-3 Monate in einer Top-Firma.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Office-Discount: Alles für Ihren Schreibtisch zu günstigen Preisen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Kinder-Paradies: Wir betreuen Ihre Kleinen stundenweise bei Ihnen zu Hause.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Berufsberatung der Agentur für Arbeit: Hilfe bei der Berufswahl für Schüler.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 13</h3>
+  <strong>Teil 1:</strong> 1-e, 2-g, 3-c, 4-i, 5-j<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-a, 10-b<br>
+  <strong>Teil 3:</strong> 11-a, 12-b, 13-c, 14-d, 15-x, 16-i, 17-g, 18-h, 19-f, 20-e
+</div>
+`
+    },
+    {
+        id: 417,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Wohnen & Nachbarschaft",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Hausordnung: Regeln für ein friedliches Miteinander</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Wohnungssuche im Internet: Tipps gegen Betrüger</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Energie sparen beim Heizen: So senken Sie die Kosten</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Wohngemeinschaften für Senioren werden immer beliebter</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Mietpreise in Großstädten steigen weiter an</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Umzugsservice: Profis helfen beim Kistenpacken</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Möblierte Wohnungen: Ideal für kurze Arbeitsaufenthalte</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Haustiere in der Mietwohnung: Was erlaubt ist</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Dachgarten: Urban Gardening mitten in der Stadt</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Modernisierung: Baustellenlärm im Wohnviertel</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Wer in ein Mehrfamilienhaus zieht, muss bestimmte Zeiten beachten. Von 22 Uhr bis 6 Uhr gilt die Nachtruhe, in der keine laute Musik gehört werden darf. Auch das Reinigen des Treppenhauses ist in vielen Verträgen genau geregelt, damit sich alle Bewohner wohlfühlen.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Suchen Sie ein Zimmer nur für drei Monate? Wenn man für ein Projekt in eine neue Stadt zieht, lohnt es sich oft nicht, eigene Betten oder Schränke zu kaufen. Komplett ausgestattete Apartments bieten hier eine praktische Lösung, da alles vom Löffel bis zum Fernseher bereits vorhanden ist.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Vorsicht, wenn ein Angebot zu gut klingt! Wenn eine Luxuswohnung im Zentrum extrem günstig angeboten wird und der Vermieter verlangt, dass man die Kaution vor der Besichtigung ins Ausland überweist, handelt es sich meist um Kriminelle. Geben Sie niemals Ihre Bankdaten preis.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Allein sein im Alter? Das muss nicht sein. Immer mehr ältere Menschen schließen sich zusammen und mieten gemeinsam ein großes Haus. Jeder hat sein eigenes Zimmer, aber Küche und Wohnzimmer werden geteilt. Das spart Kosten und sorgt dafür, dass immer jemand zum Reden da ist.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Wussten Sie, dass man die Temperatur nur um ein Grad senken muss, um etwa sechs Prozent der Kosten einzusparen? Wichtig ist auch, die Fenster zum Lüften mehrmals täglich kurz ganz zu öffnen ("Stoßlüften"), anstatt sie den ganzen Tag gekippt zu lassen, da sonst die Wände auskühlen.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Wohnen im Tiny House: Kleiner Raum, großes Glück?</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>Der Trend aus den USA ist nun auch in Deutschland angekommen: Wohnen auf weniger als 25 Quadratmetern. "Tiny Houses" (Winzige Häuser) bieten alles, was man zum Leben braucht, auf kleinstem Raum. Für viele ist das eine Antwort auf die ständig steigenden Mieten in den Städten.</p>
+      <p style='margin-bottom:12px;'>„Man besitzt nur noch das, was man wirklich braucht“, sagt Lukas, der seit einem Jahr in einem solchen Mini-Haus auf Rädern lebt. Der größte Vorteil sei die Freiheit. Wenn Lukas den Job wechselt, nimmt er sein Haus einfach mit. Zudem sind die Nebenkosten für Heizung und Strom extrem niedrig, was die Umwelt schont.</p>
+      <p style='margin-bottom:12px;'>Doch das Leben auf engem Raum ist nicht ohne Herausforderungen. In Deutschland ist es gar nicht so einfach, einen legalen Stellplatz mit Strom- und Wasseranschluss zu finden. Viele Campingplätze erlauben das dauerhafte Wohnen nicht, und auf privatem Grund braucht man eine Baugenehmigung.</p>
+      <p style='margin-bottom:0;'>Für Familien mit Kindern ist dieses Modell meist ungeeignet. Doch für Singles oder Paare, die ein minimalistisches Leben führen möchten, ist das Tiny House eine interessante Alternative zum klassischen Betonbau.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was ist ein "Tiny House"?</strong><br>a) Ein großes Haus für viele Familien. b) Ein sehr kleines Haus mit meist weniger als 25 qm. c) Ein Haus, das nur aus Holz besteht.</div>
+    <div><strong>7. Warum hat sich Lukas für diese Wohnform entschieden?</strong><br>a) Weil er keine Möbel mag. b) Wegen der Mobilität und der niedrigen Kosten. c) Weil er gerne auf Campingplätzen Urlaub macht.</div>
+    <div><strong>8. Welchen ökologischen Vorteil nennt der Text?</strong><br>a) Man verbraucht sehr wenig Energie für Heizung und Strom. b) Man muss kein Wasser bezahlen. c) Die Häuser werden aus Plastikmüll gebaut.</div>
+    <div><strong>9. Was ist eine Schwierigkeit in Deutschland?</strong><br>a) Die Häuser sind verboten. b) Es ist schwer, einen legalen Platz zum Abstellen des Hauses zu finden. c) Man darf in Tiny Houses kein Internet nutzen.</div>
+    <div><strong>10. Für wen ist das Tiny House laut Text eher NICHT gedacht?</strong><br>a) Für junge Paare. b) Für Familien mit Kindern. c) Für Menschen, die wenig besitzen wollen.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Yeni bir eve taşınıyorsunuz ve nakliye kamyonu ile yardımcılara ihtiyacınız var.</div>
+    <div><strong>12</strong> Evinizdeki bozuk bir musluk veya kalorifer için tamirci arıyorsunuz.</div>
+    <div><strong>13</strong> Bahçeli veya balkonlu bir ev arayanlar için bitki bakım kursu bakıyorsunuz.</div>
+    <div><strong>14</strong> Ev arkadaşı arayan bir öğrenci grubuna (WG) katılmak istiyorsunuz.</div>
+    <div><strong>15</strong> Kira sözleşmenizdeki bir maddenin yasal olup olmadığını öğrenmek istiyorsunuz.</div>
+    <div><strong>16</strong> İkinci el uygun fiyatlı mobilyalar (koltuk, masa) satın almak istiyorsunuz.</div>
+    <div><strong>17</strong> Evinizi sigortalatmak (Hausratversicherung) için bilgi arıyorsunuz.</div>
+    <div><strong>18</strong> Apartmanınız için temizlik hizmeti veren bir şirket arıyorsunuz.</div>
+    <div><strong>19</strong> Bir hafta sonu için şehir dışında kiralık küçük bir kulübe arıyorsunuz.</div>
+    <div><strong>20</strong> Akıllı ev sistemleri (Smart Home) kurulumu için teknik destek arıyorsunuz.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Umzug-Fix: Wir transportieren Ihre Möbel sicher und schnell ins neue Heim.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Haustechnik-Notdienst: Hilfe bei Wasser- und Heizungsschäden rund um die Uhr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Mieterverein e.V.: Rechtsberatung bei Problemen mit dem Vermieter.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Sozial-Kaufhaus: Gebrauchte Möbel und Elektrogeräte zu kleinen Preisen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> WG-Gesucht: Das Portal für Zimmer in Wohngemeinschaften für Studenten.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Green-Finger: Workshops für Balkongärtner und Hobby-Botaniker.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Blitz-Blank: Professionelle Treppenhausreinigung für Wohnanlagen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Versicherungsshop: Schützen Sie Ihr Hab und Gut bei Einbruch oder Brand.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Smart-Living: Installation von intelligenter Licht- und Heizungssteuerung.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Hotel-Zentral: Komfortable Zimmer direkt am Marktplatz.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 14</h3>
+  <strong>Teil 1:</strong> 1-a, 2-g, 3-b, 4-d, 5-c<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-a, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-a, 12-b, 13-f, 14-e, 15-c, 16-d, 17-h, 18-g, 19-x, 20-i
+</div>
+`
+    },
+    {
+        id: 404,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Arbeitswelt & Alltag",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
   <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
     <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
     <p style='margin:3px 0;'>Sie können jede Überschrift nur einmal benutzen.</p>
     <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.</p>
   </div>
 
-  <!-- HEADLINES (a–j) in grey boxes -->
   <div style='margin-bottom:25px;'>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
-      a <span style='margin-left:10px;'>Immer mehr deutsche Familien reisen mit der Bahn</span>
+      a <span style='margin-left:10px;'>Gesundes Essen jetzt auch in der Betriebskantine</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
-      b <span style='margin-left:10px;'>Buchtipp: Hilfe bei Schlafproblemen</span>
+      b <span style='margin-left:10px;'>Jobmesse: Studenten treffen auf Firmen</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
-      c <span style='margin-left:10px;'>Der Computer: Liebstes Hobby von Deutschlands Frauen</span>
+      c <span style='margin-left:10px;'>Neue Regeln für die Arbeit im Home-Office</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
-      d <span style='margin-left:10px;'>Neu bei der Bahn: Spezielle Informationen und Angebote für Radfahrer</span>
+      d <span style='margin-left:10px;'>Endlich rauchfrei: So schaffen Sie es</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
-      e <span style='margin-left:10px;'>Neu am Markt: Billige Schlaftabletten</span>
+      e <span style='margin-left:10px;'>Teure Mieten in der Innenstadt</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
-      f <span style='margin-left:10px;'>Familien reisen billiger</span>
+      f <span style='margin-left:10px;'>Englisch lernen für den nächsten Urlaub</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
-      g <span style='margin-left:10px;'>Urlaub mit dem Fahrrad in Deutschland immer beliebter</span>
+      g <span style='margin-left:10px;'>Weniger Stress durch Yoga am Arbeitsplatz</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
-      h <span style='margin-left:10px;'>Kultur im Urlaub: Interessen je nach Alter unterschiedlich</span>
+      h <span style='margin-left:10px;'>Business-Englisch: Kurse für Fortgeschrittene</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
-      i <span style='margin-left:10px;'>Umfrage: Wer verwendet den Computer am häufigsten?</span>
+      i <span style='margin-left:10px;'>Günstige Wohnungen für Studenten gesucht</span>
     </div>
     <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
-      j <span style='margin-left:10px;'>Deutschland: Immer mehr Touristen reisen in den Westen</span>
+      j <span style='margin-left:10px;'>Kostenloses Obst für alle Mitarbeiter</span>
     </div>
   </div>
 
-  <!-- TEXT BOXES (1–5) -->
   <div style='display:flex; flex-direction:column; gap:20px;'>
-    <!-- Text 1 -->
     <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
       <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
       <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
-        Wer ist der typische Computerfan? Das B.A.T. Freizeitforschungsinstitut Hamburg ermittelte einige Eigenschaften: Er ist männlich, jung und hat einen höheren Schulabschluss. Bei der Beschäftigung am heimischen Computer stehen Textverarbeitung und Spiele ganz oben, es folgen private Buchhaltung, Grafikprogramme und Tabellenkalkulation.
+        Internationale Kommunikation ist heute wichtiger denn je. Viele Firmen erwarten, dass ihre Mitarbeiter verhandlungssicher kommunizieren können. Unser Institut bietet spezielle Abendkurse an, die sich auf Wortschatz für Meetings, E-Mails und Telefonate konzentrieren. Voraussetzung ist das Niveau B1. Melden Sie sich jetzt an und verbessern Sie Ihre Karrierechancen!
       </div>
     </div>
     
-    <!-- Text 2 -->
     <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
       <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
       <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
-        „Bahn&Bike" heißt ein 222-seitiger Prospekt, den die Deutsche Bahn AG in Zusammenarbeit mit der Deutschen Zentrale für Tourismus herausgebracht hat und der wichtige Informationen für jene bereitstellt, die ihren Radurlaub mit Bahnfahren verbinden wollen. Das Motto lautet: Hin mit der Bahn – das Rad vor Ort mieten. Der Prospekt enthält Angaben zur Streckenlänge und Wegbeschaffenheit, Adressen von Verleihstationen, verweist auf Sehenswürdigkeiten sowie Unterkünfte und wird durch Karten ergänzt. Die Broschüre kostet 5 Euro und ist im Buchhandel beziehungsweise an Fahrkartenschaltern zu beziehen.
+        Ab nächster Woche ändern sich die Angebote in unserem Pausenraum. Auf Wunsch vieler Kollegen verzichten wir auf fette Speisen wie Pommes und bieten stattdessen frische Salate, vegetarische Gerichte und leichte Suppen an. Damit wollen wir die Gesundheit und Fitness unserer Belegschaft fördern. Probieren Sie es aus!
       </div>
     </div>
     
-    <!-- Text 3 -->
     <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
       <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
       <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
-        Ausführliche Informationen zum Thema „Schlafstörungen" finden Sie im gleichnamigen Patientenratgeber von Dr. med. Fritz Hohagen. Sie erfahren, was den Schlaf stört und was Sie dagegen unternehmen können. Für 9,95 Euro erhalten Sie das Buch in Apotheken oder direkt beim Wort&Bild Verlag, 82065 Baierbrunn.
+        Fühlen Sie sich bei der Arbeit oft überfordert? Haben Sie Rückenschmerzen vom vielen Sitzen? Unser neuer Kurs „Entspannung im Büro“ zeigt Ihnen einfache Übungen, die Sie direkt am Schreibtisch machen können. Außerdem lernen Sie Atemtechniken, um in stressigen Situationen ruhig zu bleiben. Der Kurs ist für alle Mitarbeiter kostenlos.
       </div>
     </div>
     
-    <!-- Text 4 -->
     <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
       <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
       <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
-        Jetzt wird für Familien Reisen mit der Bahn zwischen Österreich und Deutschland noch ein gutes Stück günstiger. Denn ab 6. Oktober gibt es den Familien-Super-Sparpreis. Ein echter Traumpreis für die ganze Familie – vom Baby bis zum Großpapa – da kann man wirklich sparen. Der Familien-Super-Sparpreis gilt für Familien, bestehend aus ein oder zwei Erwachsenen (Eltern, auch Großeltern) und deren Kindern/Enkelkindern bis zum vollendeten 17. Lebensjahr, wobei mindestens ein Kind/Enkelkind an der Reise teilnehmen muss.
+        Am kommenden Samstag öffnet die Universität ihre Türen für die jährliche "Karriere-Börse". Über 50 Unternehmen aus der Region stellen sich vor und suchen nach jungen Talenten für Praktika oder den Berufseinstieg nach dem Studium. Bringen Sie Ihre Bewerbungsunterlagen gleich mit!
       </div>
     </div>
     
-    <!-- Text 5 -->
     <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
       <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
       <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
-        Touristen zwischen 14 und 29 Jahren sowie zwischen 40 und 49 Jahren haben ein besonders großes Interesse an der Kultur des jeweiligen Reiselandes, während die Gruppe der 30- bis 39-jährigen im Urlaub „eine Kulturpause einlegt". Dies geht aus der neuesten Analyse der Forschungsgemeinschaft Urlaub und Reisen e.V. hervor. Urlauber aus Ostdeutschland, so die Studie, zeigen wiederum mehr Kulturinteresse als Reisende aus dem Westen. Grundsätzlich gelte: Je höher das Einkommen und die Schulbildung sind, umso mehr besteht im Urlaub der Wunsch, Land und Leute kennenzulernen.
+        Viele Arbeitnehmer möchten gerne einen oder zwei Tage pro Woche nicht ins Büro kommen. Die Geschäftsleitung hat nun entschieden: Wer möchte, darf mittwochs und freitags von der eigenen Wohnung aus arbeiten, sofern die technischen Voraussetzungen stimmen und der Vorgesetzte zustimmt.
       </div>
     </div>
   </div>
 </div>
 
-<!-- TEIL 2: Leseverstehen -->
 <div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
-  <!-- Header -->
   <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
     Leseverstehen <span style='color:#999;'>Teil 2</span>
   </h2>
   
-  <!-- Instructions -->
   <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
     <p style='margin:3px 0;'>Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?</p>
     <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.</p>
   </div>
 
-  <!-- ARTICLE in grey box -->
   <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
-    <!-- Article Title -->
     <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000; letter-spacing:-0.5px;'>
-      Büro-Werkstatt: Chance für behinderte Menschen
+      Wohnen im Mehrgenerationenhaus
     </h1>
     
-    <!-- Article Subtitle -->
     <p style='margin:0 0 25px 0; font-size:0.95rem; font-weight:bold; line-height:1.3;'>
-      Computerarbeit im Auftrag privater Firmen – jeder Dritte findet nach einem fünfmonatigen Kurs einen Job. Interessierte Unternehmen werden noch gesucht.
+      Nicht mehr einsam: In Köln leben Studenten, Familien und Rentner unter einem Dach. Ein Modell mit Zukunft?
     </p>
     
-    <!-- Article Body -->
     <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
       <p style='margin-bottom:12px;'>
-        Margit, die junge Frau im Rollstuhl, erledigt die Lohnverrechnung für einen Verlag. Reinhard, seit der Geburt gehbehindert, tippt für die Direktion von Hewlett Packard Protokolle und Preislisten. Martin, seine Unterschenkel sind gelähmt, betreut eines Servers eines Wiener Restaurants. Drei junge körperbehinderte Menschen am Computer – alle drei können auf eine abgeschlossene kaufmännische Ausbildung verweisen. Dennoch hat man sie auf dem Arbeitsamt als „schwer vermittelbar" eingestuft – was de facto nicht vermittelbar bedeutet. Zurzeit arbeiten Margit, Reinhard und Martin – gemeinsam mit sieben anderen behinderten Menschen – in der „Büro-Werkstatt" in Wien-Stadlau. Hier werden körperbehinderte Schulabgänger auf das Berufsleben vorbereitet. In einem fünfmonatigen Kurs lernen sie, das in der Schule Gelernte in die Praxis umzusetzen. Ihre Dienste werden von Privatfirmen (darunter auch die ÖMV und zwei Banken) zugekauft.
+        Renate Müller (72) sitzt in der großen Gemeinschaftsküche und schneidet Äpfel. Neben ihr sitzt der fünfjährige Lukas und nascht die Apfelstücke. Lukas ist nicht ihr Enkel, sondern der Nachbarsjunge aus dem ersten Stock. Renate Müller lebt seit zwei Jahren im „Wohnprojekt Miteinander“ in Köln. Früher lebte sie allein in einer großen Wohnung, aber nach dem Tod ihres Mannes fühlte sie sich oft einsam. Ihre eigenen Kinder wohnen weit weg in Hamburg und München.
       </p>
       
       <p style='margin-bottom:12px;'>
-        Gleichzeitig wird ihnen bei der Jobsuche geholfen. „Leicht ist das nicht", sagt Betreuer Günther Hos. „Es gibt zu viele Arbeitslose, die nicht behindert sind. Wer nimmt schon gerne einen Mitarbeiter mit Handicap?" Zwar waren die Firmen gesetzlich verpflichtet, pro 25 Beschäftigte einen Behinderten einzustellen. Die meisten Firmen nützen jedoch die Möglichkeit, sich „freizukaufen" (die sogenannte „Ausgleichstaxe" beträgt rund 150 Euro monatlich).
+        Das Konzept des Hauses ist einfach: Jung und Alt wohnen zusammen und helfen sich gegenseitig. Insgesamt gibt es 20 Wohnungen. Hier leben Rentner, junge Familien mit Kindern und sogar eine Wohngemeinschaft von Studenten. Jeder hat seine eigene private Wohnung mit Bad und kleiner Küche, aber es gibt auch Gemeinschaftsräume, die alle nutzen können. Dazu gehören die große Küche im Erdgeschoss, ein Spielzimmer für die Kinder und ein gepflegter Garten.
       </p>
       
       <p style='margin-bottom:12px;'>
-        Trotz der Rahmenbedingungen kann Hos mit einer durchaus positiven Bilanz aufwarten: „Immerhin haben wir seit der Vereinsgründung vor drei Jahren ein Drittel unserer Leute untergebracht." Auch ein Dienst an der Allgemeinheit, denn jede Vermittlung bedeutet: ein Arbeitsloser weniger, ein Steuerzahler mehr.
+        „Es ist ein Geben und Nehmen“, erklärt Thomas (34), der Vater von Lukas. „Wenn meine Frau und ich abends mal ins Kino wollen, passt Frau Müller auf Lukas auf. Dafür helfe ich ihr, wenn mal eine Lampe kaputt ist oder sie schwere Einkaufstaschen hat.“ Auch die Studenten profitieren: Sie zahlen etwas weniger Miete, müssen dafür aber 10 Stunden im Monat für die Gemeinschaft arbeiten, zum Beispiel im Garten oder beim Reinigen des Treppenhauses.
       </p>
       
       <p style='margin-bottom:0;'>
-        Gegründet wurde die Büro-Werkstatt von einer Lehrerin: Heide Hanisch, die in einer Wiener berufsbildenden Schule Geografie und Geschichte unterrichtet, wollte nicht länger hinnehmen, dass ihre behinderten Schüler erst ausgebildet werden, um dann als Arbeitnehmer nicht gebraucht zu werden.
+        Natürlich ist nicht immer alles harmonisch. „Am Anfang gab es Streit wegen der Lautstärke“, gibt Renate Müller zu. „Die Studenten haben manchmal bis spät in die Nacht Musik gehört. Aber wir haben darüber gesprochen und Regeln aufgestellt.“ Einmal im Monat gibt es eine Versammlung, bei der Probleme besprochen werden. Trotz kleiner Konflikte möchte niemand mehr ausziehen. Für Renate Müller ist klar: „Hier bleibe ich. Ich werde gebraucht und habe immer Gesellschaft.“
       </p>
     </div>
-    
-    <!-- Contact Info -->
-    <p style='margin:20px 0 0 0; font-size:0.9rem; text-align:justify;'>
-      Nähere Informationen, auch für interessierte Firmen: „Büro-Werkstatt" in Wien-Stadlau, Telefon: 0222/283 85 75.
-    </p>
   </div>
 
-  <!-- QUESTIONS 6-10 -->
   <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
-    <!-- Question 6 -->
     <div>
       <p style='margin:0 0 8px 0; font-weight:bold;'>
-        <span style='margin-right:10px;'>6</span>In einem fünfmonatigen Kurs können die Teilnehmer
+        <span style='margin-right:10px;'>6</span>Renate Müller wohnt in dem Haus, weil
       </p>
       <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
-        <div><strong>a</strong> <span style='margin-left:8px;'>eine berufliche Ausbildung abschließen.</span></div>
-        <div><strong>b</strong> <span style='margin-left:8px;'>lernen, was sie in der Schule verpasst haben.</span></div>
-        <div><strong>c</strong> <span style='margin-left:8px;'>praktische Erfahrungen mit der Büroarbeit sammeln.</span></div>
+        <div><strong>a</strong> <span style='margin-left:8px;'>sie näher bei ihren Kindern sein wollte.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>sie sich in ihrer alten Wohnung allein fühlte.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>sie ihre große Wohnung nicht mehr bezahlen konnte.</span></div>
       </div>
     </div>
     
-    <!-- Question 7 -->
     <div>
       <p style='margin:0 0 8px 0; font-weight:bold;'>
-        <span style='margin-right:10px;'>7</span>Die Büro-Werkstatt versucht außerdem,
+        <span style='margin-right:10px;'>7</span>In dem Wohnprojekt
       </p>
       <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
-        <div><strong>a</strong> <span style='margin-left:8px;'>auch jenen Arbeitslosen zu helfen, die nicht behindert sind.</span></div>
-        <div><strong>b</strong> <span style='margin-left:8px;'>Behinderte auf die Abschlussprüfungen vorzubereiten.</span></div>
-        <div><strong>c</strong> <span style='margin-left:8px;'>für die behinderten Menschen eine Arbeit zu finden.</span></div>
+        <div><strong>a</strong> <span style='margin-left:8px;'>teilen sich alle Bewohner ein großes Badezimmer.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>gibt es keine privaten Räume, nur Gemeinschaftsräume.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>hat jeder Bewohner einen privaten Bereich.</span></div>
       </div>
     </div>
     
-    <!-- Question 8 -->
     <div>
       <p style='margin:0 0 8px 0; font-weight:bold;'>
-        <span style='margin-right:10px;'>8</span>Laut Gesetz müssen österreichische Firmen pro 25 Beschäftigte
+        <span style='margin-right:10px;'>8</span>Thomas hilft seiner Nachbarin Renate, indem er
       </p>
       <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
-        <div><strong>a</strong> <span style='margin-left:8px;'>eine besondere Steuer zahlen.</span></div>
-        <div><strong>b</strong> <span style='margin-left:8px;'>einen Behinderten einstellen oder eine monatliche Gebühr bezahlen.</span></div>
-        <div><strong>c</strong> <span style='margin-left:8px;'>für jeden Behinderten monatlich 150 Euro bezahlen.</span></div>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Reparaturen macht oder Einkäufe trägt.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>auf ihren Enkel Lukas aufpasst.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>ihre Miete bezahlt.</span></div>
       </div>
     </div>
     
-    <!-- Question 9 -->
     <div>
       <p style='margin:0 0 8px 0; font-weight:bold;'>
-        <span style='margin-right:10px;'>9</span>Seit der Vereinsgründung
+        <span style='margin-right:10px;'>9</span>Die Studenten im Haus
       </p>
       <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
-        <div><strong>a</strong> <span style='margin-left:8px;'>konnte für ein Drittel der behinderten Kursteilnehmer eine Arbeit gefunden werden.</span></div>
-        <div><strong>b</strong> <span style='margin-left:8px;'>konnte Günther Hos für den Verein schon viel Geld sparen.</span></div>
-        <div><strong>c</strong> <span style='margin-left:8px;'>zahlen Arbeitslose um ein Drittel weniger Steuern.</span></div>
+        <div><strong>a</strong> <span style='margin-left:8px;'>müssen für die Gemeinschaft arbeiten.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>dürfen den Garten nicht benutzen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>zahlen mehr Miete als die anderen.</span></div>
       </div>
     </div>
     
-    <!-- Question 10 -->
     <div>
       <p style='margin:0 0 8px 0; font-weight:bold;'>
-        <span style='margin-right:10px;'>10</span>Die Lehrerin, die die Büro-Werkstatt gegründet hat,
+        <span style='margin-right:10px;'>10</span>Zu Beginn gab es Probleme, weil
       </p>
       <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
-        <div><strong>a</strong> <span style='margin-left:8px;'>wollte etwas tun, damit Behinderte einen Arbeitsplatz erhalten.</span></div>
-        <div><strong>b</strong> <span style='margin-left:8px;'>wollte nicht länger Geografie und Geschichte unterrichten.</span></div>
-        <div><strong>c</strong> <span style='margin-left:8px;'>wird nach der Ausbildung der Behinderten nicht mehr gebraucht.</span></div>
+        <div><strong>a</strong> <span style='margin-left:8px;'>die Küche zu klein war.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Renate Müller ausziehen wollte.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>es im Haus manchmal zu laut war.</span></div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- TEIL 3: Leseverstehen -->
 <div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
-  <!-- Header -->
   <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
     Leseverstehen <span style='color:#999;'>Teil 3</span>
   </h2>
   
-  <!-- Instructions -->
   <div style='margin-bottom:25px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
     <p style='margin:3px 0;'>Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen.</p>
     <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.</p>
     <p style='margin:3px 0;'>Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.</p>
   </div>
 
-  <!-- SITUATIONS 11-20 -->
   <div style='margin-bottom:30px; display:flex; flex-direction:column; gap:18px; font-size:0.95rem;'>
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>11</div>
-      <div>Sie möchten mit Freunden in einem Restaurant essen. Da das Wetter schön ist, möchten Sie gerne draußen sitzen.</div>
+      <div>Sie suchen ein günstiges Fahrrad für den Weg zur Arbeit. Es muss nicht neu sein.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>12</div>
-      <div>Sie möchten heute nicht selbst kochen, sondern lieber ein warmes Essen kaufen und mit nach Hause nehmen.</div>
+      <div>Sie möchten Spanisch lernen, können aber nur am Wochenende Unterricht nehmen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>13</div>
-      <div>In den Sommerferien möchten Sie gerne in die USA fliegen. Sie brauchen dort auch eine Unterkunft.</div>
+      <div>In Ihrer Wohnung ist am Sonntag ein Wasserrohr gebrochen. Sie brauchen sofort Hilfe.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>14</div>
-      <div>Reisebüros bieten billigere Flüge an, wenn man in letzter Minute bucht. Sie suchen so einen Flug.</div>
+      <div>Sie möchten für den Geburtstag Ihres Sohnes eine besondere Torte bestellen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>15</div>
-      <div>Ihre Tochter, die studiert, möchte in die USA fliegen. Sie suchen einen billigen Flug für sie.</div>
+      <div>Sie sind Student und suchen einen Job für die Semesterferien, um Geld zu verdienen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>16</div>
-      <div>Ihr Sohn ist schlecht in Mathematik und braucht deshalb noch Unterricht außerhalb der Schule.</div>
+      <div>Sie ziehen um und möchten Ihre alten Romane und Sachbücher verkaufen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>17</div>
-      <div>Das Kind Ihrer Freunde hat Probleme beim Sprechen und braucht deshalb Hilfe.</div>
+      <div>Sie und Ihr Partner möchten gemeinsam Tanzen lernen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>18</div>
-      <div>Sie haben einen jungen Franzosen zu Besuch. Sie möchten, dass er in einen Deutschkurs geht.</div>
+      <div>Sie suchen ein Hotel für Ihren Urlaub, in das Sie Ihren Hund mitnehmen dürfen.</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>19</div>
-      <div>Sie möchten, dass Ihr Sohn in einen Jugendclub geht.</div>
+      <div>Sie möchten mit Ihren Kindern am Wochenende schwimmen gehen (Hallenbad).</div>
     </div>
     
     <div style='display:flex; gap:12px;'>
       <div style='font-weight:bold; min-width:30px;'>20</div>
-      <div>Sie interessieren sich für die Probleme ausländischer Jugendlicher in Deutschland.</div>
+      <div>Sie haben Probleme mit Ihrem Arbeitgeber und suchen juristischen Rat.</div>
     </div>
   </div>
 
-  <!-- ADS a-l (in grey boxes) -->
   <div style='display:flex; flex-direction:column; gap:10px; font-size:0.9rem;'>
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>a</strong> <span style='margin-left:8px;'>Restaurant „Lindengarten" – Sonnenterrasse mit 100 Plätzen. Täglich geöffnet ab 11 Uhr.</span>
+      <strong>a</strong> <span style='margin-left:8px;'>Zweirad-Center: Großer Sommerschlussverkauf! Alle neuen E-Bikes 20% reduziert.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>b</strong> <span style='margin-left:8px;'>Pizza-Express: Wir liefern warme Speisen direkt zu Ihnen nach Hause. Tel: 89 45 23.</span>
+      <strong>b</strong> <span style='margin-left:8px;'>Ferienjobs für Studenten! Industriebetrieb sucht Aushilfen für Produktion im August. Tel: 55-66-77.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>c</strong> <span style='margin-left:8px;'>Sprachschule Müller – Deutschkurse für Ausländer. Intensivkurse, Abendkurse. Info: 77 88 99.</span>
+      <strong>c</strong> <span style='margin-left:8px;'>Konditorei Süß: Wir backen Ihre Wunschtorte für Hochzeiten und Geburtstage. Vorbestellung nötig!</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>d</strong> <span style='margin-left:8px;'>Last-Minute-Reisen weltweit! Bis zu 50% Rabatt. Anrufen und sofort buchen: 123-REISE.</span>
+      <strong>d</strong> <span style='margin-left:8px;'>Verkaufe mein gebrauchtes Herrenrad, 3 Jahre alt, guter Zustand, 80 Euro. Tel: 0171-1234567.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>e</strong> <span style='margin-left:8px;'>USA-Spezial für Studenten: Flug + 2 Wochen Hostel ab 599 Euro. www.studentfly.de</span>
+      <strong>e</strong> <span style='margin-left:8px;'>Tapas-Bar „Barcelona“ – Genießen Sie spanische Weine und Spezialitäten. Täglich ab 18 Uhr.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>f</strong> <span style='margin-left:8px;'>Nachhilfe: Mathe, Physik, Chemie – alle Klassen. Erfahrener Lehrer. Tel: 0179-555-4321.</span>
+      <strong>f</strong> <span style='margin-left:8px;'>Sprachschule Lingua: Spanisch-Intensivkurse. Mo-Fr vormittags. Einstieg jederzeit möglich.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>g</strong> <span style='margin-left:8px;'>Logopädie-Praxis Dr. Weber: Therapie bei Sprach- und Sprechstörungen. Termine: 65 43 21.</span>
+      <strong>g</strong> <span style='margin-left:8px;'>Sanitär-Notdienst 24h: Heizung defekt? Wasser im Keller? Wir kommen sofort, auch sonntags! 0800-111222.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>h</strong> <span style='margin-left:8px;'>Jugendclub „Freiraum" – Offener Treff für Jugendliche 12-18 Jahre. Montag bis Freitag 15-20 Uhr.</span>
+      <strong>h</strong> <span style='margin-left:8px;'>Antiquariat Buchwurm: Wir kaufen Ihre gebrauchten Bücher an! Barzahlung bei Abholung.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>i</strong> <span style='margin-left:8px;'>Vortrag: „Integration ausländischer Jugendlicher" – Do, 19 Uhr, Volkshochschule, Eintritt frei.</span>
+      <strong>i</strong> <span style='margin-left:8px;'>Rechtsanwalt Dr. Krug: Spezialist für Arbeitsrecht. Wir helfen bei Kündigung und Lohnfragen.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>j</strong> <span style='margin-left:8px;'>Asia-Imbiss: Mittagsmenü zum Mitnehmen 5,50 Euro. Mo-Fr 11:30-14 Uhr.</span>
+      <strong>j</strong> <span style='margin-left:8px;'>Tanzschule Rhythmus: Neue Anfängerkurse für Paare (Standard & Latein). Startet nächsten Freitag!</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>k</strong> <span style='margin-left:8px;'>Sommercamps in Kalifornien für Jugendliche 14-17 Jahre. Sport, Surfen, Englisch lernen.</span>
+      <strong>k</strong> <span style='margin-left:8px;'>Hotel „Vier Pfoten“ im Schwarzwald. Herrliche Wanderwege. Haustiere sind bei uns herzlich willkommen.</span>
     </div>
     
     <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
-      <strong>l</strong> <span style='margin-left:8px;'>Ferienwohnungen an der Ostsee – ideal für Familien. Ab 45 Euro/Nacht. www.ostsee-urlaub.de</span>
+      <strong>l</strong> <span style='margin-left:8px;'>Erlebnisbad „Blaue Lagune“: Rutschen, Wellenbad und Sauna. Spaß für die ganze Familie. Täglich 9-22 Uhr.</span>
     </div>
   </div>
 </div>
 `,
         answer: `
 <div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px; border:1px solid #eee;'>
-  <h3>📝 Lösungen - B1 Lesen Set 3</h3>
-  <strong>Teil 1:</strong> 1-i, 2-d, 3-b, 4-f, 5-h<br>
-  <strong>Teil 2:</strong> 6-c, 7-c, 8-b, 9-a, 10-a<br>
-  <strong>Teil 3:</strong> 11-a, 12-j, 13-e, 14-d, 15-e, 16-f, 17-g, 18-c, 19-h, 20-i
+  <h3>📝 Lösungen - B1 Lesen Set 1 (Arbeit & Alltag)</h3>
+  <strong>Teil 1:</strong> 1-h, 2-a, 3-g, 4-b, 5-c<br>
+  <strong>Teil 2:</strong> 6-b, 7-c, 8-a, 9-a, 10-c<br>
+  <strong>Teil 3:</strong> 11-d, 12-x, 13-g, 14-c, 15-b, 16-h, 17-j, 18-k, 19-l, 20-i
+</div>
+`
+    },
+    {
+        id: 405,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Kultur & Freizeit",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
+    <p style='margin:3px 0;'>Sie können jede Überschrift nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      a <span style='margin-left:10px;'>Achtung Autofahrer: Innenstadt am Sonntag gesperrt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      b <span style='margin-left:10px;'>Neue Computer-Kurse für Senioren in der Bibliothek</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      c <span style='margin-left:10px;'>Wandern im Harz: Neue Wege für Touristen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      d <span style='margin-left:10px;'>Bücher jetzt auch online ausleihen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      e <span style='margin-left:10px;'>Museum bietet Führungen in der Nacht an</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      f <span style='margin-left:10px;'>Flohmarkt: Alte Sachen verkaufen und Geld verdienen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      g <span style='margin-left:10px;'>Kostenloses Parken für alle Besucher des Stadtfestes</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      h <span style='margin-left:10px;'>Kino-Erlebnis: Alte Filme neu entdeckt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      i <span style='margin-left:10px;'>Modernste Technik im neuen 3D-Kino</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      j <span style='margin-left:10px;'>Sportverein sucht neue Fußballtrainer</span>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Haben Sie Kleidung, die Sie nicht mehr tragen, oder Bücher, die Sie schon gelesen haben? Werfen Sie diese Dinge nicht weg! Am kommenden Samstag findet auf dem Marktplatz der große Frühjahrsmarkt statt. Jeder kann teilnehmen. Melden Sie sich einfach an und mieten Sie einen kleinen Tisch für nur 5 Euro. So finden Ihre alten Schätze neue Besitzer.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Wegen des jährlichen Stadtmarathons kommt es am Wochenende zu erheblichen Verkehrsbehinderungen. Die Hauptstraße und der Ring sind am Sonntag von 8 bis 16 Uhr für Autos komplett gesperrt. Bitte nutzen Sie die öffentlichen Verkehrsmittel oder die Umleitungen über die Autobahn. Busse und Straßenbahnen fahren nach einem Sonderfahrplan.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Die Stadtbibliothek geht mit der Zeit. Ab sofort müssen Sie nicht mehr persönlich vorbeikommen, um Lesestoff zu holen. Mit Ihrem Bibliotheksausweis können Sie sich auf unserer Webseite einloggen und eBooks, Hörbücher und sogar aktuelle Zeitschriften direkt auf Ihr Tablet oder Ihren eReader herunterladen – rund um die Uhr und völlig kostenlos.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Erleben Sie Filme so realistisch wie nie zuvor! Das „Cine-Maxx“ eröffnet nach langer Renovierung wieder seine Türen. Mit der neuesten Laser-Projektion und einem Soundsystem, das den Boden beben lässt, sind Sie mitten im Geschehen. Zur Eröffnung zeigen wir alle aktuellen Blockbuster in bester digitaler Qualität. Brillen gibt es an der Kasse.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Wer sagt, dass Kultur nur etwas für den Tag ist? Einmal im Jahr öffnen alle Galerien und Ausstellungen ihre Türen bis Mitternacht. Bei der „Langen Nacht der Kunst“ können Sie bei Musik und Getränken durch die Säle spazieren. Es gibt spezielle Taschenlampen-Führungen für Kinder und Live-Musik in der Eingangshalle.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000; letter-spacing:-0.5px;'>
+      Gärtnern mitten in der Stadt
+    </h1>
+    
+    <p style='margin:0 0 25px 0; font-size:0.95rem; font-weight:bold; line-height:1.3;'>
+      Urban Gardening: Warum immer mehr Städter Tomaten auf dem Bürgersteig oder Dächern pflanzen.
+    </p>
+    
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>
+        Zwischen grauen Betonhäusern und lauten Straßen in Berlin-Kreuzberg wächst etwas Grünes. In Kisten, alten Badewannen und Reissäcken blühen Sonnenblumen, und rote Tomaten warten darauf, gepflückt zu werden. Das Projekt heißt „Prinzessinnengarten“ und ist eines der bekanntesten Beispiele für „Urban Gardening“ in Deutschland. Die Idee kommt ursprünglich aus New York, hat aber mittlerweile viele deutsche Großstädte erobert.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        „Viele Menschen in der Stadt haben keinen eigenen Garten“, sagt Lisa (28), die hier regelmäßig mithilft. „Aber sie haben Sehnsucht nach Natur und wollen wissen, wo ihr Essen herkommt.“ Im Gemeinschaftsgarten kann jeder mitmachen. Es gibt keine festen Beete, die einer einzelnen Person gehören. Alles gehört allen. Wer hilft, darf auch ernten. Man muss kein Profi sein; Anfänger lernen von den Erfahrenen, wie man Kartoffeln setzt oder Salat pflegt.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        Doch es geht nicht nur um das Gemüse. „Das Gärtnern ist eigentlich nur ein Mittel zum Zweck“, erklärt Robert, einer der Gründer. „Wichtiger ist das Soziale. Hier treffen sich Studenten, Rentner und Familien aus verschiedenen Kulturen. Man arbeitet zusammen an der frischen Luft und kommt ins Gespräch.“ Oft gibt es am Wochenende ein gemeinsames Essen, bei dem das geerntete Gemüse direkt gekocht wird.
+      </p>
+      
+      <p style='margin-bottom:0;'>
+        Ein Problem haben diese Gärten jedoch oft: Die Flächen sind meistens nur gepachtet und gehören der Stadt oder privaten Investoren. Wenn dort ein neues Haus gebaut werden soll, müssen die Gärtner umziehen. Deshalb sind im Prinzessinnengarten alle Pflanzen in mobilen Kisten. „Wir sind bereit, jederzeit weiterzuziehen“, sagt Lisa. „Aber wir hoffen natürlich, dass wir noch lange hierbleiben können.“
+      </p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>6</span>Das „Urban Gardening“ ist eine Idee,
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>die in Berlin erfunden wurde.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>die aus den USA stammt und in Deutschland beliebt ist.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>die nur auf Dächern von Hochhäusern funktioniert.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>7</span>Wer darf im Gemeinschaftsgarten ernten?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Nur Leute, die einen monatlichen Beitrag zahlen.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Alle, die bei der Arbeit im Garten helfen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Nur professionelle Gärtner.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>8</span>Für Robert, einen der Gründer, ist das Wichtigste, dass
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>man viel Geld mit dem Gemüse spart.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>die Menschen Kontakt zueinander finden.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>man die seltensten Pflanzen züchtet.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>9</span>Was passiert mit dem Gemüse oft am Wochenende?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Es wird auf dem Markt verkauft.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Es wird gemeinsam gekocht und gegessen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Jeder nimmt seinen Teil mit nach Hause.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>10</span>Warum pflanzen die Gärtner alles in mobile Kisten?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Weil der Boden in der Stadt giftig ist.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Weil sie die Pflanzen im Winter in die Wohnung holen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Weil sie den Platz vielleicht verlassen müssen.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:25px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.</p>
+    <p style='margin:3px 0;'>Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.</p>
+  </div>
+
+  <div style='margin-bottom:30px; display:flex; flex-direction:column; gap:18px; font-size:0.95rem;'>
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>11</div>
+      <div>Sie möchten am Sonntag frische Brötchen kaufen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>12</div>
+      <div>Sie suchen eine Firma, die Ihren Umzug organisiert und durchführt.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>13</div>
+      <div>Ihre Waschmaschine ist kaputt und Sie suchen jemanden, der sie repariert.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>14</div>
+      <div>Sie möchten Klavier spielen lernen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>15</div>
+      <div>Sie suchen ein günstiges Sofa für Ihr Wohnzimmer.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>16</div>
+      <div>Sie brauchen Hilfe bei der Gartenarbeit (Rasen mähen, Bäume schneiden).</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>17</div>
+      <div>Sie möchten Ihre alten Möbel verkaufen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>18</div>
+      <div>Sie suchen ein Hotelzimmer für sich und Ihre Katze.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>19</div>
+      <div>Sie wollen abends ausgehen und Live-Jazz hören.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>20</div>
+      <div>Sie möchten einen Gebrauchtwagen kaufen.</div>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.9rem;'>
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>a</strong> <span style='margin-left:8px;'>Möbelhaus XXL: Riesige Auswahl an neuen Designermöbeln. Lieferung sofort möglich!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>b</strong> <span style='margin-left:8px;'>Bäckerei Schmidt: Wir haben auch sonntags von 8 bis 11 Uhr für Sie geöffnet. Frische Croissants!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>c</strong> <span style='margin-left:8px;'>Elektro-Service Mayer: Wir reparieren Haushaltsgeräte aller Marken. Schnell und günstig.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>d</strong> <span style='margin-left:8px;'>Musikschule Harmonie: Unterricht für Geige, Flöte und Piano. Probestunde gratis!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>e</strong> <span style='margin-left:8px;'>Pension „Waldesruh“: Ruhige Zimmer, direkt am See. Leider keine Haustiere erlaubt.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>f</strong> <span style='margin-left:8px;'>Garten-Profi: Wir gestalten Ihren Traumgarten. Planung, Bau und Pflege. Tel: 44-55-66.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>g</strong> <span style='margin-left:8px;'>Second-Hand-Basar: Gebrauchte Möbel, Kleidung und Geschirr zu kleinen Preisen. Wir kaufen nichts an!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>h</strong> <span style='margin-left:8px;'>Spedition „Ruck-Zuck“: Stressfrei ins neue Heim. Wir packen, tragen und fahren für Sie.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>i</strong> <span style='margin-left:8px;'>Jazz-Club „Blue Note“: Jeden Freitag und Samstag internationale Bands live auf der Bühne. Bar ab 20 Uhr.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>j</strong> <span style='margin-left:8px;'>Autohaus König: Die neuesten Modelle von VW und Audi. Jetzt Probefahrt vereinbaren!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>k</strong> <span style='margin-left:8px;'>Hotel „City-Blick“: Zentrale Lage, Frühstück inklusive. Hunde und Katzen willkommen.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>l</strong> <span style='margin-left:8px;'>Privater Klavierlehrer sucht Schüler. Unterricht bei Ihnen zu Hause. Tel: 0176-998877.</span>
+    </div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px; border:1px solid #eee;'>
+  <h3>📝 Lösungen - B1 Lesen Set 2 (Kultur & Freizeit)</h3>
+  <strong>Teil 1:</strong> 1-f, 2-a, 3-d, 4-i, 5-e<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-c<br>
+  <strong>Teil 3:</strong> 11-b, 12-h, 13-c, 14-d (oder l), 15-g, 16-f, 17-x, 18-k, 19-i, 20-x
+</div>
+`
+    },
+    {
+        id: 404,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Arbeitswelt & Alltag",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
+    <p style='margin:3px 0;'>Sie können jede Überschrift nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      a <span style='margin-left:10px;'>Gesundes Essen jetzt auch in der Betriebskantine</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      b <span style='margin-left:10px;'>Jobmesse: Studenten treffen auf Firmen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      c <span style='margin-left:10px;'>Neue Regeln für die Arbeit im Home-Office</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      d <span style='margin-left:10px;'>Endlich rauchfrei: So schaffen Sie es</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      e <span style='margin-left:10px;'>Teure Mieten in der Innenstadt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      f <span style='margin-left:10px;'>Englisch lernen für den nächsten Urlaub</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      g <span style='margin-left:10px;'>Weniger Stress durch Yoga am Arbeitsplatz</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      h <span style='margin-left:10px;'>Business-Englisch: Kurse für Fortgeschrittene</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      i <span style='margin-left:10px;'>Günstige Wohnungen für Studenten gesucht</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      j <span style='margin-left:10px;'>Kostenloses Obst für alle Mitarbeiter</span>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Internationale Kommunikation ist heute wichtiger denn je. Viele Firmen erwarten, dass ihre Mitarbeiter verhandlungssicher kommunizieren können. Unser Institut bietet spezielle Abendkurse an, die sich auf Wortschatz für Meetings, E-Mails und Telefonate konzentrieren. Voraussetzung ist das Niveau B1. Melden Sie sich jetzt an und verbessern Sie Ihre Karrierechancen!
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Ab nächster Woche ändern sich die Angebote in unserem Pausenraum. Auf Wunsch vieler Kollegen verzichten wir auf fette Speisen wie Pommes und bieten stattdessen frische Salate, vegetarische Gerichte und leichte Suppen an. Damit wollen wir die Gesundheit und Fitness unserer Belegschaft fördern. Probieren Sie es aus!
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Fühlen Sie sich bei der Arbeit oft überfordert? Haben Sie Rückenschmerzen vom vielen Sitzen? Unser neuer Kurs „Entspannung im Büro“ zeigt Ihnen einfache Übungen, die Sie direkt am Schreibtisch machen können. Außerdem lernen Sie Atemtechniken, um in stressigen Situationen ruhig zu bleiben. Der Kurs ist für alle Mitarbeiter kostenlos.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Am kommenden Samstag öffnet die Universität ihre Türen für die jährliche "Karriere-Börse". Über 50 Unternehmen aus der Region stellen sich vor und suchen nach jungen Talenten für Praktika oder den Berufseinstieg nach dem Studium. Bringen Sie Ihre Bewerbungsunterlagen gleich mit!
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Viele Arbeitnehmer möchten gerne einen oder zwei Tage pro Woche nicht ins Büro kommen. Die Geschäftsleitung hat nun entschieden: Wer möchte, darf mittwochs und freitags von der eigenen Wohnung aus arbeiten, sofern die technischen Voraussetzungen stimmen und der Vorgesetzte zustimmt.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000; letter-spacing:-0.5px;'>
+      Wohnen im Mehrgenerationenhaus
+    </h1>
+    
+    <p style='margin:0 0 25px 0; font-size:0.95rem; font-weight:bold; line-height:1.3;'>
+      Nicht mehr einsam: In Köln leben Studenten, Familien und Rentner unter einem Dach. Ein Modell mit Zukunft?
+    </p>
+    
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>
+        Renate Müller (72) sitzt in der großen Gemeinschaftsküche und schneidet Äpfel. Neben ihr sitzt der fünfjährige Lukas und nascht die Apfelstücke. Lukas ist nicht ihr Enkel, sondern der Nachbarsjunge aus dem ersten Stock. Renate Müller lebt seit zwei Jahren im „Wohnprojekt Miteinander“ in Köln. Früher lebte sie allein in einer großen Wohnung, aber nach dem Tod ihres Mannes fühlte sie sich oft einsam. Ihre eigenen Kinder wohnen weit weg in Hamburg und München.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        Das Konzept des Hauses ist einfach: Jung und Alt wohnen zusammen und helfen sich gegenseitig. Insgesamt gibt es 20 Wohnungen. Hier leben Rentner, junge Familien mit Kindern und sogar eine Wohngemeinschaft von Studenten. Jeder hat seine eigene private Wohnung mit Bad und kleiner Küche, aber es gibt auch Gemeinschaftsräume, die alle nutzen können. Dazu gehören die große Küche im Erdgeschoss, ein Spielzimmer für die Kinder und ein gepflegter Garten.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        „Es ist ein Geben und Nehmen“, erklärt Thomas (34), der Vater von Lukas. „Wenn meine Frau und ich abends mal ins Kino wollen, passt Frau Müller auf Lukas auf. Dafür helfe ich ihr, wenn mal eine Lampe kaputt ist oder sie schwere Einkaufstaschen hat.“ Auch die Studenten profitieren: Sie zahlen etwas weniger Miete, müssen dafür aber 10 Stunden im Monat für die Gemeinschaft arbeiten, zum Beispiel im Garten oder beim Reinigen des Treppenhauses.
+      </p>
+      
+      <p style='margin-bottom:0;'>
+        Natürlich ist nicht immer alles harmonisch. „Am Anfang gab es Streit wegen der Lautstärke“, gibt Renate Müller zu. „Die Studenten haben manchmal bis spät in die Nacht Musik gehört. Aber wir haben darüber gesprochen und Regeln aufgestellt.“ Einmal im Monat gibt es eine Versammlung, bei der Probleme besprochen werden. Trotz kleiner Konflikte möchte niemand mehr ausziehen. Für Renate Müller ist klar: „Hier bleibe ich. Ich werde gebraucht und habe immer Gesellschaft.“
+      </p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>6</span>Renate Müller wohnt in dem Haus, weil
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>sie näher bei ihren Kindern sein wollte.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>sie sich in ihrer alten Wohnung allein fühlte.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>sie ihre große Wohnung nicht mehr bezahlen konnte.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>7</span>In dem Wohnprojekt
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>teilen sich alle Bewohner ein großes Badezimmer.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>gibt es keine privaten Räume, nur Gemeinschaftsräume.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>hat jeder Bewohner einen privaten Bereich.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>8</span>Thomas hilft seiner Nachbarin Renate, indem er
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Reparaturen macht oder Einkäufe trägt.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>auf ihren Enkel Lukas aufpasst.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>ihre Miete bezahlt.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>9</span>Die Studenten im Haus
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>müssen für die Gemeinschaft arbeiten.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>dürfen den Garten nicht benutzen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>zahlen mehr Miete als die anderen.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>10</span>Zu Beginn gab es Probleme, weil
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>die Küche zu klein war.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Renate Müller ausziehen wollte.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>es im Haus manchmal zu laut war.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:25px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.</p>
+    <p style='margin:3px 0;'>Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.</p>
+  </div>
+
+  <div style='margin-bottom:30px; display:flex; flex-direction:column; gap:18px; font-size:0.95rem;'>
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>11</div>
+      <div>Sie suchen ein günstiges Fahrrad für den Weg zur Arbeit. Es muss nicht neu sein.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>12</div>
+      <div>Sie möchten Spanisch lernen, können aber nur am Wochenende Unterricht nehmen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>13</div>
+      <div>In Ihrer Wohnung ist am Sonntag ein Wasserrohr gebrochen. Sie brauchen sofort Hilfe.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>14</div>
+      <div>Sie möchten für den Geburtstag Ihres Sohnes eine besondere Torte bestellen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>15</div>
+      <div>Sie sind Student und suchen einen Job für die Semesterferien, um Geld zu verdienen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>16</div>
+      <div>Sie ziehen um und möchten Ihre alten Romane und Sachbücher verkaufen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>17</div>
+      <div>Sie und Ihr Partner möchten gemeinsam Tanzen lernen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>18</div>
+      <div>Sie suchen ein Hotel für Ihren Urlaub, in das Sie Ihren Hund mitnehmen dürfen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>19</div>
+      <div>Sie möchten mit Ihren Kindern am Wochenende schwimmen gehen (Hallenbad).</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>20</div>
+      <div>Sie haben Probleme mit Ihrem Arbeitgeber und suchen juristischen Rat.</div>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.9rem;'>
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>a</strong> <span style='margin-left:8px;'>Zweirad-Center: Großer Sommerschlussverkauf! Alle neuen E-Bikes 20% reduziert.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>b</strong> <span style='margin-left:8px;'>Ferienjobs für Studenten! Industriebetrieb sucht Aushilfen für Produktion im August. Tel: 55-66-77.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>c</strong> <span style='margin-left:8px;'>Konditorei Süß: Wir backen Ihre Wunschtorte für Hochzeiten und Geburtstage. Vorbestellung nötig!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>d</strong> <span style='margin-left:8px;'>Verkaufe mein gebrauchtes Herrenrad, 3 Jahre alt, guter Zustand, 80 Euro. Tel: 0171-1234567.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>e</strong> <span style='margin-left:8px;'>Tapas-Bar „Barcelona“ – Genießen Sie spanische Weine und Spezialitäten. Täglich ab 18 Uhr.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>f</strong> <span style='margin-left:8px;'>Sprachschule Lingua: Spanisch-Intensivkurse. Mo-Fr vormittags. Einstieg jederzeit möglich.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>g</strong> <span style='margin-left:8px;'>Sanitär-Notdienst 24h: Heizung defekt? Wasser im Keller? Wir kommen sofort, auch sonntags! 0800-111222.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>h</strong> <span style='margin-left:8px;'>Antiquariat Buchwurm: Wir kaufen Ihre gebrauchten Bücher an! Barzahlung bei Abholung.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>i</strong> <span style='margin-left:8px;'>Rechtsanwalt Dr. Krug: Spezialist für Arbeitsrecht. Wir helfen bei Kündigung und Lohnfragen.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>j</strong> <span style='margin-left:8px;'>Tanzschule Rhythmus: Neue Anfängerkurse für Paare (Standard & Latein). Startet nächsten Freitag!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>k</strong> <span style='margin-left:8px;'>Hotel „Vier Pfoten“ im Schwarzwald. Herrliche Wanderwege. Haustiere sind bei uns herzlich willkommen.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>l</strong> <span style='margin-left:8px;'>Erlebnisbad „Blaue Lagune“: Rutschen, Wellenbad und Sauna. Spaß für die ganze Familie. Täglich 9-22 Uhr.</span>
+    </div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px; border:1px solid #eee;'>
+  <h3>📝 Lösungen - B1 Lesen Set 1 (Arbeit & Alltag)</h3>
+  <strong>Teil 1:</strong> 1-h, 2-a, 3-g, 4-b, 5-c<br>
+  <strong>Teil 2:</strong> 6-b, 7-c, 8-a, 9-a, 10-c<br>
+  <strong>Teil 3:</strong> 11-d, 12-x, 13-g, 14-c, 15-b, 16-h, 17-j, 18-k, 19-l, 20-i
+</div>
+`
+    },
+    {
+        id: 405,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Kultur & Freizeit",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
+    <p style='margin:3px 0;'>Sie können jede Überschrift nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      a <span style='margin-left:10px;'>Achtung Autofahrer: Innenstadt am Sonntag gesperrt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      b <span style='margin-left:10px;'>Neue Computer-Kurse für Senioren in der Bibliothek</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      c <span style='margin-left:10px;'>Wandern im Harz: Neue Wege für Touristen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      d <span style='margin-left:10px;'>Bücher jetzt auch online ausleihen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      e <span style='margin-left:10px;'>Museum bietet Führungen in der Nacht an</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      f <span style='margin-left:10px;'>Flohmarkt: Alte Sachen verkaufen und Geld verdienen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      g <span style='margin-left:10px;'>Kostenloses Parken für alle Besucher des Stadtfestes</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      h <span style='margin-left:10px;'>Kino-Erlebnis: Alte Filme neu entdeckt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      i <span style='margin-left:10px;'>Modernste Technik im neuen 3D-Kino</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      j <span style='margin-left:10px;'>Sportverein sucht neue Fußballtrainer</span>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Haben Sie Kleidung, die Sie nicht mehr tragen, oder Bücher, die Sie schon gelesen haben? Werfen Sie diese Dinge nicht weg! Am kommenden Samstag findet auf dem Marktplatz der große Frühjahrsmarkt statt. Jeder kann teilnehmen. Melden Sie sich einfach an und mieten Sie einen kleinen Tisch für nur 5 Euro. So finden Ihre alten Schätze neue Besitzer.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Wegen des jährlichen Stadtmarathons kommt es am Wochenende zu erheblichen Verkehrsbehinderungen. Die Hauptstraße und der Ring sind am Sonntag von 8 bis 16 Uhr für Autos komplett gesperrt. Bitte nutzen Sie die öffentlichen Verkehrsmittel oder die Umleitungen über die Autobahn. Busse und Straßenbahnen fahren nach einem Sonderfahrplan.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Die Stadtbibliothek geht mit der Zeit. Ab sofort müssen Sie nicht mehr persönlich vorbeikommen, um Lesestoff zu holen. Mit Ihrem Bibliotheksausweis können Sie sich auf unserer Webseite einloggen und eBooks, Hörbücher und sogar aktuelle Zeitschriften direkt auf Ihr Tablet oder Ihren eReader herunterladen – rund um die Uhr und völlig kostenlos.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Erleben Sie Filme so realistisch wie nie zuvor! Das „Cine-Maxx“ eröffnet nach langer Renovierung wieder seine Türen. Mit der neuesten Laser-Projektion und einem Soundsystem, das den Boden beben lässt, sind Sie mitten im Geschehen. Zur Eröffnung zeigen wir alle aktuellen Blockbuster in bester digitaler Qualität. Brillen gibt es an der Kasse.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Wer sagt, dass Kultur nur etwas für den Tag ist? Einmal im Jahr öffnen alle Galerien und Ausstellungen ihre Türen bis Mitternacht. Bei der „Langen Nacht der Kunst“ können Sie bei Musik und Getränken durch die Säle spazieren. Es gibt spezielle Taschenlampen-Führungen für Kinder und Live-Musik in der Eingangshalle.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000; letter-spacing:-0.5px;'>
+      Gärtnern mitten in der Stadt
+    </h1>
+    
+    <p style='margin:0 0 25px 0; font-size:0.95rem; font-weight:bold; line-height:1.3;'>
+      Urban Gardening: Warum immer mehr Städter Tomaten auf dem Bürgersteig oder Dächern pflanzen.
+    </p>
+    
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>
+        Zwischen grauen Betonhäusern und lauten Straßen in Berlin-Kreuzberg wächst etwas Grünes. In Kisten, alten Badewannen und Reissäcken blühen Sonnenblumen, und rote Tomaten warten darauf, gepflückt zu werden. Das Projekt heißt „Prinzessinnengarten“ und ist eines der bekanntesten Beispiele für „Urban Gardening“ in Deutschland. Die Idee kommt ursprünglich aus New York, hat aber mittlerweile viele deutsche Großstädte erobert.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        „Viele Menschen in der Stadt haben keinen eigenen Garten“, sagt Lisa (28), die hier regelmäßig mithilft. „Aber sie haben Sehnsucht nach Natur und wollen wissen, wo ihr Essen herkommt.“ Im Gemeinschaftsgarten kann jeder mitmachen. Es gibt keine festen Beete, die einer einzelnen Person gehören. Alles gehört allen. Wer hilft, darf auch ernten. Man muss kein Profi sein; Anfänger lernen von den Erfahrenen, wie man Kartoffeln setzt oder Salat pflegt.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        Doch es geht nicht nur um das Gemüse. „Das Gärtnern ist eigentlich nur ein Mittel zum Zweck“, erklärt Robert, einer der Gründer. „Wichtiger ist das Soziale. Hier treffen sich Studenten, Rentner und Familien aus verschiedenen Kulturen. Man arbeitet zusammen an der frischen Luft und kommt ins Gespräch.“ Oft gibt es am Wochenende ein gemeinsames Essen, bei dem das geerntete Gemüse direkt gekocht wird.
+      </p>
+      
+      <p style='margin-bottom:0;'>
+        Ein Problem haben diese Gärten jedoch oft: Die Flächen sind meistens nur gepachtet und gehören der Stadt oder privaten Investoren. Wenn dort ein neues Haus gebaut werden soll, müssen die Gärtner umziehen. Deshalb sind im Prinzessinnengarten alle Pflanzen in mobilen Kisten. „Wir sind bereit, jederzeit weiterzuziehen“, sagt Lisa. „Aber wir hoffen natürlich, dass wir noch lange hierbleiben können.“
+      </p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>6</span>Das „Urban Gardening“ ist eine Idee,
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>die in Berlin erfunden wurde.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>die aus den USA stammt und in Deutschland beliebt ist.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>die nur auf Dächern von Hochhäusern funktioniert.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>7</span>Wer darf im Gemeinschaftsgarten ernten?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Nur Leute, die einen monatlichen Beitrag zahlen.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Alle, die bei der Arbeit im Garten helfen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Nur professionelle Gärtner.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>8</span>Für Robert, einen der Gründer, ist das Wichtigste, dass
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>man viel Geld mit dem Gemüse spart.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>die Menschen Kontakt zueinander finden.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>man die seltensten Pflanzen züchtet.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>9</span>Was passiert mit dem Gemüse oft am Wochenende?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Es wird auf dem Markt verkauft.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Es wird gemeinsam gekocht und gegessen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Jeder nimmt seinen Teil mit nach Hause.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>10</span>Warum pflanzen die Gärtner alles in mobile Kisten?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Weil der Boden in der Stadt giftig ist.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Weil sie die Pflanzen im Winter in die Wohnung holen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Weil sie den Platz vielleicht verlassen müssen.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:25px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.</p>
+    <p style='margin:3px 0;'>Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.</p>
+  </div>
+
+  <div style='margin-bottom:30px; display:flex; flex-direction:column; gap:18px; font-size:0.95rem;'>
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>11</div>
+      <div>Sie möchten am Sonntag frische Brötchen kaufen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>12</div>
+      <div>Sie suchen eine Firma, die Ihren Umzug organisiert und durchführt.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>13</div>
+      <div>Ihre Waschmaschine ist kaputt und Sie suchen jemanden, der sie repariert.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>14</div>
+      <div>Sie möchten Klavier spielen lernen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>15</div>
+      <div>Sie suchen ein günstiges Sofa für Ihr Wohnzimmer.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>16</div>
+      <div>Sie brauchen Hilfe bei der Gartenarbeit (Rasen mähen, Bäume schneiden).</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>17</div>
+      <div>Sie möchten Ihre alten Möbel verkaufen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>18</div>
+      <div>Sie suchen ein Hotelzimmer für sich und Ihre Katze.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>19</div>
+      <div>Sie wollen abends ausgehen und Live-Jazz hören.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>20</div>
+      <div>Sie möchten einen Gebrauchtwagen kaufen.</div>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.9rem;'>
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>a</strong> <span style='margin-left:8px;'>Möbelhaus XXL: Riesige Auswahl an neuen Designermöbeln. Lieferung sofort möglich!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>b</strong> <span style='margin-left:8px;'>Bäckerei Schmidt: Wir haben auch sonntags von 8 bis 11 Uhr für Sie geöffnet. Frische Croissants!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>c</strong> <span style='margin-left:8px;'>Elektro-Service Mayer: Wir reparieren Haushaltsgeräte aller Marken. Schnell und günstig.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>d</strong> <span style='margin-left:8px;'>Musikschule Harmonie: Unterricht für Geige, Flöte und Piano. Probestunde gratis!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>e</strong> <span style='margin-left:8px;'>Pension „Waldesruh“: Ruhige Zimmer, direkt am See. Leider keine Haustiere erlaubt.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>f</strong> <span style='margin-left:8px;'>Garten-Profi: Wir gestalten Ihren Traumgarten. Planung, Bau und Pflege. Tel: 44-55-66.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>g</strong> <span style='margin-left:8px;'>Second-Hand-Basar: Gebrauchte Möbel, Kleidung und Geschirr zu kleinen Preisen. Wir kaufen nichts an!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>h</strong> <span style='margin-left:8px;'>Spedition „Ruck-Zuck“: Stressfrei ins neue Heim. Wir packen, tragen und fahren für Sie.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>i</strong> <span style='margin-left:8px;'>Jazz-Club „Blue Note“: Jeden Freitag und Samstag internationale Bands live auf der Bühne. Bar ab 20 Uhr.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>j</strong> <span style='margin-left:8px;'>Autohaus König: Die neuesten Modelle von VW und Audi. Jetzt Probefahrt vereinbaren!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>k</strong> <span style='margin-left:8px;'>Hotel „City-Blick“: Zentrale Lage, Frühstück inklusive. Hunde und Katzen willkommen.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>l</strong> <span style='margin-left:8px;'>Privater Klavierlehrer sucht Schüler. Unterricht bei Ihnen zu Hause. Tel: 0176-998877.</span>
+    </div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px; border:1px solid #eee;'>
+  <h3>📝 Lösungen - B1 Lesen Set 2 (Kultur & Freizeit)</h3>
+  <strong>Teil 1:</strong> 1-f, 2-a, 3-d, 4-i, 5-e<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-c<br>
+  <strong>Teil 3:</strong> 11-b, 12-h, 13-c, 14-d (oder l), 15-g, 16-f, 17-x, 18-k, 19-i, 20-x
+</div>
+`
+    },
+    {
+        id: 406,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Gesundheit & Umwelt",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
+    <p style='margin:3px 0;'>Sie können jede Überschrift nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 1–5 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      a <span style='margin-left:10px;'>Vorsicht im Winter: Grippewelle hat begonnen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      b <span style='margin-left:10px;'>Neues Gesetz: Supermärkte verbieten Plastiktüten</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      c <span style='margin-left:10px;'>Wandern im Wald ist gut für das Herz</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      d <span style='margin-left:10px;'>Aktionswoche: Kostenloser Sehtest beim Optiker</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      e <span style='margin-left:10px;'>Schneechaos sorgt für Staus auf den Autobahnen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      f <span style='margin-left:10px;'>Kochkurs für Kinder: Gesundes Essen, das schmeckt</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>
+      g <span style='margin-left:10px;'>Apotheken bieten kostenlose Blutdruckmessung an</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      h <span style='margin-left:10px;'>Neue Tabletten gegen Kopfschmerzen</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>
+      i <span style='margin-left:10px;'>Sport im Winter: Tipps für Jogger bei Kälte</span>
+    </div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>
+      j <span style='margin-left:10px;'>Eröffnung des neuen Bio-Supermarktes in der Innenstadt</span>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Viele Eltern kennen das Problem: Die Kinder wollen nur Nudeln oder Pizza essen, Gemüse bleibt oft liegen. Die Volkshochschule bietet deshalb am Samstag einen speziellen Workshop an. Hier lernen Jungen und Mädchen zwischen 8 und 12 Jahren, wie man aus frischen Zutaten leckere Gerichte zaubert, die gesund sind und trotzdem Spaß machen.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Um die Umwelt zu schützen, tritt ab dem 1. Januar eine neue Regelung in Kraft. Kunden bekommen an der Kasse keine Einweg-Tragetaschen aus Kunststoff mehr, auch nicht gegen Bezahlung. Bitte denken Sie daran, beim Einkaufen eigene Körbe oder Stoffbeutel mitzubringen, um unnötigen Müll zu vermeiden.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Draußen ist es dunkel und kalt, aber das ist kein Grund, auf das Laufen zu verzichten. Wer auch bei Minusgraden trainieren will, sollte jedoch auf die richtige Kleidung achten und nicht zu schnell starten. Wichtig ist auch, durch die Nase zu atmen, damit die kalte Luft nicht direkt in die Lungen kommt.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Das Gesundheitsamt meldet für diesen Monat ungewöhnlich viele Krankheitsfälle. Besonders betroffen sind Schulen und Kindergärten. Ärzte raten dazu, sich regelmäßig die Hände zu waschen und große Menschenmengen zu meiden. Wer sich schwach fühlt oder Fieber hat, sollte unbedingt zu Hause bleiben, um andere nicht anzustecken.
+      </div>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>
+        Wissen Sie, ob Ihre Werte im grünen Bereich sind? Bluthochdruck tut nicht weh, kann aber gefährlich werden. In der „Adler-Apotheke“ können Sie diese Woche ohne Termin vorbeikommen. Unsere Mitarbeiter überprüfen Ihre Werte innerhalb weniger Minuten und geben Ihnen wichtige Tipps für Ihre Gesundheit – völlig kostenfrei.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie den Text und die Aufgaben 6–10. Welche Lösung (a, b oder c) ist jeweils richtig?</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 6–10 auf dem Antwortbogen.</p>
+  </div>
+
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000; letter-spacing:-0.5px;'>
+      Das Repair-Café: Reparieren statt Wegwerfen
+    </h1>
+    
+    <p style='margin:0 0 25px 0; font-size:0.95rem; font-weight:bold; line-height:1.3;'>
+      Der Toaster ist kaputt, das Fahrrad hat einen Platten? Im Bürgerhaus treffen sich Nachbarn, um defekten Gegenständen ein zweites Leben zu schenken.
+    </p>
+    
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>
+        Es ist Samstagvormittag im Bürgerhaus West. An einem großen Tisch sitzt Manfred (65) und schraubt an einer alten Kaffeemaschine. Ihm gegenüber sitzt Frau Bergmann, die Besitzerin der Maschine, und schaut gespannt zu. „Früher hätte man das Gerät einfach weggeworfen und ein neues gekauft“, sagt Manfred. „Aber oft ist nur eine Kleinigkeit kaputt, zum Beispiel ein Kabel oder eine Dichtung.“ Manfred ist einer von zehn ehrenamtlichen Experten, die im „Repair-Café“ ihre Hilfe anbieten.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        Das Konzept ist einfach: Besucher bringen ihre defekten Gegenstände von zu Hause mit – egal ob Kleidung, Möbel, elektrische Geräte oder Spielzeug. Werkzeug und Material sind vorhanden. Wichtig ist: Man gibt die kaputten Sachen nicht einfach an der Tür ab. Die Idee ist, dass man gemeinsam repariert. Die Experten zeigen den Besuchern, wie es geht, damit sie es beim nächsten Mal vielleicht selbst können.
+      </p>
+      
+      <p style='margin-bottom:12px;'>
+        Für die Reparatur muss man nichts bezahlen. Wer möchte, kann eine Spende in die Kaffeekasse werfen. Davon werden neues Werkzeug und natürlich Kaffee und Kuchen gekauft. Denn der Name „Café“ ist Programm: Wer warten muss, bis er an der Reihe ist, kann bei einer Tasse Kaffee mit den Nachbarn plaudern. „Es geht nicht nur um Technik“, erklärt die Organisatorin Sarah. „Es ist auch ein sozialer Treffpunkt gegen die Einsamkeit.“
+      </p>
+      
+      <p style='margin-bottom:0;'>
+        Das Repair-Café findet jeden zweiten Samstag im Monat von 14 bis 17 Uhr statt. Eine Anmeldung ist nicht nötig, aber man sollte etwas Geduld mitbringen. Und eine Garantie, dass die Reparatur gelingt, gibt es natürlich nicht. Aber Manfred lacht: „In 70 Prozent der Fälle kriegen wir das wieder hin!“
+      </p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>6</span>Manfred, der im Repair-Café arbeitet,
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>verdient mit den Reparaturen viel Geld.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>hilft freiwillig und ohne Bezahlung.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>verkauft dort neue Kaffeemaschinen.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>7</span>Wie funktioniert das Repair-Café?
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>Man gibt die kaputten Sachen ab und holt sie später wieder ab.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>Die Experten reparieren die Dinge gemeinsam mit den Besitzern.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>Man muss sein eigenes Werkzeug mitbringen.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>8</span>Die Reparaturen kosten
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>nichts, aber Spenden sind willkommen.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>immer 10 Euro pro Gerät.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>nur etwas, wenn die Reparatur erfolgreich war.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>9</span>Neben den Reparaturen ist auch wichtig, dass
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>die Leute Kaffee und Kuchen verkaufen.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>die Menschen miteinander ins Gespräch kommen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>man alte Möbel kaufen kann.</span></div>
+      </div>
+    </div>
+    
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>
+        <span style='margin-right:10px;'>10</span>Wer das Repair-Café besuchen möchte,
+      </p>
+      <div style='margin-left:25px; display:flex; flex-direction:column; gap:5px;'>
+        <div><strong>a</strong> <span style='margin-left:8px;'>muss sich vorher telefonisch anmelden.</span></div>
+        <div><strong>b</strong> <span style='margin-left:8px;'>kann einfach am Samstagnachmittag vorbeikommen.</span></div>
+        <div><strong>c</strong> <span style='margin-left:8px;'>erhält auf jeden Fall eine Garantie.</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:25px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Situationen 11–20 und die Anzeigen a–l. Finden Sie für jede Situation die passende Anzeige. Sie können jede Anzeige nur einmal benutzen.</p>
+    <p style='margin:3px 0;'>Markieren Sie Ihre Lösungen für die Aufgaben 11–20 auf dem Antwortbogen.</p>
+    <p style='margin:3px 0;'>Wenn Sie zu einer Situation keine Anzeige finden, markieren Sie ein x.</p>
+  </div>
+
+  <div style='margin-bottom:30px; display:flex; flex-direction:column; gap:18px; font-size:0.95rem;'>
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>11</div>
+      <div>Sie sind umgezogen und suchen jemanden, der Ihre Wohnung reinigt.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>12</div>
+      <div>Sie möchten mit dem Rauchen aufhören und suchen Hilfe.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>13</div>
+      <div>Es ist Sonntagabend und Sie haben starke Zahnschmerzen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>14</div>
+      <div>Sie möchten Bio-Gemüse kaufen, das direkt vom Bauernhof kommt.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>15</div>
+      <div>Sie wollen fit werden, haben aber nur sehr wenig Geld (Student).</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>16</div>
+      <div>Sie möchten einen großen Transporter mieten, um Möbel zu transportieren.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>17</div>
+      <div>Sie brauchen eine neue Brille und möchten nicht viel bezahlen.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>18</div>
+      <div>Sie möchten schwimmen lernen (als Erwachsener).</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>19</div>
+      <div>Sie suchen ein Geschenk für Ihr 5-jähriges Kind.</div>
+    </div>
+    
+    <div style='display:flex; gap:12px;'>
+      <div style='font-weight:bold; min-width:30px;'>20</div>
+      <div>Sie möchten einen Hund aus dem Tierheim adoptieren.</div>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.9rem;'>
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>a</strong> <span style='margin-left:8px;'>Zahnarzt-Notdienst: Wir sind am Wochenende und an Feiertagen rund um die Uhr für Sie da. Tel: 112-223.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>b</strong> <span style='margin-left:8px;'>Bio-Hof Müller: Frische Abo-Kiste mit Obst und Gemüse direkt vor Ihre Haustür. Infos: www.bio-kiste.de</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>c</strong> <span style='margin-left:8px;'>Fitness-Studio „Body & Soul“: Luxus-Wellness, Sauna und Personal Trainer. Monatlich ab 89 Euro.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>d</strong> <span style='margin-left:8px;'>Optiker Klarblick: Großer Ausverkauf! 50% Rabatt auf alle Brillengestelle bis Ende des Monats.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>e</strong> <span style='margin-left:8px;'>Schwimmschule „Flipper“: Wassergewöhnung und Schwimmkurse für Kleinkinder ab 4 Jahren.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>f</strong> <span style='margin-left:8px;'>Autovermietung Schnell: PKW und LKWs für Umzüge. Günstige Wochenend-Tarife!</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>g</strong> <span style='margin-left:8px;'>Gesundheits-Seminar: „Endlich Nichtraucher“. Neuer Kurs beginnt am Montag in der VHS.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>h</strong> <span style='margin-left:8px;'>Putz-Teufel GmbH: Wir reinigen Büros, Treppenhäuser und Praxisräume. (Keine Privathaushalte).</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>i</strong> <span style='margin-left:8px;'>Spielzeug-Paradies: Große Auswahl an Lego, Puppen und Holzspielzeug.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>j</strong> <span style='margin-left:8px;'>Tierheim Sonnenschein: Tag der offenen Tür am Sonntag. Viele Katzen suchen ein neues Zuhause. (Zurzeit keine Hunde).</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>k</strong> <span style='margin-left:8px;'>Umzugshelfer gesucht? Studenten packen an! Stark und günstig. Tel: 0179-445566.</span>
+    </div>
+    
+    <div style='background:#e8e8e8; padding:12px 15px; border-radius:4px;'>
+      <strong>l</strong> <span style='margin-left:8px;'>Textilreinigung Sauber: Wir waschen und bügeln Ihre Hemden, Anzüge und Kleider.</span>
+    </div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px; border:1px solid #eee;'>
+  <h3>📝 Lösungen - B1 Lesen Set 3 (Gesundheit & Umwelt)</h3>
+  <strong>Teil 1:</strong> 1-f, 2-b, 3-i, 4-a, 5-g<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-a, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-x, 12-g, 13-a, 14-b, 15-x, 16-f, 17-d, 18-x, 19-i, 20-x
+</div>
+`
+    },
+    {
+        id: 407,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Beruf & Medien",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic; line-height:1.4;'>
+    <p style='margin:3px 0;'>Lesen Sie die Überschriften a–j und die Texte 1–5. Finden Sie für jeden Text die passende Überschrift.</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Karrieremesse: Firmen suchen junge Talente</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>b <span style='margin-left:10px;'>Vorsicht vor Betrug beim Online-Shopping</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Homeoffice: Tipps für konzentriertes Arbeiten</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>d <span style='margin-left:10px;'>Zeitunglesen wird bei Jugendlichen immer beliebter</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>e <span style='margin-left:10px;'>Handyverbot an Schulen: Eine hitzige Diskussion</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>f <span style='margin-left:10px;'>Neue App hilft bei der Jobsuche in der Region</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-style:italic; border-radius:3px;'>g <span style='margin-left:10px;'>Berufsschule wegen Renovierung geschlossen</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>h <span style='margin-left:10px;'>Sicher im Netz: So schützen Sie Ihre privaten Daten</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; border-radius:3px;'>i <span style='margin-left:10px;'>Mehr Gehalt für Mitarbeiter im öffentlichen Dienst</span></div>
+    <div style='background:#d4d4d4; padding:10px 15px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>j <span style='margin-left:10px;'>Handwerker dringend gesucht: Ausbildung mit Zukunft</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>1</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>Sollten Smartphones im Unterricht erlaubt sein oder lenken sie zu sehr ab? Viele Lehrer fordern, dass Geräte morgens abgegeben werden müssen. Elternvertreter hingegen meinen, dass Kinder lernen müssen, sinnvoll mit digitalen Medien umzugehen.</div>
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>2</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>Wer nicht mehr jeden Tag ins Büro fahren möchte, muss sich gut organisieren. Ein fester Arbeitsplatz, regelmäßige Pausen und eine klare Trennung von Berufs- und Privatleben sind entscheidend. So vermeidet man unnötigen Stress zu Hause.</div>
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>3</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>Das Internet vergisst nichts. Experten raten dazu, Passwörter häufig zu ändern und niemals persönliche Informationen wie Adressen oder Bankdaten öffentlich zu teilen. Ein aktuelles Antivirenprogramm auf dem PC ist ebenfalls Pflicht.</div>
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>4</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>In Deutschland fehlen aktuell Tausende Elektriker, Klempner und Tischler. Viele Betriebe können Aufträge nicht annehmen, weil ihnen das Personal fehlt. Deshalb werben die Innungen nun verstärkt um Schulabgänger für eine Ausbildung.</div>
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px; position:relative;'>
+      <div style='position:absolute; top:15px; left:15px; font-weight:bold; font-size:1.3rem; color:#333;'>5</div>
+      <div style='margin-left:35px; text-align:justify; font-size:0.95rem; color:#000;'>Keine Lust mehr, Zeitungen nach Stellen zu durchsuchen? Laden Sie „Job-Finder 24“ auf Ihr Smartphone. Geben Sie Beruf und Wohnort ein. Die Anwendung informiert Sie sofort per Push-Nachricht, wenn eine passende Stelle veröffentlicht wird.</div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000;'>Ein Jahr Pause: Work and Travel in Australien</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>Eigentlich wollte Jonas (19) direkt nach der Schule studieren. Doch nach dem Prüfungsstress brauchte er erst einmal eine Auszeit. Er entschied sich für „Work and Travel“ in Australien. Das Prinzip ist simpel: Man bekommt ein spezielles Visum, mit dem man ein Jahr lang im Land herumreisen und zwischendurch Gelegenheitsjobs annehmen darf.</p>
+      <p style='margin-bottom:12px;'>Sein erster Job war auf einer Mango-Farm im Norden. „Das war harte körperliche Arbeit bei 35 Grad“, erinnert sich Jonas. Danach arbeitete er als Kellner in Sydney. Das Geld, das er dort verdiente, reichte gerade so für die Unterkunft in Hostels und das Bus-Ticket zum nächsten Ort.</p>
+      <p style='margin-bottom:12px;'>„Man wird hier sehr schnell erwachsen“, sagt Jonas. „Zu Hause haben meine Eltern oft alles für mich erledigt. Hier muss ich mich selbst um mein Visum, meine Steuererklärung und meine Jobs kümmern.“ Außerdem hat sich sein Englisch enorm verbessert.</p>
+      <p style='margin-bottom:0;'>Ob er das Jahr bereut? „Auf keinen Fall. Auch wenn ich jetzt ein Jahr später mit dem Studium anfange, habe ich Erfahrungen gesammelt, die mir kein Buch beibringen kann. Ich bin viel selbstbewusster geworden.“</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>6. Warum ist Jonas nach Australien gegangen?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Er wollte dort ein Studium beginnen.</div>
+        <div>b) Er brauchte eine Pause vom Lernen.</div>
+        <div>c) Er hat in Deutschland keine Stelle gefunden.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>7. Wie hat Jonas seine Reise finanziert?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Durch verschiedene Gelegenheitsjobs.</div>
+        <div>b) Seine Eltern haben alles bezahlt.</div>
+        <div>c) Er hatte viel Geld gespart.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>8. Die Arbeit auf der Mango-Farm war...</p>
+      <div style='margin-left:25px;'>
+        <div>a) sehr leicht und entspannt.</div>
+        <div>b) anstrengend wegen der Hitze.</div>
+        <div>c) sehr gut bezahlt.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>9. In Australien muss Jonas...</p>
+      <div style='margin-left:25px;'>
+        <div>a) seine Probleme ohne Hilfe der Eltern lösen.</div>
+        <div>b) jeden Tag Englischkurse besuchen.</div>
+        <div>c) für die Regierung arbeiten.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>10. Wie denkt Jonas heute über seine Reise?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Er hätte lieber früher studiert.</div>
+        <div>b) Er hat wertvolle Lebenserfahrung gewonnen.</div>
+        <div>c) Er möchte für immer dort bleiben.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen ein Praktikum bei einer Zeitung.</div>
+    <div><strong>12</strong> Sie möchten Deutsch für den Beruf lernen.</div>
+    <div><strong>13</strong> Sie brauchen Hilfe bei Ihren Bewerbungsunterlagen.</div>
+    <div><strong>14</strong> Sie benötigen neue Fotos für Ihren Lebenslauf.</div>
+    <div><strong>15</strong> Sie suchen eine Ausbildung im technischen Bereich.</div>
+    <div><strong>16</strong> Sie möchten mehr über Sicherheit im Internet erfahren.</div>
+    <div><strong>17</strong> Sie suchen einen Nebenjob als Fahrer.</div>
+    <div><strong>18</strong> Sie möchten eine eigene Firmen-Website erstellen lassen.</div>
+    <div><strong>19</strong> Sie suchen ein Seminar über Büroorganisation.</div>
+    <div><strong>20</strong> Sie möchten alte Fachbücher über Architektur verkaufen.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> PC-Doktor: Homepage-Erstellung und Webdesign für kleine Firmen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Foto-Studio: Professionelle Bewerbungsfotos sofort zum Mitnehmen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> VHS: Deutschkurse für den Beruf (B2/C1). Anmeldung online.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Workshop: Sicher surfen und online einkaufen. Tipps vom Experten.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Kurier-Service: Fahrer gesucht! Idealer Job für Studenten.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Bewerbungstraining: Wir optimieren Ihren Lebenslauf.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> „Der Kurier“: Wir vergeben Praktikumsplätze in unserer Redaktion.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Autohaus: Ausbildung zum Kfz-Mechatroniker ab September.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Akademie: Erfolgreiches Zeitmanagement im Büro-Alltag.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Buchladen: Große Auswahl an Schulbüchern und Schreibwaren.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 4</h3>
+  <strong>Teil 1:</strong> 1-e, 2-c, 3-h, 4-j, 5-f<br>
+  <strong>Teil 2:</strong> 6-b, 7-a, 8-b, 9-a, 10-b<br>
+  <strong>Teil 3:</strong> 11-g, 12-c, 13-f, 14-b, 15-h, 16-d, 17-e, 18-a, 19-i, 20-x
+</div>
+`
+    },
+    {
+        id: 408,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Wohnen & Alltag",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Mietpreise in Großstädten steigen weiter</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Neue Regeln für die Mülltrennung im Wohnhaus</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Nachbarschaftsfest: Grillen im Innenhof</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Tipps zum Energiesparen beim Heizen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Einbruchschutz: So sichern Sie Ihre Wohnung</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Hausordnung: Ruhezeiten müssen beachtet werden</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Möbel günstig gebraucht kaufen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Wohnungssuche per App: Schnell und einfach</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Reparaturen in der Wohnung: Wer bezahlt?</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Studenten-WG: Tipps für ein harmonisches Zusammenleben</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Damit sich alle Bewohner im Haus wohlfühlen, ist gegenseitige Rücksichtnahme wichtig. Bitte vermeiden Sie laute Musik oder lautes Hämmern in der Zeit von 13:00 bis 15:00 Uhr sowie abends nach 22:00 Uhr.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Der Winter steht vor der Tür. Experten raten dazu, die Fenster beim Lüften nur kurz komplett zu öffnen (Stoßlüften), statt sie dauerhaft gekippt zu lassen. Das spart viel Geld bei den Heizkosten.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Liebe Nachbarn, wir wohnen nun schon seit zwei Jahren hier. Deshalb laden wir euch am nächsten Samstag ab 16 Uhr herzlich ein. Wir stellen den Grill, bringt bitte einen Salat mit!
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Bitte werfen Sie Plastikverpackungen nur noch in den gelben Sack und altes Papier ausschließlich in die blaue Tonne. Biomüll gehört in die braune Box. Helfen Sie mit, die Umwelt zu schützen.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Tropft der Wasserhahn? Grundsätzlich ist der Vermieter für Reparaturen verantwortlich. Kleine Schäden bis 75 Euro müssen jedoch oft vom Mieter selbst bezahlt werden, wenn dies im Vertrag steht.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold; color:#000;'>Generation Mieter: Warum Deutschland anders wohnt</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6; color:#000;'>
+      <p style='margin-bottom:12px;'>In vielen europäischen Ländern ist es normal, eine eigene Wohnung oder ein Haus zu kaufen. Doch in Deutschland wohnen mehr als 50 Prozent der Menschen zur Miete. Besonders in Großstädten wie München, Hamburg oder Berlin ist die Nachfrage nach Mietwohnungen riesig, was die Preise in den letzten Jahren stark steigen ließ.</p>
+      <p style='margin-bottom:12px;'>Viele junge Deutsche schätzen die Flexibilität. „Wenn ich einen neuen Job in einer anderen Stadt finde, kann ich meine Wohnung einfach kündigen und umziehen“, sagt Markus (32). Wer ein Haus kauft, bindet sich oft für Jahrzehnte an einen Ort und muss hohe Kredite bei der Bank abzahlen. Das Risiko schreckt viele ab.</p>
+      <p style='margin-bottom:12px;'>Ein weiterer Grund ist der starke Mieterschutz in Deutschland. Vermieter können Mieter nicht ohne triftigen Grund kündigen, und Mietervereine helfen bei Streitigkeiten über Nebenkosten oder Reparaturen. Dennoch gibt es Probleme: In beliebten Vierteln finden Familien kaum noch bezahlbaren Wohnraum.</p>
+      <p style='margin-bottom:0;'>Die Politik versucht nun gegenzusteuern, indem mehr Sozialwohnungen gebaut werden und die Mietpreisbremse eingeführt wurde. Trotzdem bleibt das Wohnen eines der teuersten und wichtigsten Themen für die Menschen im Alltag.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:25px; font-size:0.95rem;'>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>6. Was ist eine Besonderheit in Deutschland?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Fast jeder besitzt ein eigenes Haus.</div>
+        <div>b) Mehr als die Hälfte der Menschen wohnt zur Miete.</div>
+        <div>c) Es gibt kaum Wohnungen in den Großstädten.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>7. Warum mietet Markus lieber?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Weil er kein Geld für eine Bank hat.</div>
+        <div>b) Weil er flexibel bleiben möchte für seinen Beruf.</div>
+        <div>c) Weil er keine Kredite mag.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>8. Der Mieterschutz in Deutschland sorgt dafür, dass...</p>
+      <div style='margin-left:25px;'>
+        <div>a) Mieter fast nie aus der Wohnung geworfen werden können.</div>
+        <div>b) Vermieter keine Miete mehr verlangen dürfen.</div>
+        <div>c) alle Reparaturen vom Mieterverein bezahlt werden.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>9. Was ist ein aktuelles Problem auf dem Wohnungsmarkt?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Es gibt zu viele Sozialwohnungen.</div>
+        <div>b) Die Menschen wollen nicht mehr in Städten wohnen.</div>
+        <div>c) Familien finden oft keine günstigen Wohnungen mehr.</div>
+      </div>
+    </div>
+    <div>
+      <p style='margin:0 0 8px 0; font-weight:bold;'>10. Was macht die Politik gegen die hohen Mieten?</p>
+      <div style='margin-left:25px;'>
+        <div>a) Sie verbietet das Umziehen in andere Städte.</div>
+        <div>b) Sie baut mehr Wohnungen und begrenzt die Mietpreise.</div>
+        <div>c) Sie schenkt den Menschen Häuser.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen eine ruhige 3-Zimmer-Wohnung mit Balkon im Grünen.</div>
+    <div><strong>12</strong> Sie möchten Ihre Wohnung für kurze Zeit untervermieten.</div>
+    <div><strong>13</strong> Sie brauchen Hilfe beim Aufbau Ihrer Küchenmöbel.</div>
+    <div><strong>14</strong> Sie möchten wissen, wie lange die Kündigungsfrist für Ihre Wohnung ist.</div>
+    <div><strong>15</strong> Sie suchen einen festen Parkplatz in der Nähe des Bahnhofs.</div>
+    <div><strong>16</strong> Sie suchen gebrauchte, günstige Möbel für Ihre erste Wohnung.</div>
+    <div><strong>17</strong> Sie möchten in eine Wohngemeinschaft (WG) mit anderen Studenten ziehen.</div>
+    <div><strong>18</strong> Sie suchen einen professionellen Schlüsseldienst, weil Sie sich ausgesperrt haben.</div>
+    <div><strong>19</strong> Sie brauchen Informationen zur Reinigung des Treppenhauses.</div>
+    <div><strong>20</strong> Sie suchen einen günstigen Transporter für Ihren Umzug am Wochenende.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Mietrecht-Online: Alles über Verträge, Fristen und Mieterrechte.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Suche Nachmieter für helle 3-Zi-Whg, 80qm, Balkon, direkt an der Hauptstraße.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Handwerker-Service: Wir montieren Regale und Küchenmöbel schnell und sauber.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Parkhaus Zentral: Dauerparkplätze direkt am Gleis 1 ab 60€/Monat.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Gebrauchtmöbel-Lager: Sofas, Tische und Betten ab 20 Euro. Abholung sofort.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Wohnen im Grünen: Ruhige 3-Zi-Wohnung, großer Balkon, Parknähe, ab sofort.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Mietwagen-Schmidt: LKW und Transporter stundenweise oder fürs Wochenende.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> WG-Zimmer frei! Wir suchen eine nette Mitbewohnerin für unsere 3er-Studenten-WG.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Aufsperr-Profi: 24h Notdienst für Türöffnungen. Festpreis 50€.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Hausmeisterservice: Wir kümmern uns um Gartenpflege und Winterdienst.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 5</h3>
+  <strong>Teil 1:</strong> 1-f, 2-d, 3-c, 4-b, 5-i<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-a, 9-c, 10-b<br>
+  <strong>Teil 3:</strong> 11-f, 12-x, 13-c, 14-a, 15-d, 16-e, 17-h, 18-i, 19-x, 20-g
+</div>
+`
+    },
+    {
+        id: 409,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Reisen & Tourismus",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Streik am Flughafen: Viele Flüge fallen aus</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Günstige Städtereisen für junge Leute</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Wandertipps für den Sommer</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Fahrradtour entlang der Donau</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Neuer Reiseführer für Berlin erschienen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Kostenlose Stadtführungen für Senioren</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Autovermietung am Urlaubsort: Worauf man achten muss</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Wettervorhersage: Regen im Süden, Sonne im Norden</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Campingurlaub: Freiheit in der Natur</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Verspätungen bei der Bahn wegen Gleisarbeiten</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Wer im Urlaub flexibel sein möchte, bucht oft schon einen Wagen. Doch Vorsicht: Prüfen Sie das Fahrzeug bei der Übergabe genau auf Kratzer und lesen Sie das Kleingedruckte im Versicherungsschutz.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Reisende im Bahnverkehr müssen am Wochenende Geduld mitbringen. Wegen dringender Reparaturen an den Schienen fahren viele Züge langsamer oder werden umgeleitet. Planen Sie mehr Zeit ein.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Keine Lust auf teure Hotels? Immer mehr Menschen packen ihr Zelt ein. Es ist die perfekte Möglichkeit, direkt am See zu übernachten und den Alltag hinter sich zu lassen – zu einem fairen Preis.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Sie planen einen Kurztrip nach Prag oder Rom? Unsere neue Broschüre zeigt Ihnen, wie Sie auch mit kleinem Budget die schönsten Metropolen entdecken können. Ideal für Studenten und Azubis.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Nichts geht mehr am Terminal 1. Seit heute Morgen 5 Uhr wird gestreikt. Passagiere werden gebeten, gar nicht erst zum Airport zu kommen, da fast alle Maschinen am Boden bleiben.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Urlaub ohne Flugzeug: Der neue Trend</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>„Sanfter Tourismus“ bedeutet, dass man versucht, die Umwelt so wenig wie möglich zu belasten. Statt mit dem Jet fliegen viele nun mit dem Nachtzug ans Ziel. „Man sieht viel mehr vom Land“, sagt Maria, die mit dem Zug durch Skandinavien gefahren ist. „Das Abenteuer beginnt schon am Bahnhof.“</p>
+      <p style='margin-bottom:12px;'>Ein weiterer Vorteil: Man spart sich den langen Check-in am Flughafen. In Nachtzügen kann man bequem schlafen und kommt morgens ausgeruht an. Zwar ist Bahnfahren oft teurer als ein Billigflug, doch für viele Reisende zählt das gute Gewissen mehr als der Preis.</p>
+      <p style='margin-bottom:0;'>Hotels bieten mittlerweile oft Rabatte für Gäste an, die klimafreundlich anreisen. Wer kein Auto hat, kann vor Ort meist Fahrräder mieten, um die Region zu erkunden.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was ist das Ziel von „sanftem Tourismus“?</strong><br>a) Schnell ans Ziel kommen. b) Die Umwelt beim Reisen schützen. c) Nur in Deutschland Urlaub machen.</div>
+    <div><strong>7. Maria mag Zugreisen, weil...</strong><br>a) sie billiger sind. b) sie die Fahrt als Teil des Urlaubs erlebt. c) sie dort besser essen kann.</div>
+    <div><strong>8. In Nachtzügen kann man...</strong><br>a) Zeit sparen, indem man während der Fahrt schläft. b) kostenlos Fahrräder mitnehmen. c) immer umsonst essen.</div>
+    <div><strong>9. Viele Hotels unterstützen den Trend, indem sie...</strong><br>a) kostenlose Flüge buchen. b) Gästen ohne Auto Preisnachlässe geben. c) nur noch vegetarisches Essen anbieten.</div>
+    <div><strong>10. Ein Nachteil der Bahnreise kann sein, dass...</strong><br>a) man am Bahnhof lange warten muss. b) die Tickets oft mehr kosten als Flugtickets. c) man nachts nicht aussteigen darf.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie möchten ein gebrauchtes Wohnmobil für Ihren Sommerurlaub kaufen.</div>
+    <div><strong>12</strong> Sie suchen eine geführte Radtour für Anfänger in Süddeutschland.</div>
+    <div><strong>13</strong> Sie möchten in den Alpen wandern und suchen eine günstige Unterkunft.</div>
+    <div><strong>14</strong> Sie brauchen einen Reisepass und möchten wissen, welche Dokumente nötig sind.</div>
+    <div><strong>15</strong> Sie suchen eine Last-Minute-Flugreise ans Mittelmeer.</div>
+    <div><strong>16</strong> Sie möchten im Urlaub Spanisch lernen und suchen eine Sprachschule in Madrid.</div>
+    <div><strong>17</strong> Sie suchen einen Hundesitter für die Zeit, in der Sie verreist sind.</div>
+    <div><strong>18</strong> Sie möchten die Stadt Berlin mit einem privaten Guide entdecken.</div>
+    <div><strong>19</strong> Sie suchen Reiseinformationen über Impfungen für eine Reise nach Afrika.</div>
+    <div><strong>20</strong> Sie möchten am Flughafen parken und suchen die aktuellen Preise.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Wanderheim „Alpenblick“: Mehrbettzimmer ab 15€ für Bergfreunde.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> VIVA Madrid: Spanischkurse für alle Level mitten im Zentrum.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Reise-Gesundheit: Alles über nötige Impfungen und die Reiseapotheke.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Fly-Away: Die besten Last-Minute-Angebote für Mallorca und die Türkei.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Bürgerbüro: Informationen zu Ausweisen, Pässen und Visa online.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Rad-Abenteuer: Genussradeln im Allgäu – Touren für Einsteiger.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Berlin-Erleben: Individuelle Stadtführungen abseits der Touristenpfade.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Tier-Pension: Wir betreuen Ihren Vierbeiner, während Sie entspannen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Flughafen-Info: Anreise, Terminals und Parkplatzgebühren im Überblick.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Camping-Shop: Alles für den Zelturlaub. Zelte, Kocher und Schlafsäcke.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 6</h3>
+  <strong>Teil 1:</strong> 1-g, 2-j, 3-i, 4-b, 5-a<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-a, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-x, 12-f, 13-a, 14-e, 15-d, 16-b, 17-h, 18-g, 19-c, 20-i
+</div>
+`
+    },
+    {
+        id: 411,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Gesundheit & Ernährung",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Bio-Produkte: Warum sie teurer sind</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Hausbesuche: Ärzte kommen zu Senioren</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Tipps gegen Stress im Arbeitsalltag</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Neue App hilft beim Wassertrinken</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Krankenkassen: Höhere Beiträge ab Januar</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Vegetarische Ernährung bei Kindern: Experten-Rat</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Vorsicht vor gefälschten Medikamenten im Internet</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Grippewelle: Krankenhäuser am Limit</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Sport im Freien: Gesund durch den Winter</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Schlafmangel macht auf Dauer krank</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Wer im Büro arbeitet, kennt das: Termindruck und ständige Erreichbarkeit führen oft zu Erschöpfung. Experten raten dazu, alle 90 Minuten eine kurze Pause einzulegen und einfache Atemübungen zu machen, um die Konzentration zu fördern.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Viele Menschen vergessen über den Tag verteilt, genug Flüssigkeit aufzunehmen. Ein neues Programm für das Smartphone erinnert Sie nun stündlich daran, ein Glas Wasser zu trinken, und berechnet Ihren individuellen Bedarf basierend auf Gewicht und Aktivität.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Wer im Supermarkt zu ökologisch angebautem Obst und Gemüse greift, zahlt oft das Doppelte. Die Bauern erklären dies mit dem Verzicht auf chemische Spritzmittel, wodurch die Ernte aufwendiger ist und ein höheres Risiko für Verluste besteht.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> In Deutschland steigen die Kosten für das Gesundheitssystem weiter an. Ab dem nächsten Jahr müssen Mitglieder der gesetzlichen Versicherungen mit einem höheren Zusatzbeitrag rechnen. Grund sind unter anderem die gestiegenen Kosten für Medikamente.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Wer nachts regelmäßig weniger als sechs Stunden ruht, riskiert Probleme mit dem Herz-Kreislauf-System. Der Körper braucht die Ruhephasen, um Zellen zu regenerieren und das Immunsystem zu stärken. Dauernde Müdigkeit sollte man ernst nehmen.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Zucker: Die versteckte Gefahr in unserer Nahrung</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>In fast jedem verarbeiteten Lebensmittel steckt heute Zucker – sogar in Produkten, bei denen wir es nicht vermuten, wie Ketchup, Wurst oder Tiefkühlpizza. Ein hoher Konsum kann zu ernsthaften Krankheiten wie Diabetes, Übergewicht oder Herz-Kreislauf-Problemen führen.</p>
+      <p style='margin-bottom:12px;'>Viele Menschen wissen gar nicht, wie viel Zucker sie täglich zu sich nehmen. Die Weltgesundheitsorganisation (WHO) empfiehlt maximal 25 Gramm pro Tag. Doch schon eine einzige Dose Limonade enthält oft mehr als 35 Gramm. Die Lebensmittelindustrie nutzt oft andere Namen wie "Fruktose" oder "Dextrose", um den Zuckergehalt auf der Verpackung zu tarnen.</p>
+      <p style='margin-bottom:12px;'>Experten raten dazu, öfter selbst zu kochen und auf Fertigprodukte zu verzichten. Wer seinen Zuckerkonsum reduziert, wird oft schon nach wenigen Wochen positive Effekte bemerken: Mehr Energie im Alltag, bessere Haut und ein tieferer Schlaf sind typische Ergebnisse.</p>
+      <p style='margin-bottom:0;'>Zucker wirkt im Gehirn ähnlich wie eine Droge. Wer weniger davon isst, hat anfangs oft schlechte Laune oder Kopfschmerzen. Doch das Durchhalten lohnt sich für die langfristige Gesundheit.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Wo findet man heute Zucker?</strong><br>a) Nur in Süßigkeiten und Kuchen. b) In fast allen verarbeiteten Lebensmitteln. c) Nur in Getränken.</div>
+    <div><strong>7. Was empfiehlt die WHO?</strong><br>a) Man sollte nicht mehr als 25 Gramm Zucker pro Tag essen. b) Man darf so viel Zucker essen, wie man möchte. c) Limonade ist gesund.</div>
+    <div><strong>8. Warum ist es schwer, Zucker auf Verpackungen zu erkennen?</strong><br>a) Weil die Schrift zu klein ist. b) Weil oft andere Begriffe für Zucker verwendet werden. c) Weil die Hersteller lügen dürfen.</div>
+    <div><strong>9. Welche positiven Folgen hat ein Verzicht auf Zucker?</strong><br>a) Man braucht weniger Schlaf. b) Man hat mehr Energie und bessere Haut. c) Man bekommt seltener Kopfschmerzen.</div>
+    <div><strong>10. Was passiert oft am Anfang, wenn man weniger Zucker isst?</strong><br>a) Man fühlt sich sofort super. b) Man bekommt kurzzeitig schlechte Laune. c) Man verliert den Appetit auf alles.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen einen Kochkurs für gesunde, vegetarische Gerichte.</div>
+    <div><strong>12</strong> Sie möchten mit dem Rauchen aufhören und suchen Unterstützung.</div>
+    <div><strong>13</strong> Sie suchen ein Fitnessstudio, das auch Yoga-Kurse anbietet.</div>
+    <div><strong>14</strong> Sie brauchen Informationen über Erste-Hilfe-Kurse für den Führerschein.</div>
+    <div><strong>15</strong> Sie suchen eine Apotheke, die auch nachts geöffnet hat.</div>
+    <div><strong>16</strong> Sie möchten wissen, wie man Rückenschmerzen im Büro vorbeugen kann.</div>
+    <div><strong>17</strong> Sie suchen einen Zahnarzt, der am Samstagnachmittag Termine vergibt.</div>
+    <div><strong>18</strong> Sie möchten Urlaub auf einem Bio-Bauernhof machen.</div>
+    <div><strong>19</strong> Sie suchen ein Seminar zum Thema "Gesunde Ernährung für Senioren".</div>
+    <div><strong>20</strong> Sie möchten eine private Zusatzversicherung für die Zähne abschließen.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Kochstudio "Grün": Leckere fleischlose Rezepte einfach zubereitet.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Fitness-Point: Krafttraining, Ausdauer und täglich Yoga-Kurse.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Rotes Kreuz: Wochenendseminare für Lebensrettende Sofortmaßnahmen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Notdienst-Planer: Finden Sie die geöffnete Bereitschafts-Apotheke in Ihrer Nähe.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Gesund-Zahn: Wir beraten Sie zu Versicherungen für Zahnersatz.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Ergonomie-Ratgeber: Tipps für den richtigen Stuhl und Übungen am Platz.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Endlich Nichtraucher! In 5 Schritten zur letzten Zigarette. Gruppenkurs.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Praxis Dr. Weiss: Sprechzeiten Mo-Fr 8-18 Uhr, Termine nach Vereinbarung.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Aktiv im Alter: Vortrag über Vitamine und Mineralstoffe für 60+.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Bauernhof-Ferien: Urlaub in der Natur mit hofeigenen Produkten.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 8</h3>
+  <strong>Teil 1:</strong> 1-c, 2-d, 3-a, 4-e, 5-j<br>
+  <strong>Teil 2:</strong> 6-b, 7-a, 8-b, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-a, 12-g, 13-b, 14-c, 15-d, 16-f, 17-x, 18-j, 19-i, 20-e
+</div>
+`
+    },
+    {
+        id: 412,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Umwelt & Klimaschutz",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Plastikfrei leben: Tipps für den Einkauf</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Solarstrom: Energie vom eigenen Dach</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Elektroautos: Die Zukunft auf unseren Straßen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Kleidung spenden statt wegwerfen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Artenschutz: Bienen in der Stadt helfen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Hochwassergefahr im Süden Deutschlands</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Carsharing: Auto teilen und Kosten sparen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Papierrecycling: Was gehört in die blaue Tonne?</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Urlaub im Wald: Nationalparks erleben</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Wassersparen im Haushalt: Einfache Tricks</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Nehmen Sie beim nächsten Gang zum Supermarkt immer einen Stoffbeutel mit. Verzichten Sie auf Obst und Gemüse, das bereits in Folie eingepackt ist. Viele Läden bieten mittlerweile auch Lebensmittel zum Selbstabfüllen an, um Verpackungsmüll zu vermeiden.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Wer kein eigenes Fahrzeug besitzt, kann trotzdem mobil sein. In fast jeder Stadt gibt es mittlerweile Anbieter, bei denen man ein Auto per App mieten und es nach der Fahrt einfach wieder am Straßenrand abstellen kann. Das schont die Umwelt und den Geldbeutel.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Wussten Sie, dass man beim Zähneputzen oder Einseifen unter der Dusche wertvolle Liter sparen kann, wenn man kurz den Hahn zudreht? Auch eine moderne Waschmaschine hilft dabei, den Verbrauch im Vergleich zu alten Geräten deutlich zu senken.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Auch auf dem Balkon kann man etwas für die Natur tun. Pflanzen Sie Blumen wie Lavendel oder Sonnenblumen. Diese bieten den Insekten wichtige Nahrung. Vermeiden Sie Pestizide, damit die kleinen Helfer in der Stadt überleben können.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Anstatt die alte Jeans oder den Wintermantel in den Müll zu werfen, bringen Sie die Sachen doch zu einer Sammelstelle. Viele Organisationen verteilen die Kleidung an bedürftige Menschen oder verkaufen sie günstig in Second-Hand-Läden weiter.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Zero Waste: Ein Leben ohne Müll?</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>Jeder Deutsche produziert pro Jahr durchschnittlich 450 Kilogramm Müll. Die Bewegung „Zero Waste“ (Null Müll) möchte das ändern. Das Ziel ist es, den Alltag so zu organisieren, dass so wenig Abfall wie möglich entsteht. Das klingt kompliziert, fängt aber oft bei kleinen Dingen an.</p>
+      <p style='margin-bottom:12px;'>„Zuerst habe ich aufgehört, Coffee-to-go-Becher zu nutzen“, sagt Julia (26). Sie hat nun immer ihren eigenen Becher dabei. In so genannten „Unverpackt-Läden“ kauft sie Nudeln, Reis und Müsli in Gläsern, die sie von zu Hause mitbringt. Plastikverpackungen gibt es in diesen Geschäften gar nicht.</p>
+      <p style='margin-bottom:12px;'>Kritiker sagen, dass dieser Lebensstil sehr zeitaufwendig und teuer ist. Man muss seine Einkäufe genau planen und oft in verschiedene Spezialgeschäfte gehen. Julia sieht das anders: „Ich kaufe bewusster ein und werfe fast keine Lebensmittel mehr weg. Am Ende spare ich sogar Geld.“</p>
+      <p style='margin-bottom:0;'>Wichtig ist es, nicht perfekt sein zu wollen. Jeder kleine Schritt zählt – sei es die Holzzahnbürste statt der Plastikbürste oder das Reparieren von kaputten Geräten, anstatt sofort ein neues Modell zu kaufen.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was ist das Hauptziel von „Zero Waste“?</strong><br>a) Mehr Müll zu recyceln. b) Die Entstehung von Müll von vornherein zu vermeiden. c) Nur noch Bio-Produkte zu kaufen.</div>
+    <div><strong>7. Wie kauft Julia im „Unverpackt-Laden“ ein?</strong><br>a) Sie nutzt Plastiktüten vom Laden. b) Sie bringt ihre eigenen Behälter mit. c) Sie bestellt alles online.</div>
+    <div><strong>8. Was ist ein häufiges Vorurteil gegen diesen Lebensstil?</strong><br>a) Er ist zu billig. b) Er kostet zu viel Zeit und Geld. c) Er ist ungesund für die Haut.</div>
+    <div><strong>9. Welchen Vorteil nennt Julia für ihren Geldbeutel?</strong><br>a) Sie bekommt Rabatte im Supermarkt. b) Sie kauft weniger Unnötiges und wirft nichts weg. c) Der Staat bezahlt ihre Einkäufe.</div>
+    <div><strong>10. Was empfiehlt der Text am Ende?</strong><br>a) Man muss sofort alles perfekt machen. b) Man sollte kaputte Dinge öfter reparieren lassen. c) Man sollte gar nicht mehr einkaufen gehen.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen Informationen zur Installation einer Solaranlage auf Ihrem Dach.</div>
+    <div><strong>12</strong> Sie möchten alte Batterien und Elektrogeräte umweltgerecht entsorgen.</div>
+    <div><strong>13</strong> Sie suchen einen Freiwilligendienst im Bereich Umweltschutz für den Sommer.</div>
+    <div><strong>14</strong> Sie möchten lernen, wie man Naturkosmetik selbst herstellt.</div>
+    <div><strong>15</strong> Sie suchen eine geführte Wanderung durch ein Moor oder einen Nationalpark.</div>
+    <div><strong>16</strong> Sie möchten wissen, wann in Ihrer Straße der Müll abgeholt wird.</div>
+    <div><strong>17</strong> Sie suchen einen Laden für gebrauchte Kindermöbel und Spielzeug.</div>
+    <div><strong>18</strong> Sie möchten Ihr Haus besser dämmen, um Energie zu sparen.</div>
+    <div><strong>19</strong> Sie suchen biologisches Saatgut für Ihren Gemüsegarten.</div>
+    <div><strong>20</strong> Sie möchten an einem Workshop zum Thema „Fahrradreparatur“ teilnehmen.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Energie-Beratung: So dämmen Sie Ihr Haus richtig. Kostenlose Termine.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Recycling-Hof: Abgabe von Altbatterien, Monitoren und Elektroschrott.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Öko-Garten: Samenfeste Sorten für Tomaten, Salate und mehr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Solar-Profi: Beratung und Montage von Photovoltaik-Anlagen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Natur-Erlebnis: Geführte Touren durch das Wattenmeer. Anmeldung hier.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Green-Work: Sommercamp für Jugendliche – Bäume pflanzen im Harz.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> DIY-Kurs: Seifen und Cremes aus natürlichen Zutaten mischen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Stadtreinigung: Alle Abfuhrtermine für Restmüll und Papier im Web-Kalender.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Rad-Werkstatt: Wir zeigen Ihnen, wie Sie Bremsen und Kette selbst flicken.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Mode-Eck: Große Auswahl an Second-Hand-Kleidung für Erwachsene.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 9</h3>
+  <strong>Teil 1:</strong> 1-a, 2-g, 3-j, 4-e, 5-d<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-d, 12-b, 13-f, 14-g, 15-e, 16-h, 17-x, 18-a, 19-c, 20-i
+</div>
+`
+    },
+    {
+        id: 413,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Medien & Technologie",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Gefahren durch zu viel Zeit vor dem Bildschirm</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Podcast: Das neue Radio für unterwegs</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Sichere Passwörter: So schützen Sie Ihre Daten</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Handy-Verbot an Schulen: Eine hitzige Debatte</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>KI im Haushalt: Staubsauger-Roboter im Test</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Streaming-Dienste verdrängen klassisches Fernsehen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>E-Books: Lesen ohne schweres Gepäck</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Homeoffice: Die Technik muss funktionieren</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Social Media: Fake News erkennen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Computerspiele: Jetzt auch als olympischer Sport?</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Verwenden Sie niemals Ihren Namen oder Ihr Geburtsdatum. Experten raten zu einer Kombination aus Groß- und Kleibuchstaben, Zahlen und Sonderzeichen. Für jeden Account sollte man ein anderes Wort wählen, damit Hacker keinen Zugriff auf alle Profile haben.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Ob in der Bahn, beim Sport oder beim Kochen: Audio-Inhalte zum Herunterladen werden immer beliebter. Es gibt kaum ein Thema, zu dem es keine Sendung gibt – von Kriminalfällen bis hin zu Sprachkursen ist alles dabei, was man direkt über das Handy hören kann.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Früher wartete die ganze Familie um 20 Uhr auf den Spielfilm. Heute entscheiden wir selbst, was wir wann sehen möchten. Plattformen im Internet bieten eine riesige Auswahl an Serien und Filmen gegen eine monatliche Gebühr an, was die klassischen Sender vor Probleme stellt.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Vor allem bei Kindern kann der ständige Blick auf das Tablet zu gesundheitlichen Problemen wie Kurzsichtigkeit oder Schlafstörungen führen. Mediziner empfehlen deshalb feste Zeiten und regelmäßige Pausen, in denen die Geräte komplett ausgeschaltet bleiben.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Sie planen eine Weltreise und möchten nicht auf Ihre Bibliothek verzichten? Die digitalen Lesegeräte wiegen weniger als ein dünnes Taschenbuch, können aber tausende Romane speichern. Das schont nicht nur den Rücken, sondern spart auch Platz im Koffer.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>KI im Alltag: Helfer oder Bedrohung?</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>Künstliche Intelligenz (KI) ist längst kein Science-Fiction-Thema mehr. Sie steckt in unseren Handys, hilft Ärzten bei komplizierten Diagnosen und steuert moderne Autos. In Deutschland wird jedoch viel über die Folgen dieser Technologie diskutiert.</p>
+      <p style='margin-bottom:12px;'>Einerseits erleichtert KI die Arbeit. Programme können Texte in Sekunden übersetzen oder komplexe Daten auswerten, für die Menschen Stunden bräuchten. „Ich nutze KI, um meine E-Mails vorzuformulieren. Das spart mir jeden Tag viel Zeit“, sagt der IT-Berater Thomas M.</p>
+      <p style='margin-bottom:12px;'>Andererseits wächst die Sorge um den Arbeitsmarkt. Viele Angestellte in Büros oder im Kundenservice fürchten, dass Maschinen ihre Aufgaben bald komplett übernehmen könnten. Zudem gibt es ethische Fragen: Wer ist verantwortlich, wenn eine KI eine falsche Entscheidung trifft, zum Beispiel bei einem Unfall mit einem selbstfahrenden Auto?</p>
+      <p style='margin-bottom:0;'>Wissenschaftler betonen, dass KI den Menschen nicht ersetzen, sondern unterstützen soll. Wichtig sei, dass der Mensch weiterhin die Kontrolle behält und lernt, kritisch mit den Ergebnissen der Technik umzugehen.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Wo wird KI heute bereits genutzt?</strong><br>a) Nur in der Weltraumforschung. b) In Handys, in der Medizin und im Verkehr. c) Nur in teuren Fabriken.</div>
+    <div><strong>7. Welchen Vorteil nennt Thomas M.?</strong><br>a) Er muss gar nicht mehr arbeiten. b) Er spart Zeit bei täglichen Aufgaben wie E-Mails. c) Er verdient durch KI mehr Geld.</div>
+    <div><strong>8. Was ist eine große Sorge der Menschen?</strong><br>a) Dass KI zu langsam arbeitet. b) Dass viele Arbeitsplätze verloren gehen könnten. c) Dass Computer zu viel Strom verbrauchen.</div>
+    <div><strong>9. Welches ethische Problem wird im Text erwähnt?</strong><br>a) Dass KI keine Witze versteht. b) Die Frage nach der Verantwortung bei Fehlern oder Unfällen. c) Dass KI zu teuer für normale Bürger ist.</div>
+    <div><strong>10. Was sagen Wissenschaftler über die Zukunft der KI?</strong><br>a) KI wird alle menschlichen Berufe übernehmen. b) Der Mensch muss die Technik beherrschen und kontrollieren. c) KI sollte verboten werden.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen ein neues Smartphone und möchten Testberichte lesen.</div>
+    <div><strong>12</strong> Sie haben Ihren Laptop im Zug vergessen und suchen ihn.</div>
+    <div><strong>13</strong> Sie möchten lernen, wie man eigene Videos für YouTube bearbeitet.</div>
+    <div><strong>14</strong> Sie suchen einen Programmierkurs für Kinder in den Sommerferien.</div>
+    <div><strong>15</strong> Ihr Internetanschluss ist gestört und Sie brauchen den Kundendienst.</div>
+    <div><strong>16</strong> Sie möchten eine alte Spielkonsole im Internet verkaufen.</div>
+    <div><strong>17</strong> Sie suchen eine App, mit der man Sprachen kostenlos lernen kann.</div>
+    <div><strong>18</strong> Sie brauchen Hilfe bei der Einrichtung Ihres neuen Druckers.</div>
+    <div><strong>19</strong> Sie suchen ein Museum für die Geschichte der Computertechnik.</div>
+    <div><strong>20</strong> Sie möchten wissen, wie man sich vor Viren auf dem PC schützt.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Tech-Check: Unabhängige Tests der neuesten Handys und Tablets.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Video-Akademie: Schnittprogramme und Kameraführung für Anfänger.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Fundbüro der Bahn: Online-Suche nach verlorenen Gegenständen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Net-Support: 24h-Hotline bei Störungen Ihres Glasfaseranschlusses.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Kids-Code: Spielerisch Programmieren lernen für 8- bis 12-Jährige.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Gebraucht-Börse: Der Marktplatz für gebrauchte Elektronik und Spiele.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Security-First: So installieren Sie Firewalls und Antivirus-Software.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> IT-Hilfe Vor Ort: Wir kommen zu Ihnen und installieren PC, WLAN und Drucker.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Nix-Bezahlen: Top-Apps zum Vokabeltraining ohne monatliche Kosten.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Kino-Programm: Alle Filme und Spielzeiten in Ihrer Stadt.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 10</h3>
+  <strong>Teil 1:</strong> 1-c, 2-b, 3-f, 4-a, 5-g<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-a, 12-c, 13-b, 14-e, 15-d, 16-f, 17-i, 18-h, 19-x, 20-g
+</div>
+`
+    },
+    {
+        id: 414,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Kultur & Freizeit",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Museumsnacht: Kunst bis nach Mitternacht</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Straßenmusik-Festival: Eintritt frei für alle</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Fotowettbewerb: Die schönsten Ecken unserer Stadt</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Theater-Tickets für Studenten stark reduziert</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>Klassik im Park: Picknick mit Mozart-Musik</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Neueröffnung: Ein Literatur-Café für Bücherfans</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Sprachcafé: Fremdsprachen üben bei Kaffee und Kuchen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Historische Stadtführung: Das Mittelalter erleben</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Kino-Premiere: Der neue Film eines lokalen Regisseurs</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Malen für Anfänger: Wochenendkurs im Freien</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Am kommenden Samstag öffnen über 40 Galerien und Ausstellungsräume ihre Türen bis 2 Uhr morgens. Mit nur einem Ticket können Besucher alle Museen der Stadt besichtigen und zusätzlich die kostenlosen Shuttle-Busse nutzen, die zwischen den Gebäuden pendeln.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Packen Sie Ihre Decke und einen Korb mit Leckereien ein! Auf der großen Wiese hinter dem Schloss spielen am Sonntagabend die Philharmoniker. Der Eintritt ist kostenlos, und bei schönem Wetter erwartet die Besucher ein unvergesslicher Abend unter freiem Himmel.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Du lernst Deutsch, Spanisch oder Französisch, hast aber niemanden zum Reden? Jeden Mittwochabend treffen wir uns in gemütlicher Runde. Hier zählt nicht die perfekte Grammatik, sondern der Spaß am Austausch mit Muttersprachlern und anderen Lernenden.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Wer sich für Kunst interessiert, aber kein großes Budget hat, sollte an der Abendkasse seinen Ausweis zeigen. Eine Stunde vor Vorstellungsbeginn gibt es für alle unter 26 Jahren Restkarten zum Festpreis von nur 10 Euro – egal auf welchem Platz.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Sie lieben den Duft von frisch gebrühtem Espresso und schmökern gerne in alten Romanen? In der Hauptstraße hat ein besonderer Ort eröffnet. Hier kann man nicht nur Kaffee trinken, sondern auch in tausenden Büchern lesen oder diese gegen eine kleine Spende mitnehmen.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Nachbarschaftsfeste: Gemeinsam statt einsam</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>In vielen deutschen Großstädten kennen sich Nachbarn oft kaum. Man grüßt sich kurz im Treppenhaus, weiß aber selten, wer nebenan wohnt. Um das zu ändern, organisieren immer mehr Bürger so genannte Nachbarschaftsfeste oder Straßenpartys.</p>
+      <p style='margin-bottom:12px;'>„Zuerst hatte ich Bedenken, ob überhaupt jemand kommt“, erzählt Stefan, der in Hamburg ein Fest für sein Viertel organisiert hat. Doch die Resonanz war riesig. Jeder brachte etwas zu essen mit, Tische wurden auf die Straße gestellt, und bis spät in die Nacht wurde gelacht und geredet.</p>
+      <p style='margin-bottom:12px;'>Solche Initiativen fördern den Zusammenhalt. Besonders für ältere Menschen oder Neuzugezogene ist es eine tolle Chance, Kontakte zu knüpfen. Oft entstehen daraus praktische Hilfen im Alltag, wie zum Beispiel gegenseitiges Blumengießen im Urlaub oder Hilfe beim Tragen von schweren Einkäufen.</p>
+      <p style='margin-bottom:0;'>Die Stadtverwaltungen unterstützen diesen Trend oft, indem sie Straßensperrungen unbürokratisch erlauben. Wichtig ist nur, dass die Musik ab 22 Uhr leiser gedreht wird, um die Nachtruhe der Anwohner zu respektieren, die nicht mitfeiern.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was ist das Problem in vielen Großstädten?</strong><br>a) Es gibt zu viele Feste. b) Die Menschen kennen ihre direkten Nachbarn kaum. c) Die Wohnungen sind zu teuer.</div>
+    <div><strong>7. Wie hat Stefan sein Nachbarschaftsfest erlebt?</strong><br>a) Es kamen weniger Leute als erwartet. b) Es war ein großer Erfolg mit vielen Teilnehmern. c) Er musste das ganze Essen alleine kaufen.</div>
+    <div><strong>8. Welchen Vorteil haben diese Feste laut Text?</strong><br>a) Man bekommt kostenlose Lebensmittel. b) Es entstehen neue Kontakte und gegenseitige Hilfe im Alltag. c) Man muss nicht mehr in den Urlaub fahren.</div>
+    <div><strong>9. Wie reagieren die Städte auf solche Partys?</strong><br>a) Sie verbieten sie meistens. b) Sie helfen oft dabei, Straßen für den Verkehr zu sperren. c) Sie verlangen hohe Gebühren.</div>
+    <div><strong>10. Welche Regel gilt für die Musik?</strong><br>a) Sie darf die ganze Nacht laut bleiben. b) Sie muss ab 22 Uhr leiser sein. c) Musikinstrumente sind verboten.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen einen Malkurs, der am Wochenende stattfind4et.</div>
+    <div><strong>12</strong> Sie möchten alte Instrumente spenden oder günstig verkaufen.</div>
+    <div><strong>13</strong> Sie suchen eine Tanzschule, die Salsa-Kurse für Paare anbietet.</div>
+    <div><strong>14</strong> Sie möchten an einer geführten Tour durch ein historisches Schloss teilnehmen.</div>
+    <div><strong>15</strong> Sie suchen Informationen über ein Open-Air-Kino in Ihrer Stadt.</div>
+    <div><strong>16</strong> Sie möchten wissen, welche Museen montags geöffnet haben.</div>
+    <div><strong>17</strong> Sie suchen einen Chor, in dem man ohne Vorkenntnisse mitsingen kann.</div>
+    <div><strong>18</strong> Sie möchten an einem Wettbewerb für Amateur-Fotografen teilnehmen.</div>
+    <div><strong>19</strong> Sie suchen einen Babysitter, damit Sie abends ins Theater gehen können.</div>
+    <div><strong>20</strong> Sie möchten Karten für ein Rockkonzert im Internet bestellen.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Schloss-Erlebnis: Tägliche Rundgänge durch die königlichen Gemächer.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Sommer-Kino: Filme unter Sternen. Programm und Tickets online.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Foto-Preis: Schicken Sie uns Ihr bestes Bild zum Thema "Natur".</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Musik-Markt: An- und Verkauf von gebrauchten Gitarren und Klavieren.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> Jedermann-Chor: Wir suchen neue Stimmen! Keine Notenkenntnisse nötig.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Kunst-Atelier: Workshop "Ölmalerei" – Sa & So jeweils 10-16 Uhr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Ticket-Profi: Eintrittskarten für alle großen Rock- und Pop-Events.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Rhythmus-Pur: Salsa, Bachata ve Tango für Anfänger und Fortgeschrittene.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Museums-Guide: Öffnungszeiten und Preise aller städtischen Sammlungen.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Sport-Club: Fußballtraining für Kinder und Jugendliche jeden Mittwoch.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 11</h3>
+  <strong>Teil 1:</strong> 1-a, 2-e, 3-g, 4-d, 5-f<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-f, 12-d, 13-h, 14-a, 15-b, 16-i, 17-e, 18-c, 19-x, 20-g
+</div>
+`
+    },
+    {
+        id: 415,
+        type: "TELC",
+        level: "B1",
+        category: "Lesen",
+        title: "B1 Leseverstehen – Sport & Freizeit",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Finden Sie für jeden Text (1–5) die passende Überschrift (a–j).</p>
+  </div>
+
+  <div style='margin-bottom:25px;'>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>a <span style='margin-left:10px;'>Schwimmkurs für Erwachsene: Nie zu spät zum Lernen</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>b <span style='margin-left:10px;'>Yoga im Büro: Entspannung am Arbeitsplatz</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>c <span style='margin-left:10px;'>Neuer Trend: Wandern ohne schweres Gepäck</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>d <span style='margin-left:10px;'>Sportverein sucht ehrenamtliche Trainer</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>e <span style='margin-left:10px;'>E-Bikes: Schneller und entspannter ans Ziel</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>f <span style='margin-left:10px;'>Fußball-WM: Public Viewing in der Innenstadt</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>g <span style='margin-left:10px;'>Kletterhalle eröffnet: Action für die ganze Familie</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>h <span style='margin-left:10px;'>Marathon in Berlin: Verkehrshinweise für Autofahrer</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; font-weight:bold; border-radius:3px;'>i <span style='margin-left:10px;'>Tanzabend für Senioren: Bewegung mit Musik</span></div>
+    <div style='background:#d4d4d4; padding:10px; margin-bottom:5px; border-radius:3px;'>j <span style='margin-left:10px;'>Heimtraining: Fitness-Apps ersetzen das Studio</span></div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px;'>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>1.</strong> Langes Sitzen am Schreibtisch führt oft zu Rückenschmerzen. Viele Firmen bieten nun kurze Einheiten an, bei denen die Mitarbeiter direkt am Platz einfache Dehnübungen machen. Man braucht keine Sportkleidung, und schon zehn Minuten helfen, die Muskulatur zu lockern.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>2.</strong> Wer sagt, dass man als Kind schwimmen lernen muss? In unserem neuen Intensivkurs im Hallenbad zeigen wir Anfängern über 30, wie sie sich sicher im Wasser bewegen. In kleiner Gruppe und ohne Zeitdruck verlieren Sie die Angst vor dem tiefen Becken.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>3.</strong> Am kommenden Sonntag findet das große Laufevent statt. Da die Strecke mitten durch das Zentrum führt, werden zahlreiche Straßen ab 6 Uhr morgens für den gesamten Verkehr gesperrt. Bitte nutzen Sie die S-Bahnen, da auch das Parken in der Nähe nicht möglich ist.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>4.</strong> Möchten Sie die Natur genießen, aber keine Lust auf schmerzende Knie? Mit elektrischer Unterstützung ist kein Berg mehr zu steil. In unserem Shop können Sie die neuesten Modelle testen, die Sie mühelos auch bei Gegenwind an Ihr Ziel bringen – ideal für Pendler.
+    </div>
+    <div style='background:#e8e8e8; padding:15px; border-radius:5px;'>
+      <strong>5.</strong> Keine Zeit fürs Fitnessstudio? Immer mehr Menschen nutzen Video-Anleitungen auf dem Tablet, um im Wohnzimmer zu trainieren. Ob Krafttraining oder Ausdauer: Die digitalen Trainer korrigieren per Kamera sogar die Haltung und passen das Level individuell an.
+    </div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='background:#e8e8e8; padding:25px; margin-bottom:30px; border-radius:5px;'>
+    <h1 style='margin:0 0 5px 0; font-size:1.8rem; font-weight:bold;'>Ehrenamt im Sport: Ohne Helfer läuft nichts</h1>
+    <div style='text-align:justify; font-size:0.95rem; line-height:1.6;'>
+      <p style='margin-bottom:12px;'>Sportvereine sind das Herz der deutschen Freizeitkultur. Ob Fußball, Turnen oder Tennis – fast jeder dritte Deutsche ist Mitglied in einem Verein. Doch viele Clubs haben ein Problem: Es fehlen Menschen, die sich freiwillig engagieren, ohne dafür Geld zu verlangen.</p>
+      <p style='margin-bottom:12px;'>„Ein Verein funktioniert nicht von allein“, sagt Markus, der seit zehn Jahren die Jugendmannschaft in seinem Dorf trainiert. Er macht das ehrenamtlich in seiner Freizeit. Das bedeutet viel Arbeit: Training leiten, Spiele am Wochenende organisieren und sich um die Ausrüstung kümmern. Doch für Markus zählt der Spaß der Kinder und das Gemeinschaftsgefühl mehr als eine Bezahlung.</p>
+      <p style='margin-bottom:12px;'>Früher war es normal, dass Eltern halfen, wenn Not am Mann war. Heute haben viele Menschen weniger Zeit oder möchten sich nicht fest binden. Die Vereine versuchen deshalb, neue Wege zu gehen. Manche bieten mittlerweile kleine Entschädigungen für Benzin oder kostenlose Weiterbildungen an, um neue Trainer zu gewinnen.</p>
+      <p style='margin-bottom:0;'>Klar ist: Wenn das Ehrenamt verschwindet, werden die Mitgliedsbeiträge deutlich steigen. Denn professionelle Trainer sind teuer, und das könnten sich viele Familien dann nicht mehr leisten.</p>
+    </div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:20px; font-size:0.95rem;'>
+    <div><strong>6. Was ist das aktuelle Hauptproblem vieler Sportvereine?</strong><br>a) Es gibt zu viele Mitglieder. b) Es fehlen Menschen, die freiwillig und kostenlos helfen. c) Die Sportplätze sind zu alt.</div>
+    <div><strong>7. Warum macht Markus seine Arbeit als Trainer?</strong><br>a) Weil er dafür viel Geld bekommt. b) Wegen der Freude am Sport und der Gemeinschaft. c) Weil er sonst keinen anderen Job findet.</div>
+    <div><strong>8. Warum ist es heute schwerer, Helfer zu finden?</strong><br>a) Weil Sport heute unmodern ist. b) Weil viele Menschen weniger Freizeit haben oder flexibel bleiben wollen. c) Weil die Vereine keine Kinder mehr aufnehmen.</div>
+    <div><strong>9. Wie versuchen Vereine, attraktiver für Helfer zu werden?</strong><br>a) Sie bezahlen hohe Gehälter. b) Sie bieten kostenlose Fortbildungen oder Fahrtgeld an. c) Sie verbieten den Eltern zuzuschauen.</div>
+    <div><strong>10. Was wäre eine Folge, wenn es keine Ehrenamtlichen mehr gäbe?</strong><br>a) Die Vereine würden reicher werden. b) Die Kosten für die Mitglieder würden stark ansteigen. c) Kinder dürften nicht mehr Fußball spielen.</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Leseverstehen <span style='color:#999;'>Teil 3</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; display:flex; flex-direction:column; gap:12px; font-size:0.95rem;'>
+    <div><strong>11</strong> Sie suchen ein günstiges, gebrauchtes Mountainbike für Bergtouren.</div>
+    <div><strong>12</strong> Sie möchten in einer Gruppe im Park joggen gehen.</div>
+    <div><strong>13</strong> Sie suchen einen Tennisclub, der Schnupperstunden für Anfänger anbietet.</div>
+    <div><strong>14</strong> Sie möchten Tauchen lernen und suchen einen Kurs für den nächsten Urlaub.</div>
+    <div><strong>15</strong> Sie suchen Informationen über die Öffnungszeiten des Freibads.</div>
+    <div><strong>16</strong> Sie möchten wissen, wo man in der Stadt Tischtennis spielen kann.</div>
+    <div><strong>17</strong> Sie suchen einen Reitstall, der Ponyreiten für kleine Kinder anbietet.</div>
+    <div><strong>18</strong> Sie möchten an einem Selbstverteidigungskurs für Frauen teilnehmen.</div>
+    <div><strong>19</strong> Sie suchen einen Laden, der Wanderschuhe repariert oder neu besohlt.</div>
+    <div><strong>20</strong> Sie möchten sich über die Anmeldung zum nächsten Stadtlauf informieren.</div>
+  </div>
+
+  <div style='display:flex; flex-direction:column; gap:10px; font-size:0.85rem;'>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>a</strong> Lauf-Treff: Gemeinsam durch den Stadtwald. Jeden Di & Do, 18 Uhr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>b</strong> Tennis-Center: Kostenlose Probestunde für Neulinge jeden Samstag.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>c</strong> Deep-Blue: Dein Weg zum Tauchschein. Theorie und Praxis im Pool.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>d</strong> Sport-Börse: Große Auswahl an gebrauchten Rädern, Skiern und mehr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>e</strong> City-Bad: Sommeröffnungszeiten Mai-Sept: 8:00 bis 20:00 Uhr.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>f</strong> Reiterhof Ponyglück: Geführtes Reiten für Kids ab 4 Jahren.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>g</strong> Power-Frauen: Krav Maga und Selbstverteidigung. Neuer Kurs startet bald.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>h</strong> Schuh-Klinik: Wir reparieren Ihre Berg- und Trekkingschuhe fachgerecht.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>i</strong> Marathon-Office: Hier finden Sie alle Infos zur Online-Registrierung.</div>
+    <div style='background:#e8e8e8; padding:10px; border-radius:4px;'><strong>j</strong> Sport-Arena: Große Halle für Basketball, Volleyball ve Handball.</div>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #f39c12; background:#fef9e7; border-radius:12px;'>
+  <h3>📝 Lösungen - B1 Lesen Set 12</h3>
+  <strong>Teil 1:</strong> 1-b, 2-a, 3-h, 4-e, 5-j<br>
+  <strong>Teil 2:</strong> 6-b, 7-b, 8-b, 9-b, 10-b<br>
+  <strong>Teil 3:</strong> 11-d, 12-a, 13-b, 14-c, 15-e, 16-x, 17-f, 18-g, 19-h, 20-i
+</div>
+`
+    },
+
+
+
+
+
+
+    //sprachbausteine
+
+    {
+        id: 410,
+        type: "TELC",
+        level: "B1",
+        category: "Sprachbausteine",
+        title: "B1 Sprachbausteine – Ein formeller Brief",
+        content: `
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Sprachbausteine <span style='color:#999;'>Teil 1</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a, b oder c) in die Lücken 1–10 passt.</p>
+  </div>
+
+  <div style='border:1px solid #ccc; padding:25px; background:#f9f9f9; border-radius:5px; color:#333; margin-bottom:25px;'>
+    <div style='text-align:right; margin-bottom:20px;'>München, den 24. Mai 2026</div>
+    
+    <p>Sehr geehrte Damen und Herren,</p>
+    
+    <p>ich schreibe Ihnen, <strong>(1)</strong> ______ ich mich über Ihren Service beschweren möchte. Vor einer Woche habe ich bei Ihnen einen Laptop <strong>(2)</strong> ______. In Ihrer Werbung hieß es, dass das Gerät innerhalb <strong>(3)</strong> ______ zwei Werktagen geliefert wird.</p>
+    
+    <p>Leider <strong>(4)</strong> ______ das Paket erst gestern bei mir an. Als ich den Laptop auspackte, musste ich feststellen, dass der Bildschirm <strong>(5)</strong> ______ ist. Ich habe sofort versucht, Ihren Kundenservice telefonisch zu erreichen, aber <strong>(6)</strong> ______ war die Leitung immer besetzt.</p>
+    
+    <p>Da ich das Gerät dringend für <strong>(7)</strong> ______ Arbeit brauche, bin ich sehr enttäuscht. Ich möchte Sie bitten, mir so schnell wie möglich ein neues Gerät zu schicken <strong>(8)</strong> ______ mir mein Geld zurückzuerstatten.</p>
+    
+    <p>Über eine schnelle Antwort von Ihnen würde ich mich sehr <strong>(9)</strong> ______. Falls ich bis Freitag nichts von Ihnen höre, werde ich meinen Anwalt <strong>(10)</strong> ______.</p>
+    
+    <p>Mit freundlichen Grüßen<br>
+    Max Müller</p>
+  </div>
+
+  <div style='display:grid; grid-template-columns: 1fr 1fr; gap:10px; font-size:0.9rem;'>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>1.</strong> a) denn | b) weil | c) deshalb</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>2.</strong> a) bestellt | b) bestellen | c) bestelle</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>3.</strong> a) von | b) in | c) an</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>4.</strong> a) kommt | b) kam | c) kommen</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>5.</strong> a) kaputt | b) kaputter | c) kaputtes</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>6.</strong> a) niemals | b) leider | c) gerne</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>7.</strong> a) mein | b) meine | c) meinen</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>8.</strong> a) oder | b) aber | c) sondern</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>9.</strong> a) freuen | b) freue | c) gefreut</div>
+    <div style='background:#f1f1f1; padding:8px; border-radius:3px;'><strong>10.</strong> a) informieren | b) informiert | c) informierte</div>
+  </div>
+</div>
+
+<div style='margin-bottom:25px; background:#fff; padding:20px; border-radius:8px; line-height: 1.5; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 8px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Sprachbausteine <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Lesen Sie den Text und finden Sie für jede Lücke (11–20) das passende Wort aus der Liste (a–o). Jedes Wort kann nur einmal verwendet werden.</p>
+  </div>
+
+  <div style='border:1px solid #ddd; padding:20px; border-radius:5px; margin-bottom:20px; color:#444;'>
+    <p>Liebe Sarah,</p>
+    <p>wie geht es dir? Ich habe schon lange nichts mehr <strong>(11)</strong> ______ dir gehört. Ich hoffe, dass du dich in deiner neuen Wohnung schon gut <strong>(12)</strong> ______ hast. </p>
+    <p>Ich schreibe dir, <strong>(13)</strong> ______ ich dich gerne zu meiner Geburtstagsparty einladen möchte. Die Feier findet am nächsten Samstag <strong>(14)</strong> ______ Garten statt. Ich habe viele Freunde eingeladen und hoffe, dass das Wetter schön <strong>(15)</strong> ______. </p>
+    <p>Es wäre toll, wenn du <strong>(16)</strong> ______ könntest. Du kannst natürlich auch deinen neuen Freund <strong>(17)</strong> ______. Gib mir bitte bis Mittwoch <strong>(18)</strong> ______, ob ihr kommen könnt, damit ich genug Essen und Getränke <strong>(19)</strong> ______ kann. </p>
+    <p>Ich freue mich <strong>(20)</strong> ______ unser Wiedersehen!</p>
+    <p>Viele Grüße<br>Julia</p>
+  </div>
+
+  <div style='display:flex; flex-wrap:wrap; gap:10px; background:#e8e8e8; padding:15px; border-radius:5px; font-weight:bold; font-size:0.9rem;'>
+    <span>a) an</span> <span>b) auf</span> <span>c) Bescheid</span> <span>d) bei</span> <span>e) bringt</span> <span>f) einlebt</span> <span>g) eingelebt</span> <span>h) im</span> <span>i) kaufen</span> <span>j) kommen</span> <span>k) mitbringen</span> <span>l) von</span> <span>m) weil</span> <span>n) wird</span> <span>o) zu</span>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#eafaf1; border-radius:12px;'>
+  <h3>✅ Lösungen & Erklärungen - Sprachbausteine</h3>
+  <strong>Teil 1:</strong> 1-b, 2-a, 3-a, 4-b, 5-a, 6-b, 7-b, 8-a, 9-a, 10-a<br>
+  <strong>Teil 2:</strong> 11-l (von), 12-g (eingelebt), 13-m (weil), 14-h (im), 15-n (wird), 16-j (kommen), 17-k (mitbringen), 18-c (Bescheid), 19-i (kaufen), 20-b (auf)
+  <hr style='margin:10px 0; border:0; border-top:1px solid #ccc;'>
+  <small><em>Not: Teil 2'de kelime listesinden (a-o) seçim yapılır. Örneğin 20. soruda "freuen auf" kalıbı kullanılmıştır.</em></small>
+</div>
+`
+    }, ,
+    {
+        id: 411,
+        type: "TELC",
+        level: "B1",
+        category: "Sprachbausteine",
+        title: "B1 Sprachbausteine Teil 2 – Einladung zur Party",
+        content: `
+<div style='background:#fff; padding:20px; border-radius:8px; line-height: 1.6; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 10px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Sprachbausteine <span style='color:#999;'>Teil 2</span>
+  </h2>
+  
+  <div style='margin-bottom:20px; font-size:0.9rem; font-style:italic;'>
+    <p>Lesen Sie den folgenden Text und entscheiden Sie, welches Wort (a–o) in die Lücken 21–30 passt. Sie können jedes Wort nur einmal verwenden.</p>
+  </div>
+
+  <div style='display:grid; grid-template-columns: repeat(5, 1fr); gap:8px; margin-bottom:25px; background:#f0f0f0; padding:15px; border-radius:5px; text-align:center; font-weight:bold;'>
+    <div>a) ALS</div><div>b) AM</div><div><div>c) DICH</div></div><div>d) DIR</div><div>e) EUCH</div>
+    <div>f) HABE</div><div>g) HAT</div><div>h) MEINE</div><div>i) MIR</div><div>j) MIT</div>
+    <div>k) NACH</div><div>l) SEIT</div><div>m) UND</div><div>n) VOR</div><div>o) WENN</div>
+  </div>
+
+  <div style='border:2px dashed #bbb; padding:25px; background:#fff; border-radius:5px; color:#333;'>
+    <p>Hallo Stefan,</p>
+    
+    <p>wie geht es <strong>(21)</strong> ______? Ich habe <strong>(22)</strong> ______ einer Ewigkeit nichts mehr von dir gehört. Ich hoffe, bei dir ist alles in Ordnung.</p>
+    
+    <p>Ich schreibe dir, weil ich nächste Woche <strong>(23)</strong> ______ Freitag meinen Geburtstag feiere. Ich <strong>(24)</strong> ______ eine kleine Party in meinem Garten geplant. Es wäre toll, <strong>(25)</strong> ______ du auch kommen könntest. Du kannst natürlich gerne deine Freundin <strong>(26)</strong> ______bringen.</p>
+    
+    <p>Wir fangen gegen 19 Uhr an <strong>(27)</strong> ______ wollen grillen. Ich kümmere <strong>(28)</strong> ______ um die Getränke und das Fleisch. Es wäre super, wenn du einen Salat oder einen Nachtisch mitbringen würdest. </p>
+    
+    <p>Sag mir bitte bis Mittwoch Bescheid, ob es bei <strong>(29)</strong> ______ klappt. Ich freue mich schon sehr darauf, <strong>(30)</strong> ______ mal wiederzusehen!</p>
+    
+    <p>Viele Grüße,<br>
+    Markus</p>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#ebf5fb; border-radius:12px;'>
+  <h3>✅ Lösungen & Analyse - Teil 2</h3>
+  <div style='display:grid; grid-template-columns: 1fr 1fr; gap:10px;'>
+    <div>21. <strong>d) DIR</strong> (wie geht es dir?)</div>
+    <div>22. <strong>l) SEIT</strong> (zaman ifadesi: -den beri)</div>
+    <div>23. <strong>b) AM</strong> (günlerden önce: am Freitag)</div>
+    <div>24. <strong>f) HABE</strong> (Perfekt: habe ... geplant)</div>
+    <div>25. <strong>o) WENN</strong> (koşul: ...olsaydı harika olurdu)</div>
+    <div>26. <strong>j) MIT</strong> (ayrılan fiil: mitbringen)</div>
+    <div>27. <strong>m) UND</strong> (bağlaç: ve)</div>
+    <div>28. <strong>i) MIR</strong> (Reflexiv: sich um etwas kümmern)</div>
+    <div>29. <strong>e) EUCH</strong> (Sizlerde/sizde: bei euch)</div>
+    <div>30. <strong>c) DICH</strong> (Akkusativ: jemanden wiedersehen)</div>
+  </div>
+  <p style='margin-top:15px; font-size:0.9rem; color:#555;'><strong>Strateji:</strong> Bu bölümde önce emin olduklarını yerleştir. Kalan boşluklarda cümlenin dil bilgisi yapısına (Akkusativ mi Dativ mi?) dikkat et.</p>
+</div>
+`
+    },
+    {
+        id: 412,
+        type: "TELC",
+        level: "B1",
+        category: "Schreiben",
+        title: "B1 Schreiben – E-Mail schreiben (Beschwerde)",
+        content: `
+<div style='background:#fff; padding:20px; border-radius:8px; line-height: 1.6; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 10px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Schreiben <span style='color:#999;'>Teil 1</span>
+  </h2>
+
+  <div style='background:#fff4e5; border-left:5px solid #ffa500; padding:20px; margin-bottom:25px; border-radius:4px;'>
+    <p style='margin-top:0;'><strong>Die Situation:</strong></p>
+    <p>Sie haben im Internet ein gebrauchtes Fahrrad gekauft. In der Anzeige stand: <em>"Fahrrad in top Zustand, wie neu, sofort fahrbereit"</em>. Als das Fahrrad geliefert wurde, haben Sie jedoch bemerkt, dass die Reifen kaputt sind und die Bremsen nicht funktionieren.</p>
+    
+    <p><strong>Ihre Aufgabe:</strong></p>
+    <p>Schreiben Sie eine E-Mail an den Verkäufer (Herrn Wagner). Behandeln Sie darin die folgenden Punkte:</p>
+    <ul style='font-size:0.95rem;'>
+      <li>Grund des Schreibens.</li>
+      <li>Was genau am Fahrrad kaputt ist.</li>
+      <li>Dass Sie enttäuscht sind (Vergleich mit der Anzeige).</li>
+      <li>Was der Verkäufer jetzt tun soll (Vorschlag/Lösung).</li>
+    </ul>
+  </div>
+
+  <div style='margin-top:20px; padding:15px; background:#f0f7ff; border-radius:8px; border:1px solid #cce5ff;'>
+    <h4 style='margin-top:0; color:#0056b3;'>💡 Wichtige Formeln (Önemli Kalıplar)</h4>
+    <ul style='font-size:0.9rem; color:#333;'>
+      <li><strong>Einleitung:</strong> Ich schreibe Ihnen, weil ich bei Ihnen ein ... gekauft habe.</li>
+      <li><strong>Problem:</strong> Leider entspricht das Produkt nicht der Beschreibung.</li>
+      <li><strong>Beschwerde:</strong> In der Anzeige stand, dass ..., aber in Wirklichkeit ...</li>
+      <li><strong>Forderung:</strong> Ich möchte Sie bitten, mir die Reparaturkosten zu bezahlen / das Geld zurückzuerstatten.</li>
+      <li><strong>Schluss:</strong> Ich erwarte Ihre Antwort bis zum [Datum].</li>
+    </ul>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #e67e22; background:#fef5e7; border-radius:12px;'>
+  <h3>📝 Musterlösung (Örnek Çözüm)</h3>
+  <div style='font-family: "Courier New", Courier, monospace; font-size: 0.95rem;'>
+    <p>Sehr geehrter Herr Wagner,</p>
+    <p>ich schreibe Ihnen, weil ich mich über das Fahrrad beschweren möchte, das ich letzte Woche bei Ihnen gekauft habe.</p>
+    <p>In Ihrer Anzeige stand, dass das Fahrrad in einem Top-Zustand und wie neu ist. Leider stimmt das nicht. Als ich das Fahrrad erhalten habe, musste ich feststellen, dass beide Reifen kaputt sind. Außerdem funktionieren die Bremsen überhaupt nicht. Das ist sehr gefährlich und das Fahrrad ist so nicht fahrbereit.</p>
+    <p>Ich bin sehr enttäuscht, da die Beschreibung in der Anzeige falsch war. Ich möchte das Fahrrad behalten, aber ich muss es reparieren lassen. Deshalb bitte ich Sie, mir einen Teil des Geldes (50 Euro) für die Reparatur zurückzuerstatten.</p>
+    <p>Bitte geben Sie mir bis Ende der Woche Bescheid, ob Sie damit einverstanden sind.</p>
+    <p>Mit freundlichen Grüßen<br>
+    [Sizin Adınız]</p>
+  </div>
+  <hr style='margin:15px 0; border:0; border-top:1px solid #ccc;'>
+  <p style='font-size:0.85rem;'><strong>Hoca Notu:</strong> Sınavda en az 3 noktaya değinmeyi unutmayın. Giriş ve kapanış selamlamaları puan için kritiktir!</p>
+</div>
+`
+    },
+    {
+        id: 413,
+        type: "TELC",
+        level: "B1",
+        category: "Sprechen",
+        title: "B1 Sprechen – Bildbeschreibung & Planung",
+        content: `
+<div style='background:#fff; padding:20px; border-radius:8px; line-height: 1.6; font-family:Arial, sans-serif;'>
+  <h2 style='margin:0 0 10px 0; font-size:1.3rem; color:#000; font-weight:bold;'>
+    Mündliche Prüfung <span style='color:#999;'>Teil 2 & 3</span>
+  </h2>
+
+  <div style='background:#f8f9fa; border:1px solid #dee2e6; padding:20px; margin-bottom:25px; border-radius:8px;'>
+    <h3 style='margin-top:0; color:#2c3e50; font-size:1.1rem;'>📷 Teil 2: Ein Bild beschreiben</h3>
+    <p style='font-size:0.95rem;'><strong>Situation:</strong> Beschreiben Sie, was Sie auf dem Bild sehen und äußern Sie Ihre Meinung dazu.</p>
+    
+    <div style='background:#fff; border:2px dashed #3498db; height:150px; display:flex; align-items:center; justify-content:center; margin-bottom:15px; border-radius:4px; color:#3498db;'>
+      [Bild-Beispiel: Menschen im Supermarkt mit Plastiktüten / Stoffbeuteln]
+    </div>
+
+    <div style='display:grid; grid-template-columns: 1fr 1fr; gap:15px; font-size:0.85rem;'>
+      <div style='background:#e8f4fd; padding:10px; border-radius:4px;'>
+        <strong>Was sehe ich?</strong>
+        <ul style='padding-left:15px; margin:5px 0;'>
+          <li>Auf dem Bild sehe ich...</li>
+          <li>Im Vordergrund / Hintergrund gibt es...</li>
+          <li>Die Leute sehen glücklich/gestresst aus.</li>
+        </ul>
+      </div>
+      <div style='background:#e8f4fd; padding:10px; border-radius:4px;'>
+        <strong>Meinung & Erfahrung</strong>
+        <ul style='padding-left:15px; margin:5px 0;'>
+          <li>Ich denke, dass...</li>
+          <li>In meinem Heimatland ist das so...</li>
+          <li>Meiner Meinung nach ist das wichtig.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div style='background:#fff4f4; border-left:5px solid #e74c3c; padding:20px; border-radius:4px;'>
+    <h3 style='margin-top:0; color:#c0392b; font-size:1.1rem;'>📅 Teil 3: Etwas gemeinsam planen</h3>
+    <p style='font-size:0.95rem;'><strong>Situation:</strong> Ein Freund aus Ihrem Deutschkurs liegt im Krankenhaus. Sie möchten ihn zusammen besuchen und ein Geschenk mitbringen.</p>
+    
+    <p style='font-weight:bold; font-size:0.9rem; margin-bottom:5px;'>Besprechen Sie folgende Punkte:</p>
+    <ul style='font-size:0.9rem; margin-top:0;'>
+      <li>Wann besuchen wir ihn?</li>
+      <li>Was schenken wir ihm?</li>
+      <li>Wie kommen wir dorthin?</li>
+      <li>Wer kauft das Geschenk?</li>
+    </ul>
+  </div>
+</div>
+`,
+        answer: `
+<div style='padding:20px; border-left:5px solid #27ae60; background:#f1f9f5; border-radius:12px;'>
+  <h3>🗣️ Redemittel & Strategie (Konuşma Kalıpları)</h3>
+  
+  <p><strong>Vorschläge machen (Öneri sunma):</strong></p>
+  <ul style='font-size:0.9rem;'>
+    <li>"Was hältst du davon, wenn wir am Samstag gehen?"</li>
+    <li>"Ich schlage vor, dass wir Blumen kaufen."</li>
+  </ul>
+
+  <p><strong>Zustimmen (Onaylama):</strong></p>
+  <ul style='font-size:0.9rem;'>
+    <li>"Das ist eine gute Idee!" / "Ganz genau."</li>
+    <li>"Einverstanden. Das machen wir so."</li>
+  </ul>
+
+  <p><strong>Ablehnen/Gegenvorschlag (Reddetme/Karşı öneri):</strong></p>
+  <ul style='font-size:0.9rem;'>
+    <li>"Ich bin mir nicht sicher. Vielleicht sollten wir lieber..."</li>
+    <li>"Das geht leider nicht, weil ich arbeiten muss. Wie wäre es mit..."</li>
+  </ul>
+
+  <p style='margin-top:10px; font-weight:bold; color:#27ae60;'>Prüfer-Tipp:</p>
+  <p style='font-size:0.85rem; margin-top:0;'>Sınavda partnerinizin sözünü kesmeyin ama pasif de kalmayın. "Was denkst du?" diyerek topu ona atın. Bu etkileşim size yüksek puan getirir!</p>
 </div>
 `
     }
