@@ -500,30 +500,67 @@ window.examData = [
         title: "A1 Leseverstehen - Vollständige Prüfung",
         content: `
       <!-- TEIL 1 -->
-      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff;'>
-        <h3 style='margin-top:0; color:var(--secondary); font-size:1.3rem; border-bottom:1px solid #f5f5f5; padding-bottom:10px;'>Teil 1</h3>
-        <p style='color:#666; font-size:0.95rem; margin-bottom:15px;'>Lesen Sie die Überschriften a–d und die Texte 1–3. Welche Überschrift passt zu welchem Text?</p>
-        
-        <div style='background:var(--light); padding:12px; margin:15px 0; border-radius:8px; font-size:0.9rem;'>
-          <strong>Überschriften:</strong><br>
-          <div style='margin-top:8px; display:grid; grid-template-columns:1fr 1fr; gap:8px;'>
-            <span>a) Der Winter ist da!</span>
-            <span>b) Obst und Gemüse im Winter</span>
-            <span>c) Raucher sind oft krank</span>
-            <span>d) Hohe Preise für Fahrkarten</span>
+      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff; line-height: 1.5;'>
+        <h2 style='margin-top:0; font-size:1.4rem; color:#333; margin-bottom:10px;'>4 Lesen, Teil 1</h2>
+        <p style='margin-bottom:15px; font-weight: 400;'>Lesen Sie die Überschriften a–d und die Texte 1–3. Welche Überschrift passt zu welchem Text?<br><br>
+        <em>Kreuzen Sie die richtige Lösung (a, b, c oder d) auf dem Antwortbogen an.</em></p>
+
+        <!-- Headlines section -->
+        <div style='margin-bottom:30px; display: flex; flex-direction: column; gap: 15px;'>
+          <div style='display: flex; align-items: center; gap: 15px;'>
+            <span style='font-weight: bold; font-size: 1.1rem; width: 15px;'>a</span>
+            <div style='background: #ebebeb; padding: 10px 20px; border-radius: 2px; font-weight: bold; font-size: 1.2rem; flex: 1; max-width: 320px;'>Der Winter ist da!</div>
+          </div>
+          <div style='display: flex; align-items: center; gap: 15px;'>
+            <span style='font-weight: bold; font-size: 1.1rem; width: 15px;'>b</span>
+            <div style='background: #ebebeb; padding: 10px 20px; border-radius: 2px; font-weight: bold; font-style: italic; font-size: 1.2rem; flex: 1; max-width: 320px;'>Obst und Gemüse im Winter</div>
+          </div>
+          <div style='display: flex; align-items: center; gap: 15px;'>
+            <span style='font-weight: bold; font-size: 1.1rem; width: 15px;'>c</span>
+            <div style='background: #ebebeb; padding: 10px 20px; border-radius: 2px; font-weight: bold; font-size: 1.2rem; flex: 1; max-width: 320px;'>Raucher sind oft krank</div>
+          </div>
+          <div style='display: flex; align-items: center; gap: 15px;'>
+            <span style='font-weight: bold; font-size: 1.1rem; width: 15px;'>d</span>
+            <div style='background: #ebebeb; padding: 10px 20px; border-radius: 2px; font-weight: bold; font-size: 1.2rem; flex: 1; max-width: 320px;'>Hohe Preise für Fahrkarten</div>
           </div>
         </div>
 
-        <div style='margin:15px 0; font-size:0.9rem;'>
-          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
-            <strong>1.</strong> Der kalte Sommer macht das Leben im Winter teuer. Es gibt weniger Äpfel und Erdäpfel. Gesunde Lebensmittel kosten heuer viel Geld.
+        <!-- Texts section -->
+        <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 20px;'>
+          <!-- Text 1 -->
+          <div style='position: relative; padding-left: 25px;'>
+            <span style='position: absolute; left: 0; top: 0; font-weight: bold; font-size: 1.1rem;'>1</span>
+            <div style='background: #ebebeb; border-radius: 2px; min-height: 140px;'>
+              <div style='height: 40px; border-bottom: 1px solid #c0c0c0;'></div>
+              <div style='padding: 15px; font-size: 0.95rem;'>
+                Der kalte Sommer macht das Leben im Winter teuer. Es gibt weniger Äpfel und Erdäpfel. Gesunde Lebensmittel kosten heuer viel Geld. Da kann man leider nichts machen.
+              </div>
+            </div>
           </div>
-          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
-            <strong>2.</strong> Der Winter kommt, die Tickets für Bus, Straßenbahn und U-Bahn werden teuer. In ganz Österreich müssen die Kunden mehr Geld dafür bezahlen.
+          <!-- Text 2 -->
+          <div style='position: relative; padding-left: 25px;'>
+            <span style='position: absolute; left: 0; top: 0; font-weight: bold; font-size: 1.1rem;'>2</span>
+            <div style='background: #ebebeb; border-radius: 2px; min-height: 140px;'>
+              <div style='height: 40px; border-bottom: 1px solid #c0c0c0;'></div>
+              <div style='padding: 15px; font-size: 0.95rem;'>
+                Der Winter kommt, die Tickets für Bus, Straßenbahn und U-Bahn werden teuer. In ganz Österreich müssen die Kunden mehr Geld dafür bezahlen. Das ist in diesem Jahr so wie im letzten Jahr.
+              </div>
+            </div>
           </div>
-          <div style='margin-bottom:12px; padding:10px; border:1px solid #f0f0f0; border-radius:6px;'>
-            <strong>3.</strong> Wer viele Zigaretten raucht, muss oft zum Arzt, gerade im kalten Winter. Ärzte empfehlen: Weniger Zigaretten rauchen, mehr Obst essen.
+        </div>
+
+        <div style='display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-bottom: 30px;'>
+          <!-- Text 3 -->
+          <div style='position: relative; padding-left: 25px;'>
+            <span style='position: absolute; left: 0; top: 0; font-weight: bold; font-size: 1.1rem;'>3</span>
+            <div style='background: #ebebeb; border-radius: 2px; min-height: 140px;'>
+              <div style='height: 40px; border-bottom: 1px solid #c0c0c0;'></div>
+              <div style='padding: 15px; font-size: 0.95rem;'>
+                Wer viele Zigaretten raucht, muss oft zum Arzt, gerade im kalten Winter. Ärzte empfehlen: Weniger Zigaretten rauchen, mehr Obst und Gemüse essen. Schon ein Apfel am Tag hilft!
+              </div>
+            </div>
           </div>
+          <div></div> <!-- Empty for alignment -->
         </div>
 
         <div style='padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:12px; margin-top:20px;'>
@@ -537,21 +574,36 @@ window.examData = [
       </div>
 
       <!-- TEIL 2 -->
-      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff;'>
-        <h3 style='margin-top:0; color:var(--secondary); font-size:1.3rem; border-bottom:1px solid #f5f5f5; padding-bottom:10px;'>Teil 2</h3>
-        <p style='color:#666; font-size:0.95rem; margin-bottom:15px;'>E-Mail von der Lehrerin Lisa.</p>
+      <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff; line-height: 1.5;'>
+        <h2 style='margin-top:0; font-size:1.4rem; color:#333; margin-bottom:10px;'>4 Lesen, Teil 2</h2>
+        <p style='margin-bottom:15px; font-weight: 400;'>Sie bekommen ein E-Mail von der Lehrerin im Deutschkurs.<br><br>
+        <em>Lesen Sie den Text.</em></p>
         
-        <div style='background:#fafafa; padding:15px; border:1px solid #f0f0f0; border-radius:8px; font-size:0.95rem; line-height:1.6;'>
-          Hallo an alle! Wir treffen uns morgen, Dienstag, um 15 Uhr vor der Schule und fahren in die Stadt zum Stadt-Museum. 
-          Bitte bringt 5 Euro für Eintritt und Fahrschein mit. Bücher brauchen wir morgen nicht. Am Donnerstag ist wieder normaler Unterricht.
+        <div style='background:#e7e7e7; padding:30px; border:1px solid #999; border-radius:2px; font-size:1.1rem; color:#333; margin-bottom:25px;'>
+          Hallo an alle aus dem Deutschkurs!<br><br>
+          Wir treffen uns morgen, Dienstag, um 15 Uhr vor der Schule und fahren in die Stadt. Wir besuchen das Stadt-Museum. Bitte bringt 5 Euro für den Eintritt und den Fahrschein mit. Die Deutschbücher brauchen wir morgen nicht. Am Donnerstag um 15 Uhr ist wieder normaler Unterricht.<br><br>
+          Ich freue mich auf morgen!<br><br>
+          Viele Grüße<br><br>
+          Eure Deutschlehrerin Lisa
         </div>
 
-        <div style='padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:12px; margin-top:20px;'>
+        <p style='margin-bottom:20px;'><em>Lesen Sie die Sätze 4–6. Kreuzen Sie die richtige Lösung (richtig oder falsch) auf dem Antwortbogen an.</em></p>
+
+        <div style='padding:15px; border-left:4px solid var(--secondary); background:#fffcfc; border-radius:12px;'>
           <strong style='color:var(--secondary);'>Richtig oder Falsch?</strong>
-          <div style='margin-top:8px; font-size:0.95rem;'>
-            <p style='margin:8px 0;'><strong>4.</strong> Treffen um 15 Uhr am Museum.</p>
-            <p style='margin:8px 0;'><strong>5.</strong> Eintritt und Ticket kosten zusammen 5 Euro.</p>
-            <p style='margin:8px 0;'><strong>6.</strong> Donnerstag ist kein Unterricht.</p>
+          <div style='margin-top:15px; font-size:1rem;'>
+            <div style='margin-bottom:20px;'>
+              <strong>4</strong> Sie sollen morgen um 15 Uhr zum Museum kommen.<br>
+              <span style='font-size:0.85rem; color:#666; margin-left:20px;'>richtig/falsch?</span>
+            </div>
+            <div style='margin-bottom:20px;'>
+              <strong>5</strong> Eintritt und Fahrschein kosten 10 Euro.<br>
+              <span style='font-size:0.85rem; color:#666; margin-left:20px;'>richtig/falsch?</span>
+            </div>
+            <div style='margin-bottom:10px;'>
+              <strong>6</strong> Am Donnerstag müssen Sie keine Bücher mitbringen.<br>
+              <span style='font-size:0.85rem; color:#666; margin-left:20px;'>richtig/falsch?</span>
+            </div>
           </div>
         </div>
       </div>
