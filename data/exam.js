@@ -8579,4 +8579,2318 @@ window.examData = [
 </div>
 `
   }
+  ,
+  {
+    id: 414,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Smart Home & Energie",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Überschriften. Lesen Sie dann die fünf Texte und entscheiden Sie, welche Überschrift (a–j) am besten zu welchem Text (1–5) passt. Tragen Sie Ihre Lösungen in den Antwortbogen bei den Aufgaben 1–5 ein.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Hohe Kosten für smarte Technik schrecken Käufer ab</li>
+      <li><strong>b</strong> Wie man mit intelligenter Heizung Geld spart</li>
+      <li><strong>c</strong> Smart Homes sind anfällig für Hackerangriffe</li>
+      <li><strong>d</strong> Der Kühlschrank bestellt automatisch Milch</li>
+      <li><strong>e</strong> Einfache Installation auch für Laien möglich</li>
+      <li><strong>f</strong> Ältere Menschen profitieren von Assistenzsystemen</li>
+      <li><strong>g</strong> Stromausfall legt das ganze Haus lahm</li>
+      <li><strong>h</strong> Sprachsteuerung ist nicht immer zuverlässig</li>
+      <li><strong>i</strong> Vernetzte Rauchmelder retten Leben</li>
+      <li><strong>j</strong> Datenschutz im vernetzten Zuhause oft vernachlässigt</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <!-- Text 1 -->
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #3498db; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Früher musste man ein studierter Technik-Experte oder Informatiker sein, um sein eigenes Haus zu automatisieren. Diese Zeiten sind glücklicherweise vorbei. Heute gibt es intuitiv bedienbare Systeme, die wirklich jeder Laie ohne Vorkenntnisse einrichten kann. "Plug & Play" heißt das neue Zauberwort der Branche: Man steckt einfach den entsprechenden Adapter in die Steckdose, verbindet ihn in wenigen Sekunden per App mit dem heimischen WLAN, und schon kann man die Stehlampe bequem vom Sofa aus oder sogar von unterwegs steuern. Auch komplexe Geräte wie intelligente Thermostate lassen sich inzwischen oft völlig ohne Spezialwerkzeug austauschen. Die Hersteller haben endlich erkannt, dass übermäßige Komplexität der größte Feind des Smart Homes war und setzen nun auf Benutzerfreundlichkeit.
+      </div>
+    </div>
+
+    <!-- Text 2 -->
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #3498db; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Angesichts stetig steigender Energiepreise suchen viele besorgte Hausbesitzer händeringend nach effizienten Lösungen, um ihre Nebenkosten zu senken. Eine intelligente Heizungssteuerung kann hier wahre Wunder wirken: Sie erkennt mittels Geofencing automatisch, wenn der letzte Bewohner das Haus verlässt, und senkt daraufhin die Temperatur in allen Räumen ab. Smarte Sensoren an den Fenstern melden zudem sofort, wenn zum Lüften geöffnet wird, woraufhin sich die Heizkörper temporär ausschalten. Unabhängige Studien haben eindrucksvoll belegt, dass durchschnittliche Haushalte auf diese Weise bis zu 30% ihrer jährlichen Heizkosten einsparen können, ohne dabei auch nur im Geringsten auf ihren gewohnten Wohnkomfort verzichten zu müssen. Die Investition amortisiert sich daher meist schon nach sehr kurzer Zeit.
+      </div>
+    </div>
+
+    <!-- Text 3 -->
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #3498db; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein in der öffentlichen Diskussion oft völlig übersehener, aber immens wichtiger Aspekt des "Smart Living" ist die wertvolle Unterstützung im fortgeschrittenen Alter. Intelligente Sensoren, die bspw. unauffällig im Bodenbelag integriert sind, können Stürze registrieren und daraufhin vollautomatisch Angehörige oder im Ernstfall den Notarzt alarmieren. Auch moderne Herdüberwachungen, die den Ofen selbstständig ausschalten, wenn er versehentlich vergessen wurde, erhöhen die Sicherheit beträchtlich. Diese technologischen Helfer ermöglichen es vielen Senioren, deutlich länger selbstbestimmt und sicher in ihren eigenen vier Wänden zu leben, anstatt frühzeitig in ein Pflegeheim umziehen zu müssen.
+      </div>
+    </div>
+
+    <!-- Text 4 -->
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #3498db; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Doch die schöne neue, vernetzte Welt hat leider auch ihre Schattenseiten, die man nicht ignorieren darf. IT-Sicherheitsexperten warnen eindringlich davor, dass viele dieser smarten Geräte permanent sensible Daten an die Hersteller senden. Wer wann das Licht anschaltet, welche Fernsehsendung man bevorzugt oder wann man das Haus verlässt – all das wird potenziell gespeichert und ausgewertet. Hinzu kommt, dass die Passwörter vieler Geräte ab Werk oft erschreckend unsicher voreingestellt sind und somit ein leichtes Ziel für Hacker bieten. Verbraucherschützer fordern daher seit Langem strengere gesetzliche Regeln und Sicherheitsstandards, damit das eigene Zuhause nicht ungewollt zur gläsernen Überwachungszentrale wird.
+      </div>
+    </div>
+
+    <!-- Text 5 -->
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #3498db; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Stellen Sie sich folgendes Szenario vor: Sie kommen nach einem langen Arbeitstag nach Hause, und Ihre Wohnung steht bereits in Flammen. Ein absoluter Albtraum für jeden. Vernetzte, smarte Warnsysteme bieten hier einen entscheidenden Vorteil: Sie schlagen im Brandfall nicht nur vor Ort laut Alarm, sondern schicken auch sofort eine Push-Nachricht auf Ihr Smartphone – ganz egal, wo Sie sich gerade befinden. Einige fortschrittliche Systeme können sogar automatisch mit smarten Lampen den Fluchtweg beleuchten oder elektrische Rollläden öffnen, damit der giftige Rauch schneller abziehen kann. Diese innovative Technik bietet somit ein deutliches Plus an Sicherheit, das im Ernstfall Leben retten kann.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-e, 2-b, 3-f, 4-j, 5-i"
+  },
+  {
+    id: 415,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Neue Arbeitswelten",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Überschriften. Lesen Sie dann die fünf Texte und entscheiden Sie, welche Überschrift passt.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Coworking-Spaces werden auf dem Land beliebter</li>
+      <li><strong>b</strong> Vier-Tage-Woche steigert Produktivität und Zufriedenheit</li>
+      <li><strong>c</strong> Chefs kontrollieren Mitarbeiter im Homeoffice stärker</li>
+      <li><strong>d</strong> Bürohunde verbessern das Betriebsklima</li>
+      <li><strong>e</strong> Meetings im Gehen sind gesünder und effektiver</li>
+      <li><strong>f</strong> Großraumbüros machen krank und unkonzentriert</li>
+      <li><strong>g</strong> Digitale Nomaden arbeiten am Strand</li>
+      <li><strong>h</strong> Kantinenessen wird gesünder und regionaler</li>
+      <li><strong>i</strong> Desk-Sharing spart Platz, nervt aber viele</li>
+      <li><strong>j</strong> KI ersetzt Routinejobs im Büro</li>
+    </ul>
+  </div>
+
+    <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        In einem viel beachteten Pilotprojekt in Großbritannien haben kürzlich 60 verschiedene Firmen testweise die wöchentliche Arbeitszeit reduziert, ohne dabei das Gehalt ihrer Angestellten zu kürzen. Das überraschende Ergebnis hat selbst die lautesten Kritiker zum Schweigen gebracht: Der Umsatz der Unternehmen blieb nicht nur stabil, sondern stieg in vielen Fällen sogar an, während sich die Zahl der Krankmeldungen fast halbierte. Die Angestellten berichteten einhellig von deutlich weniger Stress, einer gestiegenen Motivation und einer wesentlich besseren Work-Life-Balance. Viele der teilnehmenden Unternehmen haben bereits angekündigt, das 4-Tage-Modell nun dauerhaft beibehalten zu wollen, da gut ausgeruhte Mitarbeiter schlichtweg effizienter und kreativer arbeiten.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wer kennt diese Situation nicht? Man sitzt stundenlang in überheizten, schlecht gelüfteten Konferenzräumen, wird zunehmend müde und die Konzentration schwindet. "Walk and Talk" nennt sich deshalb der neueste Trend aus den USA: Besprechungen finden nicht mehr am Tisch, sondern beim gemeinsamen Spaziergang im Park oder um den Block statt. Die körperliche Bewegung an der frischen Luft bringt den Kreislauf in Schwung und fördert nachweislich das kreative Denken. Ein weiterer positiver Nebeneffekt ist, dass solche Termine meist deutlich kürzer und effektiver sind, da niemand Lust hat, bei Wind und Wetter stundenlang draußen zu stehen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Nicht nur in den großen Metropolen wie Berlin oder München, sondern zunehmend auch in kleinen Dörfern entstehen derzeit moderne Gemeinschaftsbüros, sogenannte Coworking-Spaces. Viele Pendler sparen sich durch diese Angebote die nervenaufreibende, tägliche Fahrt in die City und haben trotzdem eine professionelle Arbeitsumgebung mit moderner Ausstattung und Kollegen um sich. Diese Entwicklung stärkt die ländliche Infrastruktur enorm und belebt Ortskerne wieder, die sonst tagsüber oft wie ausgestorben wirkten. Voraussetzung für diesen Trend ist allerdings der flächendeckende Ausbau von schnellem Glasfaser-Internet auf dem Land.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Jeden Morgen im Büro erneut einen freien Schreibtisch suchen? Das ist in vielen modernen Großkonzernen inzwischen gelebte Realität. Feste Sitzplätze gibt es kaum noch, da viele Mitarbeiter ohnehin flexibel oder mobil arbeiten. Das Management sieht darin vor allem eine Chance, teure Mietkosten für Büroflächen einzusparen. Doch Arbeitspsychologen warnen vor den Folgen: Dem Menschen fehlt sein gewohntes "Nest". Das Foto der Familie oder die eigene Kaffeetasse am festen Platz gaben früher Sicherheit und ein Gefühl der Zugehörigkeit. Der tägliche, stille Kampf um den beliebten Fensterplatz sorgt heute stattdessen oft für schlechte Stimmung im Team.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Golden Retriever "Luna" gehört bei der Werbeagentur Meyer & Co. fast schon zum Inventar und wird von allen geliebt. Zahlreiche Studien belegen inzwischen wissenschaftlich, was die Mitarbeiter dort schon lange spüren: Tiere am Arbeitsplatz senken den allgemeinen Stresspegel erheblich. Wenn es im Projekt mal hektisch wird, reicht oft schon ein kurzes Streicheln des Hundes, um den Blutdruck zu senken und die Stimmung zu heben. Wichtig bei solchen Modellen ist aber immer, dass wirklich alle Kollegen ausdrücklich einverstanden sind und niemand im Büro unter einer Tierhaarallergie oder Angst vor Hunden leidet.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-b, 2-e, 3-a, 4-i, 5-d"
+  },
+  {
+    id: 416,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Mobilität der Zukunft",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie die Überschriften und Texte. Welche Zuordnung ist korrekt?
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> E-Scooter verursachen viele Unfälle in Innenstädten</li>
+      <li><strong>b</strong> Flugtaxis sollen bald Staus umfliegen</li>
+      <li><strong>c</strong> Kostenloser Nahverkehr als Modellprojekt</li>
+      <li><strong>d</strong> Carsharing lohnt sich nur für Wenigfahrer</li>
+      <li><strong>e</strong> Das Fahrrad als schnellstes Verkehrsmittel in der City</li>
+      <li><strong>f</strong> Diesel-Fahrverbote sorgen für saubere Luft</li>
+      <li><strong>g</strong> Autonomes Fahren macht den Führerschein überflüssig</li>
+      <li><strong>h</strong> Züge sind oft unpünktlich und überfüllt</li>
+      <li><strong>i</strong> Seilbahnen als Lösung für den Stadtverkehr</li>
+      <li><strong>j</strong> Ladesäulen für E-Autos fehlen auf dem Land</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e67e22; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Im kleinen Luxemburg muss heute niemand mehr ein Ticket kaufen, um mit Bus, Bahn oder Tram zu fahren. Der gesamte öffentliche Transport ist im ganzen Land komplett gratis. Die Regierung will mit dieser radikalen Maßnahme die Menschen dazu bewegen, das eigene Auto öfter stehen zu lassen. Auch viele deutsche Städte beobachten das Experiment mit großem Interesse. Kritiker wenden jedoch ein, dass für die meisten Pendler gar nicht der Preis das Hauptproblem sei, sondern vielmehr die schlechte Taktung, die Unzuverlässigkeit und fehlende Verbindungen am späten Abend oder auf dem Land.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e67e22; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Sie stehen mittlerweile fast überall chaotisch auf den Gehsteigen herum und liegen achtlos hingeworfen in Parks: Elektrische Tretroller sind in vielen europäischen Metropolen zum echten Ärgernis geworden. Die Notaufnahmen der Krankenhäuser melden eine besorgniserregend steigende Zahl von schweren Kopfverletzungen, weil die Nutzer oft leichtsinnig ohne Helm fahren oder sogar alkoholisiert unterwegs sind. Viele Städte reagieren nun endlich mit deutlich strengeren Regeln, richten feste Parkverbotszonen in der Innenstadt ein und verhängen hohe Bußgelder, um das Chaos auf den Bürgersteigen wieder in den Griff zu bekommen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e67e22; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Was in den Alpen seit Jahrzehnten ganz normal ist, könnte bald auch in deutschen Großstädten zum Alltag gehören. Da die Straßen hoffnungslos verstopft sind und neue U-Bahnen extrem teuer und langwierig zu bauen sind, planen Verkehrsplaner nun den Weg durch die Luft. Moderne Seilbahnen könnten Tausende Menschen lautlos, emissionsfrei und staufrei über den Dächern der Stadt transportieren. Ein entscheidender Vorteil dieses Systems ist, dass die Stationen und Stützen extrem wenig Platz am Boden beanspruchen und solche Projekte im direkten Vergleich zu Tunnelbauten sehr schnell und kostengünstig realisierbar sind.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e67e22; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Der alte Traum vom eigenen Auto als Statussymbol verblasst bei vielen jungen Städtern zusehends. Intuitive Apps machen es heute möglich, Autos verschiedener Anbieter minutenweise zu mieten, genau dann, wenn man sie braucht. Wer weniger als 10.000 Kilometer im Jahr fährt, spart mit solchen flexiblen Carsharing-Modellen bares Geld gegenüber dem Unterhalt eines eigenen PKWs. Man muss sich weder um die teure Versicherung noch um Reparaturen oder den Reifenwechsel kümmern. Allerdings ist die Verfügbarkeit von Fahrzeugen am Stadtrand oder in ländlichen Gebieten oft noch ein großes Problem.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e67e22; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        In der morgendlichen Rushhour steht oft alles still – nur auf dem Radweg rollt der Verkehr flüssig vorbei. Auf kurzen Strecken bis zu fünf Kilometern ist das Velo in der verstopften Stadt oft unschlagbar schnell. Mit dem massiven Ausbau von breiten Radschnellwegen soll das Pendeln für Arbeitnehmer nun noch attraktiver und sicherer werden. Moderne E-Bikes sorgen zudem dafür, dass man auch im Anzug oder bei Gegenwind nicht völlig verschwitzt im Büro ankommt. Einziger Wermutstropfen bleibt leider die extrem hohe Diebstahlrate, die viele davon abhält, in ein teures Rad zu investieren.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-c, 2-a, 3-i, 4-d, 5-e"
+  },
+  {
+    id: 417,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Ernährungstrends",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Insekten als Proteinquelle der Zukunft</li>
+      <li><strong>b</strong> Vegan ist nicht automatisch gesund</li>
+      <li><strong>c</strong> Fast Food macht Kinder krank</li>
+      <li><strong>d</strong> Intervallfasten hilft beim Abnehmen ohne Diät</li>
+      <li><strong>e</strong> Kochen mit regionalen Zutaten liegt im Trend</li>
+      <li><strong>f</strong> Zuckersteuer soll Konsum reduzieren</li>
+      <li><strong>g</strong> Nahrungsergänzungsmittel sind oft überflüssig</li>
+      <li><strong>h</strong> Lebensmittelverschwendung nimmt zu</li>
+      <li><strong>i</strong> Laborfleisch schützt das Klima</li>
+      <li><strong>j</strong> Superfoods: Wundermittel oder Marketing?</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #8e44ad; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Chia-Samen aus Südamerika, Goji-Beeren aus Asien – sogenannte "Superfoods" versprechen ewige Jugend, Schönheit und Gesundheit. Doch unabhängige Verbraucherschützer mahnen immer wieder zur Skepsis. Oft sind heimische Alternativen wie Leinsamen, Nüsse oder schwarze Johannisbeeren mindestens genauso nährstoffreich, aber dabei deutlich günstiger im Preis und ökologischer, weil sie nicht um die halbe Welt transportiert werden müssen. Der enorme Hype um diese exotischen Produkte ist oft vor allem das Ergebnis von sehr gutem Marketing der Lebensmittelindustrie.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #8e44ad; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein saftiger Burger, für den kein einziges Tier sterben musste? Was wie reine Science-Fiction klingt, ist in einigen Labors längst Realität geworden. Innovative Forscher züchten echtes Fleisch aus entnommenen Stammzellen direkt in der Petrischale. Dieses Verfahren verbraucht deutlich weniger Wasser und Land als die traditionelle Rinderzucht und stößt zudem wesentlich weniger klimaschädliche Treibhausgase aus. Noch ist die Produktion extrem teuer, aber Experten glauben, dass solche Produkte schon in wenigen Jahren im Supermarkt ganz normal neben dem Hackfleisch liegen könnten.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #8e44ad; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Immer mehr Menschen entscheiden sich aus ethischen Gründen dafür, auf Tierprodukte zu verzichten. Doch der schnelle Griff zum rein pflanzlichen Ersatzprodukt im Supermarktregal ist nicht immer automatisch die gesündeste Wahl. Viele vegane Würstchen oder industriell gefertigte Käsealternativen sind hochverarbeitet und enthalten oft viele künstliche Zusatzstoffe, zu viel Salz und gesättigte Fette. Wer sich wirklich gesund pflanzlich ernähren will, sollte lieber auf frisches Gemüse, Hülsenfrüchte und Nüsse setzen, anstatt auf stark verarbeitete industrielle Fertigprodukte zurückzugreifen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #8e44ad; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        16 Stunden lang nichts essen, dann 8 Stunden lang normal essen – das Prinzip klingt simpel und ist erstaunlich effektiv. Beim sogenannten "Intermitted Fasting" oder Intervallfasten bekommt der Körper täglich lange Pausen, um sich zu regenerieren und den Stoffwechsel zu optimieren. Aktuelle Studien deuten darauf hin, dass dies nicht nur nachhaltig beim Gewichtsverlust hilft, sondern auch Entzündungswerte im Blut senken kann. Der große Vorteil für viele: Man muss keine Kalorien zählen oder auf bestimmte geliebte Lebensmittel komplett verzichten, sondern nur auf die Uhr schauen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #8e44ad; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die Erdbeeren mitten im Winter oder der Spargel im Herbst? Das muss wirklich nicht sein. Viele qualitätsbewusste Hobbyköche entdecken gerade den klassischen Saisonkalender wieder für sich. Wer Obst und Gemüse dann kauft, wenn es hierzulande natürlich reif ist, bekommt nicht nur den besten und intensivsten Geschmack, sondern unterstützt auch direkt die Bauern in der eigenen Umgebung. Lokale Wochenmärkte erleben deshalb gerade einen regelrechten Boom, da immer mehr Kunden wieder genau wissen wollen, woher ihr Essen eigentlich kommt und wie es produziert wurde.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-j, 2-i, 3-b, 4-d, 5-e"
+  }
+  ,
+  {
+    id: 418,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Digitales Lernen",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Tablets in Schulen ersetzen keine guten Lehrer</li>
+      <li><strong>b</strong> Online-Kurse für Senioren boomen</li>
+      <li><strong>c</strong> Gamification macht Lerninhalte spannender</li>
+      <li><strong>d</strong> Viele Studenten brechen E-Learning-Kurse ab</li>
+      <li><strong>e</strong> Virtual Reality im Geschichtsunterricht</li>
+      <li><strong>f</strong> Handschriftliches Schreiben fördert das Gedächtnis</li>
+      <li><strong>g</strong> Kostenlose Bildungs-Apps oft voller Werbung</li>
+      <li><strong>h</strong> Datenschutzbedenken bei Lernplattformen</li>
+      <li><strong>i</strong> Homeschooling belastet Eltern stark</li>
+      <li><strong>j</strong> KI personalisiert den Unterricht für jeden Schüler</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e74c3c; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Sich fühlen wie im alten Rom oder durch das Berlin der 20er Jahre spazieren? Mit einer modernen VR-Brille ist das längst keine Zukunftsmusik mehr. Schüler sitzen nicht mehr nur lustlos über trockenen Geschichtsbüchern, sondern tauchen direkt und interaktiv in die Vergangenheit ein. Pädagogen sind begeistert von den Möglichkeiten, da emotionale und virtuelle Erlebnisse viel besser im Langzeitgedächtnis verankert werden als bloßes Auswendiglernen von Jahreszahlen. Ein großes Hindernis bleibt jedoch die Finanzierung: Die Technik ist für viele Schulen noch extrem teuer in der Anschaffung und Wartung, und es fehlt oft an geschultem Personal, um die Geräte didaktisch sinnvoll einzusetzen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e74c3c; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Vokabeln lernen gilt oft als langweilig und mühsam. Doch wenn man dabei Punkte sammelt, im Level aufsteigt und sich im direkten Duell mit Freunden misst, sieht die Sache plötzlich ganz anders aus. Clevere Spielelemente in Lern-Apps motivieren besonders junge Nutzer, täglich dranzubleiben und ihren „Streak“ nicht zu verlieren. Dieser spielerische Ansatz nutzt geschickt den natürlichen Jagd- und Sammelinstinkt des Menschen. Kritiker warnen allerdings davor, dass der eigentliche Lerninhalt nicht hinter bunten Effekten und Belohnungssystemen verschwinden darf und das Lernen nicht zur reinen Punktejagd verkommen sollte.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e74c3c; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Jeder Mensch lernt anders: Der eine braucht viele praktische Beispiele, der andere visuelle Grafiken oder Erklärvideos. In einer klassischen Klasse mit 30 Schülern kommt der Lehrer hier schnell an seine Grenzen. Intelligente Software analysiert nun das Lernverhalten in Echtzeit und passt die Aufgaben individuell an das Niveau jedes Einzelnen an. Wer Schwächen in Mathe hat, bekommt automatisch mehr und einfachere Übungen, während Stärken gezielt gefördert werden. So wird niemand über- oder unterfordert, und der Lehrer kann sich gezielter um Proble fälle kümmern.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e74c3c; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Trotz aller Digitalisierung und Tablets schwören renommierte Neurowissenschaftler weiterhin auf Stift und Papier. Zahlreiche Studien zeigen eindeutig, dass wir uns Informationen wesentlich besser und nachhaltiger merken, wenn wir sie mit der Hand aufschreiben, statt sie nur in eine Tastatur zu tippen. Die feine motorische Bewegung beim Schreiben verankert das Wissen tiefer in den neuronalen Netzen des Gehirns. Deshalb sollten digitale Medien im Unterricht das klassische Arbeitsheft nicht komplett ersetzen, sondern sinnvoll ergänzen, um den größtmöglichen Lernerfolg zu erzielen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e74c3c; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die anfängliche Euphorie über MOOCs (Massive Open Online Courses) war riesig. Hochwertige Bildung für alle, weltweit verfügbar und oft sogar kostenlos – das klang nach einer Revolution. Doch die Realität ist ernüchternd: Die Abbrecherquoten bei diesen Kursen sind extrem hoch. Ohne festen Stundenplan, persönlichen Druck und soziale Kontrolle fehlt vielen Teilnehmern schlicht die Disziplin, den Kurs neben Beruf und Alltag bis zum Ende durchzuziehen. Der direkte, motivierende Austausch mit Dozenten und Kommilitonen fehlt oft schmerzlich und lässt sich digital nur schwer ersetzen.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-e, 2-c, 3-j, 4-f, 5-d"
+  },
+  {
+    id: 419,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Nachhaltiges Reisen",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #16a085; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Kreuzfahrten werden umweltfreundlicher</li>
+      <li><strong>b</strong> Massentourismus zerstört beliebte Urlaubsziele</li>
+      <li><strong>c</strong> CO2-Kompensation ist umstritten</li>
+      <li><strong>d</strong> Urlaub auf dem Bauernhof liegt im Trend</li>
+      <li><strong>e</strong> Billigflieger geraten unter Druck</li>
+      <li><strong>f</strong> "Slow Travel": Entschleunigung statt Sightseeing-Stress</li>
+      <li><strong>g</strong> Hotels setzen auf Plastikverzicht und Bio-Essen</li>
+      <li><strong>h</strong> Einheimische protestieren gegen Airbnb</li>
+      <li><strong>i</strong> Nachtzüge erleben eine Renaissance in Europa</li>
+      <li><strong>j</strong> Virtuelles Reisen als Alternative zum Flug</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #16a085; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Venedig, Barcelona, Amsterdam: In der touristischen Hochsaison schieben sich dort täglich unvorstellbare Menschenmassen durch die engen Gassen. Für die dauerhaften Bewohner wird das Leben zur Hölle: Mieten steigen ins Unermessliche, kleine traditionelle Läden verschwinden und werden durch Souvenirshops ersetzt. Viele beliebte Städte ziehen nun die Notbremse, begrenzen rigoros die Zahl der Betten oder führen saftige Eintrittsgelder für Tagestouristen ein. Das erklärte Ziel ist ein nachhaltiger Qualitätstourismus, von dem nicht nur die Reiseveranstalter, sondern auch die lokale Bevölkerung und die Kultur profitieren.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #16a085; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Abends entspannt in Hamburg einsteigen, morgens erholt mitten in Wien aufwachen. Lange Zeit wurden Nachtzugverbindungen in Europa systematisch gestrichen, da sie als unrentabel galten. Doch das wachsende Klimabewusstsein der Reisenden hat zu einem radikalen Umdenken geführt. Bahngesellschaften investieren wieder massiv in neue, moderne Schlafwaggons und Streckennetze. Es ist eine komfortable und klimafreundliche Alternative zum stressigen Flugzeug, besonders für Geschäftsreisende und Familien, die so eine Hotelübernachtung sparen und ausgeruht am Zielort ankommen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #16a085; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wer fliegt, sündigt – so zumindest das schlechte Gewissen vieler umweltbewusster Bürger. Airlines und Buchungsportale bieten daher an, den CO2-Ausstoß der Reise durch freiwillige Spenden auszugleichen. Mit dem gesammelten Geld werden dann Bäume gepflanzt oder Klimaprojekte in Entwicklungsländern gefördert. Kritiker bezeichnen das jedoch oft als modernen Ablasshandel. Sie argumentieren, dass es für das Klima deutlich besser sei, gar nicht erst zu fliegen, anstatt sich mit ein paar Euro ein reines Gewissen zu erkaufen, während das CO2 trotzdem in die Atmosphäre gelangt.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #16a085; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Früher hieß Reisen oft: In 10 Tagen 5 Länder sehen und hunderte Fotos machen. Heute suchen viele Urlauber genau das Gegenteil. Beim "Slow Travel" bleibt man länger an einem Ort, taucht tief in die lokale Kultur ein und lässt den typischen "Must-See"-Stress hinter sich. Die Reise selbst und die Begegnung mit Menschen werden zum Ziel, nicht das hektische Abklappern von Sehenswürdigkeiten. Diese Art des bewussten Reisens schont nicht nur die Nerven und ermöglicht echte Erholung, sondern entlastet oft auch den Geldbeutel und die Umwelt.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #16a085; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Das kleine Shampoo-Fläschchen im Bad, der Einwegbecher am Frühstücksbuffet und jeden Tag frische Handtücher – Müllberge im Hotel waren lange Standard. Doch das Bewusstsein wandelt sich rasant. Immer mehr Unterkünfte verbannen Einwegplastik komplett, bieten gefiltertes Wasser statt Flaschen an und kaufen Lebensmittel strikt bei lokalen Bauern. Gäste honorieren dieses nachhaltige Engagement zunehmend und sind bereit, dafür auch etwas mehr zu zahlen, wenn sie spüren, dass das Konzept authentisch ist.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-b, 2-i, 3-c, 4-f, 5-g"
+  },
+  {
+    id: 420,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Sicherheit im Netz",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Phishing-Mails werden immer professioneller</li>
+      <li><strong>b</strong> Sichere Passwörter sind schwer zu merken</li>
+      <li><strong>c</strong> Öffentliches WLAN als Sicherheitsrisiko</li>
+      <li><strong>d</strong> Unternehmen zahlen Lösegeld an Hacker</li>
+      <li><strong>e</strong> Biometrische Daten ersetzen das Passwort</li>
+      <li><strong>f</strong> Kinder im Netz besser schützen</li>
+      <li><strong>g</strong> Smart-TVs hören im Wohnzimmer mit</li>
+      <li><strong>h</strong> Updates schützen vor Sicherheitslücken</li>
+      <li><strong>i</strong> Backups retten Daten nach dem Absturz</li>
+      <li><strong>j</strong> Zwei-Faktor-Authentifizierung bietet mehr Schutz</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #34495e; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        "Ihr Konto wurde gesperrt, bitte klicken Sie hier." Früher waren solche Betrugsversuche leicht an schlechtem Deutsch und Schreibfehlern zu erkennen. Heute täuschen Kriminelle jedoch täuschend echt Webseiten von Banken, Versandhäusern oder Behörden vor, die vom Original kaum zu unterscheiden sind. Oft reicht ein einziger unbedachter Klick, um gefährliche Schadsoftware zu installieren. IT-Experten raten dringend: Niemals Links in E-Mails öffnen, wenn man den Absender nicht zu 100% kennt, und im Zweifel immer direkt beim Anbieter nachfragen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #34495e; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein einfaches Passwort wie "123456" reicht heute absolut nicht mehr aus, um sensible Daten zu schützen. Wer auf Nummer sicher gehen will, nutzt eine zweite Hürde. Neben dem Kennwort wird ein einmaliger Code auf das Handy geschickt oder per App generiert. Selbst wenn Hacker das Passwort stehlen, kommen sie ohne das zweite Gerät nicht ins Konto. Viele Dienste wie Online-Banking, PayPal oder soziale Netzwerke machen dieses sogenannte Zwei-Faktor-Verfahren inzwischen zur Pflicht für alle Nutzer.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #34495e; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Mal eben schnell im Café Mails checken oder am Flughafen surfen – kostenloses Internet ist bequem und verlockend. Doch in offenen, unverschlüsselten Netzwerken können Daten kinderleicht von Dritten abgefangen und mitgelesen werden. Sensible Geschäfte wie Überweisungen oder Firmendaten sollte man dort niemals ohne Schutz erledigen. Wer wirklich sicher sein will, nutzt eine VPN-Verbindung (Virtual Private Network), die den gesamten Datenverkehr verschlüsselt und so vor neugierigen Blicken schützt.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #34495e; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Der Fingerabdruck zum Entsperren des Handys oder das Gesicht als Schlüssel zur Wohnungstür – der eigene Körper wird zunehmend zum Ausweis. Das ist extrem bequem, denn seinen Finger kann man nicht vergessen oder verlieren. Doch Datenschützer sind besorgt: Ein Passwort kann man ändern, wenn es gestohlen wird – seinen Fingerabdruck oder das Gesicht nicht. Wenn biometrische Datenbanken einmal gehackt werden, ist der Schaden für die Betroffenen irreversibel und hält ein Leben lang.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #34495e; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Es ist wie Zähneputzen: Man muss es regelmäßig tun, auch wenn es nervt und Zeit kostet. Softwarehersteller schließen ständig Sicherheitslücken in ihren Programmen, die sonst von Hackern ausgenutzt werden könnten. Wer diese Aktualisierungen ignoriert und immer auf "später erinnern" klickt, lässt quasi die Haustür sperrangelweit offen stehen. Besonders wichtig sind automatische Updates für das Betriebssystem und den Browser, da diese die Hauptangriffsziele für Viren und Trojaner sind.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-a, 2-j, 3-c, 4-e, 5-h"
+  },
+  {
+    id: 421,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Grüne Städte",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Dachgärten verbessern das Stadtklima</li>
+      <li><strong>b</strong> Urban Gardening fördert die Nachbarschaft</li>
+      <li><strong>c</strong> Bienenhaltung in der Stadt liegt im Trend</li>
+      <li><strong>d</strong> Vertikale Wälder an Hochhäusern</li>
+      <li><strong>e</strong> Stadtparks sind überfüllt und verschmutzt</li>
+      <li><strong>f</strong> Regenwasser clever nutzen und speichern</li>
+      <li><strong>g</strong> Gemüseanbau auf dem Balkon</li>
+      <li><strong>h</strong> Fassadenbegrünung spart Energie</li>
+      <li><strong>i</strong> Alte Industriebrachen werden zu Parks</li>
+      <li><strong>j</strong> Guerrilla Gardening: Illegales Pflanzen</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #2ecc71; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        In heißen Sommern heizen sich unsere Städte extrem auf. Beton und Asphalt speichern die Wärme und geben sie nachts wieder ab. Pflanzen auf Dächern wirken hier wie eine natürliche, kostenlose Klimaanlage. Sie verdunsten Wasser und kühlen so die Umgebungsluft spürbar ab. Zudem nehmen sie bei immer häufiger auftretendem Starkregen große Mengen Wasser auf und entlasten so die Kanalisation vor Überflutungen. Viele Städte fördern daher die Begrünung von Flachdächern inzwischen finanziell.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #2ecc71; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Tomaten im Hinterhof, Kräuter in Kisten auf dem Gehweg oder Salat auf dem Balkon. Beim städtischen Gärtnern (Urban Gardening) geht es um weit mehr als nur um die Ernte von ein paar Radieschen. Es ist ein wichtiges soziales Projekt. Menschen verschiedener Generationen und Kulturen kommen zusammen, um gemeinsam zu pflanzen, zu pflegen und zu ernten. Ungenutzte Brachflächen werden so zu grünen, lebendigen Treffpunkten im Viertel, die das Gemeinschaftsgefühl stärken und Kindern zeigen, wo das Essen eigentlich herkommt.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #2ecc71; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wer aufmerksam durch die Innenstadt läuft, sieht immer häufiger grüne Wände. Kletterpflanzen wie Efeu oder Wein schützen das Mauerwerk effektiv vor Sonne und Kälte. Der Effekt ist messbar: Im Sommer bleibt es im Haus angenehm kühler, im Winter entweicht deutlich weniger Wärme nach außen. Das spart Energie für Klimaanlage und Heizung. Ganz nebenbei filtern die Blätter auch noch Feinstaub aus der Luft, produzieren Sauerstoff und bieten Vögeln und Insekten einen wichtigen Lebensraum in der Betonwüste.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #2ecc71; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Sie summen auf Hotelterrassen, in Parks und auf Schulsportplätzen. Imker haben die Stadt als neues Revier entdeckt. Überraschenderweise geht es den Bienen hier oft besser als auf dem Land, wo Monokulturen und der Einsatz von Pestiziden vorherrschen. In städtischen Parks, auf Balkonen und in Gärten finden sie vom frühen Frühling bis zum späten Herbst ein vielfältiges, pestizidfreies Blütenangebot. Der "Stadthonig" gilt daher als besonders aromatisch und vielfältig im Geschmack.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #2ecc71; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wo früher Schlote rauchten und Züge rollten, spielen heute Kinder und picknicken Familien. Der Strukturwandel hinterlässt in vielen Städten große Industriebrachen, die zu attraktiven Naherholungsgebieten umgestaltet werden. Ein berühmtes Beispiel ist das Tempelhofer Feld in Berlin oder der High Line Park in New York. Diese Projekte zeigen eindrucksvoll, wie man Industriegeschichte bewahren und gleichzeitig neue, dringend benötigte grüne Lungen für eine wachsende Stadt schaffen kann, ohne die historische Identität des Ortes zu löschen.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-a, 2-b, 3-h, 4-c, 5-i"
+  }
+  ,
+  {
+    id: 422,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Leben mit Social Media",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Beauty-Filter verzerren das Selbstbild von Jugendlichen</li>
+      <li><strong>b</strong> Influencer Marketing ist nicht immer ehrlich</li>
+      <li><strong>c</strong> Soziale Netze helfen bei der Jobsuche</li>
+      <li><strong>d</strong> "Digital Detox": Einfach mal abschalten</li>
+      <li><strong>e</strong> Hasskommentare im Netz nehmen zu</li>
+      <li><strong>f</strong> Fake News verbreiten sich schneller als Fakten</li>
+      <li><strong>g</strong> Datenschutz bei Messenger-Diensten mangelhaft</li>
+      <li><strong>h</strong> FOMO: Die Angst, etwas zu verpassen</li>
+      <li><strong>i</strong> Online-Dating frustriert viele Nutzer</li>
+      <li><strong>j</strong> Senioren entdecken Instagram und TikTok</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #9b59b6; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Das Handy vibriert ständig, jede Minute kommt eine neue Nachricht oder E-Mail rein. Viele Menschen fühlen sich zunehmend gestresst von der ständigen Erreichbarkeit und dem Druck, sofort antworten zu müssen. Immer mehr Urlauber buchen daher bewusst "Offline-Hotels" ohne WLAN oder schalten ihr Smartphone am Wochenende komplett aus. Dieser bewusste Verzicht auf digitale Medien, auch "Digital Detox" genannt, hilft enorm dabei, den Kopf wieder freizubekommen, Stress abzubauen und sich wieder voll auf das Hier und Jetzt sowie echte Gespräche zu konzentrieren.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #9b59b6; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein perfektes Lächeln, makellose Haut, strahlende Augen – auf Fotos im Netz sehen alle wunderschön aus. Doch der Schein trügt oft gewaltig. Apps bearbeiten Gesichter heute automatisch in Echtzeit, glätten Falten und verändern Proportionen. Psychologen warnen eindringlich: Wenn junge Mädchen sich ständig mit diesen künstlichen, unerreichbaren Idealen vergleichen, kann das zu massiven Minderwertigkeitskomplexen und Essstörungen führen. Der Unterschied zwischen Realität und digitalem Bild verschwimmt immer mehr, was das Selbstbild nachhaltig beschädigt.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #9b59b6; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Früher schaute man abends die Nachrichten im Fernsehen, heute scrollt man schnell durch den Feed. Das Problem dabei: Falschmeldungen (Fake News) sind oft reißerischer, emotionaler und schockierender als die langweilige Wahrheit und werden daher viel öfter geteilt und gelikt. Algorithmen verstärken diesen Effekt noch, indem sie Nutzern immer extremere Inhalte anzeigen, um sie auf der Plattform zu halten. Es wird für den Einzelnen zunehmend schwerer, gesicherte Fakten von gezielter Propaganda oder Meinungsmache zu unterscheiden.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #9b59b6; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Man sieht die Partyfotos der Freunde am Strand und fühlt sich sofort ausgeschlossen und langweilig. Alle anderen scheinen ein viel aufregenderes Leben zu haben als man selbst. Dieses Phänomen hat einen Namen: Fear Of Missing Out (FOMO). Betroffene checken zwanghaft ihre Timelines, oft sogar nachts im Bett, aus Angst, ein Event oder einen Trend zu verpassen. Experten raten zu mehr Gelassenheit und Realismus: Niemand postet Bilder von seinem langweiligen Büroalltag, schlechten Tagen oder dem Abwasch.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #9b59b6; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        "Ich liebe dieses Produkt, es hat mein Leben verändert!" – wenn der Lieblingsstar eine Creme in die Kamera hält, kaufen Fans sie oft sofort nach. Doch oft ist auf den ersten Blick nicht erkennbar, dass viel Geld für diese Empfehlung geflossen ist. Schleichwerbung ist ein riesiges Problem auf sozialen Plattformen. Verbraucherschützer fordern daher eine ganz klare Kennzeichnungspflicht, damit Nutzer sofort wissen, wann es sich um eine ehrliche, persönliche Empfehlung und wann um bezahlte Werbung handelt.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-d, 2-a, 3-f, 4-h, 5-b"
+  },
+  {
+    id: 423,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Kultur im Wandel",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #d35400; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Kinos sterben durch Streaming-Dienste aus</li>
+      <li><strong>b</strong> Museen werden interaktiver und digitaler</li>
+      <li><strong>c</strong> Straßenkunst wird endlich als Kunstform anerkannt</li>
+      <li><strong>d</strong> Klassische Konzerte suchen junges Publikum</li>
+      <li><strong>e</strong> E-Books verdrängen das gedruckte Buch</li>
+      <li><strong>f</strong> Festivals werden immer teurer und kommerzieller</li>
+      <li><strong>g</strong> Theaterstücke werden modern inszeniert</li>
+      <li><strong>h</strong> Audiobücher boomen dank Podcasts</li>
+      <li><strong>i</strong> Bibliotheken werden zu sozialen Treffpunkten</li>
+      <li><strong>j</strong> Denkmalschutz verhindert moderne Architektur</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        "Nicht berühren" war gestern. In modernen Ausstellungen darf man heute oft anfassen, ausprobieren und aktiv mitmachen. Interaktive Apps führen Besucher durch die Hallen, und via Augmented Reality werden alte Dinosaurierknochen virtuell zum Leben erweckt. Kultureinrichtungen müssen sich radikal neu erfinden, um im digitalen Zeitalter relevant zu bleiben und gegen Netflix & Co. zu bestehen. Besonders für Kinder und Jugendliche wird der Museumsbesuch so zum spannenden, lehrreichen Erlebnis statt zur langweiligen schulischen Pflichtübung.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Lange Zeit galten Graffiti einfach nur als Schmiererei und Sachbeschädigung. Heute pilgern Touristen durch ganze Stadtviertel, um riesige, kunstvolle Wandgemälde (Murals) zu bestaunen. Städte wie Berlin, London oder New York sind mittlerweile stolz auf ihre bunte "Street Art". Namhafte Künstler wie Banksy erzielen auf Auktionen Millionenpreise. Dennoch bleibt die Grenze zur illegalen Sprühaktion oft fließend und sorgt weiter für Konflikte mit Hausbesitzern und der Polizei, wenn ungefragt gesprüht wird.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Große Leinwand, Popcorn-Duft und Dolby-Surround – das Kinoerlebnis ist eigentlich einzigartig. Doch die Zuschauerzahlen sinken seit Jahren. Warum 15 Euro für ein Ticket zahlen, wenn man für den gleichen Preis einen Monat lang tausende Filme zu Hause in 4K streamen kann? Viele Lichtspielhäuser setzen nun auf Premium-Konzepte: Bequeme Sessel mit Liegefunktion, Bedienung direkt am Platz und exklusive Events sollen die Gäste vom Sofa zurück in den Saal holen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Nicht nur gedruckte Bücher, auch das Hören von Geschichten erlebt einen gewaltigen Aufschwung. Ob im Auto, beim Joggen oder zum Einschlafen – Audioinhalte sind der ideale Begleiter im stressigen, multitasking-geprägten Alltag. Der Markt wächst rasant, und immer mehr Verlage produzieren aufwendige Hörspiele mit bekannten Stimmen. Besonders True-Crime-Podcasts und Wissensformate erfreuen sich riesiger Beliebtheit, da sie Unterhaltung und Information bequem verbinden.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Es herrscht absolute Stille, nur das Umblättern von Seiten ist zu hören? Das war einmal. Heute gibt es in modernen Bibliotheken Cafés, Gaming-Ecken, Coworking-Plätze und sogar 3D-Drucker. Die klassische Buchausleihe rückt fast in den Hintergrund. Diese Orte des Wissens wandeln sich zu sogenannten "Dritten Orten", an denen Menschen sich treffen, arbeiten, austauschen und lebenslang lernen können – und das meist kostenlos und ohne Konsumzwang.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-b, 2-c, 3-a, 4-h, 5-i"
+  },
+  {
+    id: 424,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Klimawandel im Alltag",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Wintersportorte leiden unter Schneemangel</li>
+      <li><strong>b</strong> Hitzewellen belasten Gesundheit älterer Menschen</li>
+      <li><strong>c</strong> Versicherungen für Naturkatastrophen werden teurer</li>
+      <li><strong>d</strong> Landwirte kämpfen mit Dürre und Ernteausfällen</li>
+      <li><strong>e</strong> Klimaanlagen verbrauchen zu viel Strom</li>
+      <li><strong>f</strong> Weinanbau profitiert von höheren Temperaturen</li>
+      <li><strong>g</strong> Hochwasserschutz kostet Milliarden</li>
+      <li><strong>h</strong> Tropenkrankheiten breiten sich in Europa aus</li>
+      <li><strong>i</strong> Wälder sterben durch Trockenheit und Schädlinge</li>
+      <li><strong>j</strong> Solaranlagen auf jedem Dach werden Pflicht</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Braune, staubige Wiesen statt saftiger grüner Weiden. Wenn der Regen monatelang ausbleibt, wird das Futter für die Kühe knapp und teuer. Viele Bauern müssen Futter zukaufen oder ihre Tiere notgedrungen vorzeitig schlachten. Auch Kartoffeln und Getreide vertrocknen auf den Feldern, was zu Ernteausfällen führt. Experten fordern dringend neue, wassersparende Bewässerungskonzepte und die Züchtung widerstandsfähigerer Pflanzen, um die Ernährungssicherung in Zeiten des Klimawandels zu gewährleisten.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die Skilifte stehen still, auf den Pisten liegt nur noch ein schmales weißes Band aus teurem Kunstschnee auf braunem Gras. Für viele traditionelle Tourismusregionen in den Alpen ist der Klimawandel existenzbedrohend. Ohne Schnee bleiben die zahlenden Gäste aus. Einige Orte versuchen nun verzweifelt, sich als Wander- und Wellnessziele für das ganze Jahr neu zu positionieren, da klassischer Wintersport unter 1500 Metern Höhe kaum noch wirtschaftlich planbar ist.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wenn das Thermometer wochenlang über 30 Grad zeigt, wird die eigene Wohnung zur Sauna. Besonders in dicht bebauten Städten mit viel Beton staut sich die Hitze extrem ("Urban Heat Islands"). Für Senioren und Herz-Kreislauf-Patienten ist das lebensgefährlich. Ärzte raten dringend dazu, viel zu trinken und die Mittagshitze zu meiden. Städteplaner wollen nun mehr Bäume pflanzen, Fassaden begrünen und Wasserflächen schaffen, um die Innenstädte natürlich abzukühlen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein Gewinner des Klimawandels? Zumindest für Winzer in Norddeutschland, England oder Dänemark eröffnen sich plötzlich neue Möglichkeiten. Rebsorten, die früher nur im warmen Süden wuchsen, gedeihen nun auch in nördlicheren Breiten prächtig und bringen gute Erträge. Traditionsreiche Weinregionen im Süden Europas hingegen kämpfen zunehmend mit zu viel Sonne und Hitze, die den Alkoholgehalt der Weine zu stark ansteigen lässt und das Aroma verändert.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #27ae60; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Mücken, die man bisher nur aus Asien kannte (wie die Asiatische Tigermücke), fühlen sich plötzlich auch an Rhein und Elbe wohl. Mit den steigenden Durchschnittstemperaturen wandern exotische Insekten immer weiter nach Norden und können gefährliche Erreger wie das Dengue- oder West-Nil-Fieber übertragen. Gesundheitsbehörden überwachen die Ausbreitung genau, doch ein effektiver Schutz ist schwierig, da oft noch spezifische Impfstoffe für die breite Bevölkerung fehlen.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-d, 2-a, 3-b, 4-f, 5-h"
+  },
+  {
+    id: 425,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Startups & Gründung",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Crowdfunding als Alternative zum Bankkredit</li>
+      <li><strong>b</strong> Scheitern gehört zur Gründerkultur dazu</li>
+      <li><strong>c</strong> Bürokratie bremst junge Unternehmen aus</li>
+      <li><strong>d</strong> Frauen gründen seltener als Männer</li>
+      <li><strong>e</strong> Investoren suchen das nächste "Einhorn"</li>
+      <li><strong>f</strong> Universitäten fördern Ausgründungen gezielt</li>
+      <li><strong>g</strong> Der Businessplan ist oft unrealistisch</li>
+      <li><strong>h</strong> Teamarbeit ist wichtiger als die Idee</li>
+      <li><strong>i</strong> Startups zahlen oft schlechte Gehälter</li>
+      <li><strong>j</strong> Berlin ist die Startup-Hauptstadt Europas</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #f39c12; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wer eine geniale Idee hat, aber kein Geld, geht traditionell zur Bank. Doch die verlangt oft hohe Sicherheiten. Eine moderne Lösung ist das Crowdfunding: Viele kleine Beträge von Privatleuten im Internet sammeln. Wenn genug Menschen an das Produkt glauben und es vorbestellen, kommt das nötige Startkapital zusammen. Das ist gleichzeitig ein perfekter Markttest: Flops werden so schnell erkannt, bevor viel Zeit und Geld in die Produktion investiert wurde.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #f39c12; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        In den USA gilt: Wer nie pleite gegangen ist, hat es nicht richtig versucht. In Deutschland ist eine Insolvenz gesellschaftlich oft noch ein Stigma. Doch die Mentalität wandelt sich langsam. Erfahrene Investoren wissen, dass man aus Fehlern lernt. Ein Gründer, der schon einmal gescheitert ist, macht dieselben Fehler nicht noch einmal und gilt daher oft als erfahrener, realistischer und belastbarer – Eigenschaften, die für den Erfolg entscheidend sind.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #f39c12; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Formulare, Anträge, Notartermine – der Weg zur eigenen Firma ist in Deutschland oft steinig und bürokratisch. Während man in digitalisierten Staaten wie Estland ein Unternehmen in 20 Minuten online gründen kann, dauert es hierzulande oft Wochen. Viele junge Unternehmer verbringen mehr Zeit mit Papierkram als mit der eigentlichen Entwicklung ihres Produkts. Verbände fordern daher dringend eine umfassende Digitalisierung der Verwaltung, um Innovationen nicht bereits im Keim zu ersticken.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #f39c12; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die beste Idee nützt nichts, wenn man sich im Büro nur streitet. Investoren schauen oft genauer auf die Menschen (das Team) als auf das Produkt selbst. Ergänzen sich die Fähigkeiten? Können die Gründer mit Stress umgehen? Ein brillanter Programmierer braucht jemanden, der verkaufen und organisieren kann. Harmonierende, diverse Gründerteams sind statistisch gesehen deutlich erfolgreicher und resilienter als Einzelkämpfer.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #f39c12; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Der Anteil von Chefinnen in der Startup-Szene ist immer noch erschreckend gering, oft unter 20%. Woran liegt das? Studien deuten darauf hin, dass Risikokapitalgeber (meist Männer) oft unbewusste Vorurteile haben und Männern eher Geld anvertrauen. Zudem fehlen weibliche Vorbilder und Netzwerke. Mentoring-Programme und Fonds speziell für Gründerinnen sollen nun helfen, diese Lücke zu schließen und mehr Frauen den mutigen Weg in die Selbstständigkeit zu ebnen.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-a, 2-b, 3-c, 4-h, 5-d"
+  }
+  ,
+  {
+    id: 426,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Mehrsprachigkeit",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e84393; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Zweisprachige Kinder lernen schneller sprechen</li>
+      <li><strong>b</strong> Gehirnjogging durch Vokabeln lernen</li>
+      <li><strong>c</strong> Englisch verdrängt andere Sprachen in der Wissenschaft</li>
+      <li><strong>d</strong> Dialekte sterben langsam aus</li>
+      <li><strong>e</strong> Übersetzungs-Apps machen Sprachkurse überflüssig</li>
+      <li><strong>f</strong> Körpersprache ist wichtiger als Worte</li>
+      <li><strong>g</strong> Mehrsprachigkeit verzögert Demenz</li>
+      <li><strong>h</strong> Unternehmen suchen Mitarbeiter mit Sprachkenntnissen</li>
+      <li><strong>i</strong> Auslandssemester verbessern nicht immer die Sprache</li>
+      <li><strong>j</strong> Latein ist keine tote Sprache</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e84393; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e84393; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wer zwei oder mehr Sprachen beherrscht, hält sein Gehirn nachweislich fit. Neurowissenschaftliche Studien zeigen, dass das ständige unbewusste Umschalten zwischen zwei Sprachsystemen wie ein intensives Training für die grauen Zellen wirkt. Das erhöht die sogenannte kognitive Reserve und kann im Alter sogar vor geistigem Abbau schützen. Zweisprachige Senioren erkranken statistisch gesehen im Durchschnitt etwa vier bis fünf Jahre später an Demenz oder Alzheimer als einsprachige Menschen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e84393; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e84393; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        "Grüß Gott", "Moin Moin" oder "Servus" – regionale Färbungen machen Sprache lebendig und schaffen Identität. Doch durch die hohe Mobilität der Menschen und den starken Einheits-Einfluss der Medien verschwinden diese lokalen Besonderheiten immer mehr. Besonders junge Leute sprechen oft nur noch ein eingefärbtes Standarddeutsch. Sprachforscher versuchen nun eilig, die letzten Reste der authentischen Mundarten in großen Audio-Archiven für die Nachwelt zu retten, bevor sie ganz verstummen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e84393; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e84393; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Warum noch mühsam Grammatik pauken, wenn das Handy alles in Echtzeit dolmetschen kann? Die Technik wird dank KI immer besser. Doch Experten warnen: Sprache ist mehr als nur technischer Informationsaustausch; sie ist Kultur, Emotion und Nuance. Eine Maschine kann zwar Sätze korrekt übersetzen, aber Ironie, Witz, kulturelle Anspielungen oder Zwischentöne gehen oft verloren. Wahres, tiefes Verständnis und echte Verbindung entstehen nur im direkten, ungefilterten Dialog.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e84393; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e84393; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        In einer globalisierten Wirtschaftswelt reicht Englisch allein oft nicht mehr aus. Firmen, die erfolgreich nach Asien oder Südamerika expandieren wollen, suchen händeringend Experten, die Mandarin, Portugiesisch oder Arabisch sprechen. Wer verhandeln will, muss die Sprache (und damit die Kultur) des Partners verstehen. Bewerber, die solche "exotischen" Sprachen im Lebenslauf haben, haben daher oft deutlich bessere Karten bei der Einstellung und der Gehaltsverhandlung.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #e84393; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e84393; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Obwohl sie niemand mehr als Muttersprache spricht, begegnet sie uns überall: im Supermarkt ("Nivea"), im Auto ("Audi") oder beim Arzt. Latein ist die Basis vieler europäischer Sprachen (Romanische Sprachen) und hilft enorm beim Verständnis von Fremdwörtern und beim Vokabellernen. Wer die klaren Strukturen und die Logik dieser Sprache verstanden hat, tut sich oft leichter, komplexe Zusammenhänge zu durchdringen, logisch zu denken und sich in der eigenen Muttersprache präziser auszudrücken.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-g, 2-d, 3-e, 4-h, 5-j"
+  },
+  {
+    id: 427,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Robotik & KI",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #341f97; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Pflegeroboter lösen den Fachkräftemangel nicht</li>
+      <li><strong>b</strong> Drohnen liefern Pakete schneller als der Postbote</li>
+      <li><strong>c</strong> KI schreibt bessere Texte als Journalisten</li>
+      <li><strong>d</strong> Roboter übernehmen gefährliche Arbeiten</li>
+      <li><strong>e</strong> Ethikkommissionen warnen vor autonomen Waffen</li>
+      <li><strong>f</strong> Roboterhunde als Haustierersatz</li>
+      <li><strong>g</strong> Künstliche Intelligenz in der Medizin verbessert Diagnosen</li>
+      <li><strong>h</strong> Autonome Autos verursachen weniger Staus</li>
+      <li><strong>i</strong> Menschen haben Angst, von Maschinen ersetzt zu werden</li>
+      <li><strong>j</strong> Smarte Spielzeuge spionieren Kinder aus</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Wo es extrem heiß, radioaktiv verstrahlt oder einsturzgefährdet ist, schickt man besser keine Menschen hin. Spezialisierte Roboter können in brennende Häuser fahren, Minen entschärfen, in der Tiefsee arbeiten oder Lecks in Atomkraftwerken abdichten. Sie schonen so Gesundheit und Leben von menschlichen Rettungskräften. Dank moderner Sensoren und KI können sie sich inzwischen auch in unwegsamem, unbekanntem Gelände autonom orientieren.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein Arzt kann nach einer langen Schicht ein Röntgenbild übersehen oder einfach müde sein. Ein Algorithmus wird nie müde. Moderne KI-Systeme können Tausende von Hautkrebs-Fotos oder MRT-Aufnahmen in Sekunden analysieren und winzige Muster erkennen, die dem menschlichen Auge entgehen. Sie ersetzen den Arzt nicht, aber sie geben ihm ein mächtiges "zweites Paar Augen" an die Hand, um Krankheiten früher und präziser zu erkennen und Fehlentscheidungen zu minimieren.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Sie bellen nicht, müssen nicht bei Regen Gassi gehen und machen keinen Dreck. In Japan sind Roboterhunde (wie Aibo) bei Senioren schon sehr beliebt. Sie reagieren auf Streicheln, erkennen Gesichter und können Kunststücke lernen. Psychologen sehen darin eine echte Chance gegen Einsamkeit im Alter, besonders in Pflegeheimen. Ethiker warnen jedoch davor, dass solche Maschinen als billiger Ersatz für echte menschliche Zuwendung missbraucht werden könnten.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die Pizza oder das Medikament kommt per Fluggerät direkt auf den Balkon? Was wie Science-Fiction klingt, wird in Pilotprojekten bereits getestet. Besonders in abgelegenen Gebieten oder bei Stau in der Innenstadt könnte die Lieferung aus der Luft eine schnelle Alternative sein ("Last Mile Delivery"). Ungelöste Probleme sind jedoch noch der Lärm, die Sicherheit im dichten Luftraum, der Datenschutz (Kameras) und die Gefahr von Abstürzen über Menschenmengen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die Automatisierung schreitet unaufhaltsam voran, und viele Arbeitnehmer sorgen sich um ihre Zukunft. Wird mein Job in zehn Jahren noch existieren? Studien sagen: Ja, aber er wird ganz anders aussehen. Während monotone Routineaufgaben wegfallen, werden Kreativität, Empathie und komplexe Problemlösung (soziale Kompetenz) wichtiger – Dinge, die KI schwer lernen kann. Lebenslanges Lernen (Upskilling) wird zur absoluten Pflicht, um mit dem technologischen Wandel Schritt zu halten.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-d, 2-g, 3-f, 4-b, 5-i"
+  },
+  {
+    id: 428,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Werbung & Konsum",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #ff9f43; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Personalisierte Werbung nervt viele Nutzer</li>
+      <li><strong>b</strong> Supermärkte nutzen psychologische Tricks</li>
+      <li><strong>c</strong> Rabatte verleiten zu unnötigen Käufen</li>
+      <li><strong>d</strong> Gütesiegel schaffen Vertrauen beim Kunden</li>
+      <li><strong>e</strong> Werbung im Fernsehen verliert an Bedeutung</li>
+      <li><strong>f</strong> Verpackungsmüll wird zum Problem</li>
+      <li><strong>g</strong> Kinder sind leichte Opfer für Werbeindustrie</li>
+      <li><strong>h</strong> Reparieren statt Wegwerfen liegt im Trend</li>
+      <li><strong>i</strong> Online-Shopping killt den Einzelhandel</li>
+      <li><strong>j</strong> Kundenbewertungen sind oft gefälscht</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #ff9f43; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #ff9f43; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Frisches Obst am Eingang, langsame Musik, teure Produkte auf Augenhöhe – nichts in einem Supermarkt ist Zufall. Händler wissen ganz genau, wie sie Kunden psychologisch steuern. Sogar der Duft von frischem Brot wird oft künstlich erzeugt, um Hunger zu machen und den Umsatz zu steigern. Große Einkaufswagen verleiten dazu, mehr zu kaufen als geplant. Wer diese Strategien kennt und mit Einkaufszettel geht, kann bewusster einkaufen und viel Geld sparen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #ff9f43; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #ff9f43; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Man sucht einmal kurz nach "Wanderschuhen", und wochenlang verfolgen einen Anzeigen für Outdoor-Kleidung auf jeder Webseite. Was praktisch sein soll, empfinden viele als gruseligen Eingriff in die Privatsphäre. Persönliche Daten sind das neue Gold der Werbebranche. Experten raten dazu, Cookies regelmäßig zu löschen, Tracking zu widersprechen und Adblocker zu verwenden, um die eigene digitale Spur im Netz zumindest etwas zu verwischen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #ff9f43; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #ff9f43; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        "Nur heute 50% reduziert!" oder "Fast ausverkauft!" Solche Schilder aktivieren sofort das Belohnungszentrum im Gehirn. Der rationale Verstand schaltet ab, und man kauft Dinge, die man eigentlich gar nicht braucht, nur weil sie billig sind. Diese Schnäppchenjagd kann fast süchtig machen. Verbraucherschützer empfehlen die "30-Tage-Regel": Bei nicht-notwendigen Dingen 30 Tage warten – meist ist der Kaufwunsch dann verflogen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #ff9f43; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #ff9f43; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Bio, Fairtrade, Blauer Engel, Vegan, Klimaneutral – der Dschungel an Labels auf Produkten ist dicht und verwirrend. Doch für bewusste Konsumenten sind sie eine wichtige Orientierung. Sie garantieren bestimmte Standards bei Umwelt- oder Tierschutz. Allerdings gibt es auch viele schwache oder selbst erfundene Fantasie-Label der Industrie ("Greenwashing"), die Sicherheit nur vortäuschen. Man sollte genau hinschauen, wer hinter einem Zertifikat steht und wie unabhängig es geprüft wird.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #ff9f43; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #ff9f43; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein Toaster, der nach zwei Jahren kaputt geht? Viele Geräte scheinen heute so gebaut zu sein, dass sie nicht lange halten ("geplante Obsoleszenz"). Doch die Gegenbewegung wächst. Repair-Cafés, in denen Freiwillige beim Flicken helfen, haben regen Zulauf. Auch der EU-Gesetzgeber reagiert und fordert ein "Recht auf Reparatur", damit Ersatzteile länger verfügbar sein müssen und Geräte leichter geöffnet werden können, statt auf dem Müll zu landen.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-b, 2-a, 3-c, 4-d, 5-h"
+  },
+  {
+    id: 429,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 1 – Minimalismus",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Ordnen Sie die Überschriften den Texten zu.
+  </p>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <ul style='list-style: none; padding: 0; display: flex; flex-direction: column; gap: 8px;'>
+      <li><strong>a</strong> Tiny Houses: Leben auf kleinstem Raum</li>
+      <li><strong>b</strong> Weniger Besitz macht glücklicher</li>
+      <li><strong>c</strong> Kleidertausch statt Shopping-Wahn</li>
+      <li><strong>d</strong> Digitale Fotos ersetzen das Fotoalbum</li>
+      <li><strong>e</strong> Frugalismus: Sparen für die frühe Rente</li>
+      <li><strong>f</strong> Carsharing schont den Geldbeutel</li>
+      <li><strong>g</strong> Minimalismus im Kleiderschrank: Die Capsule Wardrobe</li>
+      <li><strong>h</strong> Ausmisten befreit die Seele</li>
+      <li><strong>i</strong> Zero Waste: Leben ohne Müll</li>
+      <li><strong>j</strong> Verzicht auf Smartphone tut gut</li>
+    </ul>
+  </div>
+
+  <div style='display: grid; gap: 30px;'>
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #576574; min-width: 20px;'>1</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        10.000 Dinge besitzt ein Durchschnittseuropäer. Doch brauchen wir das alles? Minimalisten sagen Nein. Sie reduzieren ihren Besitz radikal auf das Wesentliche. Das Ziel ist nicht Verzicht, sondern Freiheit. Wer weniger Dinge hat, muss weniger aufräumen, reparieren, versichern und abstauben. So bleibt deutlich mehr Zeit, Energie und Geld für das, was wirklich zählt: Erlebnisse, Freunde, Hobbys und persönliche Weiterentwicklung.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #576574; min-width: 20px;'>2</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Ein Haus mit nur 20 Quadratmetern? Für manche ein Albtraum, für andere der Traum von Unabhängigkeit. Diese "Tiny Houses" sind oft mobil und ökologisch gebaut. Bewohner müssen jeden Zentimeter nutzen und kreativ sein. Der Verzicht auf überflüssige Wohnfläche spart massiv Heizkosten und Miete, reduziert den ökologischen Fußabdruck und ermöglicht ein flexibles Leben im Einklang mit der Natur.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #576574; min-width: 20px;'>3</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Der Kleiderschrank platzt aus allen Nähten, aber man hat trotzdem "nichts anzuziehen"? Die Lösung könnte die "Kapsel-Garderobe" (Capsule Wardrobe) sein. Man besitzt nur noch ca. 30-40 hochwertige Kleidungsstücke, die aber alle perfekt zueinander passen und kombinierbar sind. Das spart morgens Zeit und Stress bei der Auswahl und verhindert teure Fehlkäufe, die sowieso nur ungetragen im Schrank hängen.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #576574; min-width: 20px;'>4</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Mit 40 schon in Rente gehen? Anhänger des "Frugalismus" (FIRE-Bewegung) leben extrem sparsam, investieren jeden freien Cent in Aktien-ETFs und verzichten auf Autos oder teure Urlaube. Das Ziel ist die absolute finanzielle Unabhängigkeit in jungen Jahren. Sie kochen selbst, fahren Rad und kaufen gebraucht. Kritiker meinen jedoch, dass man das Leben im Hier und Jetzt nicht komplett für eine ungewisse Zukunft opfern sollte.
+      </div>
+    </div>
+
+    <div style='display: flex; gap: 20px; align-items: flex-start;'>
+      <span style='font-weight: bold; font-size: 1.5rem; color: #576574; min-width: 20px;'>5</span>
+      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+        Die Wohnung entrümpeln liegt voll im Trend, nicht zuletzt dank Marie Kondo. Sich von Dingen zu trennen, die keine Freude mehr machen ("Does it spark joy?"), kann psychologisch sehr befreiend wirken. Viele berichten, dass sie sich nach einer großen Ausmist-Aktion auch innerlich leichter und energiegeladener fühlen. Die alten Sachen werden gespendet oder verkauft, und man atmet in den freien Räumen wieder durch.
+      </div>
+    </div>
+  </div>
+</div>
+`,
+    answer: "1-b, 2-a, 3-g, 4-e, 5-h"
+  },
+  {
+    id: 430,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Die Zukunft der Arbeit",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>New Work: Mehr als nur Tischkicker und Obstkorb?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Die Arbeitswelt befindet sich in einem radikalen Wandel, der oft unter dem Schlagwort "New Work" zusammengefasst wird. Ursprünglich von dem Sozialphilosophen Frithjof Bergmann in den 1970er Jahren geprägt, sollte dieser Begriff eine Arbeit beschreiben, die den Menschen stärkt und nicht schwächt. Heute verstehen viele Unternehmen darunter jedoch vor allem moderne Büros mit bunten Sitzsäcken, kostenlosen Getränken und flexiblen Arbeitszeiten. Doch ist das wirklich der Kern der neuen Arbeitswelt?</p>
+    
+    <p>Experten warnen davor, New Work auf reine Äußerlichkeiten zu reduzieren. Ein Kickertisch im Pausenraum macht noch keine moderne Unternehmenskultur. Vielmehr geht es um tiefgreifende strukturelle Veränderungen: flache Hierarchien, mehr Eigenverantwortung für die Mitarbeiter und eine Abkehr von der klassischen Präsenzkultur hin zu ergebnisorientiertem Arbeiten. Die Digitalisierung spielt dabei eine Schlüsselrolle, da sie es überhaupt erst ermöglicht, zeit- und ortsunabhängig tätig zu sein.</p>
+    
+    <p>Für Arbeitnehmer bietet dieser Wandel große Chancen. Die Vereinbarkeit von Beruf und Familie kann durch Homeoffice-Modelle deutlich verbessert werden. Wer nicht jeden Morgen im Stau stehen muss, spart Zeit und Nerven. Zudem wächst der Wunsch nach sinnhafter Tätigkeit. Immer mehr Menschen, insbesondere der jüngeren Generation, wollen nicht nur Geld verdienen, sondern sich mit den Werten ihres Arbeitgebers identifizieren. Sie fordern Transparenz, Nachhaltigkeit und Mitspracherecht.</p>
+    
+    <p>Doch die schöne neue Arbeitswelt hat auch Schattenseiten. Die ständige Erreichbarkeit via Smartphone und Laptop führt dazu, dass die Grenzen zwischen Arbeit und Freizeit zunehmend verschwimmen. Wer abends auf dem Sofa noch "schnell" E-Mails checkt, kommt nie wirklich zur Ruhe. Psychologen beobachten einen Anstieg von stressbedingten Erkrankungen wie Burnout, selbst bei Menschen, die ihren Job eigentlich lieben. Die sogenannte "Entgrenzung der Arbeit" erfordert daher eine hohe Selbstdisziplin und klare Regeln, sowohl von den Unternehmen als auch von den Beschäftigten selbst.</p>
+
+    <p>Ein weiterer Aspekt ist die soziale Komponente. Wenn Kollegen sich nur noch in Videokonferenzen sehen, geht der informelle Austausch an der Kaffeemaschine verloren, der oft wichtig für das Betriebsklima und kreative Ideen ist. Unternehmen müssen daher neue Wege finden, um den Teamgeist auch digital zu fördern oder hybride Modelle entwickeln, die die Vorteile von Büro und Homeoffice verbinden. New Work ist also kein fertiges Produkt, sondern ein ständiger Lernprozess für alle Beteiligten.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was kritisieren Experten am heutigen Verständnis von "New Work"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass es zu sehr auf äußerliche Annehmlichkeiten reduziert wird.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Frithjof Bergmanns Ideen veraltet sind.</li>
+        <li><strong>c</strong> Dass flexible Arbeitszeiten die Produktivität senken.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Rolle spielt die Digitalisierung laut Text?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie zwingt Menschen dazu, mehr zu arbeiten.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie ist die technische Voraussetzung für flexibles Arbeiten.</li>
+        <li><strong>c</strong> Sie ersetzt menschliche Arbeitskraft vollständig.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist jungen Arbeitnehmern heute besonders wichtig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Möglichst schnell viel Geld zu verdienen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Ein Dienstwagen und ein großes Büro.</li>
+        <li><strong>c</strong> Die Identifikation mit den Werten des Unternehmens.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welches Risiko birgt die "Entgrenzung der Arbeit"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Arbeitnehmer weniger motiviert sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Erholungsphasen fehlen und Krankheiten zunehmen.</li>
+        <li><strong>c</strong> Dass Unternehmen die Kontrolle über Mitarbeiter verlieren.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist eine Herausforderung bei der Arbeit im Homeoffice?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die technische Ausstattung ist oft mangelhaft.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der informelle soziale Austausch mit Kollegen fehlt.</li>
+        <li><strong>c</strong> Es gibt zu viele Ablenkungen durch die Familie.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-a, 2-b, 3-c, 4-b, 5-b"
+  },
+  {
+    id: 431,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Die Stadt der Zukunft",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Smart Cities: Wie leben wir morgen?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Bis zum Jahr 2050 werden voraussichtlich zwei Drittel der Weltbevölkerung in Städten leben. Diese massive Urbanisierung stellt Planer vor gewaltige Herausforderungen: Verkehrsinfarkt, Luftverschmutzung und Energieknappheit drohen, die Lebensqualität in den Metropolen drastisch zu senken. Die Antwort vieler Experten lautet "Smart City" – die intelligente, vernetzte Stadt, die Technologie nutzt, um effizienter und lebenswerter zu werden.</p>
+    
+    <p>Ein zentraler Aspekt ist die Mobilität. In der Smart City kommunizieren Autos, Ampeln und Parkhäuser miteinander. Navigationssysteme leiten Fahrzeuge automatisch um Staus herum, und Ampeln schalten auf Grün, wenn sich ein Bus nähert. Ziel ist es, den Individualverkehr zu reduzieren und Sharing-Angebote sowie den öffentlichen Nahverkehr attraktiver zu machen. Autonome Shuttle-Busse könnten in Zukunft rund um die Uhr Passagiere befördern, ohne dass ein Fahrer benötigt wird.</p>
+    
+    <p>Auch beim Thema Energie und Umwelt spielt Vernetzung eine große Rolle. Intelligente Stromnetze, sogenannte "Smart Grids", verteilen Energie genau dort hin, wo sie gerade gebraucht wird. Straßenlaternen leuchten nur dann hell, wenn tatsächlich Passanten in der Nähe sind, was massiv Strom spart. Mülltonnen melden per Sensor, wenn sie voll sind, sodass die Müllabfuhr nur noch dann kommt, wenn es wirklich nötig ist. Das spart Treibstoff und reduziert Lärm.</p>
+    
+    <p>Doch bei aller Begeisterung für technologische Lösungen gibt es auch kritische Stimmen. Datenschützer warnen vor dem "gläsernen Bürger". Wenn jede Bewegung, jeder Stromverbrauch und jede Nutzung öffentlicher Verkehrsmittel aufgezeichnet wird, entstehen gewaltige Datenmengen. Wem gehören diese Daten? Und wie wird sichergestellt, dass sie nicht missbraucht werden? Die Angst vor totaler Überwachung ist nicht unbegründet, besonders wenn private Tech-Giganten in die Infrastruktur von Städten investieren.</p>
+
+    <p>Zudem darf die soziale Komponente nicht vergessen werden. Eine Smart City darf nicht nur für junge, technikaffine Menschen funktionieren. Ältere Menschen oder Bürger mit geringem Einkommen dürfen nicht abgehängt werden. Technologie soll dem Menschen dienen und das Zusammenleben verbessern, nicht ersetzen. Begrünte Fassaden, Parks und Begegnungszonen bleiben auch in der digitalsten Stadt unverzichtbar für das menschliche Wohlbefinden.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum ist das Konzept der "Smart City" notwendig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Landbevölkerung abnimmt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> UmProbleme durch die wachsende Urbanisierung zu lösen.</li>
+        <li><strong>c</strong> Weil Technologiekonzerne neue Märkte suchen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Wie soll der Verkehr in der Zukunft geregelt werden?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Durch mehr Straßen und Parkplätze.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Durch intelligente Vernetzung und Kommunikation der Systeme.</li>
+        <li><strong>c</strong> Durch ein Verbot von privaten PKWs in Innenstädten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Welchen Vorteil bieten intelligente Straßenlaternen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbessern die Sicherheit durch Kameras.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sparen Energie, indem sie sich situationsbedingt anpassen.</li>
+        <li><strong>c</strong> Sie dienen gleichzeitig als Ladestationen für E-Autos.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was befürchten Kritiker der Smart City?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass die Technologie zu teuer ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass das Stadtbild verschandelt wird.</li>
+        <li><strong>c</strong> Dass Bürger durch Datensammlung überwacht werden könnten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welcher soziale Aspekt wird im Text betont?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Alle Bürger müssen programmieren lernen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Niemand darf durch die Technisierung ausgegrenzt werden.</li>
+        <li><strong>c</strong> Das Leben in der Stadt wird nur für Reiche bezahlbar sein.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-b, 4-c, 5-b"
+  },
+  {
+    id: 432,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Nachhaltige Mode",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Fast Fashion vs. Fair Fashion: Ein Umdenken im Kleiderschrank</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>T-Shirts für 5 Euro, Hosen für 10 – Mode ist in den letzten Jahrzehnten so billig geworden wie nie zuvor. Große Modeketten bringen bis zu 24 Kollektionen pro Jahr heraus, um ständig neue Kaufanreize zu schaffen. Dieses Geschäftsmodell nennt man "Fast Fashion". Doch der Preis für diese Schnäppchen ist hoch, auch wenn er nicht auf dem Preisschild steht. Er wird von der Umwelt und den Arbeitern in den Produktionsländern bezahlt.</p>
+    
+    <p>Die Textilindustrie ist einer der größten Umweltverschmutzer weltweit. Für die Produktion eines einzigen Baumwoll-Shirts werden rund 2.700 Liter Wasser verbraucht – so viel, wie ein Mensch in zweieinhalb Jahren trinkt. Hinzu kommen giftige Chemikalien zum Färben der Stoffe, die oft ungefiltert in Flüsse geleitet werden. Synthetische Fasern wie Polyester tragen zudem massiv zum Mikroplastik-Problem in unseren Meeren bei, da sich bei jeder Wäsche winzige Partikel lösen.</p>
+    
+    <p>Doch das Bewusstsein der Verbraucher wandelt sich. "Fair Fashion" und Nachhaltigkeit liegen im Trend. Immer mehr Menschen hinterfragen, wo und unter welchen Bedingungen ihre Kleidung hergestellt wurde. Siegel wie GOTS oder Fairtrade garantieren ökologische Standards und faire Löhne. Zwar ist faire Mode in der Anschaffung teurer, doch die Qualität ist meist deutlich höher, sodass die Kleidung länger hält. Das Motto lautet: "Klasse statt Masse".</p>
+    
+    <p>Neben dem Kauf neuer Öko-Mode gibt es weitere nachhaltige Alternativen. Second-Hand-Shopping hat sein verstaubtes Image längst abgelegt. Auf Flohmärkten oder Apps wie Vinted wird gebrauchte Kleidung gehandelt, was Ressourcen schont und den Geldbeutel entlastet. Auch "Kleidertauschpartys" werden immer beliebter: Man bringt Teile mit, die man nicht mehr trägt, und tauscht sie gegen "neue" Lieblingsstücke von anderen. Das macht Spaß und ist völlig kostenlos.</p>
+
+    <p>Ein ganz neuer Ansatz ist das Leasen von Kleidung. Ähnlich wie beim Carsharing kann man hochwertige Kleidungsstücke für eine bestimmte Zeit mieten – etwa ein Abendkleid für eine Hochzeit oder Winterjacken für Kinder, die im nächsten Jahr sowieso nicht mehr passen. Dies könnte ein Modell der Zukunft sein, um den Konsumwahn zu bremsen, ohne auf Abwechslung im Kleiderschrank verzichten zu müssen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist das Hauptmerkmal von "Fast Fashion"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es wird nur nachhaltige Baumwolle verwendet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Kleidung wird sehr schnell und billig in vielen Kollektionen produziert.</li>
+        <li><strong>c</strong> Die Kleidung wird hauptsächlich in Europa hergestellt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welches Umweltproblem wird im Text erwähnt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der hohe Stromverbrauch der Nähmaschinen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der enorme Wasserverbrauch und Wasserverschmutzung.</li>
+        <li><strong>c</strong> Der Transport der Kleidung mit Flugzeugen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was zeichnet "Fair Fashion" aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie ist immer billiger als herkömmliche Mode.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie folgt immer den allerneuesten Trends.</li>
+        <li><strong>c</strong> Sie garantiert ökologische Standards und faire Arbeitsbedingungen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der Vorteil von Kleidertauschpartys?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man bekommt neue Kleidung kostenlos.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Man kann dort professionell Designerkleidung verkaufen.</li>
+        <li><strong>c</strong> Man lernt dort das Nähen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie funktioniert das "Leasen" von Kleidung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man kauft Kleidung auf Raten.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Man mietet Kleidungsstücke für eine begrenzte Zeit.</li>
+        <li><strong>c</strong> Man tauscht Kleidung dauerhaft gegen andere Waren.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-c, 4-a, 5-b"
+  },
+  {
+    id: 433,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Bildung im digitalen Zeitalter",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Schule 4.0: Lernen wir in Zukunft anders?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Die Kreidetafel hat ausgedient, das Tablet übernimmt. Die Digitalisierung macht auch vor den Schultoren nicht halt. Doch "Digitale Bildung" bedeutet weit mehr als nur den Ersatz von Schulbüchern durch PDFs. Es geht um eine grundlegende Veränderung der Art und Weise, wie Wissen vermittelt und angeeignet wird. Kritiker befürchten eine Verdummung durch Technik, während Befürworter von individueller Förderung schwärmen.</p>
+    
+    <p>Ein großer Vorteil digitaler Medien ist die Möglichkeit des adaptiven Lernens. Intelligente Lernsoftware kann erkennen, wo ein Schüler Schwierigkeiten hat, und ihm automatisch passende Übungen anbieten. Wer Mathe schnell versteht, bekommt kniffligere Aufgaben, während andere in ihrem eigenen Tempo üben können, ohne den Anschluss zu verlieren. Der Lehrer wandelt sich dabei vom reinen Wissensvermittler zum Lernbegleiter, der die Schüler individuell coacht.</p>
+    
+    <p>Zudem ermöglicht das Internet den Zugang zu Informationen weit über das klassische Schulbuch hinaus. Schüler können virtuelle Museumsrundgänge machen, mit Partnerklassen am anderen Ende der Welt per Videochat sprechen oder komplexe naturwissenschaftliche Prozesse in Simulationen verstehen. "Medienkompetenz" wird dabei zum neuen Hauptfach: Kinder müssen lernen, seriöse Quellen von Fake News zu unterscheiden und sicher im Netz zu navigieren. Das reine Auswendiglernen von Fakten verliert an Bedeutung, da Wissen jederzeit verfügbar ist.</p>
+    
+    <p>Trotzdem warnen Hirnforscher davor, die analoge Welt komplett zu verbannen. Das haptische Erlebnis, mit einem Füller auf Papier zu schreiben, fördert die Feinmotorik und die Gedächtnisleistung stärker als das Tippen auf einem Glasbildschirm. Auch die soziale Interaktion im Klassenzimmer, das Diskutieren und Streiten, kann durch keine Software ersetzt werden. Schule ist nicht nur ein Ort des Lernens, sondern auch ein Ort des sozialen Miteinanders.</p>
+
+    <p>Ein weiteres Problem ist die Ausstattung. Nicht jede Familie kann sich teure Geräte leisten, und viele Schulen haben immer noch mit schlechtem WLAN zu kämpfen. Wenn digitale Bildung vom Geldbeutel der Eltern abhängt, verschärft sie die soziale Ungleichheit, statt sie abzubauen. Politiker sind daher gefordert, massiv in die Infrastruktur zu investieren, damit die "Schule der Zukunft" wirklich für alle eine Chance bietet.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was bedeutet "Digitale Bildung" laut Text hauptsächlich?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Schulbücher eingescannt werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Schüler nur noch Computerspiele spielen.</li>
+        <li><strong>c</strong> Dass sich die Art des Lernens und Lehrens grundlegend ändert.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Rolle spielt der Lehrer beim adaptiven Lernen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird überflüssig und durch Roboter ersetzt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er agiert eher als Lernbegleiter und Coach.</li>
+        <li><strong>c</strong> Er muss nur noch die Technik warten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Warum verliert reines Auswendiglernen an Bedeutung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil das Gehirn von Kindern heute kleiner ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil Wissen durch das Internet jederzeit verfügbar ist.</li>
+        <li><strong>c</strong> Weil Prüfungen in Zukunft abgeschafft werden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was sagen Hirnforscher zum klassischen Schreiben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist veraltet und sollte abgeschafft werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es fördert Gedächtnis und Motorik besser als Tippen.</li>
+        <li><strong>c</strong> Es schadet den Augen mehr als Bildschirme.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welches soziale Problem wird angesprochen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Ungleiche Chancen durch fehlende Ausstattung.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Mobbing im Internet.</li>
+        <li><strong>c</strong> Lehrermangel in ländlichen Regionen.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-c, 2-b, 3-b, 4-b, 5-a"
+  },
+  {
+    id: 434,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Ernährungstrends: Gesünder oder nur teurer?",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Superfoods und Veganismus: Ein Blick auf den Teller der Zukunft</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Chia-Samen aus Südamerika, Goji-Beeren aus China und Quinoa aus den Anden – sogenannte "Superfoods" liegen voll im Trend. Sie versprechen Gesundheit, Schönheit und ewige Jugend. Doch Ernährungsexperten warnen vor überzogenen Erwartungen. Zwar enthalten diese exotischen Lebensmittel viele Vitamine und Mineralstoffe, doch heimische Alternativen wie Leinsamen, schwarze Johannisbeeren oder Hirse sind oft genauso gesund und dabei deutlich günstiger und umweltfreundlicher, da sie nicht um die halbe Welt transportiert werden müssen.</p>
+    
+    <p>Ein noch größerer Trend ist der Verzicht auf tierische Produkte. Veganismus ist längst keine Nische mehr für radikale Tierschützer, sondern in der Mitte der Gesellschaft angekommen. Supermarktregale sind voll mit veganen Würstchen, Schnitzeln und Käseersatz. Die Gründe für diese Ernährungsumstellung sind vielfältig: Neben dem Tierwohl spielen der Klimaschutz (Massentierhaltung verursacht massive CO2-Emissionen) und die eigene Gesundheit eine entscheidende Rolle. Studien zeigen, dass Veganer seltener an Zivilisationskrankheiten wie Diabetes oder Bluthochdruck leiden.</p>
+    
+    <p>Allerdings ist nicht jedes vegane Produkt automatisch gesund. Viele Ersatzprodukte sind hochverarbeitete Industriewaren, die voller Zusatzstoffe, Salz und gesättigter Fette stecken, um den Geschmack von Fleisch oder Käse zu imitieren. Wer sich gesund ernähren will, sollte daher lieber auf frisches Obst, Gemüse, Hülsenfrüchte und Nüsse setzen, anstatt täglich Fertigprodukte zu konsumieren. "Clean Eating" – also das Essen von möglichst naturbelassenen Lebensmitteln – ist hier das Stichwort.</p>
+    
+    <p>Ein interessanter Aspekt ist auch die Personalisierung der Ernährung. Dank moderner Bluttests und Apps kann heute jeder analysieren lassen, welche Nährstoffe ihm fehlen und welche Lebensmittel er gut verträgt. "Personalized Nutrition" verspricht, für jeden den perfekten Speiseplan zu erstellen. Kritiker sehen darin jedoch eine übertriebene Selbstoptimierung und warnen davor, das Essen nur noch als reine Nährstoffaufnahme zu betrachten. Genuss und das gemeinsame Essen mit Familie und Freunden sollten nicht zu kurz kommen.</p>
+
+    <p>Zusammenfassend lässt sich sagen: Wir essen heute bewusster als früher. Der Trend geht weg von billiger Massenware hin zu Qualität und Nachhaltigkeit. Ob man nun Veganer, Vegetarier oder Flexitarier (jemand, der nur selten Fleisch isst) ist, spielt dabei weniger eine Rolle als die bewusste Entscheidung, was auf den Teller kommt. Die Zukunft der Ernährung wird wohl eine Mischung aus Tradition und Hightech sein – mit dem Ziel, sowohl dem Körper als auch dem Planeten gutzutun.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was sagen Experten über exotische "Superfoods"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sind die einzigen Lebensmittel, die wirklich gesund sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Heimische Alternativen sind oft vergleichbar und umweltfreundlicher.</li>
+        <li><strong>c</strong> Sie sind gefährlich, weil sie oft chemisch behandelt sind.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Warum entscheiden sich viele Menschen für eine vegane Ernährung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil vegane Produkte billiger sind als Fleisch.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Nur aus Mitleid mit den Tieren.</li>
+        <li><strong>c</strong> Aus Gründen wie Tierwohl, Klimaschutz und Gesundheit.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist ein Problem bei vielen veganen Ersatzprodukten?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie schmecken überhaupt nicht wie das Original.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind oft hochverarbeitet und enthalten viele Zusatzstoffe.</li>
+        <li><strong>c</strong> Sie sind in normalen Supermärkten schwer zu finden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist das Ziel von "Personalized Nutrition"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Jedem Menschen den gleichen, perfekten Speiseplan zu geben.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Ernährung an die individuellen Bedürfnisse anzupassen.</li>
+        <li><strong>c</strong> Bluttests für alle verpflichtend zu machen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist das Fazit des Textes zur Zukunft der Ernährung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Wir werden uns bald nur noch von Pillen ernähren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Bewusstes Essen wird wichtiger als strikte Kategorien.</li>
+        <li><strong>c</strong> Fleisch essen wird bald komplett verboten sein.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-c, 3-b, 4-b, 5-b"
+  },
+  {
+    id: 435,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Nachhaltiger Tourismus",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #1abc9c; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Reisen mit gutem Gewissen: Geht das überhaupt?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Früher war Reisen ein Luxus für wenige, heute ist es ein Massenphänomen. Billigflieger machen Wochenendtrips nach Barcelona oder London für jeden erschwinglich. Doch dieser "Overtourism" hat seinen Preis: Venedig versinkt unter Kreuzfahrttouristen, Strände in Thailand müssen wegen Müllbergen geschlossen werden, und der CO2-Ausstoß des Flugverkehrs heizt das Klima an. Immer mehr Urlauber fragen sich daher: Wie kann ich die Welt sehen, ohne sie zu zerstören?</p>
+    
+    <p>Sanfter Tourismus ist die Antwort. Statt "All-Inclusive" im Betonbunker setzt dieses Konzept auf kleine, familiengeführte Unterkünfte, regionale Küche und respektvollen Umgang mit der Natur und Kultur des Gastlandes. Das Geld soll nicht bei internationalen Hotelketten landen, sondern der lokalen Bevölkerung zugutekommen. Wer beispielsweise in einer Eco-Lodge in Costa Rica übernachtet, unterstützt oft direkt Naturschutzprojekte und schafft faire Arbeitsplätze vor Ort.</p>
+    
+    <p>Auch bei der Anreise findet ein Umdenken statt. "Slow Travel" ist angesagt: Statt hektisch Sehenswürdigkeiten abzuhaken, nimmt man sich Zeit. Die Reise mit dem Zug oder dem Fahrrad wird Teil des Erlebnisses. Man sieht Landschaften vorbeiziehen, statt nur über Wolken zu schweben. Zwar dauert die Anreise länger, doch dafür beginnt die Entspannung schon beim Einsteigen. Für Fernreisen, die sich nicht vermeiden lassen, bieten Organisationen wie "Atmosfair" an, die CO2-Emissionen durch Spenden für Klimaschutzprojekte zu kompensieren.</p>
+    
+    <p>Doch sanfter Tourismus bedeutet auch Verzicht. Man muss akzeptieren, dass man nicht jedes Jahr um die halbe Welt fliegen kann, wenn man seinen ökologischen Fußabdruck klein halten will. Vielleicht liegt das Abenteuer ja auch vor der Haustür? Mikroabenteuer in der eigenen Region, Wandern im Harz oder Kanufahren in Mecklenburg-Vorpommern erleben gerade eine Renaissance. Man entdeckt die Schönheit der Heimat neu und spart dabei Geld und CO2.</p>
+
+    <p>Kritiker wenden ein, dass Tourismus für viele Entwicklungsländer eine der wichtigsten Einnahmequellen ist. Wenn wir nicht mehr fliegen, verlieren dort Menschen ihre Jobs. Das stimmt, doch es geht nicht darum, das Reisen komplett einzustellen, sondern es bewusster zu gestalten. Weniger oft, dafür länger und intensiver reisen – das könnte die Formel für die Zukunft sein. Qualität statt Quantität, auch im Urlaub.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist eine negative Folge des Massentourismus ("Overtourism")?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Flüge werden immer teurer.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die lokale Kultur wird gestärkt.</li>
+        <li><strong>c</strong> Umweltzerstörung und Überfüllung beliebter Orte.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist ein Ziel des "Sanften Tourismus"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass das Geld hauptsächlich bei großen internationalen Konzernen landet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass die lokale Bevölkerung wirtschaftlich profitiert.</li>
+        <li><strong>c</strong> Dass Touristen möglichst viele Sehenswürdigkeiten in kurzer Zeit sehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was zeichnet "Slow Travel" aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man reist sehr langsam, weil man kein Geld hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Anreise selbst wird als Teil des Urlaubs gesehen.</li>
+        <li><strong>c</strong> Man darf nur zu Fuß gehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist eine Alternative zu Fernreisen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Mikroabenteuer in der eigenen Region.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Virtuelle Reisen am Computer.</li>
+        <li><strong>c</strong> Gar kein Urlaub mehr zu machen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sollte sich das Reisen laut Text in Zukunft verändern?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man sollte seltener, aber dafür länger und bewusster reisen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Reisen sollte nur noch für Reiche erlaubt sein.</li>
+        <li><strong>c</strong> Man sollte Flugreisen komplett verbieten.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-c, 2-b, 3-b, 4-a, 5-a"
+  },
+  {
+    id: 436,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Cyberkriminalität",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Tatort Internet: Wie wir uns vor digitalen Gangstern schützen</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Früher mussten Bankräuber Masken tragen und Tresore knacken. Heute sitzen sie gemütlich im Kapuzenpulli vor dem Laptop, oft tausende Kilometer entfernt. Cyberkriminalität ist ein Milliardengeschäft geworden. Die Methoden der digitalen Betrüger werden immer raffinierter: Von gefälschten E-Mails ("Phishing"), die täuschend echt aussehen, bis hin zu "Ransomware", die ganze Firmennetzwerke verschlüsselt und Lösegeld erpresst. Niemand ist sicher – weder Privatpersonen noch Regierungen.</p>
+    
+    <p>Ein besonders großes Problem ist der Identitätsdiebstahl. Kriminelle spähen Passwörter aus oder kaufen gestohlene Daten im Darknet, um im Namen ihrer Opfer online einzukaufen oder Verträge abzuschließen. Oft bemerken die Betroffenen dies erst, wenn die Rechnungen oder Mahnungen ins Haus flattern. Experten raten daher dringend zur "Zwei-Faktor-Authentifizierung" (2FA), bei der man neben dem Passwort noch einen zweiten Code (z.B. per SMS) eingeben muss. Das macht es Hackern deutlich schwerer.</p>
+    
+    <p>Doch die größte Schwachstelle ist oft nicht die Technik, sondern der Mensch. Ein unbedachter Klick auf einen Link, ein zu einfaches Passwort ("123456" ist immer noch sehr beliebt!) oder zu viel Vertrauen in unbekannte Absender öffnen Kriminellen Tür und Tor. "Social Engineering" nennt man die Taktik, bei der Opfer so manipuliert werden, dass sie sensible Daten freiwillig preisgeben. Aufklärung und Schulungen sind daher die wichtigste Waffe im Kampf gegen Cybercrime.</p>
+    
+    <p>Auch die Politik hat das Problem erkannt. Polizeibehörden rüsten auf und gründen spezialisierte Cyber-Abteilungen. Doch die Täter agieren global und sind schwer zu fassen. Wenn der Hacker in Land A sitzt, der Server in Land B steht und das Opfer in Land C lebt, ist die Strafverfolgung extrem kompliziert. Internationale Zusammenarbeit ist unerlässlich, aber oft bürokratisch und langsam.</p>
+
+    <p>Was bringt die Zukunft? Mit dem Aufstieg der Künstlichen Intelligenz (KI) wird auch Cybercrime automatisierter und gefährlicher. KI kann heute schon Stimmen täuschend echt imitieren ("Deepfakes"), was für Betrugsanrufe ("Enkeltrick 2.0") genutzt werden kann. Wir müssen uns darauf einstellen, dass der digitale Raum ein dauerhaftes Konfliktfeld bleibt. Wachsamkeit und digitale Hygiene – also regelmäßige Updates und Backups – gehören heute zur Bürgerpflicht.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wie hat sich Bankraub laut Text verändert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er ist seltener geworden, da Banken sicherer sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er passiert heute oft digital vom Laptop aus.</li>
+        <li><strong>c</strong> Er wird nur noch von Amateuren begangen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was passiert beim Identitätsdiebstahl?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Kriminelle handeln im Namen des Opfers, z.B. beim Einkaufen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der Personalausweis wird physisch gestohlen.</li>
+        <li><strong>c</strong> Das Opfer verliert sein Gedächtnis.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist "Social Engineering"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Bau von sozialen Netzwerken.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die psychologische Manipulation von Opfern.</li>
+        <li><strong>c</strong> Ein Studiengang für Informatiker.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Warum ist die Strafverfolgung bei Cybercrime so schwierig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Polizei keine Computer hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil die Täter global agieren und Landesgrenzen nutzen.</li>
+        <li><strong>c</strong> Weil es keine Gesetze gegen Cybercrime gibt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welche neue Gefahr bringt Künstliche Intelligenz (KI)?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Stimmen imitieren und für Betrug nutzen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI wird alle Polizisten ersetzen.</li>
+        <li><strong>c</strong> KI kann noch gar nichts Gefährliches tun.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-a, 3-b, 4-b, 5-a"
+  },
+  {
+    id: 437,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Urban Gardening",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Gärtnern in der Stadt: Mehr als nur ein Hobby</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Wer an Gärtnern denkt, hat oft das Bild vom Rentner im Schrebergarten vor Augen, der peinlich genau darauf achtet, dass die Hecke gerade geschnitten ist. Doch das Image hat sich gewandet. "Urban Gardening" – Gärtnern in der Stadt – ist hip, jung und politisch. Auf Brachflächen, Dächern und sogar auf Verkehrsinseln sprießen Tomaten, Salat und Blumen. Es geht dabei nicht nur um die Ernte, sondern um die Rückeroberung des öffentlichen Raums.</p>
+    
+    <p>Ein bekanntes Beispiel sind die "Prinzessinnengärten" in Berlin. Wo früher Betonwüste war, wachsen heute in mobilen Kisten (Bäckerkisten, Reissäcken) hunderte Sorten von Nutzpflanzen. Da der Boden in Städten oft versiegelt oder schadstoffbelastet ist, muss man kreativ werden. Das Gärtnern in Kisten hat den Vorteil, dass der Garten mobil ist – wenn das Gelände bebaut werden soll, zieht der Garten einfach um. Das zeigt auch die Vergänglichkeit von städtischem Raum.</p>
+    
+    <p>Neben dem ökologischen Aspekt (Bienenfreundlichkeit, besseres Mikroklima) ist die soziale Komponente entscheidend. Urban Gardening Projekte sind Orte der Begegnung. Hier gärtnern Hipster neben türkischen Großmüttern und Schulklassen. Man tauscht Tipps aus, hilft sich beim Gießen und kocht gemeinsam mit der Ernte. In einer anonymen Großstadt schaffen diese Gärten Nachbarschaft und Gemeinschaft. Sie sind offene Lernorte, wo Kinder sehen, dass Karotten nicht im Supermarktregal wachsen, sondern aus der Erde kommen.</p>
+    
+    <p>Natürlich kann man mit ein paar Kisten Tomaten nicht die Welt ernähren. Dennoch ist es ein Schritt in Richtung Resilienz und Selbstversorgung. In Krisenzeiten (wie während der Pandemie) haben viele Menschen gemerkt, wie wichtig und beruhigend es ist, etwas Eigenes anzubauen. Zudem schmeckt eine selbstgezogene Tomate, die vollreif geerntet wird, unvergleichlich besser als die wässrige Ware aus dem Gewächshaus in Spanien.</p>
+
+    <p>Städteplaner haben das Potenzial erkannt. Zukünftige Wohnquartiere werden oft direkt mit Gemeinschaftsgärten ("Community Gardens") geplant. Grüne Dächer und Fassaden sollen Städte kühlen, die sich durch den Klimawandel immer stärker aufheizen. Urban Gardening ist also mehr als nur ein kurzlebiger Trend – es ist ein Baustein für die lebenswerte, grüne Stadt der Zukunft.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wie unterscheidet sich "Urban Gardening" vom klassischen Schrebergarten?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es findet nur auf dem Land statt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist oft politisch motiviert und findet im öffentlichen Raum statt.</li>
+        <li><strong>c</strong> Es ist nur für Rentner erlaubt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Warum wird oft in Kisten oder Säcken gegärtnert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Töpfe zu teuer sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil der Stadtboden oft versiegelt oder belastet ist.</li>
+        <li><strong>c</strong> Weil es schöner aussieht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Welcher soziale Aspekt wird hervorgehoben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Jeder gärtnert für sich allein.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gärten fördern Gemeinschaft und Begegnung verschiedener Menschen.</li>
+        <li><strong>c</strong> Man muss Eintritt bezahlen, um mitzumachen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was haben viele Menschen während Krisenzeiten bemerkt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Gärtnern zu anstrengend ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Supermarkt-Gemüse besser schmeckt.</li>
+        <li><strong>c</strong> Dass es beruhigend und wichtig ist, etwas Eigenes anzubauen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie reagieren Städteplaner auf diesen Trend?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbieten Urban Gardening streng.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie planen neue Quartiere oft direkt mit Gemeinschaftsgärten.</li>
+        <li><strong>c</strong> Sie ignorieren das Thema komplett.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-b, 4-c, 5-b"
+  },
+
+  {
+    id: 438,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Die Macht der Daten",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Datenschutz im 21. Jahrhundert: Gibt es noch Privatsphäre?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Wer nichts zu verbergen hat, hat auch nichts zu befürchten? Dieser Satz ist in Diskussionen um Datenschutz oft zu hören, aber er ist gefährlich naiv. In einer digitalisierten Welt hinterlassen wir bei jedem Schritt Datenspuren: beim Bezahlen mit Karte, beim Surfen im Netz, ja sogar beim Spaziergang mit dem Smartphone in der Tasche. Diese Daten werden gesammelt, verknüpft und zu detaillierten Profilen verarbeitet. Das Ziel: Vorherzusagen, was wir kaufen, wen wir wählen und wie gesund wir sind.</p>
+    
+    <p>Daten sind das Öl des digitalen Zeitalters. Für Konzerne wie Google oder Facebook sind sie die wichtigste Währung. Wir bezahlen für "kostenlose" Dienste wie E-Mail oder Social Media mit unserer Privatsphäre. Was viele nicht wissen: Auch scheinbar harmlose Metadaten – also wer wann mit wem kommuniziert – verraten extrem viel über unser Leben. Ein Profil, das aus solchen Daten erstellt wird, kann intimer sein als ein Tagebuch. Es kann politische Einstellungen, sexuelle Orientierung oder Krankheiten offenbaren, ohne dass wir diese Informationen explizit geteilt haben.</p>
+    
+    <p>Die europäische Datenschutzgrundverordnung (DSGVO) hat versucht, dem Einhalt zu gebieten und den Bürgern die Kontrolle über ihre Daten zurückzugeben. Unternehmen müssen nun explizit um Erlaubnis fragen ("Cookie-Banner"), bevor sie tracken dürfen. Doch in der Praxis klicken die meisten Nutzer genervt auf "Alles akzeptieren", nur um schnell an die gewünschte Information zu kommen. Echter Datenschutz erfordert digitale Mündigkeit und das Bewusstsein, dass Daten wertvoll sind.</p>
+    
+    <p>Ein weiteres Risiko ist der Staat selbst. In einigen Ländern wird Technologie zur Überwachung der eigenen Bevölkerung eingesetzt ("Social Scoring"). Kameras mit Gesichtserkennung können Menschen in Echtzeit identifizieren und verfolgen. Auch in demokratischen Staaten wächst der Begehrlichkeit der Sicherheitsbehörden, auf verschlüsselte Kommunikation wie WhatsApp zugreifen zu können, um Terrorismus zu bekämpfen. Hier stehen sich zwei wichtige Grundrechte gegenüber: Sicherheit und Freiheit. Die Balance zu finden, ist eine der größten Herausforderungen unserer Zeit.</p>
+
+    <p>Die Zukunft könnte jedoch eine Gegenbewegung bringen. "Privacy by Design" – also Datenschutz, der direkt in die Technik eingebaut ist – wird immer wichtiger. Es entstehen neue Dienste, die verschlüsselt und anonym arbeiten. Vielleicht wird Privatsphäre in Zukunft ein Luxusgut, für das man bezahlen muss, während die kostenlose Variante weiterhin mit Daten bezahlt wird. Es liegt an jedem Einzelnen, zu entscheiden, wie viel von sich er preisgeben möchte.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum ist der Satz "Wer nichts zu verbergen hat..." laut Text naiv?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil jeder Mensch Geheimnisse hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil aus gesammelten Daten detaillierte Profile erstellt werden können.</li>
+        <li><strong>c</strong> Weil nur Kriminelle überwacht werden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Womit bezahlen Nutzer für kostenlose Internetdienste?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Mit kleinen Geldbeträgen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Gar nicht, sie sind wirklich kostenlos.</li>
+        <li><strong>c</strong> Mit ihren persönlichen Daten und ihrer Privatsphäre.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist ein Problem bei der Umsetzung der DSGVO?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen halten sich nicht daran.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Nutzer klicken oft genervt auf "Alles akzeptieren", ohne zu lesen.</li>
+        <li><strong>c</strong> Die Gesetze sind zu streng für die Wirtschaft.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welcher Konflikt besteht bei der staatlichen Überwachung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Konflikt zwischen Sicherheit und Freiheit.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der Konflikt zwischen Arm und Reich.</li>
+        <li><strong>c</strong> Der Konflikt zwischen analog und digital.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie könnte sich Privatsphäre in Zukunft entwickeln?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie wird komplett abgeschafft.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie könnte ein Luxusgut werden, für das man bezahlen muss.</li>
+        <li><strong>c</strong> Sie wird für alle gesetzlich garantiert und kostenlos.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-c, 3-b, 4-a, 5-b"
+  },
+  {
+    id: 439,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Die Sharing Economy",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Teilen statt Besitzen: Das Ende des Eigentums?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Warum eine Bohrmaschine kaufen, die man nur 15 Minuten im ganzen Leben benutzt? Diese Frage steht im Zentrum der "Sharing Economy" (Ökonomie des Teilens). Ob Autos (Carsharing), Wohnungen (Airbnb), Kleidung oder Werkzeug – immer mehr Menschen entscheiden sich dafür, Dinge nur dann zu nutzen, wenn sie sie brauchen, anstatt sie zu besitzen. Das spart Geld, Platz und Ressourcen. Besonders in Großstädten, wo Parkplätze und Lagerraum knapp sind, ist dieser Trend auf dem Vormarsch.</p>
+    
+    <p>Die Digitalisierung hat diesen Wandel erst möglich gemacht. Über Apps lassen sich Fahrräder in Sekunden entsperren oder private Zimmer weltweit buchen. Das Vertrauen, das früher nur Freunden entgegengebracht wurde, wird nun durch Bewertungssysteme ersetzt. Wer gute Bewertungen hat, gilt als vertrauenswürdig. Dies ermöglicht Transaktionen zwischen völlig Fremden. Für viele ist dies eine Befreiung vom Ballast des Eigentums: Man muss sich nicht um Wartung, Reparatur oder Versicherung kümmern.</p>
+    
+    <p>Doch es gibt auch Schattenseiten. Kritiker werfen Plattformen wie Uber oder Airbnb vor, bestehende Märkte zu zerstören und prekäre Arbeitsbedingungen zu schaffen ("Plattform-Kapitalismus"). Ein privater Fahrer hat keine soziale Absicherung, keinen Kündigungsschutz und keinen Mindestlohn. Zudem entziehen Ferienwohnungen dem regulären Wohnungsmarkt dringend benötigten Raum, was die Mieten in beliebten Vierteln in die Höhe treibt. Was als soziale Idee des Teilens begann, ist längst ein hartes Geschäft geworden.</p>
+    
+    <p>Ein weiterer Aspekt ist die Nachhaltigkeit. Zwar scheint Teilen auf den ersten Blick ökologisch sinnvoll zu sein. Doch Studien zeigen den sogenannten "Rebound-Effekt": Weil Carsharing-Fahrten oft billiger und bequemer sind als der Bus, steigen Menschen vom öffentlichen Nahverkehr aufs Auto um – die Umweltbelastung steigt. Auch Billigflüge werden oft erst durch günstige private Unterkünfte attraktiv. Teilen ist also nicht automatisch grün.</p>
+
+    <p>Trotz der Kritik wird sich der Trend fortsetzen. In Zukunft werden wir wahrscheinlich immer weniger Produkte besitzen, sondern Dienstleistungen nutzen. Wir kaufen keine Glühbirne mehr, sondern "Lichtstunden", kein Auto, sondern "Mobilität". Dies zwingt Hersteller dazu, langlebigere Produkte zu bauen, da sie selbst für Reparaturen aufkommen müssen. Das könnte das Ende der Wegwerfgesellschaft bedeuten – wenn die Rahmenbedingungen stimmen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist die Grundidee der "Sharing Economy"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man alles doppelt besitzen sollte.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Dinge nutzt, ohne sie unbedingt zu besitzen.</li>
+        <li><strong>c</strong> Dass man alles kostenlos bekommt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Wie wird Vertrauen zwischen Fremden in der Sharing Economy hergestellt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Durch polizeiliche Führungszeugnisse.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Durch persönliche Treffen vor jeder Transaktion.</li>
+        <li><strong>c</strong> Durch digitale Bewertungssysteme.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was werfen Kritiker Plattformen wie Airbnb vor?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verschärfen die Wohnungsnot und treiben Mieten hoch.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Wohnungen sind oft schmutzig.</li>
+        <li><strong>c</strong> Sie sind zu teuer für normale Touristen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der "Rebound-Effekt" beim Carsharing?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Autos gehen schneller kaputt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Menschen nutzen statt Bus und Bahn lieber das günstige Mietauto.</li>
+        <li><strong>c</strong> Die Autos werden oft nicht zurückgebracht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welche positive Auswirkung könnte der Trend auf Produkte haben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Produkte werden langlebiger und reparaturfreundlicher.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Produkte werden billiger und schlechter.</li>
+        <li><strong>c</strong> Es werden gar keine Produkte mehr hergestellt.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-c, 3-a, 4-b, 5-a"
+  },
+  {
+    id: 440,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Generation Z",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #d35400; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Generation Z: Faul oder einfach nur clever?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Sie sind zwischen 1997 und 2012 geboren und strömen gerade auf den Arbeitsmarkt: die "Generation Z" (Gen Z). Über kaum eine Altersgruppe wird so viel diskutiert und geschimpft. Arbeitgeber klagen, die jungen Leute seien nicht belastbar, würden bei der kleinsten Kritik kündigen und forderten ständig mehr Freizeit bei vollem Lohnausgleich. "Work-Life-Balance" ist ihr Mantra, nicht Karriere um jeden Preis. Sind sie also eine Generation von Faulpelzen?</p>
+    
+    <p>Soziologen sehen das anders. Die Gen Z ist die erste Generation, die komplett digital aufgewachsen ist ("Digital Natives"). Sie haben gesehen, wie ihre Eltern im Hamsterrad des Kapitalismus ausgebrannt sind (Burnout) und ziehen daraus ihre Schlüsse. Für sie definiert sich der Sinn des Lebens nicht mehr ausschließlich über Erwerbsarbeit. Sie suchen nach Erfüllung, Selbstverwirklichung und Zeit für Freunde, Hobbys und psychische Gesundheit ("Mental Health"). Arbeit ist Mittel zum Zweck, nicht der Zweck selbst.</p>
+    
+    <p>Zudem sind sie in einer Zeit der Dauerkrisen aufgewachsen: Klimawandel, Pandemie, Krieg in Europa, Inflation. Dies hat sie geprägt. Sie sind pragmatisch, politisch engagiert (Fridays for Future) und fordern von Unternehmen Haltung. Wer als Arbeitgeber keine nachhaltige Strategie hat oder Diskriminierung duldet, hat bei der Gen Z keine Chance. Sie sind loyal, aber nur, solange ihre Werte respektiert werden.</p>
+    
+    <p>Auf dem Arbeitsmarkt sitzen sie dank des Fachkräftemangels am längeren Hebel. Unternehmen müssen sich bewerben, nicht umgekehrt. Das nutzen sie selbstbewusst aus, um 4-Tage-Wochen oder Homeoffice durchzusetzen. Das mag für ältere Generationen ("Babyboomer"), für die Pflichterfüllung und Disziplin oberste Gebote waren, arrogant wirken. Doch vielleicht stoßen sie damit Veränderungen an, von denen am Ende alle profitieren.</p>
+
+    <p>Es ist ein Generationenkonflikt, wie es ihn schon immer gab. Jede Jugend rebelliert gegen die Normen der Alten. Die Gen Z stellt die richtigen Fragen: Wofür arbeiten wir eigentlich? Wie wollen wir leben? Statt sie als faul abzustempeln, sollten Unternehmen zuhören. Denn diese jungen Menschen sind die Zukunft der Wirtschaft – und sie bringen frischen Wind in verkrustete Strukturen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Welches Vorurteil haben Arbeitgeber gegenüber der Generation Z?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie arbeiten zu viel und vernachlässigen ihr Privatleben.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind nicht belastbar und fordern zu viel Freizeit.</li>
+        <li><strong>c</strong> Sie verstehen nichts von Technik.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Lehre zieht die Gen Z aus dem Leben ihrer Eltern?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man noch härter arbeiten muss, um reich zu werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Arbeit der einzige Sinn des Lebens ist.</li>
+        <li><strong>c</strong> Dass sie nicht wie ihre Eltern im "Hamsterrad" ausbrennen wollen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was fordert die Gen Z von Unternehmen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Höhere Boni und Firmenwagen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Haltung, Nachhaltigkeit und Respekt für Werte.</li>
+        <li><strong>c</strong> Mehr Überstunden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Warum kann die Gen Z Forderungen wie die 4-Tage-Woche durchsetzen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil es ein Gesetz dazu gibt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil es einen Mangel an Fachkräften gibt und sie gebraucht werden.</li>
+        <li><strong>c</strong> Weil sie weniger Gehalt verlangen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist das Fazit des Textes?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen sollten auf die Gen Z hören, statt sie zu kritisieren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gen Z wird die Wirtschaft ruinieren.</li>
+        <li><strong>c</strong> Man sollte die Gen Z zwingen, mehr zu arbeiten.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-c, 3-b, 4-b, 5-a"
+  },
+  {
+    id: 441,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Künstliche Intelligenz",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>KI im Alltag: Fluch oder Segen?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Künstliche Intelligenz (KI) ist längst keine Science-Fiction mehr, sondern fester Bestandteil unseres Alltags. Ob Sprachassistenten wie Siri und Alexa, personalisierte Filmempfehlungen auf Netflix oder die Routenplanung bei Google Maps – überall arbeiten unsichtbare Algorithmen im Hintergrund. Sie machen unser Leben bequemer, effizienter und sicherer. In der Medizin rettet KI Leben, indem sie auf Röntgenbildern Tumore früher erkennt als jeder menschliche Arzt. In der Industrie übernehmen Roboter gefährliche oder monotone Arbeiten.</p>
+    
+    <p>Doch die rasante Entwicklung weckt auch Ängste. Viele Menschen sorgen sich um ihren Arbeitsplatz. Wird der Computer mich bald ersetzen? Tatsächlich werden einige Berufe verschwinden, vor allem solche mit viel Routine. Doch Experten betonen, dass KI auch neue Jobs schafft. Es wird Menschen brauchen, die die KI trainieren, überwachen und ethische Entscheidungen treffen. Kreativität, Empathie und soziales Verständnis bleiben (vorerst) menschliche Domänen, die kein Algorithmus kopieren kann.</p>
+    
+    <p>Ein weiteres ethisches Problem sind "Biases" (Voreingenommenheiten). KI lernt aus Daten der Vergangenheit. Wenn diese Daten rassistische oder sexistische Muster enthalten, übernimmt die KI diese Vorurteile. So hat eine Recruiting-Software Frauen benachteiligt, weil sie in der Vergangenheit seltener eingestellt wurden. Es ist entscheidend, dass Entwickler diverser werden und Algorithmen streng auf Fairness geprüft werden, bevor sie auf die Menschheit losgelassen werden.</p>
+    
+    <p>Auch die Frage der Verantwortung ist ungeklärt. Wer haftet, wenn ein autonomes Auto einen Unfall baut? Der Fahrer, der Hersteller oder der Programmierer? Unsere Gesetze hinken der technischen Entwicklung oft Jahre hinterher. Es braucht dringend neue internationale Regeln, um den Einsatz von KI in sichere Bahnen zu lenken, ohne Innovationen abzuwürgen.</p>
+
+    <p>Letztlich ist KI ein Werkzeug – so mächtig wie damals die Dampfmaschine oder das Internet. Es liegt an uns, wie wir es nutzen. Wir dürfen nicht blindlings technikgläubig sein, aber auch nicht in Panik verfallen. Die beste Zukunft ist eine Symbiose: Menschliche Intelligenz gepaart mit künstlicher Rechenpower, um die großen Probleme der Menschheit – wie Klimawandel oder Krankheiten – gemeinsam zu lösen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wo kommt KI im Alltag bereits zum Einsatz?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nur in Forschungslaboren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Bei Sprachassistenten, Streaming-Diensten und Navigation.</li>
+        <li><strong>c</strong> Bisher noch gar nicht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was sagen Experten zur Angst vor Arbeitsplatzverlust?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Alle Menschen werden arbeitslos werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI schafft auch neue Jobs, besonders kreative und soziale.</li>
+        <li><strong>c</strong> KI wird verboten werden, um Jobs zu schützen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist das Problem mit "Biases" (Voreingenommenheit) bei KI?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Vorurteile aus alten Daten übernehmen und Menschen diskriminieren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI ist zu objektiv und hat keine Meinung.</li>
+        <li><strong>c</strong> KI funktioniert nur mit englischen Daten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welche rechtliche Frage ist noch ungeklärt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Ob Roboter wählen dürfen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Wer haftet, wenn eine KI einen Fehler macht (z.B. Unfall).</li>
+        <li><strong>c</strong> Ob KI Steuern zahlen muss.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sieht die ideale Zukunft mit KI aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Mensch ordnet sich der Maschine unter.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Eine Zusammenarbeit von Mensch und Maschine zur Problemlösung.</li>
+        <li><strong>c</strong> Die Abschaffung aller Computer.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
+  },
+  {
+    id: 442,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Globalisierung",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2980b9; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Die Welt wächst zusammen: Gewinner und Verlierer der Globalisierung</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Der Pullover aus Bangladesch, das Smartphone aus China, die Bananen aus Ecuador – unser Alltag ist durch und durch globalisiert. Globalisierung bedeutet, dass Waren, Dienstleistungen, Kapital und Informationen weltweit vernetzt sind und Grenzen ihre Bedeutung verlieren. Für Verbraucher hat das viele Vorteile: Wir können das ganze Jahr über Erdbeeren essen, billige Elektronik kaufen und problemlos mit Freunden am anderen Ende der Welt skypen. Der Welthandel hat vielen ehemaligen Entwicklungsländern zu wirtschaftlichem Aufschwung verholfen und Millionen Menschen aus absoluter Armut befreit.</p>
+    
+    <p>Doch die Medaille hat eine Kehrseite. Der brutale Preiswettbewerb führt oft zu Ausbeutung. In Textilfabriken in Asien schuften Näherinnen unter menschenunwürdigen Bedingungen, damit wir in Europa T-Shirts für 5 Euro kaufen können. Umweltstandards werden oft ignoriert, da Unternehmen ihre Produktion dorthin verlagern, wo die Gesetze am lockersten sind. Der Transport von Waren rund um den Globus verursacht zudem massive CO2-Emissionen.</p>
+    
+    <p>Auch kulturell bringt die Globalisierung Veränderungen. Kritiker fürchten eine "McDonaldisierung" der Welt: Überall gibt es die gleichen Ladenketten, die gleichen Marken, die gleiche Musik. Regionale Traditionen und Sprachen könnten verdrängt werden. Andererseits ermöglicht die Vernetzung auch einen kulturellen Austausch, der Vorurteile abbauen und das Verständnis füreinander fördern kann. Wir lernen andere Lebensweisen kennen und schätzen.</p>
+    
+    <p>Die Corona-Pandemie und der Ukraine-Krieg haben die Verletzlichkeit der globalen Lieferketten (Supply Chains) offenbart. Wenn in Shanghai ein Hafen geschlossen wird, fehlen in Deutschland Bauteile für Autos. Viele Unternehmen überdenken nun ihre Strategie und wollen Produktion wieder näher an die Heimatmärkte holen ("Reshoring"). Dies könnte das Ende der Hyper-Globalisierung einläuten.</p>
+
+    <p>Fazit: Die Globalisierung lässt sich nicht zurückdrehen. Aber sie muss fairer gestaltet werden. Faire Handelsabkommen, weltweite Mindeststandards für Arbeit und Umwelt sowie bewusste Konsumentscheidungen ("Fair Trade") sind notwendig, damit die Globalisierung nicht nur einigen wenigen Konzernen, sondern allen Menschen dient. Wir sitzen alle im selben Boot – und das ist ein globales.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist ein Vorteil der Globalisierung für Verbraucher?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Produkte teurer werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Waren aus aller Welt kaufen kann.</li>
+        <li><strong>c</strong> Dass man nur noch heimische Produkte kaufen darf.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist ein negatives Beispiel für Globalisierung im Text?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Schlechte Arbeitsbedingungen in Textilfabriken.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Zu viele Feiertage.</li>
+        <li><strong>c</strong> Dass Bananen in Deutschland wachsen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was bedeutet "McDonaldisierung"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Menschen gesund essen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Angst vor kultureller Vereinheitlichung.</li>
+        <li><strong>c</strong> Dass es zu wenige Restaurants gibt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was haben Krisen wie Corona gezeigt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass globale Lieferketten sehr stabil sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass globale Lieferketten verletzlich sind.</li>
+        <li><strong>c</strong> Dass wir keine Autos mehr brauchen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sollte die Globalisierung laut Text gestaltet werden?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sollte komplett gestoppt werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sollte fairer und nachhaltiger (z.B. Fair Trade) werden.</li>
+        <li><strong>c</strong> Sie sollte nur den Konzernen dienen.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-a, 3-b, 4-b, 5-b"
+  },
+  {
+    id: 443,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Elektromobilität",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>E-Autos: Die Antriebswende und ihre Herausforderungen</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Der Verbrennungsmotor, über 100 Jahre lang das Herzstück der Automobilindustrie, steht vor dem Aus. Klimaschutzziele zwingen Politik und Hersteller zum Umdenken. Das Elektroauto (E-Auto) wird als sauberer Nachfolger gehandelt. Immer mehr Modelle kommen auf den Markt, die Reichweiten steigen, und staatliche Prämien machen den Kauf attraktiv. In einigen Ländern, wie Norwegen, sind bereits die Mehrheit der Neuzulassungen elektrisch.</p>
+    
+    <p>Doch die Skepsis ist noch groß. "Reichweitenangst" ist das häufigste Argument: Viele fürchten, mit leerer Batterie im Nirgendwo liegen zu bleiben. Die Ladeinfrastruktur wächst zwar, ist aber oft noch lückenhaft, besonders in ländlichen Regionen oder für Mieter ohne eigene Garage. Zudem dauert das Laden deutlich länger als das Tanken. Schnellladesäulen entlang der Autobahnen sollen hier Abhilfe schaffen, doch an Feiertagen drohen dort Staus.</p>
+    
+    <p>Ein weiterer Kritikpunkt ist die Umweltbilanz der Batterieproduktion. Die Herstellung von Lithium-Ionen-Akkus verbraucht viel Energie und benötigt Rohstoffe wie Kobalt und Lithium, die oft unter fragwürdigen Bedingungen abgebaut werden. Studien zeigen jedoch: Über die gesamte Lebensdauer ist das E-Auto deutlich klimafreundlicher als ein Verbrenner – vorausgesetzt, es wird mit Ökostrom geladen. Wer "Strom aus Kohle" tankt, fährt nicht wirklich grün.</p>
+    
+    <p>Die Umstellung betrifft nicht nur die Fahrer, sondern die gesamte Industrie. E-Motoren sind viel einfacher aufgebaut als Verbrenner und benötigen weniger Teile. Das bedroht Arbeitsplätze bei Zulieferern, die auf Kolben, Getriebe oder Auspuffanlagen spezialisiert sind. Es ist ein riesiger Strukturwandel, der Umschulungen und neue Geschäftsmodelle erfordert.</p>
+
+    <p>Die Zukunft gehört der Elektromobilität, aber sie ist nur ein Teil der Lösung. Ein Stau aus E-Autos ist immer noch ein Stau. Wirkliche Verkehrswende bedeutet mehr als nur den Antrieb zu tauschen. Wir brauchen bessere Radwege, attraktiveren öffentlichen Nahverkehr und Städte, die für Menschen und nicht für Autos gebaut sind. Das E-Auto ist ein wichtiger Schritt, aber kein Allheilmittel.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum wird der Verbrennungsmotor abgelöst?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Benzin alle ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Wegen Klimaschutzzielen.</li>
+        <li><strong>c</strong> Weil Verbrenner zu leise sind.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist die "Reichweitenangst"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die Angst, zu schnell zu fahren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Angst, dass der Akku leer wird und man liegen bleibt.</li>
+        <li><strong>c</strong> Die Angst vor langen Staus.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Wann ist ein E-Auto wirklich klimafreundlicher als ein Verbrenner?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Wenn es mit Ökostrom geladen wird.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Immer, egal welcher Strom.</li>
+        <li><strong>c</strong> Nie, die Batterie ist zu schädlich.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welche Auswirkung hat der Wandel auf die Industrie?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es entstehen viel mehr Arbeitsplätze im Getriebebau.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Arbeitsplätze bei Zulieferern für Verbrennerteile sind bedroht.</li>
+        <li><strong>c</strong> Die Industrie wird komplett abgeschafft.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was wird im Fazit gefordert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nur noch E-Autos zu bauen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Eine echte Verkehrswende mit mehr Rad- und Nahverkehr.</li>
+        <li><strong>c</strong> Alle Autos zu verbieten.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
+  },
+  {
+    id: 444,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Plastikmüll",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #c0392b; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Eine Welt aus Plastik: Finden wir den Ausweg?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Plastik ist ein geniales Material: leicht, billig, formbar und haltbar. Zu haltbar. Denn genau das ist das Problem. Einmal produziert, bleibt Plastik für Jahrhunderte auf der Erde. Jede Zahnbürste, die wir je benutzt haben, existiert noch irgendwo – auf einer Deponie oder im Meer. Riesige Müllstrudel treiben in den Ozeanen, und Tiere verwechseln bunte Plastikteile mit Nahrung und verenden qualvoll. Mikroplastik wurde inzwischen überall gefunden: im arktischen Eis, im Boden und in unserem Blut.</p>
+    
+    <p>Das Bewusstsein wächst. Einwegplastik wie Strohhalme oder Wattestäbchen wurde in der EU verboten. Supermärkte bieten Papiertüten an, und viele Menschen kaufen im "Unverpackt-Laden" ein. Doch das reicht nicht. Die Verpackungsindustrie boomt weiter, getrieben durch Online-Handel und "To-Go"-Mentalität. Recycling ist oft eine Illusion: Ein Großteil des Plastikmülls wird verbrannt ("thermisch verwertet") oder in ärmere Länder exportiert, wo er dann doch in der Natur landet.</p>
+    
+    <p>Forscher arbeiten an Alternativen. Bioplastik aus Maisstärke oder Algen soll die Lösung sein. Doch oft konkurriert der Anbau dieser Rohstoffe mit der Nahrungsmittelproduktion. Zudem zersetzen sich auch Biokunststoffe oft nur unter speziellen Industriebedingungen und nicht auf dem heimischen Kompost. Die beste Lösung bleibt: Vermeiden statt Ersetzen. Mehrwegsysteme, Glas und Metall sind echte Alternativen.</p>
+    
+    <p>Ein interessanter Ansatz sind Bakterien oder Pilze, die Plastik "fressen" und zersetzen können. Erste Laborversuche sind vielversprechend, aber bis zum großflächigen Einsatz ist es noch ein weiter Weg. Wir können uns nicht darauf verlassen, dass die Technik uns rettet. Wir müssen unser Verhalten ändern.</p>
+
+    <p>Die "Zero Waste" Bewegung zeigt, dass ein Leben ohne Müll möglich ist. Doch es erfordert Disziplin und Zeit. Nicht jeder hat die Möglichkeit, alles selbst zu machen oder weit zum nächsten Unverpackt-Laden zu fahren. Politik und Wirtschaft sind gefordert, verpackungsfreie Alternativen zum Standard zu machen und Hersteller in die Pflicht zu nehmen (Produzentenverantwortung). Nur so können wir verhindern, dass wir in unserem eigenen Müll ersticken.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist laut Text das Hauptproblem von Plastik?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist zu teuer in der Herstellung.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist zu schwer.</li>
+        <li><strong>c</strong> Es ist extrem haltbar und bleibt Jahrhunderte bestehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was passiert mit einem Großteil des Plastikmülls beim "Recycling"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird zu 100% wiederverwertet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er wird oft verbrannt oder exportiert.</li>
+        <li><strong>c</strong> Er löst sich in Luft auf.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Warum ist Bioplastik nicht die perfekte Lösung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es konkurriert mit Nahrungsmitteln und verrottet oft schlecht.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist giftig.</li>
+        <li><strong>c</strong> Es gibt kein Bioplastik.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Woran forschen Wissenschaftler als mögliche Hilfe?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> An Bakterien, die Plastik fressen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> An Raketen, die Müll ins All schießen.</li>
+        <li><strong>c</strong> An Plastik, das unsichtbar ist.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wer ist laut Text besonders gefordert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nur die Verbraucher.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Politik und Wirtschaft müssen verpackungsfreie Alternativen fördern.</li>
+        <li><strong>c</strong> Die Müllabfuhr.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-c, 2-b, 3-a, 4-a, 5-b"
+  },
+  {
+    id: 445,
+    type: "TELC",
+    level: "B2",
+    category: "Lesen",
+    title: "B2 Leseverstehen, Teil 2 – Die Psychologie des Glücks",
+    content: `
+<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Was macht uns wirklich glücklich? Erkenntnisse der Forschung</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Jeder strebt danach, aber kaum jemand kann es definieren: Glück. Lange Zeit war Glück ein Thema für Philosophen, heute beschäftigt sich die Wissenschaft ("Glücksforschung") damit. Eine wichtige Erkenntnis ist das "Easterlin-Paradox": Ab einem bestimmten Einkommen, das die Grundbedürfnisse deckt, macht mehr Geld nicht automatisch glücklicher. Wer reich ist, gewöhnt sich schnell an den Luxus ("hedonistische Tretmühle") und das Glücksniveau sinkt wieder auf den Normalzustand.</p>
+    
+    <p>Was zählt dann? Beziehungen. Langzeitstudien zeigen eindeutig, dass soziale Bindungen – Familie, Freunde, eine gute Nachbarschaft – der wichtigste Faktor für ein zufriedenes Leben sind. Einsamkeit ist dagegen so schädlich wie Rauchen. Menschen in stabilen sozialen Netzwerken leben länger und gesünder. Auch Dankbarkeit spielt eine große Rolle. Wer sich täglich bewusst macht, wofür er dankbar ist, trainiert sein Gehirn auf Positivität.</p>
+    
+    <p>Ein weiterer Faktor ist der "Flow". Das ist der Zustand völliger Vertiefung in eine Tätigkeit, sei es Musizieren, Sport oder Arbeit. Wer im Flow ist, vergisst Raum und Zeit und empfindet tiefe Befriedigung. Passiver Konsum wie Fernsehen erzeugt diesen Zustand fast nie. Es geht also darum, aktiv zu sein und Herausforderungen zu meistern.</p>
+    
+    <p>Interessant ist auch der Unterschied zwischen "Erlebnisglück" (kurzfristige Freude, z.B. ein Eis essen) und "Lebenszufriedenheit" (der rückblickenden Bewertung des eigenen Lebens). Das Elternsein ist ein gutes Beispiel: Im Alltag ist das Leben mit Kindern oft stressig (wenig Erlebnisglück), aber rückblickend geben Kinder dem Leben einen tiefen Sinn (hohe Lebenszufriedenheit). Wir brauchen beides, aber der Sinn ist nachhaltiger.</p>
+
+    <p>Zum Schluss eine gute Nachricht: Glück ist lernbar. Zwar ist ein Teil unseres Glücksempfindens genetisch vorbestimmt, doch etwa 40% haben wir selbst in der Hand. Durch positives Denken, Achtsamkeit und das Pflegen von Beziehungen können wir unser "Glücksniveau" aktiv steigern. Warten Sie nicht auf den Lottogewinn – das wahre Glück liegt oft im Kleinen und im Miteinander.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was besagt das "Easterlin-Paradox"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Geld immer glücklicher macht.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Geld ab einer gewissen Grenze nicht mehr glücklicher macht.</li>
+        <li><strong>c</strong> Dass arme Menschen glücklicher sind als reiche.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist laut Studien der wichtigste Faktor für Glück?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Ein schnelles Auto.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Soziale Bindungen (Familie, Freunde).</li>
+        <li><strong>c</strong> Berühmtheit.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was versteht man unter "Flow"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Einen Zustand völliger Vertiefung in eine Tätigkeit.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Das Fließen von Wasser.</li>
+        <li><strong>c</strong> Den Konsum von Fernsehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der Unterschied zwischen Erlebnisglück und Lebenszufriedenheit?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es gibt keinen Unterschied.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Erlebnisglück ist kurzfristig, Lebenszufriedenheit ist langfristig/sinnstiftend.</li>
+        <li><strong>c</strong> Erlebnisglück ist wichtiger.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>5. Kann man Glück lernen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nein, alles ist genetisch festgelegt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Ja, zu einem großen Teil (ca. 40%) durch Verhalten und Denkmuster.</li>
+        <li><strong>c</strong> Nur durch Lottogewinne.</li>
+      </ul>
+    </div>
+  </div>
+</div>`,
+    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
+  }
 ];
