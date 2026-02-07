@@ -255,7 +255,7 @@ const translations = {
 
 /* --- STATE --- */
 let state = {
-  lang: "tr",
+  lang: "en",
   user: { name: "", timeSpent: 0, wordsLearned: 0 },
   timer: { ref: null, sec: 1500, running: false },
   filters: { type: "verb", level: "A1" },
@@ -332,14 +332,19 @@ document.addEventListener("DOMContentLoaded", () => {
     if (firstAdminTab) firstAdminTab.click();
   }
 
-  // Normal render işlemleri
+  // Optimize initial render
   renderFlashcards();
   updateProgressUI();
-  renderGrammar();
-  renderExams();
-  renderReading();
-  toggleWordInputs();
-  updateTimerDisplay();
+
+  // Render other sections when browser is idle or after a delay
+  const idleCallback = window.requestIdleCallback || ((cb) => setTimeout(cb, 200));
+  idleCallback(() => {
+    renderGrammar();
+    renderExams();
+    renderReading();
+    toggleWordInputs();
+    updateTimerDisplay();
+  });
 });
 
 /* --- LANGUAGE SWITCH --- */

@@ -1,24 +1,163 @@
 <!doctype html>
-<html lang="tr">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Learning Platform</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <title>Deutivo - German Learning Platform</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </noscript>
+  <style>
+    /* CRITICAL CSS */
+    :root {
+      --primary: #ffc107;
+      --secondary: #dd0000;
+      --dark: #1a1a1a;
+      --light: #f8f9fa;
+      --white: #ffffff;
+      --gray: #6c757d;
+      --glass-bg: rgba(255, 255, 255, 0.7);
+      --glass-border: rgba(255, 255, 255, 0.6);
+      --gradient-bg: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+      --success: #28a745;
+      --card-w: 300px;
+      --card-h: 350px;
+      --card-bg: #ffffff;
+      --border: #e9ecef;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background: var(--gradient-bg);
+      color: var(--dark);
+      min-height: 100vh;
+      padding-top: 130px;
+    }
+
+    header {
+      background: var(--white);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .status-bar {
+      background: var(--white);
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 30px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      position: fixed;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+    }
+
+    .app-container {
+      display: flex;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 20px 20px 20px;
+      gap: 30px;
+    }
+
+    .sidebar {
+      width: 260px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 140px;
+      height: calc(100vh - 150px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-menu {
+      background: var(--white);
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .section {
+      display: none;
+    }
+
+    .section.active {
+      display: block;
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      font-size: 1.5rem;
+      background: none;
+      color: var(--dark);
+      padding: 5px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding-top: 60px !important;
+      }
+
+      .status-bar {
+        position: relative;
+        top: 0;
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+      }
+
+      .sidebar {
+        display: none;
+      }
+
+      .app-container {
+        padding-top: 20px !important;
+      }
+
+      .mobile-menu-btn {
+        display: block;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet" href="style.css">
+  </noscript>
 </head>
 
 <body>
   <header>
-    <div class="logo">🇩🇪 <span>Teğmen</span></div>
+    <div class="logo">🇩🇪 <span>Bronze</span></div>
 
     <div class="header-right">
       <div class="lang-flags">
-        <button class="flag-btn" onclick="setLanguage('en')">🇬🇧</button>
-        <button class="flag-btn active" onclick="setLanguage('tr')">
-          🇹🇷
-        </button>
+        <button class="flag-btn active" onclick="setLanguage('en')">🇬🇧</button>
+        <button class="flag-btn" onclick="setLanguage('tr')">🇹🇷</button>
         <button class="flag-btn" onclick="setLanguage('pl')">🇵🇱</button>
         <button class="flag-btn" onclick="setLanguage('ua')">🇺🇦</button>
       </div>
@@ -34,7 +173,7 @@
     <div class="timer-section">
       <div class="timer-display" id="timerDisplay">00:00:00</div>
       <button class="btn-timer-toggle" id="timerToggleBtn" onclick="toggleTimer()">
-        <span data-i18n="start"> Başlat</span>
+        <span data-i18n="start"> Start</span>
       </button>
       <button class="btn-timer-coffee" onclick="startBreak()" title="5 Min Break">☕</button>
 
@@ -44,7 +183,7 @@
       <div class="progress-info">
         <span id="welcomeContainer" style="display: none"><span class="welcome-msg" id="welcomeText"></span> |
         </span>
-        <span data-i18n="progress">İlerleme:</span>
+        <span data-i18n="progress">Progress:</span>
         <strong id="learnedCount">0</strong> / <strong id="goalCount">50</strong>
         <span class="stars-display" id="starsDisplay">⭐ 0.0</span>
         <!-- <span data-i18n="words">Kelime</span> -->
@@ -67,17 +206,17 @@
           📘 Flashcards
         </div>
         <div class="nav-item" onclick="switchTab('grammar', this)" data-i18n="grammar">
-          📝 Gramer
+          📝 Grammar
         </div>
         <div class="nav-item" onclick="switchTab('reading', this)" data-i18n="reading">
-          📖 Okuma
+          📖 Reading
         </div>
         <div class="nav-item" onclick="switchTab('phrases', this)" data-i18n="phrases">
-          💬 Kalıplar
+          💬 Phrases
         </div>
 
         <!-- Exam Group -->
-        <div class="nav-group-title" data-i18n="exam">Sınavlar</div>
+        <div class="nav-group-title" data-i18n="exam">Exams</div>
         <div class="nav-item nav-sub-item" onclick="openExam('TELC', this)">
           TELC
         </div>
@@ -416,12 +555,11 @@
     </main>
   </div>
 
-  <script src="data/vocab.js"></script>
-  <script src="data/grammar.js"></script>
-  <script src="data/reading.js"></script>
-  <script src="data/exam.js"></script>
-
-  <script src="app.js"></script>
+  <script src="data/vocab.js" defer></script>
+  <script src="data/grammar.js" defer></script>
+  <script src="data/reading.js" defer></script>
+  <script src="data/exam.js" defer></script>
+  <script src="app.js" defer></script>
 </body>
 
 </html>
