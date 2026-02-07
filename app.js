@@ -552,7 +552,10 @@ function updateUser() {
 /* --- FLASHCARDS --- */
 function renderFlashcards() {
   const container = document.getElementById("flashcardsGrid");
-  container.innerHTML = "";
+  if (container) {
+    container.innerHTML = "";
+    container.scrollLeft = 0;
+  }
   const texts = translations[state.lang];
 
   const filtered = db.vocab.filter(
@@ -636,6 +639,11 @@ function setFilter(cat, val, btn) {
   if (cat === "type") btn.classList.add("type-active");
   else btn.classList.add("active");
 
+  // Scroll to top of the page when level changes to show the first card clearly
+  if (cat === "level") {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   renderFlashcards();
 }
 
@@ -647,6 +655,10 @@ function setGrammarFilter(level, btn) {
     .querySelectorAll(".glass-btn")
     .forEach((b) => b.classList.remove("active"));
   btn.classList.add("active");
+
+  // Reset scroll to top of the content
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   renderGrammar();
 }
 
@@ -760,16 +772,22 @@ function openExam(type, btn) {
 
 function setExamLevel(level, btn) {
   state.examLevel = level;
+  currentExamReadingIndex = 0; // Reset index when level changes
   const parent = btn.parentElement;
   parent
     .querySelectorAll(".glass-btn")
     .forEach((b) => b.classList.remove("active"));
   btn.classList.add("active");
+
+  // Reset scroll position
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   renderExams();
 }
 
 function setExamCategory(cat, btn) {
   state.examCategory = cat;
+  currentExamReadingIndex = 0; // Reset index when category changes
   const parent = btn.parentElement;
   parent
     .querySelectorAll(".glass-btn")
@@ -926,6 +944,10 @@ function setReadingFilter(level, btn) {
     .querySelectorAll(".glass-btn")
     .forEach((b) => b.classList.remove("active"));
   btn.classList.add("active");
+
+  // Reset scroll position
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
   renderReading();
 }
 
