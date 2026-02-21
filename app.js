@@ -67,6 +67,9 @@ const translations = {
     lblTaskDesc: "Görev Tanımı",
     lblAnswerExample: "Cevap (Örnek Mektup)",
     btnShowAnswer: "👁️ Cevabı Göster / Gizle",
+    comingSoonBadge: "YAKINDA",
+    comingSoonTitle: "Çok Yakında!",
+    comingSoonMsg: "Bu sınav bölümü için içerikler hazırlanıyor. Yakında burada olacak! 🚀",
   },
   en: {
     logoTitle: "DeutschMaster",
@@ -128,6 +131,9 @@ const translations = {
     lblTaskDesc: "Task Description",
     lblAnswerExample: "Answer Example",
     btnShowAnswer: "👁️ Show / Hide Answer",
+    comingSoonBadge: "SOON",
+    comingSoonTitle: "Coming Soon!",
+    comingSoonMsg: "Content for this exam section is being prepared. It will be available soon! 🚀",
   },
   pl: {
     logoTitle: "DeutschMaster",
@@ -189,6 +195,9 @@ const translations = {
     lblTaskDesc: "Opis Zadania",
     lblAnswerExample: "Przykład Odpowiedzi",
     btnShowAnswer: "👁️ Pokaż / Ukryj Odpowiedź",
+    comingSoonBadge: "WKRÓTCE",
+    comingSoonTitle: "Wkrótce!",
+    comingSoonMsg: "Treści dla tej sekcji egzaminacyjnej są w przygotowaniu. Wkrótce dostępne! 🚀",
   },
   ua: {
     logoTitle: "DeutschMaster",
@@ -250,6 +259,9 @@ const translations = {
     lblTaskDesc: "Опис Завдання",
     lblAnswerExample: "Приклад Відповіді",
     btnShowAnswer: "👁️ Показати / Приховати Відповідь",
+    comingSoonBadge: "НЕЗАБАРОМ",
+    comingSoonTitle: "Незабаром!",
+    comingSoonMsg: "Вміст для цього розділу іспиту готується. Він буде доступний незабаром! 🚀",
   },
 };
 
@@ -269,6 +281,8 @@ let state = {
   totalPoints: 0, // Total points earned
   learnedGrammar: [], // Grammar topics learned
   completedTimers: 0, // Number of 25-min sessions completed
+  phraseFilter: "A1", // Default Phrase level
+  selectedWordBankWord: null, // For A2 Part 2
 };
 
 /* --- RANKING SYSTEM --- */
@@ -775,6 +789,233 @@ function openExam(type, btn) {
   }
 }
 
+/* --- COMING SOON --- */
+function openComingSoon(examName, btn) {
+  // Activate Exam section
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.getElementById('exam').classList.add('active');
+
+  // Hide exam filters / categories
+  document.getElementById('examCategories').style.display = 'none';
+
+  // Sidebar active state
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  btn.classList.add('active');
+
+  // Render coming-soon message
+  const texts = translations[state.lang];
+  const container = document.getElementById('examContent');
+  container.innerHTML = `
+    <div style="
+      display:flex; flex-direction:column; align-items:center; justify-content:center;
+      min-height:340px; text-align:center; padding:40px 20px;
+    ">
+      <div style="font-size:4rem; margin-bottom:20px;">🚧</div>
+      <h2 style="font-size:1.8rem; font-weight:700; color:var(--dark); margin-bottom:12px;">
+        ${examName} — ${texts.comingSoonTitle}
+      </h2>
+      <p style="font-size:1rem; color:#666; max-width:420px; line-height:1.7;">
+        ${texts.comingSoonMsg}
+      </p>
+      <div style="margin-top:30px; display:flex; gap:10px; flex-wrap:wrap; justify-content:center;">
+        <span style="background:#fff3cd; color:#856404; border:1px solid #ffc107; border-radius:999px; padding:6px 16px; font-size:0.85rem; font-weight:600;">
+          ⏳ ${examName}
+        </span>
+      </div>
+    </div>
+  `;
+
+  // Update `data-i18n='comingSoonBadge'` spans on re-language switch
+  // (handled by applyTranslations which uses data-i18n)
+
+  // Close mobile menu
+  if (window.innerWidth <= 768) {
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.getElementById('sidebarOverlay');
+    if (sidebar && sidebar.classList.contains('open')) {
+      sidebar.classList.remove('open');
+      if (overlay) overlay.classList.remove('active');
+    }
+  }
+}
+
+function renderSprachbausteinSection(filtered, container) {
+  if (filtered.length === 0) {
+    container.innerHTML = `<div style='text-align:center; padding:20px; color:#999;'>Bu seviye için Sprachbausteine bulunamadı.</div>`;
+    return;
+  }
+
+  const currentItem = filtered[currentExamReadingIndex] || filtered[0];
+
+  // Navigation
+  let navHTML = `<div class="reading-nav-grid" style="margin-bottom:20px; display:flex; gap:10px; overflow-x:auto; padding-bottom:5px;">`;
+  filtered.forEach((_, idx) => {
+    const activeClass = idx === currentExamReadingIndex ? 'active' : '';
+    navHTML += `<button class="reading-nav-btn ${activeClass}" style="min-width:40px; height:40px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer;" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
+  });
+  navHTML += `</div>`;
+
+  // --- LEGACY FORMAT SUPPORT ---
+  if (!currentItem.texts) {
+    let optionsHtml = "";
+    if (currentItem.options && Array.isArray(currentItem.options)) {
+      currentItem.options.forEach((opt, idx) => {
+        const isCorrect = idx === currentItem.correct;
+        optionsHtml += `<button class="exam-opt" onclick="checkAnswer(this, ${isCorrect})">${idx + 1}) ${opt}</button>`;
+      });
+    }
+    container.innerHTML = navHTML + `<div class="exam-item">
+      <div class="exam-q">${currentItem.q}</div>
+      <div class="exam-options">${optionsHtml}</div>
+    </div>`;
+    return;
+  }
+
+  // --- NEW FORMAT (PIXEL PERFECT) ---
+  const isA2 = currentItem.level === 'A2';
+  const isB1 = currentItem.level === 'B1';
+  const isB2 = currentItem.level === 'B2';
+  const isAdvanced = isA2 || isB1 || isB2;
+  const isPart2 = currentItem.subtype === 'part2';
+
+  let headerTitle = isAdvanced ? (isPart2 ? "Sprachbausteine Teil 2" : "Sprachbausteine Teil 1") : "1 Sprachbausteine";
+  let headerDesc = isAdvanced ?
+    (isPart2 ? "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal." : "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?") :
+    "Lesen Sie den Text und kreuzen Sie die richtige Lösung (a oder b) auf dem Antwortbogen an.";
+
+  let contentHTML = `
+    <div style="font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;">
+       <h2 style="font-size: 1.4rem; font-weight: bold; margin-bottom: 5px;">${headerTitle}</h2>
+       <p style="margin-bottom: 20px; font-style: italic;">${headerDesc}</p>
+  `;
+
+  currentItem.texts.forEach((textObj, tIdx) => {
+    let textWithGaps = textObj.content;
+
+    // Replace placeholders like ___1___ with styled gap markers
+    textObj.gapIds.forEach(num => {
+      if (isPart2) {
+        textWithGaps = textWithGaps.replace(`___${num}___`, `<span id="gap-${num}" class="gap-clickable" onclick="selectWordBankGap(${num}, this)">${num}</span>`);
+      } else {
+        // B2 Part 1 uses numbers like 21, 22... in the text as well
+        textWithGaps = textWithGaps.replace(`___${num}___`, `<span style="display:inline-block; border-bottom:1px solid #333; min-width:30px; text-align:center; font-weight:bold; margin:0 5px; color:#c0392b;">${num}</span>`);
+      }
+    });
+
+    // Email Header for B2 Part 1
+    let emailHeader = "";
+    if (isB2 && !isPart2 && (currentItem.cc || currentItem.betreff)) {
+      emailHeader = `
+        <div style="background:#fff; border-bottom:1px solid #ccc; padding:15px; margin-bottom:0; font-family:Arial,sans-serif; font-size:0.9rem;">
+          <div style="display:grid; grid-template-columns: 80px 1fr; gap:10px; margin-bottom:8px;">
+            <div style="color:#666; border-right:1px solid #eee;">CC:</div>
+            <div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.cc || ""}</div>
+          </div>
+          <div style="display:grid; grid-template-columns: 80px 1fr; gap:10px;">
+            <div style="color:#666; border-right:1px solid #eee;">Betreff:</div>
+            <div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.betreff || ""}</div>
+          </div>
+        </div>
+      `;
+    }
+
+    contentHTML += `
+      <div style="background: ${isAdvanced ? '#f0f0f0' : '#e0e0e0'}; padding: 0; border: 1px solid #999; margin-bottom: 30px; position:relative; border-radius:4px; overflow:hidden;">
+        ${emailHeader}
+        <div style="padding: 30px; white-space: pre-wrap; font-size: 1.1rem; color:#1a1a1a;">${textWithGaps}</div>
+      </div>
+    `;
+
+    if (isPart2) {
+      // Part 2: Word Bank below text
+      contentHTML += `<div class="word-bank-grid">`;
+      Object.entries(currentItem.wordBank).forEach(([key, val]) => {
+        contentHTML += `
+                <div class="word-bank-item" id="wb-${key}" onclick="selectWordBankWord('${key}', this)">
+                    <strong style="color:var(--secondary)">${key}</strong> ${val}
+                </div>
+            `;
+      });
+      contentHTML += `</div>`;
+    } else {
+      // Part 1/A1: Grid of options
+      contentHTML += `<div style="display: grid; grid-template-columns: repeat(${isAdvanced ? 4 : 2}, 1fr); gap: 20px; margin-bottom: 40px;">`;
+      textObj.gapIds.forEach(num => {
+        const q = currentItem.questions.find(q => q.num === num);
+        if (q) {
+          const options = isAdvanced ? ['a', 'b', 'c'] : ['a', 'b'];
+          let optsHTML = "";
+          options.forEach(optKey => {
+            const isCorrect = q.correct === optKey;
+            optsHTML += `<button class="exam-opt" style="margin:0; padding:6px 10px; text-align:left; flex:1;" onclick="checkAnswer(this, ${isCorrect})"><strong>${optKey}</strong> ${q[optKey]}</button>`;
+          });
+
+          contentHTML += `
+                    <div style="display: flex; flex-direction: column; gap: 5px; padding:10px; border-bottom:1px solid #eee;">
+                        <strong style="font-size: 1.1rem; min-width: 25px;">${num}</strong>
+                        <div style="display: flex; flex-direction: column; gap: 5px;">
+                            ${optsHTML}
+                        </div>
+                    </div>
+                `;
+        }
+      });
+      contentHTML += `</div>`;
+    }
+  });
+
+  contentHTML += `</div>`;
+  container.innerHTML = navHTML + contentHTML;
+}
+
+window.selectWordBankGap = function (num, btn) {
+  // Check if we have a selected word
+  if (state.selectedWordBankWord) {
+    const currentItem = db.exam.filter(e => e.level === state.examLevel && e.category === 'sprachbaustein')[currentExamReadingIndex];
+    if (!currentItem) return;
+
+    const q = currentItem.questions.find(q => q.num === num);
+    if (q) {
+      const isCorrect = q.correct === state.selectedWordBankWord;
+      const wordText = currentItem.wordBank[state.selectedWordBankWord];
+
+      if (isCorrect) {
+        btn.innerHTML = wordText;
+        btn.classList.add('filled');
+        btn.classList.remove('active-gap');
+        // Success sound or feedback? 
+        state.totalPoints += 5;
+        updateProgressUI();
+
+        // Deselect word
+        state.selectedWordBankWord = null;
+        document.querySelectorAll('.word-bank-item').forEach(i => i.classList.remove('selected'));
+      } else {
+        btn.classList.add('wrong');
+        setTimeout(() => btn.classList.remove('wrong'), 1000);
+        state.totalPoints = Math.max(0, state.totalPoints - 2);
+        updateProgressUI();
+      }
+    }
+  } else {
+    // Just highlight gap
+    document.querySelectorAll('.gap-clickable').forEach(g => g.classList.remove('active-gap'));
+    btn.classList.add('active-gap');
+  }
+};
+
+window.selectWordBankWord = function (key, btn) {
+  state.selectedWordBankWord = key;
+  document.querySelectorAll('.word-bank-item').forEach(i => i.classList.remove('selected'));
+  btn.classList.add('selected');
+};
+
+
+function setExamReadingIndex(idx) {
+  currentExamReadingIndex = idx;
+  renderExams();
+}
+
 function setExamLevel(level, btn) {
   state.examLevel = level;
   currentExamReadingIndex = 0; // Reset index when level changes
@@ -838,6 +1079,12 @@ function renderExams() {
   // CHECK FOR READING SECTION
   if (state.examCategory === 'Lesen' || state.examCategory === 'lesen') {
     renderReadingSection(filtered, container);
+    return;
+  }
+
+  // CHECK FOR SPRACHBAUSTEINE
+  if (state.examCategory === 'sprachbaustein') {
+    renderSprachbausteinSection(filtered, container);
     return;
   }
 
@@ -1169,6 +1416,7 @@ function switchTab(id, el) {
   el.classList.add("active");
 
   if (id === "admin") document.querySelector(".admin-tab").click();
+  if (id === "phrases") renderPhrases();
 
   // Close mobile menu if open
   if (window.innerWidth <= 768) {
@@ -1625,3 +1873,44 @@ function toggleReadingAnswer(btn) {
     content.style.display = "block";
   }
 }
+
+/* --- PHRASES LOGIC --- */
+function setPhraseLevel(level, btn) {
+  state.phraseFilter = level;
+  const parent = btn.parentElement;
+  parent.querySelectorAll(".glass-btn").forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  renderPhrases();
+}
+
+function renderPhrases() {
+  const container = document.getElementById("phrasesContainer");
+  if (!container) return;
+  container.innerHTML = "";
+
+  const filtered = (window.phrasesData || []).filter(p => p.level === state.phraseFilter);
+
+  if (filtered.length === 0) {
+    container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; padding:20px; color:#999;">Henüz bu seviye için kalıp eklenmedi.</p>`;
+    return;
+  }
+
+  filtered.forEach(p => {
+    const card = document.createElement("div");
+    card.className = "phrase-card";
+
+    // Use TR as fallback for translation if specific language missing
+    const translation = p[state.lang] || p.tr || "";
+    const category = p.category || "Alltag";
+
+    card.innerHTML = `
+      <div class="phrase-badge">${p.level}</div>
+      <div class="phrase-cat">${category}</div>
+      <div class="phrase-de">${p.de}</div>
+      <div class="phrase-translation">${translation}</div>
+    `;
+
+    container.appendChild(card);
+  });
+}
+

@@ -30,6 +30,20 @@
       --border: #e9ecef;
     }
 
+    .coming-soon-badge {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: #fff;
+      background: #ff8800;
+      border-radius: 99px;
+      padding: 2px 6px;
+      margin-left: 6px;
+      vertical-align: middle;
+      text-transform: uppercase;
+    }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -220,17 +234,17 @@
         <div class="nav-item nav-sub-item" onclick="openExam('TELC', this)">
           TELC
         </div>
-        <div class="nav-item nav-sub-item" onclick="openExam('Goethe', this)">
-          Goethe
+        <div class="nav-item nav-sub-item" onclick="openComingSoon('Goethe', this)">
+          Goethe <span class="coming-soon-badge" data-i18n="comingSoonBadge">BALD</span>
         </div>
-        <div class="nav-item nav-sub-item" onclick="openExam('TestDaF', this)">
-          TestDaF
+        <div class="nav-item nav-sub-item" onclick="openComingSoon('TestDaF', this)">
+          TestDaF <span class="coming-soon-badge" data-i18n="comingSoonBadge">BALD</span>
         </div>
-        <div class="nav-item nav-sub-item" onclick="openExam('DSH', this)">
-          DSH
+        <div class="nav-item nav-sub-item" onclick="openComingSoon('DSH', this)">
+          DSH <span class="coming-soon-badge" data-i18n="comingSoonBadge">BALD</span>
         </div>
-        <div class="nav-item nav-sub-item" onclick="openExam('FIDE', this)">
-          FIDE
+        <div class="nav-item nav-sub-item" onclick="openComingSoon('FIDE', this)">
+          FIDE <span class="coming-soon-badge" data-i18n="comingSoonBadge">BALD</span>
         </div>
       </nav>
       <!-- SIDEBAR AD -->
@@ -325,6 +339,18 @@
       <section id="phrases" class="section">
         <h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2>
         <p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p>
+
+        <div class="filter-container">
+          <div class="filter-row">
+            <button class="glass-btn active" onclick="setPhraseLevel('A1', this)">A1</button>
+            <button class="glass-btn" onclick="setPhraseLevel('A2', this)">A2</button>
+            <button class="glass-btn" onclick="setPhraseLevel('B1', this)">B1</button>
+            <button class="glass-btn" onclick="setPhraseLevel('B2', this)">B2</button>
+            <button class="glass-btn" onclick="setPhraseLevel('C1', this)">C1</button>
+          </div>
+        </div>
+
+        <div id="phrasesContainer" class="phrases-grid"></div>
       </section>
 
       <!-- READING -->
@@ -558,6 +584,7 @@
   <script src="data/vocab.js" defer></script>
   <script src="data/grammar.js" defer></script>
   <script src="data/reading.js" defer></script>
+  <script src="data/phrases.js" defer></script>
   <script src="data/exam.js" defer></script>
   <script src="app.js" defer></script>
 </body>

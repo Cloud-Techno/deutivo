@@ -1,20 +1,95 @@
 window.examData = [
-  {
-    "id": 1,
+  { "id": 1,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
-    "q": "___ du Deutsch?",
-    "options": [
-      "Sprichst",
-      "Sprichst du",
-      "Sprechen",
-      "Sprich"
+    "title": "A1 Sprachbausteine - Nachbarschaft (Set 15)",
+    "texts": [
+      {
+        "content": "Guten Tag Frau Berg,\n\nich habe heute ein ___1___ für Sie angenommen. Es ___2___ im Hausflur. Bitte ___3___ Sie es ab, wenn Sie nach Hause kommen. Es ist ziemlich ___4___. Ich bin bis 20 Uhr ___5___.\nHerzliche Grüße,\nIhr Nachbar, Herr Jung",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Lieber Herr Jung,\n\nvielen Dank für ___6___ Hilfe! Das ist sehr ___7___ von Ihnen. Ich komme heute um 18 Uhr nach Hause und ___8___ das Paket ab. Möchten Sie vielleicht morgen ___9___ uns einen Kaffee trinken? Ich ___10___ mich über Ihren Besuch.\nBeste Grüße,\nSabine Berg",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
     ],
-    "correct": 0
+    "questions": [
+      {
+        "num": 1,
+        "a": "Paket",
+        "b": "Brief",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "steht",
+        "b": "liegt",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "nehmen",
+        "b": "holen",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "groß",
+        "b": "schwer",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "hier",
+        "b": "da",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "deine",
+        "b": "Ihre",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "gut",
+        "b": "nett",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "hole",
+        "b": "bringe",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "bei",
+        "b": "mit",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "freue",
+        "b": "bin",
+        "correct": "a"
+      }
+    ]
   },
-  {
-    "id": 2,
+  { "id": 2,
     "type": "TELC",
     "level": "A1",
     "category": "lesen",
@@ -27,8 +102,7 @@ window.examData = [
     ],
     "correct": 1
   },
-  {
-    "id": 4,
+  { "id": 4,
     "type": "TestDaF",
     "level": "B2",
     "category": "sprachbaustein",
@@ -41,8 +115,7 @@ window.examData = [
     ],
     "correct": 1
   },
-  {
-    "id": 100,
+  { "id": 100,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -50,8 +123,7 @@ window.examData = [
     "task": "Sie sind vor einer Woche nach Hamburg umgezogen und m\u00f6chten Ihrem Freund Tom davon erz\u00e4hlen. Schreiben Sie eine E-Mail an Tom.<br><br>Berichten Sie \u00fcber folgende Punkte:<br>1. Wie ist Ihre neue Wohnung? (Gr\u00f6\u00dfe, Zimmer, Lage)<br>2. Wie gef\u00e4llt Ihnen Ihre neue Arbeit?<br>3. Laden Sie Tom zu sich ein.",
     "answer": "Betreff: Hallo aus meiner neuen Stadt Hamburg!<br><br>Lieber Tom,<br><br>wie geht es dir? Mir geht es sehr gut! Ich wohne jetzt seit einer Woche in Hamburg. Meine neue Wohnung im Zentrum ist klein, aber sehr gem\u00fctlich. Ich habe zwei Zimmer und einen sch\u00f6nen Balkon mit Blumen.<br><br>Ich arbeite jetzt in einer B\u00e4ckerei. Die Arbeit macht Spa\u00df und meine Kollegen sind sehr nett.<br><br>Besuch mich doch mal! Hast du n\u00e4chstes Wochenende Zeit? Du kannst bei mir schlafen.<br><br>Viele Gr\u00fc\u00dfe<br>Dein Ali"
   },
-  {
-    "id": 101,
+  { "id": 101,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -59,8 +131,7 @@ window.examData = [
     "task": "Sie haben n\u00e4chste Woche Geburtstag und m\u00f6chten feiern. Schreiben Sie eine Einladung an Ihre Freunde.<br><br>Schreiben Sie:<br>1. Warum feiern Sie?<br>2. Wann und wo findet die Party statt?<br>3. Bitten Sie Ihre Freunde, Essen oder Getr\u00e4nke mitzubringen.",
     "answer": "Betreff: Einladung zu meiner gro\u00dfen Geburtstagsparty<br><br>Hallo ihr Lieben,<br><br>ich habe bald Geburtstag und werde endlich 25 Jahre alt! Das m\u00f6chte ich gerne gro\u00df mit euch feiern. Die Party ist am Samstag, den 20. Mai, um 19 Uhr bei mir zu Hause im Garten.<br><br>Ich mache Pizza und viele Salate. K\u00f6nnt ihr bitte Getr\u00e4nke wie Cola, Saft oder Bier mitbringen? Das w\u00e4re eine gro\u00dfe Hilfe f\u00fcr mich.<br><br>Bitte sagt mir bis Mittwoch Bescheid. Ich freue mich auf euch!<br><br>Eure Sara"
   },
-  {
-    "id": 102,
+  { "id": 102,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -68,8 +139,7 @@ window.examData = [
     "task": "Sie sind gerade im Urlaub in Spanien. Schreiben Sie eine E-Mail an Ihre Freundin Lisa.<br><br>Erz\u00e4hlen Sie:<br>1. Wo sind Sie und wie ist das Wetter?<br>2. Was machen Sie den ganzen Tag? (Strand, Essen, etc.)<br>3. Wann kommen Sie zur\u00fcck?",
     "answer": "Liebe Lisa,<br><br>viele herzliche Gr\u00fc\u00dfe aus Spanien! Ich bin jetzt seit drei Tagen hier in Barcelona. Es ist einfach traumhaft hier.<br><br>Das Wetter ist perfekt, die Sonne scheint jeden Tag und es ist sehr warm. Ich liege oft am Strand, schwimme im Meer und lese mein Buch. Das spanische Essen, besonders die Paella, schmeckt fantastisch.<br><br>Am Sonntag komme ich leider schon zur\u00fcck. Dann treffen wir uns und ich zeige dir meine Fotos.<br><br>Bis bald!<br>Deine Maria"
   },
-  {
-    "id": 103,
+  { "id": 103,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -77,8 +147,7 @@ window.examData = [
     "task": "Sie sind heute Morgen krank aufgewacht. Schreiben Sie eine formelle E-Mail an Ihren Chef, Herrn M\u00fcller.<br><br>Informieren Sie ihn:<br>1. Dass Sie krank sind und nicht kommen k\u00f6nnen.<br>2. Wie lange Sie voraussichtlich fehlen werden.<br>3. Dass Sie das Attest schicken.",
     "answer": "Betreff: Krankmeldung - Ali Yilmaz<br><br>Sehr geehrter Herr M\u00fcller,<br><br>ich muss Ihnen leider mitteilen, dass ich heute nicht zur Arbeit kommen kann. Ich bin heute Morgen mit hohem Fieber und starken Kopfschmerzen aufgewacht und f\u00fchle mich sehr schlecht.<br><br>Ich gehe sp\u00e4ter zum Arzt. Ich denke, dass ich etwa drei Tage zu Hause bleiben muss. Am Donnerstag bin ich wahrscheinlich wieder im B\u00fcro.<br><br>Das \u00e4rztliche Attest schicke ich Ihnen morgen per Post zu. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  {
-    "id": 104,
+  { "id": 104,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -86,8 +155,7 @@ window.examData = [
     "task": "Ihr Sohn Noah studiert im Ausland. Schreiben Sie ihm eine E-Mail.<br><br>Schreiben Sie:<br>1. Fragen Sie, wie es ihm geht und wie das Universit\u00e4tsleben ist.<br>2. Sagen Sie, dass Sie ihn sehr vermissen.<br>3. Fragen Sie, ob er in den Weihnachtsferien nach Hause kommt.",
     "answer": "Lieber Noah,<br><br>wie geht es dir mein Sohn? Ich hoffe, du bist gesund und das Studium im Ausland macht dir Spa\u00df.<br><br>Ich vermisse dich hier zu Hause sehr. Seit du weg bist, ist es in der Wohnung sehr ruhig. Ich denke jeden Tag an dich.<br><br>Bald ist Weihnachten. Wann beginnen deine Ferien? Kommst du \u00fcber die Feiertage nach Hause? Ich w\u00fcrde mich riesig freuen und koche dir dein Lieblingsessen.<br><br>Bitte melde dich bald!<br><br>Deine Mama Heidi"
   },
-  {
-    "id": 105,
+  { "id": 105,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -95,8 +163,7 @@ window.examData = [
     "task": "Sie m\u00f6chten Deutsch lernen. Schreiben Sie eine E-Mail an die Sprachschule.<br><br>Fragen Sie nach:<br>1. Wann der n\u00e4chste A2-Kurs beginnt.<br>2. Wie viel der Kurs kostet.<br>3. Ob es einen Einstufungstest gibt.",
     "answer": "Betreff: Anfrage zu Deutschkurs A2<br><br>Sehr geehrte Damen und Herren,<br><br>ich interessiere mich sehr f\u00fcr Ihr Kursangebot. Ich habe den A1-Kurs bereits abgeschlossen und m\u00f6chte nun A2 lernen. Wann beginnt der n\u00e4chste Abendkurs? Ich kann leider nur ab 18 Uhr kommen.<br><br>K\u00f6nnen Sie mir bitte auch sagen, wie viel der Kurs kostet und wie lange er dauert? Gibt es vor dem Kurs einen Einstufungstest?<br><br>Ich w\u00fcrde mich \u00fcber eine schnelle Antwort und weitere Informationen sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Elena Popov"
   },
-  {
-    "id": 106,
+  { "id": 106,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -104,8 +171,7 @@ window.examData = [
     "task": "Sie waren gestern bei Anna zum Essen eingeladen. Schreiben Sie ihr.<br><br>Bedanken Sie sich f\u00fcr:<br>1. Den sch\u00f6nen Abend.<br>2. Das leckere Essen.<br>3. Laden Sie Anna zu sich ein.",
     "answer": "Liebe Anna,<br><br>vielen Dank f\u00fcr den wundersch\u00f6nen Abend gestern bei dir! Es hat mir sehr viel Spa\u00df gemacht.<br><br>Das Essen war wirklich fantastisch, besonders die Lasagne war super lecker. Du bist eine tolle K\u00f6chin! Wir haben auch so viel gelacht und geredet.<br><br>N\u00e4chste Woche m\u00f6chte ich dich gerne zu mir zum Abendessen einladen. Ich koche dann etwas T\u00fcrkisches f\u00fcr uns beide. Hast du am Freitagabend Zeit? Sag mir Bescheid!<br><br>Viele Gr\u00fc\u00dfe<br>Ayse"
   },
-  {
-    "id": 107,
+  { "id": 107,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -113,8 +179,7 @@ window.examData = [
     "task": "Sie m\u00fcssen lange arbeiten und k\u00f6nnen nicht einkaufen. Schreiben Sie Ihrem Mitbewohner Paul.<br><br>Bitten Sie ihn:<br>1. F\u00fcr Sie einkaufen zu gehen.<br>2. Schreiben Sie, was er kaufen soll (Milch, Eier, Brot).<br>3. Bedanken Sie sich.",
     "answer": "Hallo Paul,<br><br>tut mir leid, ich muss heute leider viel l\u00e4nger arbeiten und schaffe es nicht mehr rechtzeitig zum Supermarkt. Der K\u00fchlschrank ist aber fast leer.<br><br>K\u00f6nntest du bitte f\u00fcr uns einkaufen gehen? Wir brauchen dringend:<br>- 1 Liter Milch<br>- Eier<br>- Brot<br>- K\u00e4se und Tomaten<br><br>Das Geld gebe ich dir heute Abend zur\u00fcck, wenn ich da bin. Du rettest mich! Vielen Dank f\u00fcr deine Hilfe. Bis sp\u00e4ter.<br><br>Gru\u00df<br>Tim"
   },
-  {
-    "id": 108,
+  { "id": 108,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -122,8 +187,7 @@ window.examData = [
     "task": "Sie haben Ihren Schl\u00fcssel im Hotel vergessen. Schreiben Sie an die Rezeption.<br><br>Geben Sie an:<br>1. Wann Sie dort waren und Ihre Zimmernummer.<br>2. Wo der Schl\u00fcssel wahrscheinlich liegt.<br>3. Bitten Sie um Zusendung per Post.",
     "answer": "Betreff: Vergessener Schl\u00fcssel - Zimmer 305<br><br>Sehr geehrte Damen und Herren,<br><br>ich war am letzten Wochenende Gast in Ihrem Hotel (Zimmer 305). Leider habe ich bei der Abreise meinen Hausschl\u00fcssel im Zimmer vergessen. Ich glaube, er liegt auf dem Tisch neben dem Bett.<br><br>K\u00f6nnten Sie bitte nachsehen, ob er da ist? Der Schl\u00fcssel hat einen blauen Anh\u00e4nger. Wenn Sie ihn finden, schicken Sie ihn mir bitte per Post an meine Adresse. Ich bezahle die Kosten gerne.<br><br>Vielen Dank f\u00fcr Ihre M\u00fche.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Thomas M\u00fcller"
   },
-  {
-    "id": 109,
+  { "id": 109,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -131,8 +195,7 @@ window.examData = [
     "task": "Ihr Freund Ali hat Sie eingeladen, aber Sie k\u00f6nnen nicht kommen. Schreiben Sie ihm.<br><br>Schreiben Sie:<br>1. Dank f\u00fcr die Einladung.<br>2. Absage mit Grund (Elternbesuch).<br>3. Vorschlag f\u00fcr ein Treffen n\u00e4chste Woche.",
     "answer": "Lieber Ali,<br><br>vielen Dank f\u00fcr die liebe Einladung zu deiner Party am Samstag! Ich habe mich sehr gefreut, dass du an mich gedacht hast.<br><br>Leider kann ich diesmal nicht kommen. Meine Eltern kommen am Wochenende zu Besuch und wir fahren zusammen weg. Das tut mir sehr leid, ich w\u00e4re gerne dabei gewesen.<br><br>Aber vielleicht k\u00f6nnen wir uns n\u00e4chste Woche mal treffen? Ich lade dich gerne auf einen Kaffee ein. Viel Spa\u00df bei der Feier!<br><br>Liebe Gr\u00fc\u00dfe<br>Can"
   },
-  {
-    "id": 110,
+  { "id": 110,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -140,8 +203,7 @@ window.examData = [
     "task": "Sie lesen eine Anzeige f\u00fcr einen Job im Caf\u00e9. Schreiben Sie eine Bewerbung.<br><br>Inhalt:<br>1. Stellen Sie sich vor (Name, Alter).<br>2. Ihre Erfahrung in der Gastronomie.<br>3. Wann k\u00f6nnen Sie arbeiten?",
     "answer": "Betreff: Bewerbung als Aushilfskellner<br><br>Sehr geehrte Damen und Herren,<br><br>mit gro\u00dfem Interesse habe ich Ihre Anzeige in der Zeitung gelesen und m\u00f6chte mich hiermit als Kellner bei Ihnen bewerben. Mein Name ist David Smith, ich bin 24 Jahre alt und studiere hier in Berlin.<br><br>Ich bringe bereits Erfahrung mit, da ich letzten Sommer drei Monate lang in einem gro\u00dfen Restaurant in M\u00fcnchen gearbeitet habe. Ich bin sehr freundlich, zuverl\u00e4ssig und spreche flie\u00dfend Deutsch sowie Englisch.<br><br>Zeitlich bin ich flexibel und k\u00f6nnte am Wochenende sowie an zwei Abenden in der Woche arbeiten. \u00dcber eine Einladung zu einem pers\u00f6nlichen Gespr\u00e4ch w\u00fcrde ich mich sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>David Smith"
   },
-  {
-    "id": 111,
+  { "id": 111,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -149,8 +211,7 @@ window.examData = [
     "task": "Sie sind aus dem Urlaub zur\u00fcck. Schreiben Sie Ihrem Freund Stefan.<br><br>Erz\u00e4hlen Sie:<br>1. Wie war das Hotel und das Essen?<br>2. Ein Problem mit dem Mietwagen.<br>3. Schlagen Sie ein Treffen vor.",
     "answer": "Hallo Stefan,<br><br>wie geht es dir? Ich bin seit gestern zur\u00fcck aus Italien! Der Urlaub war einfach toll und ich habe mich super erholt. Unser Hotel lag direkt am Meer und das Essen war ein Traum - wir haben jeden Tag Pizza, Pasta und frischen Fisch gegessen.<br><br>Nur an einem Tag hatten wir Pech: Unser Mietwagen hatte mitten auf der Stra\u00dfe eine Panne und wir mussten zwei Stunden auf den Service warten. Aber sonst war alles perfekt.<br><br>Ich habe sehr viele Fotos gemacht. Komm doch am Sonntag zum Kaffee vorbei, dann erz\u00e4hle ich dir alles genau.<br><br>Bis bald<br>Lukas"
   },
-  {
-    "id": 112,
+  { "id": 112,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -158,8 +219,7 @@ window.examData = [
     "task": "Sie k\u00f6nnen Ihren Zahnarzttermin nicht wahrnehmen. Schreiben Sie an die Praxis.<br><br>Punkte:<br>1. Termin absagen.<br>2. Grund (Arbeit).<br>3. Bitte um einen neuen Termin n\u00e4chste Woche.",
     "answer": "Betreff: Terminabsage - Maria Kurz<br><br>Sehr geehrtes Praxisteam Dr. Weber,<br><br>ich habe morgen, am 15. Mai um 14:00 Uhr, einen Kontrolltermin bei Ihnen. Leider muss ich diesen Termin kurzfristig absagen, da ich unerwartet f\u00fcr eine kranke Kollegin einspringen und lange arbeiten muss. Es tut mir sehr leid f\u00fcr die Umst\u00e4nde.<br><br>W\u00e4re es m\u00f6glich, den Termin zu verschieben? Ich h\u00e4tte n\u00e4chste Woche am Donnerstag oder Freitag Zeit, am besten vormittags. Bitte geben Sie mir Bescheid, ob das bei Ihnen passt.<br><br>Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Bem\u00fchungen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Maria Kurz"
   },
-  {
-    "id": 113,
+  { "id": 113,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -167,8 +227,7 @@ window.examData = [
     "task": "In Ihrer Wohnung ist es sehr kalt. Schreiben Sie an den Vermieter, Herrn M\u00fcller.<br><br>Beschreiben Sie:<br>1. Was ist kaputt?<br>2. Wie kalt ist es?<br>3. Bitten Sie um sofortige Reparatur.",
     "answer": "Betreff: Dringend: Heizung defekt in Wohnung 4<br><br>Sehr geehrter Herr M\u00fcller,<br><br>ich schreibe Ihnen, weil ich leider ein gro\u00dfes Problem in meiner Wohnung habe. Die Heizung im Wohnzimmer funktioniert seit gestern Abend nicht mehr. Es ist inzwischen sehr kalt in der Wohnung, das Thermometer zeigt nur noch 16 Grad an.<br><br>K\u00f6nnen Sie bitte dringend einen Handwerker schicken? Das Problem muss schnell gel\u00f6st werden, da man so nicht hier wohnen kann. Ich bin morgen den ganzen Tag zu Hause, sodass jemand vorbeikommen k\u00f6nnte. Bitte geben Sie mir kurz Bescheid.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  {
-    "id": 114,
+  { "id": 114,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -176,8 +235,7 @@ window.examData = [
     "task": "Sie sehen ein Sofa auf Facebook. Schreiben Sie dem Verk\u00e4ufer Klaus.<br><br>Fragen Sie:<br>1. Ist es noch da?<br>2. Zustand, Alter und Ma\u00dfe?<br>3. Termin zur Abholung.",
     "answer": "Hallo Klaus,<br><br>ich habe gerade deine Anzeige f\u00fcr das graue Sofa auf Facebook gesehen. Ich suche f\u00fcr meine neue Wohnung genau so eines! Ist das Sofa noch zu haben?<br><br>Ich h\u00e4tte vorab noch ein paar Fragen: Wie alt ist das Sofa ungef\u00e4hr? Hat der Stoff Flecken oder Sch\u00e4den? Und k\u00f6nntest du mir bitte die genauen Ma\u00dfe schicken? Ich muss sicher sein, dass es in mein Auto passt.<br><br>Wenn alles passt, k\u00f6nnte ich es am Samstagvormittag abholen und bar bezahlen. Geht das bei dir?<br><br>Ich freue mich auf deine Antwort.<br><br>Viele Gr\u00fc\u00dfe<br>Ahmed"
   },
-  {
-    "id": 115,
+  { "id": 115,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -185,8 +243,7 @@ window.examData = [
     "task": "Sie m\u00f6chten kochen. Laden Sie Monika ein.<br><br>Schreiben Sie:<br>1. Was kochen Sie?<br>2. Wer kommt noch?<br>3. Bitten Sie um einen Nachtisch.",
     "answer": "Hallo Monika,<br><br>na, hast du am kommenden Samstagabend schon etwas vor? Wenn nicht, lade ich dich herzlich zum Essen bei mir ein! Ich m\u00f6chte mein neues Rezept f\u00fcr Lasagne ausprobieren und dazu mache ich einen gro\u00dfen Salat. Mark und Sarah haben auch schon zugesagt.<br><br>Ich habe allerdings eine kleine Bitte: Ich bin im Backen wirklich nicht gut. K\u00f6nntest du vielleicht einen Nachtisch mitbringen? Ein Kuchen oder ein Eis w\u00e4re super lecker.<br><br>Wir fangen so gegen 19 Uhr an. Ich freue mich auf einen lustigen Abend mit dir!<br><br>Liebe Gr\u00fc\u00dfe<br>Julia"
   },
-  {
-    "id": 116,
+  { "id": 116,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -194,8 +251,7 @@ window.examData = [
     "task": "Sie ziehen um und brauchen Hilfe. Schreiben Sie an Freunde.<br><br>Infos:<br>1. Wann und wohin ziehen Sie?<br>2. Warum brauchen Sie Hilfe?<br>3. Versprechen Sie Verpflegung (Pizza/Bier).",
     "answer": "Hallo Leute,<br><br>es gibt Neuigkeiten: Ich habe endlich eine neue Wohnung in der Goethestra\u00dfe gefunden! Der gro\u00dfe Umzug ist am n\u00e4chsten Samstag, den 15. Mai.<br><br>Da ich sehr viele schwere M\u00f6bel und Kisten habe, kann ich das alleine nicht schaffen. Ich brauche dringend eure starken Arme! K\u00f6nnt ihr mir bitte helfen? Wir starten morgens um 9 Uhr.<br><br>Als Dankesch\u00f6n bestelle ich nach der Arbeit nat\u00fcrlich Pizza f\u00fcr alle und es gibt genug Bier und Getr\u00e4nke. Es wird bestimmt lustig und nicht zu anstrengend. Bitte sagt mir Bescheid, ob ihr Zeit habt.<br><br>Danke und Gru\u00df<br>Ahmed"
   },
-  {
-    "id": 117,
+  { "id": 117,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -203,8 +259,7 @@ window.examData = [
     "task": "Sie m\u00f6chten ein Zimmer buchen. Schreiben Sie an das Hotel.<br><br>Fragen Sie:<br>1. Haben sie ein Einzelzimmer frei (Datum)?<br>2. Gibt es Parkplatz und Fr\u00fchst\u00fcck?<br>3. Bitten Sie um ein Angebot.",
     "answer": "Betreff: Buchungsanfrage f\u00fcr August<br><br>Sehr geehrte Damen und Herren,<br><br>ich plane eine Reise nach M\u00fcnchen und w\u00fcrde gerne in Ihrem Hotel \u00fcbernachten. Haben Sie f\u00fcr den Zeitraum vom 10. bis 15. August noch ein ruhiges Einzelzimmer frei?<br><br>Da ich mit dem eigenen Auto anreise, w\u00fcsste ich gerne, ob Sie einen Parkplatz haben und was dieser pro Tag kostet. Au\u00dferdem ist mir wichtig zu wissen, ob das Fr\u00fchst\u00fcck im Zimmerpreis bereits inklusive ist.<br><br>K\u00f6nnten Sie mir bitte ein unverbindliches Angebot f\u00fcr diese f\u00fcnf N\u00e4chte zuschicken? Ich freue mich auf Ihre schnelle Antwort.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>John Doe"
   },
-  {
-    "id": 118,
+  { "id": 118,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -212,8 +267,7 @@ window.examData = [
     "task": "Sie ziehen um und m\u00fcssen k\u00fcndigen.<br><br>Schreiben Sie:<br>1. Dass Sie k\u00fcndigen.<br>2. Warum (Umzug/neue Arbeit).<br>3. Bitten Sie um eine Best\u00e4tigung.",
     "answer": "Betreff: K\u00fcndigung meiner Mitgliedschaft (Nr. 123456)<br><br>Sehr geehrte Damen und Herren,<br><br>hiermit k\u00fcndige ich meinen Vertrag bei Ihrem Fitnessstudio 'Fit & Stark' fristgerecht zum n\u00e4chstm\u00f6glichen Termin. Der Grund f\u00fcr meine K\u00fcndigung ist, dass ich beruflich in eine andere Stadt ziehe und Ihr Studio daher leider nicht mehr nutzen kann.<br><br>Ich war mit dem Angebot und den Trainern immer sehr zufrieden. Bitte senden Sie mir eine schriftliche Best\u00e4tigung der K\u00fcndigung zu und teilen Sie mir das genaue Datum mit, an dem mein Vertrag endet.<br><br>Vielen Dank f\u00fcr die gute Betreuung in den letzten Jahren.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Max Mustermann"
   },
-  {
-    "id": 119,
+  { "id": 119,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -221,8 +275,7 @@ window.examData = [
     "task": "Sie haben jemanden kennengelernt. Schreiben Sie Ihrer Mutter.<br><br>Erz\u00e4hlen Sie:<br>1. Wen haben Sie getroffen und wo?<br>2. Was macht er (Beruf, Hobby)?<br>3. Wann stellen Sie ihn vor?",
     "answer": "Liebe Mama,<br><br>ich muss dir unbedingt Neuigkeiten erz\u00e4hlen: Ich habe einen neuen Freund! Er hei\u00dft Leo und wir haben uns vor zwei Wochen in meinem Spanischkurs an der Volkshochschule getroffen.<br><br>Leo ist 28 Jahre alt, arbeitet als Architekt und ist sehr sympathisch. Wir haben den gleichen Humor und lachen viel. Er geht in seiner Freizeit gerne wandern, genau wie ich. Wir wollen am Wochenende zusammen ins Kino gehen.<br><br>Ich glaube, du w\u00fcrdest ihn sehr m\u00f6gen. Wenn ich dich das n\u00e4chste Mal besuche, erz\u00e4hle ich dir noch mehr von ihm.<br><br>Liebe Gr\u00fc\u00dfe<br>Deine Tochter Ana"
   },
-  {
-    "id": 120,
+  { "id": 120,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -230,8 +283,7 @@ window.examData = [
     "task": "Sie haben eine Kaffeemaschine bestellt, die defekt ankam. Schreiben Sie eine Beschwerde.<br><br>Inhalt:<br>1. Was haben Sie bestellt und wann?<br>2. Beschreiben Sie die M\u00e4ngel genau.<br>3. Fordern Sie Umtausch oder Geld zur\u00fcck.",
     "answer": "Betreff: Reklamation zu Bestellung Nr. 98765 \u2013 Defekte Kaffeemaschine<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe vor drei Tagen in Ihrem Online-Shop eine Kaffeemaschine der Marke 'BaristaPro' bestellt, die gestern bei mir geliefert wurde. Leider musste ich beim Auspacken feststellen, dass das Ger\u00e4t defekt ist. Der Wassertank hat einen gro\u00dfen Riss und das Display an der Vorderseite ist stark zerkratzt.<br><br>Da ich die Maschine dringend als Geschenk brauche, bin ich sehr entt\u00e4uscht \u00fcber die schlechte Qualit\u00e4t. Ich m\u00f6chte das Ger\u00e4t so nicht behalten.<br><br>Ich bitte Sie daher, mir umgehend ein kostenloses Retourenlabel zuzusenden und die defekte Maschine gegen ein neues, einwandfreies Ger\u00e4t umzutauschen. Sollte das nicht m\u00f6glich sein, erwarte ich die R\u00fcckerstattung des Kaufpreises.<br><br>Bitte best\u00e4tigen Sie mir den Eingang dieser Reklamation schriftlich.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Klein"
   },
-  {
-    "id": 121,
+  { "id": 121,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -239,8 +291,7 @@ window.examData = [
     "task": "Sie waren auf einem Musikfestival. Schreiben Sie einen Blogeintrag.<br><br>Berichten Sie:<br>1. Wie war die Stimmung und das Zelten?<br>2. Was war das Highlight (Band)?<br>3. Was war negativ (Preise/Hygiene)?",
     "answer": "<strong>Mein unvergessliches Wochenende beim 'Rock am Ring'!</strong><br><br>Hallo Leute! Endlich habe ich Zeit, euch von meinem Wochenende zu berichten. Ich war zum ersten Mal auf dem Rock-Festival und es war der absolute Wahnsinn! Wir haben auf dem Campingplatz gezeltet und die Stimmung dort war einfach super, alle waren gut drauf.<br><br>Das absolute Highlight war der Auftritt meiner Lieblingsband am Samstagabend. Die Lichtshow war spektakul\u00e4r und tausende Menschen haben laut mitgesungen. Das war G\u00e4nsehaut pur!<br><br>Es gab aber auch negative Seiten: Das Essen auf dem Gel\u00e4nde war extrem teuer und die Toiletten waren leider oft nicht sehr sauber. Aber die tolle Musik hat das alles wieder gutgemacht.<br><br>Ich kann so ein Festival nur jedem empfehlen! Wart ihr auch schon mal dort? Schreibt es mir!<br><br>Euer Tom"
   },
-  {
-    "id": 122,
+  { "id": 122,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -248,8 +299,7 @@ window.examData = [
     "task": "Sie nehmen an einer Diskussion \u00fcber gesunde Ern\u00e4hrung teil.<br><br>Schreiben Sie:<br>1. Wie ern\u00e4hren Sie sich?<br>2. Ihre Meinung zu Bio-Produkten (Vorteile/Nachteile).<br>3. Fazit: Ist gesundes Essen zu teuer?",
     "answer": "<strong>Thema: Ist gesunde Ern\u00e4hrung heute noch bezahlbar?</strong><br><br>Hallo zusammen, ich verfolge die Diskussion hier schon l\u00e4nger und finde das Thema sehr wichtig. Ich pers\u00f6nlich versuche, mich gesund zu ern\u00e4hren, esse viel Obst und Gem\u00fcse und koche fast t\u00e4glich frisch, weil mir das gut tut.<br><br>Ich kaufe auch gerne Bio-Produkte, weil ich \u00fcberzeugt bin, dass sie besser schmecken und ges\u00fcnder sind. Allerdings sehe ich auch das Problem: Bio ist oft sehr teuer. Nicht jede Familie kann es sich leisten, nur im Bioladen einzukaufen. Das finde ich sehr schade und ungerecht.<br><br>Meiner Meinung nach sollte gesundes Essen f\u00fcr alle Menschen bezahlbar sein. Der Staat m\u00fcsste hier vielleicht helfen. Was denkt ihr? Ist Bio notwendig oder nur Geldverschwendung?<br><br>Viele Gr\u00fc\u00dfe<br>Lukas"
   },
-  {
-    "id": 123,
+  { "id": 123,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -257,8 +307,7 @@ window.examData = [
     "task": "Sie schreiben eine Initiativbewerbung f\u00fcr ein Praktikum. Schreiben Sie an Frau Bergmann.<br><br>Punkte:<br>1. Wer sind Sie (Studium/Interesse)?<br>2. Welche Erfahrungen haben Sie (Blog/Social Media)?<br>3. Wann haben Sie Zeit?",
     "answer": "Betreff: Initiativbewerbung f\u00fcr ein Praktikum im Marketing<br><br>Sehr geehrte Frau Bergmann,<br><br>ich studiere derzeit Betriebswirtschaftslehre im 4. Semester und interessiere mich sehr f\u00fcr den Bereich Online-Marketing. Da ich die erfolgreichen Kampagnen Ihrer Agentur schon lange verfolge, m\u00f6chte ich mich hiermit initiativ um ein Praktikum bei Ihnen bewerben.<br><br>Neben meinem Studium betreibe ich einen eigenen Reise-Blog und habe dadurch bereits praktische Erfahrungen mit Social Media Management und Content Creation gesammelt. Ich bin ein sehr kreativer Mensch, arbeite gerne im Team und lerne schnell neue Dinge.<br><br>Ich h\u00e4tte im Zeitraum vom 1. August bis zum 30. Oktober Zeit, Sie tatkr\u00e4ftig zu unterst\u00fctzen. Gerne stelle ich mich Ihnen in einem pers\u00f6nlichen Gespr\u00e4ch vor und w\u00fcrde mich \u00fcber eine positive R\u00fcckmeldung sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Demir"
   },
-  {
-    "id": 124,
+  { "id": 124,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -266,8 +315,7 @@ window.examData = [
     "task": "Sie haben im Deutschkurs gefehlt. Schreiben Sie an den Lehrer.<br><br>Erkl\u00e4ren Sie:<br>1. Warum Sie gefehlt haben (Notfall).<br>2. Dass Sie wieder kommen.<br>3. Fragen Sie nach Hausaufgaben und verpasstem Stoff.",
     "answer": "Sehr geehrter Herr Koch,<br><br>bitte entschuldigen Sie vielmals, dass ich gestern und heute nicht am Deutschunterricht teilnehmen konnte. Es gab leider einen unerwarteten Notfall in meiner Familie, weshalb ich dringend f\u00fcr zwei Tage verreisen musste. Ab morgen werde ich wieder wie gewohnt am Kurs teilnehmen.<br><br>Da ich den Unterrichtsstoff der letzten zwei Tage verpasst habe, mache ich mir Sorgen, den Anschluss zu verlieren. K\u00f6nnten Sie mir bitte kurz mitteilen, welche Themen Sie behandelt haben und was die Hausaufgaben f\u00fcr morgen sind?<br><br>Ich werde versuchen, alles heute Abend noch selbstst\u00e4ndig nachzuholen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Elena Popov"
   },
-  {
-    "id": 125,
+  { "id": 125,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -275,8 +323,7 @@ window.examData = [
     "task": "Ihr Kollege Thomas wurde bef\u00f6rdert. Schreiben Sie ihm.<br><br>Inhalt:<br>1. Gratulieren Sie herzlich.<br>2. Warum hat er es verdient (Lob)?<br>3. Schlagen Sie eine Feier vor.",
     "answer": "Lieber Thomas,<br><br>ich habe gerade die fantastischen Neuigkeiten geh\u00f6rt: Herzlichen Gl\u00fcckwunsch zu deiner Bef\u00f6rderung zum Abteilungsleiter! Das ist ja gro\u00dfartig! Ich habe mich riesig f\u00fcr dich gefreut, als ich davon erfahren habe.<br><br>Du hast diese Position wirklich verdient. Du arbeitest immer so hart, bist fachlich top und motivierst das ganze Team, auch wenn es mal stressig wird. Dein Einsatz in den letzten Jahren hat sich endlich ausgezahlt.<br><br>Diesen Erfolg m\u00fcssen wir unbedingt feiern! Hast du morgen Abend Zeit? Ich w\u00fcrde dich gerne auf ein Bier oder einen Wein einladen. Lass uns gemeinsam auf deinen neuen Job ansto\u00dfen!<br><br>Viele Gr\u00fc\u00dfe und bis morgen<br>Markus"
   },
-  {
-    "id": 126,
+  { "id": 126,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -284,8 +331,7 @@ window.examData = [
     "task": "Sie organisieren eine Abschiedsparty f\u00fcr Sarah. Schreiben Sie an Freunde.<br><br>Planen Sie:<br>1. Wann und wo (Garten/Grillen)?<br>2. Wer bringt Essen/Getr\u00e4nke mit?<br>3. Geschenkideen?",
     "answer": "Hallo zusammen,<br><br>wie ihr wisst, geht unsere liebe Sarah bald f\u00fcr ein Jahr nach Australien. Deshalb wollen wir am n\u00e4chsten Freitag eine gro\u00dfe Abschiedsparty f\u00fcr sie organisieren. Wir k\u00f6nnen im gro\u00dfen Garten meiner Schwester feiern und dort grillen.<br><br>Ich brauche aber eure Hilfe bei der Planung: Wer von euch kann Salate oder Brot mitbringen? Und wer k\u00fcmmert sich um die Getr\u00e4nke? Ich besorge das Fleisch und die W\u00fcrstchen.<br><br>Au\u00dferdem brauchen wir noch ein sch\u00f6nes Abschiedsgeschenk f\u00fcr sie. Vielleicht einen Reisef\u00fchrer oder ein Fotobuch von uns allen? Habt ihr noch andere Ideen? Bitte meldet euch schnell, damit wir alles rechtzeitig planen k\u00f6nnen.<br><br>Liebe Gr\u00fc\u00dfe<br>Jan"
   },
-  {
-    "id": 127,
+  { "id": 127,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -293,8 +339,7 @@ window.examData = [
     "task": "Ihr Nachbar Herr Schmidt ist sehr laut. Schreiben Sie einen Brief.<br><br>Beschreiben Sie:<br>1. Die St\u00f6rung (Musik/Nachts).<br>2. Ihre Situation (Fr\u00fch aufstehen).<br>3. Bitten Sie h\u00f6flich um Ruhe.",
     "answer": "Sehr geehrter Herr Schmidt,<br><br>ich wende mich heute mit einer Bitte an Sie. Wir wohnen nun schon lange im selben Haus, aber leider ist es in letzter Zeit abends und nachts oft sehr laut bei Ihnen. Die laute Musik und die Gespr\u00e4che st\u00f6ren mich sehr.<br><br>Da ich beruflich jeden Morgen um 5:30 Uhr aufstehen muss, brauche ich meinen Schlaf und bin momentan tags\u00fcber sehr m\u00fcde. Die W\u00e4nde hier sind leider sehr d\u00fcnn.<br><br>Ich verstehe nat\u00fcrlich, dass man mal feiern m\u00f6chte, aber ich bitte Sie h\u00f6flich, die Musik ab 22:00 Uhr auf Zimmerlautst\u00e4rke zu stellen, so wie es auch in der Hausordnung steht. Ich hoffe auf Ihr Verst\u00e4ndnis und weiterhin gute Nachbarschaft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Klaus Meyer"
   },
-  {
-    "id": 128,
+  { "id": 128,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -302,8 +347,7 @@ window.examData = [
     "task": "Sie wurden zur Hochzeit eingeladen und sagen zu. Schreiben Sie an Anna und Peter.<br><br>Schreiben Sie:<br>1. Freude \u00fcber die Einladung.<br>2. Dass Sie kommen (mit Begleitung).<br>3. Fragen Sie nach einer Hotelempfehlung.",
     "answer": "Liebe Anna, lieber Peter,<br><br>vielen, vielen Dank f\u00fcr die wundersch\u00f6ne Einladungskarte zu eurer Hochzeit! Ich habe mich riesig gefreut, als ich sie im Briefkasten gefunden habe. Endlich ist es soweit!<br><br>Nat\u00fcrlich komme ich sehr gerne, um diesen besonderen Tag mit euch zu feiern. Ich werde nicht alleine kommen, sondern meine Freundin Lisa mitbringen, die ihr ja auch gut kennt. Wir freuen uns schon sehr auf das Fest.<br><br>Eine kleine Frage haben wir noch: Da wir ja von weiter her anreisen, brauchen wir eine Unterkunft. K\u00f6nnt ihr uns vielleicht ein nettes Hotel in der N\u00e4he der Feierlocation empfehlen? Das w\u00e4re super.<br><br>Herzliche Gr\u00fc\u00dfe<br>Michael"
   },
-  {
-    "id": 129,
+  { "id": 129,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -311,8 +355,7 @@ window.examData = [
     "task": "Ihr Freund war in Portugal. Fragen Sie ihn nach Tipps.<br><br>Fragen Sie:<br>1. Wie das Wetter im September ist.<br>2. Ob man einen Mietwagen braucht.<br>3. Was man unbedingt sehen muss.",
     "answer": "Hallo Dennis,<br><br>ich habe deine tollen Urlaubsfotos aus Portugal auf Instagram gesehen. Das sieht ja absolut traumhaft aus dort! Ich plane, im September auch dorthin zu fliegen und wollte dich um ein paar Tipps bitten.<br><br>Wei\u00dft du, wie das Wetter im September ist? Ist es da noch warm genug, um im Meer zu baden? Und wie habt ihr das mit dem Transport gemacht? Lohnt es sich, einen Mietwagen zu nehmen, um flexibel zu sein, oder sind die Busverbindungen gut?<br><br>Was war dein absolutes Highlight? Gibt es einen Ort oder Strand, den ich unbedingt sehen muss? Ich w\u00fcrde mich sehr \u00fcber deine Antworten freuen!<br><br>Viele Gr\u00fc\u00dfe<br>Timo"
   },
-  {
-    "id": 130,
+  { "id": 130,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -320,8 +363,7 @@ window.examData = [
     "task": "Ihr Urlaub war eine Katastrophe. Schreiben Sie an den Veranstalter.<br><br>Details:<br>1. Zimmer nicht wie gebucht (laut/schmutzig).<br>2. Essen mangelhaft.<br>3. Reiseleitung hat nicht geholfen.<br>4. Forderung nach Entsch\u00e4digung.",
     "answer": "Betreff: Beschwerde zur Reise nach Mallorca (Buchungsnummer: XY123)<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe meinen Urlaub im Hotel 'Seeblick' bei Ihnen gebucht, doch leider war dieser Aufenthalt eine gro\u00dfe Entt\u00e4uschung. Nichts entsprach der Beschreibung in Ihrem Katalog. Das Zimmer war bei Ankunft schmutzig und lag direkt \u00fcber einer Diskothek, sodass es bis 3 Uhr nachts extrem laut war. An Schlaf war nicht zu denken.<br><br>Auch das Essen war mangelhaft: Das Buffet war oft leer und die Speisen kalt. Als ich mich bei Ihrer Reiseleitung vor Ort beschwerte, wurde ich unfreundlich abgewiesen und erhielt keinerlei Unterst\u00fctzung.<br><br>Da diese M\u00e4ngel meinen Urlaub massiv beeintr\u00e4chtigt haben, ist dies f\u00fcr mich nicht akzeptabel. Ich fordere Sie auf, mir 30% des Reisepreises zu erstatten. Bitte \u00fcberweisen Sie den Betrag bis zum 30. Juli auf mein Konto.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Monika Muster"
   },
-  {
-    "id": 131,
+  { "id": 131,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -329,8 +371,7 @@ window.examData = [
     "task": "Sie bewerben sich f\u00fcr einen Master 'International Management'.<br><br>Begr\u00fcnden Sie:<br>1. Ihr Interesse an globalen M\u00e4rkten.<br>2. Warum dieses Programm (Praxisbezug/Englisch)?<br>3. Ihre Berufsziele (Manager).<br>4. Warum Sie geeignet sind.",
     "answer": "Sehr geehrte Damen und Herren,<br><br>hiermit bewerbe ich mich engagiert um einen Studienplatz im Masterstudiengang 'International Management' an Ihrer Universit\u00e4t. Nach meinem erfolgreichen Bachelorabschluss in BWL m\u00f6chte ich mich nun gezielt auf internationale Wirtschaftsbeziehungen spezialisieren.<br><br>Ihr Masterprogramm spricht mich besonders an, da es eine perfekte Kombination aus akademischer Theorie und Praxisbezug bietet. Vor allem die englischsprachigen Seminare und die Kooperationen mit globalen Unternehmen finde ich \u00e4u\u00dferst attraktiv. Mein klares berufliches Ziel ist es, in Zukunft als Manager in einem international t\u00e4tigen Konzern Verantwortung zu \u00fcbernehmen.<br><br>Ich bin \u00fcberzeugt, dass Ihr Studium mich optimal auf diese Herausforderungen vorbereitet. Ich bin hochmotiviert, leistungsbereit und freue mich darauf, mich fachlich weiterzuentwickeln. \u00dcber eine Zusage w\u00fcrde ich mich sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  {
-    "id": 132,
+  { "id": 132,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -338,8 +379,7 @@ window.examData = [
     "task": "Diskutieren Sie \u00fcber Vor- und Nachteile von Homeoffice.<br><br>Punkte:<br>1. Vorteile (Zeit/Konzentration).<br>2. Nachteile (soziale Isolation/Ideen).<br>3. Ihr Vorschlag f\u00fcr die Zukunft (Hybrid).",
     "answer": "<strong>Thema: Die Zukunft der Arbeit - Segen oder Fluch?</strong><br><br>Liebe Kolleginnen und Kollegen, ich m\u00f6chte gerne meine Meinung zur aktuellen Diskussion \u00fcber das Homeoffice teilen. F\u00fcr mich pers\u00f6nlich \u00fcberwiegen die Vorteile deutlich: Der Wegfall des t\u00e4glichen Pendelns spart nicht nur viel Zeit und Nerven, sondern schont auch die Umwelt. Zudem kann ich zu Hause an komplexen Aufgaben oft viel konzentrierter arbeiten als im lauten Gro\u00dfraumb\u00fcro.<br><br>Nat\u00fcrlich sehe ich auch die Risiken. Der pers\u00f6nliche Kontakt zum Team fehlt, man f\u00fchlt sich manchmal isoliert und kreative Ideen entstehen oft eher im direkten Gespr\u00e4ch. Ein reines Homeoffice kann auf Dauer einsam machen.<br><br>Deshalb pl\u00e4diere ich f\u00fcr eine hybride L\u00f6sung: Zwei bis drei Tage B\u00fcro f\u00fcr Meetings und Austausch, den Rest der Woche flexible Arbeit von zu Hause. Das w\u00e4re f\u00fcr mich das ideale Modell.<br><br>Beste Gr\u00fc\u00dfe<br>Lukas"
   },
-  {
-    "id": 133,
+  { "id": 133,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -347,8 +387,7 @@ window.examData = [
     "task": "Sie hatten einen Fahrradunfall. Melden Sie den Schaden der Versicherung.<br><br>Berichten Sie:<br>1. Unfallhergang (Vorfahrt genommen).<br>2. Schuldfrage (Zeugen/zugegeben).<br>3. Schaden am Fahrrad.<br>4. Weiteres Vorgehen (Kostenvoranschlag).",
     "answer": "Betreff: Schadensmeldung Unfall am 12.05. (Vers.-Nr. 456-789)<br><br>Sehr geehrte Damen und Herren,<br><br>ich melde hiermit einen Unfall, der sich gestern gegen 17:30 Uhr ereignete. Ich war mit meinem Fahrrad auf dem Radweg unterwegs, als ein PKW aus einer Ausfahrt kam und mir die Vorfahrt nahm. Ich musste eine Vollbremsung machen und bin gest\u00fcrzt.<br><br>Der Autofahrer hat seine Schuld vor Ort sofort zugegeben. Es gibt zudem einen Zeugen, Herrn M\u00fcller, der den Vorfall beobachtet hat. Gl\u00fccklicherweise wurde ich nicht verletzt, aber mein Fahrrad ist stark besch\u00e4digt: Das Vorderrad ist verbogen und die Schaltung defekt.<br><br>Ich werde das Fahrrad morgen in eine Fachwerkstatt bringen und Ihnen den Kostenvoranschlag umgehend zusenden. Bitte informieren Sie mich \u00fcber die weiteren Schritte zur Regulierung des Schadens.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Jan M\u00fcller"
   },
-  {
-    "id": 134,
+  { "id": 134,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -356,8 +395,7 @@ window.examData = [
     "task": "Sie verlassen die Firma und bitten den Chef um ein Zeugnis.<br><br>Inhalt:<br>1. Dank f\u00fcr die Zusammenarbeit.<br>2. Bitte um Zeugnis f\u00fcr Bewerbungen.<br>3. Fristsetzung.<br>4. Wichtige Inhalte (Projekte).",
     "answer": "Sehr geehrter Herr Direktor,<br><br>wie Sie wissen, werde ich das Unternehmen Ende des Monats auf eigenen Wunsch verlassen, um mich neuen Aufgaben zu widmen. Ich m\u00f6chte mich an dieser Stelle herzlich f\u00fcr die vertrauensvolle Zusammenarbeit und die Chancen in den letzten drei Jahren bedanken.<br><br>Da ich mich bereits in aktuellen Bewerbungsprozessen befinde, ben\u00f6tige ich zeitnah ein qualifiziertes Arbeitszeugnis. W\u00e4re es Ihnen m\u00f6glich, mir dieses bis zum 25. Mai auszustellen? Das w\u00fcrde mir sehr helfen.<br><br>Besonders wichtig w\u00e4re mir, dass meine erfolgreiche Leitung des Projekts 'Digitalisierung' und meine Kenntnisse im Online-Marketing darin Erw\u00e4hnung finden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Wolf"
   },
-  {
-    "id": 135,
+  { "id": 135,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -365,8 +403,7 @@ window.examData = [
     "task": "Sie lehnen ein Jobangebot h\u00f6flich ab.<br><br>Gr\u00fcnde:<br>1. Dank f\u00fcr das Angebot und Gespr\u00e4ch.<br>2. Entscheidung f\u00fcr andere Firma.<br>3. Grund (passt besser zu Zielen).<br>4. Gute W\u00fcnsche.",
     "answer": "Sehr geehrte Frau Stein,<br><br>vielen Dank f\u00fcr Ihr freundliches Jobangebot und das sehr angenehme Vorstellungsgespr\u00e4ch in der letzten Woche. Ich habe mich sehr \u00fcber Ihr Vertrauen und die angebotene Position gefreut.<br><br>Ich habe mir die Entscheidung nicht leicht gemacht, da mir Ihr Unternehmen sehr gut gefallen hat. Dennoch muss ich Ihnen heute mitteilen, dass ich mich f\u00fcr ein anderes Angebot entschieden habe. Diese Stelle passt momentan inhaltlich noch etwas besser zu meinen langfristigen Karrierezielen und meiner pers\u00f6nlichen Entwicklung.<br><br>Ich bitte um Ihr Verst\u00e4ndnis f\u00fcr meine Entscheidung. Ich w\u00fcnsche Ihnen und Ihrem Team weiterhin viel Erfolg und alles Gute f\u00fcr die Zukunft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Michael Bauer"
   },
-  {
-    "id": 136,
+  { "id": 136,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -374,8 +411,7 @@ window.examData = [
     "task": "Sie bewerben sich f\u00fcr ein Praktikum im Ausland.<br><br>Punkte:<br>1. Wer sind Sie (Student Informatik)?<br>2. Warum dieses Unternehmen (KI-L\u00f6sungen)?<br>3. Ihre Skills (Java/Englisch).<br>4. Verf\u00fcgbarkeit.",
     "answer": "Sehr geehrte Damen und Herren,<br><br>ich studiere Informatik an der TU M\u00fcnchen und verfolge die Entwicklung Ihres Unternehmens in London schon lange mit gro\u00dfem Interesse. Besonders Ihre innovativen Projekte im Bereich der K\u00fcnstlichen Intelligenz faszinieren mich. Deshalb bewerbe ich mich hiermit initiativ um ein Auslandspraktikum in Ihrer Entwicklungsabteilung.<br><br>Ich verf\u00fcge \u00fcber sehr gute Kenntnisse in Java und Python und habe als Werkstudent bereits praktische Erfahrung in der App-Entwicklung gesammelt. Zudem spreche ich flie\u00dfend Englisch und arbeite sehr gerne in internationalen Teams.<br><br>Ein Praktikum bei Ihnen w\u00e4re mein absoluter Traum, um meine F\u00e4higkeiten zu erweitern. Ich stehe ab September f\u00fcr einen Zeitraum von sechs Monaten zur Verf\u00fcgung und w\u00fcrde mich \u00fcber eine positive R\u00fcckmeldung sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Denis Weber"
   },
-  {
-    "id": 137,
+  { "id": 137,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -383,8 +419,7 @@ window.examData = [
     "task": "Das Projekt ist zu Ende. Schreiben Sie dem Team.<br><br>Inhalt:<br>1. Danke f\u00fcr den Einsatz.<br>2. Lob f\u00fcr den Zusammenhalt.<br>3. Kritik am Zeitmanagement (\u00dcberstunden).<br>4. Positiver Ausblick.",
     "answer": "Liebes Projektteam,<br><br>es ist geschafft: Unser Projekt 'Website Relaunch' ist erfolgreich abgeschlossen! Ich m\u00f6chte diesen Moment nutzen, um euch allen f\u00fcr euren gro\u00dfartigen Einsatz in den letzten Wochen zu danken.<br><br>Besonders toll fand ich den Zusammenhalt und die Stimmung im Team. Auch als es Probleme gab, haben wir uns gegenseitig unterst\u00fctzt und L\u00f6sungen gefunden. Einen Punkt m\u00fcssen wir allerdings beim n\u00e4chsten Mal verbessern: unser Zeitmanagement. Da wir zu sp\u00e4t angefangen haben, mussten wir am Ende viele stressige \u00dcberstunden machen. Das sollten wir in Zukunft besser planen.<br><br>Ich bin trotzdem sehr stolz auf unser Ergebnis und freue mich schon auf die n\u00e4chste Zusammenarbeit mit euch!<br><br>Viele Gr\u00fc\u00dfe<br>Maria"
   },
-  {
-    "id": 138,
+  { "id": 138,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -392,8 +427,7 @@ window.examData = [
     "task": "Ein Kollege ist sauer, weil Sie ein Meeting verpasst haben.<br><br>Erkl\u00e4ren Sie:<br>1. Es war keine Absicht.<br>2. Grund (Krankheit/Mail \u00fcbersehen).<br>3. Sie haben sich informiert.<br>4. Einladung zur Wiedergutmachung.",
     "answer": "Hallo Peter,<br><br>ich habe geh\u00f6rt, dass du ver\u00e4rgert bist, weil ich gestern nicht zu unserem Meeting erschienen bin. Das tut mir wahnsinnig leid, aber es war wirklich ein bl\u00f6des Missverst\u00e4ndnis. Ich war die letzten zwei Tage krank und habe deshalb die E-Mail mit der kurzfristigen Termin\u00e4nderung gar nicht gesehen.<br><br>Es war absolut keine Absicht, dich warten zu lassen. Ich habe mir die Unterlagen inzwischen angesehen und bin wieder auf dem aktuellen Stand. Um meinen Fehler wiedergutzumachen, m\u00f6chte ich dich heute Nachmittag gerne auf einen Kaffee und ein St\u00fcck Kuchen einladen. Dann k\u00f6nnen wir alles kurz besprechen.<br><br>Bis dann<br>Stefan"
   },
-  {
-    "id": 139,
+  { "id": 139,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -401,8 +435,7 @@ window.examData = [
     "task": "Schlagen Sie dem Chef einen Ausflug vor.<br><br>Idee:<br>1. Kletterwald.<br>2. Warum gut (Teambuilding/Spa\u00df)?<br>3. Kosten und Anreise.<br>4. Alternativen f\u00fcr Nicht-Kletterer.",
     "answer": "Sehr geehrter Herr M\u00fcller,<br><br>f\u00fcr den anstehenden Betriebsausflug habe ich einen Vorschlag: Wie w\u00e4re es mit einem gemeinsamen Tag im Kletterwald? Ich denke, das w\u00e4re eine hervorragende Abwechslung zum B\u00fcroalltag und sehr gut f\u00fcr das Teambuilding.<br><br>Der Eintritt kostet ca. 25 Euro pro Person, was gut in unser Budget passt. Zudem ist der Park schnell und einfach mit der S-Bahn erreichbar. F\u00fcr Kolleginnen und Kollegen, die nicht klettern m\u00f6chten, gibt es dort auch sch\u00f6ne Wanderwege und ein gem\u00fctliches Waldcaf\u00e9.<br><br>Ich w\u00fcrde mich freuen, wenn Sie meinen Vorschlag in Betracht ziehen. Gerne kann ich die weitere Organisation \u00fcbernehmen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Anja Schneider"
   },
-  {
-    "id": 140,
+  { "id": 140,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -410,8 +443,7 @@ window.examData = [
     "task": "Sie lesen einen Artikel, der behauptet, Tablets an Schulen w\u00fcrden Sch\u00fcler d\u00fcmmer machen. Schreiben Sie einen differenzierten Leserbrief.<br><br>Punkte:<br>1. Ihre Meinung zur These.<br>2. Vorteile digitaler Medien (Zugang zu Wissen, Medienkompetenz).<br>3. Risiken (Ablenkung) und wie man damit umgeht.<br>4. Fazit: Die Mischung macht's.",
     "answer": "Sehr geehrte Redaktion,<br><br>mit gro\u00dfem Interesse habe ich Ihren Artikel 'Machen Tablets unsere Kinder dumm?' gelesen. Die dort vertretene These, dass digitale Medien per se sch\u00e4dlich f\u00fcr den Lernerfolg seien, kann ich so nicht unwidersprochen stehen lassen. Als Vater zweier schulpflichtiger Kinder erlebe ich t\u00e4glich, welche Chancen die Digitalisierung bietet.<br><br>Richtig eingesetzt, erm\u00f6glichen Tablets einen individuellen Zugang zu Wissen, der mit klassischen Schulb\u00fcchern kaum m\u00f6glich ist. Interaktive Lern-Apps k\u00f6nnen komplexe Sachverhalte oft anschaulicher vermitteln und die Motivation der Sch\u00fcler steigern. Zudem ist Medienkompetenz in unserer heutigen Berufswelt eine Schl\u00fcsselqualifikation, die Schule vermitteln muss.<br><br>Nat\u00fcrlich darf man die Risiken nicht ignorieren. Die Gefahr der Ablenkung durch Spiele oder soziale Medien ist real. Doch die L\u00f6sung kann nicht sein, die Technik zu verbannen, sondern sinnvolle p\u00e4dagogische Konzepte zu entwickeln. Lehrer m\u00fcssen geschult werden, digitale Tools didaktisch wertvoll einzusetzen.<br><br>Mein Fazit lautet daher: Nicht das Ger\u00e4t ist das Problem, sondern die Art der Nutzung. Eine gesunde Mischung aus analogen und digitalen Lernmethoden ist der Weg in die Zukunft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Thomas Weber"
   },
-  {
-    "id": 141,
+  { "id": 141,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -419,8 +451,7 @@ window.examData = [
     "task": "Schreiben Sie einen Essay \u00fcber die Verantwortung des Einzelnen beim Klimawandel.<br><br>Diskutieren Sie:<br>1. Kann der Einzelne \u00fcberhaupt etwas bewirken?<br>2. Die Rolle der Politik vs. Konsumenten.<br>3. Beispiele (Fliegen, Fleischkonsum).<br>4. Ihre pers\u00f6nliche Schlussfolgerung.",
     "answer": "<strong>Klimawandel: Ist mein Verzicht sinnlos?</strong><br><br>Die Debatte um den Klimawandel wird oft emotional gef\u00fchrt. Immer wieder stellt sich die Frage: Was bringt es eigentlich, wenn ich als Einzelner auf Fleisch verzichte oder nicht fliege, w\u00e4hrend die Industrie weiter CO2 ausst\u00f6\u00dft? Ist individueller Verzicht nur ein Tropfen auf den hei\u00dfen Stein?<br><br>Ich bin der Meinung, dass diese Sichtweise zu kurz greift. Nat\u00fcrlich braucht es gro\u00dfe politische Rahmenbedingungen und globale Abkommen, um den Klimawandel effektiv zu stoppen. Die Politik muss Regeln setzen, die umweltfreundliches Verhalten belohnen.<br><br>Doch Politik und Wirtschaft reagieren auf den Druck der Gesellschaft. Jeder Kassenzettel ist auch ein Stimmzettel. Wenn immer mehr Menschen weniger Fleisch essen oder auf die Bahn umsteigen, \u00e4ndert sich das Angebot. Konsumenten haben also durchaus Macht. Zudem hat unser Handeln eine Vorbildfunktion f\u00fcr andere.<br><br>Es geht nicht darum, perfekt zu sein, sondern darum, Verantwortung f\u00fcr den eigenen \u00f6kologischen Fu\u00dfabdruck zu \u00fcbernehmen. Wenn jeder wartet, bis der andere anf\u00e4ngt, wird sich nie etwas \u00e4ndern. Wir brauchen beides: Systemwandel und individuelles Umdenken.<br><br>Max Mustermann"
   },
-  {
-    "id": 142,
+  { "id": 142,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -428,8 +459,7 @@ window.examData = [
     "task": "Sie haben eine Ank\u00fcndigung zur Mieterh\u00f6hung erhalten, die Sie f\u00fcr ungerechtfertigt halten. Schreiben Sie an die Hausverwaltung.<br><br>Argumentieren Sie:<br>1. Bezug auf das Schreiben.<br>2. M\u00e4ngel in der Wohnung (Schimmel, undichte Fenster).<br>3. Vergleich zum Mietspiegel.<br>4. Ablehnung der Erh\u00f6hung und Gespr\u00e4chsangebot.",
     "answer": "Betreff: Widerspruch gegen Mieterh\u00f6hung f\u00fcr Wohnung Nr. 12<br><br>Sehr geehrte Damen und Herren,<br><br>ich beziehe mich auf Ihr Schreiben vom 20. Januar, in dem Sie eine Erh\u00f6hung meiner monatlichen Kaltmiete um 15% ank\u00fcndigen. Nach eingehender Pr\u00fcfung und Beratung muss ich Ihnen mitteilen, dass ich dieser Mieterh\u00f6hung in der vorliegenden Form widerspreche.<br><br>Zum einen verweisen Sie auf Modernisierungsma\u00dfnahmen, die in meiner Wohnung faktisch nicht stattgefunden haben. Im Gegenteil: Wie ich Ihnen bereits mehrfach schriftlich gemeldet habe, sind die Fenster im Schlafzimmer seit Monaten undicht und es bildet sich regelm\u00e4\u00dfig Feuchtigkeit an den Au\u00dfenw\u00e4nden. Diese M\u00e4ngel wurden bisher nicht beseitigt.<br><br>Zum anderen liegt die von Ihnen geforderte neue Miete deutlich \u00fcber dem aktuellen \u00f6rtlichen Mietspiegel f\u00fcr vergleichbare Wohnungen in diesem Viertel. Eine Erh\u00f6hung in diesem Umfang ist daher rechtlich nicht haltbar.<br><br>Ich zahle die Miete weiterhin unter Vorbehalt in der bisherigen H\u00f6he. Ich bin jedoch bereit, mich mit Ihnen zu einem kl\u00e4renden Gespr\u00e4ch zu treffen, um eine einvernehmliche L\u00f6sung zu finden, sobald die M\u00e4ngel behoben sind.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Wolf"
   },
-  {
-    "id": 143,
+  { "id": 143,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -437,8 +467,7 @@ window.examData = [
     "task": "Sie bewerben sich um ein Stipendium f\u00fcr Hochbegabte.<br><br>Dartsellung:<br>1. Wer sind Sie und was studieren Sie?<br>2. Ihre akademischen Leistungen und Engagement.<br>3. Warum brauchen Sie die F\u00f6rderung?<br>4. Ziele f\u00fcr die Zukunft.",
     "answer": "Sehr geehrte Damen und Herren des Auswahlkomitees,<br><br>mit diesem Schreiben m\u00f6chte ich mich um ein Stipendium Ihrer Stiftung bewerben. Als Studentin der Humanmedizin im 6. Semester habe ich nicht nur exzellente akademische Leistungen erbracht, sondern engagiere mich auch weit \u00fcber das Studium hinaus gesellschaftlich.<br><br>Mein Notendurchschnitt liegt derzeit bei 1,2. Neben dem anspruchsvollen Studium arbeite ich ehrenamtlich in einer Einrichtung f\u00fcr obdachlose Menschen, wo ich medizinische Basisversorgung unterst\u00fctze. Diese Arbeit hat mir gezeigt, wie wichtig soziale Verantwortung f\u00fcr angehende \u00c4rzte ist.<br><br>Da ich aus einer Arbeiterfamilie stamme und mein Studium bisher durch Nebenjobs finanziere, ist die Zeit f\u00fcr mein soziales Engagement und zus\u00e4tzliche Forschungsprojekte oft knapp. Ihr Stipendium w\u00fcrde mir die finanzielle Freiheit geben, mich voll auf meine Doktorarbeit im Bereich der Krebsforschung zu konzentrieren, die ich im kommenden Semester beginnen m\u00f6chte.<br><br>Ich bin \u00fcberzeugt, dass ich durch meine Leistungsbereitschaft und meine Werte gut zu Ihrer Stiftung passe. Ich m\u00f6chte sp\u00e4ter nicht nur eine gute \u00c4rztin sein, sondern auch einen Beitrag zur medizinischen Forschung leisten.<br><br>Hochachtungsvoll<br>Anna M\u00fcller"
   },
-  {
-    "id": 144,
+  { "id": 144,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -446,8 +475,7 @@ window.examData = [
     "task": "Er\u00f6rtern Sie Chancen und Risiken von KI.<br><br>Punkte:<br>1. KI im Alltag (Erleichterung).<br>2. Gefahr f\u00fcr Arbeitspl\u00e4tze?<br>3. Ethische Fragen.<br>4. Pers\u00f6nliches Fazit.",
     "answer": "<strong>K\u00fcnstliche Intelligenz: Freund oder Feind?</strong><br><br>K\u00fcnstliche Intelligenz (KI) ist l\u00e4ngst keine Science-Fiction mehr, sondern Teil unseres Alltags. Ob Sprachassistenten, Navigationssysteme oder personalisierte Werbung \u2013 Algorithmen bestimmen unser Leben. Doch diese rasante Entwicklung l\u00f6st sowohl Begeisterung als auch \u00c4ngste aus.<br><br>Auf der einen Seite bietet KI enorme Chancen. In der Medizin k\u00f6nnen komplexe Diagnosen schneller und pr\u00e4ziser gestellt werden, was Leben rettet. Im Verkehr k\u00f6nnten selbstfahrende Autos die Sicherheit erh\u00f6hen. Routinearbeiten k\u00f6nnen automatisiert werden, was uns mehr Zeit f\u00fcr kreative Aufgaben l\u00e4sst.<br><br>Auf der anderen Seite steht die Sorge um Arbeitspl\u00e4tze. Werden Maschinen uns ersetzen? Wahrscheinlich werden sich Berufsbilder wandeln, aber nicht verschwinden. Viel kritischer sehe ich ethische Fragen: Wer kontrolliert die Algorithmen? K\u00f6nnen wir sicherstellen, dass KI diskriminierungsfrei entscheidet? Die Gefahr der \u00dcberwachung und Manipulation ist real.<br><br>Meiner Ansicht nach d\u00fcrfen wir den Fortschritt nicht verteufeln, aber wir d\u00fcrfen ihn auch nicht blind akzeptieren. Wir brauchen klare gesetzliche Regeln und ethische Grenzen f\u00fcr den Einsatz von KI. Die Technik muss dem Menschen dienen, nicht umgekehrt.<br><br>Lara Croft"
   },
-  {
-    "id": 145,
+  { "id": 145,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -455,8 +483,7 @@ window.examData = [
     "task": "Ein Politiker fordert: 'Autofreie Innenst\u00e4dte bis 2030'. Nehmen Sie Stellung.<br><br>Aspekte:<br>1. Lebensqualit\u00e4t vs. Freiheit.<br>2. Probleme des Einzelhandels?<br>3. Alternativen (\u00d6PNV/Rad).<br>4. Kompromissvorschlag.",
     "answer": "<strong>Autofreie St\u00e4dte \u2013 Utopie oder Notwendigkeit?</strong><br><br>Die Forderung nach autofreien Innenst\u00e4dten sorgt f\u00fcr hitzige Diskussionen. Bef\u00fcrworter tr\u00e4umen von gr\u00fcnen Oasen mit hoher Lebensqualit\u00e4t, Gegner f\u00fcrchten das Sterben des Einzelhandels und eine Einschr\u00e4nkung der pers\u00f6nlichen Freiheit.<br><br>Ich pers\u00f6nlich unterst\u00fctze die Vision einer autoarmen Stadt. L\u00e4rm, Abgase und zugeparkte Fl\u00e4chen belasten uns alle. St\u00e4dte wie Kopenhagen oder Amsterdam zeigen, wie viel lebenswerter der urbane Raum wird, wenn Fu\u00dfg\u00e4nger und Radfahrer Vorrang haben. Zudem ist es im Hinblick auf den Klimaschutz unumg\u00e4nglich, den Individualverkehr zu reduzieren.<br><br>Allerdings darf man die berechtigten Sorgen der H\u00e4ndler nicht ignorieren. Wenn Kunden nicht mehr bequem in die City kommen, kaufen sie online. Deshalb darf ein Verbot nicht allein stehen. Wir brauchen massive Investitionen in den \u00f6ffentlichen Nahverkehr: g\u00fcnstigere Tickets, h\u00f6here Taktung und sichere Park-and-Ride-Pl\u00e4tze am Stadtrand.<br><br>Ein radikales Verbot von heute auf morgen halte ich f\u00fcr falsch. Ein schrittweiser Umbau, bessere Radwege und attraktive Alternativen sind der Schl\u00fcssel. Wir m\u00fcssen die Stadt f\u00fcr Menschen bauen, nicht f\u00fcr Autos.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Jonas"
   },
-  {
-    "id": 146,
+  { "id": 146,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -464,8 +491,7 @@ window.examData = [
     "task": "Ihr Flug wurde annulliert. Fordern Sie Ihre Rechte ein.<br><br>Inhalt:<br>1. Sachverhalt (Flugnummer, Datum).<br>2. Folgen (Hotelkosten, Termin verpasst).<br>3. Rechtslage (EU-Verordnung).<br>4. Zahlungsaufforderung.",
     "answer": "Betreff: Ausgleichszahlung wegen Flugannullierung (Flug LH456)<br><br>Sehr geehrte Damen und Herren,<br><br>ich wende mich an Sie bez\u00fcglich meines Fluges LH456 von M\u00fcnchen nach New York am 15. Mai, der von Ihrer Fluggesellschaft kurzfristig annulliert wurde. Ich wurde erst am Flughafen dar\u00fcber informiert und musste auf einen Flug am n\u00e4chsten Tag umgebucht werden.<br><br>Durch diese Versp\u00e4tung von \u00fcber 24 Stunden sind mir erhebliche Unannehmlichkeiten und Kosten entstanden. Ich musste eine \u00dcbernachtung im Flughafenhotel sowie Verpflegung selbst bezahlen. Zudem habe ich einen wichtigen Gesch\u00e4ftstermin in New York verpasst.<br><br>Gem\u00e4\u00df der EU-Fluggastrechteverordnung (EG) Nr. 261/2004 steht mir in diesem Fall eine Ausgleichszahlung zu. Da die Flugstrecke \u00fcber 3.500 km betr\u00e4gt, fordere ich Sie hiermit auf, den gesetzlich festgelegten Betrag von 600 Euro an mich zu zahlen. Zus\u00e4tzlich bestehe ich auf der Erstattung meiner Hotel- und Verpflegungskosten in H\u00f6he von 150 Euro (Belege anbei).<br><br>Ich erwarte den Zahlungseingang innerhalb von 14 Tagen auf mein Konto. Sollte die Frist verstreichen, werde ich meinen Anwalt einschalten.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Michael Recht"
   },
-  {
-    "id": 147,
+  { "id": 147,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -473,8 +499,7 @@ window.examData = [
     "task": "Schreiben Sie \u00fcber Gewinner und Verlierer der Globalisierung.<br><br>Struktur:<br>1. Definition/Einstieg.<br>2. Wirtschaftliche Vorteile (Wohlstand, Vielfalt).<br>3. Soziale/\u00d6kologische Nachteile (Ausbeutung, Transport).<br>4. Forderung nach fairer Globalisierung.",
     "answer": "<strong>Globalisierung \u2013 Ein Spiel ohne Grenzen?</strong><br><br>Wir leben in einer vernetzten Welt. Ein Klick, und wir bestellen Waren aus China; wir chatten mit Freunden in den USA und essen Bananen aus Ecuador. Globalisierung ist allgegenw\u00e4rtig. Doch bringt sie uns wirklich alle voran?<br><br>Zweifellos hat der weltweite Handel vielen L\u00e4ndern zu mehr Wohlstand verholfen. Technologischer Fortschritt und kultureller Austausch sind positive Folgen. Wir als Konsumenten profitieren von einer riesigen Produktvielfalt und g\u00fcnstigen Preisen.<br><br>Doch dieser Preis wird oft von anderen gezahlt. Die Schattenseiten sind Ausbeutung von Arbeitern in Billiglohnl\u00e4ndern und massive Umweltzerst\u00f6rung durch weltweite Transportwege. Der Wettbewerb zwingt Unternehmen oft dazu, dort zu produzieren, wo Standards am niedrigsten sind. Die Schere zwischen Arm und Reich weitet sich global gesehen zwar teilweise, aber innerhalb vieler Industrienationen w\u00e4chst die Ungleichheit.<br><br>Wir brauchen keine De-Globalisierung, sondern eine faire Globalisierung. Wir brauchen verbindliche Sozial- und Umweltstandards in Lieferketten. Nur wenn der Handel Mensch und Natur respektiert, k\u00f6nnen am Ende alle Gewinner sein. Wir als Verbraucher haben die Macht, durch bewussten Konsum Einfluss zu nehmen.<br><br>Sarah Schmidt"
   },
-  {
-    "id": 148,
+  { "id": 148,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -482,8 +507,7 @@ window.examData = [
     "task": "Sollte es ein Recht auf Homeoffice geben?<br><br>Argumente:<br>1. Modernes Arbeiten.<br>2. Vertrauen vs. Kontrolle.<br>3. Infrastruktur-Probleme.<br>4. Ihre Position.",
     "answer": "<strong>Recht auf Homeoffice \u2013 \u00dcberf\u00e4llig oder \u00fcbertrieben?</strong><br><br>Die Arbeitswelt hat sich in den letzten Jahren rasant gewandelt. Was fr\u00fcher undenkbar war, ist heute Alltag: Das B\u00fcro zu Hause. Nun diskutiert die Politik \u00fcber ein gesetzliches Recht auf Homeoffice. Ist das sinnvoll?<br><br>Ich meine: Ja, absolut. Ein modernes Arbeitsrecht muss die Realit\u00e4t abbilden. Viele Arbeitnehmer haben bewiesen, dass sie zu Hause genauso produktiv, oft sogar produktiver sind. Es erm\u00f6glicht eine bessere Vereinbarkeit von Familie und Beruf und spart Zeit und Stress auf verstopften Stra\u00dfen.<br><br>Nat\u00fcrlich gibt es Arbeitgeber, die Kontrollverlust f\u00fcrchten. Doch F\u00fchrung muss heute auf Vertrauen basieren, nicht auf Anwesenheit. Wer seine Mitarbeiter nur arbeitet sieht, wenn sie im B\u00fcro sitzen, hat ein F\u00fchrungsproblem. Nat\u00fcrlich gibt es Berufe, in denen Homeoffice nicht m\u00f6glich ist (Pflege, Handwerk). Aber dort, wo es technisch machbar ist, sollte es nicht an der Willk\u00fcr des Chefs scheitern.<br><br>Ein Recht auf Homeoffice (zumindest f\u00fcr gewisse Tage) w\u00fcrde die Digitalisierung vorantreiben und die Arbeitszufriedenheit erh\u00f6hen. Es ist Zeit f\u00fcr diesen Schritt.<br><br>Beste Gr\u00fc\u00dfe<br>Julian"
   },
-  {
-    "id": 149,
+  { "id": 149,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -492,12 +516,11 @@ window.examData = [
     "answer": "Kundennummer: DE-987654321<br>Betreff: Mangelhafte Leistung und Fristsetzung<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe bei Ihnen den Tarif 'Speed-Internet 1000' gebucht, f\u00fcr den ich monatlich 49,99 Euro bezahle. Laut Vertrag garantieren Sie eine Bandbreite von bis zu 1000 Mbit/s. Die Realit\u00e4t sieht jedoch seit Wochen anders aus.<br><br>Regelm\u00e4\u00dfige Messungen zu verschiedenen Tageszeiten zeigen, dass bei mir maximal 50 Mbit/s ankommen. Das ist nur ein Bruchteil der vertraglich vereinbarten Leistung. Zudem bricht die Verbindung in den Abendstunden regelm\u00e4\u00dfig komplett zusammen, was f\u00fcr mich im Homeoffice untragbar ist.<br><br>Ich habe Ihre Hotline bereits dreimal kontaktiert, wurde aber immer nur vertr\u00f6stet. Meine Geduld ist nun am Ende. Ich fordere Sie hiermit auf, die vertraglich vereinbarte Leistung bis sp\u00e4testens zum 10. Februar vollst\u00e4ndig herzustellen.<br><br>Sollte diese Frist fruchtlos verstreichen, werde ich von meinem Sonderk\u00fcndigungsrecht Gebrauch machen und die Zahlungen entsprechend k\u00fcrzen. Ich erwarte eine schriftliche Stellungnahme zu diesem Sachverhalt.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Hannes W\u00fctend"
   },
 
-  {
-    id: 212,
-    type: "TELC",
-    level: "A1",
-    category: "Lesen",
-    title: "A1 Leseverstehen – Lebensmittel & Einkaufen (Set 12)",
+  { "id": 212,
+    "type": "TELC",
+    "level": "A1",
+    "category": "Lesen",
+    "title": "A1 Leseverstehen – Lebensmittel & Einkaufen (Set 12)",
     content: `
 <!-- TEIL 1 -->
 <div style='margin-bottom:30px; border:1px solid #eee; padding:20px; border-radius:12px; background:#fff; line-height:1.5;'>
@@ -8581,11 +8604,11 @@ window.examData = [
   }
   ,
   {
-    id: 414,
+    id: 500,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Smart Home & Energie",
+    title: "B2 Leseverstehen – Test 1 (Smart Home & Zukunft der Arbeit)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8649,16 +8672,217 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-e, 2-b, 3-f, 4-j, 5-i"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>New Work: Mehr als nur Tischkicker und Obstkorb?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Die Arbeitswelt befindet sich in einem radikalen Wandel, der oft unter dem Schlagwort "New Work" zusammengefasst wird. Ursprünglich von dem Sozialphilosophen Frithjof Bergmann in den 1970er Jahren geprägt, sollte dieser Begriff eine Arbeit beschreiben, die den Menschen stärkt und nicht schwächt. Heute verstehen viele Unternehmen darunter jedoch vor allem moderne Büros mit bunten Sitzsäcken, kostenlosen Getränken und flexiblen Arbeitszeiten. Doch ist das wirklich der Kern der neuen Arbeitswelt?</p>
+    
+    <p>Experten warnen davor, New Work auf reine Äußerlichkeiten zu reduzieren. Ein Kickertisch im Pausenraum macht noch keine moderne Unternehmenskultur. Vielmehr geht es um tiefgreifende strukturelle Veränderungen: flache Hierarchien, mehr Eigenverantwortung für die Mitarbeiter und eine Abkehr von der klassischen Präsenzkultur hin zu ergebnisorientiertem Arbeiten. Die Digitalisierung spielt dabei eine Schlüsselrolle, da sie es überhaupt erst ermöglicht, zeit- und ortsunabhängig tätig zu sein.</p>
+    
+    <p>Für Arbeitnehmer bietet dieser Wandel große Chancen. Die Vereinbarkeit von Beruf und Familie kann durch Homeoffice-Modelle deutlich verbessert werden. Wer nicht jeden Morgen im Stau stehen muss, spart Zeit und Nerven. Zudem wächst der Wunsch nach sinnhafter Tätigkeit. Immer mehr Menschen, insbesondere der jüngeren Generation, wollen nicht nur Geld verdienen, sondern sich mit den Werten ihres Arbeitgebers identifizieren. Sie fordern Transparenz, Nachhaltigkeit und Mitspracherecht.</p>
+    
+    <p>Doch die schöne neue Arbeitswelt hat auch Schattenseiten. Die ständige Erreichbarkeit via Smartphone und Laptop führt dazu, dass die Grenzen zwischen Arbeit und Freizeit zunehmend verschwimmen. Wer abends auf dem Sofa noch "schnell" E-Mails checkt, kommt nie wirklich zur Ruhe. Psychologen beobachten einen Anstieg von stressbedingten Erkrankungen wie Burnout, selbst bei Menschen, die ihren Job eigentlich lieben. Die sogenannte "Entgrenzung der Arbeit" erfordert daher eine hohe Selbstdisziplin und klare Regeln, sowohl von den Unternehmen als auch von den Beschäftigten selbst.</p>
+
+    <p>Ein weiterer Aspekt ist die soziale Komponente. Wenn Kollegen sich nur noch in Videokonferenzen sehen, geht der informelle Austausch an der Kaffeemaschine verloren, der oft wichtig für das Betriebsklima und kreative Ideen ist. Unternehmen müssen daher neue Wege finden, um den Teamgeist auch digital zu fördern oder hybride Modelle entwickeln, die die Vorteile von Büro und Homeoffice verbinden. New Work ist also kein fertiges Produkt, sondern ein ständiger Lernprozess für alle Beteiligten.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was kritisieren Experten am heutigen Verständnis von "New Work"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass es zu sehr auf äußerliche Annehmlichkeiten reduziert wird.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Frithjof Bergmanns Ideen veraltet sind.</li>
+        <li><strong>c</strong> Dass flexible Arbeitszeiten die Produktivität senken.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Welche Rolle spielt die Digitalisierung laut Text?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie zwingt Menschen dazu, mehr zu arbeiten.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie ist die technische Voraussetzung für flexibles Arbeiten.</li>
+        <li><strong>c</strong> Sie ersetzt menschliche Arbeitskraft vollständig.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was ist jungen Arbeitnehmern heute besonders wichtig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Möglichst schnell viel Geld zu verdienen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Ein Dienstwagen und ein großes Büro.</li>
+        <li><strong>c</strong> Die Identifikation mit den Werten des Unternehmens.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Welches Risiko birgt die "Entgrenzung der Arbeit"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Arbeitnehmer weniger motiviert sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Erholungsphasen fehlen und Krankheiten zunehmen.</li>
+        <li><strong>c</strong> Dass Unternehmen die Kontrolle über Mitarbeiter verlieren.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Was ist eine Herausforderung bei der Arbeit im Homeoffice?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die technische Ausstattung ist oft mangelhaft.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der informelle soziale Austausch mit Kollegen fehlt.</li>
+        <li><strong>c</strong> Es gibt zu viele Ablenkungen durch die Familie.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie möchten lernen, Ihre Firma in sozialen Netzwerken vielseitig zu präsentieren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Bekannter möchte zusammen mit seinem vierjährigen Sohn etwas Kreatives machen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihr 22-jähriger Nachbar will jederzeit wissen, wie viel Geld er noch zur Verfügung hat.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Sie möchten herausfinden, welche Bank die beste für Sie ist.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Eine Freundin von Ihnen möchte ihr Hobby zum Beruf machen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Sie möchten praktische Tipps, wie man den Alltag mit Kindern meistert.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Ein Bekannter hat eine Ausbildung zum Altenpfleger gemacht und sucht einen Job.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ihre Freundin möchte etwas darüber lesen, wie man langfristig Geld ansparen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Ihre Nachbarin, eine junge Mutter, möchte die Entwicklung ihres Babys fördern.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Cousin möchte ein paar Tipps, wie er seinen Kindern den Umgang mit Geld beibringen kann.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>a) Neue berufliche Perspektiven</div>
+        <p style='margin: 0; line-height: 1.6;'>Sie machen leidenschaftlich gern Musik? Es macht Ihnen Freude, Kinderkleidung zu nähen oder leckere Marmeladen herzustellen? Vielleicht fotografieren Sie auch gerne oder sind handwerklich geschickt? Was immer es auch sein mag: Wäre es nicht schön, wenn Sie mit dem, was Sie in Ihrer Freizeit gerne tun, Ihr Geld verdienen könnten? Wir stellen Ihnen in unserem Tagesseminar einen Fünf-Schritte-Plan vor, der Ihnen dabei hilft, diesen Traum in die Realität umzusetzen. Das Seminar findet jeweils am ersten Samstag im Monat in der Volkshochschule statt und kostet 130 Euro. Anmeldung: 0180-775 30 07.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>b) Vater-Kind-Aktion</div>
+        <p style='margin: 0; line-height: 1.6;'>Aufgepasst! Am Samstag können Väter mit ihren Kindern toben und jede Menge Spaß haben. Von 14 bis 16 Uhr haben Kinder im Alter von drei bis sechs Jahren die Möglichkeit, sich in der Turnhalle der Schillerschule sportlich auszuprobieren. Auf dem Programm stehen klettern, hüpfen, rennen und balancieren – natürlich alles mit Papa zusammen. Die Veranstaltung wird vom städtischen Sportklub organisiert und ist kostenlos. Für das leibliche Wohl ist natürlich auch gesorgt: Es gibt Würstchen, Pommes und Pfannkuchen für den kleinen Hunger zwischendurch.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>c) Neuer Finanzratgeber</div>
+        <p style='margin: 0; line-height: 1.6;'>Die meisten Menschen kümmern sich wenig bis gar nicht um finanzielle Fragen. Das führt dazu, dass sie oft weniger Geld in der Tasche haben, als sie eigentlich müssten. In ihrem Buch „Perfekt geplant" erklärt die erfahrene Investmentbankerin Jessica Brunner, wie es Ihnen gelingt, nach und nach ein Vermögen aufzubauen. Die Autorin beschreibt leicht verständlich, worauf es dabei ankommt und wie auch Menschen mit geringem Einkommen es schaffen, regelmäßig Geld beiseitezulegen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>d) Basteln – kinderleicht gemacht!</div>
+        <p style='margin: 0; line-height: 1.6; border: 2px dotted #333; padding: 15px;'>Viermal im Jahr lädt die Kunstwerkstatt Eltern und Kinder ein, gemeinsam jahreszeitliche Dekorationen zu gestalten. Am kommenden Wochenende ist es wieder so weit: Der Frühling steht vor der Tür und wir haben tolle Bastelideen für Kinder im Alter von 3 bis 8 Jahren. Ob Blumen aus Papier, Schmetterlinge aus Filz oder Osterhasen aus alten (natürlich gewaschenen!) Socken. Es wird gemalt, geklebt und gewerkelt, und unter fachkundiger Anleitung entstehen so schnell kleine Kunstwerke. Lassen Sie sich überraschen! Die Teilnahmegebühr beträgt inklusive Material 3 Euro.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>e) Gut vernetzt</div>
+        <p style='margin: 0; line-height: 1.6; border: 1px solid #ccc; border-radius: 8px; padding: 15px;'>Die sozialen Medien sind eine wunderbare Möglichkeit, sich mit anderen Menschen auszutauschen. Wer wenig Erfahrung mit Computern, Smartphones oder dem Internet hat, traut sich jedoch oft nicht so recht an die sozialen Medien heran. Dieser Kurs hilft Senior*innen, die Welt der sozialen Medien Schritt für Schritt zu erkunden und zeigt Ihnen, wie sie diese im Alltag nutzen können, zum Beispiel, um mit Familienmitgliedern und Freunden in Kontakt zu bleiben oder um Informationen über aktuelle Themen zu finden. Anmeldung unter 0180-34 33 26.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>f) Eltern-Kind-Treff</div>
+        <p style='margin: 0; line-height: 1.6; border: 1px dashed #999; padding: 15px;'>Jeden Donnerstag bietet das Familienzentrum den „Mini-Treff" für die Allerkleinsten an. Hier haben Babys ab der 12. Lebenswoche die Möglichkeit, mit anderen Babys in Kontakt zu kommen. Eltern tauschen sich mit anderen Eltern aus oder lernen sich kennen. Darüber hinaus, wie durch sanfte Babygymnastik die natürliche Beweglichkeit ihres Kindes unterstützen oder durch spielerische Impulse die Sinneswahrnehmung anregen können. Außerdem haben wir hilfreiche Entspannungstipps, die das Wohlbefinden von Eltern und Babys steigern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>g) Kostenlose App</div>
+        <p style='margin: 0; line-height: 1.6;'>Der Monat ist noch nicht zu Ende, aber das Geld ist schon weg. Viele von euch kennen diese Situation vielleicht und wissen, wie unangenehm sie ist. Die neue Finanz-App hilft dir, deine Finanzen jederzeit im Blick zu behalten. Sie zeigt dir detailliert deine Einnahmen und Ausgaben an, sodass du immer weißt, wie viel Geld noch übrig ist. Außerdem kannst du deine Ausgaben in Kategorien einteilen, z.B. Lebensmittel, Elektronikartikel oder Kleidung. So siehst du genau, wofür du am meisten Geld ausgibst – und wo du vielleicht noch den einen oder anderen Euro sparen kannst.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>h) Machen Sie Ihr Unternehmen fit</div>
+        <p style='margin: 0; line-height: 1.6; border: 1px solid #333; padding: 15px;'>Social-Media-Marketing ist eine Form des Online-Marketings. In dieser einwöchigen Weiterbildung lernen Sie, soziale Medien gezielt für Ihr Unternehmen einzusetzen, zum Beispiel, um Werbung für Ihre Produkte oder Dienstleistungen zu machen. Am ersten Kurstag verschaffen Sie sich zunächst einen Überblick über die wichtigsten sozialen Medien und deren Vor- und Nachteile. Im Anschluss lernen Sie, wie Sie Ihren eigenen Social-Media-Auftritt selbstständig auf- und ausbauen können. Alle Kursinhalte werden durch zahlreiche praktische Beispiele veranschaulicht und es gibt ausreichend Raum für individuelle Fragen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>i) Info-Nachmittag bei der Bank</div>
+        <p style='margin: 0; line-height: 1.6; border: 2px dashed #666; padding: 15px;'>Wer sich frühzeitig mit dem Thema „Geld" beschäftigt, die Bedeutung von Scheinen und Münzen kennenlernt und versteht, dass Geld nicht einfach da ist, wird es im späteren Leben leichter haben. Eltern haben hier eine große Verantwortung, sind sich aber oft unsicher, was sie ihren Kindern über Geld beibringen sollen – und vor allem wie. Am Dienstagnachmittag findet bei der Stadtbank die Info-Veranstaltung „Kleine Finanzexperten" statt, bei der Eltern lernen, ihr Kind im Alltag mit Geld vertraut zu machen und kindgerecht über Finanzen zu sprechen. Außerdem werden Fragen rund um das Thema „Taschengeld" beantwortet.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>j) Berufliche Neuorientierung</div>
+        <p style='margin: 0; line-height: 1.6; background: #e8e8e8; padding: 15px; border-radius: 5px;'>Immer mehr ältere Menschen benötigen Hilfe im Alltag. Entsprechend wächst auch der Bedarf nach Pflegekräften. Wenn Sie an der Tätigkeit in der Altenpflege interessieren, aber noch unsicher sind, ob dieser Beruf wirklich der richtige für Sie ist, kann Ihnen dieses Wochenendseminar als Entscheidungshilfe dienen. Wir geben Ihnen einen Überblick über berufliche Perspektiven in der Seniorenbetreuung, verschiedene Ausbildungsmöglichkeiten und den Arbeitsalltag in Pflegeeinrichtungen. Die Teilnahme ist kostenlos. Anmeldung unter www.pflege-berufe.de.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>k) Kostenloser Vortrag</div>
+        <p style='margin: 0; line-height: 1.6; border: 1px solid #000; padding: 15px;'>Wer die Bank wechseln möchte, steht vor keiner leichten Aufgabe, denn die Auswahl auf dem deutschen Markt ist riesig. In einem 90-minütigen Vortrag stellt Finanzexperte Dr. Thomas Fritz die wichtigsten Produkte der Banken vor und erörtert, welche Auswahlkriterien Sie beachten sollten. Themen, die angesprochen werden, sind unter anderem: Kontogebühren, persönliche Beratung in den Filialen, Bargeld abheben im Ausland, Kreditkarten und spezielle Angebote für junge Leute. Am Ende des Vortrags können Fragen gestellt werden. Donnerstag, 17 Uhr, Stadtbibliothek.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #3498db; margin-bottom: 10px;'>l) „Der tägliche Wahnsinn"</div>
+        <p style='margin: 0; line-height: 1.6; border: 2px solid #333; border-radius: 10px; padding: 15px;'>Zähne putzen, Windeln wechseln, Schuhe anziehen, Haare kämmen. Wer kleine Kinder hat, weiß, dass all diese Dinge zu einer echten Herausforderung werden können. In ihrem Buch „Der tägliche Wahnsinn" erklärt die Psychologin Hanna Gerlach – selbst Mutter von sechs Kindern – auf humorvolle Weise, wie man gelassen bleibt, wenn die Kleinen mal wieder nerven. Eltern finden hier viele nützliche Ideen und Anregungen, wie sie mit Stresssituationen umgehen können – damit alle entspannter durch den Tag kommen.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>1:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>2:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>3:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>4:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>5:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>6:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>8:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>11:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>13:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>14:</b> k</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>15:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>16:</b> l</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>17:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>18:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>19:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>20:</b> i</div>
+    </div>`
   },
   {
-    id: 415,
+    id: 501,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Neue Arbeitswelten",
+    title: "B2 Leseverstehen – Test 2 (Neue Arbeitswelten & Smart Cities)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8717,16 +8941,198 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-b, 2-e, 3-a, 4-i, 5-d"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Smart Cities: Wie leben wir morgen?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Bis zum Jahr 2050 werden voraussichtlich zwei Drittel der Weltbevölkerung in Städten leben. Diese massive Urbanisierung stellt Planer vor gewaltige Herausforderungen: Verkehrsinfarkt, Luftverschmutzung und Energieknappheit drohen, die Lebensqualität in den Metropolen drastisch zu senken. Die Antwort vieler Experten lautet "Smart City" – die intelligente, vernetzte Stadt, die Technologie nutzt, um effizienter und lebenswerter zu werden.</p>
+    
+    <p>Ein zentraler Aspekt ist die Mobilität. In der Smart City kommunizieren Autos, Ampeln und Parkhäuser miteinander. Navigationssysteme leiten Fahrzeuge automatisch um Staus herum, und Ampeln schalten auf Grün, wenn sich ein Bus nähert. Ziel ist es, den Individualverkehr zu reduzieren und Sharing-Angebote sowie den öffentlichen Nahverkehr attraktiver zu machen. Autonome Shuttle-Busse könnten in Zukunft rund um die Uhr Passagiere befördern, ohne dass ein Fahrer benötigt wird.</p>
+    
+    <p>Auch beim Thema Energie und Umwelt spielt Vernetzung eine große Rolle. Intelligente Stromnetze, sogenannte "Smart Grids", verteilen Energie genau dort hin, wo sie gerade gebraucht wird. Straßenlaternen leuchten nur dann hell, wenn tatsächlich Passanten in der Nähe sind, was massiv Strom spart. Mülltonnen melden per Sensor, wenn sie voll sind, sodass die Müllabfuhr nur noch dann kommt, wenn es wirklich nötig ist. Das spart Treibstoff und reduziert Lärm.</p>
+    
+    <p>Doch bei aller Begeisterung für technologische Lösungen gibt es auch kritische Stimmen. Datenschützer warnen vor dem "gläsernen Bürger". Wenn jede Bewegung, jeder Stromverbrauch und jede Nutzung öffentlicher Verkehrsmittel aufgezeichnet wird, entstehen gewaltige Datenmengen. Wem gehören diese Daten? Und wie wird sichergestellt, dass sie nicht missbraucht werden? Die Angst vor totaler Überwachung ist nicht unbegründet, besonders wenn private Tech-Giganten in die Infrastruktur von Städten investieren.</p>
+
+    <p>Zudem darf die soziale Komponente nicht vergessen werden. Eine Smart City darf nicht nur für junge, technikaffine Menschen funktionieren. Ältere Menschen oder Bürger mit geringem Einkommen dürfen nicht abgehängt werden. Technologie soll dem Menschen dienen und das Zusammenleben verbessern, nicht ersetzen. Begrünte Fassaden, Parks und Begegnungszonen bleiben auch in der digitalsten Stadt unverzichtbar für das menschliche Wohlbefinden.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Warum ist das Konzept der "Smart City" notwendig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Landbevölkerung abnimmt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> UmProbleme durch die wachsende Urbanisierung zu lösen.</li>
+        <li><strong>c</strong> Weil Technologiekonzerne neue Märkte suchen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Wie soll der Verkehr in der Zukunft geregelt werden?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Durch mehr Straßen und Parkplätze.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Durch intelligente Vernetzung und Kommunikation der Systeme.</li>
+        <li><strong>c</strong> Durch ein Verbot von privaten PKWs in Innenstädten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Welchen Vorteil bieten intelligente Straßenlaternen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbessern die Sicherheit durch Kameras.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sparen Energie, indem sie sich situationsbedingt anpassen.</li>
+        <li><strong>c</strong> Sie dienen gleichzeitig als Ladestationen für E-Autos.</li>
+      </ul>
+    </div>
+
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine Möglichkeit, neben dem Beruf ein vollwertiges Studium abzuschließen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, welche digitalen Kompetenzen für Lehrer heute wichtig sind.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Schwester möchte ihr Wissen in Grafikdesign durch einen kurzen Online-Kurs auffrischen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht nach kostenlosen Vorlesungen von Spitzenuniversitäten.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die rechtlichen Aspekte des Datenschutzes beim E-Learning.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte wissen, wie sie ihre Kinder sinnvoll an digitale Medien heranführen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine Plattform, auf der man Sprachen mit Muttersprachlern via Videochat üben kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student sucht Unterstützung bei der Formatierung seiner digitalen Masterarbeit.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten mehr über die Geschichte der Fernlehre in Deutschland erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte lernen, wie man eigene Lernvideos für YouTube produziert.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>a) Die Fernuni Hagen</div>
+        <p style='margin: 0; line-height: 1.6;'>Das Flaggschiff der Fernlehre in Deutschland. Hier können Wissbegierige vollwertige Bachelor- und Masterabschlüsse erwerben, die flexibel neben dem Job zu absolvieren sind. Das Studienmaterial kommt per Post oder digital direkt nach Hause.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>b) Coursera & edX</div>
+        <p style='margin: 0; line-height: 1.6;'>Greifen Sie auf hochwertige Kurse von Elite-Universitäten wie Harvard oder dem MIT zu. Viele Inhalte sind im sogenannten Audit-Modus völlig kostenlos zugänglich, ideal für alle, die sich auf höchstem Niveau weiterbilden wollen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>c) Medienpädagogik für Eltern</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber-Portal mit wertvollen Tipps für den kindgerechten Umgang mit Tablets und Internet. Wir zeigen Ihnen, wie Sie Ihre Kinder sicher und mit viel Spaß an die Möglichkeiten der digitalen Welt heranführen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>d) Skillshare: Kreativ werden</div>
+        <p style='margin: 0; line-height: 1.6;'>Tausende kurze Video-Kurse zu Themen wie Grafikdesign, Illustration und Fotografie warten auf Sie. Diese Plattform ist die ideale Lösung für alle, die ihr kreatives Wissen schnell und unkompliziert auffrischen oder erweitern möchten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>e) Italki: Sprachen live</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie qualifizierte Lehrer und Tandempartner weltweit für privaten Einzelunterricht via Webcam. Das ist der effektivste Weg, um eine Fremdsprache wirklich fließend sprechen zu lernen – direkt mit Muttersprachlern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>f) Digitaler Unterricht: Fortbildung</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein spezielles Kursangebot der Landesakademie für Lehrkräfte. Wir zeigen Ihnen den effektiven Umgang mit Tools wie Moodle und digitalen Tafeln, damit Ihr Unterricht modern und interaktiv gestaltet werden kann.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>g) Datenschutz beim E-Learning</div>
+        <p style='margin: 0; line-height: 1.6;'>In diesem Fachartikel erfahren Sie alles über die rechtlichen Rahmenbedingungen und die DSGVO-konforme Nutzung von Lernplattformen. Ein Muss für alle, die im Bereich E-Learning Verantwortung tragen oder sich dafür interessieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>h) YouTube-Akademie für Creator</div>
+        <p style='margin: 0; line-height: 1.6;'>In diesem Workshop lernen Sie alles über Schnitt, Beleuchtung und moderne Didaktik, um erfolgreiche Lernvideos zu produzieren und Ihre eigene Community auf YouTube aufzubauen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>i) Leitfaden für die Masterarbeit</div>
+        <p style='margin: 0; line-height: 1.6;'>Suchen Sie Unterstützung bei der Strukturierung und digitalen Einreichung Ihrer wissenschaftlichen Arbeit? Unser Leitfaden bietet Ihnen wertvolle Hilfe bei der Formatierung und Einhaltung akademischer Standards.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>j) Vom Briefkurs zum Webinar</div>
+        <p style='margin: 0; line-height: 1.6;'>Das Museum für Kommunikation zeigt eine spannende Ausstellung über die lange Geschichte des Fernunterrichts in Deutschland – von den ersten gedruckten Briefkursen bis hin zu modernen Live-Webinaren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>k) Lern-Apps im Praxistest</div>
+        <p style='margin: 0; line-height: 1.6;'>Welche Anwendungen helfen Schülern wirklich beim Mathelernen? Ein unabhängiger Vergleichstest zeigt die Stärken und Schwächen der aktuell beliebtesten Lernprogramme auf dem Markt.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>l) Stipendien für Fernstudenten</div>
+        <p style='margin: 0; line-height: 1.6;'>Informieren Sie sich über verschiedene Finanzierungsmöglichkeiten und spezielle Förderprogramme, die explizit für Menschen im berufsbegleitenden Fernstudium geschaffen wurden.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>1:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>2:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>3:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>4:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>5:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>9:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>12:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>13:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>14:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>15:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>16:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>17:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>18:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>19:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>20:</b> h</div>
+    </div>`
   },
   {
-    id: 416,
+    id: 502,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Mobilität der Zukunft",
+    title: "B2 Leseverstehen – Test 3 (Mobilität & Mode)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8785,16 +9191,216 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-c, 2-a, 3-i, 4-d, 5-e"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Fast Fashion vs. Fair Fashion: Ein Umdenken im Kleiderschrank</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>T-Shirts für 5 Euro, Hosen für 10 – Mode ist in den letzten Jahrzehnten so billig geworden wie nie zuvor. Große Modeketten bringen bis zu 24 Kollektionen pro Jahr heraus, um ständig neue Kaufanreize zu schaffen. Dieses Geschäftsmodell nennt man "Fast Fashion". Doch der Preis für diese Schnäppchen ist hoch, auch wenn er nicht auf dem Preisschild steht. Er wird von der Umwelt und den Arbeitern in den Produktionsländern bezahlt.</p>
+    
+    <p>Die Textilindustrie ist einer der größten Umweltverschmutzer weltweit. Für die Produktion eines einzigen Baumwoll-Shirts werden rund 2.700 Liter Wasser verbraucht – so viel, wie ein Mensch in zweieinhalb Jahren trinkt. Hinzu kommen giftige Chemikalien zum Färben der Stoffe, die oft ungefiltert in Flüsse geleitet werden. Synthetische Fasern wie Polyester tragen zudem massiv zum Mikroplastik-Problem in unseren Meeren bei, da sich bei jeder Wäsche winzige Partikel lösen.</p>
+    
+    <p>Doch das Bewusstsein der Verbraucher wandelt sich. "Fair Fashion" und Nachhaltigkeit liegen im Trend. Immer mehr Menschen hinterfragen, wo und unter welchen Bedingungen ihre Kleidung hergestellt wurde. Siegel wie GOTS oder Fairtrade garantieren ökologische Standards und faire Löhne. Zwar ist faire Mode in der Anschaffung teurer, doch die Qualität ist meist deutlich höher, sodass die Kleidung länger hält. Das Motto lautet: "Klasse statt Masse".</p>
+    
+    <p>Neben dem Kauf neuer Öko-Mode gibt es weitere nachhaltige Alternativen. Second-Hand-Shopping hat sein verstaubtes Image längst abgelegt. Auf Flohmärkten oder Apps wie Vinted wird gebrauchte Kleidung gehandelt, was Ressourcen schont und den Geldbeutel entlastet. Auch "Kleidertauschpartys" werden immer beliebter: Man bringt Teile mit, die man nicht mehr trägt, und tauscht sie gegen "neue" Lieblingsstücke von anderen. Das macht Spaß und ist völlig kostenlos.</p>
+
+    <p>Ein ganz neuer Ansatz ist das Leasen von Kleidung. Ähnlich wie beim Carsharing kann man hochwertige Kleidungsstücke für eine bestimmte Zeit mieten – etwa ein Abendkleid für eine Hochzeit oder Winterjacken für Kinder, die im nächsten Jahr sowieso nicht mehr passen. Dies könnte ein Modell der Zukunft sein, um den Konsumwahn zu bremsen, ohne auf Abwechslung im Kleiderschrank verzichten zu müssen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was ist das Hauptmerkmal von "Fast Fashion"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es wird nur nachhaltige Baumwolle verwendet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Kleidung wird sehr schnell und billig in vielen Kollektionen produziert.</li>
+        <li><strong>c</strong> Die Kleidung wird hauptsächlich in Europa hergestellt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Welches Umweltproblem wird im Text erwähnt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der hohe Stromverbrauch der Nähmaschinen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der enorme Wasserverbrauch und Wasserverschmutzung.</li>
+        <li><strong>c</strong> Der Transport der Kleidung mit Flugzeugen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was zeichnet "Fair Fashion" aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie ist immer billiger als herkömmliche Mode.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie folgt immer den allerneuesten Trends.</li>
+        <li><strong>c</strong> Sie garantiert ökologische Standards und faire Arbeitsbedingungen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was ist der Vorteil von Kleidertauschpartys?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man bekommt neue Kleidung kostenlos.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Man kann dort professionell Designerkleidung verkaufen.</li>
+        <li><strong>c</strong> Man lernt dort das Nähen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wie funktioniert das "Leasen" von Kleidung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man kauft Kleidung auf Raten.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Man mietet Kleidungsstücke für eine begrenzte Zeit.</li>
+        <li><strong>c</strong> Man tauscht Kleidung dauerhaft gegen andere Waren.</li>
+      </ul>
+    </div>
+  </div>
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen ein Hotel in den Alpen, das ausschließlich ökologische Produkte verwendet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie man CO2-Kompensation für Flugreisen berechnet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Cousine sucht eine geführte Radtour durch das Donautal mit Gepäcktransfer.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte in den Urlaub fahren, ohne ein Flugzeug oder ein eigenes Auto zu nutzen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die Auswirkungen des Massentourismus auf historische Altstädte.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin sucht Tipps für "Sanften Tourismus" mit Kleinkindern in Deutschland.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine Plattform für Carsharing-Angebote speziell für Urlaubsreisen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die Energiebilanz von Kreuzfahrtschiffen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten mehr über das Konzept der "15-Minuten-Stadt" erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte wissen, welche Vorteile ein E-Auto-Abo für Pendler hat.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>a) Bio-Hotel "Grüner Gipfel"</div>
+        <p style='margin: 0; line-height: 1.6;'>Genießen Sie Ihren Urlaub in den Alpen mit gutem Gewissen. Wir bieten 100% Bio-Verpflegung aus der Region, nutzen eine eigene Solaranlage und verzichten konsequent auf Plastikabfälle. Ein Paradies für ökobewusste Wanderer und Naturliebhaber.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>b) Atmosfair: Bewusst fliegen</div>
+        <p style='margin: 0; line-height: 1.6;'>Lässt sich Fliegen mit Klimaschutz vereinbaren? Unser Online-Rechner hilft Ihnen dabei, die CO2-Emissionen Ihrer Flugreise genau zu ermitteln und durch Spenden in zertifizierte Klimaschutzprojekte weltweit zu kompensieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>c) Donau-Radweg intensiv</div>
+        <p style='margin: 0; line-height: 1.6;'>Erleben Sie die wunderschöne Landschaft des Donautals ganz entspannt vom Sattel aus. Wir bieten Ihnen komplette Tourenpakete inklusive fahrradfreundlicher Hotels, detaillierter Karten und einem zuverlässigen Gepäckservice von Hotel zu Hotel.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>d) Bahn & Bike: Urlaub ohne Auto</div>
+        <p style='margin: 0; line-height: 1.6;'>Die perfekte Kombination für einen umweltfreundlichen Urlaub. Wir zeigen Ihnen die schönsten Reiseziele in Deutschland und Europa, die bequem mit dem Zug erreichbar sind und sich ideal für Erkundungen mit dem Fahrrad eignen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>e) Overtourism: Schattenseiten</div>
+        <p style='margin: 0; line-height: 1.6;'>Wenn die Massen kommen, leiden oft die historischen Altstädte. Diese Dokumentation beleuchtet die Auswirkungen des Übertourismus auf Städte wie Venedig oder Barcelona und diskutiert nachhaltige Konzepte für die Zukunft des Städtetourismus.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>f) Urlaub auf dem Bauernhof</div>
+        <p style='margin: 0; line-height: 1.6;'>Nachhaltig reisen mit der ganzen Familie. Viele unserer zertifizierten Bauernhöfe bieten Sanften Tourismus speziell für Eltern mit Kleinkindern an – hautnaher Kontakt zur Natur und gesunde Produkte direkt vom Hof inklusive.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>g) BlaBlaCar & Co. für Reisende</div>
+        <p style='margin: 0; line-height: 1.6;'>Carsharing ist längst mehr als nur ein Stadttrend. Wir vergleichen die besten Portale für Mitfahrgelegenheiten und privates Carsharing, die sich besonders für längere Urlaubsreisen eignen und dabei helfen, Fahrtkosten und CO2 zu sparen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>h) Energiebilanz der Kreuzfahrt</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein aktueller Expertenbericht untersucht die Umweltauswirkungen moderner Kreuzfahrtschiffe. Im Fokus stehen dabei die Energiebilanz, die Nutzung alternativer Treibstoffe (wie LNG) sowie modernste Systeme zur Abwasserreinigung an Bord.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>i) Podcast: Die 15-Minuten-Stadt</div>
+        <p style='margin: 0; line-height: 1.6;'>In dieser Folge erfahren Sie alles über das innovative Konzept der Stadtplanung, bei dem alle wichtigen Einrichtungen des täglichen Bedarfs innerhalb von 15 Minuten zu Fuß oder mit dem Fahrrad erreichbar sein sollen – für mehr Lebensqualität und weniger Verkehr.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>j) E-Auto-Abos im Vergleich</div>
+        <p style='margin: 0; line-height: 1.6;'>Flexibel elektrisch fahren ohne langfristige Bindung. Wir erklären Ihnen, warum E-Auto-Abos gerade für Berufspendler eine attraktive Alternative zum Kauf oder Leasing sein können und welche Vorteile die monatlichen Flatrate-Modelle bieten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>k) Fairer Handel auf Reisen</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie Sie als Tourist die lokale Wirtschaft in Schwellenländern unterstützen können. Tipps zum bewussten Einkaufen und zur Auswahl von Reiseanbietern, die faire Löhne und Arbeitsbedingungen garantieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e67e22; margin-bottom: 10px;'>l) Digitale Mobilitätshelfer</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Test der neuesten Apps, die Ihnen dabei helfen, verschiedene Verkehrsmittel (Bahn, Bus, Bike-Sharing) optimal zu kombinieren und Ihre Reise so effizient und umweltfreundlich wie möglich zu gestalten.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>1:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>2:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>3:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>4:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>5:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>8:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>9:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffeada; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 417,
+    id: 503,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Ernährungstrends",
+    title: "B2 Leseverstehen – Test 4 (Ernährung & Bildung)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8853,17 +9459,208 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-j, 2-i, 3-b, 4-d, 5-e"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Schule 4.0: Lernen wir in Zukunft anders?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Die Kreidetafel hat ausgedient, das Tablet übernimmt. Die Digitalisierung macht auch vor den Schultoren nicht halt. Doch "Digitale Bildung" bedeutet weit mehr als nur den Ersatz von Schulbüchern durch PDFs. Es geht um eine grundlegende Veränderung der Art und Weise, wie Wissen vermittelt und angeeignet wird. Kritiker befürchten eine Verdummung durch Technik, während Befürworter von individueller Förderung schwärmen.</p>
+    
+    <p>Ein großer Vorteil digitaler Medien ist die Möglichkeit des adaptiven Lernens. Intelligente Lernsoftware kann erkennen, wo ein Schüler Schwierigkeiten hat, und ihm automatisch passende Übungen anbieten. Wer Mathe schnell versteht, bekommt kniffligere Aufgaben, während andere in ihrem eigenen Tempo üben können, ohne den Anschluss zu verlieren. Der Lehrer wandelt sich dabei vom reinen Wissensvermittler zum Lernbegleiter, der die Schüler individuell coacht.</p>
+    
+    <p>Zudem ermöglicht das Internet den Zugang zu Informationen weit über das klassische Schulbuch hinaus. Schüler können virtuelle Museumsrundgänge machen, mit Partnerklassen am anderen Ende der Welt per Videochat sprechen oder komplexe naturwissenschaftliche Prozesse in Simulationen verstehen. "Medienkompetenz" wird dabei zum neuen Hauptfach: Kinder müssen lernen, seriöse Quellen von Fake News zu unterscheiden und sicher im Netz zu navigieren. Das reine Auswendiglernen von Fakten verliert an Bedeutung, da Wissen jederzeit verfügbar ist.</p>
+    
+    <p>Trotzdem warnen Hirnforscher davor, die analoge Welt komplett zu verbannen. Das haptische Erlebnis, mit einem Füller auf Papier zu schreiben, fördert die Feinmotorik und die Gedächtnisleistung stärker als das Tippen auf einem Glasbildschirm. Auch die soziale Interaktion im Klassenzimmer, das Diskutieren und Streiten, kann durch keine Software ersetzt werden. Schule ist nicht nur ein Ort des Lernens, sondern auch ein Ort des sozialen Miteinanders.</p>
+
+    <p>Ein weiterer Problem ist die Ausstattung. Nicht jede Familie kann sich teure Geräte leisten, und viele Schulen haben immer noch mit schlechtem WLAN zu kämpfen. Wenn digitale Bildung vom Geldbeutel der Eltern abhängt, verschärft sie die soziale Ungleichheit, statt sie abzubauen. Politiker sind daher gefordert, massiv in die Infrastruktur zu investieren, damit die "Schule der Zukunft" wirklich für alle eine Chance bietet.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was bedeutet "Digitale Bildung" laut Text hauptsächlich?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Schulbücher eingescannt werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Schüler nur noch Computerspiele spielen.</li>
+        <li><strong>c</strong> Dass sich die Art des Lernens und Lehrens grundlegend ändert.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Welche Rolle spielt der Lehrer beim adaptiven Lernen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird überflüssig und durch Roboter ersetzt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er agiert eher als Lernbegleiter und Coach.</li>
+        <li><strong>c</strong> Er muss nur noch die Technik warten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Warum verliert reines Auswendiglernen an Bedeutung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil das Gehirn von Kindern heute kleiner ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil Wissen durch das Internet jederzeit verfügbar ist.</li>
+        <li><strong>c</strong> Weil Prüfungen in Zukunft abgeschafft werden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was sagen Hirnforscher zum klassischen Schreiben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist veraltet und sollte abgeschafft werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es fördert Gedächtnis und Motorik besser als Tippen.</li>
+        <li><strong>c</strong> Es schadet den Augen mehr als Bildschirme.</li>
+      </ul>
+    </div>
+
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine App, mit der Sie Ihre täglichen Medikamenteneinnahmen planen und überwachen können.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er online schnell einen Termin bei einem Facharzt in seiner Nähe findet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Tante möchte sich über die Vorteile einer robotergestützten Knieoperation informieren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht nach einer seriösen Website für medizinische Zweitmeinungen bei Krebsdiagnosen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die Möglichkeiten der Telemedizin in ländlichen Gebieten ohne Hausarzt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte wissen, welche Kosten für alternative Heilmethoden von den Krankenkassen übernommen werden.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über die neuesten Durchbrüche in der personalisierten Gentherapie.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Hausarbeit über die ethischen Grenzen von KI-Diagnosen in der Psychiatrie.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten mehr über die Geschichte der Impfstoffentwicklung erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte lernen, wie man Erste Hilfe bei Sportverletzungen richtig leistet.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>a) MyPill-Manager: Sicher versorgt</div>
+        <p style='margin: 0; line-height: 1.6;'>Nie wieder eine wichtige Tablette vergessen. Unsere innovative App erinnert Sie zuverlässig an alle Einnahmen und warnt Sie zudem automatisch vor möglichen gefährlichen Wechselwirkungen mit anderen Medikamenten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>b) Doctolib: Termine per Klick</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie schnell und unkompliziert freie Termine bei Fachärzten und Therapeuten in Ihrer unmittelbaren Umgebung. Dank unseres Online-Portals gehören lange Warteschleifen am Telefon endlich der Vergangenheit an.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>c) Roboter in der Chirurgie</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Patientenseminar über die beeindruckende Präzision und die deutlich schnelleren Heilungszeiten bei minimalinvasiven Eingriffen (z.B. Knie-OP) durch den Einsatz modernster Operations-Roboter in unserer Klinik.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>d) Zweitmeinungsportal OnkoCheck</div>
+        <p style='margin: 0; line-height: 1.6;'>Erfahrene Krebsspezialisten prüfen Ihre medizinischen Befunde und beraten Sie unabhängig über weitere Therapiemöglichkeiten. Das Portal bietet Sicherheit und Orientierung in einer schwierigen Lebensphase. Seriös und diskret.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>e) Videosprechstunde: Der Arzt daheim</div>
+        <p style='margin: 0; line-height: 1.6;'>Erfahren Sie, wie Telemedizin die medizinische Versorgung vor allem in ländlichen Regionen revolutioniert. Die Videosprechstunde ermöglicht eine fachkundige Beratung ohne lange Fahrtwege und volle Wartezimmer.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>f) Krankenkassen-Check: Alternativen</div>
+        <p style='margin: 0; line-height: 1.6;'>Welche gesetzlichen und privaten Krankenkassen übernehmen die Kosten für alternative Heilmethoden wie Osteopathie oder Akupunktur? Ein aktueller Überblick und Kostenvergleich für interessierte Patienten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>g) Gentherapie: Medizin der Zukunft</div>
+        <p style='margin: 0; line-height: 1.6;'>Dieses populärwissenschaftliche Magazin berichtet über die neuesten Erfolge der personalisierten Medizin. Im Fokus steht dabei die Gen-Schere CRISPR und ihre Rolle bei der Behandlung bisher unheilbarer Erbkrankheiten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>h) KI in der Psychiatrie?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein wissenschaftliches Symposium beleuchtet die ethischen Grenzen und Chancen von Künstlicher Intelligenz in der Psychotherapie. Es geht um die Früherkennung von Depressionen versus den Schutz hochsensibler Patientendaten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>i) Podcast: Pioniere der Medizin</div>
+        <p style='margin: 0; line-height: 1.6;'>Folgen Sie uns auf einer Zeitreise durch die Medizingeschichte. Von der Entdeckung des Penicillins über die ersten Röntgenstrahlen bis hin zur spannenden Entwicklung der ersten wirksamen Impfstoffe gegen tödliche Seuchen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>j) Erste-Hilfe bei Sportverletzungen</div>
+        <p style='margin: 0; line-height: 1.6;'>In diesem Praxisseminar für Sportler und Trainer lernen Sie die wichtigsten Griffe und Maßnahmen bei typischen Verletzungen wie Zerrungen, Brüchen oder Kreislaufproblemen direkt auf dem Platz.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>k) Leben mit chronischen Schmerzen</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber über moderne Schmerztherapien, die über die reine Medikamentengabe hinausgehen. Wir stellen Entspannungstechniken, Physiotherapie und psychologische Unterstützungsangebote vor.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #8e44ad; margin-bottom: 10px;'>l) Herzgesundheit im Fokus</div>
+        <p style='margin: 0; line-height: 1.6;'>Prävention ist alles. Erfahren Sie, wie Sie durch eine gezielte Ernährung und regelmäßige Bewegung Ihr Herz-Kreislauf-System stärken und das Risiko für Schlaganfälle oder Herzinfarkte deutlich senken können.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>1:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>2:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>3:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>4:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>5:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>6:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>10:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #e1bee7; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   }
   ,
   {
-    id: 418,
+    id: 504,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Digitales Lernen",
+    title: "B2 Leseverstehen – Test 5 (Digitales Lernen & Ernährung)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8922,16 +9719,207 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-e, 2-c, 3-j, 4-f, 5-d"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Superfoods und Veganismus: Ein Blick auf den Teller der Zukunft</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Chia-Samen aus Südamerika, Goji-Beeren aus China und Quinoa aus den Anden – sogenannte "Superfoods" liegen voll im Trend. Sie versprechen Gesundheit, Schönheit und ewige Jugend. Doch Ernährungsexperten warnen vor überzogenen Erwartungen. Zwar enthalten diese exotischen Lebensmittel viele Vitamine und Mineralstoffe, doch heimische Alternativen wie Leinsamen, schwarze Johannisbeeren oder Hirse sind oft genauso gesund und dabei deutlich günstiger und umweltfreundlicher, da sie nicht um die halbe Welt transportiert werden müssen.</p>
+    
+    <p>Ein noch größerer Trend ist der Verzicht auf tierische Produkte. Veganismus ist längst keine Nische mehr für radikale Tierschützer, sondern in der Mitte der Gesellschaft angekommen. Supermarktregale sind voll mit veganen Würstchen, Schnitzeln und Käseersatz. Die Gründe für diese Ernährungsumstellung sind vielfältig: Neben dem Tierwohl spielen der Klimaschutz (Massentierhaltung verursacht massive CO2-Emissionen) und die eigene Gesundheit eine entscheidende Rolle. Studien zeigen, dass Veganer seltener an Zivilisationskrankheiten wie Diabetes oder Bluthochdruck leiden.</p>
+    
+    <p>Allerdings ist nicht jedes vegane Produkt automatisch gesund. Viele Ersatzprodukte sind hochverarbeitete Industriewaren, die voller Zusatzstoffe, Salz und gesättigter Fette stecken, um den Geschmack von Fleisch oder Käse zu imitieren. Wer sich gesund ernähren will, sollte daher lieber auf frisches Obst, Gemüse, Hülsenfrüchte und Nüsse setzen, anstatt täglich Fertigprodukte zu konsumieren. "Clean Eating" – also das Essen von möglichst naturbelassenen Lebensmitteln – ist hier das Stichwort.</p>
+    
+    <p>Ein interessanter Aspekt ist auch die Personalisierung der Ernährung. Dank moderner Bluttests und Apps kann heute jeder analysieren lassen, welche Nährstoffe ihm fehlen und welche Lebensmittel er gut verträgt. "Personalized Nutrition" verspricht, für jeden den perfekten Speiseplan zu erstellen. Kritiker sehen darin jedoch eine übertriebene Selbstoptimierung und warnen davor, das Essen nur noch als reine Nährstoffaufnahme zu betrachten. Genuss und das gemeinsame Essen mit Familie und Freunden sollten nicht zu kurz kommen.</p>
+
+    <p>Zusammenfassend lässt sich sagen: Wir essen heute bewusster als früher. Der Trend geht weg von billiger Massenware hin zu Qualität und Nachhaltigkeit. Ob man nun Veganer, Vegetarier oder Flexitarier (jemand, der nur selten Fleisch isst) ist, spielt dabei weniger eine Rolle als die bewusste Entscheidung, was auf den Teller kommt. Die Zukunft der Ernährung wird wohl eine Mischung aus Tradition und Hightech sein – mit dem Ziel, sowohl dem Körper als auch dem Planeten gutzutun.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was sagen Experten über exotische "Superfoods"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sind die einzigen Lebensmittel, die wirklich gesund sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Heimische Alternativen sind oft vergleichbar und umweltfreundlicher.</li>
+        <li><strong>c</strong> Sie sind gefährlich, weil sie oft chemisch behandelt sind.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Warum entscheiden sich viele Menschen für eine vegane Ernährung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil vegane Produkte billiger sind als Fleisch.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Nur aus Mitleid mit den Tieren.</li>
+        <li><strong>c</strong> Aus Gründen wie Tierwohl, Klimaschutz und Gesundheit.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was ist ein Problem bei vielen veganen Ersatzprodukten?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie schmecken überhaupt nicht wie das Original.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind oft hochverarbeitet und enthalten viele Zusatzstoffe.</li>
+        <li><strong>c</strong> Sie sind in normalen Supermärkten schwer zu finden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was ist das Ziel von "Personalized Nutrition"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Jedem Menschen den gleichen, perfekten Speiseplan zu geben.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Ernährung an die individuellen Bedürfnisse anzupassen.</li>
+        <li><strong>c</strong> Bluttests für alle verpflichtend zu machen.</li>
+      </ul>
+    </div>
+
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine Anleitung, wie man auf einem kleinen Nordbalkon erfolgreich Kräuter anbaut.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte sich einer Gemeinschaftsgarten-Gruppe in seinem Stadtteil anschließen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Schwester möchte ihr Hausdach begrünen und sucht Informationen über staatliche Zuschüsse.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte lernen, wie man aus Küchenabfällen hochwertigen Kompost für Zimmerpflanzen macht.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die gesundheitlichen Vorteile von "Waldbaden" im städtischen Park.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin sucht ein Projekt, bei dem Senioren und Kinder gemeinsam Gemüse anbauen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über bienenfreundliche Blumen für den Blumenkasten.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die Kühlwirkung von Fassadenbegrünungen in Hitzeinseln.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten mehr über die Geschichte der Schrebergärten in Deutschland erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte wissen, wie man einen Nistkasten für Wildvögel im Garten richtig anbringt.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>a) Gärtnern ohne Sonne</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber für Schattengärtner. Wir zeigen Ihnen, welche Kräuter und Gemüsesorten auch auf dem schattigen Nordbalkon prächtig gedeihen und wie Sie das Beste aus wenig Licht herausholen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>b) Netzwerk Stadtgrün</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie Gemeinschaftsgärten in Ihrer Nähe. Unsere interaktive Karte zeigt Ihnen alle aktiven Projekte in Ihrem Stadtteil, bei denen Sie sofort mitgraben, neue Leute kennenlernen und gemeinsam ernten können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>c) Grüne Dächer, kühle Köpfe</div>
+        <p style='margin: 0; line-height: 1.6;'>Alles über moderne Dachbegrünung. Wir beraten Sie zu den technischen Voraussetzungen für Ihr Haus und informieren Sie umfassend über aktuelle kommunale Förderprogramme und staatliche Zuschüsse.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>d) Wurmkiste für die Wohnung</div>
+        <p style='margin: 0; line-height: 1.6;'>Kompostieren auf kleinstem Raum. Erfahren Sie, wie Sie mit Hilfe von speziellen Kompostwürmern Ihre täglichen Küchenabfälle völlig geruchlos in hochwertigen Dünger für Ihre Zimmerpflanzen verwandeln können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>e) Shinrin-Yoku im Stadtpark</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein geführter Workshop zum Thema Waldbaden. Entdecken Sie die entspannende und gesundheitsfördernde Kraft der Natur direkt in der hektischen Großstadt. Eine Auszeit für Körper und Seele im grünen Herz der City.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>f) Generationen-Garten</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein integratives Gartenprojekt für Jung und Alt. In diesem Projekt lernen Kinder von der langjährigen Erfahrung der Senioren und bauen gemeinsam gesundes Bio-Gemüse und bunte Sommerblumen an.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>g) Bienen-Buffet auf dem Balkon</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine Liste der besten bienenfreundlichen Pflanzen, die Wildbienen und Schmetterlingen in der Stadt reichlich Nektar bieten. Machen Sie Ihren Blumenkasten zum kleinen, aber feinen Naturschutzgebiet.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>h) Klimaretter Fassadengrün</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine wissenschaftliche Studie unserer Universität untersucht die messbare Kühlwirkung von bepflanzten Hauswänden auf das Stadtklima. Fassadenbegrünungen sind ein wichtiger Baustein gegen sommerliche Hitzeinseln.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>i) Vom Laubenpieper zum Trendsetter</div>
+        <p style='margin: 0; line-height: 1.6;'>Diese Dokumentation beleuchtet die wechselvolle, 200-jährige Geschichte des Kleingartenwesens in Deutschland – von der sozialen Bewegung des 19. Jahrhunderts bis zum modernen Urban Gardening Trend von heute.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>j) Vogelwelt im Garten schützen</div>
+        <p style='margin: 0; line-height: 1.6;'>Bauanleitungen und wichtige Praxistipps für den richtigen Standort von Nistkästen und Futterstellen, damit sich Wildvögel wie Meisen und Spatzen in Ihrem Garten sicher fühlen und erfolgreich brüten können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>k) Vertical Farming für zu Hause</div>
+        <p style='margin: 0; line-height: 1.6;'>Moderne hydroponische Systeme ermöglichen den Anbau von Salat und Kräutern in der eigenen Küche. Ganz ohne Erde, nur mit Wasser und speziellen LEDs – ideal für Stadtbewohner ohne eigenen Balkon.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #e74c3c; margin-bottom: 10px;'>l) Samenbörse im Kiez</div>
+        <p style='margin: 0; line-height: 1.6;'>Tauschen Sie Saatgut von alten, seltenen Gemüsesorten mit anderen Freizeitgärtnern aus Ihrer Umgebung. Wir setzen uns für den Erhalt der biologischen Vielfalt in unseren Gärten und auf unseren Balkonen ein.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>1:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>2:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>3:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>4:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>5:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>7:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #ffcdd2; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 419,
+    id: 505,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Nachhaltiges Reisen",
+    title: "B2 Leseverstehen – Test 6 (Nachhaltiges Reisen & Tourismus)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #16a085; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -8990,16 +9978,207 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-b, 2-i, 3-c, 4-f, 5-g"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #16a085; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Reisen mit gutem Gewissen: Geht das überhaupt?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Früher war Reisen ein Luxus für wenige, heute ist es ein Massenphänomen. Billigflieger machen Wochenendtrips nach Barcelona oder London für jeden erschwinglich. Doch dieser "Overtourism" hat seinen Preis: Venedig versinkt unter Kreuzfahrttouristen, Strände in Thailand müssen wegen Müllbergen geschlossen werden, und der CO2-Ausstoß des Flugverkehrs heizt das Klima an. Immer mehr Urlauber fragen sich daher: Wie kann ich die Welt sehen, ohne sie zu zerstören?</p>
+    
+    <p>Sanfter Tourismus ist die Antwort. Statt "All-Inclusive" im Betonbunker setzt dieses Konzept auf kleine, familiengeführte Unterkünfte, regionale Küche und respektvollen Umgang mit der Natur und Kultur des Gastlandes. Das Geld soll nicht bei internationalen Hotelketten landen, sondern der lokalen Bevölkerung zugutekommen. Wer beispielsweise in einer Eco-Lodge in Costa Rica übernachtet, unterstützt oft direkt Naturschutzprojekte und schafft faire Arbeitsplätze vor Ort.</p>
+    
+    <p>Auch bei der Anreise findet ein Umdenken statt. "Slow Travel" ist angesagt: Statt hektisch Sehenswürdigkeiten abzuhaken, nimmt man sich Zeit. Die Reise mit dem Zug oder dem Fahrrad wird Teil des Erlebnisses. Man sieht Landschaften vorbeiziehen, statt nur über Wolken zu schweben. Zwar dauert die Anreise länger, doch dafür beginnt die Entspannung schon beim Einsteigen. Für Fernreisen, die sich nicht vermeiden lassen, bieten Organisationen wie "Atmosfair" an, die CO2-Emissionen durch Spenden für Klimaschutzprojekte zu kompensieren.</p>
+    
+    <p>Doch sanfter Tourismus bedeutet auch Verzicht. Man muss akzeptieren, dass man nicht jedes Jahr um die halbe Welt fliegen kann, wenn man seinen ökologischen Fußabdruck klein halten will. Vielleicht liegt das Abenteuer ja auch vor der Haustür? Mikroabenteuer in der eigenen Region, Wandern im Harz oder Kanufahren in Mecklenburg-Vorpommern erleben gerade eine Renaissance. Man entdeckt die Schönheit der Heimat neu und spart dabei Geld und CO2.</p>
+    
+    <p>Kritiker wenden ein, dass Tourismus für viele Entwicklungsländer eine der wichtigsten Einnahmequellen ist. Wenn wir nicht mehr fliegen, verlieren dort Menschen ihre Jobs. Das stimmt, doch es geht nicht darum, das Reisen komplett einzustellen, sondern es bewusster zu gestalten. Weniger oft, dafür länger und intensiver reisen – das könnte die Formel für die Zukunft sein. Qualität statt Quantität, auch im Urlaub.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was ist eine negative Folge des Massentourismus ("Overtourism")?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Flüge werden immer teurer.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die lokale Kultur wird gestärkt.</li>
+        <li><strong>c</strong> Umweltzerstörung und Überfüllung beliebter Orte.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was ist ein Ziel des "Sanften Tourismus"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass das Geld hauptsächlich bei großen internationalen Konzernen landet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass die lokale Bevölkerung wirtschaftlich profitiert.</li>
+        <li><strong>c</strong> Dass Touristen möglichst viele Sehenswürdigkeiten in kurzer Zeit sehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was zeichnet "Slow Travel" aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Man reist sehr langsam, weil man kein Geld hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Anreise selbst wird als Teil des Urlaubs gesehen.</li>
+        <li><strong>c</strong> Man darf nur zu Fuß gehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was ist eine Alternative zu Fernreisen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Mikroabenteuer in der eigenen Region.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Virtuelle Reisen am Computer.</li>
+        <li><strong>c</strong> Gar kein Urlaub mehr zu machen.</li>
+      </ul>
+    </div>
+
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #16a085; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine Liste von Hotels in Skandinavien, die mit dem "Nordic Swan" Umweltsiegel ausgezeichnet sind.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er sein gebuchtes Bahnticket bei Verspätungen online reklamieren kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Cousine sucht eine Plattform für Häusertausch im Urlaub, um Kosten und Ressourcen zu sparen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte mehr über die Auswirkungen von Sonnenschutzmitteln auf Korallenriffe erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die Geschichte der ersten Pauschalreisen von Thomas Cook.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin sucht Tipps für "Wwoofing" (Arbeiten auf Bio-Höfen gegen Kost und Logis) in Frankreich.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine Übersicht über Nachtzugverbindungen von Berlin nach Skandinavien.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die sozioökonomischen Folgen von Airbnb auf den Wohnungsmarkt in Lissabon.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, welche Kleidung für eine Wanderung in Island im Sommer am nachhaltigsten ist.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #16a085; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte wissen, wie man Wildtiere im Nationalpark fotografiert, ohne sie zu stören.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>a) Nordic Swan Eco-Label</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie hier eine detaillierte Übersicht über zertifizierte Unterkünfte in Skandinavien. Diese Hotels erfüllen strengste Umweltkriterien in Bezug auf Energieeffizienz, Wasserverbrauch und konsequente Müllvermeidung.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>b) Fahrgastrechte Online</div>
+        <p style='margin: 0; line-height: 1.6;'>Unser Service-Ratgeber zeigt Ihnen Schritt für Schritt, wie Sie Entschädigungen bei Zugausfällen oder Verspätungen unkompliziert und direkt über die App der Bahngesellschaft beantragen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>c) HomeExchange: Tausch dein Glück</div>
+        <p style='margin: 0; line-height: 1.6;'>Werden Sie Teil der weltweit größten Community für Haustausch. Erleben Sie einen absolut authentischen Urlaub in einer fremden Stadt und wohnen Sie völlig kostenlos bei anderen Reisenden zu Hause.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>d) Riffschutz in der Badetasche</div>
+        <p style='margin: 0; line-height: 1.6;'>Welche chemischen Inhaltsstoffe in herkömmlichen Sonnencremes schaden unseren bereits gefährdeten Weltmeeren? Wir stellen Ihnen korallenfreundliche und biologisch abbaubare Alternativen ohne Mikroplastik vor.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>e) Die Geburt des Massentourismus</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein spannender historischer Rückblick auf das Jahr 1841, als der Pionier Thomas Cook die allererste organisierte Gruppenreise per Eisenbahn in England startete und damit eine neue Ära des Reisens einläutete.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>f) Wwoofing France</div>
+        <p style='margin: 0; line-height: 1.6;'>Freiwillige Helfer auf Bio-Bauernhöfen gesucht! Finden Sie zahlreiche Betriebe zwischen der Provence und der Bretagne, die Unterstützung beim Anbau brauchen und Ihnen dafür kostenlose Unterkunft und Verpflegung bieten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>g) Nightjet & Snälltåget</div>
+        <p style='margin: 0; line-height: 1.6;'>Alle aktuellen Verbindungen für Nachtschwärmer auf einen Blick. So reisen Sie absolut klimafreundlich im Schlaf von Berlin aus direkt in die nordischen Metropolen Stockholm oder Kopenhagen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>h) Gentrifizierung durch Urlaub?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein aktueller Fachartikel analysiert die drastischen Veränderungen auf dem Wohnungsmarkt in Lissabon durch die enorme Zunahme von kurzzeitigen Ferienhausvermietungen über Plattformen wie Airbnb.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>i) Nachhaltiges Equipment im Norden</div>
+        <p style='margin: 0; line-height: 1.6;'>Welche Outdoor-Bekleidung ist langlebig und wird ohne giftige Chemikalien wie Fluorcarbone (PFC) hergestellt? Unsere Experten-Tipps für Island-Abenteurer, die Wert auf nachhaltige Ausrüstung legen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>j) Wildtierfotografie: Verhaltenskodex</div>
+        <p style='margin: 0; line-height: 1.6;'>Lernen Sie in unserem Webinar, wie Sie respektvolle Distanz zu Wildtieren wahren und trotzdem atemberaubende Naturfotografien von Rentieren, Walen oder Adlern im Nationalpark machen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>k) Glamping im Schutzgebiet</div>
+        <p style='margin: 0; line-height: 1.6;'>Luxuriöses Camping im Einklang mit der Natur. Übernachten Sie in stilvoll eingerichteten Baumhäusern oder mongolischen Jurten mit minimalem ökologischen Fußabdruck und maximalem Komfort.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #16a085; margin-bottom: 10px;'>l) Digitale Sightseeing-Touren</div>
+        <p style='margin: 0; line-height: 1.6;'>Besuchen Sie die Pyramiden von Gizeh oder den Machu Picchu in Peru ganz bequem von Ihrer heimischen Couch aus mit unseren modernsten VR-Brillen und interaktiven Reiseberichten.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>1:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>2:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>3:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>4:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>5:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>6:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>9:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>10:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #b2dfdb; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 420,
+    id: 506,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Sicherheit im Netz",
+    title: "B2 Leseverstehen – Test 7 (Sicherheit im Netz & Cyberkriminalität)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -9058,16 +10237,217 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-a, 2-j, 3-c, 4-e, 5-h"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Tatort Internet: Wie wir uns vor digitalen Gangstern schützen</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Früher mussten Bankräuber Masken tragen und Tresore knacken. Heute sitzen sie gemütlich im Kapuzenpulli vor dem Laptop, oft tausende Kilometer entfernt. Cyberkriminalität ist ein Milliardengeschäft geworden. Die Methoden der digitalen Betrüger werden immer raffinierter: Von gefälschten E-Mails ("Phishing"), die täuschend echt aussehen, bis hin zu "Ransomware", die ganze Firmennetzwerke verschlüsselt und Lösegeld erpresst. Niemand ist sicher – weder Privatpersonen noch Regierungen.</p>
+    
+    <p>Ein besonders großes Problem ist der Identitätsdiebstahl. Kriminelle spähen Passwörter aus oder kaufen gestohlene Daten im Darknet, um im Namen ihrer Opfer online einzukaufen oder Verträge abzuschließen. Oft bemerken die Betroffenen dies erst, wenn die Rechnungen oder Mahnungen ins Haus flattern. Experten raten daher dringend zur "Zwei-Faktor-Authentifizierung" (2FA), bei der man neben dem Passwort noch einen zweiten Code (z.B. per SMS) eingeben muss. Das macht es Hackern deutlich schwerer.</p>
+    
+    <p>Doch die größte Schwachstelle ist oft nicht die Technik, sondern der Mensch. Ein unbedachter Klick auf einen Link, ein zu einfaches Passwort ("123456" ist immer noch sehr beliebt!) oder zu viel Vertrauen in unbekannte Absender öffnen Kriminellen Tür und Tor. "Social Engineering" nennt man die Taktik, bei der Opfer so manipuliert werden, dass sie sensible Daten freiwillig preisgeben. Aufklärung und Schulungen sind daher die wichtigste Waffe im Kampf gegen Cybercrime.</p>
+    
+    <p>Auch die Politik hat das Problem erkannt. Polizeibehörden rüsten auf und gründen spezialisierte Cyber-Abteilungen. Doch die Täter agieren global und sind schwer zu fassen. Wenn der Hacker in Land A sitzt, der Server in Land B steht und das Opfer in Land C lebt, ist die Strafverfolgung extrem kompliziert. Internationale Zusammenarbeit ist unerlässlich, aber oft bürokratisch und langsam.</p>
+
+    <p>Was bringt die Zukunft? Mit dem Aufstieg der Künstlichen Intelligenz (KI) wird auch Cybercrime automatisierter und gefährlicher. KI kann heute schon Stimmen täuschend echt imitieren ("Deepfakes"), was für Betrugsanrufe ("Enkeltrick 2.0") genutzt werden kann. Wir müssen uns darauf einstellen, dass der digitale Raum ein dauerhaftes Konfliktfeld bleibt. Wachsamkeit und digitale Hygiene – also regelmäßige Updates und Backups – gehören heute zur Bürgerpflicht.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Wie hat sich Bankraub laut Text verändert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er ist seltener geworden, da Banken sicherer sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er passiert heute oft digital vom Laptop aus.</li>
+        <li><strong>c</strong> Er wird nur noch von Amateuren begangen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was passiert beim Identitätsdiebstahl?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Kriminelle handeln im Namen des Opfers, z.B. beim Einkaufen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der Personalausweis wird physisch gestohlen.</li>
+        <li><strong>c</strong> Das Opfer verliert sein Gedächtnis.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was ist "Social Engineering"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Bau von sozialen Netzwerken.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die psychologische Manipulation von Opfern.</li>
+        <li><strong>c</strong> Ein Studiengang für Informatiker.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Warum ist die Strafverfolgung bei Cybercrime so schwierig?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Polizei keine Computer hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil die Täter global agieren und Landesgrenzen nutzen.</li>
+        <li><strong>c</strong> Weil es keine Gesetze gegen Cybercrime gibt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Welche neue Gefahr bringt Künstliche Intelligenz (KI)?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Stimmen imitieren und für Betrug nutzen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI wird alle Polizisten ersetzen.</li>
+        <li><strong>c</strong> KI kann noch gar nichts Gefährliches tun.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen ein Tool, mit dem Sie extrem sichere, aber leicht zu verwaltende Passwörter generieren können.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er sein Google-Konto durch eine App zusätzlich absichern kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte lernen, wie man Fake-News in sozialen Netzwerken erkennen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht nach einer Software, die seine gesamte Festplatte vor Ransomware-Attacken schützt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die rechtlichen Folgen, wenn private Fotos ohne Erlaubnis im Netz verbreitet werden.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte wissen, wie sie ihre Kinder vor unangemessenen Inhalten auf YouTube schützen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über die Gefahren von "Deepfakes" bei politischen Wahlen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die ethischen Aspekte von staatlicher Überwachung in Messengern.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten mehr über die Geschichte des ersten Computervirus "Creeper" erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte lernen, wie er seinen WLAN-Router zu Hause optimal konfiguriert.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Passwort-Safe Pro</div>
+        <p style='margin: 0; line-height: 1.6;'>Generieren und speichern Sie hochkomplexe Passwörter in einem sicher verschlüsselten Tresor. Dank dieser Lösung müssen Sie sich nur noch ein einziges Master-Passwort für alle Ihre Dienste merken.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Google Authenticator & Co.</div>
+        <p style='margin: 0; line-height: 1.6;'>So aktivieren Sie die 2-Faktor-Authentifizierung für Ihre Online-Konten. Wir stellen die besten Apps vor, die alle 30 Sekunden einen neuen Sicherheitscode für maximale Kontosicherheit generieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Faktencheck-Portal</div>
+        <p style='margin: 0; line-height: 1.6;'>Ist diese Nachricht wahr? Wir zeigen Ihnen einfache Methoden und spezialisierte Online-Tools, mit denen Sie die Quellen seltsamer Behauptungen im Internet schnell und zuverlässig überprüfen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Antivirus-Plus: Echtzeitschutz</div>
+        <p style='margin: 0; line-height: 1.6;'>Unsere neue Software erkennt verdächtige Verschlüsselungsaktivitäten auf Ihrem Computer sofort und stoppt Ransomware, bevor sie Ihre privaten Daten sperren und Lösegeld fordern kann.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Recht im Netz: Mein Bild gehört mir</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein juristischer Ratgeber über Ihre Ansprüche und effektive Klagemöglichkeiten, falls intime Fotos oder Videos von Ihnen gegen Ihren ausdrücklichen Willen online verbreitet werden.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Kindersicherung für Videoportale</div>
+        <p style='margin: 0; line-height: 1.6;'>So begrenzen Sie die tägliche Bildschirmzeit und filtern jugendgefährdende oder unangemessene Inhalte auf Plattformen wie YouTube effektiv. Eine hilfreiche Anleitung für besorgte Eltern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) KI-Gefahr Deepfake</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie künstlich erzeugte, täuschend echte Videos die öffentliche Meinung vor Wahlen manipulieren können. Wir erklären die Technik hinter den Fälschungen und zeigen, wie man sie trotzdem entlarven kann.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Verschlüsselung vs. Sicherheit</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Experten-Panel diskutiert die schwierige ethische Frage, ob Sicherheitsbehörden "Hintertüren" in Messengerdiensten zur Verbrechensbekämpfung brauchen oder ob dies die Privatsphäre aller Bürger zerstört.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Pioniere der Schadsoftware</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine Zeitreise zurück in das Jahr 1971. Erfahren Sie in unserem Podcast alles über "Creeper", den allerersten Computervirus der Welt, der sich völlig selbstständig über Netzwerke replizieren konnte.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Router-Sicherheit leicht gemacht</div>
+        <p style='margin: 0; line-height: 1.6;'>Schritt-für-Schritt-Anleitung zur optimalen Konfiguration Ihres Heimnetzwerks. Vom Ändern der unsicheren Standard-IP bis hin zur modernen WPA3-Verschlüsselung Ihres privaten WLAN-Signals.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Passwort-Vergessen: Was nun?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber über die wichtigsten Schritte, wenn Sie den Zugriff auf Ihre Haupt-E-Mail-Adresse verloren haben. So nutzen Sie Rettungs-E-Mails und Sicherheitsfragen richtig.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Digitaler Radikalismus</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie Algorithmen in sozialen Netzwerken Echo-Kammern erzeugen und zur Radikalisierung von jungen Menschen beitragen können. Ein soziologischer Blick auf die dunklen Seiten von Facebook und Twitter.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 421,
+    id: 507,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Grüne Städte",
+    title: "B2 Leseverstehen – Test 8 (Grüne Städte & Urban Gardening)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -9126,20 +10506,222 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-a, 2-b, 3-h, 4-c, 5-i"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Gärtnern in der Stadt: Mehr als nur ein Hobby</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Wer an Gärtnern denkt, hat oft das Bild vom Rentner im Schrebergarten vor Augen, der peinlich genau darauf achtet, dass die Hecke gerade geschnitten ist. Doch das Image hat sich gewandet. "Urban Gardening" – Gärtnern in der Stadt – ist hip, jung und politisch. Auf Brachflächen, Dächern und sogar auf Verkehrsinseln sprießen Tomaten, Salat und Blumen. Es geht dabei nicht nur um die Ernte, sondern um die Rückeroberung des öffentlichen Raums.</p>
+    
+    <p>Ein bekanntes Beispiel sind die "Prinzessinnengärten" in Berlin. Wo früher Betonwüste war, wachsen heute in mobilen Kisten (Bäckerkisten, Reissäcken) hunderte Sorten von Nutzpflanzen. Da der Boden in Städten oft versiegelt oder schadstoffbelastet ist, muss man kreativ werden. Das Gärtnern in Kisten hat den Vorteil, dass der Garten mobil ist – wenn das Gelände bebaut werden soll, zieht der Garten einfach um. Das zeigt auch die Vergänglichkeit von städtischem Raum.</p>
+    
+    <p>Neben dem ökologischen Aspekt (Bienenfreundlichkeit, besseres Mikroklima) ist die soziale Komponente entscheidend. Urban Gardening Projekte sind Orte der Begegnung. Hier gärtnern Hipster neben türkischen Großmüttern und Schulklassen. Man tauscht Tipps aus, hilft sich beim Gießen und kocht gemeinsam mit der Ernte. In einer anonymen Großstadt schaffen diese Gärten Nachbarschaft und Gemeinschaft. Sie sind offene Lernorte, wo Kinder sehen, dass Karotten nicht im Supermarktregal wachsen, sondern aus der Erde kommen.</p>
+    
+    <p>Natürlich kann man mit ein paar Kisten Tomaten nicht die Welt ernähren. Dennoch ist es ein Schritt in Richtung Resilienz und Selbstversorgung. In Krisenzeiten (wie während der Pandemie) haben viele Menschen gemerkt, wie wichtig und beruhigend es ist, etwas Eigenes anzubauen. Zudem schmeckt eine selbstgezogene Tomate, die vollreif geerntet wird, unvergleichlich besser als die wässrige Ware aus dem Gewächshaus in Spanien.</p>
+    
+    <p>Städteplaner haben das Potenzial erkannt. Zukünftige Wohnquartiere werden oft direkt mit Gemeinschaftsgärten ("Community Gardens") geplant. Grüne Dächer und Fassaden sollen Städte kühlen, die sich durch den Klimawandel immer stärker aufheizen. Urban Gardening ist also mehr als nur ein kurzlebiger Trend – es ist ein Baustein für die lebenswerte, grüne Stadt der Zukunft.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Wie unterscheidet sich "Urban Gardening" vom klassischen Schrebergarten?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es findet nur auf dem Land statt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist oft politisch motiviert und findet im öffentlichen Raum statt.</li>
+        <li><strong>c</strong> Es ist nur für Rentner erlaubt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Warum wird oft in Kisten oder Säcken gegärtnert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Töpfe zu teuer sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil der Stadtboden oft versiegelt oder belastet ist.</li>
+        <li><strong>c</strong> Weil es schöner aussieht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Welcher soziale Aspekt wird hervorgehoben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Jeder gärtnert für sich allein.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gärten fördern Gemeinschaft und Begegnung verschiedener Menschen.</li>
+        <li><strong>c</strong> Man muss Eintritt bezahlen, um mitzumachen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was haben viele Menschen während Krisenzeiten bemerkt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Gärtnern zu anstrengend ist.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Supermarkt-Gemüse besser schmeckt.</li>
+        <li><strong>c</strong> Dass es beruhigend und wichtig ist, etwas Eigenes anzubauen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wie reagieren Städteplaner auf diesen Trend?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbieten Urban Gardening streng.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie planen neue Quartiere oft direkt mit Gemeinschaftsgärten.</li>
+        <li><strong>c</strong> Sie ignorieren das Thema komplett.</li>
+      </ul>
+    </div>
+  </div>
+
+    <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen Informationen über die rechtlichen Voraussetzungen für das Aufstellen von Bienenstöcken auf einer Dachterrasse in Berlin.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, welche Gemüsesorten sich am besten für den Anbau in einer schattigen Erdgeschosswohnung eignen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Schwester sucht eine App, die ihr hilft, Schädlinge an ihren Balkonpflanzen ohne Chemikalien zu bekämpfen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte mehr über "Vertical Farming" und die kommerzielle Nutzung von Hochhausfassaden für die Lebensmittelproduktion erfahren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für ein Freiwilligenprojekt, bei dem man gemeinsam mit anderen Nachbarn einen verwahrlosten Stadtpark bepflanzt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin sucht Tipps für die optimale Bewässerung ihrer Pflanzen während eines zweiwöchigen Sommerurlaubs.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine Liste von Städten weltweit, die das "Green City" Siegel für vorbildliche Stadtplanung erhalten haben.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Masterarbeit über die Auswirkungen von Fassadenbegrünung auf die Feinstaubbelastung in Straßenschluchten.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man aus Küchenabfällen auf kleinstem Raum (z.B. in der Wohnung) hochwertigen Dünger herstellt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte wissen, welche einheimischen Wildblumen er pflanzen muss, um Schmetterlinge und Wildbienen anzulocken.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>a) Stadtimkerei: Recht & Ordnung</div>
+        <p style='margin: 0; line-height: 1.6;'>Dürfen Bienen überall stehen? Dieser Leitfaden erklärt die geltenden Brandschutz- und Nachbarschaftsregeln für Berlin und gibt wichtige Tipps für die Anmeldung beim lokalen Veterinäramt.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>b) Schattengärtnern auf dem Balkon</div>
+        <p style='margin: 0; line-height: 1.6;'>Wer sagt, dass man pralle Sonne braucht? Wir stellen Ihnen Blattgemüse und Kräuter vor, die auch bei wenig Licht in schattigen Hinterhöfen oder Erdgeschosswohnungen prächtig gedeihen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>c) Plant-Doctor App</div>
+        <p style='margin: 0; line-height: 1.6;'>Mit unserer KI-basierten Bilderkennung identifizieren Sie Blattläuse und Milben sofort. Erhalten Sie direkt Tipps für natürliche Hausmittel wie Brennnesseljauche statt chemischer Insektizide.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>d) High-Rise Harvest</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Fachartikel über die Zukunft der Landwirtschaft in Megacitys. Erfahren Sie, wie moderne Start-ups bereits heute Salat und Kräuter in hydroponischen Systemen direkt an Hochhausfassaden anbauen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>e) Kiez-Garten: Mitmachen erwünscht!</div>
+        <p style='margin: 0; line-height: 1.6;'>Die Bürgerinitiative "Grüner Kiez" sucht engagierte Helfer für die Umgestaltung einer verwahrlosten Parkanlage. Kommen Sie zum wöchentlichen Treffen und helfen Sie aktiv beim Pflanzen und Jäten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>f) Urlaubsbewässerung: Do it yourself</div>
+        <p style='margin: 0; line-height: 1.6;'>Vom einfachen Tontopf-System für zu Hause bis hin zur automatischen Zeitschaltuhr. Wir zeigen Ihnen, wie Ihre grünen Lieblinge auf dem Balkon auch ohne Hilfe der Nachbarn die Sommerhitze überstehen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>g) Global Green Index</div>
+        <p style='margin: 0; line-height: 1.6;'>Welche Metropolen weltweit investieren am meisten in Radwege und Grünflächen? Eine interaktive Weltkarte zeigt die Gewinner des aktuellen "Green City" Rankings für vorbildliche Stadtplanung.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>h) Lungen der Stadt</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine wissenschaftliche Studie belegt, dass begrünte Wände in Straßenschluchten die Feinstaubbelastung messbar senken und die Umgebungstemperatur an Hitzetagen spürbar abkühlen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>i) Bokashi: Kompost aus dem Eimer</div>
+        <p style='margin: 0; line-height: 1.6;'>Werfen Sie Ihre Bio-Reste nicht weg! Mit der Bokashi-Methode verwandeln Sie Küchenabfälle mithilfe von Mikroorganismen geruchlos in hochwertigen Pflanzendünger, ideal für kleine Wohnungen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>j) Bienen-Paradies Balkon</div>
+        <p style='margin: 0; line-height: 1.6;'>Schluss mit dekorativen Blumen ohne Nutzwert. Wir listen die besten heimischen Wildblumen auf, die Ihren Balkon in eine wichtige Nahrungsquelle für bedrohte Schmetterlinge und Wildbienen verwandeln.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>k) Guerilla Gardening: Ein Manifest</div>
+        <p style='margin: 0; line-height: 1.6;'>Erfahren Sie mehr über die Geschichte dieser Protestbewegung, bei der heimlich Samenbomben auf tristen Verkehrsinseln verteilt werden, um die Stadt ohne offizielle Erlaubnis bunter zu machen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #2ecc71; margin-bottom: 10px;'>l) Baumpatenschaften in Wien</div>
+        <p style='margin: 0; line-height: 1.6;'>Helfen Sie mit, die Stadtbäume vor Trockenheit zu retten. Als Baumpate übernehmen Sie die Bewässerung eines Jungbaums in Ihrer Straße und erhalten dafür ein kleines graviertes Schild am Stamm.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>1:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>2:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>3:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>4:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>5:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>9:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   }
   ,
   {
-    id: 422,
+    id: 508,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Leben mit Social Media",
+    title: "B2 Leseverstehen – Test 9 (Social Media & Datenschutz)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9195,19 +10777,221 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-d, 2-a, 3-f, 4-h, 5-b"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Datenschutz im 21. Jahrhundert: Gibt es noch Privatsphäre?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Wer nichts zu verbergen hat, hat auch nichts zu befürchten? Dieser Satz ist in Diskussionen um Datenschutz oft zu hören, aber er ist gefährlich naiv. In einer digitalisierten Welt hinterlassen wir bei jedem Schritt Datenspuren: beim Bezahlen mit Karte, beim Surfen im Netz, ja sogar beim Spaziergang mit dem Smartphone in der Tasche. Diese Daten werden gesammelt, verknüpft und zu detaillierten Profilen verarbeitet. Das Ziel: Vorherzusagen, was wir kaufen, wen wir wählen und wie gesund wir sind.</p>
+    
+    <p>Daten sind das Öl des digitalen Zeitalters. Für Konzerne wie Google oder Facebook sind sie die wichtigste Währung. Wir bezahlen für "kostenlose" Dienste wie E-Mail oder Social Media mit unserer Privatsphäre. Was viele nicht wissen: Auch scheinbar harmlose Metadaten – also wer wann mit wem kommuniziert – verraten extrem viel über unser Leben. Ein Profil, das aus solchen Daten erstellt wird, kann intimer sein als ein Tagebuch. Es kann politische Einstellungen, sexuelle Orientierung oder Krankheiten offenbaren, ohne dass wir diese Informationen explizit geteilt haben.</p>
+    
+    <p>Die europäische Datenschutzgrundverordnung (DSGVO) hat versucht, dem Einhalt zu gebieten und den Bürgern die Kontrolle über ihre Daten zurückzugeben. Unternehmen müssen nun explizit um Erlaubnis fragen ("Cookie-Banner"), bevor sie tracken dürfen. Doch in der Praxis klicken die meisten Nutzer genervt auf "Alles akzeptieren", nur um schnell an die gewünschte Information zu kommen. Echter Datenschutz erfordert digitale Mündigkeit und das Bewusstsein, dass Daten wertvoll sind.</p>
+    
+    <p>Ein weiteres Risiko ist der Staat selbst. In einigen Ländern wird Technologie zur Überwachung der eigenen Bevölkerung eingesetzt ("Social Scoring"). Kameras mit Gesichtserkennung können Menschen in Echtzeit identifizieren und verfolgen. Auch in demokratischen Staaten wächst der Begehrlichkeit der Sicherheitsbehörden, auf verschlüsselte Kommunikation wie WhatsApp zugreifen zu können, um Terrorismus zu bekämpfen. Hier stehen sich zwei wichtige Grundrechte gegenüber: Sicherheit und Freiheit. Die Balance zu finden, ist eine der größten Herausforderungen unserer Zeit.</p>
+
+    <p>Die Zukunft könnte jedoch eine Gegenbewegung bringen. "Privacy by Design" – also Datenschutz, der direkt in die Technik eingebaut ist – wird immer wichtiger. Es entstehen neue Dienste, die verschlüsselt und anonym arbeiten. Vielleicht wird Privatsphäre in Zukunft ein Luxusgut, für das man bezahlen muss, während die kostenlose Variante weiterhin mit Daten bezahlt wird. Es liegt an jedem Einzelnen, zu entscheiden, wie viel von sich er preisgeben möchte.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Warum ist der Satz "Wer nichts zu verbergen hat..." laut Text naiv?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil jeder Mensch Geheimnisse hat.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil aus gesammelten Daten detaillierte Profile erstellt werden können.</li>
+        <li><strong>c</strong> Weil nur Kriminelle überwacht werden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Womit bezahlen Nutzer für kostenlose Internetdienste?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Mit kleinen Geldbeträgen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Gar nicht, sie sind wirklich kostenlos.</li>
+        <li><strong>c</strong> Mit ihren persönlichen Daten und ihrer Privatsphäre.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was ist ein Problem bei der Umsetzung der DSGVO?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen halten sich nicht daran.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Nutzer klicken oft genervt auf "Alles akzeptieren", ohne zu lesen.</li>
+        <li><strong>c</strong> Die Gesetze sind zu streng für die Wirtschaft.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Welcher Konflikt besteht bei der staatlichen Überwachung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Konflikt zwischen Sicherheit und Freiheit.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Der Konflikt zwischen Arm und Reich.</li>
+        <li><strong>c</strong> Der Konflikt zwischen analog und digital.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wie könnte sich Privatsphäre in Zukunft entwickeln?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie wird komplett abgeschafft.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie könnte ein Luxusgut werden, für das man bezahlen muss.</li>
+        <li><strong>c</strong> Sie wird für alle gesetzlich garantiert und kostenlos.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen einen Kurs, der Senioren den sicheren Umgang mit WhatsApp und Facebook erklärt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er sein Instagram-Profil so einstellt, dass nur bestätigte Follower seine Beiträge sehen können.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte Influencerin werden und sucht Informationen über die rechtlich korrekte Kennzeichnung von Werbung.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht nach einer App, die seine Bildschirmzeit analysiert und ihn bei zu langer Nutzung warnt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die psychologischen Hintergründe, warum Menschen im Internet zu Hasskommentaren (Hate Speech) neigen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte wissen, wie sie verhindern kann, dass Apps im Hintergrund ihren Standort verfolgen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen nach Beispielen für erfolgreiche politische Kampagnen, die ausschließlich über soziale Medien geführt wurden.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die Auswirkungen von TikTok-Challenges auf das Risikoverhalten von Jugendlichen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man ein altes Facebook-Konto von einem verstorbenen Angehörigen in einen "Gedenkzustand" versetzt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht Fakten, um eine weit verbreitete Verschwörungstheorie über 5G-Strahlen in einer WhatsApp-Gruppe zu entlarven.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>a) Silver Surfer: Sicher vernetzt</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein interaktiver Workshop speziell für die Generation 60+. Wir zeigen Ihnen Schritt für Schritt, wie Sie Profilbilder hochladen, Nachrichten senden und woran Sie Betrugsversuche im Netz erkennen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>b) Privatsphäre-Check: Instagram</div>
+        <p style='margin: 0; line-height: 1.6;'>In unserem Video-Tutorial erfahren Sie alles über das "Private Konto". Wir zeigen, wie Sie Follower-Anfragen verwalten und wer genau Ihre Stories sowie Feed-Beiträge sehen darf.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>c) Werbung oder Meinung?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein juristischer Leitfaden für angehende Content Creator. Erfahren Sie, wann Sie den Hashtag #werbung nutzen müssen, um teure Abmahnungen durch Wettbewerbshüter zu vermeiden.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>d) Screen-Time Control</div>
+        <p style='margin: 0; line-height: 1.6;'>Behalten Sie die Kontrolle über Ihr digitales Leben. Unsere neue App liefert detaillierte Berichte über Ihre App-Nutzung und sperrt soziale Netzwerke automatisch nach Erreichen Ihres täglichen Limits.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>e) Anatomie des Hasses</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein soziologischer Online-Artikel unter die Lupe. Erfahren Sie, warum die empfundene Anonymität im Internet die Hemmschwelle für Beleidigungen und Drohungen (Hate Speech) drastisch senkt.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>f) Standort-Spione stoppen</div>
+        <p style='margin: 0; line-height: 1.6;'>Viele Apps wissen immer, wo Sie sind. Wir erklären die Systemeinstellungen von iOS und Android, mit denen Sie den Zugriff auf Ihre GPS-Daten für jede installierte App einzeln verbieten können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>g) Digitaler Wahlkampf</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie Politiker heute das Netz zur Wählermobilisierung nutzen. Eine Analyse der erfolgreichsten Social-Media-Strategien, die den Weg zum Wahlsieg geebnet haben – von Obama bis heute.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>h) Mutprobe oder Wahnsinn?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Forschungsbericht über die gefährliche Gruppendynamik bei viralen TikTok-Challenges. Warum Jugendliche für ein paar Likes ihre Gesundheit aufs Spiel setzen und worauf Eltern achten sollten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>i) Digitaler Nachlass</div>
+        <p style='margin: 0; line-height: 1.6;'>Was passiert mit Daten nach dem Tod? Erfahren Sie, wie Sie bei Facebook einen "Nachlasskontakt" benennen oder ein Profil eines Verstorbenen in einen würdevollen Gedenkstatus versetzen lassen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>j) Faktencheck: 5G & Gesundheit</div>
+        <p style='margin: 0; line-height: 1.6;'>Wissenschaftler nehmen Stellung zu den Mythen rund um den neuen Mobilfunkstandard. Ein kompakter Ratgeber mit belegbaren Fakten gegen irrationale Ängste und Falschmeldungen in Messengern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>k) Passwort-Sicherheit 2024</div>
+        <p style='margin: 0; line-height: 1.6;'>Ist Ihr Passwort wirklich sicher? Wir zeigen, warum "Passwort123" keine gute Idee ist und wie Sie mit modernen Passwort-Managern und 2-Faktor-Authentifizierung Ihre Konten optimal schützen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #576574; margin-bottom: 10px;'>l) Kinder im Internet</div>
+        <p style='margin: 0; line-height: 1.6;'>Wann ist das richtige Alter für das erste Smartphone? Ein Leitfaden für Eltern über Kindersicherungen, geeignete Apps und den pädagogisch sinnvollen Umgang mit digitalen Medien im Familienalltag.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 423,
+    id: 509,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Kultur im Wandel",
+    title: "B2 Leseverstehen – Test 10 (Kultur im Wandel & Sharing Economy)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #d35400; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9256,26 +11040,230 @@ window.examData = [
       </div>
     </div>
 
-    <div style='display: flex; gap: 20px; align-items: flex-start;'>
-      <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>5</span>
-      <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
-        Es herrscht absolute Stille, nur das Umblättern von Seiten ist zu hören? Das war einmal. Heute gibt es in modernen Bibliotheken Cafés, Gaming-Ecken, Coworking-Plätze und sogar 3D-Drucker. Die klassische Buchausleihe rückt fast in den Hintergrund. Diese Orte des Wissens wandeln sich zu sogenannten "Dritten Orten", an denen Menschen sich treffen, arbeiten, austauschen und lebenslang lernen können – und das meist kostenlos und ohne Konsumzwang.
+    <div style='display: grid; gap: 30px;'>
+      <div style='display: flex; gap: 20px; align-items: flex-start;'>
+        <span style='font-weight: bold; font-size: 1.5rem; color: #d35400; min-width: 20px;'>5</span>
+        <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
+          Es herrscht absolute Stille, nur das Umblättern von Seiten ist zu hören? Das war einmal. Heute gibt es in modernen Bibliotheken Cafés, Gaming-Ecken, Coworking-Plätze und sogar 3D-Drucker. Die klassische Buchausleihe rückt fast in den Hintergrund. Diese Orte des Wissens wandeln sich zu sogenannten "Dritten Orten", an denen Menschen sich treffen, arbeiten, austauschen und lebenslang lernen können – und das meist kostenlos und ohne Konsumzwang.
+        </div>
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-b, 2-c, 3-a, 4-h, 5-i"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Teilen statt Besitzen: Das Ende des Eigentums?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Warum eine Bohrmaschine kaufen, die man nur 15 Minuten im ganzen Leben benutzt? Diese Frage steht im Zentrum der "Sharing Economy" (Ökonomie des Teilens). Ob Autos (Carsharing), Wohnungen (Airbnb), Kleidung oder Werkzeug – immer mehr Menschen entscheiden sich dafür, Dinge nur dann zu nutzen, wenn sie sie brauchen, anstatt sie zu besitzen. Das spart Geld, Platz und Ressourcen. Besonders in Großstädten, wo Parkplätze und Lagerraum knapp sind, ist dieser Trend auf dem Vormarsch.</p>
+    
+    <p>Die Digitalisierung hat diesen Wandel erst möglich gemacht. Über Apps lassen sich Fahrräder in Sekunden entsperren oder private Zimmer weltweit buchen. Das Vertrauen, das früher nur Freunden entgegengebracht wurde, wird nun durch Bewertungssysteme ersetzt. Wer gute Bewertungen hat, gilt als vertrauenswürdig. Dies ermöglicht Transaktionen zwischen völlig Fremden. Für viele ist dies eine Befreiung vom Ballast des Eigentums: Man muss sich nicht um Wartung, Reparatur oder Versicherung kümmern.</p>
+    
+    <p>Doch es gibt auch Schattenseiten. Kritiker werfen Plattformen wie Uber oder Airbnb vor, bestehende Märkte zu zerstören und prekäre Arbeitsbedingungen zu schaffen ("Plattform-Kapitalismus"). Ein privater Fahrer hat keine soziale Absicherung, keinen Kündigungsschutz und keinen Mindestlohn. Zudem entziehen Ferienwohnungen dem regulären Wohnungsmarkt dringend benötigten Raum, was die Mieten in beliebten Vierteln in die Höhe treibt. Was als soziale Idee des Teilens begann, ist längst ein hartes Geschäft geworden.</p>
+    
+    <p>Ein weiterer Aspekt ist die Nachhaltigkeit. Zwar scheint Teilen auf den ersten Blick ökologisch sinnvoll zu sein. Doch Studien zeigen den sogenannten "Rebound-Effekt": Weil Carsharing-Fahrten oft billiger und bequemer sind als der Bus, steigen Menschen vom öffentlichen Nahverkehr aufs Auto um – die Umweltbelastung steigt. Auch Billigflüge werden oft erst durch günstige private Unterkünfte attraktiv. Teilen ist also nicht automatisch grün.</p>
+    
+    <p>Trotz der Kritik wird sich der Trend fortsetzen. In Zukunft werden wir wahrscheinlich immer weniger Produkte besitzen, sondern Dienstleistungen nutzen. Wir kaufen keine Glühbirne mehr, sondern "Lichtstunden", kein Auto, sondern "Mobilität". Dies zwingt Hersteller dazu, langlebigere Produkte zu bauen, da sie selbst für Reparaturen aufkommen müssen. Das könnte das Ende der Wegwerfgesellschaft bedeuten – wenn die Rahmenbedingungen stimmen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was ist die Grundidee der "Sharing Economy"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man alles doppelt besitzen sollte.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Dinge nutzt, ohne sie unbedingt zu besitzen.</li>
+        <li><strong>c</strong> Dass man alles kostenlos bekommt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Wie wird Vertrauen zwischen Fremden in der Sharing Economy hergestellt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Durch polizeiliche Führungszeugnisse.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Durch persönliche Treffen vor jeder Transaktion.</li>
+        <li><strong>c</strong> Durch digitale Bewertungssysteme.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was werfen Kritiker Plattformen wie Airbnb vor?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verschärfen die Wohnungsnot und treiben Mieten hoch.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Wohnungen sind oft schmutzig.</li>
+        <li><strong>c</strong> Sie sind zu teuer für normale Touristen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was ist der "Rebound-Effekt" beim Carsharing?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Autos gehen schneller kaputt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Menschen nutzen statt Bus und Bahn lieber das günstige Mietauto.</li>
+        <li><strong>c</strong> Die Autos werden oft nicht zurückgebracht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Welche positive Auswirkung könnte der Trend auf Produkte haben?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Produkte werden langlebiger und reparaturfreundlicher.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Produkte werden billiger und schlechter.</li>
+        <li><strong>c</strong> Es werden gar keine Produkte mehr hergestellt.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine Plattform, auf der man hochwertige Werkzeuge (Bohrmaschinen, Leiter) von Nachbarn ausleihen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte seine Wohnung während seines dreimonatigen Auslandssemesters untervermieten und sucht rechtliche Tipps.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte Kleidung tauschen statt kaufen und sucht eine App für "Fashion Swapping" in ihrer Stadt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte sein Auto seltener nutzen und sucht eine Carsharing-Plattform für private Fahrzeughalter.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für "Foodsharing" und möchten wissen, wo Sie überschüssige Lebensmittel abgeben können.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte in den Urlaub fahren und sucht eine Plattform für Haustiertausch (Gegenseitiges Sitten).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über "Urban Commons" und wie Bürger brachliegende Grundstücke gemeinsam verwalten.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt eine Arbeit über die Umweltauswirkungen der Sharing Economy im Vergleich zum Konsum.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man einen "Leihladen" im eigenen Kiez gründet und welche Versicherungen man braucht.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht eine Mitfahrgelegenheit für die tägliche Fahrt zur Arbeit, um Benzinkosten zu sparen.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Tool-Pool: Leihen statt Kaufen</div>
+        <p style='margin: 0; line-height: 1.6;'>Warum alles besitzen? In unserem Online-Netzwerk können Sie Werkzeuge, Gartengeräte und Camping-Ausrüstung ganz einfach von Menschen in Ihrer unmittelbaren Nachbarschaft ausleihen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Untervermietung: Was ist erlaubt?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber für Mieter. Wir erklären, wann Sie die Erlaubnis Ihres Vermieters brauchen und worauf Sie bei der Erstellung eines privatrechtlichen Untermietvertrags achten müssen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Kleiderkreisel & Co.</div>
+        <p style='margin: 0; line-height: 1.6;'>Nachhaltige Mode durch Tausch. Wir stellen die besten Apps vor, mit denen Sie ungetragene Kleidung gegen neue Lieblingsstücke eintauschen können, ohne Geld auszugeben.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Privates Carsharing</div>
+        <p style='margin: 0; line-height: 1.6;'>Lassen Sie Ihr Auto Geld verdienen, wenn Sie es nicht brauchen. Auf unserem Portal können Sie Ihr privates Fahrzeug sicher an verifizierte Nutzer in Ihrer Umgebung vermieten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Foodsharing.de</div>
+        <p style='margin: 0; line-height: 1.6;'>Retten Sie Lebensmittel vor der Tonne! Finden Sie "Fair-Teiler" in Ihrer Stadt, an denen Sie Essen ablegen oder kostenlos mitnehmen können, das sonst im Müll landen würde.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Fellfreunde-Tausch</div>
+        <p style='margin: 0; line-height: 1.6;'>Suchen Sie eine liebevolle Betreuung für Ihr Haustier? Auf unserer Plattform finden Sie Tierbesitzer, die gegenseitig auf Hunde oder Katzen aufpassen, während der andere verreist ist.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Urban Commons: Stadt von unten</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein politisches Magazin über die gemeinschaftliche Nutzung von städtischem Raum. Wie Bürgergärten und offene Werkstätten die Lebensqualität im Viertel verbessern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Ökobilanz des Teilens</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine wissenschaftliche Studie untersucht, ob die Sharing Economy wirklich Ressourcen spart. Nicht immer ist das Ausleihen ökologisch sinnvoller als der Besitz.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Leihladen-Founder Guide</div>
+        <p style='margin: 0; line-height: 1.6;'>Träumen Sie von einer Bibliothek der Dinge? Wir liefern eine Schritt-für-Schritt-Anleitung zur Gründung eines Leihladens, inklusive Vorlagen für Haftungsausschlüsse und Versicherungen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Pendler-Portal</div>
+        <p style='margin: 0; line-height: 1.6;'>Gemeinsam fahren, CO2 sparen. Finden Sie Mitfahrgelegenheiten für Ihre tägliche Route ins Büro oder bieten Sie selbst freie Plätze in Ihrem Auto für regelmäßige Fahrten an.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Coworking im Kiez</div>
+        <p style='margin: 0; line-height: 1.6;'>Suchen Sie einen flexiblen Arbeitsplatz abseits des Home-Office? Wir listen die besten Gemeinschaftsbüros in Ihrer Nähe auf, inklusive schneller Internetverbindung und gutem Kaffee.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Airbnb: Die Schattenseiten</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie die kurzzeitige Vermietung von Wohnungen an Touristen den Wohnungsmarkt in Großstädten belastet und zur Verdrängung von Langzeitmietern führt.</p>
+      </div>
+
+    </div>
+  </div>
+</div>`,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 424,
+    id: 510,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Klimawandel im Alltag",
+    title: "B2 Leseverstehen – Test 11 (Klimawandel & Generation Z)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9331,16 +11319,217 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-d, 2-a, 3-b, 4-f, 5-h"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #d35400; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Generation Z: Faul oder einfach nur clever?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Sie sind zwischen 1997 und 2012 geboren und strömen gerade auf den Arbeitsmarkt: die "Generation Z" (Gen Z). Über kaum eine Altersgruppe wird so viel diskutiert und geschimpft. Arbeitgeber klagen, die jungen Leute seien nicht belastbar, würden bei der kleinsten Kritik kündigen und forderten ständig mehr Freizeit bei vollem Lohnausgleich. "Work-Life-Balance" ist ihr Mantra, nicht Karriere um jeden Preis. Sind sie also eine Generation von Faulpelzen?</p>
+    
+    <p>Soziologen sehen das anders. Die Gen Z ist die erste Generation, die komplett digital aufgewachsen ist ("Digital Natives"). Sie haben gesehen, wie ihre Eltern im Hamsterrad des Kapitalismus ausgebrannt sind (Burnout) und ziehen daraus ihre Schlüsse. Für sie definiert sich der Sinn des Lebens nicht mehr ausschließlich über Erwerbsarbeit. Sie suchen nach Erfüllung, Selbstverwirklichung und Zeit für Freunde, Hobbys und psychische Gesundheit ("Mental Health"). Arbeit ist Mittel zum Zweck, nicht der Zweck selbst.</p>
+    
+    <p>Zudem sind sie in einer Zeit der Dauerkrisen aufgewachsen: Klimawandel, Pandemie, Krieg in Europa, Inflation. Dies hat sie geprägt. Sie sind pragmatisch, politisch engagiert (Fridays for Future) und fordern von Unternehmen Haltung. Wer als Arbeitgeber keine nachhaltige Strategie hat oder Diskriminierung duldet, hat bei der Gen Z keine Chance. Sie sind loyal, aber nur, solange ihre Werte respektiert werden.</p>
+    
+    <p>Auf dem Arbeitsmarkt sitzen sie dank des Fachkräftemangels am längeren Hebel. Unternehmen müssen sich bewerben, nicht umgekehrt. Das nutzen sie selbstbewusst aus, um 4-Tage-Wochen oder Homeoffice durchzusetzen. Das mag für ältere Generationen ("Babyboomer"), für die Pflichterfüllung und Disziplin oberste Gebote waren, arrogant wirken. Doch vielleicht stoßen sie damit Veränderungen an, von denen am Ende alle profitieren.</p>
+
+    <p>Es ist ein Generationenkonflikt, wie es ihn schon immer gab. Jede Jugend rebelliert gegen die Normen der Alten. Die Gen Z stellt die richtigen Fragen: Wofür arbeiten wir eigentlich? Wie wollen wir leben? Statt sie als faul abzustempeln, sollten Unternehmen zuhören. Denn diese jungen Menschen sind die Zukunft der Wirtschaft – und sie bringen frischen Wind in verkrustete Strukturen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Welches Vorurteil haben Arbeitgeber gegenüber der Generation Z?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie arbeiten zu viel und vernachlässigen ihr Privatleben.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind nicht belastbar und fordern zu viel Freizeit.</li>
+        <li><strong>c</strong> Sie verstehen nichts von Technik.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Welche Lehre zieht die Gen Z aus dem Leben ihrer Eltern?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man noch härter arbeiten muss, um reich zu werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Arbeit der einzige Sinn des Lebens ist.</li>
+        <li><strong>c</strong> Dass sie nicht wie ihre Eltern im "Hamsterrad" ausbrennen wollen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was fordert die Gen Z von Unternehmen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Höhere Boni und Firmenwagen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Haltung, Nachhaltigkeit und Respekt für Werte.</li>
+        <li><strong>c</strong> Mehr Überstunden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Warum kann die Gen Z Forderungen wie die 4-Tage-Woche durchsetzen?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil es ein Gesetz dazu gibt.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Weil es einen Mangel an Fachkräften gibt und sie gebraucht werden.</li>
+        <li><strong>c</strong> Weil sie weniger Gehalt verlangen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Was ist das Fazit des Textes?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen sollten auf die Gen Z hören, statt sie zu kritisieren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gen Z wird die Wirtschaft ruinieren.</li>
+        <li><strong>c</strong> Man sollte die Gen Z zwingen, mehr zu arbeiten.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen Informationen über klimafreundliche Geldanlagen und "Impact Investing" (Geld anlegen mit gutem Gewissen).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er seine Ernährung auf "Planetary Health Diet" umstellen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte sucht Tipps für "Sustainable Travel" und wie man Fernreisen ohne Flugzeug (z.B. mit dem Zug) plant.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte sein Haus energetisch sanieren und sucht Infos über staatliche Förderungen für Wärmepumpen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für "Zero Waste" und suchen einen Laden, der Lebensmittel komplett ohne Plastik verkauft.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte Kleidung länger nutzen und sucht einen Workshop für "Visible Mending" (kreatives Reparieren).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine App, die den CO2-Fußabdruck im Alltag berechnet und Vorschläge zur Kompensation macht.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über "Greenwashing" und wie man echte Nachhaltigkeit von PR-Maßnahmen unterscheidet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man ein "Balkonkraftwerk" installiert und ob man die Erlaubnis des Vermieters braucht.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar möchte wissen, wie das Pflanzen von Mini-Wäldern (Miyawaki-Methode) das Stadtklima verbessert.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>a) Grünes Geld: Nachhaltig investieren</div>
+        <p style='margin: 0; line-height: 1.6;'>Lassen Sie Ihr Geld für das Klima arbeiten. Wir stellen Fonds und Banken vor, die ausschließlich in erneuerbare Energien investieren und fossile Brennstoffe strikt ausschließen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>b) Essen für die Erde</div>
+        <p style='margin: 0; line-height: 1.6;'>Die "Planetary Health Diet" ist gesund für den Planeten. Erfahren Sie, wie Sie mit mehr Hülsenfrüchten und Nüssen Ihren ökologischen Fußabdruck beim Essen halbieren können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>c) Abenteuer Schiene: Ohne Flugzeug</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Reiseblog für Geduldige. Wir zeigen Ihnen Routen von Berlin nach Asien komplett auf dem Bodenweg, inklusive Packlisten und wichtigen Tipps für die Planung.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>d) Sanierungs-Check: Wärmepumpe</div>
+        <p style='margin: 0; line-height: 1.6;'>Heizen ohne Öl und Gas. Unser Ratgeber erklärt die Systeme und zeigt Ihnen, wie Sie bis zu 40% Förderung vom Staat für den Einbau einer modernen Wärmepumpe erhalten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>e) Unverpackt-Laden Finder</div>
+        <p style='margin: 0; line-height: 1.6;'>Schluss mit Plastikmüll! Finden Sie in unserer Datenbank alle Geschäfte, in denen Sie Nudeln, Reis und Waschmittel in Ihre eigenen Gläser und Beutel füllen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>f) Visible Mending Workshop</div>
+        <p style='margin: 0; line-height: 1.6;'>Reparieren statt Wegwerfen. Lernen Sie, wie Sie Löcher in Lieblingspullis mit Stickereien flicken und so aus alten Stücken echte Unikate machen. Kreativ und nachhaltig!</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>g) CO2-Tracker App</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie viel CO2 hat mein Mittagessen verursacht? Unsere App analysiert Ihren Lebensstil und schlägt Ihnen Projekte vor, mit denen Sie unvermeidbare Emissionen kompensieren können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>h) Echte Nachhaltigkeit oder Schein?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Leitfaden gegen Greenwashing. Wir entlarven die Tricks der Marketingabteilungen und zeigen, woran man wirklich faire und ökologische Produkte von reiner Werbung unterscheidet.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>i) Sonnenstrom vom Balkon</div>
+        <p style='margin: 0; line-height: 1.6;'>Steckerfertige PV-Anlagen für jedermann. Wir erklären, wie Sie Ihr Kraftwerk am Geländer installieren und welche Rechte Sie als Mieter gegenüber Ihrem Vermieter bei der Installation haben.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>j) Tiny Forests im Kiez</div>
+        <p style='margin: 0; line-height: 1.6;'>Kleine Wälder, große Wirkung. Erfahren Sie mehr über die Miyawaki-Methode, bei der auf kleinstem Raum extrem dicht gepflanzt wird, um das lokale Stadtklima spürbar zu verbessern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>k) Fast Fashion: Die Fakten</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Bericht über die ökologischen und sozialen Kosten der Textilindustrie. Warum Billigkleidung niemals nachhaltig sein kann und welche fairen Alternativen Sie unterstützen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #27ae60; margin-bottom: 10px;'>l) Klima-Anst: Was tun?</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein psychologischer Ratgeber für junge Menschen unter dem Druck der Klimakrise. Wie man von der Ohnmacht ins produktive Handeln kommt, ohne seelisch auszubrennen.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>1:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>2:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>3:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>4:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>5:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>7:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>10:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #c8e6c9; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 425,
+    id: 511,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Startups & Gründung",
+    title: "B2 Leseverstehen – Test 12 (Startups & KI)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -9399,20 +11588,222 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-a, 2-b, 3-c, 4-h, 5-d"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>KI im Alltag: Fluch oder Segen?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Künstliche Intelligenz (KI) ist längst keine Science-Fiction mehr, sondern fester Bestandteil unseres Alltags. Ob Sprachassistenten wie Siri und Alexa, personalisierte Filmempfehlungen auf Netflix oder die Routenplanung bei Google Maps – überall arbeiten unsichtbare Algorithmen im Hintergrund. Sie machen unser Leben bequemer, effizienter und sicherer. In der Medizin rettet KI Leben, indem sie auf Röntgenbildern Tumore früher erkennt als jeder menschliche Arzt. In der Industrie übernehmen Roboter gefährliche oder monotone Arbeiten.</p>
+    
+    <p>Doch die rasante Entwicklung weckt auch Ängste. Viele Menschen sorgen sich um ihren Arbeitsplatz. Wird der Computer mich bald ersetzen? Tatsächlich werden einige Berufe verschwinden, vor allem solche mit viel Routine. Doch Experten betonen, dass KI auch neue Jobs schafft. Es wird Menschen brauchen, die die KI trainieren, überwachen und ethische Entscheidungen treffen. Kreativität, Empathie und soziales Verständnis bleiben (vorerst) menschliche Domänen, die kein Algorithmus kopieren kann.</p>
+    
+    <p>Ein weiteres ethisches Problem sind "Biases" (Voreingenommenheiten). KI lernt aus Daten der Vergangenheit. Wenn diese Daten rassistische oder sexistische Muster enthalten, übernimmt die KI diese Vorurteile. So hat eine Recruiting-Software Frauen benachteiligt, weil sie in der Vergangenheit seltener eingestellt wurden. Es ist entscheidend, dass Entwickler diverser werden und Algorithmen streng auf Fairness geprüft werden, bevor sie auf die Menschheit losgelassen werden.</p>
+    
+    <p>Auch die Frage der Verantwortung ist ungeklärt. Wer haftet, wenn ein autonomes Auto einen Unfall baut? Der Fahrer, der Hersteller oder der Programmierer? Unsere Gesetze hinken der technischen Entwicklung oft Jahre hinterher. Es braucht dringend neue internationale Regeln, um den Einsatz von KI in sichere Bahnen zu lenken, ohne Innovationen abzuwürgen.</p>
+
+    <p>Letztlich ist KI ein Werkzeug – so mächtig wie damals die Dampfmaschine oder das Internet. Es liegt an uns, wie wir es nutzen. Wir dürfen nicht blindlings technikgläubig sein, aber auch nicht in Panik verfallen. Die beste Zukunft ist eine Symbiose: Menschliche Intelligenz gepaart mit künstlicher Rechenpower, um die großen Probleme der Menschheit – wie Klimawandel oder Krankheiten – gemeinsam zu lösen.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Wo kommt KI im Alltag bereits zum Einsatz?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nur in Forschungslaboren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Bei Sprachassistenten, Streaming-Diensten und Navigation.</li>
+        <li><strong>c</strong> Bisher noch gar nicht.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was sagen Experten zur Angst vor Arbeitsplatzverlust?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Alle Menschen werden arbeitslos werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI schafft auch neue Jobs, besonders kreative und soziale.</li>
+        <li><strong>c</strong> KI wird verboten werden, um Jobs zu schützen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was ist das Problem mit "Biases" (Voreingenommenheit) bei KI?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Vorurteile aus alten Daten übernehmen und Menschen diskriminieren.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> KI ist zu objektiv und hat keine Meinung.</li>
+        <li><strong>c</strong> KI funktioniert nur mit englischen Daten.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Welche rechtliche Frage ist noch ungeklärt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Ob Roboter wählen dürfen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Wer haftet, wenn eine KI einen Fehler macht (z.B. Unfall).</li>
+        <li><strong>c</strong> Ob KI Steuern zahlen muss.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wie sieht die ideale Zukunft mit KI aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Der Mensch ordnet sich der Maschine unter.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Eine Zusammenarbeit von Mensch und Maschine zur Problemlösung.</li>
+        <li><strong>c</strong> Die Abschaffung aller Computer.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine Liste von staatlichen Förderprogrammen für junge Gründer im Tech-Bereich.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wie er einen überzeugenden "Elevator Pitch" (60 Sek.) für Investoren schreibt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte wissen, ob man KI-generierte Bilder rechtssicher für Werbung nutzen darf.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht eine KI-Lösung, die Kundenanfragen auf seiner Webseite automatisch beantwortet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für das Phänomen des "Quiet Quitting" in Tech-Konzernen wie im Silicon Valley.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte Mitarbeiter mit Gamification-Elementen motivieren, Software-Tools zu lernen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen nach Statistiken über die Erfolgsquoten von Startups in Deutschland im ersten Jahr.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über ethische Herausforderungen beim Einsatz von Gesichtserkennungssoftware.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man ein "Minimum Viable Product" (MVP) entwickelt, um Ideen zu testen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht Informationen über "Deep Learning" und neuronale Netze.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Förderdschungel gelichtet</div>
+        <p style='margin: 0; line-height: 1.6;'>Wer eine Firma gründet, braucht Kapital. Wir listen alle relevanten Zuschüsse, zinsgünstigen Kredite und Stipendien auf, die speziell auf Tech-Startups zugeschnitten sind.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Der perfekte Pitch</div>
+        <p style='margin: 0; line-height: 1.6;'>Sie haben nur eine Minute Zeit? In unserem Guide lernen Sie die Struktur eines perfekten Elevator Pitches. Überzeugen Sie Investoren durch Klarheit und Leidenschaft.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) KI & Urheberrecht: Bildrechte</div>
+        <p style='margin: 0; line-height: 1.6;'>Wem gehört das Bild? Ein juristisches Paper über die komplexe Rechtslage bei Werken, die durch Algorithmen wie Midjourney oder DALL-E für Werbung erzeugt wurden.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Chatbots der nächsten Generation</div>
+        <p style='margin: 0; line-height: 1.6;'>Revolutionieren Sie Ihren Kundenservice. Wir stellen KI-basierte Tools vor, die natürliche Sprache verstehen und 90% der Routineanfragen sofort und präzise lösen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Mythos Silicon Valley</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Reportagedossier über den Leistungsdruck und warum immer mehr Angestellte in Tech-Konzernen nur noch das Minimum arbeiten – das sogenannte "Quiet Quitting".</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Spielerisch zum Erfolg</div>
+        <p style='margin: 0; line-height: 1.6;'>Erfahren Sie, wie Sie Lernprozesse im Unternehmen durch Gamification (Punkte, Badges) spannender gestalten und die Akzeptanz für neue Technik und Tools erhöhen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Exitus nach 12 Monaten?</div>
+        <p style='margin: 0; line-height: 1.6;'>Harte Zahlen für Gründer. Eine Studie analysiert, warum über 80% aller Startups bereits im ersten Jahr scheitern und welche Faktoren den entscheidenden Unterschied machen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Auge der Macht: Gesichtserkennung</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine ethische Debatte über Überwachung. Dürfen Algorithmen entscheiden, wer verdächtig ist? Wir diskutieren die Risiken dieser Technik für die Privatsphäre im öffentlichen Raum.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) MVP-Methode: Schneller am Markt</div>
+        <p style='margin: 0; line-height: 1.6;'>Bauen Sie nicht das perfekte Auto. Erfahren Sie, wie Sie mit einem "Minimum Viable Product" (MVP) Kernfunktionen testen und wertvolles Kundenfeedback in Rekordzeit sammeln.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Wie KI denkt: Deep Learning</div>
+        <p style='margin: 0; line-height: 1.6;'>Wir erklären anschaulich, wie neuronale Netze aufgebaut sind, wie sie aus Daten lernen und inwiefern sie dem biologischen Gehirn beim Denken nachempfunden sind.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Remote Work: Die Zukunft?</div>
+        <p style='margin: 0; line-height: 1.6;'>Arbeiten, von wo man will. Eine Analyse über die Vor- und Nachteile von Homeoffice und digitalen Nomaden für die Unternehmenskultur und die tägliche Produktivität.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Bitcoin & Blockchain</div>
+        <p style='margin: 0; line-height: 1.6;'>Wir erklären die Technologie hinter Kryptowährungen und wie diese dezentralen Systeme in Zukunft Vertrauen im gesamten Internet völlig neu definieren könnten.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   }
   ,
   {
-    id: 426,
+    id: 512,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Mehrsprachigkeit",
+    title: "B2 Leseverstehen – Test 13 (Mehrsprachigkeit & Globalisierung)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #e84393; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9468,16 +11859,217 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-g, 2-d, 3-e, 4-h, 5-j"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #2980b9; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Die Welt wächst zusammen: Gewinner und Verlierer der Globalisierung</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Der Pullover aus Bangladesch, das Smartphone aus China, die Bananen aus Ecuador – unser Alltag ist durch und durch globalisiert. Globalisierung bedeutet, dass Waren, Dienstleistungen, Kapital und Informationen weltweit vernetzt sind und Grenzen ihre Bedeutung verlieren. Für Verbraucher hat das viele Vorteile: Wir können das ganze Jahr über Erdbeeren essen, billige Elektronik kaufen und problemlos mit Freunden am anderen Ende der Welt skypen. Der Welthandel hat vielen ehemaligen Entwicklungsländern zu wirtschaftlichem Aufschwung verholfen und Millionen Menschen aus absoluter Armut befreit.</p>
+    
+    <p>Doch die Medaille hat eine Kehrseite. Der brutale Preiswettbewerb führt oft zu Ausbeutung. In Textilfabriken in Asien schuften Näherinnen unter menschenunwürdigen Bedingungen, damit wir in Europa T-Shirts für 5 Euro kaufen können. Umweltstandards werden oft ignoriert, da Unternehmen ihre Produktion dorthin verlagern, wo die Gesetze am lockersten sind. Der Transport von Waren rund um den Globus verursacht zudem massive CO2-Emissionen.</p>
+    
+    <p>Auch kulturell bringt die Globalisierung Veränderungen. Kritiker fürchten eine "McDonaldisierung" der Welt: Überall gibt es die gleichen Ladenketten, die gleichen Marken, die gleiche Musik. Regionale Traditionen und Sprachen könnten verdrängt werden. Andererseits ermöglicht die Vernetzung auch einen kulturellen Austausch, der Vorurteile abbauen und das Verständnis füreinander fördern kann. Wir lernen andere Lebensweisen kennen und schätzen.</p>
+    
+    <p>Die Corona-Pandemie und der Ukraine-Krieg haben die Verletzlichkeit der globalen Lieferketten (Supply Chains) offenbart. Wenn in Shanghai ein Hafen geschlossen wird, fehlen in Deutschland Bauteile für Autos. Viele Unternehmen überdenken nun ihre Strategie und wollen Produktion wieder näher an die Heimatmärkte holen ("Reshoring"). Dies könnte das Ende der Hyper-Globalisierung einläuten.</p>
+
+    <p>Fazit: Die Globalisierung lässt sich nicht zurückdrehen. Aber sie muss fairer gestaltet werden. Faire Handelsabkommen, weltweite Mindeststandards für Arbeit und Umwelt sowie bewusste Konsumentscheidungen ("Fair Trade") sind notwendig, damit die Globalisierung nicht nur einigen wenigen Konzernen, sondern allen Menschen dient. Wir sitzen alle im selben Boot – und das ist ein globales.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was ist ein Vorteil der Globalisierung für Verbraucher?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Produkte teurer werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Waren aus aller Welt kaufen kann.</li>
+        <li><strong>c</strong> Dass man nur noch heimische Produkte kaufen darf.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was ist ein negatives Beispiel für Globalisierung im Text?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Schlechte Arbeitsbedingungen in Textilfabriken.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Zu viele Feiertage.</li>
+        <li><strong>c</strong> Dass Bananen in Deutschland wachsen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was bedeutet "McDonaldisierung"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Menschen gesund essen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Die Angst vor kultureller Vereinheitlichung.</li>
+        <li><strong>c</strong> Dass es zu wenige Restaurants gibt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was haben Krisen wie Corona gezeigt?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Dass globale Lieferketten sehr stabil sind.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Dass globale Lieferketten verletzlich sind.</li>
+        <li><strong>c</strong> Dass wir keine Autos mehr brauchen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wie sollte die Globalisierung laut Text gestaltet werden?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sollte komplett gestoppt werden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sollte fairer und nachhaltiger (z.B. Fair Trade) werden.</li>
+        <li><strong>c</strong> Sie sollte nur den Konzernen dienen.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen eine App, mit der man Barcodes scannen kann, um soziale Standards von Produkten zu prüfen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte sich ehrenamtlich für den "Fairen Handel" in seiner Stadt engagieren.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte sucht Tipps für "Vagabonding" (Reisen mit wenig Geld und Gelegenheitsjobs).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte ein Sabbatical nehmen und sucht Infos über den Anspruch auf Rückkehr zum alten Job.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für "Urban Mining" und suchen Sammelstellen für Elektromüll-Recycling.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte Steuern optimieren, wenn sie einen Teil des Jahres im Ausland arbeitet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen eine Dokumentation über die Bedingungen in Textilfabriken in Bangladesch Jahre nach Rana Plaza.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über die Folgen von Freihandelsabkommen für Landwirte in Westafrika.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man ein "Gemeinschaftskonto" für eine WG eröffnet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht Informationen über Ihre Rechte als "Crowdworker" auf Internet-Plattformen.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Der Standard-Check per App</div>
+        <p style='margin: 0; line-height: 1.6;'>Scannen Sie den Code und sehen Sie sofort, ob das Produkt Kinderarbeit enthält oder ob die Bauern einen fairen Preis erhalten haben. Transparenz beim Einkauf!</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Fair-Trade-Stadt: Machen Sie mit!</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie lokale Gruppen, die Infostände organisieren und Schulen oder Cafés dabei helfen, auf fair gehandelte Produkte umzusteigen. Engagement für eine bessere Welt.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Vagabonding für Einsteiger</div>
+        <p style='margin: 0; line-height: 1.6;'>Reisen ohne Budget. Wir zeigen Ihnen, wie Sie durch "Workaway" kostenlose Unterkunft und Essen gegen ein paar Stunden Arbeit pro Tag erhalten. Tipps für Weltenbummler.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Sabbatical: Recht auf Auszeit</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Jahr Pause vom Job? Wir erklären die Modelle der Arbeitszeitansparung und worauf Sie im Vertrag achten müssen, um Ihren alten Posten nach der Rückkehr sicher zu behalten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Schätze im Schrott: Urban Mining</div>
+        <p style='margin: 0; line-height: 1.6;'>Werfen Sie Ihr Handy nicht weg! Wir listen Sammelstellen in Ihrer Nähe auf, die Metalle wie Gold und Kobalt fachgerecht aus Elektromüll für die Wiederverwertung zurückgewinnen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Steuern im Ausland</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Ratgeber für digitale Nomaden über Doppelbesteuerungsabkommen und wie Sie zu viel gezahlte Steuern beim Finanzamt zurückfordern können, wenn Sie zeitweise im Ausland arbeiten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Die Kosten der Mode: Bangladesch</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein investigativer Film zieht Bilanz. Hat sich seit dem Einsturz der Fabrik Rana Plaza wirklich etwas für die Näherinnen verbessert? Ein Blick hinter die Kulissen der Modeketten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Agrarexporte vs. Existenz</div>
+        <p style='margin: 0; line-height: 1.6;'>Wie billige Exporte aus Europa die Märkte im Senegal zerstören. Eine Studie über die Schattenseiten der globalen Handelsverträge für afrikanische Bauern und Kleinbetriebe.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Finanzen für Freunde: Das WG-Konto</div>
+        <p style='margin: 0; line-height: 1.6;'>Stressfrei durch den Monat. Wir vergleichen die besten Girokonten, die sich ideal für Wohngemeinschaften eignen, um Miete und gemeinsame Einkäufe transparent zu verwalten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Überleben in der Gig-Economy</div>
+        <p style='margin: 0; line-height: 1.6;'>Arbeiten per Mausklick. Erfahren Sie alles über Ihre Rechte als Crowdworker. Achtung: Meist gelten Sie als Selbstständige und müssen sich eigenständig um Ihre Rente kümmern.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Fair-Fashion Boykott?</div>
+        <p style='margin: 0; line-height: 1.6;'>Warum immer mehr Menschen große Handelsketten meiden. Eine Analyse über die Macht der Verbraucher, durch Verweigerung Druck auf globale Firmen auszuüben.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Kinderarbeit in der Schokoladenindustrie</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Bericht über die bittere Seite des Kakaos. Warum trotz Versprechen vieler Großkonzerne immer noch Tausende Kinder auf Plantagen unter harten Bedingungen arbeiten.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 427,
+    id: 513,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Robotik & KI",
+    title: "B2 Leseverstehen – Test 14 (Robotik & E-Mobilität)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #341f97; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
@@ -9518,37 +12110,239 @@ window.examData = [
     <div style='display: flex; gap: 20px; align-items: flex-start;'>
       <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>3</span>
       <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
-        Sie bellen nicht, müssen nicht bei Regen Gassi gehen und machen keinen Dreck. In Japan sind Roboterhunde (wie Aibo) bei Senioren schon sehr beliebt. Sie reagieren auf Streicheln, erkennen Gesichter und können Kunststücke lernen. Psychologen sehen darin eine echte Chance gegen Einsamkeit im Alter, besonders in Pflegeheimen. Ethiker warnen jedoch davor, dass solche Maschinen als billiger Ersatz für echte menschliche Zuwendung missbraucht werden könnten.
+        Die Gesellschaft altert und es gibt immer weniger junge Menschen, die in der Pflege arbeiten wollen. Experimentelle Roboter können Senioren beim Aufstehen helfen, Medikamente bringen oder sie an Termine erinnern. Kritiker fürchten jedoch eine "Entmenschlichung" der Pflege. Ein Roboter kann zwar körperlich unterstützen, aber er kann keine echte Empathie zeigen, kein tröstendes Gespräch führen und keine Hand halten. Er sollte daher nur eine Ergänzung, kein Ersatz für Personal sein.
       </div>
     </div>
 
     <div style='display: flex; gap: 20px; align-items: flex-start;'>
       <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>4</span>
       <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
-        Die Pizza oder das Medikament kommt per Fluggerät direkt auf den Balkon? Was wie Science-Fiction klingt, wird in Pilotprojekten bereits getestet. Besonders in abgelegenen Gebieten oder bei Stau in der Innenstadt könnte die Lieferung aus der Luft eine schnelle Alternative sein ("Last Mile Delivery"). Ungelöste Probleme sind jedoch noch der Lärm, die Sicherheit im dichten Luftraum, der Datenschutz (Kameras) und die Gefahr von Abstürzen über Menschenmengen.
+        Darf eine Maschine eigenständig über Leben und Tod entscheiden? Diese Frage beschäftigt derzeit UN-Experten und Ethikräte weltweit. Es geht um sogenannte "Killer-Roboter", also Waffensysteme, die ihre Ziele ganz ohne menschliches Eingreifen auswählen und bekämpfen können. Viele Forscher fordern ein striktes internationales Verbot solcher Technologien, da sie die Schwelle für bewaffnete Konflikte gefährlich senken und unvorhersehbare Eskalationen auslösen könnten.
       </div>
     </div>
 
     <div style='display: flex; gap: 20px; align-items: flex-start;'>
       <span style='font-weight: bold; font-size: 1.5rem; color: #341f97; min-width: 20px;'>5</span>
       <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #341f97; border-radius: 0 5px 5px 0; flex: 1; line-height: 1.6;'>
-        Die Automatisierung schreitet unaufhaltsam voran, und viele Arbeitnehmer sorgen sich um ihre Zukunft. Wird mein Job in zehn Jahren noch existieren? Studien sagen: Ja, aber er wird ganz anders aussehen. Während monotone Routineaufgaben wegfallen, werden Kreativität, Empathie und komplexe Problemlösung (soziale Kompetenz) wichtiger – Dinge, die KI schwer lernen kann. Lebenslanges Lernen (Upskilling) wird zur absoluten Pflicht, um mit dem technologischen Wandel Schritt zu halten.
+        Jede neue technologische Welle löst Unbehagen aus. Früher war es die Webmaschine, heute ist es der Chatbot. Die Sorge, dass Roboter und KI Millionen von Arbeitsplätzen vernichten werden, ist weit verbreitet. Umfragen zeigen, dass besonders Angestellte in Büroberufen und in der Logistik Angst um ihre berufliche Zukunft haben. Es braucht daher eine gesellschaftliche Debatte über Umschulung und vielleicht sogar ein bedingungsloses Grundeinkommen, um soziale Spannungen abzufedern.
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-d, 2-g, 3-f, 4-b, 5-i"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Elektromobilität: Die lautlose Revolution auf unseren Straßen</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Wer heute durch deutsche Innenstädte geht, hört immer öfter – fast gar nichts. Das lautlose Surren von Elektroautos verdrängt langsam das Dröhnen der Verbrennungsmotoren. Was vor zehn Jahren noch als Nischenprodukt für Technik-Enthusiasten galt, ist im Massenmarkt angekommen. Fast jeder große Automobilhersteller hat mittlerweile mehrere voll-elektrische Modelle im Angebot. Die Gründe für den Umstieg sind vielfältig: staatliche Förderungen, ein wachsendes Umweltbewusstsein und die rasant sinkenden Kosten für Batterien.</p>
+    
+    <p>Das größte Argument der Kritiker ist oft die "Reichweitenangst". Schaffe ich es mit einer Ladung von Hamburg nach München? Moderne E-Autos knacken mittlerweile locker die 400-Kilometer-Marke. Zudem wächst das Netz an Schnellladestationen entlang der Autobahnen massiv. Während man früher stundenlang an einer Haushaltssteckdose hing, laden High-Power-Charger den Akku heute in 20 bis 30 Minuten auf 80% – genau die Zeit für eine entspannte Kaffeepause.</p>
+    
+    <p>Doch wie ökologisch ist ein E-Auto wirklich? Die Produktion der Batterien ist energieintensiv und benötigt seltene Rohstoffe wie Lithium und Kobalt, deren Abbau oft unter fragwürdigen Bedingungen stattfindet. Kritiker weisen zudem darauf hin, dass ein E-Auto nur so sauber ist wie der Strom, mit dem es fährt. Kommt der Strom aus Kohlekraftwerken, ist die CO2-Bilanz kaum besser als bei einem modernen Diesel. Erst bei einem hohen Anteil an Wind- und Sonnenenergie spielt die E-Mobilität ihre Vorteile voll aus.</p>
+    
+    <p>Langfristig wird das Auto ohnehin nur ein Mosaikstein in der Mobilitätswende sein. Die Zukunft gehört dem vernetzten Mix aus Car-Sharing, autonomen Bussen und dem Schienenverkehr. Das eigene Auto, das 95% der Zeit nur ungenutzt am Straßenrand steht, könnte bald der Vergangenheit angehören. In smarten Städten wird Mobilität als Dienstleistung (Mobility as a Service) begriffen, die flexibel, günstig und vor allem platzsparend ist.</p>
+
+    <p>Fazit: Der Abschied vom Erdöl im Verkehrssektor ist eingeläutet. Die Technik ist reif, die Infrastruktur wächst. Nun liegt es an der Politik, die Rahmenbedingungen so zu setzen, dass der Umstieg sozial gerecht erfolgt und auch Menschen in ländlichen Regionen nicht abgehängt werden.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Warum kaufen immer mehr Menschen Elektroautos?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Benzinautos verboten wurden.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Wegen Förderungen, Umweltbewusstsein und günstigeren Preisen.</li>
+        <li><strong>c</strong> Weil sie lauter sind als Verbrenner.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Wie begegnet man der sogenannten "Reichweitenangst"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Durch größere Akkus und mehr Schnellladestationen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Gar nicht, man muss eben oft stehen bleiben.</li>
+        <li><strong>c</strong> Man darf nur noch kurze Strecken fahren.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Wann ist ein Elektroauto ökologisch besonders sinnvoll?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Wenn es mit 100% Ökostrom (Wind/Sonne) geladen wird.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Wenn es besonders schnell fahren kann.</li>
+        <li><strong>c</strong> Wenn es aus China kommt.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Wie sieht die Mobilität der Zukunft laut Autor aus?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Jeder besitzt zwei Elektroautos.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Ein vernetzter Mix aus Car-Sharing, Bussen und Bahn.</li>
+        <li><strong>c</strong> Das Fahrrad wird komplett verschwinden.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Welche Aufgabe hat die Politik beim Umstieg?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Elektroautos teurer zu machen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Den Umstieg sozial gerecht zu gestalten (besonders für das Land).</li>
+        <li><strong>c</strong> Gar keine, der Markt regelt das allein.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen Infos über Reichweite und Ladezeiten von E-Autos für eine Reise nach Italien.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte einen staatlichen Zuschuss ("Umweltbonus") für ein E-Bike beantragen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte wissen, ab welchem Alter man alleine in autonomen Shuttles fahren darf.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht einen Saugroboter, der Tierhaare entfernt und Stufen erkennt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für wassersparenden Lithium-Abbau in Südamerika.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte ein altes Diesel-Auto auf Elektroantrieb umrüsten lassen ("Retrofitting").
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Standorte von Schnellladestationen an deutschen Autobahnen (A1, A7, A9).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über die Haftung bei Unfällen mit autonomen Landmaschinen (Traktoren).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man den Akku-Zustand eines gebrauchten E-Autos prüft.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht Informationen über "Induktives Laden" während der Fahrt.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) E-Auto Reichweiten-Check</div>
+        <p style='margin: 0; line-height: 1.6;'>Planen Sie Ihren Trip in den Süden. Wir vergleichen die realen Reichweiten aktueller Modelle und zeigen Ihnen, wo Sie in Österreich und Italien am schnellsten laden.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Umweltbonus für Zweiräder</div>
+        <p style='margin: 0; line-height: 1.6;'>Geld gespart beim Umstieg. Erfahren Sie, welche Kommunen den Kauf von E-Bikes mit bis zu 500 Euro fördern und wie Sie den Antrag unbürokratisch stellen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Allein im Robo-Bus?</div>
+        <p style='margin: 0; line-height: 1.6;'>Das Gesetz zur autonomen Mobilität. Wir klären die Haftungsfragen und Altersbeschränkungen für die Nutzung von fahrerlosen Shuttles, die bereits in Testgebieten im Einsatz sind.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Tierhaar-Profi: Saugroboter im Test</div>
+        <p style='margin: 0; line-height: 1.6;'>Sauberkeit trotz Hund und Katze. Wir testen Roboter mit speziellen Bürstenwalzen und Sturzsensoren, die an Treppenkanten zuverlässig arbeiten. Ideal für Haustierbesitzer.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Das weiße Gold: Lithium-Gewinnung</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine Reportage über Südamerika. Wir zeigen innovative Technologien, die deutlich weniger Grundwasser verbrauchen und so die Lebensgrundlage der Einheimischen beim Rohstoffabbau schützen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Aus Verbrenner mach Elektro: Retrofitting</div>
+        <p style='margin: 0; line-height: 1.6;'>Wegwerfen war gestern. Wir stellen Werkstätten vor, die Ihren alten Diesel zu einem modernen E-Auto umbauen. Ein Überblick über Kosten, Reichweite und die offizielle Zulassung.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Ladenetz-Karte Deutschland</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie den nächsten High-Power-Charger. Unsere Karte zeigt alle Schnellladestationen an den Haupt-Autobahnen (A1, A7, A9) inklusive aktueller Belegung und Preisen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Recht auf dem Acker</div>
+        <p style='margin: 0; line-height: 1.6;'>Wer haftet, wenn der autonome Traktor Schaden anrichtet? Ein juristischer Ratgeber über Software-Haftung und Produktsicherheit in der digitalisierten Landwirtschaft und Industrie.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Gebrauchtwagen-Guide: Der Akku</div>
+        <p style='margin: 0; line-height: 1.6;'>Kaufen Sie keine Katze im Sack. Wir erklären, wie Sie den "State of Health" der Batterie bei einem gebrauchten Elektroauto auslesen lassen und was die Kapazität wert ist.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Strom von der Straße: Induktives Laden</div>
+        <p style='margin: 0; line-height: 1.6;'>Nie wieder an die Säule? Forscher testen Fahrbahnbeläge, die Energie drahtlos in den Akku übertragen – sowohl im Stand als auch bei voller Fahrt während der Reise.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Flugtaxis: Nur ein Hype?</div>
+        <p style='margin: 0; line-height: 1.6;'>Werden Drohnen bald Menschen befördern? Eine Analyse über die technischen Hürden, Lärmschutz und die fehlende Akzeptanz für Fluggeräte über Wohngebieten.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Lastenrad-Boom in den Städten</div>
+        <p style='margin: 0; line-height: 1.6;'>Warum immer mehr Familien und Lieferdienste auf das E-Lastenrad umsteigen. Ein Vergleich der besten Modelle für den Transport von Einkäufen und Kindern im Stadtverkehr.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 428,
+    id: 514,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Werbung & Konsum",
+    title: "B2 Leseverstehen – Test 15 (Konsum & Umwelt)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #ff9f43; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9604,19 +12398,221 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-b, 2-a, 3-c, 4-d, 5-h"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #c0392b; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+  </p>
+
+  <h3 style='color: #2c3e50; margin-top: 20px;'>Eine Welt aus Plastik: Finden wir den Ausweg?</h3>
+  
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
+    <p>Plastik ist ein geniales Material: leicht, billig, formbar und haltbar. Zu haltbar. Denn genau das ist das Problem. Einmal produziert, bleibt Plastik für Jahrhunderte auf der Erde. Jede Zahnbürste, die wir je benutzt haben, existiert noch irgendwo – auf einer Deponie oder im Meer. Riesige Müllstrudel treiben in den Ozeanen, und Tiere verwechseln bunte Plastikteile mit Nahrung und verenden qualvoll. Mikroplastik wurde inzwischen überall gefunden: im arktischen Eis, im Boden und in unserem Blut.</p>
+
+    <p>Das Bewusstsein wächst. Einwegplastik wie Strohhalme oder Wattestäbchen wurde in der EU verboten. Supermärkte bieten Papiertüten an, und viele Menschen kaufen im "Unverpackt-Laden" ein. Doch das reicht nicht. Die Verpackungsindustrie boomt weiter, getrieben durch Online-Handel und "To-Go"-Mentalität. Recycling ist oft eine Illusion: Ein Großteil des Plastikmülls wird verbrannt ("thermisch verwertet") oder in ärmere Länder exportiert, wo er dann doch in der Natur landet.</p>
+    
+    <p>Forscher arbeiten an Alternativen. Bioplastik aus Maisstärke oder Algen soll die Lösung sein. Doch oft konkurriert der Anbau dieser Rohstoffe mit der Nahrungsmittelproduktion. Zudem zersetzen sich auch Biokunststoffe oft nur unter speziellen Industriebedingungen und nicht auf dem heimischen Kompost. Die beste Lösung bleibt: Vermeiden statt Ersetzen. Mehrwegsysteme, Glas und Metall sind echte Alternativen.</p>
+    
+    <p>Ein interessanter Ansatz sind Bakterien oder Pilze, die Plastik "fressen" und zersetzen können. Erste Laborversuche sind vielversprechend, aber bis zum großflächigen Einsatz ist es noch ein weiter Weg. Wir können uns nicht darauf verlassen, dass die Technik uns rettet. Wir müssen unser Verhalten ändern.</p>
+
+    <p>Die "Zero Waste" Bewegung zeigt, dass ein Leben ohne Müll möglich ist. Doch es erfordert Disziplin und Zeit. Nicht jeder hat die Möglichkeit, alles selbst zu machen oder weit zum nächsten Unverpackt-Laden zu fahren. Politik und Wirtschaft sind gefordert, verpackungsfreie Alternativen zum Standard zu machen und Hersteller in die Pflicht zu nehmen (Produzentenverantwortung). Nur so können wir verhindern, dass wir in unserem eigenen Müll ersticken.</p>
+  </div>
+  
+  <div style='display: grid; gap: 20px;'>
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was ist laut Text das Hauptproblem von Plastik?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist zu teuer in der Herstellung.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist zu schwer.</li>
+        <li><strong>c</strong> Es ist extrem haltbar und bleibt Jahrhunderte bestehen.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was passiert mit einem Großteil des Plastikmülls beim "Recycling"?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird zu 100% wiederverwertet.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Er wird oft verbrannt oder exportiert.</li>
+        <li><strong>c</strong> Er löst sich in Luft auf.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Warum ist Bioplastik nicht die perfekte Lösung?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Es konkurriert mit Nahrungsmitteln und verrottet oft schlecht.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist giftig.</li>
+        <li><strong>c</strong> Es gibt kein Bioplastik.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Woran forschen Wissenschaftler als mögliche Hilfe?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> An Bakterien, die Plastik fressen.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> An Raketen, die Müll ins All schießen.</li>
+        <li><strong>c</strong> An Plastik, das unsichtbar ist.</li>
+      </ul>
+    </div>
+
+    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Wer ist laut Text besonders gefordert?</div>
+      <ul style='list-style: none; padding: 0;'>
+        <li style='margin-bottom: 5px;'><strong>a</strong> Nur die Verbraucher.</li>
+        <li style='margin-bottom: 5px;'><strong>b</strong> Politik und Wirtschaft müssen verpackungsfreie Alternativen fördern.</li>
+        <li><strong>c</strong> Die Müllabfuhr.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen einen Onlineshop für Kleidung, der komplett auf Plastikverpackungen verzichtet.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte eine App, die Barcodes scannt und vor verstecktem Mikroplastik warnt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte sucht Tipps für einen "Zero Waste" Kindergeburtstag ohne Plastikmüll.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter sucht nach regionalen Bienenwachstüchern als Ersatz für Frischhaltefolie.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für die rechtlichen Regeln zur Pfandpflicht bei Milchalternativen (Hafermilch).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin möchte wissen, wie sie alte Elektrogeräte umweltgerecht entsorgen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über die Umweltschäden durch "Fast Fashion" in Entwicklungsländern.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über die Wirksamkeit von Ozean-Clean-up Projekten mit riesigen Fangnetzen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, welche Bio-Siegel für Textilien wirklich glaubwürdig sind (z.B. GOTS).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht eine Anleitung, wie er aus Obstresten eigenen Bio-Dünger herstellen kann.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Green-Fashion: Versand ohne Plastik</div>
+        <p style='margin: 0; line-height: 1.6;'>Mode mit gutem Gewissen. Wir versenden alle Bestellungen in wiederverwendbaren Graspapier-Kartons und verzichten komplett auf Plastikfolien und synthetische Füllmaterialien.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) CodeCheck: Den Inhaltsstoffen auf der Spur</div>
+        <p style='margin: 0; line-height: 1.6;'>Was steckt wirklich drin? Scannen Sie einfach den Barcode Ihrer Kosmetik- oder Reinigungsprodukte. Die App zeigt sofort, ob Mikroplastik, Palmöl oder bedenkliche Chemie enthalten sind.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Plastikfrei feiern: Der Kindergeburtstag</div>
+        <p style='margin: 0; line-height: 1.6;'>Kein Müllberg nach der Party. Wir geben Tipps für nachhaltige Deko aus Papier, essbare Mitgebsel und spannende Spiele, die ganz ohne Einwegplastik und Luftballons auskommen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Die Wachs-Revolution: Frischhalten ohne Folie</div>
+        <p style='margin: 0; line-height: 1.6;'>Bienenwachstücher aus lokaler Herstellung sind die ideale Alternative für Brot, Käse oder Schüsseln. Sie sind abwaschbar, antibakteriell und halten monatelang. Ein Überblick über Manufakturen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Pfand-Chaos: Was muss zurück?</div>
+        <p style='margin: 0; line-height: 1.6;'>Blick durch den Gesetzedsdschungel. Erfahren Sie alles über die neuen Regeln zur Pfandpflicht für Getränkekartons und Plastikflaschen bei Milch, Säften und pflanzlichen Alternativen ab 2024.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Wohin mit dem alten Föhn?</div>
+        <p style='margin: 0; line-height: 1.6;'>Elektroschrott richtig entsorgen. Wir zeigen Ihnen, wo Sie Kleingeräte kostenlos abgeben können und welche Rohstoffe (Gold, Kupfer) durch fachgerechtes Recycling wiedergewonnen werden.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Die dunkle Seite der Mode</div>
+        <p style='margin: 0; line-height: 1.6;'>Vom Gift im Fluss bis zum riesigen Kleidermüllberg in der Wüste. Eine Reportage über die ökologischen und sozialen Folgen der billigen Fast-Fashion-Produktion für unsere globale Umwelt.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Den Ozean fegen: Großprojekte im Test</div>
+        <p style='margin: 0; line-height: 1.6;'>Können riesige Barrieren den Müllstrudel im Pazifik wirklich beseitigen? Wir analysieren die Erfolge und technischen Grenzen von Projekten, die Plastiktonnen aus den Meeren fischen wollen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Textil-Siegel-Check</div>
+        <p style='margin: 0; line-height: 1.6;'>Wem kann man trauen? Wir vergleichen Öko-Labels wie GOTS oder den "Grünen Knopf" und erklären, welche Zertifikate wirklich faire Arbeitsbedingungen und Bio-Qualität garantieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Aus Abfall wird Gold: Kompostieren</div>
+        <p style='margin: 0; line-height: 1.6;'>Gärtnern ohne Chemie. Erfahren Sie, wie Sie Küchenabfälle und Grünschnitt in wertvollen Humus verwandeln können – ob im eigenen Garten oder mit der Wurmkiste auf dem Balkon.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Guerilla Gardening: Städte begrünen</div>
+        <p style='margin: 0; line-height: 1.6;'>Samenkugeln statt Asphalt. Wie Bürger mit kleinen Pflanzaktionen die Artenvielfalt in der Betonwüste fördern und graue Ecken in kleine insektenfreundliche Oasen verwandeln können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Carsharing für Anfänger</div>
+        <p style='margin: 0; line-height: 1.6;'>Nutzen statt besitzen. Ein Vergleich der verschiedenen Anbieter und Modelle in deutschen Großstädten. Wie Sie durch das Teilen eines Autos monatlich hunderte Euro an Fixkosten sparen.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> j</div>
+    </div>`
   },
   {
-    id: 429,
+    id: 515,
     type: "TELC",
     level: "B2",
     category: "Lesen",
-    title: "B2 Leseverstehen, Teil 1 – Minimalismus",
+    title: "B2 Leseverstehen – Test 16 (Minimalismus & Glück)",
     content: `
 <div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 1</h2>
+` + `
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
     Ordnen Sie die Überschriften den Texten zu.
   </p>
@@ -9672,1162 +12668,12 @@ window.examData = [
       </div>
     </div>
   </div>
-</div>
-`,
-    answer: "1-b, 2-a, 3-g, 4-e, 5-h"
-  },
-  {
-    id: 430,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Die Zukunft der Arbeit",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
 
-  <h3 style='color: #2c3e50; margin-top: 20px;'>New Work: Mehr als nur Tischkicker und Obstkorb?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Die Arbeitswelt befindet sich in einem radikalen Wandel, der oft unter dem Schlagwort "New Work" zusammengefasst wird. Ursprünglich von dem Sozialphilosophen Frithjof Bergmann in den 1970er Jahren geprägt, sollte dieser Begriff eine Arbeit beschreiben, die den Menschen stärkt und nicht schwächt. Heute verstehen viele Unternehmen darunter jedoch vor allem moderne Büros mit bunten Sitzsäcken, kostenlosen Getränken und flexiblen Arbeitszeiten. Doch ist das wirklich der Kern der neuen Arbeitswelt?</p>
-    
-    <p>Experten warnen davor, New Work auf reine Äußerlichkeiten zu reduzieren. Ein Kickertisch im Pausenraum macht noch keine moderne Unternehmenskultur. Vielmehr geht es um tiefgreifende strukturelle Veränderungen: flache Hierarchien, mehr Eigenverantwortung für die Mitarbeiter und eine Abkehr von der klassischen Präsenzkultur hin zu ergebnisorientiertem Arbeiten. Die Digitalisierung spielt dabei eine Schlüsselrolle, da sie es überhaupt erst ermöglicht, zeit- und ortsunabhängig tätig zu sein.</p>
-    
-    <p>Für Arbeitnehmer bietet dieser Wandel große Chancen. Die Vereinbarkeit von Beruf und Familie kann durch Homeoffice-Modelle deutlich verbessert werden. Wer nicht jeden Morgen im Stau stehen muss, spart Zeit und Nerven. Zudem wächst der Wunsch nach sinnhafter Tätigkeit. Immer mehr Menschen, insbesondere der jüngeren Generation, wollen nicht nur Geld verdienen, sondern sich mit den Werten ihres Arbeitgebers identifizieren. Sie fordern Transparenz, Nachhaltigkeit und Mitspracherecht.</p>
-    
-    <p>Doch die schöne neue Arbeitswelt hat auch Schattenseiten. Die ständige Erreichbarkeit via Smartphone und Laptop führt dazu, dass die Grenzen zwischen Arbeit und Freizeit zunehmend verschwimmen. Wer abends auf dem Sofa noch "schnell" E-Mails checkt, kommt nie wirklich zur Ruhe. Psychologen beobachten einen Anstieg von stressbedingten Erkrankungen wie Burnout, selbst bei Menschen, die ihren Job eigentlich lieben. Die sogenannte "Entgrenzung der Arbeit" erfordert daher eine hohe Selbstdisziplin und klare Regeln, sowohl von den Unternehmen als auch von den Beschäftigten selbst.</p>
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
 
-    <p>Ein weiterer Aspekt ist die soziale Komponente. Wenn Kollegen sich nur noch in Videokonferenzen sehen, geht der informelle Austausch an der Kaffeemaschine verloren, der oft wichtig für das Betriebsklima und kreative Ideen ist. Unternehmen müssen daher neue Wege finden, um den Teamgeist auch digital zu fördern oder hybride Modelle entwickeln, die die Vorteile von Büro und Homeoffice verbinden. New Work ist also kein fertiges Produkt, sondern ein ständiger Lernprozess für alle Beteiligten.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was kritisieren Experten am heutigen Verständnis von "New Work"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass es zu sehr auf äußerliche Annehmlichkeiten reduziert wird.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Frithjof Bergmanns Ideen veraltet sind.</li>
-        <li><strong>c</strong> Dass flexible Arbeitszeiten die Produktivität senken.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Rolle spielt die Digitalisierung laut Text?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie zwingt Menschen dazu, mehr zu arbeiten.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie ist die technische Voraussetzung für flexibles Arbeiten.</li>
-        <li><strong>c</strong> Sie ersetzt menschliche Arbeitskraft vollständig.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist jungen Arbeitnehmern heute besonders wichtig?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Möglichst schnell viel Geld zu verdienen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Ein Dienstwagen und ein großes Büro.</li>
-        <li><strong>c</strong> Die Identifikation mit den Werten des Unternehmens.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welches Risiko birgt die "Entgrenzung der Arbeit"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Arbeitnehmer weniger motiviert sind.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Erholungsphasen fehlen und Krankheiten zunehmen.</li>
-        <li><strong>c</strong> Dass Unternehmen die Kontrolle über Mitarbeiter verlieren.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #3498db; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist eine Herausforderung bei der Arbeit im Homeoffice?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Die technische Ausstattung ist oft mangelhaft.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Der informelle soziale Austausch mit Kollegen fehlt.</li>
-        <li><strong>c</strong> Es gibt zu viele Ablenkungen durch die Familie.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-a, 2-b, 3-c, 4-b, 5-b"
-  },
-  {
-    id: 431,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Die Stadt der Zukunft",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Smart Cities: Wie leben wir morgen?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Bis zum Jahr 2050 werden voraussichtlich zwei Drittel der Weltbevölkerung in Städten leben. Diese massive Urbanisierung stellt Planer vor gewaltige Herausforderungen: Verkehrsinfarkt, Luftverschmutzung und Energieknappheit drohen, die Lebensqualität in den Metropolen drastisch zu senken. Die Antwort vieler Experten lautet "Smart City" – die intelligente, vernetzte Stadt, die Technologie nutzt, um effizienter und lebenswerter zu werden.</p>
-    
-    <p>Ein zentraler Aspekt ist die Mobilität. In der Smart City kommunizieren Autos, Ampeln und Parkhäuser miteinander. Navigationssysteme leiten Fahrzeuge automatisch um Staus herum, und Ampeln schalten auf Grün, wenn sich ein Bus nähert. Ziel ist es, den Individualverkehr zu reduzieren und Sharing-Angebote sowie den öffentlichen Nahverkehr attraktiver zu machen. Autonome Shuttle-Busse könnten in Zukunft rund um die Uhr Passagiere befördern, ohne dass ein Fahrer benötigt wird.</p>
-    
-    <p>Auch beim Thema Energie und Umwelt spielt Vernetzung eine große Rolle. Intelligente Stromnetze, sogenannte "Smart Grids", verteilen Energie genau dort hin, wo sie gerade gebraucht wird. Straßenlaternen leuchten nur dann hell, wenn tatsächlich Passanten in der Nähe sind, was massiv Strom spart. Mülltonnen melden per Sensor, wenn sie voll sind, sodass die Müllabfuhr nur noch dann kommt, wenn es wirklich nötig ist. Das spart Treibstoff und reduziert Lärm.</p>
-    
-    <p>Doch bei aller Begeisterung für technologische Lösungen gibt es auch kritische Stimmen. Datenschützer warnen vor dem "gläsernen Bürger". Wenn jede Bewegung, jeder Stromverbrauch und jede Nutzung öffentlicher Verkehrsmittel aufgezeichnet wird, entstehen gewaltige Datenmengen. Wem gehören diese Daten? Und wie wird sichergestellt, dass sie nicht missbraucht werden? Die Angst vor totaler Überwachung ist nicht unbegründet, besonders wenn private Tech-Giganten in die Infrastruktur von Städten investieren.</p>
-
-    <p>Zudem darf die soziale Komponente nicht vergessen werden. Eine Smart City darf nicht nur für junge, technikaffine Menschen funktionieren. Ältere Menschen oder Bürger mit geringem Einkommen dürfen nicht abgehängt werden. Technologie soll dem Menschen dienen und das Zusammenleben verbessern, nicht ersetzen. Begrünte Fassaden, Parks und Begegnungszonen bleiben auch in der digitalsten Stadt unverzichtbar für das menschliche Wohlbefinden.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum ist das Konzept der "Smart City" notwendig?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Landbevölkerung abnimmt.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> UmProbleme durch die wachsende Urbanisierung zu lösen.</li>
-        <li><strong>c</strong> Weil Technologiekonzerne neue Märkte suchen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Wie soll der Verkehr in der Zukunft geregelt werden?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Durch mehr Straßen und Parkplätze.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Durch intelligente Vernetzung und Kommunikation der Systeme.</li>
-        <li><strong>c</strong> Durch ein Verbot von privaten PKWs in Innenstädten.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Welchen Vorteil bieten intelligente Straßenlaternen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbessern die Sicherheit durch Kameras.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sparen Energie, indem sie sich situationsbedingt anpassen.</li>
-        <li><strong>c</strong> Sie dienen gleichzeitig als Ladestationen für E-Autos.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was befürchten Kritiker der Smart City?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass die Technologie zu teuer ist.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass das Stadtbild verschandelt wird.</li>
-        <li><strong>c</strong> Dass Bürger durch Datensammlung überwacht werden könnten.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welcher soziale Aspekt wird im Text betont?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Alle Bürger müssen programmieren lernen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Niemand darf durch die Technisierung ausgegrenzt werden.</li>
-        <li><strong>c</strong> Das Leben in der Stadt wird nur für Reiche bezahlbar sein.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-b, 3-b, 4-c, 5-b"
-  },
-  {
-    id: 432,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Nachhaltige Mode",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #e67e22; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Fast Fashion vs. Fair Fashion: Ein Umdenken im Kleiderschrank</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>T-Shirts für 5 Euro, Hosen für 10 – Mode ist in den letzten Jahrzehnten so billig geworden wie nie zuvor. Große Modeketten bringen bis zu 24 Kollektionen pro Jahr heraus, um ständig neue Kaufanreize zu schaffen. Dieses Geschäftsmodell nennt man "Fast Fashion". Doch der Preis für diese Schnäppchen ist hoch, auch wenn er nicht auf dem Preisschild steht. Er wird von der Umwelt und den Arbeitern in den Produktionsländern bezahlt.</p>
-    
-    <p>Die Textilindustrie ist einer der größten Umweltverschmutzer weltweit. Für die Produktion eines einzigen Baumwoll-Shirts werden rund 2.700 Liter Wasser verbraucht – so viel, wie ein Mensch in zweieinhalb Jahren trinkt. Hinzu kommen giftige Chemikalien zum Färben der Stoffe, die oft ungefiltert in Flüsse geleitet werden. Synthetische Fasern wie Polyester tragen zudem massiv zum Mikroplastik-Problem in unseren Meeren bei, da sich bei jeder Wäsche winzige Partikel lösen.</p>
-    
-    <p>Doch das Bewusstsein der Verbraucher wandelt sich. "Fair Fashion" und Nachhaltigkeit liegen im Trend. Immer mehr Menschen hinterfragen, wo und unter welchen Bedingungen ihre Kleidung hergestellt wurde. Siegel wie GOTS oder Fairtrade garantieren ökologische Standards und faire Löhne. Zwar ist faire Mode in der Anschaffung teurer, doch die Qualität ist meist deutlich höher, sodass die Kleidung länger hält. Das Motto lautet: "Klasse statt Masse".</p>
-    
-    <p>Neben dem Kauf neuer Öko-Mode gibt es weitere nachhaltige Alternativen. Second-Hand-Shopping hat sein verstaubtes Image längst abgelegt. Auf Flohmärkten oder Apps wie Vinted wird gebrauchte Kleidung gehandelt, was Ressourcen schont und den Geldbeutel entlastet. Auch "Kleidertauschpartys" werden immer beliebter: Man bringt Teile mit, die man nicht mehr trägt, und tauscht sie gegen "neue" Lieblingsstücke von anderen. Das macht Spaß und ist völlig kostenlos.</p>
-
-    <p>Ein ganz neuer Ansatz ist das Leasen von Kleidung. Ähnlich wie beim Carsharing kann man hochwertige Kleidungsstücke für eine bestimmte Zeit mieten – etwa ein Abendkleid für eine Hochzeit oder Winterjacken für Kinder, die im nächsten Jahr sowieso nicht mehr passen. Dies könnte ein Modell der Zukunft sein, um den Konsumwahn zu bremsen, ohne auf Abwechslung im Kleiderschrank verzichten zu müssen.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist das Hauptmerkmal von "Fast Fashion"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es wird nur nachhaltige Baumwolle verwendet.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Kleidung wird sehr schnell und billig in vielen Kollektionen produziert.</li>
-        <li><strong>c</strong> Die Kleidung wird hauptsächlich in Europa hergestellt.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welches Umweltproblem wird im Text erwähnt?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Der hohe Stromverbrauch der Nähmaschinen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Der enorme Wasserverbrauch und Wasserverschmutzung.</li>
-        <li><strong>c</strong> Der Transport der Kleidung mit Flugzeugen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was zeichnet "Fair Fashion" aus?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie ist immer billiger als herkömmliche Mode.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie folgt immer den allerneuesten Trends.</li>
-        <li><strong>c</strong> Sie garantiert ökologische Standards und faire Arbeitsbedingungen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der Vorteil von Kleidertauschpartys?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Man bekommt neue Kleidung kostenlos.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Man kann dort professionell Designerkleidung verkaufen.</li>
-        <li><strong>c</strong> Man lernt dort das Nähen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e67e22; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie funktioniert das "Leasen" von Kleidung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Man kauft Kleidung auf Raten.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Man mietet Kleidungsstücke für eine begrenzte Zeit.</li>
-        <li><strong>c</strong> Man tauscht Kleidung dauerhaft gegen andere Waren.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-b, 3-c, 4-a, 5-b"
-  },
-  {
-    id: 433,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Bildung im digitalen Zeitalter",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
   <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
   <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Schule 4.0: Lernen wir in Zukunft anders?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Die Kreidetafel hat ausgedient, das Tablet übernimmt. Die Digitalisierung macht auch vor den Schultoren nicht halt. Doch "Digitale Bildung" bedeutet weit mehr als nur den Ersatz von Schulbüchern durch PDFs. Es geht um eine grundlegende Veränderung der Art und Weise, wie Wissen vermittelt und angeeignet wird. Kritiker befürchten eine Verdummung durch Technik, während Befürworter von individueller Förderung schwärmen.</p>
-    
-    <p>Ein großer Vorteil digitaler Medien ist die Möglichkeit des adaptiven Lernens. Intelligente Lernsoftware kann erkennen, wo ein Schüler Schwierigkeiten hat, und ihm automatisch passende Übungen anbieten. Wer Mathe schnell versteht, bekommt kniffligere Aufgaben, während andere in ihrem eigenen Tempo üben können, ohne den Anschluss zu verlieren. Der Lehrer wandelt sich dabei vom reinen Wissensvermittler zum Lernbegleiter, der die Schüler individuell coacht.</p>
-    
-    <p>Zudem ermöglicht das Internet den Zugang zu Informationen weit über das klassische Schulbuch hinaus. Schüler können virtuelle Museumsrundgänge machen, mit Partnerklassen am anderen Ende der Welt per Videochat sprechen oder komplexe naturwissenschaftliche Prozesse in Simulationen verstehen. "Medienkompetenz" wird dabei zum neuen Hauptfach: Kinder müssen lernen, seriöse Quellen von Fake News zu unterscheiden und sicher im Netz zu navigieren. Das reine Auswendiglernen von Fakten verliert an Bedeutung, da Wissen jederzeit verfügbar ist.</p>
-    
-    <p>Trotzdem warnen Hirnforscher davor, die analoge Welt komplett zu verbannen. Das haptische Erlebnis, mit einem Füller auf Papier zu schreiben, fördert die Feinmotorik und die Gedächtnisleistung stärker als das Tippen auf einem Glasbildschirm. Auch die soziale Interaktion im Klassenzimmer, das Diskutieren und Streiten, kann durch keine Software ersetzt werden. Schule ist nicht nur ein Ort des Lernens, sondern auch ein Ort des sozialen Miteinanders.</p>
-
-    <p>Ein weiteres Problem ist die Ausstattung. Nicht jede Familie kann sich teure Geräte leisten, und viele Schulen haben immer noch mit schlechtem WLAN zu kämpfen. Wenn digitale Bildung vom Geldbeutel der Eltern abhängt, verschärft sie die soziale Ungleichheit, statt sie abzubauen. Politiker sind daher gefordert, massiv in die Infrastruktur zu investieren, damit die "Schule der Zukunft" wirklich für alle eine Chance bietet.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was bedeutet "Digitale Bildung" laut Text hauptsächlich?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Schulbücher eingescannt werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Schüler nur noch Computerspiele spielen.</li>
-        <li><strong>c</strong> Dass sich die Art des Lernens und Lehrens grundlegend ändert.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Rolle spielt der Lehrer beim adaptiven Lernen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird überflüssig und durch Roboter ersetzt.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Er agiert eher als Lernbegleiter und Coach.</li>
-        <li><strong>c</strong> Er muss nur noch die Technik warten.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Warum verliert reines Auswendiglernen an Bedeutung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil das Gehirn von Kindern heute kleiner ist.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Weil Wissen durch das Internet jederzeit verfügbar ist.</li>
-        <li><strong>c</strong> Weil Prüfungen in Zukunft abgeschafft werden.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was sagen Hirnforscher zum klassischen Schreiben?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist veraltet und sollte abgeschafft werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Es fördert Gedächtnis und Motorik besser als Tippen.</li>
-        <li><strong>c</strong> Es schadet den Augen mehr als Bildschirme.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welches soziale Problem wird angesprochen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Ungleiche Chancen durch fehlende Ausstattung.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Mobbing im Internet.</li>
-        <li><strong>c</strong> Lehrermangel in ländlichen Regionen.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-c, 2-b, 3-b, 4-b, 5-a"
-  },
-  {
-    id: 434,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Ernährungstrends: Gesünder oder nur teurer?",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #e74c3c; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Superfoods und Veganismus: Ein Blick auf den Teller der Zukunft</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Chia-Samen aus Südamerika, Goji-Beeren aus China und Quinoa aus den Anden – sogenannte "Superfoods" liegen voll im Trend. Sie versprechen Gesundheit, Schönheit und ewige Jugend. Doch Ernährungsexperten warnen vor überzogenen Erwartungen. Zwar enthalten diese exotischen Lebensmittel viele Vitamine und Mineralstoffe, doch heimische Alternativen wie Leinsamen, schwarze Johannisbeeren oder Hirse sind oft genauso gesund und dabei deutlich günstiger und umweltfreundlicher, da sie nicht um die halbe Welt transportiert werden müssen.</p>
-    
-    <p>Ein noch größerer Trend ist der Verzicht auf tierische Produkte. Veganismus ist längst keine Nische mehr für radikale Tierschützer, sondern in der Mitte der Gesellschaft angekommen. Supermarktregale sind voll mit veganen Würstchen, Schnitzeln und Käseersatz. Die Gründe für diese Ernährungsumstellung sind vielfältig: Neben dem Tierwohl spielen der Klimaschutz (Massentierhaltung verursacht massive CO2-Emissionen) und die eigene Gesundheit eine entscheidende Rolle. Studien zeigen, dass Veganer seltener an Zivilisationskrankheiten wie Diabetes oder Bluthochdruck leiden.</p>
-    
-    <p>Allerdings ist nicht jedes vegane Produkt automatisch gesund. Viele Ersatzprodukte sind hochverarbeitete Industriewaren, die voller Zusatzstoffe, Salz und gesättigter Fette stecken, um den Geschmack von Fleisch oder Käse zu imitieren. Wer sich gesund ernähren will, sollte daher lieber auf frisches Obst, Gemüse, Hülsenfrüchte und Nüsse setzen, anstatt täglich Fertigprodukte zu konsumieren. "Clean Eating" – also das Essen von möglichst naturbelassenen Lebensmitteln – ist hier das Stichwort.</p>
-    
-    <p>Ein interessanter Aspekt ist auch die Personalisierung der Ernährung. Dank moderner Bluttests und Apps kann heute jeder analysieren lassen, welche Nährstoffe ihm fehlen und welche Lebensmittel er gut verträgt. "Personalized Nutrition" verspricht, für jeden den perfekten Speiseplan zu erstellen. Kritiker sehen darin jedoch eine übertriebene Selbstoptimierung und warnen davor, das Essen nur noch als reine Nährstoffaufnahme zu betrachten. Genuss und das gemeinsame Essen mit Familie und Freunden sollten nicht zu kurz kommen.</p>
-
-    <p>Zusammenfassend lässt sich sagen: Wir essen heute bewusster als früher. Der Trend geht weg von billiger Massenware hin zu Qualität und Nachhaltigkeit. Ob man nun Veganer, Vegetarier oder Flexitarier (jemand, der nur selten Fleisch isst) ist, spielt dabei weniger eine Rolle als die bewusste Entscheidung, was auf den Teller kommt. Die Zukunft der Ernährung wird wohl eine Mischung aus Tradition und Hightech sein – mit dem Ziel, sowohl dem Körper als auch dem Planeten gutzutun.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was sagen Experten über exotische "Superfoods"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sind die einzigen Lebensmittel, die wirklich gesund sind.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Heimische Alternativen sind oft vergleichbar und umweltfreundlicher.</li>
-        <li><strong>c</strong> Sie sind gefährlich, weil sie oft chemisch behandelt sind.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Warum entscheiden sich viele Menschen für eine vegane Ernährung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil vegane Produkte billiger sind als Fleisch.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Nur aus Mitleid mit den Tieren.</li>
-        <li><strong>c</strong> Aus Gründen wie Tierwohl, Klimaschutz und Gesundheit.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist ein Problem bei vielen veganen Ersatzprodukten?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie schmecken überhaupt nicht wie das Original.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind oft hochverarbeitet und enthalten viele Zusatzstoffe.</li>
-        <li><strong>c</strong> Sie sind in normalen Supermärkten schwer zu finden.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist das Ziel von "Personalized Nutrition"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Jedem Menschen den gleichen, perfekten Speiseplan zu geben.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Ernährung an die individuellen Bedürfnisse anzupassen.</li>
-        <li><strong>c</strong> Bluttests für alle verpflichtend zu machen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #e74c3c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist das Fazit des Textes zur Zukunft der Ernährung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Wir werden uns bald nur noch von Pillen ernähren.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Bewusstes Essen wird wichtiger als strikte Kategorien.</li>
-        <li><strong>c</strong> Fleisch essen wird bald komplett verboten sein.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-c, 3-b, 4-b, 5-b"
-  },
-  {
-    id: 435,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Nachhaltiger Tourismus",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #1abc9c; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Reisen mit gutem Gewissen: Geht das überhaupt?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Früher war Reisen ein Luxus für wenige, heute ist es ein Massenphänomen. Billigflieger machen Wochenendtrips nach Barcelona oder London für jeden erschwinglich. Doch dieser "Overtourism" hat seinen Preis: Venedig versinkt unter Kreuzfahrttouristen, Strände in Thailand müssen wegen Müllbergen geschlossen werden, und der CO2-Ausstoß des Flugverkehrs heizt das Klima an. Immer mehr Urlauber fragen sich daher: Wie kann ich die Welt sehen, ohne sie zu zerstören?</p>
-    
-    <p>Sanfter Tourismus ist die Antwort. Statt "All-Inclusive" im Betonbunker setzt dieses Konzept auf kleine, familiengeführte Unterkünfte, regionale Küche und respektvollen Umgang mit der Natur und Kultur des Gastlandes. Das Geld soll nicht bei internationalen Hotelketten landen, sondern der lokalen Bevölkerung zugutekommen. Wer beispielsweise in einer Eco-Lodge in Costa Rica übernachtet, unterstützt oft direkt Naturschutzprojekte und schafft faire Arbeitsplätze vor Ort.</p>
-    
-    <p>Auch bei der Anreise findet ein Umdenken statt. "Slow Travel" ist angesagt: Statt hektisch Sehenswürdigkeiten abzuhaken, nimmt man sich Zeit. Die Reise mit dem Zug oder dem Fahrrad wird Teil des Erlebnisses. Man sieht Landschaften vorbeiziehen, statt nur über Wolken zu schweben. Zwar dauert die Anreise länger, doch dafür beginnt die Entspannung schon beim Einsteigen. Für Fernreisen, die sich nicht vermeiden lassen, bieten Organisationen wie "Atmosfair" an, die CO2-Emissionen durch Spenden für Klimaschutzprojekte zu kompensieren.</p>
-    
-    <p>Doch sanfter Tourismus bedeutet auch Verzicht. Man muss akzeptieren, dass man nicht jedes Jahr um die halbe Welt fliegen kann, wenn man seinen ökologischen Fußabdruck klein halten will. Vielleicht liegt das Abenteuer ja auch vor der Haustür? Mikroabenteuer in der eigenen Region, Wandern im Harz oder Kanufahren in Mecklenburg-Vorpommern erleben gerade eine Renaissance. Man entdeckt die Schönheit der Heimat neu und spart dabei Geld und CO2.</p>
-
-    <p>Kritiker wenden ein, dass Tourismus für viele Entwicklungsländer eine der wichtigsten Einnahmequellen ist. Wenn wir nicht mehr fliegen, verlieren dort Menschen ihre Jobs. Das stimmt, doch es geht nicht darum, das Reisen komplett einzustellen, sondern es bewusster zu gestalten. Weniger oft, dafür länger und intensiver reisen – das könnte die Formel für die Zukunft sein. Qualität statt Quantität, auch im Urlaub.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist eine negative Folge des Massentourismus ("Overtourism")?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Flüge werden immer teurer.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die lokale Kultur wird gestärkt.</li>
-        <li><strong>c</strong> Umweltzerstörung und Überfüllung beliebter Orte.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist ein Ziel des "Sanften Tourismus"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass das Geld hauptsächlich bei großen internationalen Konzernen landet.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass die lokale Bevölkerung wirtschaftlich profitiert.</li>
-        <li><strong>c</strong> Dass Touristen möglichst viele Sehenswürdigkeiten in kurzer Zeit sehen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was zeichnet "Slow Travel" aus?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Man reist sehr langsam, weil man kein Geld hat.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Anreise selbst wird als Teil des Urlaubs gesehen.</li>
-        <li><strong>c</strong> Man darf nur zu Fuß gehen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist eine Alternative zu Fernreisen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Mikroabenteuer in der eigenen Region.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Virtuelle Reisen am Computer.</li>
-        <li><strong>c</strong> Gar kein Urlaub mehr zu machen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #1abc9c; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sollte sich das Reisen laut Text in Zukunft verändern?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Man sollte seltener, aber dafür länger und bewusster reisen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Reisen sollte nur noch für Reiche erlaubt sein.</li>
-        <li><strong>c</strong> Man sollte Flugreisen komplett verbieten.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-c, 2-b, 3-b, 4-a, 5-a"
-  },
-  {
-    id: 436,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Cyberkriminalität",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #8e44ad; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Tatort Internet: Wie wir uns vor digitalen Gangstern schützen</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Früher mussten Bankräuber Masken tragen und Tresore knacken. Heute sitzen sie gemütlich im Kapuzenpulli vor dem Laptop, oft tausende Kilometer entfernt. Cyberkriminalität ist ein Milliardengeschäft geworden. Die Methoden der digitalen Betrüger werden immer raffinierter: Von gefälschten E-Mails ("Phishing"), die täuschend echt aussehen, bis hin zu "Ransomware", die ganze Firmennetzwerke verschlüsselt und Lösegeld erpresst. Niemand ist sicher – weder Privatpersonen noch Regierungen.</p>
-    
-    <p>Ein besonders großes Problem ist der Identitätsdiebstahl. Kriminelle spähen Passwörter aus oder kaufen gestohlene Daten im Darknet, um im Namen ihrer Opfer online einzukaufen oder Verträge abzuschließen. Oft bemerken die Betroffenen dies erst, wenn die Rechnungen oder Mahnungen ins Haus flattern. Experten raten daher dringend zur "Zwei-Faktor-Authentifizierung" (2FA), bei der man neben dem Passwort noch einen zweiten Code (z.B. per SMS) eingeben muss. Das macht es Hackern deutlich schwerer.</p>
-    
-    <p>Doch die größte Schwachstelle ist oft nicht die Technik, sondern der Mensch. Ein unbedachter Klick auf einen Link, ein zu einfaches Passwort ("123456" ist immer noch sehr beliebt!) oder zu viel Vertrauen in unbekannte Absender öffnen Kriminellen Tür und Tor. "Social Engineering" nennt man die Taktik, bei der Opfer so manipuliert werden, dass sie sensible Daten freiwillig preisgeben. Aufklärung und Schulungen sind daher die wichtigste Waffe im Kampf gegen Cybercrime.</p>
-    
-    <p>Auch die Politik hat das Problem erkannt. Polizeibehörden rüsten auf und gründen spezialisierte Cyber-Abteilungen. Doch die Täter agieren global und sind schwer zu fassen. Wenn der Hacker in Land A sitzt, der Server in Land B steht und das Opfer in Land C lebt, ist die Strafverfolgung extrem kompliziert. Internationale Zusammenarbeit ist unerlässlich, aber oft bürokratisch und langsam.</p>
-
-    <p>Was bringt die Zukunft? Mit dem Aufstieg der Künstlichen Intelligenz (KI) wird auch Cybercrime automatisierter und gefährlicher. KI kann heute schon Stimmen täuschend echt imitieren ("Deepfakes"), was für Betrugsanrufe ("Enkeltrick 2.0") genutzt werden kann. Wir müssen uns darauf einstellen, dass der digitale Raum ein dauerhaftes Konfliktfeld bleibt. Wachsamkeit und digitale Hygiene – also regelmäßige Updates und Backups – gehören heute zur Bürgerpflicht.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wie hat sich Bankraub laut Text verändert?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Er ist seltener geworden, da Banken sicherer sind.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Er passiert heute oft digital vom Laptop aus.</li>
-        <li><strong>c</strong> Er wird nur noch von Amateuren begangen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was passiert beim Identitätsdiebstahl?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Kriminelle handeln im Namen des Opfers, z.B. beim Einkaufen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Der Personalausweis wird physisch gestohlen.</li>
-        <li><strong>c</strong> Das Opfer verliert sein Gedächtnis.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist "Social Engineering"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Der Bau von sozialen Netzwerken.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die psychologische Manipulation von Opfern.</li>
-        <li><strong>c</strong> Ein Studiengang für Informatiker.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Warum ist die Strafverfolgung bei Cybercrime so schwierig?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil die Polizei keine Computer hat.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Weil die Täter global agieren und Landesgrenzen nutzen.</li>
-        <li><strong>c</strong> Weil es keine Gesetze gegen Cybercrime gibt.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #8e44ad; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welche neue Gefahr bringt Künstliche Intelligenz (KI)?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Stimmen imitieren und für Betrug nutzen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> KI wird alle Polizisten ersetzen.</li>
-        <li><strong>c</strong> KI kann noch gar nichts Gefährliches tun.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-a, 3-b, 4-b, 5-a"
-  },
-  {
-    id: 437,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Urban Gardening",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #2ecc71; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Gärtnern in der Stadt: Mehr als nur ein Hobby</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Wer an Gärtnern denkt, hat oft das Bild vom Rentner im Schrebergarten vor Augen, der peinlich genau darauf achtet, dass die Hecke gerade geschnitten ist. Doch das Image hat sich gewandet. "Urban Gardening" – Gärtnern in der Stadt – ist hip, jung und politisch. Auf Brachflächen, Dächern und sogar auf Verkehrsinseln sprießen Tomaten, Salat und Blumen. Es geht dabei nicht nur um die Ernte, sondern um die Rückeroberung des öffentlichen Raums.</p>
-    
-    <p>Ein bekanntes Beispiel sind die "Prinzessinnengärten" in Berlin. Wo früher Betonwüste war, wachsen heute in mobilen Kisten (Bäckerkisten, Reissäcken) hunderte Sorten von Nutzpflanzen. Da der Boden in Städten oft versiegelt oder schadstoffbelastet ist, muss man kreativ werden. Das Gärtnern in Kisten hat den Vorteil, dass der Garten mobil ist – wenn das Gelände bebaut werden soll, zieht der Garten einfach um. Das zeigt auch die Vergänglichkeit von städtischem Raum.</p>
-    
-    <p>Neben dem ökologischen Aspekt (Bienenfreundlichkeit, besseres Mikroklima) ist die soziale Komponente entscheidend. Urban Gardening Projekte sind Orte der Begegnung. Hier gärtnern Hipster neben türkischen Großmüttern und Schulklassen. Man tauscht Tipps aus, hilft sich beim Gießen und kocht gemeinsam mit der Ernte. In einer anonymen Großstadt schaffen diese Gärten Nachbarschaft und Gemeinschaft. Sie sind offene Lernorte, wo Kinder sehen, dass Karotten nicht im Supermarktregal wachsen, sondern aus der Erde kommen.</p>
-    
-    <p>Natürlich kann man mit ein paar Kisten Tomaten nicht die Welt ernähren. Dennoch ist es ein Schritt in Richtung Resilienz und Selbstversorgung. In Krisenzeiten (wie während der Pandemie) haben viele Menschen gemerkt, wie wichtig und beruhigend es ist, etwas Eigenes anzubauen. Zudem schmeckt eine selbstgezogene Tomate, die vollreif geerntet wird, unvergleichlich besser als die wässrige Ware aus dem Gewächshaus in Spanien.</p>
-
-    <p>Städteplaner haben das Potenzial erkannt. Zukünftige Wohnquartiere werden oft direkt mit Gemeinschaftsgärten ("Community Gardens") geplant. Grüne Dächer und Fassaden sollen Städte kühlen, die sich durch den Klimawandel immer stärker aufheizen. Urban Gardening ist also mehr als nur ein kurzlebiger Trend – es ist ein Baustein für die lebenswerte, grüne Stadt der Zukunft.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wie unterscheidet sich "Urban Gardening" vom klassischen Schrebergarten?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es findet nur auf dem Land statt.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist oft politisch motiviert und findet im öffentlichen Raum statt.</li>
-        <li><strong>c</strong> Es ist nur für Rentner erlaubt.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Warum wird oft in Kisten oder Säcken gegärtnert?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Töpfe zu teuer sind.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Weil der Stadtboden oft versiegelt oder belastet ist.</li>
-        <li><strong>c</strong> Weil es schöner aussieht.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Welcher soziale Aspekt wird hervorgehoben?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Jeder gärtnert für sich allein.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gärten fördern Gemeinschaft und Begegnung verschiedener Menschen.</li>
-        <li><strong>c</strong> Man muss Eintritt bezahlen, um mitzumachen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was haben viele Menschen während Krisenzeiten bemerkt?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass Gärtnern zu anstrengend ist.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Supermarkt-Gemüse besser schmeckt.</li>
-        <li><strong>c</strong> Dass es beruhigend und wichtig ist, etwas Eigenes anzubauen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2ecc71; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie reagieren Städteplaner auf diesen Trend?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verbieten Urban Gardening streng.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie planen neue Quartiere oft direkt mit Gemeinschaftsgärten.</li>
-        <li><strong>c</strong> Sie ignorieren das Thema komplett.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-b, 3-b, 4-c, 5-b"
-  },
-
-  {
-    id: 438,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Die Macht der Daten",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #576574; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Datenschutz im 21. Jahrhundert: Gibt es noch Privatsphäre?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Wer nichts zu verbergen hat, hat auch nichts zu befürchten? Dieser Satz ist in Diskussionen um Datenschutz oft zu hören, aber er ist gefährlich naiv. In einer digitalisierten Welt hinterlassen wir bei jedem Schritt Datenspuren: beim Bezahlen mit Karte, beim Surfen im Netz, ja sogar beim Spaziergang mit dem Smartphone in der Tasche. Diese Daten werden gesammelt, verknüpft und zu detaillierten Profilen verarbeitet. Das Ziel: Vorherzusagen, was wir kaufen, wen wir wählen und wie gesund wir sind.</p>
-    
-    <p>Daten sind das Öl des digitalen Zeitalters. Für Konzerne wie Google oder Facebook sind sie die wichtigste Währung. Wir bezahlen für "kostenlose" Dienste wie E-Mail oder Social Media mit unserer Privatsphäre. Was viele nicht wissen: Auch scheinbar harmlose Metadaten – also wer wann mit wem kommuniziert – verraten extrem viel über unser Leben. Ein Profil, das aus solchen Daten erstellt wird, kann intimer sein als ein Tagebuch. Es kann politische Einstellungen, sexuelle Orientierung oder Krankheiten offenbaren, ohne dass wir diese Informationen explizit geteilt haben.</p>
-    
-    <p>Die europäische Datenschutzgrundverordnung (DSGVO) hat versucht, dem Einhalt zu gebieten und den Bürgern die Kontrolle über ihre Daten zurückzugeben. Unternehmen müssen nun explizit um Erlaubnis fragen ("Cookie-Banner"), bevor sie tracken dürfen. Doch in der Praxis klicken die meisten Nutzer genervt auf "Alles akzeptieren", nur um schnell an die gewünschte Information zu kommen. Echter Datenschutz erfordert digitale Mündigkeit und das Bewusstsein, dass Daten wertvoll sind.</p>
-    
-    <p>Ein weiteres Risiko ist der Staat selbst. In einigen Ländern wird Technologie zur Überwachung der eigenen Bevölkerung eingesetzt ("Social Scoring"). Kameras mit Gesichtserkennung können Menschen in Echtzeit identifizieren und verfolgen. Auch in demokratischen Staaten wächst der Begehrlichkeit der Sicherheitsbehörden, auf verschlüsselte Kommunikation wie WhatsApp zugreifen zu können, um Terrorismus zu bekämpfen. Hier stehen sich zwei wichtige Grundrechte gegenüber: Sicherheit und Freiheit. Die Balance zu finden, ist eine der größten Herausforderungen unserer Zeit.</p>
-
-    <p>Die Zukunft könnte jedoch eine Gegenbewegung bringen. "Privacy by Design" – also Datenschutz, der direkt in die Technik eingebaut ist – wird immer wichtiger. Es entstehen neue Dienste, die verschlüsselt und anonym arbeiten. Vielleicht wird Privatsphäre in Zukunft ein Luxusgut, für das man bezahlen muss, während die kostenlose Variante weiterhin mit Daten bezahlt wird. Es liegt an jedem Einzelnen, zu entscheiden, wie viel von sich er preisgeben möchte.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum ist der Satz "Wer nichts zu verbergen hat..." laut Text naiv?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil jeder Mensch Geheimnisse hat.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Weil aus gesammelten Daten detaillierte Profile erstellt werden können.</li>
-        <li><strong>c</strong> Weil nur Kriminelle überwacht werden.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Womit bezahlen Nutzer für kostenlose Internetdienste?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Mit kleinen Geldbeträgen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Gar nicht, sie sind wirklich kostenlos.</li>
-        <li><strong>c</strong> Mit ihren persönlichen Daten und ihrer Privatsphäre.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist ein Problem bei der Umsetzung der DSGVO?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen halten sich nicht daran.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Nutzer klicken oft genervt auf "Alles akzeptieren", ohne zu lesen.</li>
-        <li><strong>c</strong> Die Gesetze sind zu streng für die Wirtschaft.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welcher Konflikt besteht bei der staatlichen Überwachung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Der Konflikt zwischen Sicherheit und Freiheit.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Der Konflikt zwischen Arm und Reich.</li>
-        <li><strong>c</strong> Der Konflikt zwischen analog und digital.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #576574; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie könnte sich Privatsphäre in Zukunft entwickeln?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie wird komplett abgeschafft.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie könnte ein Luxusgut werden, für das man bezahlen muss.</li>
-        <li><strong>c</strong> Sie wird für alle gesetzlich garantiert und kostenlos.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-c, 3-b, 4-a, 5-b"
-  },
-  {
-    id: 439,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Die Sharing Economy",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #f39c12; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Teilen statt Besitzen: Das Ende des Eigentums?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Warum eine Bohrmaschine kaufen, die man nur 15 Minuten im ganzen Leben benutzt? Diese Frage steht im Zentrum der "Sharing Economy" (Ökonomie des Teilens). Ob Autos (Carsharing), Wohnungen (Airbnb), Kleidung oder Werkzeug – immer mehr Menschen entscheiden sich dafür, Dinge nur dann zu nutzen, wenn sie sie brauchen, anstatt sie zu besitzen. Das spart Geld, Platz und Ressourcen. Besonders in Großstädten, wo Parkplätze und Lagerraum knapp sind, ist dieser Trend auf dem Vormarsch.</p>
-    
-    <p>Die Digitalisierung hat diesen Wandel erst möglich gemacht. Über Apps lassen sich Fahrräder in Sekunden entsperren oder private Zimmer weltweit buchen. Das Vertrauen, das früher nur Freunden entgegengebracht wurde, wird nun durch Bewertungssysteme ersetzt. Wer gute Bewertungen hat, gilt als vertrauenswürdig. Dies ermöglicht Transaktionen zwischen völlig Fremden. Für viele ist dies eine Befreiung vom Ballast des Eigentums: Man muss sich nicht um Wartung, Reparatur oder Versicherung kümmern.</p>
-    
-    <p>Doch es gibt auch Schattenseiten. Kritiker werfen Plattformen wie Uber oder Airbnb vor, bestehende Märkte zu zerstören und prekäre Arbeitsbedingungen zu schaffen ("Plattform-Kapitalismus"). Ein privater Fahrer hat keine soziale Absicherung, keinen Kündigungsschutz und keinen Mindestlohn. Zudem entziehen Ferienwohnungen dem regulären Wohnungsmarkt dringend benötigten Raum, was die Mieten in beliebten Vierteln in die Höhe treibt. Was als soziale Idee des Teilens begann, ist längst ein hartes Geschäft geworden.</p>
-    
-    <p>Ein weiterer Aspekt ist die Nachhaltigkeit. Zwar scheint Teilen auf den ersten Blick ökologisch sinnvoll zu sein. Doch Studien zeigen den sogenannten "Rebound-Effekt": Weil Carsharing-Fahrten oft billiger und bequemer sind als der Bus, steigen Menschen vom öffentlichen Nahverkehr aufs Auto um – die Umweltbelastung steigt. Auch Billigflüge werden oft erst durch günstige private Unterkünfte attraktiv. Teilen ist also nicht automatisch grün.</p>
-
-    <p>Trotz der Kritik wird sich der Trend fortsetzen. In Zukunft werden wir wahrscheinlich immer weniger Produkte besitzen, sondern Dienstleistungen nutzen. Wir kaufen keine Glühbirne mehr, sondern "Lichtstunden", kein Auto, sondern "Mobilität". Dies zwingt Hersteller dazu, langlebigere Produkte zu bauen, da sie selbst für Reparaturen aufkommen müssen. Das könnte das Ende der Wegwerfgesellschaft bedeuten – wenn die Rahmenbedingungen stimmen.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist die Grundidee der "Sharing Economy"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man alles doppelt besitzen sollte.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Dinge nutzt, ohne sie unbedingt zu besitzen.</li>
-        <li><strong>c</strong> Dass man alles kostenlos bekommt.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Wie wird Vertrauen zwischen Fremden in der Sharing Economy hergestellt?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Durch polizeiliche Führungszeugnisse.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Durch persönliche Treffen vor jeder Transaktion.</li>
-        <li><strong>c</strong> Durch digitale Bewertungssysteme.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was werfen Kritiker Plattformen wie Airbnb vor?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie verschärfen die Wohnungsnot und treiben Mieten hoch.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Wohnungen sind oft schmutzig.</li>
-        <li><strong>c</strong> Sie sind zu teuer für normale Touristen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der "Rebound-Effekt" beim Carsharing?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Autos gehen schneller kaputt.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Menschen nutzen statt Bus und Bahn lieber das günstige Mietauto.</li>
-        <li><strong>c</strong> Die Autos werden oft nicht zurückgebracht.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #f39c12; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Welche positive Auswirkung könnte der Trend auf Produkte haben?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Produkte werden langlebiger und reparaturfreundlicher.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Produkte werden billiger und schlechter.</li>
-        <li><strong>c</strong> Es werden gar keine Produkte mehr hergestellt.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-c, 3-a, 4-b, 5-a"
-  },
-  {
-    id: 440,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Generation Z",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #d35400; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Generation Z: Faul oder einfach nur clever?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Sie sind zwischen 1997 und 2012 geboren und strömen gerade auf den Arbeitsmarkt: die "Generation Z" (Gen Z). Über kaum eine Altersgruppe wird so viel diskutiert und geschimpft. Arbeitgeber klagen, die jungen Leute seien nicht belastbar, würden bei der kleinsten Kritik kündigen und forderten ständig mehr Freizeit bei vollem Lohnausgleich. "Work-Life-Balance" ist ihr Mantra, nicht Karriere um jeden Preis. Sind sie also eine Generation von Faulpelzen?</p>
-    
-    <p>Soziologen sehen das anders. Die Gen Z ist die erste Generation, die komplett digital aufgewachsen ist ("Digital Natives"). Sie haben gesehen, wie ihre Eltern im Hamsterrad des Kapitalismus ausgebrannt sind (Burnout) und ziehen daraus ihre Schlüsse. Für sie definiert sich der Sinn des Lebens nicht mehr ausschließlich über Erwerbsarbeit. Sie suchen nach Erfüllung, Selbstverwirklichung und Zeit für Freunde, Hobbys und psychische Gesundheit ("Mental Health"). Arbeit ist Mittel zum Zweck, nicht der Zweck selbst.</p>
-    
-    <p>Zudem sind sie in einer Zeit der Dauerkrisen aufgewachsen: Klimawandel, Pandemie, Krieg in Europa, Inflation. Dies hat sie geprägt. Sie sind pragmatisch, politisch engagiert (Fridays for Future) und fordern von Unternehmen Haltung. Wer als Arbeitgeber keine nachhaltige Strategie hat oder Diskriminierung duldet, hat bei der Gen Z keine Chance. Sie sind loyal, aber nur, solange ihre Werte respektiert werden.</p>
-    
-    <p>Auf dem Arbeitsmarkt sitzen sie dank des Fachkräftemangels am längeren Hebel. Unternehmen müssen sich bewerben, nicht umgekehrt. Das nutzen sie selbstbewusst aus, um 4-Tage-Wochen oder Homeoffice durchzusetzen. Das mag für ältere Generationen ("Babyboomer"), für die Pflichterfüllung und Disziplin oberste Gebote waren, arrogant wirken. Doch vielleicht stoßen sie damit Veränderungen an, von denen am Ende alle profitieren.</p>
-
-    <p>Es ist ein Generationenkonflikt, wie es ihn schon immer gab. Jede Jugend rebelliert gegen die Normen der Alten. Die Gen Z stellt die richtigen Fragen: Wofür arbeiten wir eigentlich? Wie wollen wir leben? Statt sie als faul abzustempeln, sollten Unternehmen zuhören. Denn diese jungen Menschen sind die Zukunft der Wirtschaft – und sie bringen frischen Wind in verkrustete Strukturen.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Welches Vorurteil haben Arbeitgeber gegenüber der Generation Z?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie arbeiten zu viel und vernachlässigen ihr Privatleben.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sind nicht belastbar und fordern zu viel Freizeit.</li>
-        <li><strong>c</strong> Sie verstehen nichts von Technik.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Welche Lehre zieht die Gen Z aus dem Leben ihrer Eltern?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass man noch härter arbeiten muss, um reich zu werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass Arbeit der einzige Sinn des Lebens ist.</li>
-        <li><strong>c</strong> Dass sie nicht wie ihre Eltern im "Hamsterrad" ausbrennen wollen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was fordert die Gen Z von Unternehmen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Höhere Boni und Firmenwagen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Haltung, Nachhaltigkeit und Respekt für Werte.</li>
-        <li><strong>c</strong> Mehr Überstunden.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Warum kann die Gen Z Forderungen wie die 4-Tage-Woche durchsetzen?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil es ein Gesetz dazu gibt.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Weil es einen Mangel an Fachkräften gibt und sie gebraucht werden.</li>
-        <li><strong>c</strong> Weil sie weniger Gehalt verlangen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #d35400; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was ist das Fazit des Textes?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Die Unternehmen sollten auf die Gen Z hören, statt sie zu kritisieren.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Gen Z wird die Wirtschaft ruinieren.</li>
-        <li><strong>c</strong> Man sollte die Gen Z zwingen, mehr zu arbeiten.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-c, 3-b, 4-b, 5-a"
-  },
-  {
-    id: 441,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Künstliche Intelligenz",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>KI im Alltag: Fluch oder Segen?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Künstliche Intelligenz (KI) ist längst keine Science-Fiction mehr, sondern fester Bestandteil unseres Alltags. Ob Sprachassistenten wie Siri und Alexa, personalisierte Filmempfehlungen auf Netflix oder die Routenplanung bei Google Maps – überall arbeiten unsichtbare Algorithmen im Hintergrund. Sie machen unser Leben bequemer, effizienter und sicherer. In der Medizin rettet KI Leben, indem sie auf Röntgenbildern Tumore früher erkennt als jeder menschliche Arzt. In der Industrie übernehmen Roboter gefährliche oder monotone Arbeiten.</p>
-    
-    <p>Doch die rasante Entwicklung weckt auch Ängste. Viele Menschen sorgen sich um ihren Arbeitsplatz. Wird der Computer mich bald ersetzen? Tatsächlich werden einige Berufe verschwinden, vor allem solche mit viel Routine. Doch Experten betonen, dass KI auch neue Jobs schafft. Es wird Menschen brauchen, die die KI trainieren, überwachen und ethische Entscheidungen treffen. Kreativität, Empathie und soziales Verständnis bleiben (vorerst) menschliche Domänen, die kein Algorithmus kopieren kann.</p>
-    
-    <p>Ein weiteres ethisches Problem sind "Biases" (Voreingenommenheiten). KI lernt aus Daten der Vergangenheit. Wenn diese Daten rassistische oder sexistische Muster enthalten, übernimmt die KI diese Vorurteile. So hat eine Recruiting-Software Frauen benachteiligt, weil sie in der Vergangenheit seltener eingestellt wurden. Es ist entscheidend, dass Entwickler diverser werden und Algorithmen streng auf Fairness geprüft werden, bevor sie auf die Menschheit losgelassen werden.</p>
-    
-    <p>Auch die Frage der Verantwortung ist ungeklärt. Wer haftet, wenn ein autonomes Auto einen Unfall baut? Der Fahrer, der Hersteller oder der Programmierer? Unsere Gesetze hinken der technischen Entwicklung oft Jahre hinterher. Es braucht dringend neue internationale Regeln, um den Einsatz von KI in sichere Bahnen zu lenken, ohne Innovationen abzuwürgen.</p>
-
-    <p>Letztlich ist KI ein Werkzeug – so mächtig wie damals die Dampfmaschine oder das Internet. Es liegt an uns, wie wir es nutzen. Wir dürfen nicht blindlings technikgläubig sein, aber auch nicht in Panik verfallen. Die beste Zukunft ist eine Symbiose: Menschliche Intelligenz gepaart mit künstlicher Rechenpower, um die großen Probleme der Menschheit – wie Klimawandel oder Krankheiten – gemeinsam zu lösen.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Wo kommt KI im Alltag bereits zum Einsatz?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Nur in Forschungslaboren.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Bei Sprachassistenten, Streaming-Diensten und Navigation.</li>
-        <li><strong>c</strong> Bisher noch gar nicht.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was sagen Experten zur Angst vor Arbeitsplatzverlust?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Alle Menschen werden arbeitslos werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> KI schafft auch neue Jobs, besonders kreative und soziale.</li>
-        <li><strong>c</strong> KI wird verboten werden, um Jobs zu schützen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was ist das Problem mit "Biases" (Voreingenommenheit) bei KI?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> KI kann Vorurteile aus alten Daten übernehmen und Menschen diskriminieren.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> KI ist zu objektiv und hat keine Meinung.</li>
-        <li><strong>c</strong> KI funktioniert nur mit englischen Daten.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welche rechtliche Frage ist noch ungeklärt?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Ob Roboter wählen dürfen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Wer haftet, wenn eine KI einen Fehler macht (z.B. Unfall).</li>
-        <li><strong>c</strong> Ob KI Steuern zahlen muss.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sieht die ideale Zukunft mit KI aus?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Der Mensch ordnet sich der Maschine unter.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Eine Zusammenarbeit von Mensch und Maschine zur Problemlösung.</li>
-        <li><strong>c</strong> Die Abschaffung aller Computer.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
-  },
-  {
-    id: 442,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Globalisierung",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #2980b9; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Die Welt wächst zusammen: Gewinner und Verlierer der Globalisierung</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Der Pullover aus Bangladesch, das Smartphone aus China, die Bananen aus Ecuador – unser Alltag ist durch und durch globalisiert. Globalisierung bedeutet, dass Waren, Dienstleistungen, Kapital und Informationen weltweit vernetzt sind und Grenzen ihre Bedeutung verlieren. Für Verbraucher hat das viele Vorteile: Wir können das ganze Jahr über Erdbeeren essen, billige Elektronik kaufen und problemlos mit Freunden am anderen Ende der Welt skypen. Der Welthandel hat vielen ehemaligen Entwicklungsländern zu wirtschaftlichem Aufschwung verholfen und Millionen Menschen aus absoluter Armut befreit.</p>
-    
-    <p>Doch die Medaille hat eine Kehrseite. Der brutale Preiswettbewerb führt oft zu Ausbeutung. In Textilfabriken in Asien schuften Näherinnen unter menschenunwürdigen Bedingungen, damit wir in Europa T-Shirts für 5 Euro kaufen können. Umweltstandards werden oft ignoriert, da Unternehmen ihre Produktion dorthin verlagern, wo die Gesetze am lockersten sind. Der Transport von Waren rund um den Globus verursacht zudem massive CO2-Emissionen.</p>
-    
-    <p>Auch kulturell bringt die Globalisierung Veränderungen. Kritiker fürchten eine "McDonaldisierung" der Welt: Überall gibt es die gleichen Ladenketten, die gleichen Marken, die gleiche Musik. Regionale Traditionen und Sprachen könnten verdrängt werden. Andererseits ermöglicht die Vernetzung auch einen kulturellen Austausch, der Vorurteile abbauen und das Verständnis füreinander fördern kann. Wir lernen andere Lebensweisen kennen und schätzen.</p>
-    
-    <p>Die Corona-Pandemie und der Ukraine-Krieg haben die Verletzlichkeit der globalen Lieferketten (Supply Chains) offenbart. Wenn in Shanghai ein Hafen geschlossen wird, fehlen in Deutschland Bauteile für Autos. Viele Unternehmen überdenken nun ihre Strategie und wollen Produktion wieder näher an die Heimatmärkte holen ("Reshoring"). Dies könnte das Ende der Hyper-Globalisierung einläuten.</p>
-
-    <p>Fazit: Die Globalisierung lässt sich nicht zurückdrehen. Aber sie muss fairer gestaltet werden. Faire Handelsabkommen, weltweite Mindeststandards für Arbeit und Umwelt sowie bewusste Konsumentscheidungen ("Fair Trade") sind notwendig, damit die Globalisierung nicht nur einigen wenigen Konzernen, sondern allen Menschen dient. Wir sitzen alle im selben Boot – und das ist ein globales.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist ein Vorteil der Globalisierung für Verbraucher?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Produkte teurer werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass man Waren aus aller Welt kaufen kann.</li>
-        <li><strong>c</strong> Dass man nur noch heimische Produkte kaufen darf.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist ein negatives Beispiel für Globalisierung im Text?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Schlechte Arbeitsbedingungen in Textilfabriken.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Zu viele Feiertage.</li>
-        <li><strong>c</strong> Dass Bananen in Deutschland wachsen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was bedeutet "McDonaldisierung"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass alle Menschen gesund essen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Angst vor kultureller Vereinheitlichung.</li>
-        <li><strong>c</strong> Dass es zu wenige Restaurants gibt.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was haben Krisen wie Corona gezeigt?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Dass globale Lieferketten sehr stabil sind.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Dass globale Lieferketten verletzlich sind.</li>
-        <li><strong>c</strong> Dass wir keine Autos mehr brauchen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #2980b9; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wie sollte die Globalisierung laut Text gestaltet werden?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Sie sollte komplett gestoppt werden.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Sie sollte fairer und nachhaltiger (z.B. Fair Trade) werden.</li>
-        <li><strong>c</strong> Sie sollte nur den Konzernen dienen.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-a, 3-b, 4-b, 5-b"
-  },
-  {
-    id: 443,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Elektromobilität",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>E-Autos: Die Antriebswende und ihre Herausforderungen</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Der Verbrennungsmotor, über 100 Jahre lang das Herzstück der Automobilindustrie, steht vor dem Aus. Klimaschutzziele zwingen Politik und Hersteller zum Umdenken. Das Elektroauto (E-Auto) wird als sauberer Nachfolger gehandelt. Immer mehr Modelle kommen auf den Markt, die Reichweiten steigen, und staatliche Prämien machen den Kauf attraktiv. In einigen Ländern, wie Norwegen, sind bereits die Mehrheit der Neuzulassungen elektrisch.</p>
-    
-    <p>Doch die Skepsis ist noch groß. "Reichweitenangst" ist das häufigste Argument: Viele fürchten, mit leerer Batterie im Nirgendwo liegen zu bleiben. Die Ladeinfrastruktur wächst zwar, ist aber oft noch lückenhaft, besonders in ländlichen Regionen oder für Mieter ohne eigene Garage. Zudem dauert das Laden deutlich länger als das Tanken. Schnellladesäulen entlang der Autobahnen sollen hier Abhilfe schaffen, doch an Feiertagen drohen dort Staus.</p>
-    
-    <p>Ein weiterer Kritikpunkt ist die Umweltbilanz der Batterieproduktion. Die Herstellung von Lithium-Ionen-Akkus verbraucht viel Energie und benötigt Rohstoffe wie Kobalt und Lithium, die oft unter fragwürdigen Bedingungen abgebaut werden. Studien zeigen jedoch: Über die gesamte Lebensdauer ist das E-Auto deutlich klimafreundlicher als ein Verbrenner – vorausgesetzt, es wird mit Ökostrom geladen. Wer "Strom aus Kohle" tankt, fährt nicht wirklich grün.</p>
-    
-    <p>Die Umstellung betrifft nicht nur die Fahrer, sondern die gesamte Industrie. E-Motoren sind viel einfacher aufgebaut als Verbrenner und benötigen weniger Teile. Das bedroht Arbeitsplätze bei Zulieferern, die auf Kolben, Getriebe oder Auspuffanlagen spezialisiert sind. Es ist ein riesiger Strukturwandel, der Umschulungen und neue Geschäftsmodelle erfordert.</p>
-
-    <p>Die Zukunft gehört der Elektromobilität, aber sie ist nur ein Teil der Lösung. Ein Stau aus E-Autos ist immer noch ein Stau. Wirkliche Verkehrswende bedeutet mehr als nur den Antrieb zu tauschen. Wir brauchen bessere Radwege, attraktiveren öffentlichen Nahverkehr und Städte, die für Menschen und nicht für Autos gebaut sind. Das E-Auto ist ein wichtiger Schritt, aber kein Allheilmittel.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Warum wird der Verbrennungsmotor abgelöst?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Weil Benzin alle ist.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Wegen Klimaschutzzielen.</li>
-        <li><strong>c</strong> Weil Verbrenner zu leise sind.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist die "Reichweitenangst"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Die Angst, zu schnell zu fahren.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Die Angst, dass der Akku leer wird und man liegen bleibt.</li>
-        <li><strong>c</strong> Die Angst vor langen Staus.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Wann ist ein E-Auto wirklich klimafreundlicher als ein Verbrenner?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Wenn es mit Ökostrom geladen wird.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Immer, egal welcher Strom.</li>
-        <li><strong>c</strong> Nie, die Batterie ist zu schädlich.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Welche Auswirkung hat der Wandel auf die Industrie?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es entstehen viel mehr Arbeitsplätze im Getriebebau.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Arbeitsplätze bei Zulieferern für Verbrennerteile sind bedroht.</li>
-        <li><strong>c</strong> Die Industrie wird komplett abgeschafft.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #27ae60; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Was wird im Fazit gefordert?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Nur noch E-Autos zu bauen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Eine echte Verkehrswende mit mehr Rad- und Nahverkehr.</li>
-        <li><strong>c</strong> Alle Autos zu verbieten.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
-  },
-  {
-    id: 444,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Plastikmüll",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #c0392b; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
-  </p>
-
-  <h3 style='color: #2c3e50; margin-top: 20px;'>Eine Welt aus Plastik: Finden wir den Ausweg?</h3>
-  
-  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px; line-height: 1.8; text-align: justify;'>
-    <p>Plastik ist ein geniales Material: leicht, billig, formbar und haltbar. Zu haltbar. Denn genau das ist das Problem. Einmal produziert, bleibt Plastik für Jahrhunderte auf der Erde. Jede Zahnbürste, die wir je benutzt haben, existiert noch irgendwo – auf einer Deponie oder im Meer. Riesige Müllstrudel treiben in den Ozeanen, und Tiere verwechseln bunte Plastikteile mit Nahrung und verenden qualvoll. Mikroplastik wurde inzwischen überall gefunden: im arktischen Eis, im Boden und in unserem Blut.</p>
-    
-    <p>Das Bewusstsein wächst. Einwegplastik wie Strohhalme oder Wattestäbchen wurde in der EU verboten. Supermärkte bieten Papiertüten an, und viele Menschen kaufen im "Unverpackt-Laden" ein. Doch das reicht nicht. Die Verpackungsindustrie boomt weiter, getrieben durch Online-Handel und "To-Go"-Mentalität. Recycling ist oft eine Illusion: Ein Großteil des Plastikmülls wird verbrannt ("thermisch verwertet") oder in ärmere Länder exportiert, wo er dann doch in der Natur landet.</p>
-    
-    <p>Forscher arbeiten an Alternativen. Bioplastik aus Maisstärke oder Algen soll die Lösung sein. Doch oft konkurriert der Anbau dieser Rohstoffe mit der Nahrungsmittelproduktion. Zudem zersetzen sich auch Biokunststoffe oft nur unter speziellen Industriebedingungen und nicht auf dem heimischen Kompost. Die beste Lösung bleibt: Vermeiden statt Ersetzen. Mehrwegsysteme, Glas und Metall sind echte Alternativen.</p>
-    
-    <p>Ein interessanter Ansatz sind Bakterien oder Pilze, die Plastik "fressen" und zersetzen können. Erste Laborversuche sind vielversprechend, aber bis zum großflächigen Einsatz ist es noch ein weiter Weg. Wir können uns nicht darauf verlassen, dass die Technik uns rettet. Wir müssen unser Verhalten ändern.</p>
-
-    <p>Die "Zero Waste" Bewegung zeigt, dass ein Leben ohne Müll möglich ist. Doch es erfordert Disziplin und Zeit. Nicht jeder hat die Möglichkeit, alles selbst zu machen oder weit zum nächsten Unverpackt-Laden zu fahren. Politik und Wirtschaft sind gefordert, verpackungsfreie Alternativen zum Standard zu machen und Hersteller in die Pflicht zu nehmen (Produzentenverantwortung). Nur so können wir verhindern, dass wir in unserem eigenen Müll ersticken.</p>
-  </div>
-  
-  <div style='display: grid; gap: 20px;'>
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was ist laut Text das Hauptproblem von Plastik?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es ist zu teuer in der Herstellung.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist zu schwer.</li>
-        <li><strong>c</strong> Es ist extrem haltbar und bleibt Jahrhunderte bestehen.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was passiert mit einem Großteil des Plastikmülls beim "Recycling"?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Er wird zu 100% wiederverwertet.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Er wird oft verbrannt oder exportiert.</li>
-        <li><strong>c</strong> Er löst sich in Luft auf.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Warum ist Bioplastik nicht die perfekte Lösung?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Es konkurriert mit Nahrungsmitteln und verrottet oft schlecht.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Es ist giftig.</li>
-        <li><strong>c</strong> Es gibt kein Bioplastik.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Woran forschen Wissenschaftler als mögliche Hilfe?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> An Bakterien, die Plastik fressen.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> An Raketen, die Müll ins All schießen.</li>
-        <li><strong>c</strong> An Plastik, das unsichtbar ist.</li>
-      </ul>
-    </div>
-
-    <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #c0392b; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Wer ist laut Text besonders gefordert?</div>
-      <ul style='list-style: none; padding: 0;'>
-        <li style='margin-bottom: 5px;'><strong>a</strong> Nur die Verbraucher.</li>
-        <li style='margin-bottom: 5px;'><strong>b</strong> Politik und Wirtschaft müssen verpackungsfreie Alternativen fördern.</li>
-        <li><strong>c</strong> Die Müllabfuhr.</li>
-      </ul>
-    </div>
-  </div>
-</div>`,
-    answer: "1-c, 2-b, 3-a, 4-a, 5-b"
-  },
-  {
-    id: 445,
-    type: "TELC",
-    level: "B2",
-    category: "Lesen",
-    title: "B2 Leseverstehen, Teil 2 – Die Psychologie des Glücks",
-    content: `
-<div style='font-family: "Segoe UI", Arial, sans-serif; max-width: 900px; margin: auto; color: #333;'>
-  <h2 style='color: #2c3e50; border-bottom: 2px solid #9b59b6; padding-bottom: 10px;'>Leseverstehen, Teil 2</h2>
-  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
-    Lesen Sie den Text und lösen Sie die Aufgaben 1–5. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
+    Lesen Sie den Text und lösen Sie die Aufgaben 6–10. Entscheiden Sie, welche Lösung (a, b oder c) richtig ist.
   </p>
 
   <h3 style='color: #2c3e50; margin-top: 20px;'>Was macht uns wirklich glücklich? Erkenntnisse der Forschung</h3>
@@ -10846,7 +12692,7 @@ window.examData = [
   
   <div style='display: grid; gap: 20px;'>
     <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>1. Was besagt das "Easterlin-Paradox"?</div>
+      <div style='font-weight: bold; margin-bottom: 10px;'>6. Was besagt das "Easterlin-Paradox"?</div>
       <ul style='list-style: none; padding: 0;'>
         <li style='margin-bottom: 5px;'><strong>a</strong> Dass Geld immer glücklicher macht.</li>
         <li style='margin-bottom: 5px;'><strong>b</strong> Dass Geld ab einer gewissen Grenze nicht mehr glücklicher macht.</li>
@@ -10855,7 +12701,7 @@ window.examData = [
     </div>
 
     <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>2. Was ist laut Studien der wichtigste Faktor für Glück?</div>
+      <div style='font-weight: bold; margin-bottom: 10px;'>7. Was ist laut Studien der wichtigste Faktor für Glück?</div>
       <ul style='list-style: none; padding: 0;'>
         <li style='margin-bottom: 5px;'><strong>a</strong> Ein schnelles Auto.</li>
         <li style='margin-bottom: 5px;'><strong>b</strong> Soziale Bindungen (Familie, Freunde).</li>
@@ -10864,7 +12710,7 @@ window.examData = [
     </div>
 
     <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>3. Was versteht man unter "Flow"?</div>
+      <div style='font-weight: bold; margin-bottom: 10px;'>8. Was versteht man unter "Flow"?</div>
       <ul style='list-style: none; padding: 0;'>
         <li style='margin-bottom: 5px;'><strong>a</strong> Einen Zustand völliger Vertiefung in eine Tätigkeit.</li>
         <li style='margin-bottom: 5px;'><strong>b</strong> Das Fließen von Wasser.</li>
@@ -10873,7 +12719,7 @@ window.examData = [
     </div>
 
     <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>4. Was ist der Unterschied zwischen Erlebnisglück und Lebenszufriedenheit?</div>
+      <div style='font-weight: bold; margin-bottom: 10px;'>9. Was ist der Unterschied zwischen Erlebnisglück und Lebenszufriedenheit?</div>
       <ul style='list-style: none; padding: 0;'>
         <li style='margin-bottom: 5px;'><strong>a</strong> Es gibt keinen Unterschied.</li>
         <li style='margin-bottom: 5px;'><strong>b</strong> Erlebnisglück ist kurzfristig, Lebenszufriedenheit ist langfristig/sinnstiftend.</li>
@@ -10882,7 +12728,7 @@ window.examData = [
     </div>
 
     <div style='background: #f8f9fa; padding: 20px; border-left: 4px solid #9b59b6; border-radius: 0 5px 5px 0;'>
-      <div style='font-weight: bold; margin-bottom: 10px;'>5. Kann man Glück lernen?</div>
+      <div style='font-weight: bold; margin-bottom: 10px;'>10. Kann man Glück lernen?</div>
       <ul style='list-style: none; padding: 0;'>
         <li style='margin-bottom: 5px;'><strong>a</strong> Nein, alles ist genetisch festgelegt.</li>
         <li style='margin-bottom: 5px;'><strong>b</strong> Ja, zu einem großen Teil (ca. 40%) durch Verhalten und Denkmuster.</li>
@@ -10890,7 +12736,9328 @@ window.examData = [
       </ul>
     </div>
   </div>
-</div>`,
-    answer: "1-b, 2-b, 3-a, 4-b, 5-b"
+
+  <div style='margin: 50px 0; height: 1px; background: #ddd;'></div>
+
+  <h2 style='color: #2c3e50; border-bottom: 2px solid #34495e; padding-bottom: 10px;'>Leseverstehen, Teil 3</h2>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px;'>
+    Lesen Sie zuerst die zehn Situationen (11–20) und dann die zwölf Info-Texte (a–l). Welcher Info-Text passt zu welcher Situation? Sie können jeden Info-Text nur einmal verwenden.
+  </p>
+  <p style='font-style: italic; color: #555; background: #ecf0f1; padding: 15px; border-radius: 5px; margin-top: 10px;'>
+    Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 11–20. Manchmal gibt es keine Lösung. Markieren Sie dann x.
+  </p>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Situationen:</h3>
+    <div style='display: grid; gap: 15px;'>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>11</strong> Sie suchen ein Buch über die psychologischen Vorteile des Ausmistens nach der KonMari-Methode.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>12</strong> Ein Freund möchte wissen, wo er in seiner Stadt gebrauchte Kleidung spenden oder verkaufen kann.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>13</strong> Ihre Nichte möchte ein "Tiny House" für ein Wochenende mieten, um Probe zu wohnen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>14</strong> Ein Bekannter möchte lernen, wie er seine Finanzen nach der Frugalismus-Methode optimiert.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>15</strong> Sie interessieren sich für wissenschaftliche Studien über den Zusammenhang von Dankbarkeit und Gesundheit.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>16</strong> Eine Kollegin sucht ein Seminar über "Achtsamkeit am Arbeitsplatz", um Stress abzubauen.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>17</strong> Sie suchen Informationen über die Geschichte der "Minimalismus"-Bewegung in der Kunst.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>18</strong> Ein Student schreibt über die ethischen Aspekte von "Leih-Plattformen" (Sharing Economy).
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>19</strong> Sie möchten wissen, wie man eine "Capsule Wardrobe" für den Winter zusammenstellt.
+      </div>
+      <div style='padding: 15px; background: #f8f9fa; border-left: 4px solid #34495e; border-radius: 0 5px 5px 0;'>
+        <strong>20</strong> Ihr Nachbar sucht Gleichgesinnte für ein lokales Repair-Café Projekt.
+      </div>
+    </div>
+  </div>
+
+  <div style='background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 15px rgba(0,0,0,0.05); margin-bottom: 30px;'>
+    <h3 style='color: #2c3e50; margin-top: 0;'>Info-Texte:</h3>
+    <div style='display: grid; gap: 20px;'>
+      
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>a) Magic Cleaning: Das Buch zum Trend</div>
+        <p style='margin: 0; line-height: 1.6;'>Warum Ordnung im Haus auch Ordnung im Kopf bedeutet. Marie Kondo erklärt ihre weltberühmte Methode und warum das Loslassen von Gegenständen unsere Seele heilen kann.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>b) Wohin mit den alten Sachen?</div>
+        <p style='margin: 0; line-height: 1.6;'>Geben statt wegwerfen. Wir listen alle Second-Hand-Läden, Kleiderkammern und Online-Portale auf, bei denen Sie Ihre aussortierte Kleidung sinnvoll spenden oder zu Geld machen können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>c) Tiny House - Urlaub am See</div>
+        <p style='margin: 0; line-height: 1.6;'>Testen Sie das minimalistische Leben. In unserem Feriendorf können Sie voll ausgestattete Mini-Häuser für ein paar Tage mieten und das Gefühl von Freiheit auf kleinstem Raum selbst erleben.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>d) Finanziell frei: Der Frugalismus-Kurs</div>
+        <p style='margin: 0; line-height: 1.6;'>Schluss mit dem Hamsterrad. Wir zeigen Ihnen, wie Sie Ihre Ausgaben radikal senken, sinnvoll investieren und sich durch kluge Finanzplanung frühzeitig aus dem Arbeitsleben verabschieden können.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>e) Die Kraft des Danke-Sagens</div>
+        <p style='margin: 0; line-height: 1.6;'>Was die Glücksforschung sagt. Wissenschaftliche Erkenntnisse darüber, wie regelmäßige Dankbarkeits-Übungen unser Gehirn positiv verändern und sogar unser Immunsystem und Herz stärken.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>f) Achtsam im Büro: Das Seminar</div>
+        <p style='margin: 0; line-height: 1.6;'>Finden Sie Ihre innere Mitte zwischen E-Mails und Meetings. Wir trainieren Techniken zur Stressprävention, die sich leicht in den Arbeitsalltag integrieren lassen und für mehr Gelassenheit sorgen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>g) Winter-Style: Die Kapsel-Garderobe</div>
+        <p style='margin: 0; line-height: 1.6;'>Warm und stylisch mit nur 15 Teilen. Wir zeigen Ihnen, wie Sie Ihren Kleiderschrank für die kalte Jahreszeit optimieren und mit wenigen Basics unzählige Outfits für jeden Anlass kreieren.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>h) Kaputt? Reparier es! - Initiative</div>
+        <p style='margin: 0; line-height: 1.6;'>Gemeinsam gegen die Wegwerfgesellschaft. Wir suchen Hobby-Bastler und Experten, die ehrenamtlich in unserem neuen Repair-Café mithelfen, defekte Toaster, Radios oder Kleidung wieder flott zu machen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>i) Weniger ist mehr: Der Kunst-Minimalismus</div>
+        <p style='margin: 0; line-height: 1.6;'>Eine Zeitreise in die 1960er Jahre. Erfahren Sie alles über die Ursprünge der Minimal Art, ihre radikale Abkehr vom Subjektiven und wie sie das Design der Moderne bis heute maßgeblich beeinflusst.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>j) Teilen statt Kaufen: Das Portal</div>
+        <p style='margin: 0; line-height: 1.6;'>Warum muss jeder eine eigene Bohrmaschine haben? Unsere Plattform vernetzt Nachbarn, die Werkzeuge, Küchengeräte oder Camping-Ausrüstung kostenlos oder gegen eine kleine Gebühr verleihen wollen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>k) Digital Detox: Das Camp</div>
+        <p style='margin: 0; line-height: 1.6;'>Ein Wochenende ohne WLAN und Handy. Mitten im Wald lernen Sie wieder, die Stille zu genießen, echte Gespräche zu führen und die ständige Erreichbarkeit bewusst hinter sich zu lassen.</p>
+      </div>
+
+      <div style='padding: 20px; background: #f8f9fa; border: 1px solid #ddd; border-radius: 5px;'>
+        <div style='font-weight: bold; color: #34495e; margin-bottom: 10px;'>l) Lastenrad-Förderung in der Region</div>
+        <p style='margin: 0; line-height: 1.6;'>Satteln Sie um. Erfahren Sie, wie Sie beim Kauf eines E-Lastenrads bis zu 1000 Euro Zuschuss vom Land erhalten können und welche Modelle für den Kindertransport am sichersten sind.</p>
+      </div>
+
+    </div>
+  </div>
+</div > `,
+    answer: `<div style='display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; margin-top: 10px;'>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>1:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>2:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>3:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>4:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>5:</b> h</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>6:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>7:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>8:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>9:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>10:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>11:</b> a</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>12:</b> b</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>13:</b> c</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>14:</b> d</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>15:</b> e</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>16:</b> f</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>17:</b> i</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>18:</b> j</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>19:</b> g</div>
+      <div style='background: #fff; padding: 8px; border-radius: 4px; border: 1px solid #cfd8dc; text-align: center; color: #333;'><b>20:</b> h</div>
+    </div>`
+  },
+  {
+    id: 701,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 (Künstliche Intelligenz in der Medizin)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Durch den Einsatz von Algorithmen können Krankheiten oft früher erkannt werden.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Revolution im Operationssaal: KI in der modernen Medizin</h3>
+    <p>
+      Die Digitalisierung macht vor kaum einem Lebensbereich halt, doch besonders in der Medizin sind die Erwartungen an neue Technologien gigantisch. Experten versprechen sich eine effizientere Behandlung und präzisere Diagnosen. ___ 0 ___ Doch während die Potenziale gefeiert werden, gibt es auch kritische Stimmen, die vor einer Entmenschlichung der Heilberufe warnen.
+    </p>
+    <p>
+      Besonders in der Radiologie zeigt sich der Fortschritt bereits heute deutlich. Hochleistungsrechner analysieren tausende Röntgenbilder in Sekundenschnelle und markieren verdächtige Gewebeveränderungen, die dem menschlichen Auge entgehen könnten. ___ 1 ___ Die KI dient hier als hochspezialisierter Assistent, der die Fehlerquote massiv senkt. Dennoch betonen Chefärzte immer wieder, dass die endgültige Entscheidung stets beim Menschen liegen muss.
+    </p>
+    <p>
+      Ein weiteres Feld der Anwendung ist die personalisierte Krebstherapie. Da jeder Tumor eine individuelle genetische Signatur besitzt, ist die Suche nach dem passenden Medikament oft langwierig. ___ 2 ___ Inzwischen wertet die Software Millionen von Forschungsdaten aus, um für jeden Patienten die Erfolgsaussichten verschiedener Wirkstoffe zu berechnen. Dies spart wertvolle Zeit, die im Kampf gegen die Krankheit oft über Leben und Tod entscheidet.
+    </p>
+    <p>
+      Doch nicht nur in der Diagnose, auch im direkten Patientenkontakt wird mit KI experimentiert. Sogenannte "Pflegeroboter" sollen in Zukunft das Personal entlasten, indem sie einfache Aufgaben übernehmen oder Bewohner an die Medikamenteneinnahme erinnern. ___ 3 ___ Kritiker befürchten jedoch, dass soziale Interaktion durch mechanische Abläufe ersetzt wird. Ein Roboter könne zwar Blutdruck messen, aber keinen Trost spenden oder ein tiefgreifendes Gespräch führen.
+    </p>
+    <p>
+      Die ethische Debatte dreht sich vor allem um die Frage der Haftung. Wenn ein Algorithmus eine falsche Therapie empfiehlt, wer trägt dann die Verantwortung? ___ 4 ___ Die aktuelle Rechtslage ist hier noch lückenhaft und hinkt der rasanten technischen Entwicklung hinterher. Juristen fordern klare Richtlinien, bevor diese Systeme flächendeckend zum Einsatz kommen.
+    </p>
+    <p>
+      Zudem steht das Thema Datenschutz ganz oben auf der Agenda der Skeptiker. Patientenakten enthalten hochsensible Informationen, die vor Missbrauch geschützt werden müssen. ___ 5 ___ Hackerangriffe auf Krankenhäuser haben in der Vergangenheit gezeigt, wie verwundbar die digitale Infrastruktur ist. Ein absolutes Vertrauen in die Technik wäre daher fahrlässig.
+    </p>
+    <p>
+      Trotz aller Bedenken scheint der Siegeszug der KI in der Medizin unaufhaltsam zu sein. Die Vorteile bei der Verarbeitung großer Datenmengen sind einfach zu groß, um sie zu ignorieren. ___ 6 ___ Langfristig wird es darum gehen, eine Balance zwischen technologischer Effizienz und menschlicher Zuwendung zu finden. Nur wenn die Technik dem Wohl des Patienten dient, wird sie auch eine breite Akzeptanz in der Bevölkerung finden.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies führt zu einer spürbaren Entlastung in den völlig überfüllten Wartezimmern.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Früher war dieser Prozess oft von Versuch und Irrtum geprägt und kostete die Betroffenen viel Kraft.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Ist es der Programmierer, der Arzt oder das Unternehmen, das die Software verkauft hat?</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Die künstliche Intelligenz kann komplexe Emotionen besser verstehen als manch ein Mensch.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Besonders für einsame Senioren könnten diese digitalen Begleiter eine echte Bereicherung sein.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Eine vollständige Vernetzung birgt nämlich immer auch das Risiko eines massiven Datenlecks.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Erfahrene Mediziner nutzen das System daher meist als Zweitmeinung zur Sicherheit.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Medizinstudenten müssen heute jedoch weniger lernen, da die KI alles Wissen bereithält.</li>
+    </ul>
+  </div>
+</div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird auf die geografische Flexibilität durch Telemedizin hingewiesen?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird die Reduktion von Wartezeiten in ländlichen Gebieten als Hauptvorteil genannt?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass technische Barrieren bei älteren Patienten ein Hindernis darstellen können?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die Kosteneffizienz für das Gesundheitssystem durch geringere Fahrtkosten verwiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung einer stabilen Internetverbindung für eine erfolgreiche Konsultation betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass telemedizinische Beratung eine physische Untersuchung nicht vollständig ersetzen kann?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die datenschutzrechtlichen Herausforderungen bei der Übermittlung von Patientendaten eingegangen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Telemedizin: Die Gesundheitsversorgung der Zukunft?</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> In dünn besiedelten Regionen, in denen die nächste Facharztpraxis oft stundenlange Autofahrten entfernt ist, erweist sich die Telemedizin als wahrer Segen. Durch Videokonsultationen können Patienten dringende Anliegen klären, ohne ihr Haus verlassen zu weichen. Dies führt nicht nur zu einer massiven Zeitersparnis für die Betroffenen, sondern entlastet auch die Praxisorganisation vor Ort, da physische Wartezimmer weniger überlaufen sind.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Die räumliche Distanz spielt in der modernen digitalen Sprechstunde faktisch keine Rolle mehr. Ob der Experte in einer Metropole sitzt oder der Patient auf einer abgelegenen Insel, die medizinische Expertise ist überall dort verfügbar, wo ein digitaler Zugang besteht. Diese geografische Unabhängigkeit hilft dabei, die bestehende Kluft in der medizinischen Versorgung zwischen Stadt und Land nachhaltig zu schließen.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Ökonomisch betrachtet bietet der Einsatz von Telemonitoring und digitalen Rezepten erhebliches Einsparpotenzial. Krankenkassen und Patienten profitieren gleichermaßen von wegfallenden Reisekosten und einer effizienteren Terminverwaltung. Zudem ermöglicht die kontinuierliche Fernüberwachung von chronisch Kranken eine frühzeitige Intervention bei Verschlechterung der Werte, was teure stationäre Krankenhausbehandlungen vermeiden helfen kann.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Trotz der Euphorie dürfen die technischen und menschlichen Hürden nicht ignoriert werden. Eine qualitativ hochwertige Videosprechstunde setzt eine Bandbreite voraus, die in vielen ländlichen Gebieten noch immer nicht flächendeckend garantiert ist. Zudem fühlen sich viele Senioren durch die komplizierte Handhabung von Apps und Tablets überfordert. Ohne eine intuitive Benutzeroberfläche und entsprechende Schulungen bleibt der Zugang für eine der wichtigsten Zielgruppen verschlossen.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Juristisch und qualitativ bleibt die Telemedizin jedoch eine Ergänzung, kein Ersatz. Kritiker weisen zu Recht darauf hin, dass das Abtasten von Organen oder das Abhören der Lunge über den Bildschirm unmöglich ist. Zudem stellt die hochsichere Verschlüsselung der übertragenen Bilder und Diagnosen die IT-Abteilungen vor enorme Aufgaben. Patientendaten sind in der digitalen Welt ein begehrtes Gut für Cyberkriminelle, weshalb der Schutz der Privatsphäre oberste Priorität haben muss.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: gesundheitsnetz.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Plädoyer für den Deutschunterricht</h3>
+    <p>Wenn junge Menschen die Schule verlassen, beherrschen sie Sprache und Schrift nicht so, wie es die Gesellschaft von ihnen erwartet. Eine Umfrage der Industrie- und Handelskammer Köln zum Beispiel ergab jüngst, dass die Personalchefs großer Ausbildungsbetriebe mit den Deutschkenntnissen vieler Schulabgänger nicht zufrieden sind. Viele Hochschullehrer trauen der Aussagekraft des Abiturs nicht mehr und fordern Studieneingangsprüfungen. Häufiger Mangel in den Arbeiten von Anfangssemestern sind gedankliche und sprachliche Ungenauigkeiten sowie der Verzicht auf Untersuchungsfragen und einen roten Faden.</p>
+    <p>Eine der Ursachen für diese Defizite liegt in dem unzureichenden Anteil an Deutschstunden in den Schulformen des Sekundarbereichs. Diese Vermutung wird bekräftigt durch ein Ergebnis der jüngsten Bildungsstudie der OECD, eines Zusammenschlusses von 29 Industrieländern. Während in Deutschland auf den Fremdsprachenunterricht 21 Prozent der gesamten Unterrichtszeit entfallen, widmen ihm die Schüler aus vergleichbaren Industrieländern im Durchschnitt nur 11 Prozent ihrer Zeit. Dagegen ist der Anteil des muttersprachlichen Unterrichts am Gesamtunterricht in Deutschland deutlich kleiner als in anderen führenden Industrieländern: Mit 14 Prozent liegt Deutschland hinter den USA und Frankreich (jeweils 17 Prozent), Schweden (22 Prozent) sowie Irland und Italien (23 Prozent).</p>
+    <p>Entsteht ein neues gesellschaftliches Problem, wie etwa die zunehmende Gewalt von Jugendlichen, so wird der Deutschunterricht mit der Behandlung beauftragt. Wird ein neues Fach eingerichtet, wie Politik oder Technik, oder werden Vertiefungen ab Klasse 9 angeboten, knapst man bei der Muttersprache noch eine Stunde ab, sodass in der Sekundarstufe I von den früheren fünf Wochenstunden nur noch drei übrig geblieben sind. Mit dieser steten Verknappung muss Schluss sein. Deutsch ist kein Allerweltsfach, in dem oberflächlich immer neue Probleme besprochen werden. Vielmehr folgen mündliche und schriftliche Äußerungen Regeln der Logik und Rhetorik, wenn sie als wahr gelten und wirksam werden sollen. Mindestens vier Stunden pro Woche sollte der Deutschunterricht in den höheren Jahrgangsstufen des Sekundarbereichs I und in den Grundkursen der Oberstufe beanspruchen dürfen.</p>
+    <p>Weshalb ist mehr muttersprachlicher Unterricht nötig? Zunächst wird immer wieder davon gesprochen, dass Schüler beim Lernen vor allem Schlüsselqualifikationen erwerben sollen. Sieht man sich einmal die fünf in der pädagogischen Literatur am häufigsten genannten Qualifikationen an: Kommunikationsfähigkeit, Kooperationsfähigkeit, Flexibilität, Kreativität, Denken in Zusammenhängen, so wird sofort klar, dass Sprache nicht nur Medium, sondern Gegenstand dieser Leistungen ist. Kommunikation etwa bedeutet die Fähigkeit, sachkundig ein Gespräch zu führen, die Diskussionsteilnehmer zu verstehen, die angemessene Form der Antwort zu wählen, Takt zu üben und Kompromisslinien zu finden.</p>
+    <p>Die neuen Informationstechnologien haben hauptsächlich Textmaschinen hervorgebracht. Beim Aufrufen einer Datei auf dem PC stoßen Schüler auf Texte verschiedener Art, die identifiziert, analysiert und bewertet sein wollen. Eine neue Qualifikation werden wir unseren Schülern vor allem vermitteln müssen: die Bewertung von Informationen in der Datenfülle. Dazu ist analytische Kompetenz erforderlich. Aber auch die Textherstellung folgt vertrauten Formen: Brief, Nachricht, Bekenntnis und Geschichte. E-Mails fördern schon jetzt eine neue Briefleidenschaft, von der das 18. Jahrhundert mit seiner Briefkultur nur träumen konnte. Man lese vor der nächsten Mail noch einmal in Goethes Werther!</p>
+    <p>In allen neuen Schulrichtlinien wird wieder verstärkt der fächerverbindende Unterricht gefordert. Sieht man einmal davon ab, dass der Projektunterricht mit Regelmäßigkeit alle paar Jahrzehnte als die Lösung aller didaktischen Nöte angeboten wird, steckt hinter der Idee ein richtiges Konzept: Der Unterricht sollte stets sichtbar machen, aus welcher umfassenden Frage das anstehende Problem erwachsen ist und was seine Klärung zu deren Lösung beitragen kann. Insofern ist die Projektmethode nach Phasen systematischen Unterrichts hin und wieder anzuwenden.</p>
+    <p>Deutschlehrer übernehmen gern die Verantwortung für einen erweiterten Auftrag für Bildung und Unterricht in der Schule. Sie brauchen dafür aber einen höheren Anteil vom gesamten Stundenkontingent – wenigstens die durchschnittliche Stundenzahl der OECD-Staaten.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Das Abitur wird nach wie vor als Qualitätsstandard akzeptiert.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; In Deutschland gibt es mehr Fremdsprachenunterricht als in anderen ähnlichen Ländern.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Oft wird der Deutschunterricht gekürzt, wenn an der Schule ein weiteres Fach eingeführt wird.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Die Muttersprache ist nicht nur Instrument, sondern auch Gegenstand weiterer Fähigkeiten.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Schüler müssen Kurse zur textbezogenen Software besuchen.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Projektunterricht sollte endlich aufgegeben werden.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Mit Texten umgehen zu können, spielt eine entscheidende Rolle bei der fächerübergreifenden Problemlösung.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Deutschunterricht hat eine Brückenfunktion für die anderen Fächer.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Literatur wird in der Hochschulgermanistik immer die gleiche Rolle spielen wie heute.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; In Nordrhein-Westfalen soll Deutsch an der Schule in allen Fächern mehr Beachtung finden.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Schüler sollten wieder besser lernen, wichtige Themen schriftlich zu erörtern.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Deutschunterricht an weiterführenden Schulen<br>
+    <strong>b</strong>&nbsp; Plädoyer für die Aufwertung des muttersprachlichen Unterrichts<br>
+    <strong>c</strong>&nbsp; Untersuchung des Sprachunterrichts auf europäischer Ebene
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (701)</h3>
+  <strong>1-g, 2-b, 3-e, 4-c, 5-f, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (701)</h3>
+  <strong>7-a, 8-d, 9-c, 10-d, 11-e, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (701)</h3>
+  <strong>13-f, 14-r, 15-r, 16-r, 17--, 18-f, 19-r, 20--, 21--, 22--, 23-r | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 702,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 (Stadtplanung: Urban Farming)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Immer mehr Metropolen weltweit setzen auf eine grüne Umgestaltung ihrer Zentren.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Gärten auf dem Dach: Die Zukunft der städtischen Landwirtschaft</h3>
+    <p>
+      Inmitten von Betonwüsten und Abgasen wächst ein neuer trend heran, der das Gesicht unserer Städte nachhaltig verändern könnte. "Urban Farming" nennt sich das Konzept, bei dem Nutzpflanzen direkt im städtischen Raum angebaut werden. ___ 0 ___ Was früher als Hobby von Kleingärtnern galt, hat sich heute zu einer ernstzunehmenden Bewegung entwickelt.
+    </p>
+    <p>
+      Die Vorteile liegen auf der Hand: Lange Transportwege für Obst und Gemüse aus fernen Ländern fallen weg, was die CO2-Bilanz massiv verbessert. Die Produkte landen erntefrisch auf den Tellern der Bewohner und schmecken oft besser als Ware aus dem Supermarkt. ___ 1 ___ Zudem dienen die grünen Flächen als natürliche Klimaanlagen, die die sommerliche Hitze in den Straßen spürbar lindern können.
+    </p>
+    <p>
+      Pioniere dieser Bewegung nutzen oft unkonventionelle Flächen wie Flachdächer von Supermärkten oder alte Industriebrachen. Besonders effizient sind sogenannte "Vertical Farms", bei denen Gemüse in mehreren Etagen übereinander in geschlossenen Kreisläufen wächst. ___ 2 ___ Durch den Verzicht auf Erde und den Einsatz von LED-Licht wird dabei bis zu 90% weniger Wasser verbraucht als in der konventionellen Landwirtschaft.
+    </p>
+    <p>
+      Neben den ökologischen gibt es aber auch soziale Aspekte, die Urban Farming so attraktiv machen. Gemeinschaftsgärten werden oft zu sozialen Treffpunkten im Kiez, an denen Menschen unterschiedlicher Herkunft zusammenarbeiten. ___ 3 ___ Kinder lernen hier wieder, dass Tomaten nicht im Regal wachsen, sondern Pflege und Geduld brauchen, bis man sie essen kann.
+    </p>
+    <p>
+      Allerdings gibt es auch Hürden, die eine flächendeckende Umsetzung noch erschweren. In vielen Großstädten ist Bauland extrem teuer und hart umkämpft. ___ 4 ___ Investoren bauen lieber teure Eigentumswohnungen als Beete für Salat und Radieschen. Ohne staatliche Förderung oder gesetzliche Vorgaben bleibt Urban Farming oft nur ein Projekt für Idealisten.
+    </p>
+    <p>
+      Ein weiteres Problem stellt die Belastung durch Schadstoffe dar. Feinstaub und Schwermetalle in der Stadtluft können sich auf den Pflanzen ablagern. ___ 5 ___ Erfahrene Stadtgärtner empfehlen daher, die Pflanzen in geschlossenen Gewächshäusern oder zumindest weit entfernt von Hauptverkehrsstraßen anzubauen. Zudem sind regelmäßige Bodenanalysen Pflicht, um die Sicherheit der Lebensmittel zu garantieren.
+    </p>
+    <p>
+      Trotz dieser Herausforderungen blicken Planer optimistisch in die Zukunft. Die Vision einer essbaren Stadt, in der Architektur und Natur verschmelzen, wird immer konkreter. ___ 6 ___ Letztendlich ist Urban Farming mehr als nur ein Trend; es ist ein notwendiger Schritt, um unsere Städte in Zeiten des Klimawandels lebenswerter und unabhängiger zu machen.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies stärkt den Zusammenhalt in der Nachbarschaft und wirkt der Einsamkeit entgegen.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die Qualität der Erzeugnisse sollte daher im Labor sorgfältig geprüft werden.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Große Ackerflächen werden in Zukunft komplett durch digitale Farmen ersetzt.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Wer einmal eine sonnengereifte Tomate vom eigenen Balkon gegessen hat, weiß das zu schätzen.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Es fehlt schlichtweg am Platz für großflächige landwirtschaftliche Nutzung im Zentrum.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Diese High-Tech-Lösungen sind jedoch oft sehr teuer in der Anschaffung und Wartung.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> In Singapur gibt es bereits ganze Hochhäuser, die nur der Nahrungsproduktion dienen.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Die Landwirte auf dem Land fürchten jedoch um ihre Existenzgrundlage durch die neue Konkurrenz.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Rolle des Fahrrades als primäres Verkehrsmittel in Münster betont?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird argumentiert, dass Radfahren wegen der schwierigen Situation für Autofahrer besonders beliebt ist?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... hebt der Autor hervor, dass es kaum einen Einwohner gibt, der kein Fahrrad besitzt?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird darauf aufmerksam gemacht, dass Radfahren in dieser Stadt weniger Kraft kostet als anderswo?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... schildert der Artikel die Situation im Bereich hinter dem Hauptbahnhof?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird auf ein historisches Problem bei der Verkehrsplanung des Stadtzentrums hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird ausgeführt, dass zunächst eine skeptische Haltung gegenüber einer neuen Radstation bestand?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>MÜNSTER: Universitäts- und Radfahrerstadt</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Münster in Westfalen gilt als Fahrradstadt par excellence. Das im Volksmund oft "Leeze" genannte Rad prägt das Stadtbild massiv. Von den täglich durchgeführten Fahrten werden bis zu 40% mit dem Fahrrad zurückgelegt – ein Spitzenwert im Vergleich zu anderen deutschen Städten. Umfragen ergeben, dass nur etwa 7% der Bevölkerung kein eigenes Rad besitzen. Die Gesamtzahl der Fahrräder in der Stadt wird auf über eine halbe Million geschätzt, was bei schlechtem Wetter jedoch auch zu Problemen mit wild abgestellten Rädern führt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Die größte Fahrradstation Deutschlands befindet sich direkt am Hauptbahnhof von Münster. Während des Baus wurde das Projekt von vielen Bürgern noch äußerst kritisch beäugt und als unnötige Geldausgabe abgetan. Doch der Erfolg gab den Planern recht: Die über 3.000 Stellplätze sind fast immer ausgebucht. Früher blockierten abgestellte Räder oft den gesamten Bahnhofsvorplatz, was heute durch die Station deutlich verbessert wurde.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Ein grund für die Beliebtheit ist die Infrastruktur. Es gibt zahlreiche Sonderregeln, wie die Fahrradschleusen an Ampeln, die Radlern Vorrang gewähren. Ein historisches Erbe stellt jedoch die enge Bebauung der Innenstadt dar, die über Jahrhunderte gewachsen ist. Da die Straßen im Kern kaum verbreitert werden können, wurde vielerorts ein Einbahnstraßensystem eingeführt, das für Radfahrer jedoch oft in Gegenrichtung freigegeben ist.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Für Autofahrer ist die Innenstadt ein schwieriges Pflaster: Viele Bereiche sind gesperrt, Parkplätze sind Mangelware und extrem teuer. Dies motiviert viele Pendler, auf das Rad umzusteigen. Hinzu kommt die topografische Lage: Münster ist extrem flach. Ohne nennenswerte Steigungen ist die Fortbewegung mit dem Rad deutlich weniger anstrengend als in Städten mit mehr Höhenunterschieden, was das Radeln für alle Altersgruppen attraktiv macht.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Besonders prekär war lange Zeit die Situation auf der Rückseite des Bahnhofs. Dort herrschte oft ein "Wildwuchs" an Fahrrädern, die Gehwege und Zugänge versperrten. Erst durch gezielte neugestaltung und den Bau von zusätzlichen, wesentlich größeren Fahrradständern in diesem Gebiet konnte das Ordnungsamt die Lage beruhigen. Dennoch bleibt die Menge an herrenlosen Rädern ein ständiges Ärgernis für die Stadtverwaltung.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: wikipedia.org, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Stadt der Zukunft: Wie Fahrräder unsere Innenstädte verändern</h3>
+    <p>In vielen europäischen Großstädten hat ein grundlegender Wandel begonnen: Der private Pkw verliert an Bedeutung, während das Fahrrad als ernstzunehmendes Verkehrsmittel immer stärker in den Fokus der Stadtplaner rückt. Städte wie Amsterdam, Kopenhagen oder Utrecht gelten heute als Vorbilder für eine gelungene Fahrradinfrastruktur, die nicht nur ökologisch, sondern auch wirtschaftlich vorteile bietet. In Deutschland hinkt man vielerorts noch hinterher, doch die Richtung ist klar: Die Verkehrswende auf zwei Rädern hat begonnen.</p>
+    <p>Der Ausbau von Radwegen ist dabei nur ein erster Schritt. Viel wichtiger ist die konsequente Trennung der Verkehrsströme. Überall dort, wo Fahrräder und Kraftfahrzeuge auf engem Raum miteinander konkurrieren, entstehen gefährliche Situationen. Breite, gut markierte Radstreifen, die durch physische Barrieren vom Autoverkehr getrennt sind, senken die Unfallzahlen nachweislich. In Kopenhagen etwa ist die Zahl der schweren Fahrradunfälle in den letzten zwei Jahrzehnten trotz eines massiven Anstiegs der Radfahrerzahlen kontinuierlich gesunken.</p>
+    <p>Ein weiterer Schlüsselfaktor ist die sichere Abstellmöglichkeit. Wer sein Fahrrad nicht sicher parken kann, greift im Zweifel doch wieder auf das Auto zurück. Moderne Fahrradparkhäuser mit Videoüberwachung und Lademöglichkeiten für E-Bikes entstehen daher direkt an Bahnhöfen und in Innenstadtlagen. Sie machen das Fahrrad zur letzten Meile einer multimodalen Reisekette: Bahn fahren, Rad nehmen, ankommen. Diese Kombination gilt als besonders zukunftsfähig für Pendler aus dem Umland.</p>
+    <p>Die wirtschaftliche Dimension der Fahrradkultur wird häufig unterschätzt. Studien belegen, dass Fahrradfahrer im Einzelhandel zwar weniger pro Einkauf ausgeben als Autofahrer, dafür aber deutlich häufiger in lokalen Geschäften einkaufen. Zudem sind die Infrastrukturkosten für einen Radweg pro Kilometer deutlich geringer als für eine Straße. Hinzu kommen die eingesparten Kosten durch weniger Krankenhausbesuche, da regelmäßiges Radfahren die Volksgesundheit nachweislich verbessert. In den Niederlanden wird dieser volkswirtschaftliche Nutzen bereits offiziell in Stadtentwicklungskonzepte eingerechnet.</p>
+    <p>Kritiker des Fahrradbooms weisen jedoch auf die Grenzen hin. Nicht jeder ist in der Lage, täglich Fahrrad zu fahren – ältere Menschen, körperlich eingeschränkte Personen oder Familien mit kleinen Kindern haben oft keine realistische Alternative zum Auto. Eine Stadt, die nur auf das Fahrrad setzt, riskiert soziale Ausgrenzung. Daher fordern Stadtplaner einen inklusive Ansatz, der verschiedene Mobilitätsformen nebeneinander ermöglicht und fördert, ohne eine einzige Lösung zu bevorzugen.</p>
+    <p>Die Zukunft des städtischen Verkehrs liegt also nicht im Entweder-oder, sondern im intelligenten Miteinander. Fahrräder, öffentliche Verkehrsmittel, Carsharing und in zukünftigen Gebiete vielleicht auch autonome Fahrzeuge müssen nahtlos ineinandergreifen. Digitale Plattformen, die Echtzeitdaten zu Verfügbarkeit und Auslastung aller Verkehrsmittel bündeln, werden dabei eine entscheidende Rolle spielen. Die smarte Stadt der Zukunft ist nicht autofrei, aber sie ist sehr viel fahrradfreundlicher als die Städte von heute.</p>
+    <p>Letztendlich ist die Förderung des Radverkehrs eine politische Entscheidung, die Mut erfordert. Parkplätze zu streichen und Fahrspuren in Radwege umzuwandeln, bringt kurzfristig Proteste. Doch die Lebensqualität in Städten, die diesen Schritt konsequent gegangen sind, hat sich messbar verbessert: weniger Lärm, sauberere Luft und mehr soziales Miteinander im öffentlichen Raum.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; In Kopenhagen ist die Zahl der Fahrradunfälle gestiegen, weil mehr Menschen Rad fahren.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Sichere Abstellmöglichkeiten sind ein wichtiger Faktor, um Menschen zu mehr Radfahren zu bewegen.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Fahrradfahrer geben pro Einkauf mehr Geld aus als Autofahrer.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; In den Niederlanden wird der wirtschaftliche Nutzen des Radverkehrs in Stadtplanungen berücksichtigt.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Ältere Menschen profitieren besonders von modernen Fahrradinfrastrukturen.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Die Trennung von Rad- und Autoverkehr erhöht die Sicherheit nachweislich.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Stadtplaner fordern, dass Autos aus Innenstädten vollständig verbannt werden.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Regelmäßiges Radfahren hat positive Auswirkungen auf die Gesundheit der Bevölkerung.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Digitale Plattformen sollen verschiedene Verkehrsmittel in Echtzeit verknüpfen.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Das Fahrrad eignet sich als Verlängerung einer Bahnreise für Pendler.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Die Einführung von Fahrradwegen führt immer sofort zu einer breiten Akzeptanz in der Bevölkerung.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Fahrradinfrastruktur im internationalen Vergleich<br>
+    <strong>b</strong>&nbsp; Radverkehr als Teil einer modernen Stadtentwicklung<br>
+    <strong>c</strong>&nbsp; Die Geschichte des Fahrrads in Europa
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (702)</h3>
+  <strong>1-d, 2-g, 3-a, 4-e, 5-b, 6-f</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (702)</h3>
+  <strong>7-d, 8-a, 9-d, 10-e, 11-c, 12-b</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (702)</h3>
+  <strong>13-f, 14-r, 15-f, 16-r, 17--, 18-r, 19-f, 20-r, 21-r, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 703,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 (E-Commerce: Psychologie des Kaufens)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Das Internet hat unser Einkaufsverhalten in den letzten zwei Jahrzehnten fundamental verändert.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Warum wir klicken: Die psychologischen Fallen im Online-Shop</h3>
+    <p>
+        <strong>Beispiel:</strong><br><br>
+          In welchem Abschnitt ...<br>
+            <strong>0</strong> wird die Krise der traditionellen Innenstädte durch den Online-Handel erwähnt?
+          </div>
+          <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+            <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>a</span>
+            <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+            <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+            <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+            <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+          </div>
+        </div>
+
+          <p>In welchem Abschnitt ...</p>
+          <ul style='list-style: none; padding: 0;'>
+            <li style='margin-bottom: 15px;'><strong>7</strong> ... wird die Bedeutung des Einkaufserlebnisses vor Ort als Wettbewerbsvorteil genannt?</li>
+            <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass viele Händler mittlerweile auf eine Kombination aus Online- und Offline-Kanälen setzen?</li>
+            <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf das Problem der steigenden Mieten in Top-Lagen als Hindernis für kleine Läden verwiesen?</li>
+            <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Rolle von Fachberatung als entscheidender Faktor für die Kundentreue betont?</li>
+            <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Gastronomieangebote in Kaufhäusern die Aufenthaltsdauer der Kunden erhöhen?</li>
+            <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die ökologische Problematik von massenhaften Retouren im E-Commerce eingegangen?</li>
+          </ul>
+
+          <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Die Zukunft des stationären Handels: Wandel oder Untergang?</h3>
+
+          <div style='margin-bottom: 20px;'>
+            <strong>a</strong> Der Siegeszug des E-Commerce hat viele Traditionsgeschäfte in den Ruin getrieben. Innenstädte, die einst pulsierende Marktplätze waren, kämpfen heute mit Leerstand und einem uniformen Angebot an Ketten. Doch der stationäre Handel ist nicht tot; er muss sich nur neu erfinden. Der Fokus verschiebt sich weg vom reinen Verkauf hin zur Schaffung einer Erlebniswelt, die alle Sinne anspricht und die der Klick im Web nicht bieten kann.
+          </div>
+          <div style='margin-bottom: 20px;'>
+            <strong>b</strong> In einem modernen Kaufhaus geht es heute nicht mehr nur um Waren. Innovative Konzepte integrieren hochwertige Gastronomie und Cafés direkt in die Verkaufsflächen. Dies schafft eine angenehme Atmosphäre und sorgt dafür, dass Kunden länger im Laden verweilen, was statistisch gesehen die Kaufbereitschaft drastisch steigert. Shopping wird so zu einem sozialen Event für die gesamte Familie.
+          </div>
+          <div style='margin-bottom: 20px;'>
+            <strong>c</strong> Ein unschlagbares Pfund des Fachhandels bleibt die persönliche Beratung. In einer Welt voller Informationsüberflutung schätzen Kunden den Experten, der ihnen die Vor- und Nachteile eines Produktes individuell erklärt. Diese Vertrauensbasis führt zu einer starken Kundebindung, die durch Algorithmen kaum zu ersetzen ist. Viele Kunden recherchieren zwar online, kaufen dann aber bewusst im Laden, um diesen Service zu unterstützen.
+          </div>
+          <div style='margin-bottom: 20px;'>
+            <strong>d</strong> Erfolgreiche Unternehmer wissen, dass die Zukunft im "Omnichannel-Marketing" liegt. Sie nutzen den Online-Shop als Schaufenster und die Filiale als Abholstation oder Ort für exklusive Events. Dennoch leiden gerade kleinere inhabergeführte Läden unter den astronomischen Mieten in den City-Lagen. Während Großkonzerne diese Kosten wegstecken, müssen Spezialisten oft in die Randlagen abwandern, was die Vielfalt im Zentrum mindert.
+          </div>
+          <div style='margin-bottom: 20px;'>
+            <strong>e</strong> Während der stationäre Handel mit Fixkosten kämpft, steht der Online-Handel wegen seiner Umweltbilanz in der Kritik. Besonders die Flut an Retouren stellt ein logistisches und ökologisches Desaster dar. Tonnenweise unbenutzte Kleidung wird vernichtet, da die Prüfung und Neuverpackung teurer ist als die Entsorgung. Hier könnte eine gesetzliche Rücksendegebühr Abhilfe schaffen und das Bewusstsein für nachhaltigen Konsum schärfen.
+          </div>
+
+          <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: wirtschaftswoche.de, zu Prüfungszwecken bearbeitet)</p>
+      </div>
+      
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Klicken und Klagen: Verbraucherrechte im Online-Handel</h3>
+    <p>Der Online-Handel hat in den vergangenen Jahren einen beispiellosen Aufschwung erlebt. Immer mehr Menschen kaufen Kleidung, Elektronikartikel oder sogar Lebensmittel bequem von der Couch aus. Doch mit dem Boom wächst auch die Zahl der Beschwerden: falsche Produktbeschreibungen, schwierige Rücksendungen und undurchsichtige Bezahlvorgänge sind nur einige der häufigsten Probleme, mit denen Verbraucher konfrontiert werden. Die Frage ist, wie gut die rechtlichen Rahmenbedingungen die Konsumenten wirklich schützen.</p>
+    <p>Im europäischen Recht gilt beim Online-Kauf grundsätzlich ein 14-tägiges Widerrufsrecht, das bedeutet, dass Käufer Waren ohne Angabe von Gründen zurückschicken dürfen. In der Praxis gestaltet sich dies jedoch oft komplizierter. Manche Anbieter verlangen den Originalkarton, andere akzeptieren nur unbenutzte Ware, wieder andere verlangen eine Rücksendegebühr. Was nach dem Gesetz klar geregelt scheint, führt in der Realität häufig zu Konflikten. Verbraucherschutzorganisationen verzeichnen eine konstant hohe Zahl von Anfragen rund um das Thema Rückgabe.</p>
+    <p>Ein besonders problematisches Feld sind gefälschte Bewertungen. Viele Online-Händler kaufen positive Rezensionen, um ihre Produkte besser erscheinen zu lassen. Für Verbraucher ist es oft unmöglich, echte von gekauften Bewertungen zu unterscheiden. Algorithmen der großen Plattformen sollen zwar gefälschte Rezensionen herausfiltern, doch Studien zeigen, dass ein erheblicher Anteil trotzdem online bleibt. Die EU-Kommission arbeitet an verschärften Transparenzregeln, die Plattformen zur Überprüfung von Bewertungen verpflichten sollen.</p>
+    <p>Auch im Bereich Datenschutz lauern Gefahren. Beim Online-Shopping hinterlassen Verbraucher umfangreiche Datenspuren: Kaufverhalten, Suchanfragen und Zahlungsdaten werden systematisch ausgewertet. Händler nutzen diese Informationen, um dynamische Preissysteme einzusetzen – das bedeutet, dass derselbe Artikel für verschiedene Nutzer unterschiedlich viel kostet. Wer oft und viel kauft, zahlt manchmal mehr als ein Neukunde. Diese Praxis ist in der EU zwar umstritten, aber nicht generell verboten.</p>
+    <p>Ein weiteres zunehmendes Problem ist die Verlängerung der Lieferzeiten ohne Ankündigung. Viele Händler werben mit schneller Zustellung, die dann in der Praxis nicht eingehalten wird. Rechtlich haben Verbraucher bei deutlichen Verzögerungen das Recht, vom Kauf zurückzutreten und eine vollständige Rückerstattung zu verlangen. Doch viele wissen nicht, dass ihnen dieses Recht zusteht, und warten geduldig, auch wenn die Ware wochen- oder monatelang ausbleibt.</p>
+    <p>Insgesamt zeigt sich, dass die rechtlichen Schutzmechanismen zwar vorhanden, aber in der Praxis oft schwer durchzusetzen sind. Verbraucherzentralen empfehlen daher, bei Ungereimtheiten sofort schriftlich zu reklamieren und Fristen zu dokumentieren. Auch die Wahl einer sicheren Zahlungsmethode ist entscheidend: Kreditkartenzahlungen und bestimmte Bezahldienste bieten Käufern oft zusätzliche Absicherungen im Streitfall. Informiert shoppen schützt besser als jedes Gesetz.</p>
+    <p>Die Zukunft des Online-Handels wird maßgeblich davon abhängen, wie viel Vertrauen die Konsumenten in die Plattformen haben. Transparente Bewertungssysteme, ehrliche Preisgestaltung und unkomplizierte Rückgabeprozesse sind keine Luxus, sondern die Grundlage für eine nachhaltige Kundenbeziehung. Unternehmen, die dies verstehen, werden langfristig die Gewinner sein – auch im harten Wettbewerb des digitalen Marktes.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Das 14-tägige Widerrufsrecht gilt bei Online-Käufen in der gesamten EU.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Rücksendebedingungen sind bei allen Online-Händlern einheitlich geregelt.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Gefälschte Bewertungen sind für Verbraucher in der Regel leicht zu erkennen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Dynamische Preissysteme bedeuten, dass verschiedene Nutzer unterschiedliche Preise zahlen können.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Die EU-Kommission plant strengere Regeln zur Überprüfung von Online-Bewertungen.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Bei erheblichen Lieferverspaetungen können Käufer vom Kauf zurücktreten.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Verbraucherzentralen empfehlen, bei Problemen mündlich zu reklamieren.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Kreditkartenzahlungen bieten Käufern im Streitfall zusätzliche Absicherung.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Online-Händler sind in Deutschland verpflichtet, alle Bewertungen zu verifizieren.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Viele Verbraucher sind sich ihrer Rechte bei verspäteten Lieferungen nicht bewusst.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Der Online-Handel hat in den letzten Jahren an Bedeutung verloren.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Rechtliche Grundlagen des europäischen E-Commerce<br>
+    <strong>b</strong>&nbsp; Verbraucherrechte und Risiken beim Online-Shopping<br>
+    <strong>c</strong>&nbsp; Strategien für erfolgreiche Online-Händler
+  </p>
+`,
+    answer: `
+      <div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+        <h3>📝 Lösungen Teil 1 (703)</h3>
+        <strong>1-h, 2-c, 3-b, 4-f, 5-a, 6-d</strong>
+      </div>
+      <div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+        <h3>📝 Lösungen Teil 2 (703)</h3>
+        <strong>7-a, 8-d, 9-d, 10-c, 11-b, 12-e</strong>
+      </div>
+
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (703)</h3>
+  <strong>13-r, 14-f, 15-f, 16-r, 17-r, 18-r, 19-f, 20-r, 21-f, 22-r, 23-f | 24-b</strong>
+</div>
+      `
+  },
+  {
+    id: 704,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 (Mobilität: Die Zukunft des Reisens)",
+    content: `
+      <div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+        <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+        <p style='margin-bottom: 20px; font-style: italic;'>
+          Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+        </p>
+
+        <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+          <strong>Beispiel:</strong><br>
+            <strong>z</strong> In einer globalisierten Welt ist Mobilität zu einer der wichtigsten Ressourcen geworden.
+        </div>
+
+        <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+          <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Schneller als der Schall: Der Traum vom Hyperloop</h3>
+          <p>
+            Stellen Sie sich vor, Sie könnten in weniger als 30 Minuten von München nach Berlin reisen. Was heute wie Science-Fiction klingt, könnte durch die Hyperloop-Technologie bald Realität werden. ___ 0 ___ Doch während Ingenieure weltweit an Prototypen tüfteln, stellen Skeptiker die Wirtschaftlichkeit und Sicherheit dieses visionären Transportsystems infrage.
+          </p>
+          <p>
+            Das physikalische Prinzip hinter dem Hyperloop ist bestechend einfach: In einer fast luftleeren Röhre gleiten Kapseln auf einem Magnetkissen fast ohne Reibungswiderstand. ___ 1 ___ Erreicht werden Geschwindigkeiten von über 1.000 Kilometern pro Stunde, was den Flugverkehr auf Kurz- und Mittelstrecken überflüssig machen könnte. Dies wäre ein gewaltiger Schritt in Richtung klimaneutraler Mobilität.
+          </p>
+          <p>
+            Die größte Herausforderung liegt jedoch im Aufbau der gigantischen Infrastruktur. Das Verlegen tausender Kilometer präzisionsgefertigter Röhren erfordert enorme Investitionen und massive Eingriffe in die Landschaft. ___ 2 ___ In dicht besiedelten Gebieten wie Mitteleuropa stoßen solche Großprojekte zudem oft auf den erbitterten Widerstand von Anwohnern und Naturschützern, was die Planung zusätzlich erschwert.
+          </p>
+          <p>
+            Auch die Sicherheit der Passagiere ist ein zentrales Thema in der aktuellen Debatte. Was passiert bei einem plötzlichen Druckverlust in der Röhre oder einem Stromausfall? ___ 3 ___ Da es bisher keine kommerziellen Teststrecken mit menschlichen Insassen gibt, müssen sich die Entwickler auf komplexe Computersimulationen verlassen. Das Vertrauen der Öffentlichkeit in ein völlig neues System muss erst mühsam aufgebaut werden.
+          </p>
+          <p>
+            Wirtschaftsexperten blicken zudem kritisch auf die hohen Ticketpreise, die am Anfang nötig sein könnten, um die Baukosten zu decken. ___ 4 ___ Wenn der Hyperloop nur einer wohlhabenden Elite vorbehalten bleibt, verfehlt er sein Ziel als Massentransportmittel der Zukunft. Eine breite gesellschaftliche Akzeptanz lässt sich nur über faire Preise und barrierefreien Zugang erreichen.
+          </p>
+          <p>
+            Dennoch investieren Länder wie die Vereinigten Arabischen Emirate oder China Milliarden in die Forschung. Sie sehen darin eine Chance, ihre Rolle als technologische Vorreiter zu festigen. ___ 5 ___ Hierzulande wird der Hyperloop oft noch als "Elon Musks Spielzeug" belächelt, während andere Regionen bereits konkrete Streckenabschnitte planen. Es besteht die Gefahr, dass Europa den Anschluss an diese revolutionäre Entwicklung verliert.
+          </p>
+          <p>
+            Letztendlich wird der Erfolg des Hyperloops davon abhängen, ob er nahtlos in bestehende Verkehrsnetze integriert werden kann. Eine Hochgeschwindigkeitsverbindung bringt wenig, wenn die Anreise zum Bahnhof länger dauert als die eigentliche Fahrt. ___ 6 ___ Die Zukunft des Reisens wird daher nicht durch ein einzelnes System, sondern durch die intelligente Vernetzung verschiedener Verkehrsmittel bestimmt werden.
+          </p>
+        </div>
+
+        <div style='margin-top: 30px;'>
+          <ul style='list-style: none; padding: 0;'>
+            <li style='margin-bottom: 10px;'><strong>a</strong> Dies führt dazu, dass herkömmliche Züge im Vergleich dazu wie Relikte aus einer vergangenen Ära wirken.</li>
+            <li style='margin-bottom: 10px;'><strong>b</strong> Die Kosten pro Kilometer könnten Experten zufolge weit über denen einer modernen Magnetschwebebahn liegen.</li>
+            <li style='margin-bottom: 10px;'><strong>c</strong> Ohne eine schnelle Anbindung durch autonomen Nahverkehr bliebe der Zeitgewinn nur theoretischer Natur.</li>
+            <li style='margin-bottom: 10px;'><strong>d</strong> Rettungsmanöver in einer vakuumähnlichen Umgebung stellen die Ingenieure vor völlig neue Probleme.</li>
+            <li style='margin-bottom: 10px;'><strong>e</strong> Das Projekt "Fliegen auf Schienen" könnte so zum wichtigsten Exportgut der kommenden Jahrzehnte werden.</li>
+            <li style='margin-bottom: 10px;'><strong>f</strong> Die Bahnindustrie fürchtet zudem massiv um ihre Marktanteile und blockiert nötige Innovationen.</li>
+            <li style='margin-bottom: 10px;'><strong>g</strong> Viele Pendler würden jedoch vermutlich lieber weiterhin ihr eigenes Auto im Stau nutzen.</li>
+            <li style='margin-bottom: 10px;'><strong>h</strong> Nur so kann garantiert werden, dass die Energie für den Betrieb auch wirklich aus regenerativen Quellen stammt.</li>
+          </ul>
+        </div>
+      </div>
+      <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+        <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+        <p style='margin-bottom: 20px; font-style: italic;'>
+          Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+        </p>
+
+        <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+          <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+            <strong>Beispiel:</strong><br><br>
+              In welchem Abschnitt ...<br>
+                <strong>0</strong> wird die technologische Basis des Hyperloops (Magnetschwebetechnik) erläutert?
+              </div>
+              <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+                <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>a</span>
+                <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+                <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+                <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+                <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+              </div>
+            </div>
+
+              <p>In welchem Abschnitt ...</p>
+              <ul style='list-style: none; padding: 0;'>
+                <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf das enorme Potenzial von elektrischen Lufttaxis zur Entlastung des Stadtverkehrs hingewiesen?</li>
+                <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass die hohen Kosten für die Infrastruktur eines der größten Hindernisse darstellen?</li>
+                <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die geringe Lärmbelastung von Elektromotoren im Vergleich zu herkömmlichen Triebwerken verwiesen?</li>
+                <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die begrenzte Reichweite aktueller Batterietechnologie als zentrales Problem benannt?</li>
+                <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass autonomes Fliegen die Sicherheit im Luftraum erhöhen könnte?</li>
+                <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die Vision einer komplett vernetzten, intermodalen Mobilitätskette eingegangen?</li>
+              </ul>
+
+              <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Elektrisches Fliegen: Die dritte Dimension der Mobilität</h3>
+
+              <div style='margin-bottom: 20px;'>
+                <strong>a</strong> Während der Hyperloop auf Schienen in Vakuumröhren setzt, drängt ein anderer Trend in die Luft: Urban Air Mobility. Elektrisch betriebene, senkrecht startende Lufttaxis (eVTOLs) sollen in Zukunft Staus am Boden einfach überfliegen. Diese Vision verspricht eine Revolution für verstopfte Megastädte, in denen der Ausbau der Straßentechnik an seine physikalischen Grenzen gestoßen ist. Erste Testflüge in Dubai und Paris zeigen, dass die Technik bereits ausgereift ist.
+              </div>
+              <div style='margin-bottom: 20px;'>
+                <strong>b</strong> Ein wesentlicher Vorteil des elektrischen Antriebs ist die Akustik. Da keine fossilen Verbrennungsprozesse stattfinden, arbeiten die Motoren fast lautlos. Dies ermöglicht den Betrieb auf Landeplätzen inmitten von Wohngebieten, was mit konventionellen Hubschraubern aufgrund des Lärmschutzes undenkbar wäre. Bewohner müssten also keine permanente Geräuschbelastung durch den Pendelverkehr von oben befürchten.
+              </div>
+              <div style='margin-bottom: 20px;'>
+                <strong>c</strong> Achillesferse der Luftfahrt-Elektrifizierung bleibt jedoch die Energiespeicherung. Herkömmliche Lithium-Ionen-Akkus besitzen eine viel zu geringe Energiedichte im Vergleich zu Kerosin. Für Kurzstrecken innerhalb einer Stadt reicht die Ladung zwar aus, doch für Langstreckenflüge zwischen Städten ist das Gewicht der Batterien derzeit noch ein prohibitiver Faktor. Die Forschung an Feststoffbatterien läuft daher auf Hochtouren.
+              </div>
+              <div style='margin-bottom: 20px;'>
+                <strong>d</strong> Viele Experten sehen in der Autonomie den Schlüssel zum Massenmarkt. Algorithmen reagieren schneller und präziser als menschliche Piloten und könnten so das Risiko von Kollisionen im dreidimensionalen Korridor minimieren. Zudem senkt der Wegfall des Piloten die Betriebskosten erheblich. Dennoch ist die Akzeptanz in der Bevölkerung noch gering; viele Menschen haben vor einem führerlosen Fluggerät instinktiv mehr Angst als vor einem gesteuerten.
+              </div>
+              <div style='margin-bottom: 20px;'>
+                <strong>e</strong> Die größte Hürde ist nicht die Maschine selbst, sondern das "Drumherum". Der Aufbau eines Netzes von Start- und Landeplätzen (Vertiports) auf Dächern oder über Bahnhöfen verschlingt Milliarden. Zudem muss die Mobilität der Zukunft nahtlos funktionieren: Per App bucht man das Lufttaxi, das einen zur Hyperloop-Station bringt, von wo aus man mit Lichtgeschwindigkeit das Land durchquert. Diese intermodale Vernetzung ist das Endziel einer smarten Verkehrswende.
+              </div>
+
+              <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: aero.de, zu Prüfungszwecken bearbeitet)</p>
+          </div>
+          
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Stecker statt Tankrüssel: Die Realität der Elektromobilität</h3>
+    <p>Die Elektromobilität gilt vielen als die Antwort auf die Klimakrise im Verkehrssektor. Staatliche Kaufprämien, Steuervorteile und ambitionierte Zulassungsziele der Europäischen Union haben den Absatz von Elektroautos in den letzten Jahren deutlich angekurbelt. Doch trotz aller Fortschritte hinkt die Realität oft dem Versprechen hinterher. Ladeinfrastruktur, Reichweite und Anschaffungskosten bleiben für viele potenzielle Käufer zentrale Hürden.</p>
+    <p>Das Ladenetz in Deutschland wird zwar kontinuierlich ausgebaut, doch die geografische Verteilung ist nach wie vor ungleichmäßig. Während Städte und Autobahnen gut versorgt sind, klafft auf dem Land noch immer eine erhebliche Lücke. Wer in einem ländlichen Gebiet wohnt und kein eigenes Haus mit Garage und Wallbox besitzt, muss für das Laden seines Fahrzeugs oft weite Wege in Kauf nehmen. Kritiker sprechen von einer drohenden Zweiklassengesellschaft der Mobilität.</p>
+    <p>Die Reichweite der Fahrzeuge verbessert sich von Modell zu Modell, liegt aber bei Alltagsbedingungen – vor allem im Winter – oft deutlich unter den beworbenen Herstellerangaben. Heizung, Klimaanlage und Fahrstil beeinflussen den Energieverbrauch erheblich. Für Pendler mit kurzen Strecken ist dies kein Problem, für Fernreisende mit Wohnanhänger hingegen erfordert jede Fahrt sorgfältige Planung. Das sogenannte Reichweiten-Angst ist zwar psychologisch und nicht immer rational, bleibt aber ein reales Kaufhindernis.</p>
+    <p>Ein weiterer Aspekt ist die Frage nach der ökologischen Bilanz. Elektroautos stoßen im Betrieb zwar kein CO2 aus, doch die Herstellung der Batterien ist energieintensiv und verbraucht seltene Rohstoffe wie Lithium und Kobalt, deren Abbau in Entwicklungsländern oft mit erheblichen sozialen und ökologischen Problemen verbunden ist. Erst wenn der Strom, der das Fahrzeug antreibt, vollständig aus erneuerbaren Quellen stammt, ist die Klimabilanz wirklich positiv. In Deutschland mit seinem noch immer erheblichen Anteil an fossilen Energieträgern im Strommix ist dieser Punkt besonders relevant.</p>
+    <p>Auf der Kostenseite sinken die Preise für Elektroautos langsam, liegen aber immer noch deutlich über denen vergleichbarer Verbrennermodelle. Staatliche Förderungen haben dies bisher teilweise ausgeglichen, werden aber schrittweise reduziert. Langfristig sollen niedrigere Betriebskosten durch günstigere Energiepreise und geringere Wartungsaufwände den höheren Kaufpreis kompensieren. Ob dieser Punkt für den Durchschnittskunden tatsächlich eintritt, hängt stark vom individuellen Fahrprofil ab.</p>
+    <p>Die Automobilindustrie investiert massiv in die Entwicklung neuer Batterietechnologien. Festkörperbatterien gelten als der nächste große Durchbruch: Sie sollen eine deutlich höhere Energiedichte bei geringerem Gewicht bieten und schneller laden. Erste serienreife Modelle werden für Ende des Jahrzehnts erwartet. Wenn diese Versprechen halten, könnte die Elektromobilität tatsächlich zur Massentechnologie werden, die sie heute noch nicht vollständig ist.</p>
+    <p>Insgesamt zeigt sich, dass die Elektromobilität auf dem richtigen Weg ist, aber noch einige technologische und infrastrukturelle Hürden nehmen muss. Eine realistische Betrachtung erfordert, weder Euphorie noch Pessimismus, sondern sachliche Analyse der Chancen und verbleibenden Herausforderungen.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Staatliche Kaufprämien haben den Kauf von Elektroautos in Deutschland deutlich gesteigert.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Das Ladenetz in Deutschland ist auf dem Land genauso gut wie in der Stadt.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Die tatsächliche Reichweite eines Elektroautos kann im Winter unter dem Herstellerwert liegen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Die Herstellung von Elektroauto-Batterien ist vollständig umweltfreundlich.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Lithium und Kobalt werden für die Batterieproduktion benötigt.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Elektroautos sind im Kauf aktuell günstiger als vergleichbare Verbrenner.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Festkörperbatterien sollen eine höhere Energiedichte als heutige Batterien bieten.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; In Deutschland stammt der gesamte Strom für Elektroautos aus erneuerbaren Quellen.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Elektroautos haben im Betrieb niedrigere Wartungskosten als Verbrenner.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Reichweiten-Angst ist ausschließlich ein rationales Problem.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Staatliche Förderungen für Elektroautos werden schrittweise reduziert.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Technologiegeschichte des Elektroantriebs<br>
+    <strong>b</strong>&nbsp; Chancen und Herausforderungen der Elektromobilität heute<br>
+    <strong>c</strong>&nbsp; Kaufratgeber für Elektrofahrzeuge
+  </p>
+`,
+    answer: `
+          <div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+            <h3>📝 Lösungen Teil 1 (704)</h3>
+            <strong>1-b, 2-f, 3-a, 4-d, 5-h, 6-c</strong>
+          </div>
+          <div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+            <h3>📝 Lösungen Teil 2 (704)</h3>
+            <strong>7-a, 8-e, 9-b, 10-c, 11-d, 12-e</strong>
+          </div>
+
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (704)</h3>
+  <strong>13-r, 14-f, 15-r, 16-f, 17-r, 18-f, 19-r, 20-f, 21-r, 22-f, 23-r | 24-b</strong>
+</div>
+          `
+  },
+  {
+    id: 705,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 (Arbeitswelt: Work-Life-Blending)",
+    content: `
+          <div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+            <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+            <p style='margin-bottom: 20px; font-style: italic;'>
+              Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+            </p>
+
+            <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+              <strong>Beispiel:</strong><br>
+                <strong>z</strong> Die klassische Trennung von Arbeit und Freizeit scheint in vielen Berufsfeldern ein Auslaufmodell zu sein.
+            </div>
+
+            <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+              <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Fließende Grenzen: Die Ära des Work-Life-Blending</h3>
+              <p>
+                Früher war alles klar geregelt: Um 17 Uhr war Feierabend, man schloss die Bürotür hinter sich und war bis zum nächsten Morgen privat. ___ 0 ___ Heute sorgt die ständige Verfügbarkeit via Smartphone und Laptop dafür, dass wir auch am Wochenende E-Mails lesen oder während der Arbeitszeit private Erledigungen am Computer machen.
+              </p>
+              <p>
+                Dieses neue Konzept, das als "Work-Life-Blending" bezeichnet wird, verspricht eine höhere Flexibilität und Selbstbestimmung. Man kann den Nachmittag mit den Kindern verbringen und dafür die komplexe Präsentation erst spätabends fertigstellen, wenn im Haus Ruhe eingekehrt ist. ___ 1 ___ Arbeitgeber profitieren von hochmotivierten Mitarbeitern, die nicht mehr stur nach Stechuhr arbeiten, sondern ergebnisorientiert denken.
+              </p>
+              <p>
+                Doch Psychologen warnen eindringlich vor den gesundheitlichen Folgen dieser schleichenden Entgrenzung. Wenn wir nie wirklich "offline" sind, findet das Gehirn nicht mehr die nötigen Phasen der Regeneration. ___ 2 ___ Die Zahl der stressbedingten Krankschreibungen und Burnout-Fälle ist in den letzten Jahren in Branchen mit hoher digitaler Durchdringung signifikant gestiegen. Ohne klare Pausen droht die Akkumulation von Erschöpfung.
+              </p>
+              <p>
+                Zudem leiden oft die sozialen Kontakte außerhalb der beruflichen Filterblase unter der ständigen Erreichbarkeit. Ein Abendessen mit Freunden, bei dem alle paar Minuten der Blick auf das vibrierende Display wandert, verliert massiv an Qualität. ___ 3 ___ Viele junge Arbeitnehmer empfinden es jedoch bereits als völlig normal, auch im Urlaub kurz für wichtige Projekte erreichbar zu sein, was die Erholungswirkung fast vollständig vernichtet.
+              </p>
+              <p>
+                Unternehmen stehen nun vor der Herausforderung, neue Regeln für diese hybride Welt zu definieren. Einige Konzerne haben bereits reagiert und schalten nach Feierabend die internen E-Mail-Server ab. ___ 4 ___ Ziel ist es, die Mitarbeiter vor sich selbst und dem empfundenen Erwartungsdruck der Vorgesetzten zu schützen. Wahre Kreativität entsteht oft erst in den Momenten des Nichtstuns, die wir uns heute kaum noch gönnen.
+              </p>
+              <p>
+                Auch die rechtliche Komponente des Arbeitnehmerschutzes muss dringend überarbeitet werden. Aktuelle Gesetze gehen oft noch von einer klassischen Präsenzpflicht im Betrieb aus und können mobile Arbeitsformen kaum erfassen. ___ 5 ___ Gewerkschaften fordern daher ein gesetzlich verbrieftes "Recht auf Nichterreichbarkeit", um der schleichenden Ausbeutung im Homeoffice einen Riegel vorzuschieben.
+              </p>
+              <p>
+                Am Ende des Tages liegt es jedoch auch an jedem Einzelnen, für sich selbst gesunde Grenzen zu ziehen. Selbstdisziplin ist die wichtigste Kompetenz in einer Welt ohne festen Feierabend. ___ 6 ___ Nur wer lernt, das Gerät auch einmal ganz bewusst zur Seite zu legen, wird langfristig seine Leistungsfähigkeit und Lebenszufriedenheit erhalten können. Work-Life-Blending sollte eine Freiheit sein, keine neue Form der Fessel.
+              </p>
+            </div>
+
+            <div style='margin-top: 30px;'>
+              <ul style='list-style: none; padding: 0;'>
+                <li style='margin-bottom: 10px;'><strong>a</strong> Früher war dies jedoch durch die technologische Ausstattung gar nicht anders möglich.</li>
+                <li style='margin-bottom: 10px;'><strong>b</strong> Die Gefahr der totalen Erschöpfung wird dabei jedoch oft erst bemerkt, wenn es bereits zu spät ist.</li>
+                <li style='margin-bottom: 10px;'><strong>c</strong> Solche technischen Schutzmaßnahmen allein reichen jedoch ohne ein Umdenken in der Kultur nicht aus.</li>
+                <li style='margin-bottom: 10px;'><strong>d</strong> Der Fokus verschiebt sich also weg von der Anwesenheit hin zur tatsächlichen Leistung.</li>
+                <li style='margin-bottom: 10px;'><strong>e</strong> Dies führt dazu, dass herkömmliche Überwachungsmechanismen wie Zeiterfassungssysteme ins Leere laufen.</li>
+                <li style='margin-bottom: 10px;'><strong>f</strong> Es geht darum, eine neue Form der persönlichen Souveränität im Umgang mit digitalen Medien zu entwickeln.</li>
+                <li style='margin-bottom: 10px;'><strong>g</strong> Wahre Freundschaften brauchen eben Zeit und ungeteilte Aufmerksamkeit ohne digitale Störungen.</li>
+                <li style='margin-bottom: 10px;'><strong>h</strong> Viele Angestellte kündigen jedoch lieber, anstatt sich diesem permanenten Stress auszusetzen.</li>
+              </ul>
+            </div>
+          </div>
+          <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+            <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+            <p style='margin-bottom: 20px; font-style: italic;'>
+              Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+            </p>
+
+            <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+              <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+                <strong>Beispiel:</strong><br><br>
+                  In welchem Abschnitt ...<br>
+                    <strong>0</strong> wird die Definition von 'Work-Life-Blending' als Auflösung starrer Grenzen gegeben?
+                  </div>
+                  <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+                    <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+                    <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+                    <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+                    <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+                    <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+                  </div>
+                </div>
+
+                  <p>In welchem Abschnitt ...</p>
+                  <ul style='list-style: none; padding: 0;'>
+                    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird das Phänomen des 'Quiet Quitting' als Reaktion auf Überlastung beschrieben?</li>
+                    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass ständige Erreichbarkeit das Risiko für Burnout massiv erhöht?</li>
+                    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die Vorteile von flexiblen Arbeitszeiten für junge Familien verwiesen?</li>
+                    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Notwendigkeit von klaren Regeln zur digitalen Abgrenzung im Homeoffice betont?</li>
+                    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Unternehmenskulturen, die nur Präsenz belohnen, veraltet sind?</li>
+                    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die steigende Bedeutung von psychologischer Sicherheit am Arbeitsplatz eingegangen?</li>
+                  </ul>
+
+                  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Die neue Arbeitswelt: Zwischen Freiheit und Selbstausbeutung</h3>
+
+                  <div style='margin-bottom: 20px;'>
+                    <strong>a</strong> Work-Life-Blending beschreibt den Zustand, in dem Berufs- und Privatleben nicht mehr strikt getrennt sind. Dank Smartphone und Cloud-Diensten können viele Aufgaben jederzeit und von überall erledigt werden. Was zunächst nach Freiheit klingt – die E-Mails beim Warten am Flughafen checken oder den Wocheneinkauf während einer Telefonkonferenz erledigen –, birgt die Gefahr, dass man nie wirklich zur Ruhe kommt. Die Grenzen zwischen "on" und "off" verschwimmen zusehends.
+                  </div>
+                  <div style='margin-bottom: 20px;'>
+                    <strong>b</strong> Besonders für Millennials und die Generation Z steht nicht mehr das Gehalt an erster Stelle, sondern die Vereinbarkeit von Beruf und Freizeit. Viele junge Eltern schätzen die Möglichkeit, tagsüber Zeit mit ihren Kindern zu verbringen und die restliche Arbeit am Abend nachzuholen. Diese Flexibilität ist ein starkes Argument im Kampf um Talente. Firmen, die stur auf Präsenzpflicht von 9 bis 17 Uhr beharren, haben in der modernen Arbeitswelt bereits verloren.
+                  </div>
+                  <div style='margin-bottom: 20px;'>
+                    <strong>c</strong> Die Kehrseite der Medaille ist die psychische Belastung. Wer abends im Bett noch berufliche Nachrichten beantwortet, gibt seinem Gehirn keine Chance auf Regeneration. Studien zeigen, dass diese permanente Alarmbereitschaft ein Haupttreiber für Erschöpfungszustände und klinisches Burnout ist. Die physische Trennung vom Büro als sicherem Ort der Arbeit geht verloren, was das Stresslevel dauerhaft auf einem hohen Niveau hält.
+                  </div>
+                  <div style='margin-bottom: 20px;'>
+                    <strong>d</strong> Als Gegenbewegung zum Leistungsdruck hat sich das "Quiet Quitting" etabliert. Hierbei kündigen Mitarbeiter nicht real, sondern innerlich: Sie erledigen exakt das, was im Vertrag steht – keine Sekunde mehr, keine zusätzliche Verantwortung. Es ist ein stiller Protest gegen eine Kultur, die Selbstoptimierung und Überstunden als Normalität voraussetzt. HR-Experten sehen darin einen Schrei nach psychologischer Sicherheit und mehr Wertschätzung.
+                  </div>
+                  <div style='margin-bottom: 20px;'>
+                    <strong>e</strong> Um im Homeoffice nicht auszubrennen, sind radikale Selbstdisziplin und klare Absprachen nötig. Arbeitgeber müssen ihren Angestellten explizit das "Recht auf Nichterreichbarkeit" einräumen. Nur wenn Führungskräfte vorleben, dass nach Feierabend keine Reaktion auf Nachrichten erwartet wird, kann das Modell funktionieren. Letztendlich muss jeder Einzelne lernen, die digitalen Geräte bewusst wegzulegen, um den privaten Raum zu schützen.
+                  </div>
+
+                  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: zeit.de, zu Prüfungszwecken bearbeitet)</p>
+              </div>
+              
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Zuhause und doch nie weg: Homeoffice und seine Folgen</h3>
+    <p>Die Coronapandemie hat das Homeoffice in kürzester Zeit vom Ausnahmefall zur Selbstverständlichkeit gemacht. Millionen von Beschäftigten arbeiten seitdem teilweise oder vollständig von zu Hause. Was zunächst als vorübergehende Notlösung galt, hat sich in vielen Branchen dauerhaft etabliert. Arbeitgeber schätzen die höhere Flexibilität und manche Studien zeigen sogar Produktivitätssteigerungen, doch die Auswirkungen auf die psychische Gesundheit der Mitarbeiter sind vielschichtiger, als sie auf den ersten Blick erscheinen.</p>
+    <p>Ein zentrales Problem des Homeoffice ist die fehlende klare Trennung zwischen Arbeit und Privatleben. In einem Unternehmen ist der physische Wechsel zwischen Büro und Wohnung gleichzeitig ein mentaler Übergang: Man kommt aus der Arbeitswelt heraus und betritt die private Sphäre. Zu Hause verschwimmen diese Grenzen. Wer seinen Laptop abends nicht zuklappt, arbeitet im Extremfall bis tief in die Nacht. Der ständige Blick auf Nachrichten und E-Mails verhindert echte Erholung.</p>
+    <p>Hinzu kommt die soziale Isolation. Gerade für Menschen, die in Einzelhaushalten leben, kann das Homeoffice das Gefühl von Einsamkeit dramatisch verstärken. Der spontane Austausch mit Kollegen in der Kaffeepause, das gemeinsame Mittagessen oder das informelle Gespräch auf dem Flur – all das entfällt. Videokonferenzen können menschliche Nähe nur bedingt ersetzen. Psychologen beobachten, dass das Homeoffice besonders für soziale Menschen, die Energie aus dem Kontakt mit anderen schöpfen, eine erhebliche Belastung darstellt.</p>
+    <p>Auf der anderen Seite bietet das Homeoffice für viele Menschen echte Vorteile. Der wegfallende Pendelweg spart Zeit und Nerven. Eltern können flexibler auf die Bedürfnisse ihrer Kinder reagieren. Introvertierte Beschäftigte, die in Großraumbüros unter dem ständigen Lärm leiden, finden zu Hause oft bessere Konzentrationsbedingungen. Die Autonomie über die eigene Arbeitszeit kann das Gefühl von Selbstbestimmung stärken und die allgemeine Arbeitszufriedenheit erhöhen.</p>
+    <p>Arbeitgeber tragen nach Ansicht von Experten Mitverantwortung für das Wohlbefinden ihrer Mitarbeiter im Homeoffice. Virtuelle Team-Rituale, regelmäßige Einzelgespräche mit Führungskräften und klar kommunizierte Erwartungen können helfen, das Gefühl von Zugehörigkeit zu stärken. Unternehmen, die ihren Mitarbeitern zusätzliche psychologische Unterstützungsangebote machen – etwa Coaching oder Zugang zu Apps für mentale Gesundheit – zeigen Verantwortungsbewusstsein.</p>
+    <p>Die Lösung liegt wahrscheinlich nicht im Extrem. Weder vollständiges Homeoffice noch tägliche Präsenzpflicht werden für alle Mitarbeiter optimal sein. Hybridmodelle, bei denen Mitarbeiter selbst entscheiden können, wo sie an welchen Tagen arbeiten, gelten derzeit als das vielversprechendste Konzept. Sie vereinen die Vorteile beider Welten und ermöglichen es Führungskräften, persönliche Bedürfnisse der Mitarbeiter besser zu berücksichtigen.</p>
+    <p>Letztlich ist das Homeoffice ein Spiegel unserer gesellschaftlichen Werte: Wie viel Freiheit wollen wir? Wie viel Kontrolle brauchen wir? Die Antworten darauf werden die Arbeitswelt der nächsten Jahrzehnte entscheidend prägen.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Die Coronapandemie hat das Homeoffice dauerhaft in vielen Branchen verankert.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Das Homeoffice erhöht nachweislich immer die Produktivität aller Mitarbeiter.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Fehlende soziale Kontakte können im Homeoffice zu Einsamkeitsgefühlen führen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Videokonferenzen sind ein vollständiger Ersatz für persönliche Begegnungen.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Introvertierte Menschen profitieren besonders von der Arbeit im Homeoffice.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Arbeitgeber haben laut Experten eine Mitverantwortung für das Wohlbefinden ihrer Mitarbeiter.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Hybridmodelle gelten als die optimale Lösung für alle Mitarbeiter gleichermaßen.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Der wegfallende Pendelweg spart Zeit und wird als Vorteil des Homeoffice gesehen.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Unternehmen, die psychologische Unterstützung bieten, handeln unverantwortlich.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Einpersonenhaushalte können durch das Homeoffice stärker von Isolation betroffen sein.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Das Homeoffice ist in Deutschland inzwischen gesetzlich für alle Berufe vorgeschrieben.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Psychologische Auswirkungen des Homeoffice auf Arbeitnehmer<br>
+    <strong>b</strong>&nbsp; Produktivitätssteigerung im Homeoffice durch digitale Tools<br>
+    <strong>c</strong>&nbsp; Die Geschichte der Telearbeit in Deutschland
+  </p>
+`,
+    answer: `
+              <div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+                <h3>📝 Lösungen Teil 1 (705)</h3>
+                <strong>1-g, 2-b, 3-e, 4-c, 5-f, 6-a</strong>
+              </div>
+              <div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+                <h3>📝 Lösungen Teil 2 (705)</h3>
+                <strong>7-d, 8-c, 9-b, 10-e, 11-b, 12-d</strong>
+              </div>
+
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (705)</h3>
+  <strong>13-r, 14-f, 15-r, 16-f, 17-r, 18-r, 19-f, 20-r, 21-f, 22-r, 23-f | 24-a</strong>
+</div>
+              `
+  },
+  {
+    id: 706,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Achtsamkeit im digitalen Zeitalter)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Achtsamkeit wird oft als bloßes Modewort abgetan, dabei ist sie eine jahrtausendealte Praxis zur Beruhigung des Geistes.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Die Kunst des Innehaltens: Achtsamkeit im digitalen Zeitalter</h3>
+    <p>
+      In einer Welt, die sich immer schneller dreht, suchen viele Menschen nach einem Anker. Wir sind permanent von Informationen umgeben und unser Gehirn ist ständig im Multitasking-Modus. ___ 0 ___ Diese Überreizung führt oft dazu, dass wir den Kontakt zu unserem eigenen Körper und unseren Bedürfnissen verlieren. Achtsamkeitstraining bietet hier einen Weg zurück zur inneren Balance.
+    </p>
+    <p>
+      Der Kern der Praxis besteht darin, den gegenwärtigen Moment bewusst und wertfrei wahrzunehmen. Es geht nicht darum, die Gedanken auszuschalten, sondern sie wie Wolken am Himmel vorbeiziehen zu lassen. ___ 1 ___ Wer regelmäßig meditiert, lernt, auf äussere Reize weniger impulsiv zu reagieren. Die graue Substanz im Gehirn, die für die Emotionsregulation zuständig ist, kann sich durch gezieltes Training nachweislich verändern.
+    </p>
+    <p>
+      Besonders am Arbeitsplatz gewinnt Achtsamkeit an Bedeutung. Große Konzerne bieten inzwischen Kurse für ihre Mitarbeiter an, um die Stressresistenz zu erhöhen. ___ 2 ___ Kritiker werfen diesen Programmen jedoch vor, dass sie nur dazu dienen, die Leistungsfähigkeit der Angestellten weiter zu maximieren. Statt die strukturellen Ursachen von Überlastung anzugehen, werde die Verantwortung für die Gesundheit komplett auf das Individuum abgewälzt.
+    </p>
+    <p>
+      Aber Achtsamkeit ist mehr als nur eine Entspannungstechnik für den Feierabend. Sie kann unsere gesamte Wahrnehmung der Welt verändern. Wenn wir lernen, Kleinigkeiten wieder wertzuschätzen, sinkt das Bedürfnis nach ständigem Konsum und äusserer Bestätigung. ___ 3 ___ Wir werden empathischer gegenüber uns selbst und anderen, was die Qualität unserer Beziehungen massiv verbessern kann. Ein achtsamer Umgang mit Konflikten führt oft zu nachhaltigeren Lösungen als eine konfrontative Haltung.
+    </p>
+    <p>
+      Doch der Weg zur Meisterschaft ist steinig und erfordert Disziplin. In den ersten Wochen fühlen sich viele Anfänger eher gestresst als entspannt, da sie plötzlich mit der Unruhe in ihrem Inneren konfrontiert werden. ___ 4 ___ Wer jedoch durchhält, wird bald feststellen, dass die Momente der Stille immer kostbarer werden. Es ist ein lebenslanger Lernprozess, der kein festes Ziel kennt, sondern jeden Tag aufs Neue beginnt.
+    </p>
+    <p>
+      Besonders effektiv ist die Kombination mit Naturerfahrungen. "Waldbaden" oder einfaches Spazierengehen ohne Smartphone hilft dabei, die Sinne wieder zu schärfen. ___ 5 ___ Die Gerüche, Geräusche und Farben der Natur wirken wie manch ein Medikament direkt auf das Nervensystem. In Japan ist diese Form der Therapie sogar staatlich anerkannt und wird von Ärzten auf Rezept verschrieben.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass Achtsamkeit keine Flucht vor der Realität ist, sondern eine intensivere Hinwendung zu ihr. ___ 6 ___ Nur wer bei sich selbst ankommt, kann auch die Herausforderungen der modernen Welt mit Klarheit und Gelassenheit meistern. In der Stille liegt oft mehr Kraft als in der lautesten Aktivität.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies führt zu einer tieferen Zufriedenheit, die unabhängig von materiellen Gütern ist.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die wissenschaftliche Erforschung dieser Phänomene steht zwar noch am Anfang, ist aber vielversprechend.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Dies ist eine Form der Selbstoptimierung, die den eigentlichen spirituellen Kern der Praxis verrät.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Der Fokus verschiebt sich also weg von der reinen Funktionalität hin zum bewussten Sein.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Es ist ganz normal, dass das Gehirn anfangs gegen die ungewohnte Ruhe rebelliert.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Man sollte sich daher nicht entmutigen lassen, wenn die ersten Versuche frustrierend verlaufen.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das bewusste Atmen dient dabei als Brücke zwischen Geist und Körper.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Früher war das Leben zwar körperlich anstrengender, aber geistig weniger fragmentiert.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Notwendigkeit einer bewussten Auszeit von digitalen Medien (Digital Detox) betont?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird die physische Auswirkung von blauem Bildschirmlicht auf den Schlafrhythmus erläutert?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass soziale Medien durch ständige Vergleiche das Selbstwertgefühl mindern können?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die Vorteile von analogen Hobbys als Ausgleich zum digitalen Alltag verwiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Rolle von Benachrichtigungen (Push-Notifications) als ständige Störquelle beschrieben?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass eine komplette Abstinenz vom Internet beruflich oft nicht möglich ist?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die steigende Zahl von Burnout-Fällen im Zusammenhang mit digitaler Überlastung eingegangen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Abschalten zum Auftanken: Wege aus der digitalen Sucht</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Digital Detox bedeutet nicht, die Technik komplett zu verteufeln, sondern einen bewussten Umgang mit ihr zu erlernen. In einer Welt, in der wir im Durchschnitt alle 12 Minuten auf unser Handy schauen, ist die Fähigkeit zum "Offline-Gehen" zu einer Überlebensstrategie geworden. Erste Anzeichen für eine Überlastung sind Konzentrationsschwierigkeiten and eine ständige innere Unruhe. Wer sich keine bewussten Pausen gönnt, riskiert langfristig seine mentale Gesundheit.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Wissenschaftlich belegt ist der negative Einfluss des Blaulichts, das Smartphones und Laptops ausstrahlen. Es hemmt die Produktion des Schlafhormons Melatonin, was dazu führt, dass wir abends schwerer zur Ruhe kommen. Die Folge sind oberflächlicher Schlaf und morgendliche Abgeschlagenheit. Experten raten daher, mindestens eine Stunde vor dem Zubettgehen alle digitalen Geräte konsequent auszuschalten und stattdessen zu einem Buch zu greifen.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Die psychologische Komponente ist ebenso gravierend. Plattformen wie Instagram suggerieren ein perfektes Leben der anderen, was bei vielen Nutzern Minderwertigkeitskomplexe auslöst. Man vergleicht den eigenen unperfekten Alltag mit den kuratierten Highlights Fremder. Zudem halten uns ständig aufploppende Benachrichtigungen in einer permanenten Alarmbereitschaft. Jedes "Ping" unterbricht den Fokus und zwingt das Gehirn zu einem anstrengenden Kontextwechsel.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Für viele ist ein totaler Verzicht unrealistisch, da der Beruf eine ständige Online-Präsenz erfordert. Hier hilft nur ein striktes Zeitmanagement: Feste "Offline-Fenster" während des Tages, in denen das Handy in einem anderen Raum bleibt. Auch das Wiederentdecken analoger Tätigkeiten wie Kochen, Gärtnern oder Handarbeiten bietet dem Gehirn die nötige Abwechslung. Diese Hobbys fordern die Feinmotorik und bieten sofortige, haptische Erfolgserlebnisse ohne digitalen Filter.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Die Auswirkungen der permanenten Vernetzung zeigen sich deutlich in der medizinischen Statistik. Die Zahl der Diagnosen von Erschöpfungssyndromen und Burnout ist in den letzten zehn Jahren rasant gestiegen. Therapeuten sehen einen direkten Zusammenhang zwischen der Unfähigkeit, digital abzuschalten, und dem Anstieg psychischer Erkrankungen. Ein nachhaltiger Lebensstil im 21. Jahrhundert muss daher zwingend die Pflege der eigenen Aufmerksamkeit beinhalten.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: psychologie-heute.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Likes und Leerheit: Soziale Medien und ihr Einfluss auf das Wohlbefinden</h3>
+    <p>Soziale Medien sind aus dem Alltag vieler Menschen nicht mehr wegzudenken. Plattformen wie Instagram, TikTok und Facebook bieten eine schnelle Möglichkeit, mit Freunden in Kontakt zu bleiben, sich zu informieren und kreativ zu sein. Doch hinter der bunten Oberfläche verbergen sich psychologische Mechanismen, die das Wohlbefinden der Nutzer erheblich belasten können. Die Wissenschaft befasst sich zunehmend mit den langfristigen Auswirkungen des täglichen Medienkonsums.</p>
+    <p>Ein zentrales Problem ist der ständige Vergleich. Auf sozialen Plattformen präsentieren Menschen ausschließlich die besten Momente ihres Lebens: perfekte Urlaubsfotos, makellose Körper, scheinbar unbeschwerte Freizeitgestaltung. Wer seinen tristen Montagmorgen mit dem glamourösen Wochenendleben anderer vergleicht, erlebt schnell ein Gefühl der Unzulänglichkeit. Psychologen nennen diesen Mechanismus den sozialen Vergleichsprozess, und Studien belegen, dass er direkt mit erhöhter Unzufriedenheit und depressiven Verstimmungen korreliert.</p>
+    <p>Hinzu kommt die Dynamik des Belohnungssystems. Jede Benachrichtigung, jedes Like und jeder Kommentar löst im Gehirn eine kleine Dosis Dopamin aus – denselben Botenstoff, der auch bei Glücksspielen oder dem Konsum bestimmter Substanzen ausgeschüttet wird. Die Plattformen sind so gestaltet, dass die Nutzer möglichst lange verweilen: Unendliches Scrollen, variable Belohnungsintervalle und auf den Nutzer zugeschnittene Inhalte sorgen dafür, dass man das Gerät kaum weglegt. Suchtforscher sprechen bereits von einer echten Verhaltensssucht.</p>
+    <p>Besonders betroffen sind Jugendliche und junge Erwachsene, deren Gehirn sich noch in der Entwicklung befindet. Studien aus den USA zeigen, dass hohe Social-Media-Nutzung bei Teenagern mit einem geringeren Selbstwertgefühl, Schlafproblemen und einer höheren Anfälligkeit für Angststörungen verbunden ist. Mädchen scheinen dabei stärker betroffen zu sein als Jungen, was Forscher auf die vergleichsorientierteren Inhalte zurückführen, die weibliche Nutzer häufiger konsumieren.</p>
+    <p>Auf der anderen Seite wäre es falsch, soziale Medien pauschal zu verteufeln. Sie ermöglichen sozialen Anschluss für Menschen, die in isolierten Regionen leben oder aufgrund von körperlichen Einschränkungen kaum Kontakt zur Außenwelt haben. Online-Communitys können ein Gefühl von Zugehörigkeit vermitteln, das im echten Leben fehlt. Politische Mobilisierung, Spendenkampagnen und gesellschaftlicher Aktivismus haben durch soziale Netzwerke eine neue Kraft und Reichweite gewonnen.</p>
+    <p>Experten empfehlen deshalb keinen vollständigen Verzicht, sondern einen bewussten und gesunden Umgang. Feste Bildschirmzeiten, das Ausschalten von Push-Benachrichtigungen und regelmäßige 'Offline-Tage' können helfen, die Kontrolle zurückzugewinnen. Vor allem aber ist Medienkompetenz gefragt: Wer versteht, wie Algorithmen funktionieren und welche Interessen hinter Plattformen stecken, kann deren Inhalte kritischer bewerten.</p>
+    <p>Letztlich liegt die Verantwortung sowohl bei den Einzelnen als auch bei den Plattformbetreibern und dem Gesetzgeber. Strengere Regulierung von Algorithmen, mehr Transparenz über Werbung und ein verpflichtender Medienunterricht in Schulen sind längst überfällig.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Soziale Medien nutzen Dopamin-Mechanismen, um Nutzer länger auf Plattformen zu halten.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Alle sozialen Medien sind für das Wohlbefinden der Nutzer schädlich.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Jugendliche Mädchen sind laut Studien stärker von negativen Effekten sozialer Medien betroffen als Jungen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Soziale Medien ermöglichen politische Mobilisierung mit größerer Reichweite.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Push-Benachrichtigungen sind laut Experten vollständig zu deaktivieren.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Suchtforscher vergleichen exzessiven Social-Media-Konsum mit Glücksspielsucht.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Soziale Medien sind für Menschen in isolierten Regionen ohne Bedeutung.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; In Deutschland gibt es einen verpflichtenden Medienunterricht an allen Schulen.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Der soziale Vergleichsprozess kann laut Psychologen zu Unzufriedenheit führen.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Hohe Social-Media-Nutzung ist bei Teenagern mit Schlafproblemen verbunden.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Plattformen sind so gestaltet, dass Nutzer möglichst kurz auf ihnen bleiben.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Geschichte der sozialen Netzwerke im Internet<br>
+    <strong>b</strong>&nbsp; Soziale Medien: Chancen, Risiken und Handlungsempfehlungen<br>
+    <strong>c</strong>&nbsp; Marketing-Strategien auf Social-Media-Plattformen
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (706)</h3>
+  <strong>1-g, 2-c, 3-a, 4-e, 5-b, 6-d</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (706)</h3>
+  <strong>7-b, 8-c, 9-d, 10-c, 11-d, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (706)</h3>
+  <strong>13-r, 14-f, 15-r, 16-r, 17--, 18-r, 19-f, 20-f, 21-r, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 707,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Robotik in der Pflege)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Angesichts des dramatischen Fachkräftemangels in der Pflege suchen Experten nach technologischen Lösungen.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Kollege Computer: Können Roboter die Pflege revolutionieren?</h3>
+    <p>
+      In vielen Seniorenheimen herrscht Personalnotstand. Die Pfleger sind überlastet, und für die persönliche Zuwendung bleibt oft kaum Zeit. Hier kommen Assistenzroboter ins Spiel, die einfache Tätigkeiten übernehmen sollen. ___ 0 ___ Doch der Einsatz von künstlicher Intelligenz am Krankenbett löst heftige Debatten über die Würde des Menschen und die Grenzen der Automatisierung aus.
+    </p>
+    <p>
+      Bereits heute werden Roboter eingesetzt, um schwere Lasten zu heben oder Medikamente zu verteilen. Diese Entlastung ist physisch enorm wichtig, um die Gesundheit der Pflegekräfte zu schonen. ___ 1 ___ Die Maschinen könnten so den Rücken der Mitarbeiter entlasten, während diese sich auf die emotionalen Bedürfnisse der Bewohner konzentrieren können. Es geht also nicht um den Ersatz, sondern um die Unterstützung des Personals.
+    </p>
+    <p>
+      Hochentwickelte Modelle können sogar einfache Gespräche führen oder Bewohner an Übungen erinnern. Ihre Sensoren erkennen Stürze sofort und setzen einen Notruf ab, was die Sicherheit in der häuslichen Pflege massiv erhöht. ___ 2 ___ Kritiker mahnen jedoch, dass eine Maschine niemals echte Empathie empfinden kann. Ein Lächeln oder ein sanfter Händedruck sind menschliche Gesten, die durch keinen Algorithmus der Welt vollständig kopiert werden können.
+    </p>
+    <p>
+      Ein besonders sensibler Bereich ist die Intimpflege. Hier könnten Roboter paradoxerweise sogar für mehr Privatsphäre sorgen. Viele Patienten schämen sich vor Menschen, finden den Umgang mit einer neutralen Maschine jedoch weniger beklemmend. ___ 3 ___ Dennoch bleibt die Sorge, dass die menschliche Komponente in der Pflege als Kostenfaktor wegrationalisiert wird. Werden wir in Zukunft nur noch von "Blechbüchsen" gewaschen und gefüttert?
+    </p>
+    <p>
+      Die Akzeptanz in der Bevölkerung ist zwiegespalten. Während jüngere Generationen der Technik eher offen gegenüberstehen, haben Senioren oft Berührungsängste. ___ 4 ___ Doch Studien zeigen, dass der Widerstand schwindet, sobald die Patienten den praktischen Nutzen im Alltag erleben. Ein Roboter, der geduldig zum zehnten Mal die gleiche Geschichte hört, ohne genervt zu reagieren, kann für einsame Menschen sogar ein Gewinn sein.
+    </p>
+    <p>
+      Finanziell ist die Anschaffung solcher Systeme derzeit noch ein riesiges Hindernis für viele Einrichtungen. Die hohen Kosten lassen sich nur durch Einsparungen an anderer Stelle rechtfertigen. ___ 5 ___ Doch auf lange Sicht könnten die Preise sinken, wenn die Technologie zum Massenmarkt wird. Die Frage ist nicht mehr, ob Roboter in die Pflege kommen, sondern wie wir diesen Prozess ethisch verantwortbar gestalten.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass Robotik eine Teilantwort auf den demografischen Wandel sein kann. ___ 6 ___ Nur wenn Technik und Mensch Hand in Hand arbeiten, wird die Pflege der Zukunft sowohl effizient als auch menschenwürdig bleiben. Ein Roboter ist ein Werkzeug, kein Ersatz für Mitmenschlichkeit.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies könnte die Hemmschwelle senken, Hilfe überhaupt in Anspruch zu nehmen.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die ethische Kommission hat dazu bereits umfangreiche Richtlinien erarbeitet.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Es darf nicht passieren, dass Technologie zur sozialen Isolation der Bedürftigen führt.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Viele befürchten den Verlust des letzten Rests an menschlicher Wärme.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Oft fehlt es in den Heimen auch an der notwendigen digitalen Infrastruktur.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Die Entlastung des Pflegepersonals steht bei allen Projekten an oberster Stelle.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das spart wertvolle Zeit, die ansonsten für bürokratische Aufgaben verloren ginge.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Früher war die Großfamilie für die Pflege zuständig, heute klafft dort eine Lücke.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die psychologische Wirkung einer Roboterrobbe auf Demenzpatienten beschrieben?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Gefahr der "Entmenschlichung" durch den Einsatz von Maschinen verwiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass Roboter körperlich belastende Aufgaben wie das Umlagern übernehmen können?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die emotionale Bindung eingegangen, die manche Senioren zu technischen Hilfsmitteln aufbauen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Rolle von Robotern bei der Überwachung von Vitalwerten in Echtzeit betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Japan bei der Entwicklung von Pflegetechnologien weltweit führend ist?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die hohen Kosten für Wartung und Software-Updates hingewiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>KI am Krankenbett: Segen oder Fluch für die Geriatrie?</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> In der Pflege von Menschen mit Demenz erzielen sogenannte "Kuschelroboter" wie die Robbenattrappe 'Paro' erstaunliche Erfolge. Die Patienten reagieren auf die Bewegungen und Laute des Tieres mit Beruhigung und einer Senkung des Blutdrucks. Dies ist oft der einzige Weg, um zu schwerstkranken Bewohnern noch einen emotionalen Zugang zu finden. Hier dient die Technik als Brücke und löst positive Reaktionen aus, die ansonsten nur durch echte Tiere möglich wären, deren Haltung in Heimen jedoch oft schwierig ist.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Dennoch ist die Kritik laut: Kritiker warnen davor, dass Roboter dazu genutzt werden könnten, Personalmangel zu kaschieren. Wenn der einzige "Kontakt" am Tag eine Maschine ist, verlieren die Patienten den Anschluss an die menschliche Gesellschaft. Diese Form der Isolation kann psychische Leiden verschlimmern. Es muss daher gesetzlich festgeschrieben werden, dass ein Mindestmaß an menschlicher Zuwendung garantiert bleibt und Technik niemals die alleinige Verantwortung tragen darf.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Die physische Entlastung der Pflegekräfte ist ein unbestreitbarer Vorteil. Exoskelette und Hebehilfen ermöglichen es, auch schwere Patienten ohne Rückenschäden umzulagern oder zu baden. Dies verlängert die Arbeitsfähigkeit der Pfleger deutlich. Zudem übernehmen Roboter zunehmend die logistischen Wege: Sie bringen Wäsche, Essen oder Medikamente von A nach B. So bleibt dem Fachpersonal mehr Zeit für die eigentliche Arbeit am Menschen, statt wertvolle Energie für Botengänge zu verschwenden.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Japan gilt als das Testlabor der Zukunft. Da das Land eine der am schnellsten alternden Gesellschaften der Welt ist, investiert die Regierung massiv in "Silver Tech". Dort werden bereits humanoide Roboter zur Gymnastikanleitung eingesetzt. Die Akzeptanz ist dort kulturell bedingt deutlich höher als in Europa. Deutsche Krankenhäuser schauen daher genau nach Fernost, um funktionierende Konzepte für den eigenen Markt zu adaptieren, auch wenn der ethische Diskurs hierzulande deutlich schärfer geführt wird.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Neben den ethischen Bedenken spielen wirtschaftliche Faktoren eine Rolle. Ein moderner Pflege-Assistent kostet so viel wie ein Oberklassewagen. Hinzu kommen laufende Kosten für Programmierung und technische instandhaltung. Viele kleine Heime können sich diese Investition schlichtweg nicht leisten. Ohne eine Förderung durch die Krankenkassen wird die Digitalisierung der Pflege eine Zwei-Klassen-Gesellschaft schaffen, in der sich nur reiche Einrichtungen den technologischen Fortschritt leisten können.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: gesundheitsstadt-berlin.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Grauer Alltag: Die Herausforderungen einer alternden Gesellschaft</h3>
+    <p>Deutschland wird älter. Laut aktuellen Daten des Statistischen Bundesamtes wird der Anteil der über 65-Jährigen bis 2040 auf über 28 Prozent der Gesamtbevölkerung ansteigen. Was zunächst wie eine abstrakte Zahl wirkt, hat konkrete Folgen: für das Rentensystem, für das Gesundheitswesen, für die Pflege und für das gesellschaftliche Zusammenleben. Die demografische Alterung ist eine der größten strukturellen Herausforderungen, vor denen Deutschland in den kommenden Jahrzehnten steht.</p>
+    <p>Der Pflegebereich steht dabei vor dem drängendsten Problem. Schon heute fehlen in Deutschland zehntausende qualifizierte Pflegekräfte. Da gleichzeitig die Zahl der Pflegebedürftigen rasant wächst, verschärft sich dieser Mangel von Jahr zu Jahr. Die körperlich und emotional anspruchsvolle Arbeit in der Pflege wird schlecht bezahlt, was viele Berufseinsteiger von einem Einstieg in die Branche abhält. Gezielte Lohnerhöhungen, bessere Arbeitsbedingungen und eine stärkere gesellschaftliche Wertschätzung sind dringend erforderlich.</p>
+    <p>Eine mögliche Entlastung bieten ausländische Pflegekräfte. Viele Länder in Mittel- und Osteuropa entsenden Arbeitskräfte nach Deutschland, die Lücken im Pflegesystem füllen. Doch auch diese Lösung birgt Probleme: Sprachbarrieren, fehlende Anerkennung von Berufsabschlüssen und die ethische Frage, ob reiche Länder den ärmeren einfach das Pflegepersonal abwerben dürfen, sind ungelöste Aspekte dieser Praxis. Deutschland muss langfristig mehr in die eigene Ausbildung investieren.</p>
+    <p>Neben der professionellen Pflege leistet die Familie weiterhin den Großteil der Betreuungsarbeit. Millionen von Deutschen pflegen Angehörige zuhause – oft ohne ausreichende finanzielle Unterstützung und professionelle Begleitung. Besonders Frauen sind betroffen, da sie häufiger als Männer Karrierepausen einlegen, um Familienmitglieder zu pflegen. Dies hat direkte Auswirkungen auf ihre Rentenansprüche und ihre Altersarmut. Die gesellschaftliche Unsichtbarkeit dieser Pflegeleistung ist ein strukturelles Gerechtigkeitsproblem.</p>
+    <p>Die Digitalisierung bietet neue Möglichkeiten, Pflegebedürftige länger im eigenen Zuhause zu betreuen. Sensorgestützte Systeme können Stürze erkennen, Vitaldaten überwachen und im Notfall automatisch Hilfe rufen. Telepflege-Apps ermöglichen regelmäßige Videokonsultationen mit Ärzten und Pflegekräften. Doch auch hier gilt: Technik kann menschliche Zuwendung nicht ersetzen – sie kann sie lediglich ergänzen. Gerade demenzkranke Menschen brauchen körperliche Nähe und persönliche Ansprache.</p>
+    <p>Gesamtgesellschaftlich braucht es ein Umdenken. Ältere Menschen sind keine Last, sondern verfügen über wertvolle Erfahrungen und ein enormes ehrenamtliches Potenzial. Intergenerationale Projekte, bei denen Jung und Alt voneinander lernen, können das gesellschaftliche Zusammengehörigkeitsgefühl stärken. Eine Gesellschaft, die mit dem Alter umgehen kann, ist auch insgesamt widerstandsfähiger gegenüber sozialen Herausforderungen.</p>
+    <p>Die Weichen für eine würdevolle und finanzierbare Pflege im Alter müssen jetzt gestellt werden. Wer diese Aufgabe aufschiebt, wird morgen vor einem unlösbaren Problem stehen.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Der Anteil der über 65-Jährigen soll laut Prognosen bis 2040 auf über 28 Prozent steigen.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; In Deutschland gibt es derzeit genug qualifizierte Pflegekräfte.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Frauen sind häufiger als Männer von unbezahlter Pflegearbeit in der Familie betroffen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Digitale Pflegehilfsmittel können menschliche Zuwendung vollständig ersetzen.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Ausländische Pflegekräfte lösen alle Probleme des deutschen Pflegesystems.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Sensorgestützte Systeme können Stürze erkennen und automatisch Hilfe rufen.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Pflegerinnen und Pfleger erhalten in Deutschland hohe Gehälter.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Intergenerationale Projekte können das gesellschaftliche Zusammengehörigkeitsgefühl stärken.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Demenzkranke Menschen brauchen besonders körperliche Nähe und persönliche Ansprache.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Die Familienbetreuung hat Auswirkungen auf die Rentenansprüche der Pflegenden.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Deutschland investiert bereits ausreichend in die eigene Pflegeausbildung.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Digitale Lösungen für die Altenpflege der Zukunft<br>
+    <strong>b</strong>&nbsp; Demografischer Wandel und die Herausforderungen der Pflege<br>
+    <strong>c</strong>&nbsp; Pflegeversicherung im internationalen Vergleich
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (707)</h3>
+  <strong>1-f, 2-g, 3-a, 4-d, 5-e, 6-c</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (707)</h3>
+  <strong>7-b, 8-c, 9-a, 10-c, 11-d, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (707)</h3>
+  <strong>13-r, 14-f, 15-r, 16-f, 17-f, 18-r, 19-f, 20-r, 21-r, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 708,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Plastikmüll in den Weltmeeren)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Jedes Jahr landen Millionen Tonnen Plastikmüll in unseren Ozeanen, was zu einer ökologischen Katastrophe globalen Ausmaßes führt.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Gefangen im Plastikstrom: Innovative Lösungen für ein sauberes Meer</h3>
+    <p>
+      Die Bilder von gigantischen Müllteppichen im Pazifik sind zum Symbol für unseren rücksichtslosen Umgang mit Kunststoff geworden. ___ 0 ___ Doch während die Politik noch über Verbote von Einweggeschirr diskutiert, entwickeln junge Start-ups und Ingenieure bereits technologische Konzepte, um das wertvolle Ökosystem Meer zu retten.
+    </p>
+    <p>
+      Ein besonders vielversprechendes Projekt nutzt die natürliche Strömung der Ozeane aus. Riesige U-förmige Barrieren schwimmen auf der Oberfläche und fangen herantreibendes Plastik ein, ohne dabei Fische oder andere Meereslebewesen zu gefährden. ___ 1 ___ Das gesammelte Material wird anschließend an Land gebracht, dort sortiert und im Idealfall zu neuen Produkten recycelt. "Cradle to Cradle" lautet hier die Vision für eine Kreislaufwirtschaft auf dem Wasser.
+    </p>
+    <p>
+      Neben der Reinigung der Ozean-Oberfläche rückt auch das Problem des Mikroplastiks immer stärker in den Fokus. Diese winzigen Partikel entstehen durch den Zerfall größerer Teile oder werden direkt von der Kosmetikindustrie in Abwässer geleitet. ___ 2 ___ Viele Meeresbewohner verwechseln das Mikroplastik mit Plankton und fressen es, wodurch die Giftstoffe letztendlich über die Nahrungskette auch den Menschen erreichen.
+    </p>
+    <p>
+      Wissenschaftler forschen daher an biologisch abbaubaren Filtern, die bereits in den Kläranlagen der großen Städte installiert werden sollen. ___ 3 ___ Diese technologische Hürde ist enorm, da die Filter extrem fein sein müssen, ohne dabei den Wasserfluss massiv zu behindern. Erste Pilotprojekte in den Niederlanden zeigen jedoch bereits vielversprechende Resultate.
+    </p>
+    <p>
+      Doch Technik allein wird das Problem nicht lösen können. Experten betonen immer wieder, dass der Eintrag von Müll bereits an der Quelle gestoppt werden muss. ___ 4 ___ In vielen Schwellenländern fehlt es schlichtweg an einer funktionierenden Abfallentsorgung, weshalb Mülltonnen oft direkt im nächsten Fluss entleert werden. Hier ist internationale Zusammenarbeit und massive finanzielle Unterstützung gefragt.
+    </p>
+    <p>
+      Ein weiterer Ansatzpunkt ist die Entwicklung von alternativen Verpackungsmaterialien aus Pilzen oder Algen. Diese Stoffe sind innerhalb weniger Wochen komplett kompostierbar und belasten die Natur nicht. ___ 5 ___ Solange Plastik auf Erdölbasis jedoch so erschreckend günstig bleibt, haben ökologische Alternativen auf dem Weltmarkt einen schweren Stand. Hier müsste die Politik durch Plastiksteuern oder Zertifikate lenkend eingreifen.
+    </p>
+    <p>
+      Wir stehen vor einer gewaltigen Aufgabe, die schnelles Handeln erfordert. Wenn der Trend so weitergeht, wird es im Jahr 2050 in den Meeren mehr Plastik als Fische geben. ___ 6 ___ Die technologischen Lösungen sind vorhanden, doch es fehlt oft noch am politischen Willen und an der nötigen Finanzierung durch die Weltgemeinschaft. Unsere Ozeane sind die Lungen unseres Planeten – wir müssen sie atmen lassen.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies wäre das traurige Ende einer Entwicklung, die einst als Fortschritt gefeiert wurde.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Solche passiven Systeme sind deutlich kosteneffizienter als der Einsatz von Schiffen.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Es geht also darum, das Problem abzufangen, bevor es überhaupt erst das offene Meer erreicht.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Viele Fischereibetriebe wehren sich jedoch gegen diese neuen Vorschriften zum Schutz der Meere.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Diese Partikel sind so klein, dass sie von herkömmlichen Filtersystemen kaum erfasst werden können.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Die Industrie setzt jedoch weiterhin auf billige Lösungen ohne Rücksicht auf die Umweltfolgen.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das bedeutet, die großen Ströme in Asien und Afrika müssen besser kontrolliert werden.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> In Deutschland hat das Pfandsystem für Flaschen die Umweltbelastung bereits reduziert.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Gefahr von Geisternetzen (verlorene Fischernetze) im Ozean thematisiert?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Rolle des Schiffverkehrs bei der Verschmutzung durch Schweröl eingegangen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass synthetische Kleidung beim Waschen Mikroplastik freisetzt?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die Auswirkungen von Lärmverschmutzung auf Meeressäuger wie Wale hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung von Mangrovenwäldern als natürliche Barrieren für Müll beschrieben?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Korallenriffe durch die Erwärmung der Ozeane bereits massiv geschädigt sind?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die ökologischen Kosten der Plastikproduktion aus fossilen Brennstoffen hingewiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Blaue Lunge in Not: Die vielfältigen Bedrohungen der Ozeane</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Plastik ist nicht das einzige Problem der Weltmeere. Der globale Schiffsverkehr trägt durch den Ausstoß von Schwefeloxiden und gelegentliche Ölunfälle massiv zur chemischen Belastung bei. Besonders die Verwendung von billigem Schweröl hat verheerende Folgen für die marinen Ökosysteme. Strengere Grenzwerte in den Küstengewässern zeigen zwar Wirkung, doch auf hoher See fehlt es weiterhin an effektiven Kontrollen und Sanktionen gegen Umweltverstöße.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Eine oft unterschätzte Quelle für Mikroplastik ist unsere Waschmaschine. Bei jedem Waschgang lösen sich tausende winzige Kunstfasern aus Fleece-Jacken oder Sportbekleidung. Da diese Fasern selbst modernste Kläranlagen passieren können, landen sie ungefiltert im Meer. Hier wird die Verantwortung beim Konsumenten und der Textilindustrie deutlich. Spezielle Waschbeutel oder Filter für Abflüsse könnten hier eine erste, wenn auch unvollständige Lösung bieten.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Neben der stofflichen Verschmutzung leiden Meeresbewohner unter dem akustischen Stress. Der Lärm von Schiffsschrauben, Sonargeräten und Ölbohrungen unterbricht die empfindliche Kommunikation von Walen und Delfinen, die auf Schallwellen zur Orientierung angewiesen sind. Dies führt zu Orientierungslosigkeit und tödlichen Strandungen. Die Ozeane sind heute so laut wie nie zuvor in der Geschichte der Erde, was das natürliche Gleichgewicht massiv stört.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Korallenriffe, oft als "Regenwälder der Meere" bezeichnet, kämpfen ums Überleben. Die steigenden Wassertemperaturen führen zur sogenannten Korallenbleiche, bei der die Riffe absterben. Damit verlieren Millionen von Fischen ihre Kinderstube. Mangrovenwälder an den Küsten könnten hier als biologische Filter dienen, die Sedimente und Müll aus dem Landesinneren abfangen, bevor sie das offene Meer erreichen. Doch auch diese wertvollen Schutzräume werden für Garnelenzuchten oder Hotelanlagen gerodet.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Fast das gesamte Plastik wird aus Erdöl oder Erdgas hergestellt. Die Gewinnung dieser Rohstoffe ist bereits mit enormen Treibhausgas-Emissionen und Landschaftszerstörung verbunden. Die Plastikproduktion ist somit eng mit der Klimakrise verknüpft. Eine Abkehr von der Wegwerfgesellschaft erfordert daher nicht nur technische Lösungen für das Recycling, sondern einen grundlegenden Wandel weg von fossilen Brennstoffen hin zu einer biobasierten Kreislaufwirtschaft.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: umweltbundesamt.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Wegwerfen war gestern: Die Chancen der Kreislaufwirtschaft</h3>
+    <p>Deutschland gilt international als Vorreiter beim Recycling. Die duale System, bei dem Verpackungen getrennt gesammelt und der Wiederverwertung zugeführt werden, hat seit seiner Einführung in den 1990er Jahren viele Länder weltweit inspiriert. Dennoch zeigt ein genauerer Blick auf die Zahlen, dass trotz aller Mühetrennungseifer noch erhebliche Lücken bestehen. Viel zu oft landen recyclingfähige Materialien im Restmüll, weil Bürger die Sortierregeln nicht kennen oder weil die Systeme zu kompliziert sind.</p>
+    <p>Ein grundlegendes Problem ist, dass Recycling zwar besser als Deponierung ist, aber noch weit entfernt von einer echten Kreislaufwirtschaft. Der Begriff meint ein Wirtschaftsmodell, in dem Produkte von Beginn an so designed werden, dass sie am Ende ihrer Nutzung komplett in neue Materialkreisläufe zurückgeführt werden können. Heute werden in Deutschland rund 50 Prozent der Kunststoffverpackungen tatsächlich recycelt – klingt gut, bedeutet aber, dass die andere Hälfte immer noch thermisch verwertet oder exportiert wird, was nur eine Umschreibung für Verbrennung oder Aufgabe des Problems ist.</p>
+    <p>Die eigentliche Revolution muss daher vor dem Recycling stattfinden: beim Design der Produkte selbst. Wenn Hersteller Produkte aus möglichst wenigen, reinen Materialien fertigen, die leicht zu trennen sind, vereinfacht sich das gesamte Wertstoffkreislauf erheblich. Das Konzept des 'Design for Recycling' gewinnt in der Industrie langsam an Fahrt, wird aber noch zu selten konsequent umgesetzt. Ein Laptop, bei dem Akku, Bildschirm und Gehäuse ohne Spezialwerkzeug in wenigen Minuten getrennt werden können, ist noch die Ausnahme.</p>
+    <p>Auch das Verhalten der Konsumenten spielt eine entscheidende Rolle. Kaufentscheidungen zugunsten langlebiger, reparierbarer Produkte sind ein wirksames Mittel gegen die Wegwerfgesellschaft. Das Recht auf Reparatur, für das die EU seit Jahren kämpft, verpflichtet Hersteller dazu, Ersatzteile und Reparaturanleitungen für einen bestimmten Zeitraum bereitzustellen. In Deutschland boomt der Markt für Reparaturcafés und Second-Hand-Läden, was zeigt, dass ein Umdenken in Teilen der Gesellschaft bereits stattfindet.</p>
+    <p>Auf staatlicher Ebene sind Anreize und Regulierungen nötig, um die Kreislaufwirtschaft zu beschleunigen. Eine Steuer auf Neumaterialien, kombiniert mit niedrigeren Mehrwertsteuersätzen auf Reparaturdienstleistungen, könnte die Ökonomie der Nachhaltigkeit attraktiver machen. Ebenso helfen Pfandsysteme – nicht nur für PET-Flaschen, sondern auch für Elektronikgeräte und Batterien. Was politisch schwierig erscheint, zeigt in Ländern mit entsprechenden Rahmenbedingungen beachtliche Wirkung.</p>
+    <p>Letztendlich ist die Kreislaufwirtschaft nicht nur eine ökologische, sondern auch eine ökonomische Chance. Unternehmen, die ihre Rohstoffversorgung durch zurückgewonnene Materialien sichern, machen sich unabhängiger von volatilen globalen Märkten. Recycelte Materialien können eine verlässlichere Alternative zu Importen aus politisch instabilen Regionen sein.</p>
+    <p>Die Transformation zur echten Kreislaufwirtschaft ist machbar, aber sie erfordert das koordinierte Handeln von Politik, Industrie und Gesellschaft. Jede Kaufentscheidung, jede Produktgestaltung und jede gesetzgeberische Maßnahme zählt.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Das duale System für Verpackungen wurde in den 1990er Jahren eingeführt.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; In Deutschland werden aktuell 100 Prozent aller Kunststoffverpackungen recycelt.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Das Konzept 'Design for Recycling' bedeutet, Produkte von Anfang an recyclinggerecht zu gestalten.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Das Recht auf Reparatur zwingt Hersteller, Ersatzteile für eine gewisse Zeit bereitszustellen.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Reparaturcafés und Second-Hand-Märkte sind in Deutschland auf dem Rückzug.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Eine Steuer auf Neumaterialien könnte nachhaltige Materialien attraktiver machen.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Pfandsysteme sind laut Text nur für PET-Flaschen geeignet.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Recycelte Materialien können eine Alternative zu importierten Rohstoffen sein.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Deutschland exportiert keine recyclingfähigen Materialien ins Ausland.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Die Kreislaufwirtschaft bietet sowohl ökologische als auch ökonomische Vorteile.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Ein recyclinggerecht designtes Produkt ist bereits heute der Standard in der Elektronikindustrie.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Recycling-Technologien der Zukunft<br>
+    <strong>b</strong>&nbsp; Vom Recycling zur Kreislaufwirtschaft: Chancen und Notwendigkeit<br>
+    <strong>c</strong>&nbsp; Geschichte des Umweltschutzes in Deutschland
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (708)</h3>
+  <strong>1-b, 2-e, 3-c, 4-g, 5-f, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (708)</h3>
+  <strong>7-a, 8-b, 9-c, 10-d, 11-d, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (708)</h3>
+  <strong>13-r, 14-f, 15-r, 16-r, 17-f, 18-r, 19-f, 20-r, 21-f, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 709,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Bedingungsloses Grundeinkommen)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Die Idee eines bedingungslosen Grundeinkommens (BGE) spaltet Experten und Bevölkerung gleichermaßen.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Geld für alle: Chance auf Freiheit oder Weg in die Trägheit?</h3>
+    <p>
+      Jeder Bürger erhält monatlich einen festen Betrag vom Staat – ohne Gegenleistung, ohne Bedürftigkeitsprüfung. ___ 0 ___ Was für die einen der Schlüssel zu einer gerechteren und selbstbestimmten Gesellschaft ist, betrachten andere als finanzielles Himmelfahrtskommando, das die Arbeitsmoral zerstören würde.
+    </p>
+    <p>
+      Befürworter argumentieren, dass das BGE in Zeiten der fortschreitenden Automatisierung eine notwendige Antwort ist. Wenn Roboter und KI immer mehr Jobs übernehmen, wird Arbeit als Existenzsicherung für viele Menschen wegbrechen. ___ 1 ___ Das Grundeinkommen würde hier eine soziale Basis schaffen, die es den Menschen ermöglicht, sich kreativ zu entfalten oder ehrenamtlich zu engagieren, ohne Angst vor dem sozialen Abstieg haben zu müssen.
+    </p>
+    <p>
+      Kritiker hingegen befürchten einen massiven Fachkräftemangel in Berufen, die körperlich anstrengend oder wenig angesehen sind. Wer würde dann noch Mülltonnen leeren oder in der Pflege arbeiten, wenn das Geld auch ohne diese Mühen fließt? ___ 2 ___ Eine Gesellschaft, die nur noch aus Künstlern und Philosophen besteht, könnte die notwendige Infrastruktur nicht mehr aufrechterhalten. Der Wohlstand eines Landes basiert am Ende immer auf tatkräftiger Arbeit.
+    </p>
+    <p>
+      Ein weiterer zentraler Streitpunkt ist die Finanzierung. Schätzungen gehen davon aus, dass ein BGE in Deutschland hunderte Milliarden Euro kosten würde. ___ 3 ___ Um dies zu finanzieren, müssten entweder andere Sozialleistungen gestrichen oder Steuern massiv erhöht werden. Besonders eine höhere Mehrwertsteuer wird oft als Modell vorgeschlagen, was jedoch Geringverdiener bei ihren täglichen Einkäufen überproportional belasten könnte.
+    </p>
+    <p>
+      Interessanterweise zeigen Feldversuche in verschiedenen Ländern oft überraschende Ergebnisse. In Finnland etwa fühlten sich die Empfänger eines Grundeinkommens deutlich gesünder und weniger gestresst, während ihr Arbeitsverhalten sich kaum änderte. ___ 4 ___ Diese psychologische Komponente der Sicherheit scheint die Eigeninitiative eher zu fördern als zu hemmen. Menschen, die nicht unter permanentem Existenzdruck stehen, treffen oft mutigere berufliche Entscheidungen.
+    </p>
+    <p>
+      Doch sind diese kleinteiligen Experimente wirklich auf ein ganzes Staatswesen übertragbar? In einem abgeschlossenen Testumfeld verhalten sich Menschen oft anders als in der langfristigen Realität. ___ 5 ___ Die langfristigen Auswirkungen auf Preise, Mieten und das allgemeine Lohnniveau lassen sich durch zweijährige Versuche mit 2.000 Teilnehmern kaum verlässlich prognostizieren. Das Risiko für das gesamte ökonomische Gefüge bleibt somit bestehen.
+    </p>
+    <p>
+      Das bedingungslose Grundeinkommen bleibt eine Utopie, die uns dazu zwingt, unser Verhältnis zu Arbeit und Leistung radikal neu zu überdenken. In einer Welt, in der Maschinen immer produktiver werden, wird die Verteilung des Wohlstands zur Kernfrage des 21. Jahrhunderts. ___ 6 ___ Ob das BGE am Ende die Lösung sein wird, bleibt abzuwarten; sicher ist nur, dass das aktuelle Sozialsystem an seine Grenzen stößt. Wir müssen den Mut haben, neue Wege zu gehen.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Letztendlich müssen wir uns als Gesellschaft entscheiden, welche Werte uns wirklich wichtig sind.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die Belastung für den staatlichen Haushalt wäre somit kaum noch tragbar.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Dies könnte letztendlich dazu führen, dass wichtige Dienstleistungen unbezahlbar werden.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> In der Theorie klingt das alles nach einer wunderbaren Befreiung vom Joch der Arbeit.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Es geht darum, die technologische Dividende fair an alle Mitglieder der Gemeinschaft zu verteilen.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Viele Teilnehmer solcher Studien nutzten das Geld sogar, um sich selbstständig zu machen.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Ein flächendeckendes System würde zudem völlig neue bürokratische Hürden schaffen.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Die wissenschaftliche Validität solcher Studien wird daher von vielen Ökonomen angezweifelt.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird der bürokratische Aufwand für das aktuelle Sozialleistungssystem im Vergleich zum BGE betrachtet?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird die Sorge vor einer inflationären Entwicklung durch erhöhte Kaufkraft geäussert?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass das BGE zur Verringerung der Stigmatisierung von Sozialhilfeempfängern beitragen könnte?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf das Problem der "Lohn-Preis-Spirale" als Folge steigender Produktionskosten hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die psychologische Bedeutung von Arbeit als strukturgebendes Element im Leben betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Reiche das BGE ohnehin über höhere Progressionssteuern zurückzahlen würden?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die Gefahr einer Abwanderung von Kapital und Unternehmen ins Ausland verwiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Sicherheit für alle: Der ökonomische Diskurs über das Grundeinkommen</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Einer der größten administrativen Vorteile des BGE wäre der Wegfall des gigantischen Kontrollapparates. Momentan verbringen Beamte tausende Stunden damit, Bedürftigkeit zu prüfen and Sanktionen zu verhängen. Ein bedingungsloser Betrag würde diese Ressourcen freisetzen. Zudem verschwindet die Scham der Empfänger: Wenn jeder das Geld bekommt, gibt es keinen Grund mehr, sich als "Bittsteller" zu fühlen. Diese gesellschaftliche Entlastung ist ein oft übersehener Faktor in der Debatte.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Ökonomen warnen jedoch vor den Folgen für das allgemeine Preisniveau. Wenn jeder Bürger plötzlich mehr Geld zur Verfügung hat, steigt die Nachfrage nach Gütern und Dienstleistungen sprunghaft an. Dies könnte die Inflation anheizen und die Kaufkraft des BGE sofort wieder entwerten. Besonders bei Mieten in Ballungsräumen wird befürchtet, dass Vermieter den zusätzlichen Spielraum der Mieter sofort durch Preiserhöhungen abschöpfen würden.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Ein weiteres Risiko ist die Wettbewerbsfähigkeit. Wenn Unternehmen höhere Löhne zahlen müssen, um Menschen für unbeliebte Tätigkeiten zu motivieren, steigen die Herstellkosten. Diese "Lohn-Preis-Spirale" könnte dazu führen, dass heimische Produkte auf dem Weltmarkt zu teuer werden. Zudem könnten Vermögende und Konzerne probieren, sich der Finanzierung durch Steuerflucht zu entziehen, was die finanzielle Basis des Staates gefährden würde.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Psychologen weisen darauf hin, dass Arbeit für viele Menschen mehr ist als nur Gelderwerb. Sie bietet soziale Kontakte, Anerkennung und eine tägliche Struktur. Ein reines Transfer-Einkommen kann diese Sinnhaftigkeit nicht ersetzen. Ohne die Verpflichtung zur Tätigkeit drohen Isolation und Passivität, was langfristig zu gesundheitlichen und gesellschaftlichen Problemen führen könnte. Die "Hängematte" ist für die menschliche Psyche oft weniger erholsam als gedacht.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> In Bezug auf die soziale Gerechtigkeit wird oft kritisiert, dass auch Millionäre das Geld erhalten würden. Befürworter entgegnen jedoch, dass dies durch das Steuersystem ausgeglichen wird. Wer viel verdient, zahlt durch eine progressive Einkommensteuer ohnehin mehr an den Staat zurück, als er über das BGE erhält. Es handelt sich also um ein effizientes Umverteilungsinstrument, das die Bürokratie minimiert, ohne Gutverdienende einseitig zu bevorteilen.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: zeit-online.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Arm trotz Arbeit: Wenn Vollzeitjobs nicht reichen</h3>
+    <p>Deutschland gilt als eine der stärksten Volkswirtschaften der Welt, doch hinter dieser Fassade wächst ein soziales Problem: Working Poor – Menschen, die trotz Vollzeitarbeit nicht genug verdienen, um ihren Lebensunterhalt angemessen zu bestreiten. Schätzungen zufolge lebten 2023 rund 8 Prozent der Erwerbstätigen in Deutschland in relativer Armut, obwohl sie einer bezahlten Beschäftigung nachgingen. Diese Zahl ist in den vergangenen Jahren gestiegen, vor allem aufgrund der hohen Inflation und steigender Mieten.</p>
+    <p>Ein Hauptgrund für diese Entwicklung ist die Ausbreitung atypischer Beschäftigungsverhältnisse. Zeitarbeit, befristete Verträge, Minijobs und Solo-Selbstständigkeit haben den klassischen Vollzeitjob mit unbefristetem Vertrag und Tariflohn zurückgedrängt. Diese Arbeitsformen bieten oft weniger Schutz, keine betriebliche Altersvorsorge und geringere Krankenversicherungsansprüche. Besonders Frauen, junge Menschen und Geringqualifizierte sind von dieser Prekarisierung des Arbeitsmarktes betroffen.</p>
+    <p>Der gesetzliche Mindestlohn, der in Deutschland seit 2015 gilt, sollte Abhilfe schaffen. Doch Kritiker bezweifeln, ob er auf dem aktuellen Niveau ausreicht, um Armut zu verhindern. Ökonomen sprechen von einem 'armutsfesten Mindestlohn', der bei rund 14 Euro pro Stunde liegen müsste, damit eine Einzelperson davon leben und gleichzeitig Rentenansprüche aufbauen kann. Der aktuelle Wert liegt darunter. Zudem unterlaufen manche Arbeitgeber den Mindestlohn durch unbezahlte Überstunden oder falsche Klassifizierung von Arbeitszeiten.</p>
+    <p>Ein weiteres strukturelles Problem ist die Mietenentwicklung. In Städten wie München, Frankfurt oder Berlin haben sich die Durchschnittsmieten in den vergangenen zehn Jahren zum Teil verdoppelt. Wer im Niedriglohnsektor arbeitet und in einer der Großstädte lebt, gibt oft mehr als die Hälfte seines Nettoeinkommens für Wohnen aus. Wohnkostenzuschüsse wie das Wohngeld greifen zwar, aber der bürokratische Aufwand und die Zugangsbarrieren sind für viele Betroffene zu hoch.</p>
+    <p>Die Folgen von Armut trotz Arbeit sind weitreichend. Gesunde Ernährung, Kinderbetreuung, kulturelle Teilhabe und medizinische Vorsorge werden zum Luxus. Kinder aus armen Familien starten mit deutlich schlechteren Startbedingungen ins Leben, die sich durch alle Bildungsstufen fortpflanzen. Die sogenannte Armutsspirale dreht sich – von einer Generation zur nächsten.</p>
+    <p>Gesellschaftspolitisch ist die Bekämpfung von Erwerbsarmut eine Frage der Verteilungsgerechtigkeit. Neben einem höheren Mindestlohn werden eine stärkere Tarifbindung, der Ausbau bezahlbaren Wohnraums und eine Reform der Sozialleistungen gefordert. Das Bürgergeld, das 2023 das frühere Hartz-IV-System abgelöst hat, ist ein erster Schritt; ob er ausreicht, wird kontrovers diskutiert.</p>
+    <p>Am Ende steht die Frage, welche Gesellschaft wir sein wollen: eine, in der harte Arbeit zu einem würdigen Leben führt, oder eine, in der Menschen trotz Fleiß auf staatliche Hilfe angewiesen bleiben.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Rund 8 Prozent der Erwerbstätigen in Deutschland lebten 2023 in relativer Armut.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Zeitarbeit und Minijobs bieten denselben Schutz wie unbefristete Vollzeitstellen.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Der gesetzliche Mindestlohn existiert in Deutschland seit 2015.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Ökonomen fordern für einen armutsfesten Mindestlohn etwa 14 Euro pro Stunde.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Frauen und junge Menschen sind besonders von Prekarisierung betroffen.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Alle Arbeitgeber in Deutschland halten den gesetzlichen Mindestlohn vollständig ein.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Hohe Mieten in Großstädten verschärfen die Situation von Geringverdienenden.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Das Wohngeld ist für alle Berechtigten einfach zu beantragen.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Das Bürgergeld hat 2023 das Hartz-IV-System ersetzt.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Kinder aus armen Familien haben laut Text schlechtere Bildungschancen.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Höhere Steuern für Geringverdiener werden als Lösung für Erwerbsarmut vorgeschlagen.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Sozialleistungssysteme im europäischen Vergleich<br>
+    <strong>b</strong>&nbsp; Erwerbsarmut: Ursachen, Folgen und mögliche Lösungen<br>
+    <strong>c</strong>&nbsp; Erfolgsgeschichten aus dem deutschen Arbeitsmarkt
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (709)</h3>
+  <strong>1-e, 2-c, 3-b, 4-f, 5-h, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (709)</h3>
+  <strong>7-b, 8-a, 9-c, 10-d, 11-e, 12-c</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (709)</h3>
+  <strong>13-r, 14-f, 15-r, 16-r, 17-r, 18-f, 19-r, 20-f, 21-r, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 710,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Deepfakes und Wahrheit)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> In Zeiten der digitalen Vernetzung verbreiten sich Informationen schneller als je zuvor.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Glauben Sie nicht alles: Die Gefahr von Deepfakes in der Informationsepoche</h3>
+    <p>
+      Einst galt ein Video als unumstößlicher Beweis für die Realität. Doch diese Gewissheit schwindet im Eiltempo. ___ 0 ___ Mithilfe von künstlicher Intelligenz lassen sich heute täuschend echte Videos erstellen, in denen Personen Dinge sagen oder tun, die sie in der Wirklichkeit nie getan haben. Diese sogenannten "Deepfakes" stellen eine massive Bedrohung für den demokratischen Diskurs dar.
+    </p>
+    <p>
+      Die technologische Hürde für die Erstellung solcher Manipulationen sinkt fast täglich. Während früher Hollywood-Studios monatelang an CGI-Effekten arbeiteten, genügen heute oft einfache Apps und ein gewöhnlicher Computer. ___ 1 ___ Die Gefahr ist groß, dass mit solchen Tools gezielt Desinformation betrieben wird, um Wahlen zu beeinflussen oder den Ruf von Privatpersonen dauerhaft zu ruinieren.
+    </p>
+    <p>
+      Besonders perfide ist die psychologische Wirkung dieser gefälschten Inhalte. Da unser Gehirn visuellen Reizen instinktiv vertraut, ist es extrem schwer, die Täuschung auf den ersten Blick zu erkennen. ___ 2 ___ Selbst wenn ein Deepfake später als solcher entlarvt wird, bleibt ein fader Beigeschmack in den Köpfen der Zuschauer hängen. "Irgendetwas wird schon dran sein", denken sich viele, was das Vertrauen in Medien und Politik nachhaltig untergräbt.
+    </p>
+    <p>
+      Doch die Technik schlägt zurück. Forscher entwickeln Algorithmen, die Manipulationen anhand von winzigen Unregelmäßigkeiten in der Pixelstruktur oder unnatürlichen Blinzel-Frequenzen enttarnen können. ___ 3 ___ Es ist ein klassischer Wettlauf zwischen Angreifern und Verteidigern, bei dem jede neue Erkennungsmethode sofort durch noch bessere Fälschungs-Algorithmen ausgehebelt wird. Ein absoluter Schutz scheint technisch kaum möglich zu sein.
+    </p>
+    <p>
+      Bildungsexperten fordern daher eine massive Stärkung der Medienkompetenz bereits in den Schulen. Kinder und Jugendliche müssen lernen, Quellen kritisch zu hinterfragen und nicht jedem viralen Clip blindlings zu vertrauen. ___ 4 ___ In einer Welt, in der die Wahrheit keine objektive Kategorie mehr zu sein scheint, ist kritisches Denken zur wichtigsten Überlebensstrategie geworden. Nur wer die Mechanismen der Manipulation versteht, kann sich wirksam dagegen schützen.
+    </p>
+    <p>
+      Auch die großen Social-Media-Plattformen stehen in der Pflicht. Sie müssen manipulierte Inhalte schneller kennzeichnen oder ganz löschen, um deren Verbreitung einzudämmen. ___ 5 ___ Die schiere Masse an täglich hochgeladenem Material macht eine lückenlose Kontrolle jedoch fast unmöglich. Zudem ist die Abgrenzung zwischen Satire und böswilliger Manipulation rechtlich oft ein Minenfeld.
+    </p>
+    <p>
+      Wir steuern auf eine Epoche zu, in der wir unseren Augen nicht mehr trauen können. Das Ende der visuellen Wahrheit hat weitreichende Folgen für unser gesellschaftliches Zusammenleben. ___ 6 ___ Wenn alles wahr sein kann und nichts mehr sicher ist, droht die totale Orientierungslosigkeit. Letztendlich wird das persönliche Vertrauen in vertrauenswürdige Institutionen wieder an Bedeutung gewinnen müssen. Das Analoge wird in der digitalen Fake-Welt zum Luxusgut.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies führt zu einer gefährlichen Polarisierung, bei der jeder nur noch das glaubt, was in sein Weltbild passt.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Solche automatisierten Kontrollinstanzen stoßen jedoch auch an ihre Grenzen.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Der erste Eindruck prägt sich tief ein und lässt sich durch Fakten-Checks oft kaum noch korrigieren.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Viele Politiker fordern zudem schärfere Gesetze gegen die Verbreitung von Falschnachrichten.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Das Internet wird so zu einem Ort, an dem Realität und Fiktion ununterscheidbar verschmelzen.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Jeder mit ein wenig technischem Geschick kann so zum Schöpfer einer alternativen Wahrheit werden.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Dennoch glauben viele, dass die Technik uns am Ende doch noch retten wird.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Dies ersetzt jedoch nicht die journalistische Sorgfaltspflicht der traditionellen Pressehäuser.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die juristische Verantwortung der Plattformbetreiber für manipulierte Inhalte diskutiert?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Schwierigkeit hingewiesen, digitale Manipulationen vor Gericht als Beweismittel auszuschließen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass biometrische Daten für die Erstellung von Deepfakes missbraucht werden?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf das Phänomen des "Liar's Dividend" (der Vorteil des Lügners) eingegangen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Rolle von Wasserzeichen als Schutzmaßnahme für authentische Inhalte beschrieben?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Politiker oft selbst Opfer von Video-Manipulationen werden?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die psychischen Folgen für Opfer von Deepfake-Pornografie hingewiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Das Ende der Beweiskraft: Gesellschaftliche Folgen der KI-Manipulation</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> In der Rechtsprechung bahnt sich eine Krise an. Wenn Videos nicht mehr zweifelsfrei als Beweis dienen können, geraten fundamentale Annahmen der Wahrheitsfindung ins Wanken. Verteidiger könnten in Zukunft jedes belastende Video als Deepfake abtun, selbst wenn es authentisch ist. Dieses Phänomen wird als "Liar's Dividend" bezeichnet: Die bloße Existenz von Fälschungen erlaubt es Lügnern, auch die Wahrheit zu leugnen. Die Beweislast verschiebt sich damit massiv, was die Effektivität der Justiz nachhaltig schwächen könnte.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Technologische Gegenmaßnahmen wie digitale Wasserzeichen oder Blockchain-basierte Herkunftsnachweise stecken noch in den Kinderschuhen. Die Idee ist, dass Kameras jedes aufgenommene Bild sofort kryptografisch signieren, um dessen Echtheit zu garantieren. Doch solange diese Standards nicht weltweit und auf allen Geräten implementiert sind, bleiben sie ein lückenhafter Schutz. Zudem lassen sich auch Wasserzeichen mit genügend krimineller Energie oft wieder entfernen oder imitieren.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Besonders beunruhigend ist der Missbrauch biometrischer Daten. Fotos aus sozialen Netzwerken reichen oft schon aus, um ein täuschend echtes 3D-Modell eines Gesichts zu erstellen. Die Stimme wird durch kurze Audiosequenzen aus Podcasts oder Interviews geklont. Wir hinterlassen überall digitale Spuren, die von Kriminellen für Identitätsdiebstahl oder Erpressung genutzt werden können. Niemand ist mehr sicher davor, dass sein digitales Standbild gegen ihn verwendet wird.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Die menschlichen Kosten sind enorm, insbesondere im Bereich der sogenannten "Non-consensual Deepfakes". Frauen werden oft Opfer von pornografischen Montagen, die ihr Privatleben und ihre Karriere zerstören. Die psychischen Belastungen, die mit dieser Form der digitalen Gewalt einhergehen, sind mit physischem Missbrauch vergleichbar. Viele Betroffene ziehen sich komplett aus der Öffentlichkeit zurück, was eine neue Form der digitalen Zensur und Unterdrückung darstellt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Der politische Diskurs wird zunehmend vergiftet. Manipulierte Reden von Staatschefs können innerhalb von Minuten internationale Krisen auslösen oder Börsenkurse zum Absturz bringen. Selbst wenn die Fälschung nach einer Stunde identifiziert wird, ist der Schaden oft schon angerichtet. Politiker müssen heute damit rechnen, dass jedes Wort im Mund herumgedreht oder frei erfunden wird. Dies führt zu einem Klima des Misstrauens, in dem eine sachliche Debatte über Fakten immer schwieriger wird.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: spiegel.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Sehen und nicht glauben: Die Bedrohung durch Deepfakes</h3>
+    <p>Ein Video zeigt einen bekannten Poltiker, der eine schockierende Aussage macht. Das Bild ist scharf, der Ton klar, das Gesicht unverkennbar. Und dennoch: Die Szene hat nie stattgefunden. Was vor wenigen Jahren noch Science-Fiction war, ist heute mit kostenloser Software möglich – sogenannte Deepfakes, also KI-generierte Manipulationen von Bild und Ton, die täuschend echte Medieninhalte erzeugen können. Sie gelten als eine der gefährlichsten Entwicklungen im digitalen Raum.</p>
+    <p>Die Technik dahinter, neuronale Netze vom Typ 'Generative Adversarial Network' (GAN), wurde ursprünglich zu wissenschaftlichen Zwecken entwickelt. Dabei trainieren sich zwei KI-Systeme gegenseitig: Eines erzeugt immer bessere Fälschungen, das andere versucht, diese zu entlarven. Das Ergebnis ist eine beängstigende Perfektion. Was einst Dutzende Stunden Expertenwissen erforderte, ist heute mit wenigen Klicks in einer App möglich.</p>
+    <p>Die Einsatzmöglichkeiten sind vielfältig – und reichen vom harmlosen Spaß bis hin zu ernsthafter Kriminalität. Positivbeispiele sind etwa Filmindustrie-Anwendungen, bei denen verstorbene Schauspieler mit Genehmigung ihrer Nachlass digital wiederbelebt werden, oder barrierefreie Übersetzungstools, die Lippen in anderen Sprachen synchronisieren. Die Schattenseiten überwiegen jedoch: Deepfakes werden genutzt, um nicht-konsensuellen Pornoinhalt zu erstellen, politische Desinformation zu verbreiten oder Unternehmenschefs per Audiomanipulation zu betrügen.</p>
+    <p>Für die Demokratie sind Deepfakes besonders gefährlich. In Wahlkampfzeiten könnten gefälschte Videos von Kandidaten innerhalb von Stunden Millionen Menschen erreichen und die öffentliche Meinung manipulieren. Selbst wenn die Fälschung später entlarvt wird, bleibt der erste Eindruck haften. Dieses Phänomen, bekannt als 'Liar's Dividend', bedeutet, dass sogar echte Aufnahmen im Zeitalter der Deepfakes in ihrer Glaubwürdigkeit beschädigt werden – denn nun kann jeder behaupten, ein kompromittierendes Videobeleg sei ein Fake.</p>
+    <p>Gegenmaßnahmen existieren, aber sie hinken der Technologie hinterher. Softwarefirmen entwickeln Erkennungsalgorithmen, die Unregelmäßigkeiten in Augenzwinkern, Hautstruktur oder Lichteinfällen aufspüren. Doch kaum ist eine Erkennungsmethode entwickelt, werden die Deepfakes nochmals verbessert. Auf rechtlicher Ebene haben einige Länder die Verbreitung von Deepfake-Pornos unter Strafe gestellt, doch eine umfassende Regulierung fehlt.</p>
+    <p>Die wichtigste Verteidigung bleibt die Medienkompetenz der Bevölkerung. Wer weiß, dass Deepfakes existieren und wie man sie erkennt – etwa durch einen gezielten Blick auf Übergänge zwischen Gesicht und Hals oder Lichtreflexionen in den Augen – ist besser gewappnet. Schulen und Medienbildungsprogramme spielen dabei eine entscheidende Rolle.</p>
+    <p>Am Ende ist das Vertrauen in Medieninhalte ein gesellschaftliches Gut, das es zu schützen gilt. Wenn niemand mehr weiß, was echt ist, entsteht ein gefährliches Vakuum, das politische Extremisten und Kriminelle füllen werden.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Deepfakes werden mithilfe von Generative Adversarial Networks (GANs) erzeugt.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Die Deepfake-Technologie war noch vor wenigen Jahren für die breite Öffentlichkeit unzugänglich.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Deepfakes werden ausschließlich für kriminelle Zwecke genutzt.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Der 'Liar's Dividend' bedeutet, dass auch echte Videos an Glaubwürdigkeit verlieren.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Erkennungsalgorithmen für Deepfakes sind bereits vollständig ausgereift.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Einige Länder haben die Verbreitung von Deepfake-Pornos gesetzlich unter Strafe gestellt.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; In Wahlkampfzeiten können Deepfakes die öffentliche Meinung beeinflussen.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Schulen spielen eine wichtige Rolle bei der Vermittlung von Medienkompetenz.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Der Blick auf Lichtreflexionen in den Augen kann bei der Erkennung von Deepfakes helfen.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Die KI-Systeme hinter Deepfakes wurden ursprünglich für Kriegszwecke entwickelt.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Ein gefährliches Informationsvakuum kann entstehen, wenn Medienvertrauen verloren geht.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; KI-generierte Kunst: Kreativität ohne Grenzen<br>
+    <strong>b</strong>&nbsp; Deepfakes: Technologie, Risiken und gesellschaftliche Folgen<br>
+    <strong>c</strong>&nbsp; Cyberkriminalität und ihre strafrechtliche Verfolgung
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (710)</h3>
+  <strong>1-f, 2-c, 3-b, 4-e, 5-h, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (710)</h3>
+  <strong>7-a, 8-c, 9-a, 10-b, 11-e, 12-d</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (710)</h3>
+  <strong>13-r, 14-r, 15-f, 16-r, 17-f, 18-r, 19-r, 20-r, 21-r, 22-f, 23-r | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 711,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Sharing Economy)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Teilen statt Besitzen ist das neue Credo einer Generation, die Flexibilität höher schätzt als materielles Eigentum.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Nutzen statt Kaufen: Der unaufhaltsame Aufstieg der Sharing Economy</h3>
+    <p>
+      Vom Auto über die Bohrmaschine bis hin zur Wohnung – alles lässt sich heute per App mit anderen teilen. ___ 0 ___ Diese ökonomische Umwälzung, oft als "Sharing Economy" bezeichnet, verspricht eine effizientere Ressourcennutzung und neue soziale Kontakte. Doch hinter der glänzenden Fassade des gemeinschaftlichen Konsums verbergen sich auch harte wirtschaftliche Interessen.
+    </p>
+    <p>
+      Die technologische Basis bilden digitale Plattformen, die Angebot und Nachfrage in Echtzeit zusammenführen. ___ 1 ___ Früher war es mühsam, jemanden zu finden, der privat sein Werkzeug verleiht; heute genügt ein Klick. Dies senkt die Transaktionskosten massiv und macht das Teilen für viele attraktiver als den Neukauf. Besonders in Ballungsräumen, wo Platz knapp und teuer ist, setzt sich dieser Trend rasant durch.
+    </p>
+    <p>
+      Ökologisch gesehen ist das Konzept bestechend. Wenn weniger Autos produziert werden müssen, weil sich mehrere Personen ein Fahrzeug teilen, schont das Ressourcen und reduziert den CO2-Ausstoß. ___ 2 ___ Kritiker weisen jedoch darauf hin, dass dieser positive Effekt oft durch Rebound-Effekte zunichte gemacht wird. Wer durch Carsharing Geld spart, nutzt dieses unter Umständen für andere konsumintensive Aktivitäten wie Flugreisen.
+    </p>
+    <p>
+      Besonders umstritten ist die sogenannte "Plattform-Arbeit". Fahrdienstleister oder Essenslieferdienste vermitteln Aufträge an Selbstständige, die oft ohne soziale Absicherung arbeiten. ___ 3 ___ Die Flexibilität, die als Freiheit verkauft wird, entpupregierte sich bei näherem Hinsehen oft als prekäre Beschäftigung ohne Mindestlohn oder Kündigungsschutz. Hier prallen moderne Arbeitsmodelle ungebremst auf ein veraltetes Sozialversicherungsrecht.
+    </p>
+    <p>
+      Auch der Wohnungsmarkt ist stark betroffen. Portale für die Kurzzeitvermietung von Ferienwohnungen führen in vielen Metropolen dazu, dass bezahlbarer Wohnraum für Einheimische knapp wird. ___ 4 ___ In beliebten Stadtteilen werden ganze Häuserblöcke zu faktischen Hotels umgewandelt, was die Mieten in die Höhe treibt und das soziale Gefüge zerstört. Viele Städte reagieren inzwischen mit strengen Zweckentfremdungsverboten.
+    </p>
+    <p>
+      Dennoch wäre es falsch, die Sharing Economy komplett zu verteufeln. In Projekten wie Leihläden oder Nachbarschaftshilfe lebt der ursprüngliche, nicht-kommerzielle Gedanke des Teilens weiter. ___ 5 ___ Hier steht nicht der Profit im Vordergrund, sondern das Miteinander und die gegenseitige Unterstützung. Diese Form des solidarischen Wirtschaftens könnte ein wichtiger Baustein für die nachhaltige Stadt der Zukunft sein.
+    </p>
+    <p>
+      Die Sharing Economy wird die Art und Weise, wie wir konsumieren, dauerhaft verändern. Die Politik ist nun gefordert, einen regulatorischen Rahmen zu schaffen, der Innovationen ermöglicht, aber gleichzeitig soziale Standards und den fairen Wettbewerb schützt. ___ 6 ___ Nur wenn die Lasten und Gewinne gerecht verteilt werden, kann das Teilen wirklich zum Segen für die Gesellschaft werden. Letztlich geht es um die Frage: Wem gehört die Zukunft – den Gemeinschaften oder den Giganten aus dem Silicon Valley?
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies ist eine Form der Verteilungsgerechtigkeit, die bisher kaum diskutiert wurde.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die ökologische Bilanz solcher Modelle ist jedoch oft schlechter als vermutet.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Es geht also darum, bestehende Überkapazitäten intelligenter zu bewirtschaften.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> In diesen Nischen entstehen oft Gemeinschaften, die über den reinen Konsum hinausgehen.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Das Risiko liegt fast ausschließlich bei den Arbeitnehmern, während die Firmen fette Gewinne einfahren.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Die Vermieter erzielen dort Gewinne, die weit über dem liegen, was eine normale Miete einbrächte.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das Versprechen der Nachhaltigkeit wird so zur bloßen Marketingstrategie.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Dies ermöglicht eine Effizienzsteigerung, die im analogen Zeitalter undenkbar war.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Rolle von Vertrauensmechanismen (Bewertungssysteme) in der Sharing Economy erläutert?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf das Problem der steuerlichen Grauzone privater Vermietungen hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass Bewertungssysteme oft zu einer "Tyrannei der 5 Sterne" führen können?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die psychologische Hürde eingegangen, fremde Menschen in den eigenen privaten Raum zu lassen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung von Versicherungen für die Absicherung von Schäden beim Teilen betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Algorithmen über den Erfolg oder Misserfolg von Anbietern entscheiden?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die Gefahr der Monopolbildung durch globale Plattformgiganten verwiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Vertrauen als Währung: Die dunklen Seiten der digitalen Gemeinschaft</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Damit die Sharing Economy funktioniert, müssen Fremde einander vertrauen. Dies wird durch ausgeklügelte Rezensions-Systeme ermöglicht. Wer eine Wohnung oder ein Auto anbietet, wird bewertet. Doch dieses System hat Schattenseiten: Eine einzige schlechte Kritik kann die Existenz eines Anbieters gefährden. Es entsteht ein enormer Konformitätsdruck, den viele als "Tyrannei der 5 Sterne" empfinden. Man traut sich kaum noch, ehrlich zu sein, aus Angst vor einer schlechten Gegenbewertung, was die Objektivität des gesamten Systems untergräbt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Steuerrechtlich ist das Teilen oft ein Albtraum. Viele Nutzer behandeln ihre Einnahmen als private Gefälligkeit, obwohl sie de facto gewerblich handeln. Für die Finanzämter ist es extrem schwer, diese Mikro-Einnahmen lückenlos zu erfassen. Hier entgehen dem Staat jährlich Millionenbeträge an Steuereinnahmen. Zudem verzerrt die Abwesenheit von Steuern den Wettbewerb mit traditionellen Anbietern wie Hotels oder Taxiunternehmen, die strengen Auflagen und Abgabenpflichten unterliegen.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Die psychologische Barriere ist nicht zu unterschätzen. Den Schlüssel zum eigenen Heiligtum – der Wohnung – einem völlig Fremden auszuhändigen, erfordert Überwindung. Portale versuchen dies durch Zusatzversicherungen und Identitätsprüfungen zu kompensieren. Dennoch bleibt ein Restrisiko, das viele davon abhält, am Teilen teilzunehmen. Die Kommerzialisierung der Privatsphäre wird von Kritikern als finales Stadium des Kapitalismus gedeutet, in dem nun auch das letzte Stück Rückzugsraum vermarktet wird.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Hinter den Kulissen regieren die Algorithmen. Sie entscheiden, welcher Anbieter ganz oben steht und wer unsichtbar bleibt. Diese Macht der Software ist unkontrolliert und oft intransparent. Wenn eine Plattform ihre Kriterien ändert, können Umsätze über Nacht einbrechen. Anbieter sind somit Sklaven des Codes, ohne echte Mitsprachemöglichkeiten. Hier zeigt sich, dass die Sharing Economy entgegen ihrem Namen oft sehr hierarchisch organisiert ist und die reale Macht bei den Betreibern der Infrastruktur liegt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Langfristig droht eine gefährliche Marktkonzentration. Da Plattformen von Skaleneffekten profitieren (je mehr Nutzer, desto nützlicher), setzen sich oft nur wenige Giganten durch. Diese Monopolisten können dann die Regeln und Preise diktieren. Ein echter fairer Wettbewerb findet dann kaum noch statt. Um dem entgegenzuwirken, fordern Ökonomen die Förderung von genossenschaftlich organisierten Plattformen (Platform Cooperativism), die den Gewinn und die Entscheidungsmacht wieder unter den eigentlichen Nutzern verteilen.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: wiwo.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Teilen statt Besitzen: Die Sharing Economy im Alltagstest</h3>
+    <p>Airbnb, Uber, Blablacar – Plattformen, die auf dem Prinzip des Teilens basieren, sind aus dem modernen Alltag nicht mehr wegzudenken. Die sogenannte Sharing Economy verspricht eine effizientere Nutzung von Ressourcen, günstigere Angebote für Konsumenten und eine Demokratisierung des Marktzugangs. Gleichzeitig stehen diese Geschäftsmodelle zunehmend in der Kritik: von Gewerkschaften, traditionellen Anbietern und Stadtplanern gleichermaßen.</p>
+    <p>Die Grundidee klingt überzeugend: Ein Zimmer steht leer, also vermietet man es. Ein Auto fährt täglich dieselbe Strecke, also nimmt man Mitfahrer mit. Kapazitäten, die sonst brachliegen, werden aktiviert und allen zugänglich gemacht. Im Idealfall entsteht so eine Win-Win-Situation: Der Anbieter verdient hinzu, der Nutzer spart, und die Umwelt profitiert von einer höheren Auslastung vorhandener Ressourcen. Weniger Autos auf der Straße, weniger leerstehende Gebäude.</p>
+    <p>Die Realität ist jedoch komplizierter. Plattformen wie Airbnb haben in Städten wie Barcelona, Amsterdam oder Berlin dazu beigetragen, den Wohnungsmarkt massiv zu belasten. Wenn Tausende Privatwohnungen dauerhaft als Ferienwohnungen vermietet werden, entzieht das dem regulären Mietmarkt dringend benötigten Wohnraum. Mieten steigen, Anwohner werden verdrängt. Städte reagieren mit Regulierungen: Manche begrenzen die Anzahl der Vermietungstage pro Jahr, andere verlangen spezielle Lizenzen.</p>
+    <p>Ähnliche Spannungen gibt es im Bereich der Plattformarbeit. Fahrer bei Uber, Lieferanten bei Lieferdiensten oder Freiberufler auf Projektplattformen gelten formal als selbstständig, haben aber oft kaum die Freiheit echter Selbstständiger: Algorithmen bestimmen Aufträge, Preise und Bewertungen. Gewerkschaften kämpfen für die Anerkennung dieser Arbeitnehmer als reguläre Beschäftigte mit entsprechenden Schutzrechten. In einigen europäischen Ländern haben Gerichte bereits Plattformarbeitern Arbeitnehmerrechte zugesprochen.</p>
+    <p>Ökologisch betrachtet ist die Bilanz der Sharing Economy ebenfalls gemischt. Während Carsharing in städtischen Gebieten tatsächlich den Autobestand reduzieren kann, zeigen Studien, dass Ridesharing-Dienste wie Uber in Großstädten oft den öffentlichen Nahverkehr verdrängen statt ergänzen. Das Ergebnis: mehr Fahrten, mehr Staus, mehr Emissionen. Die ökologische Versprechen erfüllen sich nur dort, wo die Sharing Economy als Ergänzung und nicht als Ersatz für nachhaltigen Verkehr eingesetzt wird.</p>
+    <p>Trotz aller Kritik bietet die Sharing Economy echte Chancen – wenn sie richtig reguliert wird. Transparente Regeln, faire Besteuerung und ein klares Verhältnis zu bestehenden Arbeitsrechten könnten das Modell nachhaltiger machen. Einige Städte experimentieren mit genossenschaftlichen Plattformmodellen, bei denen die Gewinne nicht an externe Investoren fließen, sondern direkt den Anbietern und der Gemeinschaft zugutekommen.</p>
+    <p>Die Sharing Economy ist kein Selbstzweck. Sie ist ein Werkzeug, das – richtig eingesetzt – zur Lösung gesellschaftlicher Probleme beitragen kann. Falsch reguliert, kann sie genau diese Probleme verschärfen.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Die Sharing Economy basiert auf der Idee, vorhandene Ressourcen besser zu nutzen.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Airbnb hat in vielen Städten dazu beigetragen, Wohnraum für Einheimische knapper zu machen.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Fahrer bei Uber gelten laut Plattformvertrag als festangestellte Arbeitnehmer.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Einige europäische Gerichte haben Plattformarbeitern Arbeitnehmerrechte zugesprochen.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Ridesharing-Dienste in Großstädten ersetzen laut Studien oft den öffentlichen Nahverkehr.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Genossenschaftliche Plattformmodelle fließen Gewinne an externe Investoren.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Carsharing kann in städtischen Gebieten den Autobestand verringern.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Die Sharing Economy ist ökologisch immer vorteilhaft.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Manche Städte begrenzen die Anzahl der erlaubten Vermietungstage auf Plattformen.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Gewerkschaften befürworten die derzeitige Selbstständigkeit von Plattformarbeitern.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Die Sharing Economy kann zur Lösung gesellschaftlicher Probleme beitragen, wenn sie reguliert wird.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Bekannte Sharing-Economy-Plattformen und ihr Geschäftsmodell<br>
+    <strong>b</strong>&nbsp; Sharing Economy: Potenziale, Probleme und Regulierungsbedarf<br>
+    <strong>c</strong>&nbsp; Finanzielle Vorteile des Teilens für Privatpersonen
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (711)</h3>
+  <strong>1-h, 2-c, 3-e, 4-f, 5-d, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (711)</h3>
+  <strong>7-b, 8-a, 9-c, 10-c, 11-d, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (711)</h3>
+  <strong>13-r, 14-r, 15-f, 16-r, 17-r, 18-f, 19-r, 20-f, 21-r, 22-f, 23-r | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 712,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (KI in der Medizin)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Künstliche Intelligenz revolutioniert derzeit die medizinische Diagnostik in einer Geschwindigkeit, die noch vor wenigen Jahren undenkbar war.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Diagnose vom Algorithmus: Die Zukunft der Medizin zwischen Effizienz und Ethik</h3>
+    <p>
+      In Kliniken weltweit arbeiten Computerprogramme bereits Hand in Hand mit Ärzten. Besonders bei der Auswertung von Röntgenbildern oder MRT-Aufnahmen zeigen Algorithmen eine Präzision, die oft über der von erfahrenen Radiologen liegt. ___ 0 ___ Durch das Training mit Millionen von Referenzbildern lernt die KI, selbst feinste Unregelmäßigkeiten zu erkennen, die dem menschlichen Auge entgehen könnten.
+    </p>
+    <p>
+      Dies spart nicht nur Zeit, sondern kann in Notfällen Leben retten. Ein Schlaganfall-Patient etwa profitiert massiv davon, wenn der Computer die Verstopfung im Gehirn innerhalb von Sekunden identifiziert. ___ 1 ___ So bleibt dem medizinischen Fachpersonal mehr Energie für die Behandlung und die persönliche Betreuung der Patienten. Der Computer übernimmt die Fleißarbeit, der Mensch die heilende Kunst.
+    </p>
+    <p>
+      Doch die Technik wirft auch schwierige Fragen auf. Wer trägt die Verantwortung, wenn ein Algorithmus eine Fehldiagnose stellt? ___ 2 ___ Bisher gilt in Deutschland das Prinzip der ärztlichen Letztentscheidung. Die Maschine darf nur als Hilfsmittel dienen, das finale Urteil muss immer ein approbierter Mediziner fällen. Doch in der Praxis verlassen sich gestresste Assistenzärzte immer häufiger blind auf die digitalen Vorschläge.
+    </p>
+    <p>
+      Ein weiteres Problem ist der Datenschutz. Damit KI-Systeme lernen können, benötigen sie riesige Mengen an Patientendaten. ___ 3 ___ Krankengeschichten sind extrem sensible Informationen, deren Schutz oberste Priorität haben muss. Wenn diese Daten in die Hände von Versicherungen oder Arbeitgebern gelangen, könnte dies zu einer neuen Form der Diskriminierung führen. Anonymisierung ist hier oft schwieriger, als es die Industrie suggeriert.
+    </p>
+    <p>
+      Trotz dieser Bedenken ist der Weg zurück nicht mehr vorstellbar. Besonders in der personalisierten Medizin, also der genau auf den Gensequenz des Einzelnen zugeschnittenen Therapie, ist KI unverzichtbar. ___ 4 ___ Keine menschliche Forschergruppe könnte diese Datenflut in einer vertretbaren Zeit sichten und daraus die richtigen Schlüsse ziehen. Hier ermöglicht die Technik echte medizinische Durchbrüche bei der Heilung von Krebs oder seltenen Erbkrankheiten.
+    </p>
+    <p>
+      Kritiker mahnen jedoch, dass die Menschlichkeit nicht auf der Strecke bleiben darf. Medizin ist mehr als nur die korrekte Interpretation von Messwerten. ___ 5 ___ Ein Algorithmus kann zwar Wahrscheinlichkeiten berechnen, aber er kann nicht trösten oder die Angst eines Patienten vor einer Operation verstehen. Die Empathie bleibt die Domäne des Menschen, die durch keine Rechenleistung der Welt zu ersetzen ist.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass wir am Beginn einer neuen Ära stehen. Die Herausforderung wird darin bestehen, die technologischen Vorteile zu nutzen, ohne das Vertrauensverhältnis zwischen Arzt und Patient zu untergraben. ___ 6 ___ Die Medizin von morgen wird digitaler sein, aber sie muss im Kern menschlich bleiben. Technik sollte dem Leben dienen, nicht umgekehrt.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies erfordert jedoch eine globale Einigung auf gemeinsame Sicherheitsstandards.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die Haftungsfrage bei Fehlern der Maschine ist juristisches Neuland.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Hier klafft eine Lücke zwischen dem technisch Machbaren und dem rechtlich Zulässigen.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Der Blick des Arztes auf den ganzen Menschen ist durch nichts zu ersetzen.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Es geht darum, Muster zu erkennen, die weit über das Fassungsvermögen eines Individuums hinausgehen.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das entlastet die Notaufnahmen und beschleunigt die gesamte Rettungskette.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Ohne diesen Treibstoff aus Fakten bleibt die künstliche Intelligenz jedoch hohl und nutzlos.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Rolle von KI bei der Entwicklung neuer Medikamente (Wirkstoffsuche) beschrieben?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Gefahr von "Bias" (Voreingenommenheit) in medizinischen Datensätzen hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass KI-Systeme in ländlichen Gebieten den Ärztemangel mildern könnten?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die psychologische Belastung hingewiesen, die eine schlechte Nachricht durch eine Maschine auslöst?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung der "Erklärbarkeit" (Explainability) von KI-Entscheidungen betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass KI in der telemedizinischen Fernüberwachung von chronisch Kranken hilft?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die Einsparungen im Gesundheitssystem durch frühzeitige Diagnosen eingegangen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Smarte Gesundheit: Wie Algorithmen die Arztpraxis verändern</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Die Pharmaindustrie nutzt KI massiv, um die Forschung nach neuen Wirkstoffen zu beschleunigen. Früher dauerte es Jahrzehnte, bis ein neues Medikament Marktreife erlangte. Heute können Computer Milliarden von chemischen Verbindungen virtuell testen und deren Wirkung simulieren. Das senkt die Entwicklungskosten dramatisch und ermöglicht es, schneller auf neue Bedrohungen wie Pandemien zu reagieren. Dennoch bleibt die anschließende klinische Studie am Menschen unumgänglich, um die tatsächliche Sicherheit zu gewährleisten.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Ein großes Problem ist der sogenannte "Bias" in den Trainingsdaten. Wenn eine KI hauptsächlich mit Daten von hellhäutigen Patienten trainiert wurde, stellt sie bei anderen Bevölkerungsgruppen oft ungenauere Diagnosen, etwa bei der Erkennung von Hautkrebs. Dies ist eine Form der unbewussten Diskriminierung im Code. Es ist daher essentiell, dass Datensätze so divers wie möglich sind, um eine gerechte medizinische Versorgung für alle Menschen sicherzustellen, unabhängig von ihrer Herkunft oder Genetik.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> In Regionen mit schwacher medizinischer Infrastruktur bietet KI eine Chance auf eine Grundversorgung. Apps können bei einfachen Beschwerden eine Ersteinschätzung geben und entscheiden, ob ein Patient wirklich einen Spezialisten braucht. Zudem ermöglichen Wearables eine permanente Fernüberwachung von Herzkranken oder Diabetikern. Die Daten werden in Echtzeit übertragen und nur bei kritischen Werten schlägt der Algorithmus beim behandelnden Arzt Alarm. Das erhöht die Sicherheit und Lebensqualität der Betroffenen massiv.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Für Akzeptanz muss die KI "erklärbar" sein. Ein Arzt kann einem Patienten nicht einfach sagen: "Der Computer hat Krebs gesagt." Er muss verstehen, warum die Maschine zu diesem Schluss gekommen ist. "Black-Box-Systeme", bei denen der Rechenweg im Verborgenen bleibt, werden in der Medizin zunehmend kritisch gesehen. Nur wenn die Entscheidungswege transparent sind, können Mediziner dem System vertrauen und ihre eigene Verantwortung kompetent wahrnehmen.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Ökonomisch ist der Einsatz von KI ein Segen für die maroden Kassen der Gesundheitssysteme. Durch die frühzeitige Erkennung von Krankheiten können teure Langzeitbehandlungen oder Notoperationen vermieden werden. Prävention wird durch datengestützte Analysen endlich effizient planbar. Dennoch warnen Experten davor, die Effizienzsteigerung als Vorwand für Personalabbau zu nutzen. Eine gute Behandlung dauert ihre Zeit, und das Gespräch zwischen Mensch und Arzt ist oft der wichtigste Teil der Heilung.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: aerzteblatt.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Algorithmus als Arzt: Künstliche Intelligenz in der medizinischen Diagnostik</h3>
+    <p>Wenn eine KI Lungenkrebs auf einem Röntgenbild erkennt, das einem erfahrenen Radiologen entgangen wäre, wirft das grundlegende Fragen auf. Kann eine Maschine besser diagnostizieren als ein Mensch? Und wenn ja: Was bedeutet das für die Zukunft des ärztlichen Berufs? Künstliche Intelligenz hält in immer mehr medizinischen Bereichen Einzug und zeigt Leistungen, die vor wenigen Jahren noch undenkbar schienen.</p>
+    <p>Die Stärke der KI liegt in ihrer Fähigkeit, enorme Datenmengen zu verarbeiten und Muster zu erkennen, die für menschliche Augen unsichtbar bleiben. In der Bilddiagnostik etwa wurden KI-Systeme mit Millionen von beschrifteten Röntgenbildern, MRT-Aufnahmen und Hautfotos trainiert. Bei der Erkennung bestimmter Krebsarten, diabetischer Retinopathie oder Lungenentzündung erreichen diese Systeme bereits eine Genauigkeit, die mit der erfahrener Fachärzte vergleichbar ist – in manchen Studien sogar darüber liegt.</p>
+    <p>Doch Genauigkeit allein reicht nicht. Gute medizinische Diagnose erfordert mehr als Mustererkennung: Sie beinhaltet die Einbeziehung der Krankengeschichte, die Kommunikation mit dem Patienten, das Erkennen von Ausnahmen sowie die ethische Verantwortung für eine Entscheidung. All das kann die KI bisher nicht leisten. Sie ist ein mächtiges Unterstützungswerkzeug, aber kein vollständiger Ersatz für den Arzt. Experten sprechen daher von 'Augmented Medicine' – einer Medizin, die durch Technologie verstärkt, aber von Menschen geführt wird.</p>
+    <p>Ein weiteres Problem ist die Erklärbarkeit. Viele KI-Systeme arbeiten als sogenannte 'Black Boxes': Sie liefern ein Ergebnis, aber können nicht erklären, wie sie zu ihm gekommen sind. In der Medizin ist das ein erhebliches Problem. Ein Arzt muss seine Entscheidungen begründen können – gegenüber dem Patienten, gegenüber Kollegen und im Zweifelsfall auch vor Gericht. Deshalb investiert die Forschung in sogenannte 'Explainable AI', also erklärbarer künstlicher Intelligenz, die ihre Schlüsse transparent macht.</p>
+    <p>Datenschutz ist ein weiteres sensibles Thema. KI-Systeme brauchen riesige Datenmengen, um zu trainieren. Im medizinischen Bereich sind das hochsensible Patientendaten. Die europäische Datenschutzgrundverordnung (DSGVO) setzt strenge Grenzen, was die Nutzung solcher Daten betrifft. Internationale Unternehmen, vor allem aus den USA, haben hingegen Zugriff auf weniger restriktive Datenmengen, was ihnen einen Entwicklungsvorsprung verschaffen kann.</p>
+    <p>Trotz aller Herausforderungen ist klar: KI wird die Medizin der Zukunft entscheidend mitgestalten. In ländlichen Gebieten mit Ärztemangel können KI-gestützte Diagnosesysteme die Grundversorgung verbessern. In Entwicklungsländern könnten günstige KI-Geräte die Gesundheitsversorgung revolutionieren.</p>
+    <p>Die Frage ist nicht, ob KI in der Medizin kommen wird. Sie ist bereits da. Die entscheidende Frage ist, wie wir sicherstellen, dass sie dem Wohl aller Patienten dient – unabhängig von Einkommen und Herkunft.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; KI-Systeme in der Medizin werden mit großen Mengen beschrifteter Bilddaten trainiert.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; KI kann in der Diagnostik bereits vollständig den menschlichen Arzt ersetzen.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Bei einigen Krebserkrankungen erreicht die KI eine Diagnosegenauigkeit auf Facharztsniveau.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; 'Augmented Medicine' beschreibt eine Medizin, die durch KI vollständig automatisiert wird.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Die fehlende Erklärbarkeit von KI-Entscheidungen ist in der Medizin ein Problem.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; 'Explainable AI' arbeitet als vollständige Black Box ohne Transparenz.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Die DSGVO schränkt die Nutzung medizinischer Patientendaten für KI-Training ein.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; In ländlichen Gebieten könnte KI die medizinische Grundversorgung verbessern.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; US-amerikanische Unternehmen haben möglicherweise einen Entwicklungsvorteil durch weniger strenge Datenschutzregeln.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Gute Diagnostik erfordert laut Text nur Mustererkennung.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; KI in der Medizin könnte in Entwicklungsländern die Gesundheitsversorgung verbessern.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Geschichte der medizinischen Bildgebung<br>
+    <strong>b</strong>&nbsp; KI in der Medizin: Möglichkeiten, Grenzen und ethische Fragen<br>
+    <strong>c</strong>&nbsp; Arzt-Patienten-Kommunikation im digitalen Zeitalter
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (712)</h3>
+  <strong>1-g, 2-b, 3-h, 4-f, 5-d, 6-c</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (712)</h3>
+  <strong>7-b, 8-c, 9-e, 10-d, 11-c, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (712)</h3>
+  <strong>13-r, 14-f, 15-r, 16-f, 17-r, 18-f, 19-r, 20-r, 21-r, 22-f, 23-r | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 713,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Homeschooling vs. Schule)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Das klassische Schulsystem steht weltweit unter Druck, sich an die Anforderungen des digitalen Zeitalters anzupassen.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Lernen ohne Klassenzimmer: Die Renaissance des Homeschooling</h3>
+    <p>
+      Früher war Heimunterricht eine absolute Nische, oft religiös oder weltanschaulich motiviert. Doch in den letzten Jahren hat sich das Bild gewandelt. ___ 0 ___ Immer mehr Eltern entscheiden sich bewusst gegen staatliche Schulen, da sie das starre System für veraltet und wenig förderlich für die individuellen Talente ihrer Kinder halten. Die Debatte über die Schulpflicht vs. Bildungspflicht ist hitziger denn je.
+    </p>
+    <p>
+      Einer der Hauptvorteile des Lernens zu Hause ist das individuelle Tempo. In einer Klasse mit 30 Schülern müssen die Lehrer oft einen Mittelweg finden, bei dem sowohl langsame als auch schnelle Lerner auf der Strecke bleiben. ___ 1 ___ So kann ein mathematisch begabtes Kind bereits Stoff der Oberstufe bearbeiten, während es in Sprachen mehr Zeit bekommt. Diese Flexibilität führt oft zu einer höheren Motivation und weniger Frustration bei den Schülern.
+    </p>
+    <p>
+      Kritiker hingegen weisen auf die fehlende soziale Integration hin. Die Schule ist nicht nur ein Ort der Wissensvermittlung, sondern auch ein Trainingsfeld für das soziale Miteinander. ___ 2 ___ Wer nur im geschützten Raum der Familie lernt, läuft Gefahr, später Schwierigkeiten im Umgang mit Konflikten oder fremden Autoritäten zu haben. Die Vielfalt an Meinungen und Charakteren in einer Schulklasse lässt sich am Küchentisch kaum simulieren.
+    </p>
+    <p>
+      Auch die Qualität der Lehre ist ein Streitpunkt. Sind Eltern wirklich in der Lage, alle Fächer auf einem fachlich fundierten Niveau zu unterrichten? ___ 3 ___ Ab der Mittelstufe stoßen auch Akademiker oft an ihre Grenzen, wenn es um komplexe physikalische Formeln oder altgriechische Grammatik geht. Homeschooling-Netzwerke versuchen dies durch Kooperationen und Online-Kurse zu lösen, doch der direkte Austausch mit einem ausgebildeten Pädagogen fehlt weiterhin.
+    </p>
+    <p>
+      In Deutschland ist die Situation besonders streng, da eine strikte Schulpflicht besteht. Nur in absoluten Ausnahmefällen ist Heimunterricht erlaubt. ___ 4 ___ Im Gegensatz dazu ist das Modell in Ländern wie den USA oder Großbritannien völlig legal und gesellschaftlich weitgehend akzeptiert. Diese unterschiedlichen Herangehensweisen spiegeln tiefe Überzeugungen über das Verhältnis zwischen Staat, Familie und Bildung wider.
+    </p>
+    <p>
+      Interessanterweise hat die Coronapandemie das Homeschooling unfreiwillig zum Massenexperiment gemacht. Plötzlich saßen alle Kinder zu Hause und mussten digital beschult werden. ___ 5 ___ Viele Eltern stellten fest, dass ihre Kinder in der häuslichen Ruhe konzentrierter arbeiteten, während andere mit der Doppelbelastung aus Homeoffice und Lehrerrolle komplett überfordert waren. Die Krise hat die Schwächen und Stärken beider Modelle schonungslos offengelegt.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass es nicht die eine perfekte Bildungsform für alle gibt. Die Schule der Zukunft wird vermutlich Elemente aus beiden Welten kombinieren müssen: das soziale Miteinander und die Qualitätssicherung der Institution Schule mit der Flexibilität und Individualität des freien Lernens. ___ 6 ___ Nur so können wir junge Menschen optimal auf eine Welt vorbereiten, die lebenslanges und selbstständiges Lernen verlangt.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies erfordert jedoch ein radikales Umdenken der bildungspolitischen Verantwortlichen.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die rechtlichen Hürden sind hierzulande fast unüberwindbar und führen oft zu Geldbußen.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Zu Hause kann der Lehrplan exakt auf die Bedürfnisse des Einzelnen zugeschnitten werden.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Die Erfahrungen aus dieser Zeit fließen nun in neue pädagogische Konzepte ein.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Dort lernt man, sich durchzusetzen und auch mit Menschen auszukommen, die man nicht mag.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Es sind oft traumatische Erlebnisse in der Schule, die Eltern zu diesem Schritt bewegen.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Ein Diplom oder ein Studium qualifiziert noch lange nicht zum guten Lehrer.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Dies hat eine breite gesellschaftliche Diskussion über den Sinn der Präsenzpflicht ausgelöst.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeden Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Bedeutung von außerschulischen Aktivitäten (Sportvereine etc.) für Homeschooler betont?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>d</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Gefahr einer ideologischen Abschottung (Echokammern) hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass Homeschooling die Chancengerechtigkeit gefährden könnte?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die zeitliche Belastung der Eltern als "Vollzeitlehrer" eingegangen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Rolle von Online-Plattformen als Ersatz für klassische Schulbücher beschrieben?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Homeschooler in standardisierten Tests oft überdurchschnittlich abschneiden?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die finanzielle Ersparnis für den Staat durch private Beschulung hingewiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Schulbank adé: Die pädagogischen Herausforderungen des freien Lernens</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Damit die soziale Isolation vermieden wird, bilden Homeschooling-Familien oft Netzwerke. Sie treffen sich zum Sport, zu Ausflügen oder für gemeinsame Projekte. Hier findet die Sozialisation statt, die Kritiker oft vermissen. Zudem wird argumentiert, dass Kinder in altersgemischten Gruppen oft natürlicher lernen als in nach Geburtsjahrgang sortierten Schulklassen. Die Welt besteht schließlich auch nicht nur aus Gleichaltrigen. Diese Form der Gemeinschaftsbildung erfordert jedoch viel Eigeninitiative der Eltern.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Ein ernstes Risiko ist die mangelnde Pluralität. Wenn Kinder nur die Werte und Weltsichten ihrer Eltern kennenlernen, fehlt die Reibungsfläche mit anderen Lebensentwürfen. In einer demokratischen Gesellschaft ist der Austausch mit dem "Anderen" jedoch grundlegend. Es besteht die Gefahr, dass geschlossene Weltbilder zementiert werden und die Kinder in einer privaten Echokammer aufwachsen, was die spätere Integration in eine heterogene Gesellschaft erschweren könnte.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Ökonomisch betrachtet ist Homeschooling ein Privileg. Nur Familien, in denen ein Elternteil nicht oder nur wenig arbeitet, können dieses Modell langfristig durchhalten. Das verschärft die soziale Kluft: Kinder aus bildungsnahen und wohlhabenden Haushalten profitieren von der individuellen Förderung, während Kinder aus prekären Verhältnissen auf das staatliche System angewiesen bleiben. Bildungsgerechtigkeit sieht anders aus, da der Erfolg hier noch stärker vom Elternhaus abhängt als ohnehin schon.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Die Digitalisierung hat das Lernen zu Hause revolutioniert. Hochwertige Online-Kurse, interaktive Lernplattformen und Videotutorials machen das klassische, oft verstaubte Schulbuch überflüssig. Wissen ist überall und jederzeit verfügbar. Die Rolle der Eltern verschiebt sich dabei vom Wissensvermittler hin zum Lernbegleiter oder Coach. Sie müssen nicht mehr alles selbst wissen, sondern wissen, wo man die besten Informationen findet und wie man sie kritisch bewertet.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Studien aus den USA zeigen zwar, dass Homeschooler bei Universitätstests oft exzellent abschneiden, doch das lässt sich nicht eins zu eins auf Europa übertragen. Zudem wird oft übersehen, dass der Staat durch diesen privaten Einsatz Milliarden an Bildungskosten spart. Gebäude, Lehrergehälter und Verwaltungskosten fallen für diese Kinder weg. Dennoch überwiegt in vielen europäischen Ländern die Sorge, dass der Staat seinen Bildungsauftrag und die Kontrolle über die Qualität der Lehre verliert.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: faz.net, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Zuhause lernen: Chancen und Grenzen des Homeschoolings</h3>
+    <p>In Deutschland ist Homeschooling verboten – das Schulpflichtgesetz verpflichtet alle Kinder zum Besuch einer staatlichen oder genehmigten Privatschule. In anderen Ländern, etwa den USA, Großbritannien oder der Schweiz, ist Heimunterricht dagegen legal und weit verbreitet. Dort hat die Zahl der Familien, die ihre Kinder zu Hause unterrichten, in den Pandemiejahren massiv zugenommen. Dies hat eine neue Debatte entfacht: Ist Schule wirklich das beste Modell für alle Kinder?</p>
+    <p>Befürworter des Homeschoolings argumentieren, dass der individuelle Unterricht das Tempo und die Interessen des Kindes berücksichtigt, wie es in einer Klasse mit 25 Schülerinnen und Schülern nicht möglich ist. Hochbegabte Kinder können schneller vorankommen, lernbenachteiligte Kinder können sich mehr Zeit nehmen, ohne als 'langsam' stigmatisiert zu werden. Eltern, die selbst gut ausgebildet sind und Zeit haben, sehen Homeschooling als Möglichkeit, eine maßgeschneiderte Bildung zu bieten.</p>
+    <p>Doch die Kritik ist gewichtig. Die wichtigste Institution für die Sozialisation von Kindern ist die Schule. Dort lernen sie nicht nur Mathe und Deutsch, sondern auch, Konflikte zu lösen, in der Gruppe zu arbeiten, Kompromisse zu schließen und Regeln zu respektieren. Kinder, die ausschließlich zu Hause unterrichtet werden, verpassen diese sozialen Lernprozesse. Studien zeigen, dass Homeschooler in Prüfungen oft gut abschneiden, aber in sozialen Situationen Schwierigkeiten haben können.</p>
+    <p>Ein weiteres Gegenargument ist die fehlende Kontrolle. Im schulischen System werden Lehrpläne, Qualität und Kinderschutz durch staatliche Instanzen überwacht. Bei Homeschooling trägt allein die Familie diese Verantwortung. In Ländern ohne strenge Aufsicht besteht die Gefahr, dass Kinder aus religiösen oder ideologischen Gründen bewusst von bestimmten Inhalten ferngehalten werden. Auch ein lückenhafter Bildungsstand ohne externe Kontrolle ist möglich.</p>
+    <p>Andererseits zeigt die Praxis, dass viele Homeschooling-Familien sehr strukturiert vorgehen und sich in Netzwerken organisieren. Gemeinsame Ausflüge, Sportgruppen und regelmäßige Treffen mit anderen Homeschooling-Kindern kompensieren den fehlenden Schulalltag teilweise. In manchen Ländern gibt es zudem Hybridmodelle, bei denen Kinder an einigen Tagen die Schule besuchen und an anderen Tagen zu Hause lernen.</p>
+    <p>In Deutschland bleibt das Verbot vorerst bestehen, doch die Debatte ist lebendiger denn je. Insbesondere neurodivergente Kinder – also Kinder mit Autismus, ADHS oder besonderen Lernbedürfnissen – könnten von flexibleren Bildungsmodellen profitieren. Einige Experten fordern daher zumindest eine Öffnung für Ausnahmegenehmigungen in begründeten Einzelfällen.</p>
+    <p>Bildung ist keine Einheitslösung. Was dem einen Kind hilft, kann dem anderen schaden. Eine pluralistische Gesellschaft sollte im Bereich Bildung auch pluralistische Lösungen zulassen – mit klaren Standards und einer effektiven Aufsicht.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; In Deutschland ist Homeschooling gesetzlich erlaubt.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Homeschooling ermöglicht einen stärker individualisierten Unterricht als Regelschulen.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Studien zeigen, dass Homeschooler häufig schlechte Prüfungsergebnisse erzielen.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Ein Risiko des Homeschoolings ist das Fehlen staatlicher Kontrolle über Bildungsinhalte.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Viele Homeschooling-Familien organisieren gemeinsame soziale Aktivitäten für ihre Kinder.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Homeschooling-Schüler haben laut Studien keine Schwierigkeiten in sozialen Situationen.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Neurodivergente Kinder könnten von flexibleren Bildungsmodellen profitieren.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; In Deutschland gibt es bereits offizielle Ausnahmegenehmigungen für Homeschooling.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; In der Schule lernen Kinder auch soziale Fähigkeiten wie Konfliktlösung.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Im Unterricht zu Hause können langsam lernende Kinder in ihrem eigenen Tempo arbeiten.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; In den USA ist Homeschooling grundsätzlich verboten.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Schulsystem-Reformen in Deutschland im 21. Jahrhundert<br>
+    <strong>b</strong>&nbsp; Homeschooling: Möglichkeiten, Risiken und gesellschaftliche Debatte<br>
+    <strong>c</strong>&nbsp; Vergleich internationaler Bildungssysteme
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (713)</h3>
+  <strong>1-c, 2-e, 3-g, 4-b, 5-h, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (713)</h3>
+  <strong>7-b, 8-c, 9-c, 10-d, 11-e, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (713)</h3>
+  <strong>13-f, 14-r, 15-f, 16-r, 17-r, 18-f, 19-r, 20-f, 21-r, 22-r, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 714,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Smart Cities)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Die Vision der "Smart City" verspricht eine effizientere, grünere und lebenswertere Stadt durch den Einsatz modernster Sensortechnik und Datenanalyse.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Vernetzte Lebensräume: Wie künstliche Intelligenz unsere Städte steuert</h3>
+    <p>
+      Immer mehr Menschen zieht es in die Metropolen, was die Infrastruktur vor gewaltige Herausforderungen stellt. Staus, Luftverschmutzung und Energieknappheit sind die Folgen dieser Urbanisierung. ___ 0 ___ Mithilfe von Millionen vernetzter Sensoren soll der Verkehr flüssiger werden, indem Ampeln in Echtzeit auf das tatsächliche Verkehrsaufkommen reagieren. Auch der Energieverbrauch von Gebäuden lässt sich so drastisch senken.
+    </p>
+    <p>
+      Ein zentrales Element der intelligenten Stadt ist die Datenplattform. Hier laufen alle Informationen zusammen: vom Füllstand der Mülltonnen bis hin zur Auslastung der öffentlichen Verkehrsmittel. ___ 1 ___ So können Busse und Bahnen flexibler eingesetzt werden, was die Attraktivität des ÖPNV massiv erhöht. Kritiker warnen jedoch vor der totalen Überwachung der Bürger im öffentlichen Raum. "Datenreichtum" dürfe nicht zum Synonym für "Gläserner Bürger" werden.
+    </p>
+    <p>
+      Besonders im Bereich der Umwelt entfaltet die Technik ihr volles Potenzial. Vernetzte Straßenlaternen leuchten nur noch dann mit voller Kraft, wenn sich ein Passant nähert, was enorme Mengen an Strom spart. ___ 2 ___ Zudem überwachen Sensoren permanent die Luftqualität und können bei Überschreitung von Grenzwerten proaktiv Verkehrsumleitungen einleiten. Das Ziel ist eine Stadt, die atmet und auf die Bedürfnisse ihrer Bewohner reagiert.
+    </p>
+    <p>
+      Doch die Abhängigkeit von komplexen Softwaresystemen birgt auch Gefahren. Was passiert, wenn das zentrale Steuerungssystem einer Stadt Opfer eines Hackerangriffs wird? ___ 3 ___ Die kritische Infrastruktur muss daher durch modernste Verschlüsselungstechnologien geschützt werden. Sicherheit in der Smart City bedeutet nicht nur Kriminalitätsprävention, sondern vor allem die Resilienz der digitalen Systeme gegen äußere Störungen.
+    </p>
+    <p>
+      Ein oft übersehener Aspekt ist die soziale Inklusion. Nicht jeder Stadtbewohner verfügt über ein Smartphone oder das nötige technische Verständnis, um die neuen Angebote zu nutzen. ___ 4 ___ Wenn der Zugang zu städtischen Dienstleistungen nur noch digital möglich ist, droht eine Ausgrenzung älterer oder einkommensschwacher Gruppen. Eine wirklich "smarte" Stadt muss daher immer auch eine barrierefreie Stadt sein, die alle ihre Bürger mitnimmt.
+    </p>
+    <p>
+      Finanziell ist der Umbau zur Smart City ein Mammutprojekt. Die hohen Investitionskosten lassen sich oft nur durch Partnerschaften mit privaten Technologiekonzernen stemmen. ___ 5 ___ Hier ist Fingerspitzengefühl gefragt, damit das Gemeinwohl nicht hinter den Profitinteressen der globalen Tech-Giganten zurücktreten muss. Die Datenhoheit muss letztlich immer bei der Kommune und ihren Bürgern bleiben, um Unabhängigkeit zu bewahren.
+    </p>
+    <p>
+      Zusammenfassend lässt sich sagen, dass Smart Cities keine ferne Utopie mehr sind, sondern bereits heute in Pilotprojekten Gestalt annehmen. Sie bieten die Chance, die ökologischen Sünden des 20. Jahrhunderts zu korrigieren. ___ 6 ___ Nur wenn Technik und Demokratie Hand in Hand arbeiten, wird die vernetzte Stadt der Zukunft wirklich ein Ort sein, an dem wir gerne leben. Der Mensch muss im Mittelpunkt der Algorithmen stehen.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies erfordert jedoch ein hohes Maß an Vertrauen in die staatlichen Institutionen.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Ein Blackout im digitalen Gehirn der Stadt hätte katastrophale Folgen für alle Bewohner.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Dies ist eine ökologische Dividende, die direkt dem Haushalt der Kommune zugutekommt.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> Die digitale Spaltung der Gesellschaft könnte sich dadurch weiter verschärfen.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Es geht darum, die Stadtplanung grundlegend datenbasiert und vorausschauend zu gestalten.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Die Abhängigkeit von externen Dienstleistern schafft jedoch neue politische Risiken.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das bedeutet, die technologische Infrastruktur muss für jeden zugänglich sein.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Früher wurden solche Entscheidungen oft nach Bauchgefühl oder politischem Druck getroffen.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Rolle von Bürgerbeteiligungs-Apps für die Stadtplanung diskutiert?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf die Gefahr der "Gentrifizierung durch Technologie" in Smart Cities hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass autonome Shuttles die Parkplatznot in Innenstädten lösen könnten?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die psychologische Wirkung von "grünen Oasen" im vernetzten Stadtbild eingegangen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung der Datensparsamkeit im Sinne der DSGVO für Stadtprojekte betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass Müllabfuhr-Logistik durch Sensorik optimiert werden kann?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die hohen Energiekosten für den Betrieb der Rechenzentren hingewiesen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Effizienz bis in den letzten Winkel: Die operative Logistik der Smart City</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Partizipation ist der Schlüssel. Apps erlauben es den Bürgern heute, Schlaglöcher direkt zu melden oder über neue Radwege abzustimmen. Diese Form der "Liquid Democracy" stärkt die Bindung zur Kommune. Dennoch lauern Gefahren: Oft nutzen nur die technisch versierten und gutsituierten Schichten diese Tools, was dazu führen kann, dass deren Interessen bei der Stadtplanung überproportional berücksichtigt werden. Eine schleichende Exklusivität der Stadtpolitik wäre die Folge.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Mobilität wird zum Service (MaaS). Autonome Elektro-Shuttles könnten in Zukunft den Individualverkehr in den Zentren fast komplett ersetzen. Da diese Fahrzeuge permanent im Einsatz sind und keine Parkplätze blockieren, gewinnt die Stadt gewaltige Flächen zurück, die für Parks oder Wohnraum genutzt werden können. Diese Entmachtung des privaten Pkw ist jedoch politisch hochumstritten und stößt in vielen Ländern auf massiven Widerstand der Automobil-Lobby.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Die Abfallwirtschaft zeigt, wie Sensorik Kosten spart. Intelligente Müllcontainer melden ihren Füllstand an die Zentrale, sodass nur noch volle Behälter angefahren werden. Das spart tausende Kilometer Fahrtweg und reduziert die Lärmbelästigung für die Anwohner. Zudem ermöglichen Sensoren in der Kanalisation die frühzeitige Erkennung von Verstopfungen oder Leckagen. Diese unsichtbare Logistik ist das Rückgrat der Smart City, das im Hintergrund für einen reibungslosen Ablauf sorgt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Der Datenschutz nach DSGVO-Standard ist für europäische Smart Cities ein Alleinstellungsmerkmal gegenüber chinesischen oder US-amerikanischen Modellen. Personenbezogene Daten müssen bereits bei der Erhebung anonymisiert werden (Privacy by Design). Es darf kein Bewegungsprofil erstellt werden können, das Rückschlüsse auf Einzelpersonen zulässt. Diese Transparenz ist Voraussetzung für die Akzeptanz in der Bevölkerung, die dem Staat bei der Datenverarbeitung oft mit gesundem Misstrauen begegnet.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Eine ökologische Schattenseite bleibt der enorme Energiebedarf. Die Millionen Sensoren, Funkmodule und vor allem die riesigen Rechenzentren, die die Daten in Echtzeit verarbeiten, verbrauchen gigantische Mengen an Strom. Wenn dieser nicht zu 100 Prozent aus regenerativen Quellen stammt, könnte die Smart City paradoxerweise ihre eigene Klimabilanz verschlechtern. Es gilt also, nicht nur die Stadt, sondern auch die zugrundeliegende Informationstechnik energetisch zu optimieren.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: sueddeutsche.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Die vernetzte Stadt: Smart Cities zwischen Vision und Wirklichkeit</h3>
+    <p>Sensoren an Ampeln, die den Verkehrsfluss in Echtzeit optimieren. Straßenlaternen, die sich automatisch dimmen, wenn keine Person auf dem Bürgersteig ist. Mülltonnen, die per App signalisieren, wenn sie geleert werden müssen. Was nach Science-Fiction klingt, ist in immer mehr Städten weltweit Realität. Der Begriff 'Smart City' beschreibt Städte, die digitale Technologien nutzen, um ihre Infrastruktur effizienter, nachhaltiger und lebenswerter zu gestalten.</p>
+    <p>Vorreiterstädte wie Singapur, Barcelona oder Kopenhagen zeigen, was möglich ist. In Singapur ist das gesamte städtische Straßennetz mit Sensoren vernetzt, die Staudaten liefern und so eine intelligente Verkehrssteuerung ermöglichen. Barcelona setzt auf smarte Bewässerungssysteme in Parks, die den Wasserverbrauch erheblich reduziert haben. Kopenhagen nutzt Daten aus dem Radwegenetz, um Grüne Wellen für Fahrradfahrer zu schalten und sie bevorzugt durch die Stadt zu leiten.</p>
+    <p>Doch Smart Cities sind mehr als technische Spielereien. Im Kern geht es darum, den Ressourcenverbrauch einer Stadt zu senken und gleichzeitig die Lebensqualität der Bewohner zu steigern. Eine gut vernetzte Stadt kann Energie effizienter einsetzen, durch Präventivmaßnahmen auf Basis von Daten Infrastrukturschäden vermeiden und die öffentliche Sicherheit verbessern. Für eine Welt mit wachsenden Städten und knapper werdenden Ressourcen ist das keine Luxus – es ist eine Notwendigkeit.</p>
+    <p>Gleichzeitig bergen Smart Cities erhebliche Risiken. Die Erfassung von Bewegungsdaten, Konsummustern und sozialen Interaktionen im öffentlichen Raum wirft tiefe Fragen nach Privatheit und Überwachung auf. Wer kontrolliert die Daten? Für welche Zwecke werden sie verwendet? Können sie an Dritte verkauft werden? In China hat das Konzept der 'Smart City' in seiner extremsten Ausprägung zum allgegenwärtigen Überwachungsstaat geführt, bei dem Gesichtserkennung im öffentlichen Raum zur Regel geworden ist.</p>
+    <p>In Europa versucht man, diese Spannung durch regulatorische Rahmenbedingungen aufzulösen. Die DSGVO schützt Bürgerdaten vor unkontrollierter Nutzung, und die 'European Data Governance Act' zielt auf faire Datenmärkte ab. Viele europäische Städte betonen deshalb das Konzept der 'Human-Centric Smart City', die Technologie in den Dienst des Menschen stellt – und nicht umgekehrt.</p>
+    <p>Ein weiteres Risiko ist die digitale Kluft. Smart-City-Technologien nutzen vor allem denjenigen, die mit digitalen Geräten umgehen können. Ältere Menschen, sozial Benachteiligte oder Menschen ohne Smartphone drohen, von den Vorteilen ausgeschlossen zu werden. Eine Smart City, die nur für die technikaffine Bourgeoisie funktioniert, verfehlt ihr soziales Versprechen.</p>
+    <p>Am Ende hängt der Erfolg einer Smart City nicht von der Technologie ab, sondern von der Bereitschaft der Stadt und ihrer Bewohner, offen und verantwortungsbewusst mit ihr umzugehen. Technik allein macht keine Stadt smart – es sind die Menschen, die ihr Leben in ihr gestalten.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Singapur nutzt Sensoren im Straßennetz für eine intelligente Verkehrssteuerung.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Smart-City-Technologien haben keinerlei Auswirkungen auf den Energieverbrauch.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; In China wird Gesichtserkennung im öffentlichen Raum flächendeckend eingesetzt.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; Die DSGVO dient unter anderem dem Schutz von Bürgerdaten in Smart Cities.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; Das Konzept 'Human-Centric Smart City' stellt Technologie in den Dienst der Bürger.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Smart-City-Technologien kommen allen Bevölkerungsgruppen gleichermaßen zugute.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; Barcelona hat durch smarte Bewässerungssysteme Wasser gespart.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Kopenhagen verwendet Daten, um Ampelschaltungen für Radfahrer zu optimieren.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Die Erfassung von Bewegungsdaten in Smart Cities wirft Datenschutzfragen auf.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; In Europa gibt es keine Regulierung für die Nutzung von Smart-City-Daten.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Smart Cities sind laut Text in erster Linie ein Luxus für reiche Länder.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Technologische Grundlagen moderner Städteplanung<br>
+    <strong>b</strong>&nbsp; Smart Cities: Chancen, Risiken und europäische Perspektiven<br>
+    <strong>c</strong>&nbsp; Urbane Architektur im 21. Jahrhundert
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (714)</h3>
+  <strong>1-e, 2-c, 3-b, 4-d, 5-f, 6-a</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (714)</h3>
+  <strong>7-a, 8-b, 9-b, 10-d, 11-c, 12-e</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (714)</h3>
+  <strong>13-r, 14-f, 15-r, 16-r, 17-r, 18-f, 19-r, 20-r, 21-r, 22-f, 23-f | 24-b</strong>
+</div>
+`
+  },
+  {
+    id: 715,
+    type: "TELC",
+    level: "C1",
+    category: "Lesen",
+    title: "C1 Leseverstehen – Teil 1 & 2 (Zukunft des Journalismus)",
+    content: `
+<div style='font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;'>
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 1</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. Welche der Sätze a–h gehören in die Lücken 1–6? Es gibt jeweils nur eine richtige Lösung. Zwei Sätze können nicht zugeordnet werden. Markieren Sie Ihre Lösungen für die Aufgaben 1–6 auf dem Antwortbogen. Lücke (0) ist ein Beispiel.
+  </p>
+
+  <div style='background: #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 25px;'>
+    <strong>Beispiel:</strong><br>
+    <strong>z</strong> Die Medienlandschaft befindet sich im tiefgreifendsten Wandel seit der Erfindung des Buchdrucks durch Gutenberg.
+  </div>
+
+  <div style='background: #f8f9fa; padding: 30px; border: 1px solid #dee2e6; border-radius: 8px;'>
+    <h3 style='text-align: center; margin-top: 0; font-size: 1.4rem; font-weight: bold;'>Qualität im Klick-Rausch: Die Überlebensstrategien des Journalismus</h3>
+    <p>
+      Zeitungen sterben, News-Ticker beherrschen den Tag und die Aufmerksamkeitsspanne der Leser sinkt rapide. ___ 0 ___ Doch inmitten dieser digitalen Flut von Informationen, Meinungen und Falschnachrichten wächst das Bedürfnis nach verlässlicher Einordnung und seriöser Recherche. Der Journalismus kämpft nicht nur um sein wirtschaftliches Überleben, sondern um seine gesellschaftliche Relevanz.
+    </p>
+    <p>
+      Eines der größten Probleme ist das Zusammenbrechen des klassischen Werbemodells. Früher finanzierten Anzeigen in den Printausgaben die teuren Auslandsredaktionen und Investigativ-Teams. ___ 1 ___ Diese Einnahmen fließen heute fast vollständig an globale Plattformen wie Google oder Meta, während die Verlage oft nur noch Centbeträge für ihre Inhalte erhalten. Dies zwingt die Häuser zu radikalen Sparmaßnahmen, die oft zulasten der journalistischen Tiefe gehen.
+    </p>
+    <p>
+      Als Lösung setzen viele Medien auf Paywalls und Abomodelle. "Journalismus ist nicht umsonst" lautet die Botschaft an die digitale Leserschaft. ___ 2 ___ Wer bereit ist zu zahlen, erwartet exklusive Inhalte, tiefgründige Analysen und eine werbefreie Umgebung. Dieser Shift vom werbefinanzierten zum nutzerfinanzierten Modell erhöht paradoxerweise die Unabhängigkeit der Redaktionen von den Interessen großer Anzeigenkunden.
+    </p>
+    <p>
+      Ein weiterer Trend ist der sogenannte "Roboter-Journalismus". Algorithmen verfassen bereits heute Wetterberichte, Börsennews oder Sportergebnisse in Sekundenschnelle. ___ 3 ___ So bleibt den menschlichen Kollegen mehr Zeit für komplexe Porträts oder aufwendige Hintergrundrecherchen. Der Computer übernimmt die stupide Datenverarbeitung, der Mensch die kreative und ethische Einordnung des Geschehens.
+    </p>
+    <p>
+      Aber mit der Technik wächst auch die Verantwortung. In Zeiten von Social Media verbreiten sich News oft ungeprüft und lösen innerhalb von Minuten massive Reaktionen aus. ___ 4 ___ Die journalistische Sorgfaltspflicht, also die Prüfung von Quellen und das Einholen von zwei unabhängigen Bestätigungen, ist in diesem Umfeld wichtiger denn je. Geschwindigkeit darf niemals die Richtigkeit der Information opfern, wenn das Vertrauen der Leser gewahrt bleiben soll.
+    </p>
+    <p>
+      Besonders jüngere Zielgruppen erreichen die Verlage kaum noch über das gedruckte Wort. Podcasts, Video-Formate und interaktives Storytelling sind die neuen Werkzeuge der Wahl. ___ 5 ___ Hier werden komplexe Themen so aufbereitet, dass sie auch auf dem Smartphone-Bildschirm in der U-Bahn funktionieren, ohne oberflächlich zu wirken. Diese multimediale Kompetenz wird zur Grundvoraussetzung für jeden modernen Reporter.
+    </p>
+    <p>
+      Trotz aller Krisenberichte gibt es Grund zum Optimismus. In einer unübersichtlichen Welt fungiert guter Journalismus mehr denn je als Kompass. ___ 6 ___ Nur wenn es gelingt, die Menschen wieder für die Wahrheit zu begeistern, wird die vierte Gewalt auch im 21. Jahrhundert ihre Aufgabe als Wächter der Demokratie erfüllen können. Wir brauchen keine weiteren Klicks, wir brauchen Vertrauen.
+    </p>
+  </div>
+
+  <div style='margin-top: 30px;'>
+    <ul style='list-style: none; padding: 0;'>
+      <li style='margin-bottom: 10px;'><strong>a</strong> Dies erfordert jedoch ein Umdenken bei den Konsumenten, die an Gratis-Inhalte gewöhnt sind.</li>
+      <li style='margin-bottom: 10px;'><strong>b</strong> Die traditionelle Zeitung am Frühstückstisch scheint ein Auslaufmodell zu sein.</li>
+      <li style='margin-bottom: 10px;'><strong>c</strong> Es geht darum, die technologische Entwicklung als Chance und nicht als Bedrohung zu begreifen.</li>
+      <li style='margin-bottom: 10px;'><strong>d</strong> In diesem Fall wäre die Gefahr einer Manipulation der öffentlichen Meinung sehr groß.</li>
+      <li style='margin-bottom: 10px;'><strong>e</strong> Diese Automatisierung ist zwar effizient, stößt bei sensiblen Themen aber an ihre Grenzen.</li>
+      <li style='margin-bottom: 10px;'><strong>f</strong> Die Verknüpfung von Information und Unterhaltung ist dabei ein schmaler Grat.</li>
+      <li style='margin-bottom: 10px;'><strong>g</strong> Das bedeutet, die Journalisten müssen dort sein, wo ihr Publikum sich aufhält.</li>
+      <li style='margin-bottom: 10px;'><strong>h</strong> Dies hat die gesamte Branche in eine tiefe Identitätskrise gestürzt.</li>
+    </ul>
+  </div>
+
+  <hr style='margin: 40px 0; border: 0; border-top: 2px dashed #ccc;'>
+
+  <h2 style='font-size: 1.6rem; font-weight: bold; margin-bottom: 5px;'>Leseverstehen, Teil 2</h2>
+  <p style='margin-bottom: 20px; font-style: italic;'>
+    Lesen Sie den folgenden Text. In welchem Textabsatz a–e finden Sie die Antworten auf die Fragen 7–12? Es gibt jeweils nur eine richtige Lösung. Jeder Absatz kann Antworten auf mehrere Fragen enthalten. Markieren Sie Ihre Lösungen für die Aufgaben 7–12 auf dem Antwortbogen.
+  </p>
+
+  <div style='display: flex; gap: 20px; margin-bottom: 30px;'>
+    <div style='flex: 2; background: #e9ecef; padding: 20px; border-radius: 4px;'>
+      <strong>Beispiel:</strong><br><br>
+      In welchem Abschnitt ...<br>
+      <strong>0</strong> wird die Rolle des öffentlich-rechtlichen Rundfunks in der digitalen Transformation diskutiert?
+    </div>
+    <div style='flex: 1; background: #e9ecef; padding: 20px; border-radius: 4px; display: flex; align-items: center; justify-content: center; gap: 10px;'>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>a</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>b</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>c</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; background: #333; color: #fff;'>d</span>
+      <span style='width: 30px; height: 30px; border: 2px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center;'>e</span>
+    </div>
+  </div>
+
+  <p>In welchem Abschnitt ...</p>
+  <ul style='list-style: none; padding: 0;'>
+    <li style='margin-bottom: 15px;'><strong>7</strong> ... wird auf das Problem der "News Fatigue" (Nachrichtenmüdigkeit) der Bevölkerung hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>8</strong> ... wird erwähnt, dass lokaler Journalismus durch mangelnde Finanzierung auszusterben droht?</li>
+    <li style='margin-bottom: 15px;'><strong>9</strong> ... wird auf die Gefahr von "Clickbaiting" (reißerische Überschriften) zur Aufmerksamkeitserregung hingewiesen?</li>
+    <li style='margin-bottom: 15px;'><strong>10</strong> ... wird die Bedeutung von Crowdfunding-Modellen für unabhängige Mediumprojekte betont?</li>
+    <li style='margin-bottom: 15px;'><strong>11</strong> ... wird ausgeführt, dass konstruktiver Journalismus ("Solutions Journalism") im Trend liegt?</li>
+    <li style='margin-bottom: 15px;'><strong>12</strong> ... wird auf die psychische Belastung von Kriegsberichterstattern in digitalen Zeiten eingegangen?</li>
+  </ul>
+
+  <h3 style='font-size: 1.4rem; font-weight: bold; margin: 30px 0 15px; border-bottom: 2px solid #333; display: inline-block;'>Zwischen Wahrheit und Quote: Die neuen Herausforderungen der Redaktionen</h3>
+
+  <div style='margin-bottom: 20px;'>
+    <strong>a</strong> Der öffentlich-rechtliche Rundfunk steht vor der paradoxen Aufgabe, trotz sinkender Akzeptanz in manchen Bevölkerungsschichten, seinen Auftrag zur Grundversorgung und Integration zu erfüllen. Die Finanzierung durch Gebühren erlaubt zwar eine Unabhängigkeit vom Markt, erfordert aber eine ständige Legitimation gegenüber den Beitragszahlern. In der digitalen Welt müssen diese Sender ihre Inhalte dort anbieten, wo die Jungen sind, was private Verlage oft als unfaire Konkurrenz und "presseähnliche Angebote" kritisieren.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>b</strong> Besonders im Lokalen klafft eine Lücke. Da regionale Anzeigenmärkte eingebrochen sind, wurden viele Lokalredaktionen zusammengelegt oder komplett geschlossen. Dies hat fatale Folgen für die lokale Demokratie: Wenn niemand mehr den Gemeinderat kritisch begleitet oder über den Neubau der Schule berichtet, schwindet die Kontrolle der Macht vor Ort. Hier drohen "News Deserts" – ganze Regionen, in denen es keine verlässliche journalistische Quelle mehr gibt.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>c</strong> Im Kampf um Klicks greifen viele Online-Medien zu fragwürdigen Methoden. Clickbaiting, also das Versprechen spektakulärer Enthüllungen in der Überschrift, die der Artikel dann nicht hält, untergräbt die Glaubwürdigkeit der Branche. Wenn alles nur noch auf Sensation getrimmt ist, stumpfen die Leser ab. Es entsteht eine "News Fatigue": Die Menschen fühlen sich von der permanenten Flut an schlechten Nachrichten überfordert und schalten komplett ab, was für die politische Bildung katastrophal ist.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>d</strong> Als Gegenbewegung zum reinen Krisen-Journalismus gewinnt der "konstruktive Journalismus" an Boden. Hier geht es nicht nur darum, Probleme zu beschreiben, sondern aktiv nach Lösungsansätzen zu fragen. Es wird gezeigt, wie andere Länder oder Gemeinschaften Herausforderungen wie den Klimawandel oder soziale Ungleichheit angehen. Dieser Ansatz hilft, die Ohnmacht der Leser zu überwinden und Lust auf Mitgestaltung zu machen, ohne die Probleme schönzureden oder naiv zu wirken.
+  </div>
+  <div style='margin-bottom: 20px;'>
+    <strong>e</strong> Innovative Finanzierungsmodelle wie Crowdfunding oder spendenbasierte Stiftungen bieten Hoffnung für den Qualitätsjournalismus. Projekte wie 'Correctiv' oder 'Krautreporter' zeigen, dass Leser bereit sind, für tiefgründige Recherche direkt zu bezahlen, wenn sie den Sinn dahinter erkennen. Diese gemeinschaftsbasierte Finanzierung schützt vor dem Druck durch Großanzeigenkunden oder politische Einflussnahme und ermöglicht einen Journalismus, der ausschließlich seinem Publikum verpflichtet ist.
+  </div>
+
+  <p style='font-style: italic; font-size: 0.9rem; margin-top: 30px;'>(Quelle: zeit.de, zu Prüfungszwecken bearbeitet)</p>
+</div>
+
+  <hr style='margin:40px 0;border:0;border-top:2px dashed #ccc;'>
+  <h2 style='font-size:1.6rem;font-weight:bold;margin-bottom:5px;'>Leseverstehen, Teil 3</h2>
+  <p style='margin-bottom:20px;font-style:italic;'>
+    Lesen Sie den folgenden Text und die Aussagen 13–23. Welche der Aussagen sind richtig (r), falsch (f)
+    oder gar nicht im Text enthalten (–)? Es gibt jeweils nur eine richtige Lösung. Markieren Sie Ihre Lösungen
+    für die Aufgaben 13–23 auf dem Antwortbogen.
+  </p>
+  <div style='background:#f8f9fa;padding:30px;border:1px solid #dee2e6;border-radius:8px;'>
+    <h3 style='text-align:center;margin-top:0;font-size:1.4rem;font-weight:bold;'>Die Lücke vor der Haustür: Krise des Lokaljournalismus</h3>
+    <p>Wer berichtet über den Gemeinderat, wenn die Lokalzeitung schließt? Wer fragt kritisch nach, wenn die Stadt einen umstrittenen Bauprojekt genehmigt? Wer dokumentiert das Leben in der Kleinstadt, wenn kein Reporter mehr vor Ort ist? Der Lokaljournalismus steckt in einer tiefen Krise, und die Folgen für die lokale Demokratie sind gravierend. In den vergangenen zwanzig Jahren haben Hunderte Lokalredaktionen in Deutschland ihre Arbeit eingestellt oder wurden auf ein Minimum reduziert.</p>
+    <p>Die wirtschaftlichen Ursachen sind vielschichtig. Das klassische Geschäftsmodell der Lokalzeitung – Abogebühren plus Anzeigeneinnahmen – funktioniert im digitalen Zeitalter kaum noch. Junge Leserinnen und Leser kaufen keine gedruckten Zeitungen mehr, und lokale Gewerbetreibende schalten ihre Anzeigen lieber auf Google oder Facebook, wo sie ihre Zielgruppe präziser erreichen. Die Einnahmen der Verlage brechen ein, während die Produktionskosten steigen.</p>
+    <p>Als Reaktion setzen viele Verlage auf Zentralisierung und Automatisierung. Statt in jeder Stadt eine eigene Redaktion mit Ortskenntnis zu unterhalten, werden Texte zentral produziert und nur noch lokal angepasst. Automatisch generierte Berichte über Sportergebnisse oder Wetterlagen ersetzen den handgemachten Lokalbericht. Das Ergebnis sind austauschbare Inhalte ohne Tiefe und ohne regionalen Bezug – Lokaljournalismus dem Namen nach, nicht der Substanz nach.</p>
+    <p>Was verloren geht, ist schwer zu messen, aber spürbar. Lokale Korruption bleibt unentdeckt. Bürgerproteste finden keine Öffentlichkeit mehr. Wichtige Entscheidungen in Kommunalparlamenten werden nicht begleitet. Dort, wo kein lokaler Journalismus mehr existiert, sprechen Forscher von 'News Deserts' – Informationswüsten, in denen Bürger keine verlässliche Quelle für lokale Belange mehr haben. Erste Studien deuten darauf hin, dass in solchen Regionen die Wahlbeteiligung sinkt und das Vertrauen in staatliche Institutionen abnimmt.</p>
+    <p>Gegenmodelle entstehen, aber sie sind noch wenige und klein. Lokale Nachrichtenwebsites, finanziert durch Mitgliedsbeiträge oder Spenden, versuchen die Lücken zu füllen. Projekte wie 'Correctiv' oder 'Bonner Generalanzeiger digital' zeigen, dass nutzersupportierter Lokaljournalismus möglich ist. Auch öffentliche Förderung wird diskutiert: In Frankreich und Schweden gibt es bereits direkte staatliche Zuschüsse für Lokalmedien, ohne dass dies die redaktionelle Unabhängigkeit beeinträchtigt.</p>
+    <p>Ob diese Modelle skalierbar sind, bleibt offen. Klar ist: Lokaljournalismus ist kein Luxus, sondern ein demokratisches Grundnahrungsmittel. Er hält die lokale Macht in Schach, gibt Bürgern eine Stimme und stiftet Identität in einer zunehmend globalisierten Welt.</p>
+    <p>Eine Gesellschaft, die bereit ist, für Streamingdienste zu bezahlen, aber nicht für guten Lokaljournalismus, hat die Prioritäten falsch gesetzt. Es liegt auch an den Lesern, diese Infrastruktur der Demokratie zu stützen.</p>
+  </div>
+  <ul style='list-style:none;padding:0;margin-top:25px;'>
+    <li style='margin-bottom:14px;'><strong>13</strong>&nbsp; Viele Lokalredaktionen in Deutschland haben in den letzten zwanzig Jahren geschlossen.</li>
+    <li style='margin-bottom:14px;'><strong>14</strong>&nbsp; Das klassische Geschäftsmodell der Lokalzeitung funktioniert im digitalen Zeitalter problemlos.</li>
+    <li style='margin-bottom:14px;'><strong>15</strong>&nbsp; Durch Zentralisierung entstehen laut dem Text qualitativ hochwertigere Lokalartikel.</li>
+    <li style='margin-bottom:14px;'><strong>16</strong>&nbsp; 'News Deserts' bezeichnen Regionen ohne verlässliche lokale Nachrichtenquellen.</li>
+    <li style='margin-bottom:14px;'><strong>17</strong>&nbsp; In Regionen ohne Lokaljournalismus sinkt laut ersten Studien die Wahlbeteiligung.</li>
+    <li style='margin-bottom:14px;'><strong>18</strong>&nbsp; Nutzersupportierter Lokaljournalismus ist prinzipiell möglich, wie Praxisbeispiele zeigen.</li>
+    <li style='margin-bottom:14px;'><strong>19</strong>&nbsp; In Frankreich und Schweden gibt es staatliche Förderung für Lokalmedien.</li>
+    <li style='margin-bottom:14px;'><strong>20</strong>&nbsp; Automatisch generierte Berichte können laut Text tiefen und regionalen Bezug ersetzen.</li>
+    <li style='margin-bottom:14px;'><strong>21</strong>&nbsp; Lokaljournalismus deckt laut Text lokale Korruption auf.</li>
+    <li style='margin-bottom:14px;'><strong>22</strong>&nbsp; Die Wahlbeteiligung steigt in den meisten Regionen, in denen der Lokaljournalismus fehlt.</li>
+    <li style='margin-bottom:14px;'><strong>23</strong>&nbsp; Öffentliche Förderung für Lokalmedien schadet laut Beispielen der redaktionellen Unabhängigkeit.</li>
+  </ul>
+  <p style='margin-top:20px;font-style:italic;'>
+    Welche der Überschriften a, b oder c passt am besten zum Text?
+    Markieren Sie Ihre Lösung für die Aufgabe 24 auf dem Antwortbogen.
+  </p>
+  <p style='margin-top:8px;'>
+    <strong>24&nbsp; a</strong>&nbsp; Medienrecht und Pressefreiheit in Deutschland<br>
+    <strong>b</strong>&nbsp; Krise des Lokaljournalismus: Ursachen, Folgen und Gegenmaßnahmen<br>
+    <strong>c</strong>&nbsp; Erfolgreiche Digital-First-Strategien im Verlagsbereich
+  </p>
+`,
+    answer: `
+<div style='padding:20px; border-left:5px solid #3498db; background:#f8f9fa;'>
+  <h3>📝 Lösungen Teil 1 (715)</h3>
+  <strong>1-h, 2-a, 3-e, 4-b, 5-g, 6-c</strong>
+</div>
+<div style='padding:20px; border-left:5px solid #2ecc71; background:#f8f9fa; margin-top: 10px;'>
+  <h3>📝 Lösungen Teil 2 (715)</h3>
+  <strong>7-c, 8-b, 9-c, 10-e, 11-d, 12-b</strong>
+</div>
+<div style='padding:20px;border-left:5px solid #e74c3c;background:#f8f9fa;margin-top:10px;'>
+  <h3>📝 Lösungen Teil 3 (715)</h3>
+  <strong>13-r, 14-f, 15-f, 16-r, 17-r, 18-r, 19-r, 20-f, 21-r, 22-f, 23-f | 24-b</strong>
+</div>
+`
+  },
+  ,
+  { "id": 1001,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Schulausflug (Set 1)",
+    "texts": [
+      {
+        "content": "Liebe Eltern,\n\nam Dienstag ___1___ wir mit den Kindern einen Ausflug ins Schwimmbad. Ihr Kind braucht dafür 5 €. Bitte geben ___2___ Ihrem Kind das Geld morgen mit! Die Kinder haben sicher ___3___ Spaß im Schwimmbad. Sie ___4___ sich schon sehr darauf!\nVielen ___5___, liebe Grüße!\n\nAnnette Schmutzer\nLehrerin, Klasse 3a",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Liebe Frau Schmutzer,\n\nvielen Dank ___6___ Ihren Brief. Meine Tochter Amina ___7___ 10 € in der Schultasche. Bitte nehmen Sie ___8___ Geld und geben Sie ihr 5 € zurück. Ich wünsche ___9___ Kindern viel Spaß im Schwimmbad.\nMit freundlichen ___10___,\n\nBasil El-Kadr",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "machen",
+        "b": "tun",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "du",
+        "b": "Sie",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "mehr",
+        "b": "viel",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "freut",
+        "b": "freuen",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "Dank",
+        "b": "Danke",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "für",
+        "b": "vor",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "haben",
+        "b": "hat",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "das",
+        "b": "den",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "allen",
+        "b": "vielen",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "Wünschen",
+        "b": "Grüßen",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1002,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Geburtstagsparty (Set 2)",
+    "texts": [
+      {
+        "content": "Hallo Sarah,\n\nich ___1___ am Samstag meinen Geburtstag feiern. Die Party ___2___ um 19 Uhr an. Hast ___3___ Zeit? Bitte sag mir bis morgen ___4___. Ich ___5___ mich auf dich!\nLiebe Grüße,\nMax",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Lieber Max,\n\nvielen Dank für ___6___ Einladung. Ich komme ___7___ zur deiner Party. Soll ich etwas ___8___? Vielleicht ___9___ Kuchen oder Getränke? Wir sehen ___10___ am Samstag!\nAlles Liebe,\nSarah",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "willst",
+        "b": "möchte",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "macht",
+        "b": "fängt",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "du",
+        "b": "Sie",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "Bescheid",
+        "b": "Antwort",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "freue",
+        "b": "hoffe",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "Ihre",
+        "b": "deine",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "gut",
+        "b": "gern",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "nehmen",
+        "b": "mitbringen",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "einen",
+        "b": "ein",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "euch",
+        "b": "uns",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1003,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Wohnungssuche (Set 3)",
+    "texts": [
+      {
+        "content": "Sehr geehrter Herr Müller,\n\nich habe ___1___ Anzeige für die 2-Zimmer-Wohnung gelesen. Die Wohnung ___2___ mir sehr gut. Ist die Wohnung ___3___ frei? Wann ___4___ ich sie besichtigen? Ich freue mich ___5___ Ihre Antwort.\nMit freundlichen Grüßen,\nLukas Weber",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Guten Tag Herr Weber,\n\nvielen Dank für Ihr ___6___. Die Wohnung ist noch frei. Sie können am Freitag um 16 Uhr ___7___. Bitte kommen Sie zum Kastanienweg 5. ___8___ Sie mich bitte an, wenn Sie keine Zeit ___9___. Ich ___10___ auf Sie.\nHerzliche Grüße,\nThomas Müller",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "Ihre",
+        "b": "deine",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "gefällt",
+        "b": "liebt",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "schon",
+        "b": "noch",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "darf",
+        "b": "kann",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "für",
+        "b": "auf",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "Interesse",
+        "b": "Frage",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "gehen",
+        "b": "kommen",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "Suchen",
+        "b": "Rufen",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "haben",
+        "b": "hast",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "sehe",
+        "b": "warte",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1004,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Arztbesuch (Set 4)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nmein Sohn Lukas ist krank. Er hat ___1___ und Husten. ___2___ er heute noch zu Ihnen kommen? Haben Sie einen ___3___ frei? Er kann ___4___ 15 Uhr da sein. Vielen Dank ___5___ Ihre Hilfe.\nMit freundlichen Grüßen,\nMaria Braun",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Hallo Frau Braun,\n\nbitte kommen Sie mit Lukas um 15:30 Uhr. Bringen Sie bitte ___6___ Versichertenkarte mit. Dr. Schmidt ___7___ ab 15 Uhr in der Praxis. Lukas muss im Bett ___8___. Er soll viel Tee ___9___. Gute ___10___ für Ihren Sohn!\nIhr Praxisteam",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "Fieber",
+        "b": "Kopf",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "Kann",
+        "b": "Will",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "Termin",
+        "b": "Zeit",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "seit",
+        "b": "ab",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "für",
+        "b": "vor",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "seine",
+        "b": "ihre",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "macht",
+        "b": "ist",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "bleiben",
+        "b": "liegen",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "essen",
+        "b": "trinken",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "Besserung",
+        "b": "Wünsche",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1005,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Sprachkurs (Set 5)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nich möchte einen Deutschkurs ___1___. Wann ___2___ der nächste Kurs an? Ich habe am Vormittag Zeit. Wie ___3___ kostet der Kurs? Bekomme ich ___4___ ein Zertifikat? Ich danke Ihnen für ___5___ Information.\nViele Grüße,\nIvan Petrović",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Sehr geehrter Herr Petrović,\n\nder neue Kurs beginnt ___6___ Montag um 9 Uhr. Er kostet 200 Euro. Sie können ___7___ Kurs online oder bei uns bezahlen. ___8___ Kursende machen Sie eine Prüfung und bekommen ein ___9___. Bitte ___10___ Sie zur Anmeldung Ihren Ausweis mit.\nMit freundlichen Grüßen,\nIhre Sprachschule",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "besuchen",
+        "b": "machen",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "fängt",
+        "b": "geht",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "viel",
+        "b": "viele",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "auch",
+        "b": "noch",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "die",
+        "b": "eine",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "im",
+        "b": "am",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "den",
+        "b": "der",
+        "correct": "a"
+      },
+      {
+        "num": 8,
+        "a": "Nach",
+        "b": "Vor",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "Papier",
+        "b": "Zeugnis",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "bringen",
+        "b": "nehmen",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1006,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Arbeitsstelle (Set 6)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nich suche ___1___ Stelle als Koch. Ich habe in Italien fünf ___2___ als Koch gearbeitet. Ich ___3___ sehr gut kochen und bin fleißig. ___4___ darf ich mich vorstellen? Ich freue mich auf ___5___ positive Antwort.\nMit freundlichen Grüßen,\nGiovanni Russo",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Guten Tag Herr Russo,\n\nwir haben Ihr Schreiben ___6___. Wir suchen zurzeit einen Koch ___7___ unser Restaurant. Bitte kommen Sie am Mittwoch um 10 Uhr zu einem ___8___. Bringen Sie bitte Ihre Arbeitszeugnisse ___9___. Wir freuen ___10___ auf Sie.\nHerzliche Grüße,\nRestaurant 'Goldener Stern'",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "die",
+        "b": "eine",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "Jahre",
+        "b": "Monate",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "kann",
+        "b": "muss",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "Wann",
+        "b": "Wie",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "Ihre",
+        "b": "eine",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "erhalten",
+        "b": "bekommen",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "bei",
+        "b": "für",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "Termin",
+        "b": "Gespräch",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "mit",
+        "b": "vor",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "euch",
+        "b": "uns",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1007,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Einkaufen (Set 7)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nich habe ___1___ Ihnen einen Fernseher bestellt. Er ist heute ___2___. Leider ist er kaputt. Das Display funktioniert ___3___. Können Sie ___4___ Fernseher abholen? Ich möchte mein ___5___ zurück.\nMit freundlichen Grüßen,\nKlaus Schmidt",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Sehr geehrter Herr Schmidt,\n\ndas tut uns sehr ___6___. Wir holen das Gerät am Freitag bei ___7___ ab. Möchten Sie ___8___ neues Gerät oder wirklich das Geld? Bitte schreiben Sie ___9___ eine E-Mail. Wir danken ___10___ für Ihre Geduld.\nIhr Kundenservice",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "von",
+        "b": "bei",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "angekommen",
+        "b": "geliefert",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "nicht",
+        "b": "kein",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "den",
+        "b": "der",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "Geld",
+        "b": "Preis",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "weh",
+        "b": "leid",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "dir",
+        "b": "Ihnen",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "ein",
+        "b": "eine",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "mir",
+        "b": "uns",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "Ihnen",
+        "b": "dir",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1008,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Urlaub (Set 8)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nwird möchten im August drei Nächte in ___1___ Hotel übernachten. Haben Sie ___2___ zwei Erwachsene und ein Kind ein Zimmer frei? Was kostet die Übernachtung ___3___ Frühstück? Gibt es im Hotel einen ___4___? Wir freuen uns auf Ihr ___5___.\nHerzliche Grüße,\nFamilie Wagner",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Liebe Familie Wagner,\n\nwir haben vom 12. bis 15. August ein ___6___ frei. Es kostet 120 Euro pro Nacht. Das Frühstück ___7___ inklusive. Im Keller ___8___ wir ein kleines Schwimmbad. Bitte ___9___ Sie uns Bescheid, ob Sie das Zimmer ___10___.\nMit freundlichen Grüßen,\nHotel 'Zur Post'",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "unserem",
+        "b": "Ihrem",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "nach",
+        "b": "für",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "mit",
+        "b": "ohne",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "Pool",
+        "b": "Ort",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "Angebot",
+        "b": "Frage",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "Familienzimmer",
+        "b": "Einzelzimmer",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "macht",
+        "b": "ist",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "haben",
+        "b": "sind",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "sagen",
+        "b": "geben",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "nehmen",
+        "b": "brauchen",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1009,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Bahnhof (Set 9)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nwann ___1___ der nächste Zug nach Frankfurt? Muss ich ___2___ oder gibt es eine Direktverbindung? Wie viel kostet eine Fahrkarte ___3___? Kann ich das Ticket im Zug ___4___? Ich muss um 12 Uhr in Frankfurt ___5___.\nDanke für Ihre Hilfe!",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Hallo,\n\nder nächste Zug fährt um 9:30 Uhr ___6___ Gleis 4. Das ist eine Direktverbindung, Sie müssen nicht ___7___. Eine einfache Fahrt kostet 35 Euro. Tickets ___8___ Sie am Automaten oder am ___9___. Im Zug kann man keine Fahrkarten kaufen. Gute ___10___!\nIhr Service-Team",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "geht",
+        "b": "fährt",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "umsteigen",
+        "b": "aussteigen",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "einfach",
+        "b": "kurz",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "kaufen",
+        "b": "bezahlen",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "sein",
+        "b": "ankommen",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "an",
+        "b": "von",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "warten",
+        "b": "umsteigen",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "bekommen",
+        "b": "sehen",
+        "correct": "a"
+      },
+      {
+        "num": 9,
+        "a": "Büro",
+        "b": "Schalter",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "Reise",
+        "b": "Fahrt",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1010,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Restaurant (Set 10)",
+    "texts": [
+      {
+        "content": "Guten Abend,\n\nwir ___1___ gern einen Tisch für vier Personen für morgen Abend reservieren. Wir möchten ___2___ 19 Uhr kommen. Ist das ___3___? Wir möchten gern am Fenster ___4___. Können wir auch ___5___ bezahlen?\nViele Grüße,\nSofia Rossi",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Guten Tag Frau Rossi,\n\nwir haben morgen Abend einen Tisch ___6___. Wir reservieren ihn für 19 Uhr. Wenn Sie ___7___ kommen, rufen Sie bitte kurz an. Wir ___8___ auch Kreditkarten. Wir wünschen Ihnen einen ___9___ Abend bei ___10___.\nBis morgen!",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "möchten",
+        "b": "würden",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "um",
+        "b": "im",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "gut",
+        "b": "möglich",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "essen",
+        "b": "sitzen",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "bar",
+        "b": "mit Karte",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "leer",
+        "b": "frei",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "später",
+        "b": "früher",
+        "correct": "a"
+      },
+      {
+        "num": 8,
+        "a": "nehmen",
+        "b": "akzeptieren",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "guten",
+        "b": "schönen",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "euch",
+        "b": "uns",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1011,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Sportverein (Set 11)",
+    "texts": [
+      {
+        "content": "Hallo,\n\nich möchte gern Fußball ___1___. Wann trainiert die Mannschaft? ___2___ ich einmal zum Probetraining kommen? Welche ___3___ brauche ich? Kostet das Training ___4___? Bitte schicken Sie mir ___5___ Information.\nViele Grüße,\nAhmed",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Lieber Ahmed,\n\ndu kannst gern am Mittwoch um 17 Uhr ___6___. Wir trainieren auf dem Sportplatz. Du brauchst nur Sportschuhe und ein ___7___. Das Probetraining ist ___8___. Wenn es dir ___9___, kannst du Mitglied im Verein ___10___.\nBis Mittwoch!",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "spielen",
+        "b": "machen",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "Darf",
+        "b": "Muss",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "Sachen",
+        "b": "Kleidung",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "viel",
+        "b": "etwas",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "die",
+        "b": "eine",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "kommen",
+        "b": "mitmachen",
+        "correct": "a"
+      },
+      {
+        "num": 7,
+        "a": "T-Shirt",
+        "b": "Hose",
+        "correct": "a"
+      },
+      {
+        "num": 8,
+        "a": "billig",
+        "b": "kostenlos",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "macht",
+        "b": "gefällt",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "sein",
+        "b": "werden",
+        "correct": "b"
+      }
+    ]
+  },
+  { "id": 1012,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Kleidung (Set 12)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nich habe gestern bei Ihnen eine Jacke ___1___. Aber sie ist ___2___ groß. Kann ich die Jacke ___3___? Ich habe den ___4___. Haben Sie die Jacke auch ___5___ Größe M?\nDanke für Ihre Hilfe.",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Hallo,\n\nja, Sie können die Jacke ___6___ acht Tagen umtauschen. In Größe M haben wir sie ___7___ in Blau. Wenn Sie die Jacke in Schwarz möchten, müssen wir sie ___8___. Das dauert drei Tage. Wir rufen Sie ___9___, wenn die Jacke ___10___ ist.\nViele Grüße,\nIhr Modehaus",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "gekauft",
+        "b": "bestellt",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "sehr",
+        "b": "zu",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "umtauschen",
+        "b": "abgeben",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "Kassenzettel",
+        "b": "Brief",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "in",
+        "b": "mit",
+        "correct": "a"
+      },
+      {
+        "num": 6,
+        "a": "vor",
+        "b": "innerhalb",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "noch",
+        "b": "nur",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "suchen",
+        "b": "bestellen",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "auf",
+        "b": "an",
+        "correct": "b"
+      },
+      {
+        "num": 10,
+        "a": "da",
+        "b": "hier",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1013,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Familie (Set 13)",
+    "texts": [
+      {
+        "content": "Liebe Familie Schmidt,\n\nwir möchten euch am Sonntag zum Picknick ___1___. Wir gehen in den Park. Wir ___2___ um 14 Uhr dort sein. Wir bringen Brot und ___3___ mit. Könnt ihr einen ___4___ machen? Wir hoffen auf ___5___ Wetter!\nBis Sonntag,\nJulia und Marc",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Hallo Julia, hallo Marc,\n\nvielen Dank für die Einladung! Wir kommen ___6___. Wir bringen einen Nudelsalat ___7___. Das Wetter am Sonntag ___8___ bestimmt gut. Es soll ___9___ regnen. Sollen wir auch noch etwas zu ___10___ kaufen?\nHerzliche Grüße,\nDie Schmidts",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "einladen",
+        "b": "besuchen",
+        "correct": "a"
+      },
+      {
+        "num": 2,
+        "a": "müssen",
+        "b": "wollen",
+        "correct": "b"
+      },
+      {
+        "num": 3,
+        "a": "Käse",
+        "b": "Milch",
+        "correct": "a"
+      },
+      {
+        "num": 4,
+        "a": "Kuchen",
+        "b": "Salat",
+        "correct": "b"
+      },
+      {
+        "num": 5,
+        "a": "schönes",
+        "b": "gutes",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "gut",
+        "b": "gern",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "nach",
+        "b": "mit",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "ist",
+        "b": "wird",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "nicht",
+        "b": "kein",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "trinken",
+        "b": "essen",
+        "correct": "a"
+      }
+    ]
+  },
+  { "id": 1014,
+    "type": "TELC",
+    "level": "A1",
+    "category": "sprachbaustein",
+    "title": "A1 Sprachbausteine - Umzug (Set 14)",
+    "texts": [
+      {
+        "content": "Hallo Thomas,\n\nich ziehe am Samstag ___1___. Kannst du mir ___2___? Ich habe viele schwere ___3___. Ein Freund kommt auch mit ___4___ Transporter. Wir fangen um 9 Uhr ___5___. Hast du Zeit?\nLiebe Grüße,\nDaniel",
+        "gapIds": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "content": "Lieber Daniel,\n\nnatürlich helfe ich ___6___! Ich bin am Samstag um 9 Uhr bei ___7___. Ich kann auch meine ___8___ mitbringen, sie kann auch helfen. Soll ich eine ___9___ Pizza zum Mittagessen bestellen? Wir ___10___ das schon!\nBis Samstag,\nThomas",
+        "gapIds": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 1,
+        "a": "ein",
+        "b": "um",
+        "correct": "b"
+      },
+      {
+        "num": 2,
+        "a": "helfen",
+        "b": "begleiten",
+        "correct": "a"
+      },
+      {
+        "num": 3,
+        "a": "Sachen",
+        "b": "Kartons",
+        "correct": "b"
+      },
+      {
+        "num": 4,
+        "a": "einem",
+        "b": "den",
+        "correct": "a"
+      },
+      {
+        "num": 5,
+        "a": "auf",
+        "b": "an",
+        "correct": "b"
+      },
+      {
+        "num": 6,
+        "a": "euch",
+        "b": "dir",
+        "correct": "b"
+      },
+      {
+        "num": 7,
+        "a": "euch",
+        "b": "dir",
+        "correct": "b"
+      },
+      {
+        "num": 8,
+        "a": "Mutter",
+        "b": "Freundin",
+        "correct": "b"
+      },
+      {
+        "num": 9,
+        "a": "große",
+        "b": "viele",
+        "correct": "a"
+      },
+      {
+        "num": 10,
+        "a": "schaffen",
+        "b": "machen",
+        "correct": "a"
+      }
+    ]
+  },,
+{
+    "id": 2001,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Schulausflug (Set 1)",
+    "texts": [
+      {
+        "content": "Liebe Eltern,\n\nnach unserem Ausflug in den Zoo bin ich jetzt wieder in der Schule. Wie Sie ja wissen, wollte ich eigentlich ___21___ den Kindern in den Park gehen, das hat dann leider nicht geklappt. Doch dann habe ich eine tolle Alternative ___22___ den Zoo gefunden.\nDort ___23___ wir drei Stunden geblieben. Der Besuch war sehr ___24___ – wir mussten schon um 8.00 Uhr am Bahnhof sein –, hat uns aber ___25___ sehr gut gefallen. Wir haben ___26___ dieser Zeit viele exotische Tiere gesehen und so nicht nur etwas über die Fütterung von Elefanten ___27___, sondern auch über den Schutz bedrohter Arten. Und die Pfleger, mit ___28___ ich am meisten zu tun hatte, waren wirklich sehr nett.\nNach dem Ausflug habe ich noch zwei Tage frei bei ___29___ Eltern gemacht. Darüber erzähle ich ___30___ bald mehr – für heute muss ich Schluss machen.\n\nLiebe Grüße\nFritz",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "aus",
+        "b": "mit",
+        "c": "für",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "zu",
+        "b": "im",
+        "c": "in",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "sind",
+        "b": "werden",
+        "c": "haben",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "anstrengend",
+        "b": "anstrengendes",
+        "c": "anstrengende",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "wegen",
+        "b": "trotzdem",
+        "c": "weshalb",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "bis",
+        "b": "in",
+        "c": "nach",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "lernen",
+        "b": "gelernt",
+        "c": "lernte",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "die",
+        "b": "dem",
+        "c": "denen",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "meine",
+        "b": "meinen",
+        "c": "meiner",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "Ihnen",
+        "b": "dir",
+        "c": "uns",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 2002,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Hotel-Pension Janosch (Set 2)",
+    "texts": [
+      {
+        "content": "Sehr geehrter Herr Janosch,\n\nich habe Ihre Anzeige gelesen und interessiere mich sehr ___31___ Ihr Angebot. Ich möchte mit meiner Familie vom 10.–24. August in Österreich Urlaub machen und hätte deshalb ___32___ noch nähere Informationen.\nMeine Frau und mich interessiert ganz ___33___ das Freizeitprogramm für Kinder, ___34___ wir zwei Kinder (3 und 8 Jahre) haben. Gibt es Schwimm- und Tenniskurse für Kinder und ___35___ ja, was kosten sie? In Ihrer Anzeige steht auch, dass Sie für die Unterkunft günstige Angebote für Kinder haben. Wie viel ___36___ wir pro Woche für unsere Kinder bezahlen? Und ___37___ noch eine letzte Frage: Wir haben einen kleinen Hund, von dem sich meine Kinder nicht trennen können und den wir ___38___ auch mitnehmen müssten. Wäre das möglich?\nBitte schreiben Sie uns so bald wie möglich, ___39___ wir uns bald entscheiden können. Außerdem wären wir Ihnen sehr ___40___, wenn Sie uns einige Prospekte oder Bilder Ihrer Pension sowie der Umgebung zusenden würden.\n\nMit freundlichen Grüßen\nIhr Anton Müller",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "BESONDERS",
+      "b": "DA",
+      "c": "DAFÜR",
+      "d": "DAMALS",
+      "e": "DAMIT",
+      "f": "DANKBAR",
+      "g": "DESHALB",
+      "h": "FÜR",
+      "i": "GERNE",
+      "j": "KÖNNTEN",
+      "k": "MIT",
+      "l": "MÜSSTEN",
+      "m": "SCHLIESSLICH",
+      "n": "WANN",
+      "o": "WENN"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "h"
+      },
+      {
+        "num": 32,
+        "correct": "i"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "b"
+      },
+      {
+        "num": 35,
+        "correct": "o"
+      },
+      {
+        "num": 36,
+        "correct": "j"
+      },
+      {
+        "num": 37,
+        "correct": "m"
+      },
+      {
+        "num": 38,
+        "correct": "g"
+      },
+      {
+        "num": 39,
+        "correct": "e"
+      },
+      {
+        "num": 40,
+        "correct": "f"
+      }
+    ]
+  },
+  {
+    "id": 2003,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Bewerbung (Set 3)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Frau Weber,\n\nich habe Ihre Anzeige ___21___ Internet gelesen und bewerbe mich hiermit um die Stelle als Verkäufer. Da ich bereits zwei Jahre in einem Supermarkt ___22___ habe, kenne ich mich mit dem Verkauf gut aus.\nIch bin sehr ___23___ und arbeite gern mit Menschen. In meinem letzten Job war ich auch ___24___ die Kasse verantwortlich. ___25___ ich flexibel bin, kann ich auch am Wochenende arbeiten. ___26___ würde mich freuen, wenn Sie mich zu einem Vorstellungsgespräch ___27___. Ich habe meine Unterlagen ___28___ diesen Brief gelegt.\nÜber eine positive Antwort würde ich mich sehr ___29___. Für weitere Fragen stehe ich Ihnen gern ___30___ Verfügung.\n\nMit freundlichen Grüßen\nLukas Schmidt",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "im",
+        "b": "am",
+        "c": "auf",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "arbeitete",
+        "b": "arbeite",
+        "c": "gearbeitet",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "freundliche",
+        "b": "freundlicher",
+        "c": "freundlich",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "über",
+        "b": "an",
+        "c": "für",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Dass",
+        "b": "Weil",
+        "c": "Wenn",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Ich",
+        "b": "Es",
+        "c": "Das",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "einladet",
+        "b": "einladen",
+        "c": "geladen",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "in",
+        "b": "zu",
+        "c": "an",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "gefreut",
+        "b": "freuen",
+        "c": "freut",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "zur",
+        "b": "an",
+        "c": "zu",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 2004,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Wohnungsvermietung (Set 4)",
+    "texts": [
+      {
+        "content": "Hallo Herr Müller,\n\nvielen Dank für die Besichtigung der Wohnung gestern Abend. Die Wohnung gefällt mir sehr ___31___, besonders die helle Küche und der Balkon. Ich habe mich dazu entschieden, die Wohnung ___32___ mieten.\nWie besprochen sende ich Ihnen hier meine Gehaltsabrechnungen ___33___ den letzten drei Monaten. ___34___ ich keine Haustiere habe, gibt es in dieser Hinsicht kein Problem. Ich würde ___35___ zum 1. nächsten Monat einziehen. ___36___ Sie noch weitere Unterlagen von mir? Bitte sagen Sie mir ___37___, wann wir den Mietvertrag unterschreiben ___38___. Ich freue mich ___39___ Ihre Rückmeldung und bin per E-Mail oder Telefon ___40___ erreichen.\n\nBeste Grüße\nMarko P.",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "AM",
+      "b": "AN",
+      "c": "AUF",
+      "d": "BESCHEID",
+      "e": "DA",
+      "f": "DANACH",
+      "g": "GUT",
+      "h": "KÖNNEN",
+      "i": "MÖCHTE",
+      "j": "NUR",
+      "k": "VON",
+      "l": "WENN",
+      "m": "WIE",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "g"
+      },
+      {
+        "num": 32,
+        "correct": "n"
+      },
+      {
+        "num": 33,
+        "correct": "k"
+      },
+      {
+        "num": 34,
+        "correct": "e"
+      },
+      {
+        "num": 35,
+        "correct": "i"
+      },
+      {
+        "num": 36,
+        "correct": "h"
+      },
+      {
+        "num": 37,
+        "correct": "d"
+      },
+      {
+        "num": 38,
+        "correct": "h"
+      },
+      {
+        "num": 39,
+        "correct": "c"
+      },
+      {
+        "num": 40,
+        "correct": "n"
+      }
+    ]
+  },
+  {
+    "id": 2005,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Hochzeitseinladung (Set 5)",
+    "texts": [
+      {
+        "content": "Liebe Maria, lieber Paul,\n\nwir haben eine große Neuigkeit! Wir werden ___21___ nächsten Monat heiraten. Wir möchten euch ganz herzlich zu unserer Hochzeit ___22___. Die Feier findet am 15. September ___23___ einem kleinen Schloss statt.\nDer Tag beginnt um 14 Uhr ___24___ der Trauung in der Kirche. Danach möchten wir mit ___25___ allen im Schlossgarten feiern. Es gibt Musik, Essen und natürlich eine große Torte. Wir ___26___ uns sehr, wenn ihr kommen könntet. Bitte gebt uns bis zum 1. August ___27___. Wenn ihr ein Hotelzimmer ___28___, können wir euch gern dabei helfen.\nWir hoffen sehr, ___29___ ihr Zeit habt und diesen besonderen tag mit ___30___ feiert.\n\nAlles Liebe\nJulia und Marc",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "in",
+        "b": "im",
+        "c": "am",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "einladet",
+        "b": "einladen",
+        "c": "geladen",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "an",
+        "b": "auf",
+        "c": "in",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "mit",
+        "b": "von",
+        "c": "nach",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "euch",
+        "b": "sie",
+        "c": "ihr",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "gefreut",
+        "b": "freuen",
+        "c": "freut",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Zusage",
+        "b": "Bescheid",
+        "c": "Antwort",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "brauchen",
+        "b": "braucht",
+        "c": "brauche",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "wenn",
+        "b": "dass",
+        "c": "ob",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "wir",
+        "b": "euch",
+        "c": "uns",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 2006,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Reparatur-Service (Set 6)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nmeine Spülmaschine ist leider kaputt. Sie pumpt das Wasser nicht mehr ab und macht ___31___ Geräusche. Da ich die Maschine jeden Tag ___32___, ist das für mich ein großes Problem.\nKönnten Sie bitte einen Techniker ___33___ mir nach Hause schicken? Ich bin meistens ab 16 Uhr ___34___. Es wäre toll, ___35___ die Reparatur noch diese Woche klappen würde. Bitte sagen Sie mir ___36___, welche Kosten für die Anfahrt ___37___ . Ich habe noch eine Garantie ___38___ das Gerät, die bis Ende des Jahres ___39___ . Ich hoffe auf eine ___40___ Antwort.\n\nMit freundlichen Grüßen\nCarla King",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "AUF",
+      "b": "BEI",
+      "c": "BESCHEID",
+      "d": "DA",
+      "e": "ENTSTEHEN",
+      "f": "GILT",
+      "g": "KOMISCHE",
+      "h": "NACH",
+      "i": "OB",
+      "j": "SCHNELLE",
+      "k": "WENN",
+      "l": "WIE",
+      "m": "ZU",
+      "n": "ZUHAUSE",
+      "o": "NUTZE"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "g"
+      },
+      {
+        "num": 32,
+        "correct": "o"
+      },
+      {
+        "num": 33,
+        "correct": "m"
+      },
+      {
+        "num": 34,
+        "correct": "n"
+      },
+      {
+        "num": 35,
+        "correct": "k"
+      },
+      {
+        "num": 36,
+        "correct": "c"
+      },
+      {
+        "num": 37,
+        "correct": "e"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "f"
+      },
+      {
+        "num": 40,
+        "correct": "j"
+      }
+    ]
+  },
+  {
+    "id": 2007,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Reisebericht Berlin (Set 7)",
+    "texts": [
+      {
+        "content": "Hallo zusammen,\n\nich bin gerade für ein paar Tage in Berlin und es gefällt mir hier ___21___ gut. Gestern habe ich das Brandenburger Tor besucht und ___22___ ein Foto gemacht. Das Wetter ist leider nicht so schön, es ___23___ fast den ganzen Tag.\nBerlin ist eine sehr ___24___ Stadt. Es gibt hier so viele Museen und Parks. Morgen möchte ich ___25___ Schiffahrt auf der Spree machen. Ich hoffe, ___26___ die Sonne scheint. Meinen Freunden hat die Tour auch sehr gut ___27___. Ich habe schon viele Souvenirs ___28___ meine Familie gekauft. Ich komme ___29___ Sonntag wieder nach Hause und freue mich schon ___30___ euch alle!\n\nBis bald\nEure Sophie",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "ganz",
+        "b": "sehr",
+        "c": "viel",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "dort",
+        "b": "da",
+        "c": "überall",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "regnet",
+        "b": "regnen",
+        "c": "geregnet",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "interessante",
+        "b": "interessanter",
+        "c": "interessantes",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "ein",
+        "b": "einen",
+        "c": "eine",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "wenn",
+        "b": "weil",
+        "c": "dass",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "fällt",
+        "b": "gefallt",
+        "c": "gefallen",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "für",
+        "b": "zu",
+        "c": "an",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "im",
+        "b": "am",
+        "c": "an",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "auf",
+        "b": "an",
+        "c": "über",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 2008,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Sprachkurs Anmeldung (Set 8)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nich möchte mich gern ___31___ einen Deutschkurs in Ihrer Sprachschule anmelden. Im Moment besuche ich einen Integrationskurs, ___32___ dieser endet leider in zwei Wochen. Ich möchte direkt ___33___ weitermachen.\nKönnten Sie mir sagen, ___34___ der nächste B1-Kurs beginnt? Ich würde den Kurs ___35___ am Vormittag besuchen, da ich nachmittags ___36___ . Wie hoch sind die Gebühren ___37___ den Kurs? Muss ich den Betrag sofort ___38___ oder kann ich in Raten zahlen? Ich würde mich über eine Antwort ___39___ freuen. Ich ___40___ dann nächste Woche zur Anmeldung persönlich vorbei.\n\nMit freundlichen Grüßen\nAhmed Al-Masri",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ABER",
+      "b": "ARBEITE",
+      "c": "BEZAHLEN",
+      "d": "DANACH",
+      "e": "DASS",
+      "f": "FÜR",
+      "g": "GERNE",
+      "h": "KOMME",
+      "i": "MIT",
+      "j": "OB",
+      "k": "SEHR",
+      "l": "WANN",
+      "m": "WIE",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "f"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "d"
+      },
+      {
+        "num": 34,
+        "correct": "l"
+      },
+      {
+        "num": 35,
+        "correct": "g"
+      },
+      {
+        "num": 36,
+        "correct": "b"
+      },
+      {
+        "num": 37,
+        "correct": "f"
+      },
+      {
+        "num": 38,
+        "correct": "c"
+      },
+      {
+        "num": 39,
+        "correct": "k"
+      },
+      {
+        "num": 40,
+        "correct": "h"
+      }
+    ]
+  },
+  {
+    "id": 2009,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Arztbesuch (Set 9)",
+    "texts": [
+      {
+        "content": "Guten Tag, Herr Doktor,\n\nich habe seit gestern starke Bauchschmerzen und auch ein bisschen Fieber. Ich ___21___ mich heute Morgen sehr schwach. Kann ich bitte heute noch einen ___22___ bekommen?\nIch war schon einmal bei Ihnen ___23___ Behandlung. Haben Sie meine Patientenakte noch? Ich kann um 11 Uhr in die Praxis ___24___. Muss ich lange ___25___? Ich habe auch Kopfschmerzen und mein ___26___ tut weh. Soll ich vor dem Besuch etwas ___27___ oder lieber nicht? Bitte rufen Sie mich ___28___, wenn es später wird. Ich brauche auch eine Krankmeldung für ___29___ Arbeitgeber. Vielen ___30___ für Ihre Hilfe.\n\nMit freundlichen Grüßen\nHasan B.",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "fühle",
+        "b": "fühlte",
+        "c": "bin",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "Zeit",
+        "b": "Termine",
+        "c": "Termin",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "auf",
+        "b": "zu",
+        "c": "in",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "kommt",
+        "b": "gekommen",
+        "c": "kommen",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "warten",
+        "b": "gewartet",
+        "c": "warte",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "Hals",
+        "b": "Fuß",
+        "c": "Hand",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "isst",
+        "b": "gegessen",
+        "c": "essen",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "an",
+        "b": "nach",
+        "c": "auf",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "meinen",
+        "b": "mener",
+        "c": "mein",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "Danke",
+        "b": "Danks",
+        "c": "Dank",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 2010,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Nachbarschaftsfest (Set 10)",
+    "texts": [
+      {
+        "content": "Liebe Nachbarinnen und Nachbarn,\n\nwir möchten euch alle ganz herzlich zu unserem diesjährigen Nachbarschaftsfest ___31___ . Das Fest findet am nächsten Samstag ab 15 Uhr auf dem Spielplatz ___32___ . Wir möchten gemeinsam grillen und einen ___33___ Nachmittag verbringen.\nJeder sollte bitte etwas zu ___34___ oder zu trinken mitbringen. Teller und Besteck ___35___ wir schon besorgt. Bei Regen können wir leider nicht ___36___ feiern. In diesem Fall findet das Fest im Gemeinschaftsraum ___37___ . Wir freuen uns sehr ___38___ euer Kommen. Bitte tragt euch bis Mittwoch in die Liste ___39___ , damit wir besser planen können. ___40___ Fragen könnt ihr uns gern anrufen.\n\nBeste Grüße\nDas Organisationsteam",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "AN",
+      "b": "AUF",
+      "c": "BEI",
+      "d": "DRAUSSEN",
+      "e": "EINLADEN",
+      "f": "EIN",
+      "g": "ESSEN",
+      "h": "HABEN",
+      "i": "MIT",
+      "j": "NACH",
+      "k": "NETTEN",
+      "l": "OB",
+      "m": "STATT",
+      "n": "WENN",
+      "o": "ZU"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "e"
+      },
+      {
+        "num": 32,
+        "correct": "m"
+      },
+      {
+        "num": 33,
+        "correct": "k"
+      },
+      {
+        "num": 34,
+        "correct": "g"
+      },
+      {
+        "num": 35,
+        "correct": "h"
+      },
+      {
+        "num": 36,
+        "correct": "d"
+      },
+      {
+        "num": 37,
+        "correct": "m"
+      },
+      {
+        "num": 38,
+        "correct": "b"
+      },
+      {
+        "num": 39,
+        "correct": "f"
+      },
+      {
+        "num": 40,
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 2011,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Fundbüro (Set 11)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nich habe gestern Nachmittag in der U-Bahn Linie U6 meine Tasche ___21___. Ich bin am Leopoldplatz ___22___ und habe die Tasche auf dem Sitz liegen lassen. Es ist eine schwarze Ledertasche ___23___ einem langen Gurt.\nIn der Tasche ___24___ mein Portemonnaie, ein Schlüsselbund und mein Regenschirm. Wurde die Tasche vielleicht schon ___25___ Ihnen abgegeben? Mein Portemonnaie ist sehr wichtig für mich, ___26___ darin meine Ausweise und meine Bankkarte sind. Bitte ___27___ Sie mir Bescheid, wenn die Tasche gefunden wurde. Sie können mich ___28___ der Nummer 0176-1234567 jederzeit erreichen. Ich würde mich ___29___ freuen, wenn ich meine Sachen wieder ___30___.\n\nMit freundlichen Grüßen\nThomas Keller",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "verlieren",
+        "b": "verliere",
+        "c": "verloren",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "ausgestiegt",
+        "b": "ausgestiegen",
+        "c": "aussteigt",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "aus",
+        "b": "von",
+        "c": "mit",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "war",
+        "b": "sind",
+        "c": "ist",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "bei",
+        "b": "zu",
+        "c": "an",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "wenn",
+        "b": "weil",
+        "c": "da",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "gebt",
+        "b": "gab",
+        "c": "geben",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "auf",
+        "b": "unter",
+        "c": "mit",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "sehr",
+        "b": "ganz",
+        "c": "viel",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "gekommen",
+        "b": "bekommen",
+        "c": "bekomme",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 2012,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Autovermietung (Set 12)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nich möchte für das nächste Wochenende ein Auto bei Ihnen ___31___ . Ich brauche den Wagen von Freitagvormittag bis Sonntagabend. Wir planen eine Reise ___32___ die Ostsee und sind fünf Personen. ___33___ haben wir viel Gepäck dabei.\nHaben Sie ein großes Auto ___34___ , zum Beispiel einen Kombi? Wie viel kostet die Miete ___35___ das ganze Wochenende? Sind die Kilometer inklusive ___36___ muss ich für jeden Kilometer extra bezahlen? Ich habe einen deutschen Führerschein ___37___ besitze ihn schon seit fünf Jahren. Muss ich eine Kaution ___38___ ? Ich freue mich auf Ihr ___39___ Angebot. Bitte antworten Sie mir ___40___ E-Mail.\n\nMit freundlichen Grüßen\nPeter Parker",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "AN",
+      "b": "AUF",
+      "c": "AUS",
+      "d": "BEZAHLEN",
+      "e": "FÜR",
+      "f": "FREI",
+      "g": "HINTERLEGEN",
+      "h": "MIETEN",
+      "i": "ODER",
+      "j": "PER",
+      "k": "SCHNELLES",
+      "l": "UND",
+      "m": "WENN",
+      "n": "WIE",
+      "o": "ZUDEM"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "h"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "o"
+      },
+      {
+        "num": 34,
+        "correct": "f"
+      },
+      {
+        "num": 35,
+        "correct": "e"
+      },
+      {
+        "num": 36,
+        "correct": "i"
+      },
+      {
+        "num": 37,
+        "correct": "l"
+      },
+      {
+        "num": 38,
+        "correct": "g"
+      },
+      {
+        "num": 39,
+        "correct": "k"
+      },
+      {
+        "num": 40,
+        "correct": "j"
+      }
+    ]
+  },
+  {
+    "id": 2013,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Praktikum Bäckerei (Set 13)",
+    "texts": [
+      {
+        "content": "Sehr geehrter Herr Meyer,\n\nich danke Ihnen sehr für die Möglichkeit, ein Praktikum in Ihrer Bäckerei zu ___21___. Die zwei Wochen haben mir sehr gut gefallen und ich habe viel ___22___. Besonders interessant fand ich es, morgens ___23___ früh aufzustehen und beim Backen zu helfen.\nIch habe gelernt, wie man verschiedene Brotsorten ___24___ . Die Stimmung im Team war immer sehr ___25___. Die Kollegen waren alle sehr nett ___26___ hilfsbereit. Ich habe jetzt ein besseres Verständnis für den Beruf ___27___ Bäckers. Dieses Praktikum hat mich in meinem Wunsch ___28___, eine Ausbildung in diesem Bereich zu machen. Könnten Sie mir bitte ein ___29___ ausstellen? Das wäre für meine zukünftigen Bewerbungen sehr ___30___.\n\nMit freundlichen Grüßen\nMax Mustermann",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "machen",
+        "b": "gemacht",
+        "c": "macht",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "lernte",
+        "b": "gelernt",
+        "c": "lernen",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "sehr",
+        "b": "ganz",
+        "c": "so",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "gebacken",
+        "b": "backen",
+        "c": "backt",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "gute",
+        "b": "gut",
+        "c": "guten",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "aber",
+        "b": "oder",
+        "c": "und",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "dem",
+        "b": "der",
+        "c": "des",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "bestärkt",
+        "b": "bestärken",
+        "c": "stark",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Zeugnis",
+        "b": "Brief",
+        "c": "Schein",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "gut",
+        "b": "schön",
+        "c": "wichtig",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 2014,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "A2 Sprachbausteine - Fitnessstudio Vertrag (Set 14)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nich möchte mein Abonnement in Ihrem Fitnessstudio zum Ende des Monats ___31___ . Leider muss ich beruflich in eine andere Stadt ___32___ und kann Ihr Angebot daher nicht mehr nutzen. In meinem Vertrag steht, dass ich eine ___33___ von drei Monaten habe.\nKönnten Sie mir bitte die Kündigung schriftlich ___34___ ? Ich habe bereits alle meine Sachen aus dem Spind ___35___ . Muss ich die Mitgliedskarte ___36___ Post zurückschicken oder kann ich sie einfach ___37___ Ihnen abgeben? Ich war mit den Trainern und den Geräten immer sehr ___38___ . ___39___ ich in der neuen Stadt bin, werde ich mich wieder nach einem Studio ___40___ .\n\nMit freundlichen Grüßen\nElena Fischer",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "BEI",
+      "b": "BESTÄTIGEN",
+      "c": "GEHOLT",
+      "d": "KÜNDIGEN",
+      "e": "KÜNDIGUNGSFRIST",
+      "f": "MIT",
+      "g": "PER",
+      "h": "SOBALD",
+      "i": "UMSCHAUEN",
+      "j": "UMZIEHEN",
+      "k": "WENN",
+      "l": "WIE",
+      "m": "WOHIN",
+      "n": "ZUFRIEDEN",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "d"
+      },
+      {
+        "num": 32,
+        "correct": "j"
+      },
+      {
+        "num": 33,
+        "correct": "e"
+      },
+      {
+        "num": 34,
+        "correct": "b"
+      },
+      {
+        "num": 35,
+        "correct": "c"
+      },
+      {
+        "num": 36,
+        "correct": "g"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "n"
+      },
+      {
+        "num": 39,
+        "correct": "h"
+      },
+      {
+        "num": 40,
+        "correct": "i"
+      }
+    ]
+  },
+  {
+    "id": 2015,
+    "type": "TELC",
+    "level": "A2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "A2 Sprachbausteine - Abschiedsfeier (Set 15)",
+    "texts": [
+      {
+        "content": "Hallo zusammen,\n\nwie ihr wisst, ist mein Praktikum hier bald zu ___21___. Mein letzter Arbeitstag ist der nächste Freitag. Ich möchte mich bei euch allen für die schöne Zeit ___22___.\nDeshalb möchte ich eine kleine Abschiedsfeier ___23___. Wir treffen uns am Freitagabend ab 18 Uhr im Pausenraum. Ich werde ein paar Getränke und Snacks ___24___. Es wäre toll, ___25___ ihr alle kommen könntet. Es war mir eine ___26___ Freude, mit euch zu arbeiten. Ich werde die netten Gespräche und ___27___ Zusammenarbeit sehr vermissen. Bitte sagt mir bis Mittwoch ___28___, ob ihr Zeit habt. Ich freue ___29___ schon auf einen schönen Abschluss mit ___30___!\n\nBis dann\nEure Monika",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Schluss",
+        "b": "Aus",
+        "c": "Ende",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "gedankt",
+        "b": "bedanken",
+        "c": "danken",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "gemacht",
+        "b": "macht",
+        "c": "machen",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "mitbringen",
+        "b": "bringen",
+        "c": "gekauft",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "weil",
+        "b": "dass",
+        "c": "wenn",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "groß",
+        "b": "große",
+        "c": "guten",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "eine",
+        "b": "unserer",
+        "c": "die",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Zusage",
+        "b": "Antwort",
+        "c": "Bescheid",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "mir",
+        "b": "dich",
+        "c": "mich",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "uns",
+        "b": "euch",
+        "c": "ihm",
+        "correct": "b"
+      }
+    ]
+  },
+{
+    "id": 3001,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Work-Life-Balance (Set 1)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Kolleginnen und Kollegen,\n\nin unserer letzten Firmenversammlung haben wir ausführlich ___21___ das Thema 'Work-Life-Balance' gesprochen. Es ist uns wichtig, dass Sie sich an Ihrem Arbeitsplatz wohlfühlen und genug Zeit für Ihr Privatleben ___22___.\nDaher haben wir uns ___23___, ab nächsten Monat flexiblere Arbeitszeiten einzuführen. Sie können nun selbst entscheiden, wann Sie mit der Arbeit ___24___. Bitte beachten Sie jedoch, dass die Kernarbeitszeit ___25___ 10:00 Uhr und 15:00 Uhr liegt. Wenn Sie Fragen zu den neuen Regelungen ___26___, wenden Sie sich bitte an die Personalabteilung. Wir hoffen, ___27___ diese Maßnahme dazu beiträgt, den Stress im Alltag zu ___28___. ___29___ wir gemeinsam an einer besseren Arbeitsatmosphäre arbeiten, profitieren wir alle davon. Vielen Dank für Ihre ___30___.\n\nMit freundlichen Grüßen\nDie Geschäftsleitung",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "über",
+        "b": "von",
+        "c": "an",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "hätten",
+        "b": "haben",
+        "c": "hatten",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "entschieden",
+        "b": "beschlossen",
+        "c": "entscheiden",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "anfangen",
+        "b": "beginnen",
+        "c": "aufhören",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "von",
+        "b": "zwischen",
+        "c": "unter",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "haben",
+        "b": "hätten",
+        "c": "hatten",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "weil",
+        "b": "dass",
+        "c": "wenn",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "machen",
+        "b": "erhöhen",
+        "c": "reduzieren",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "Wenn",
+        "b": "Weil",
+        "c": "Obwohl",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "Zeit",
+        "b": "Arbeit",
+        "c": "Unterstützung",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 3002,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Umweltschutz (Set 2)",
+    "texts": [
+      {
+        "content": "Liebe Freunde der Natur,\n\num unsere Umwelt zu schützen, müssen wir unser Verhalten im Alltag ___31___. Es gibt viele kleine Dinge, ___32___ jeder von uns tun kann. Zum Beispiel sollten wir öfter das Fahrrad ___33___ das Auto stehen lassen. Auch beim Einkaufen können wir ___34___ Plastik verzichten und stattdessen Stofftaschen benutzen. Wichtig ist auch, dass wir unseren Müll richtig ___35___. Viele Materialien können nämlich ___36___ werden. Wusstet ihr eigentlich, dass ___37___ die Produktion von einer Tonne Recyclingpapier viel weniger Wasser benötigt wird? Wir sollten uns alle ___38___ bemühen, unseren ökologischen Fußabdruck zu verkleinern. Wenn wir jetzt nicht ___39___, wird es in der Zukunft immer schwieriger, unseren Planeten zu ___40___.\n\nHerzliche Grüße\nEuer Umwelt-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ANDERN",
+      "b": "AUF",
+      "c": "DARUM",
+      "d": "DIE",
+      "e": "FÜR",
+      "f": "HANDELN",
+      "g": "RECYCELT",
+      "h": "RETTEN",
+      "i": "STATT",
+      "j": "TRENNEN",
+      "k": "UND",
+      "l": "WENN",
+      "m": "WIE",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "d"
+      },
+      {
+        "num": 33,
+        "correct": "i"
+      },
+      {
+        "num": 34,
+        "correct": "b"
+      },
+      {
+        "num": 35,
+        "correct": "j"
+      },
+      {
+        "num": 36,
+        "correct": "g"
+      },
+      {
+        "num": 37,
+        "correct": "e"
+      },
+      {
+        "num": 38,
+        "correct": "c"
+      },
+      {
+        "num": 39,
+        "correct": "f"
+      },
+      {
+        "num": 40,
+        "correct": "h"
+      }
+    ]
+  },
+  {
+    "id": 3003,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - ERASMUS Erfahrung (Set 3)",
+    "texts": [
+      {
+        "content": "Hallo Lukas,\n\nich schreibe dir heute aus Madrid! Mein ERASMUS-Semester hat vor zwei Wochen begonnen und ich bin absolut ___21___. Die Stadt ist wunderschön und die Leute sind unglaublich ___22___.\nIch wohne in einer Wohngemeinschaft mit drei anderen Studenten ___23___ verschiedenen Ländern. Wir sprechen meistens Spanisch, was mir sehr ___24___, meine Sprachkenntnisse zu verbessern. Die Universität ist zwar etwas ___25___ als in Deutschland, aber die Professoren sind sehr hilfsbereit. ___26___ ich hier bin, habe ich schon viele neue Freunde gefunden. Wir unternehmen oft etwas ___27___ und erkunden die Umgebung. Ich kann dir nur ___28___, auch ein Auslandssemester zu machen. Es ist eine Erfahrung, die man nie ___29___. Ich freue mich schon sehr, wenn du mich hier mal ___30___.\n\nBis bald\nDeine Lisa",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "begeisterte",
+        "b": "begeisterter",
+        "c": "begeistert",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "höflich",
+        "b": "freundlich",
+        "c": "unfreundlich",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "nach",
+        "b": "aus",
+        "c": "von",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "geholfen",
+        "b": "helfen",
+        "c": "hilft",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "anders",
+        "b": "andere",
+        "c": "anderer",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "Als",
+        "b": "Wenn",
+        "c": "Seit",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "zusammen",
+        "b": "gemeinsam",
+        "c": "allein",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "empfehlen",
+        "b": "empfahl",
+        "c": "empfohlen",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "vergessen hat",
+        "b": "vergessen",
+        "c": "vergisst",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "besucht",
+        "b": "besuchst",
+        "c": "besuchen",
+        "correct": "b"
+      }
+    ]
+  },
+  {
+    "id": 3004,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Gesundheit & Fitness (Set 4)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nwer gesund bleiben möchte, sollte auf eine ausgewogene Ernährung ___31___. Es ist wichtig, viel frisches Obst und Gemüse zu ___32___. Aber auch regelmäßige Bewegung ___33___ eine große Rolle. Man muss nicht unbedingt Leistungssport treiben; schon ein täglicher Spaziergang ___34___ der frischen Luft kann viel bewirken. Sport hilft nicht nur dem Körper, ___35___ auch dem Geist. Er baut Stress ab und ___36___ die Laune. ___37___ man sich im Fitnessstudio anmeldet oder lieber draußen joggt, ist jedem selbst überlassen. Hauptsache ist, dass man ___38___ Spaß dabei hat! Ich persönlich gehe dreimal pro Woche schwimmen, ___39___ ich mich danach immer sehr erfrischt fühle. Fangt am besten noch heute ___40___!\n\nBleibt gesund\nEuer Fitness-Trainer",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ACHTEN",
+      "b": "AN",
+      "c": "DA",
+      "d": "DAMIT",
+      "e": "ESSEN",
+      "f": "MAN",
+      "g": "NUR",
+      "h": "OB",
+      "i": "SONDERN",
+      "j": "SPIELT",
+      "k": "UND",
+      "l": "VERBESSERT",
+      "m": "WENN",
+      "n": "WIE",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "e"
+      },
+      {
+        "num": 33,
+        "correct": "j"
+      },
+      {
+        "num": 34,
+        "correct": "b"
+      },
+      {
+        "num": 35,
+        "correct": "i"
+      },
+      {
+        "num": 36,
+        "correct": "l"
+      },
+      {
+        "num": 37,
+        "correct": "h"
+      },
+      {
+        "num": 38,
+        "correct": "f"
+      },
+      {
+        "num": 39,
+        "correct": "c"
+      },
+      {
+        "num": 40,
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "id": 3005,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Multikulturalismus (Set 5)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nDeutschland hat sich in den letzten Jahrzehnten zu einem ___21___ Land entwickelt. In unseren Städten leben Menschen aus vielen verschiedenen Kulturen friedlich ___22___. Das kulturelle Angebot ist dadurch viel ___23___ geworden.\nOb kulinarische Spezialitäten aus aller Welt oder internationale Musikfestivals – die Vielfalt bereichert unser ___24___. Dennoch gibt es manchmal Herausforderungen bei der ___25___. Es ist wichtig, dass wir offen füreinander sind und gegenseitigen Respekt ___26___. Die Sprache spielt dabei eine ___27___ Rolle, denn sie ist der Schlüssel zum Verständnis. Projekte, die den Dialog ___28___ den Kulturen fördern, sind besonders wertvoll. Wenn wir die Unterschiede als Chance ___29___, können wir gemeinsam eine starke Gesellschaft aufbauen. Wir sollten stolz ___30___ unsere Vielfalt sein.\n\nMit freundlichen Grüßen\nDer Integrationsrat",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "multikulturellen",
+        "b": "multikulturelles",
+        "c": "multikultureller",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "nebeneinander",
+        "b": "zusammen",
+        "c": "gemeinsam",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "reich",
+        "b": "reicher",
+        "c": "reichster",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "Alltag",
+        "b": "Zusammenleben",
+        "c": "Leben",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "Kommunikation",
+        "b": "Arbeit",
+        "c": "Integration",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "beweisen",
+        "b": "zeigen",
+        "c": "geben",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "große",
+        "b": "wichtige",
+        "c": "zentrale",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "zwischen",
+        "b": "unter",
+        "c": "von",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "verstehen",
+        "b": "begreifen",
+        "c": "sehen",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "über",
+        "b": "an",
+        "c": "auf",
+        "correct": "c"
+      }
+    ]
+  },
+{
+    "id": 3006,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Digitalisierung (Set 6)",
+    "texts": [
+      {
+        "content": "Hallo zusammen,\n\ndie Digitalisierung hat unseren Alltag in den letzten Jahren ___31___ verändert. Viele von uns arbeiten mittlerweile im Home-Office, ___32___ früher kaum vorstellbar war. Wir nutzen digitale Tools, um mit unseren Kollegen in ___33___ zu bleiben. Das spart nicht nur Zeit, ___34___ auch Fahrtkosten. Dennoch gibt es auch Schattenseiten. Man ist oft rund um die Uhr ___35___ und findet schwerer in den Feierabend. Es ist wichtig, klare Grenzen ___36___ Arbeit und Freizeit zu ziehen. Wir sollten ___37___ achten, dass wir auch mal das Smartphone ausschalten, um richtig ___38___ . Die Technik sollte uns ___39___ , unser Leben zu erleichtern, und nicht dazu führen, dass wir uns ___40___ fühlen.\n\nBeste Grüße\nEuer Digital-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ABSCHALTEN",
+      "b": "DARAUF",
+      "c": "DASS",
+      "j": "ERREICHBAR",
+      "e": "GESTRASST",
+      "f": "HELFEN",
+      "g": "KONTAKT",
+      "h": "SONDERN",
+      "i": "STARK",
+      "k": "WAS",
+      "l": "WENN",
+      "m": "WIE",
+      "n": "ZWISCHEN",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "i"
+      },
+      {
+        "num": 32,
+        "correct": "k"
+      },
+      {
+        "num": 33,
+        "correct": "g"
+      },
+      {
+        "num": 34,
+        "correct": "h"
+      },
+      {
+        "num": 35,
+        "correct": "j"
+      },
+      {
+        "num": 36,
+        "correct": "n"
+      },
+      {
+        "num": 37,
+        "correct": "b"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "f"
+      },
+      {
+        "num": 40,
+        "correct": "e"
+      }
+    ]
+  },
+  {
+    "id": 3007,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Ehrenamt (Set 7)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nich interessiere mich für ___21___ ehrenamtliche Tätigkeit in Ihrem Verein. Da ich am Wochenende oft Zeit habe, möchte ich mich gern ___22___ engagieren.\nIch habe bereits Erfahrung in der Arbeit mit Kindern, ___23___ ich früher als Betreuer im Sommerlager gearbeitet habe. Es macht mir großen Spaß, anderen zu ___24___. Könnten Sie mir bitte sagen, ___25___ Tätigkeiten momentan besonders gefragt sind? Ich bin sehr flexibel und ___26___ mich schnell an neue Situationen an. Muss ich für das Ehrenamt ___27___ Voraussetzungen erfüllen? Über ein persönliches Gespräch würde ich mich sehr ___28___. Sie können mich ___29___ Telefon oder E-Mail erreichen. Vielen Dank für Ihre ___30___.\n\nMit freundlichen Grüßen\nMarco Schmidt",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "einer",
+        "b": "eine",
+        "c": "einen",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "sozial",
+        "b": "sozialer",
+        "c": "soziale",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "wenn",
+        "b": "da",
+        "c": "weil",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "hilft",
+        "b": "geholfen",
+        "c": "helfen",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "was",
+        "b": "welche",
+        "c": "welcher",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "passt",
+        "b": "gepasst",
+        "c": "passe",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "bestimmter",
+        "b": "bestimmten",
+        "c": "bestimmte",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "gefreut",
+        "b": "freuen",
+        "c": "freut",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "per",
+        "b": "mit",
+        "c": "über",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "Hilfe",
+        "b": "Zeit",
+        "c": "Mühe",
+        "correct": "b"
+      }
+    ]
+  },
+  {
+    "id": 3008,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Mobilität der Zukunft (Set 8)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\ndie Art und Weise, wie wir uns fortbewegen, wird sich in Zukunft ___31___ verändern. Elektroautos und Sharing-Modelle werden immer ___32___. Ziel ist es, den Verkehr in unseren Städten ___33___ zu gestalten. Viele Menschen entscheiden sich bereits ___34___, ihr eigenes Auto zu verkaufen und stattdessen den öffentlichen ___35___ zu nutzen. Das schont nicht nur die Umwelt, sondern schont auch den Geldbeutel. Auch das Fahrradfahren wird durch den Ausbau von Radwegen ___36___. Wir sollten uns fragen, ___37___ Mobilität wir wirklich brauchen. Müssen wir für jede Strecke ins Auto ___38___? Innovative Konzepte wie Flugtaxis oder autonomes Fahren klingen zwar noch ___39___ Science-Fiction, könnten aber bald ___40___ werden.\n\nBeste Grüße\nEuer Mobilitäts-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ATTRAKTIVER",
+      "b": "DAFÜR",
+      "c": "GRÜNER",
+      "d": "NACH",
+      "e": "NAHVERKEHR",
+      "f": "REALITÄT",
+      "g": "STARKEN",
+      "h": "STARK",
+      "i": "STEIGEN",
+      "j": "WICHTIGER",
+      "k": "WIE",
+      "l": "WELCHE",
+      "m": "WIRD",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "h"
+      },
+      {
+        "num": 32,
+        "correct": "j"
+      },
+      {
+        "num": 33,
+        "correct": "c"
+      },
+      {
+        "num": 34,
+        "correct": "b"
+      },
+      {
+        "num": 35,
+        "correct": "e"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "l"
+      },
+      {
+        "num": 38,
+        "correct": "i"
+      },
+      {
+        "num": 39,
+        "correct": "d"
+      },
+      {
+        "num": 40,
+        "correct": "f"
+      }
+    ]
+  },
+  {
+    "id": 3009,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Medienkonsum (Set 9)",
+    "texts": [
+      {
+        "content": "Liebe Leserinnen und Leser,\n\nwir verbringen jeden Tag viele Stunden mit ___21___ Medien. Ob Radio, Fernsehen oder Internet – die Auswahl ist ___22___.\nBesonders die sozialen Netzwerke spielen eine immer größere ___23___ in unserem Leben. Wir tauschen uns mit Freunden aus und informieren uns über ___24___ Nachrichten. Doch dabei ist Vorsicht geboten, denn nicht alles, was wir lesen, ist auch ___25___. Die Flut an Informationen kann uns manchmal ___26___. Es ist wichtig, die Quellen kritisch zu ___27___. Auch der Schutz unserer privaten ___28___ sollte uns am Herzen liegen. Wenn wir die Medien bewusst nutzen, können sie eine große ___29___ sein. Achten Sie darauf, auch mal eine 'digitale Pause' zu ___30___.\n\nHerzliche Grüße\nEure Redaktion",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "verschiedenen",
+        "b": "verschiedener",
+        "c": "verschiedene",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "riesige",
+        "b": "riesigen",
+        "c": "riesig",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Rolle",
+        "b": "Bedeutung",
+        "c": "Sache",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "aktuellen",
+        "b": "aktuelle",
+        "c": "aktueller",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "richtig",
+        "b": "wahr",
+        "c": "echt",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "überfordert",
+        "b": "überfordern",
+        "c": "überforderte",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "hinterfragen",
+        "b": "gefragt",
+        "c": "hinterfragte",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "Daten",
+        "b": "Infos",
+        "c": "Sachen",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Bereicherung",
+        "b": "Sache",
+        "c": "Hilfe",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "geben",
+        "b": "legen",
+        "c": "machen",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 3010,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Sanfter Tourismus (Set 10)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nReisen ist für viele von uns die schönste Zeit des Jahres. Doch wir sollten dabei auch an die ___31___ denken. Der sogenannte 'sanfte Tourismus' gewinnt immer mehr an ___32___. Ziel ist es, die Natur und die Kultur der Reiseländer zu ___33___. Anstatt mit dem Flugzeug zu fliegen, kann man ___34___ mit der Bahn reisen. Vor Ort sollte man regionale Produkte kaufen und ___35___ Hotels übernachten, die auf Nachhaltigkeit achten. So unterstützen wir die lokale ___36___ und schützen die Umwelt. Es ist auch wichtig, sich ___37___ der Reise über die Sitten und Gebräuche des Gastlandes zu ___38___. Wenn wir respektvoll und bewusst reisen, schaffen wir bleibende Erinnerungen, ___39___ jemanden zu schaden. Lasst uns gemeinsam ___40___ sorgen, dass auch zukünftige Generationen die Welt entdecken können.\n\nBeste Grüße\nEuer Reise-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "BEDEUTUNG",
+      "b": "DAFÜR",
+      "c": "IN",
+      "d": "INFORMIEREN",
+      "e": "NUR",
+      "f": "OHNE",
+      "g": "RECHTS",
+      "h": "SCHÜTZEN",
+      "i": "UMWELT",
+      "j": "VOR",
+      "k": "WIRTSCHAFT",
+      "l": "WIE",
+      "m": "WENN",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "i"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "h"
+      },
+      {
+        "num": 34,
+        "correct": "o"
+      },
+      {
+        "num": 35,
+        "correct": "c"
+      },
+      {
+        "num": 36,
+        "correct": "k"
+      },
+      {
+        "num": 37,
+        "correct": "j"
+      },
+      {
+        "num": 38,
+        "correct": "d"
+      },
+      {
+        "num": 39,
+        "correct": "f"
+      },
+      {
+        "num": 40,
+        "correct": "b"
+      }
+    ]
+  },
+{
+    "id": 3011,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Lifestyle (Set 11)",
+    "texts": [
+      {
+        "content": "Guten Tag,\n\nheutzutage legen viele Menschen großen Wert auf einen gesunden Lifestyle. Besonders die Ernährung und ___21___ Sport stehen dabei im Mittelpunkt. Es geht darum, Körper und Geist in Einklang zu ___22___.\nViele entscheiden sich bewusst dafür, weniger Fleisch zu essen oder sogar ganz auf ___23___ Produkte zu verzichten. Auch Yoga und Meditation sind sehr ___24___ geworden, da sie helfen, den Alltagsstress zu ___25___. Ein gesunder Lebensstil bedeutet jedoch nicht nur Verzicht, sondern vor allem mehr ___26___. Wenn man sich fit fühlt, hat man auch mehr Energie für die ___27___. Es ist wichtig, auf die Signale des eigenen Körpers zu ___28___. Kleine Veränderungen im Alltag können schon eine große ___29___ haben. Man sollte sich nicht ___30___ lassen.\n\nHerzliche Grüße\nEuer Gesundheits-Ratgeber",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "regelmäßiger",
+        "b": "regelmäßig",
+        "c": "regelmäßige",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "bringen",
+        "b": "brachten",
+        "c": "gebracht",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "tierischen",
+        "b": "tierische",
+        "c": "tierischer",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "beliebter",
+        "b": "beliebte",
+        "c": "beliebt",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "machen",
+        "b": "bewältigen",
+        "c": "bewältigt",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Zeit",
+        "b": "Lebensqualität",
+        "c": "Freizeit",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Arbeit",
+        "b": "Freizeit",
+        "c": "Sorgen",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "hört",
+        "b": "gehört",
+        "c": "hören",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "Sache",
+        "b": "Wirkung",
+        "c": "Folge",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "macht",
+        "b": "gestresst",
+        "c": "stressen",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 3012,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Konsumverhalten (Set 12)",
+    "texts": [
+      {
+        "content": "Hallo zusammen,\n\nunser Konsumverhalten hat sich durch den Online-Handel ___31___ verändert. Wir können heute fast alles mit nur einem Klick ___32___. Das ist zwar bequem, führt aber oft dazu, dass wir Dinge kaufen, die wir eigentlich gar nicht ___33___. Ein bewussterer Umgang mit Geld und Ressourcen wird daher immer ___34___. Anstatt ständig neue Sachen zu kaufen, sollten wir öfter ___35___ , ob wir sie wirklich benötigen. Viele Menschen entscheiden sich bereits dafür, Second-Hand-Produkte zu ___36___ oder Dinge zu tauschen. Das schont nicht nur die ___37___, sondern auch den eigenen Geldbeutel. Wir sollten uns fragen, was uns im Leben wirklich ___38___ macht. Ist es der Besitz von materiellen ___39___ oder sind es eher die Erlebnisse mit Freunden? Denkt mal ___40___ nach!\n\nBeste Grüße\nEuer Konsum-Watch",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "BESTELLEN",
+      "b": "BRAUCHEN",
+      "c": "DARÜBER",
+      "d": "DINGEN",
+      "e": "GLÜCKLICH",
+      "f": "HÄUFIG",
+      "g": "NACHDENKEN",
+      "h": "STARK",
+      "i": "UMWELT",
+      "j": "WICHTIGER",
+      "k": "WIE",
+      "l": "WENN",
+      "m": "WOHIN",
+      "n": "ZU",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "h"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "b"
+      },
+      {
+        "num": 34,
+        "correct": "j"
+      },
+      {
+        "num": 35,
+        "correct": "g"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "i"
+      },
+      {
+        "num": 38,
+        "correct": "e"
+      },
+      {
+        "num": 39,
+        "correct": "d"
+      },
+      {
+        "num": 40,
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 3013,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Lebenslanges Lernen (Set 13)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nin der heutigen Zeit ist es wichtiger denn je, sich ständig ___21___ zu bilden. Das Konzept des 'lebenslangen Lernens' hat eine große Bedeutung für unsere ___22___ Laufbahn erhalten. Ob Sprachkurse, IT-Schulungen oder Seminare zur persönlichen ___23___ – die Möglichkeiten sind vielfältig.\nBesonders im Beruf werden heute oft Kenntnisse ___24___, die man früher nicht brauchte. Aber auch im Privaten kann man durch neues Wissen seinen Horizont ___25___. Dank des Internets gibt es mittlerweile viele ___26___, online zu lernen. Man kann sich die Zeit selbst ___27___ und bequem von zu Hause aus arbeiten. Dennoch ist auch der Austausch mit anderen Lernenden sehr ___28___. Erfolg beim Lernen stellt sich meist ein, wenn man ein klares ___29___ vor Augen hat. Man sollte nie ___30___, etwas Neues auszuprobieren.\n\nMit freundlichen Grüßen\nEure Volkshochschule",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "fort",
+        "b": "aus",
+        "c": "weiter",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "beruflichen",
+        "b": "beruflicher",
+        "c": "berufliche",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Weiterentwicklung",
+        "b": "Entwicklung",
+        "c": "Sache",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "gefordert",
+        "b": "verlangt",
+        "c": "verlangen",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "erweitert",
+        "b": "erweiterte",
+        "c": "erweitern",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "Sachen",
+        "b": "Wege",
+        "c": "Möglichkeiten",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "eintielte",
+        "b": "macht",
+        "c": "einteilen",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "wertvoll",
+        "b": "wichtig",
+        "c": "schön",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Plan",
+        "b": "Ziel",
+        "c": "Sinn",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "aufhören",
+        "b": "aufhört",
+        "c": "macht",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 3014,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B1 Sprachbausteine - Urban Gardening (Set 14)",
+    "texts": [
+      {
+        "content": "Hallo zusammen,\n\nhabt ihr schon mal vom 'Urban Gardening' ___31___? Das Gärtnern in der Stadt wird immer ___32___. Es geht darum, brachliegende Flächen in grüne Oasen zu ___33___. In vielen Städten gibt es mittlerweile Gemeinschaftsgärten, ___34___ Menschen gemeinsam Gemüse und Blumen anpflanzen. Das macht nicht nur Spaß, sondern fördert auch den ___35___ in der Nachbarschaft. Man lernt neue Leute kennen und ___36___ zusammen die Ernte. Außerdem ist es ein tolles ___37___, seine eigenen Tomaten wachsen zu sehen. Es ist wichtig, dass wir mehr ___38___ in unsere Städte bringen. Urban Gardening ist ein kleiner ___39___ zum Umweltschutz und schafft Lebensqualität. Macht doch einfach mal ___40___!\n\nBeste Grüße\nEuer Garten-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "BEITRAG",
+      "b": "DA",
+      "c": "ERLEBNIS",
+      "d": "GEHÖRT",
+      "e": "GENIESST",
+      "f": "IN",
+      "g": "MIT",
+      "h": "NATUR",
+      "i": "POPULÄRER",
+      "j": "VERWANDELN",
+      "k": "WO",
+      "l": "WENN",
+      "m": "WIE",
+      "n": "ZUSAMMENHALT",
+      "o": "ZWAR"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "d"
+      },
+      {
+        "num": 32,
+        "correct": "i"
+      },
+      {
+        "num": 33,
+        "correct": "j"
+      },
+      {
+        "num": 34,
+        "correct": "k"
+      },
+      {
+        "num": 35,
+        "correct": "n"
+      },
+      {
+        "num": 36,
+        "correct": "e"
+      },
+      {
+        "num": 37,
+        "correct": "c"
+      },
+      {
+        "num": 38,
+        "correct": "h"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "g"
+      }
+    ]
+  },
+  {
+    "id": 3015,
+    "type": "TELC",
+    "level": "B1",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B1 Sprachbausteine - Internet & Kommunikation (Set 15)",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\ndas Internet hat die Art und Weise, wie wir kommunizieren, ___21___ revolutioniert. Wir können heute in Sekundenschnelle Nachrichten in die ganze Welt ___22___.\nBesonders die sozialen Netzwerke haben einen großen ___23___ auf unser Sozialleben. Dennoch gibt es auch kritische Stimmen, die vor einer ___24___ Vereinsamung warnen. Es ist wichtig, dass wir den persönlichen Kontakt nicht ___25___. Ein Videoanruf kann zwar eine nette ___26___ sein, ersetzt aber kein echtes Treffen. Wir sollten darauf achten, wie viel Zeit wir vor dem Bildschirm ___27___. Die digitale Kommunikation bietet viele ___28___, birgt aber auch Risiken wie Cybermobbing. Ein verantwortungsbewusster Umgang mit den neuen Medien ist daher ___29___. Wenn wir die Vorteile nutzen und die Risiken kennen, bereichert das Internet unser ___30___.\n\nMit freundlichen Grüßen\nDer Medienrat",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "völlige",
+        "b": "völliger",
+        "c": "völlig",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "geschickt",
+        "b": "schicken",
+        "c": "schickt",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Effekt",
+        "b": "Sache",
+        "c": "Einfluss",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "mögliche",
+        "b": "möglicher",
+        "c": "möglichen",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "verlieren",
+        "b": "verliert",
+        "c": "verloren",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "Ergänzung",
+        "b": "Hilfe",
+        "c": "Sache",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "verbracht",
+        "b": "verbringen",
+        "c": "macht",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "Chancen",
+        "b": "Vorteile",
+        "c": "Sachen",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "wichtig",
+        "b": "unerlässlich",
+        "c": "gut",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "Alltag",
+        "b": "Zusammenleben",
+        "c": "Leben",
+        "correct": "b"
+      }
+    ]
+  },
+{
+    "id": 4001,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - WG-Zimmer (Set 1)",
+    "cc": "",
+    "betreff": "WG-Zimmer",
+    "texts": [
+      {
+        "content": "Hallo Rahim,\n\nvielen Dank für deine Mail und deine Fragen zu dem Zimmer in unserer WG. Wir freuen uns ___21___ dein Interesse an dem Zimmer und beantworten dir gerne alles.\nDie Wohnung befindet ___22___ im dritten Stock eines Altbaus. Sie hat zwei Badezimmer, die wir gemeinschaftlich nutzen, und eine sehr gut ausgestattete Küche – inklusive Spülmaschine. Wir haben außerdem einen großen Balkon, ___23___ man bei gutem Wetter eine super Aussicht hat. Das Zimmer, das zu vermieten ist, kann nach eigenen Wünschen gestaltet ___24___. Es ist 28 qm groß und nicht möbliert.\nWir sind übrigens keine Studenten-WG, sondern eine „Berufstätigen-WG“. Mein Mitbewohner Johannes ist Sozialarbeiter und ich beschäftige mich beruflich ___25___ der Entwicklung von Lernsoftware. Unsere Freizeitinteressen sind teilweise recht unterschiedlich. Johannes liebt Sport aller Art und ist viel unterwegs, ___26___ ich meinen Feierabend gern auf dem Sofa ausklingen lasse. Wir kochen aber oft zusammen und machen auch mal einen Spieleabend. Generell geht es bei uns eher ruhig zu. Abends trinken wir ___27___ gerne mal ein Gläschen Wein mit Freunden, aber große Partys feiern wir hier fast nie. Wir wünschen uns einen Mitbewohner, ___28___ Lebensstil zu unserem passt. Ein Nichtraucher wäre super, aber mit einem Raucher, der zum Rauchen auf den Balkon geht, könnten wir auch gut leben.\nSchön, dass du anbietest vorbeizukommen, ___29___ wir uns persönlich kennenlernen können. Morgen klappt es allerdings leider nicht. Wenn ich eher ___30___, dass du dann in der Stadt bist, hätte ich mir Zeit frei gehalten, aber so habe ich den Tag schon verplant. Könntest du vielleicht auch am Sonntag?\n\nViele Grüße\nTill",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "wegen",
+        "b": "über",
+        "c": "für",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "man",
+        "b": "uns",
+        "c": "sich",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "für den",
+        "b": "auf der",
+        "c": "von dem",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "würden",
+        "b": "werden",
+        "c": "wurden",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "an",
+        "b": "mit",
+        "c": "in",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "während",
+        "b": "anstatt",
+        "c": "sondern",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "entweder",
+        "b": "zwar",
+        "c": "sowohl",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "seinen",
+        "b": "dessen",
+        "c": "denen",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "damit",
+        "b": "deswegen",
+        "c": "indem",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "gewusst hätte",
+        "b": "wüsste",
+        "c": "gewusst habe",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 4002,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Drei Mythen über den Schlaf (Set 2)",
+    "texts": [
+      {
+        "content": "Lange schlafen ist gesund, oder etwa nicht?\n\nDrei Mythen über den Schlaf\n\nWarum träumen wir? Was passiert im Gehirn, wenn wir schlafen? Und warum müssen wir ___31___ schlafen? Während Wissenschaftler nach Antworten auf diese Fragen suchen, werden im Volksmund etliche Geschichten über den Schlaf erzählt. Viele davon sind unwahr.\n\nMythos 1: Lange schlafen ist gesund.\nImmer wieder werden wir ___32___ gewarnt, dass sich zu wenig Schlaf früher oder später negativ auf unser Wohlbefinden auswirkt. Aber kann man auch zu viel schlafen? Schlafmediziner sagen: ja. Ein internationales Forschungsteam ist zu dem Ergebnis gekommen, dass zu viel Schlaf ___33___ ungesund ist wie zu wenig. Notorische Langschläfer leiden zum Beispiel häufiger ___34___ Depressionen und haben ein erhöhtes Risiko, an Diabetes zu erkranken.\n\nMythos 2: Der Schlaf vor Mitternacht ist der beste.\nViele Menschen behaupten, dass der Schlaf vor Mitternacht besonders erholsam sei. Das ___35___ so aber nicht. Wissenschaftler haben herausgefunden, dass nicht die Uhrzeit entscheidend ist, ___36___ vielmehr die ersten Stunden nach dem Einschlafen. In dieser Zeit ___37___ ein Großteil des wertvollen Tiefschlafs statt. In den Tiefschlafphasen erholt sich unser Körper am intensivsten. Der Zeitpunkt des Einschlafens spielt dabei keine ___38___.\n\nMythos 3: Im Schlaf passiert nicht viel.\nWer glaubt, dass im Schlaf nicht ___39___ viel passiert, der täuscht sich gewaltig. Nachts, wenn der Körper zur ___40___ kommt, laufen in unserem Organismus äußerst komplexe Prozesse ab. Unser Immunsystem wird aktiviert, Wachstumshormone bauen unsere Muskeln auf, die Haut regeneriert sich und unser Gehirn läuft auf Hochtouren, um die Ereignisse des Tages zu verarbeiten.",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ALLZU",
+      "b": "BEDEUTUNG",
+      "c": "DARAUF",
+      "d": "DAVOR",
+      "e": "FINDET",
+      "f": "GENAUSO",
+      "g": "HIERMIT",
+      "h": "MIT",
+      "i": "NIMMT",
+      "j": "ROLLE",
+      "k": "RUHE",
+      "l": "SONDERN",
+      "m": "STIMMT",
+      "n": "ÜBERHAUPT",
+      "o": "UNTER"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "n"
+      },
+      {
+        "num": 32,
+        "correct": "d"
+      },
+      {
+        "num": 33,
+        "correct": "f"
+      },
+      {
+        "num": 34,
+        "correct": "o"
+      },
+      {
+        "num": 35,
+        "correct": "m"
+      },
+      {
+        "num": 36,
+        "correct": "l"
+      },
+      {
+        "num": 37,
+        "correct": "e"
+      },
+      {
+        "num": 38,
+        "correct": "j"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "k"
+      }
+    ]
+  },
+  {
+    "id": 4003,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Bewerbung Marketing (Set 3)",
+    "cc": "gelesen",
+    "betreff": "Bewerbung als Marketing-Manager",
+    "texts": [
+      {
+        "content": "Sehr geehrte Frau Dr. Müller,\n\nmit großem Interesse habe ich Ihre Anzeige im Stellenmarkt ___21___ und bewerbe mich hiermit um die Position als Marketing-Manager. In meiner bisherigen Tätigkeit war ich maßgeblich ___22___ der Konzeption von digitalen Kampagnen beteiligt.\nBesonders hervorzuheben ist mein Engagement bei der Einführung der neuen Markenstrategie, ___23___ wir den Umsatz um 15 % steigern konnten. Ich verfüge über fundierte Kenntnisse im Bereich SEO und SEM, ___24___ ich mir in zahlreichen Fortbildungen angeeignet habe. Meine Arbeitsweise zeichnet sich ___25___ eine hohe Zielorientierung und Teamfähigkeit aus. Ich bin davon überzeugt, dass meine Qualifikationen ___26___ Ihren Anforderungen entsprechen. Zudem bringe ich die Bereitschaft ___27___, mich schnell in neue Aufgabengebiete einzuarbeiten. Gerne möchte ich Sie in einem persönlichen Gespräch von meiner Eignung ___28___. Einem baldigen Eintrittstermin steht meinerseits ___29___ im Wege. Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr ___30___.\n\nMit freundlichen Grüßen\nLukas Weber",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "vernommen",
+        "b": "personalabteilung@firma.de",
+        "c": "gelesen",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "an",
+        "b": "in",
+        "c": "mit",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "womit",
+        "b": "wodurch",
+        "c": "woraus",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "das",
+        "b": "welche",
+        "c": "die",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "wegen",
+        "b": "über",
+        "c": "durch",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "völlig",
+        "b": "voll",
+        "c": "vollends",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "mit",
+        "b": "auf",
+        "c": "an",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "überzeugen",
+        "b": "beweisen",
+        "c": "darstellen",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "nichts",
+        "b": "kaum",
+        "c": "nicht",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "gefreut",
+        "b": "freuen",
+        "c": "beglücken",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 4004,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Digitalisierung am Arbeitsplatz (Set 4)",
+    "texts": [
+      {
+        "content": "Die fortschreitende Digitalisierung hat die Arbeitswelt grundlegend ___31___. Während früher Aktenberge die Schreibtische dominierten, prägen heute Computer und Software den Büroalltag. Dieser Wandel bringt sowohl Chancen ___32___ auch Herausforderungen mit sich.\nEinerseits ermöglicht der Einsatz moderner Technologien ein ___33___ effizienteres Arbeiten. Kommunikation findet in Echtzeit statt und Daten können weltweit geteilt werden. Andererseits steigen die Anforderungen an die Arbeitnehmer, die sich ständig ___34___ weiterbilden müssen. Wer den Anschluss nicht ___35___ will, kommt um lebenslanges Lernen nicht herum.\nBesonders das Home-Office hat durch die Digitalisierung an ___36___ gewonnen. Viele Mitarbeiter schätzen die Flexibilität, die mit dem Arbeiten von zu Hause ___37___ ist. Doch dabei darf die soziale Komponente nicht vernachlässigt werden. Der direkte Austausch mit den Kollegen ___38___ eine wichtige Rolle für das Betriebsklima. Es gilt also, eine gesunde Balance ___39___ digitaler Effizienz und persönlichem Kontakt zu ___40___.\n\nBeste Grüße\nEuer HR-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ALS",
+      "b": "BEDEUTUNG",
+      "c": "DAZU",
+      "d": "EINMAL",
+      "e": "FINDEN",
+      "f": "GEGENÜBER",
+      "g": "RECHT",
+      "h": "SPIELT",
+      "i": "STARK",
+      "j": "UMGANG",
+      "k": "VERÄNDERT",
+      "l": "VERLIEREN",
+      "m": "VERBUNDEN",
+      "n": "WESENTLICH",
+      "o": "ZWISCHEN"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "k"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "n"
+      },
+      {
+        "num": 34,
+        "correct": "c"
+      },
+      {
+        "num": 35,
+        "correct": "l"
+      },
+      {
+        "num": 36,
+        "correct": "b"
+      },
+      {
+        "num": 37,
+        "correct": "m"
+      },
+      {
+        "num": 38,
+        "correct": "h"
+      },
+      {
+        "num": 39,
+        "correct": "o"
+      },
+      {
+        "num": 40,
+        "correct": "e"
+      }
+    ]
+  },
+  {
+    "id": 4005,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Beschwerde Reise (Set 5)",
+    "cc": "genannte",
+    "betreff": "Beschwerde über die Reise 'Traumsommer'",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nhiermit möchte ich meine Unzufriedenheit über die oben ___21___ Reise zum Ausdruck bringen, die ich vom 10. bis 22. August bei Ihnen gebucht hatte. Leider entsprachen die Leistungen vor Ort in keiner Weise Ihren ___22___.\nBereits bei der Ankunft gab es Probleme, ___23___ das gebuchte Zimmer nicht zur Verfügung stand. Statt des versprochenen Meerblicks blickte ich auf eine laute Baustelle. Zudem war die Verpflegung im Hotel ___24___ mangelhaft. Die Speisen waren oft kalt und wenig abwechslungsreich. Auf meine mehrfachen ___25___ beim Hotelpersonal wurde nur ausweichend reagiert. Auch die Reiseleitung vor Ort war kaum ___26___, um Abhilfe zu schaffen. Da ich für diese Reise einen ___27___ Betrag bezahlt habe, erwarte ich eine angemessene Entschädigung. Ich fordere Sie daher auf, mir einen Teil des Reisepreises ___28___. Bitte lassen Sie mir bis zum Ende des Monats eine entsprechende Rückmeldung ___29___. Sollten Sie meiner Forderung nicht nachkommen, sehe ich mich ___30___, rechtliche Schritte einzuleiten.\n\nMit freundlichen Grüßen\nSabine Fischer",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "kundenservice@travel.de",
+        "b": "beschriebene",
+        "c": "genannte",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "Preisen",
+        "b": "Angaben",
+        "c": "Versprechen",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "indem",
+        "b": "da",
+        "c": "weil",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "sehr",
+        "b": "ganz",
+        "c": "äußerst",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Anfragen",
+        "b": "Beschwerden",
+        "c": "Fragen",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "erreichbar",
+        "b": "auffindbar",
+        "c": "verfügbar",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "erheblichen",
+        "b": "großen",
+        "c": "hohen",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "überweisen",
+        "b": "zurückzuerstatten",
+        "c": "zurückzugeben",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "kommen",
+        "b": "zukommen",
+        "c": "erreichen",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "bereit",
+        "b": "nötig",
+        "c": "gezwungen",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4006,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Globalisierung (Set 6)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Globalisierung",
+    "texts": [
+      {
+        "content": "B2 Level text about Globalisierung. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4007,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Ehrenamt (Set 7)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Ehrenamt",
+    "texts": [
+      {
+        "content": "B2 Level text about Ehrenamt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 4008,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Künstliche Intelligenz (Set 8)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Künstliche Intelligenz",
+    "texts": [
+      {
+        "content": "B2 Level text about Künstliche Intelligenz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4009,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Mietstreitigkeiten (Set 9)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Mietstreitigkeiten",
+    "texts": [
+      {
+        "content": "B2 Level text about Mietstreitigkeiten. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4010,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Mobilität der Zukunft (Set 10)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Mobilität der Zukunft",
+    "texts": [
+      {
+        "content": "B2 Level text about Mobilität der Zukunft. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4011,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Ernährungstrends (Set 11)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Ernährungstrends",
+    "texts": [
+      {
+        "content": "B2 Level text about Ernährungstrends. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4012,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Umweltschutz (Set 12)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Umweltschutz",
+    "texts": [
+      {
+        "content": "B2 Level text about Umweltschutz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4013,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Lebenslanges Lernen (Set 13)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Lebenslanges Lernen",
+    "texts": [
+      {
+        "content": "B2 Level text about Lebenslanges Lernen. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4014,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Fachkräftemangel (Set 14)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Fachkräftemangel",
+    "texts": [
+      {
+        "content": "B2 Level text about Fachkräftemangel. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4015,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Kulturelle Vielfalt (Set 15)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Kulturelle Vielfalt",
+    "texts": [
+      {
+        "content": "B2 Level text about Kulturelle Vielfalt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      }
+    ]
+  },
+{
+    "id": 4001,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - WG-Zimmer (Set 1)",
+    "cc": "",
+    "betreff": "WG-Zimmer",
+    "texts": [
+      {
+        "content": "Hallo Rahim,\n\nvielen Dank für deine Mail und deine Fragen zu dem Zimmer in unserer WG. Wir freuen uns ___21___ dein Interesse an dem Zimmer und beantworten dir gerne alles.\nDie Wohnung befindet ___22___ im dritten Stock eines Altbaus. Sie hat zwei Badezimmer, die wir gemeinschaftlich nutzen, und eine sehr gut ausgestattete Küche – inklusive Spülmaschine. Wir haben außerdem einen großen Balkon, ___23___ man bei gutem Wetter eine super Aussicht hat. Das Zimmer, das zu vermieten ist, kann nach eigenen Wünschen gestaltet ___24___. Es ist 28 qm groß und nicht möbliert.\nWir sind übrigens keine Studenten-WG, sondern eine „Berufstätigen-WG“. Mein Mitbewohner Johannes ist Sozialarbeiter und ich beschäftige mich beruflich ___25___ der Entwicklung von Lernsoftware. Unsere Freizeitinteressen sind teilweise recht unterschiedlich. Johannes liebt Sport aller Art und ist viel unterwegs, ___26___ ich meinen Feierabend gern auf dem Sofa ausklingen lasse. Wir kochen aber oft zusammen und machen auch mal einen Spieleabend. Generell geht es bei uns eher ruhig zu. Abends trinken wir ___27___ gerne mal ein Gläschen Wein mit Freunden, aber große Partys feiern wir hier fast nie. Wir wünschen uns einen Mitbewohner, ___28___ Lebensstil zu unserem passt. Ein Nichtraucher wäre super, aber mit einem Raucher, der zum Rauchen auf den Balkon geht, könnten wir auch gut leben.\nSchön, dass du anbietest vorbeizukommen, ___29___ wir uns persönlich kennenlernen können. Morgen klappt es allerdings leider nicht. Wenn ich eher ___30___, dass du dann in der Stadt bist, hätte ich mir Zeit frei gehalten, aber so habe ich den Tag schon verplant. Könntest du vielleicht auch am Sonntag?\n\nViele Grüße\nTill",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "über",
+        "b": "wegen",
+        "c": "für",
+        "correct": "a"
+      },
+      {
+        "num": 22,
+        "a": "uns",
+        "b": "man",
+        "c": "sich",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "für den",
+        "b": "von dem",
+        "c": "auf der",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "werden",
+        "b": "würden",
+        "c": "wurden",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "an",
+        "b": "mit",
+        "c": "in",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "während",
+        "b": "sondern",
+        "c": "anstatt",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "sowohl",
+        "b": "entweder",
+        "c": "zwar",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "seinen",
+        "b": "denen",
+        "c": "dessen",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "deswegen",
+        "b": "indem",
+        "c": "damit",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "wüsste",
+        "b": "gewusst habe",
+        "c": "gewusst hätte",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4002,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Drei Mythen über den Schlaf (Set 2)",
+    "texts": [
+      {
+        "content": "Lange schlafen ist gesund, oder etwa nicht?\n\nDrei Mythen über den Schlaf\n\nWarum träumen wir? Was passiert im Gehirn, wenn wir schlafen? Und warum müssen wir ___31___ schlafen? Während Wissenschaftler nach Antworten auf diese Fragen suchen, werden im Volksmund etliche Geschichten über den Schlaf erzählt. Viele davon sind unwahr.\n\nMythos 1: Lange schlafen ist gesund.\nImmer wieder werden wir ___32___ gewarnt, dass sich zu wenig Schlaf früher oder später negativ auf unser Wohlbefinden auswirkt. Aber kann man auch zu viel schlafen? Schlafmediziner sagen: ja. Ein internationales Forschungsteam ist zu dem Ergebnis gekommen, dass zu viel Schlaf ___33___ ungesund ist wie zu wenig. Notorische Langschläfer leiden zum Beispiel häufiger ___34___ Depressionen und haben ein erhöhtes Risiko, an Diabetes zu erkranken.\n\nMythos 2: Der Schlaf vor Mitternacht ist der beste.\nViele Menschen behaupten, dass der Schlaf vor Mitternacht besonders erholsam sei. Das ___35___ so aber nicht. Wissenschaftler haben herausgefunden, dass nicht die Uhrzeit entscheidend ist, ___36___ vielmehr die ersten Stunden nach dem Einschlafen. In dieser Zeit ___37___ ein Großteil des wertvollen Tiefschlafs statt. In den Tiefschlafphasen erholt sich unser Körper am intensivsten. Der Zeitpunkt des Einschlafens spielt dabei keine ___38___.\n\nMythos 3: Im Schlaf passiert nicht viel.\nWer glaubt, dass im Schlaf nicht ___39___ viel passiert, der täuscht sich gewaltig. Nachts, wenn der Körper zur ___40___ kommt, laufen in unserem Organismus äußerst komplexe Prozesse ab. Unser Immunsystem wird aktiviert, Wachstumshormone bauen unsere Muskeln auf, die Haut regeneriert sich und unser Gehirn läuft auf Hochtouren, um die Ereignisse des Tages zu verarbeiten.",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ALLZU",
+      "b": "BEDEUTUNG",
+      "c": "DARAUF",
+      "d": "DAVOR",
+      "e": "FINDET",
+      "f": "GENAUSO",
+      "g": "HIERMIT",
+      "h": "MIT",
+      "i": "NIMMT",
+      "j": "ROLLE",
+      "k": "RUHE",
+      "l": "SONDERN",
+      "m": "STIMMT",
+      "n": "ÜBERHAUPT",
+      "o": "UNTER"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "n"
+      },
+      {
+        "num": 32,
+        "correct": "d"
+      },
+      {
+        "num": 33,
+        "correct": "f"
+      },
+      {
+        "num": 34,
+        "correct": "o"
+      },
+      {
+        "num": 35,
+        "correct": "m"
+      },
+      {
+        "num": 36,
+        "correct": "l"
+      },
+      {
+        "num": 37,
+        "correct": "e"
+      },
+      {
+        "num": 38,
+        "correct": "j"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "k"
+      }
+    ]
+  },
+  {
+    "id": 4003,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Bewerbung Marketing (Set 3)",
+    "cc": "gelesen",
+    "betreff": "Bewerbung als Marketing-Manager",
+    "texts": [
+      {
+        "content": "Sehr geehrte Frau Dr. Müller,\n\nmit großem Interesse habe ich Ihre Anzeige im Stellenmarkt ___21___ und bewerbe mich hiermit um die Position als Marketing-Manager. In meiner bisherigen Tätigkeit war ich maßgeblich ___22___ der Konzeption von digitalen Kampagnen beteiligt.\nBesonders hervorzuheben ist mein Engagement bei der Einführung der neuen Markenstrategie, ___23___ wir den Umsatz um 15 % steigern konnten. Ich verfüge über fundierte Kenntnisse im Bereich SEO und SEM, ___24___ ich mir in zahlreichen Fortbildungen angeeignet habe. Meine Arbeitsweise zeichnet sich ___25___ eine hohe Zielorientierung und Teamfähigkeit aus. Ich bin davon überzeugt, dass meine Qualifikationen ___26___ Ihren Anforderungen entsprechen. Zudem bringe ich die Bereitschaft ___27___, mich schnell in neue Aufgabengebiete einzuarbeiten. Gerne möchte ich Sie in einem persönlichen Gespräch von meiner Eignung ___28___. Einem baldigen Eintrittstermin steht meinerseits ___29___ im Wege. Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr ___30___.\n\nMit freundlichen Grüßen\nLukas Weber",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "personalabteilung@firma.de",
+        "b": "vernommen",
+        "c": "gelesen",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "in",
+        "b": "mit",
+        "c": "an",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "womit",
+        "b": "wodurch",
+        "c": "woraus",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "das",
+        "b": "welche",
+        "c": "die",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "über",
+        "b": "durch",
+        "c": "wegen",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "voll",
+        "b": "vollends",
+        "c": "völlig",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "mit",
+        "b": "auf",
+        "c": "an",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "beweisen",
+        "b": "überzeugen",
+        "c": "darstellen",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "kaum",
+        "b": "nicht",
+        "c": "nichts",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "freuen",
+        "b": "beglücken",
+        "c": "gefreut",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4004,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Digitalisierung am Arbeitsplatz (Set 4)",
+    "texts": [
+      {
+        "content": "Die fortschreitende Digitalisierung hat die Arbeitswelt grundlegend ___31___. Während früher Aktenberge die Schreibtische dominierten, prägen heute Computer und Software den Büroalltag. Dieser Wandel bringt sowohl Chancen ___32___ auch Herausforderungen mit sich.\nEinerseits ermöglicht der Einsatz moderner Technologien ein ___33___ effizienteres Arbeiten. Kommunikation findet in Echtzeit statt und Daten können weltweit geteilt werden. Andererseits steigen die Anforderungen an die Arbeitnehmer, die sich ständig ___34___ weiterbilden müssen. Wer den Anschluss nicht ___35___ will, kommt um lebenslanges Lernen nicht herum.\nBesonders das Home-Office hat durch die Digitalisierung an ___36___ gewonnen. Viele Mitarbeiter schätzen die Flexibilität, die mit dem Arbeiten von zu Hause ___37___ ist. Doch dabei darf die soziale Komponente nicht vernachlässigt werden. Der direkte Austausch mit den Kollegen ___38___ eine wichtige Rolle für das Betriebsklima. Es gilt also, eine gesunde Balance ___39___ digitaler Effizienz und persönlichem Kontakt zu ___40___.\n\nBeste Grüße\nEuer HR-Team",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "wordBank": {
+      "a": "ALS",
+      "b": "BEDEUTUNG",
+      "c": "DAZU",
+      "d": "EINMAL",
+      "e": "FINDEN",
+      "f": "GEGENÜBER",
+      "g": "RECHT",
+      "h": "SPIELT",
+      "i": "STARK",
+      "j": "UMGANG",
+      "k": "VERÄNDERT",
+      "l": "VERLIEREN",
+      "m": "VERBUNDEN",
+      "n": "WESENTLICH",
+      "o": "ZWISCHEN"
+    },
+    "questions": [
+      {
+        "num": 31,
+        "correct": "k"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "n"
+      },
+      {
+        "num": 34,
+        "correct": "c"
+      },
+      {
+        "num": 35,
+        "correct": "l"
+      },
+      {
+        "num": 36,
+        "correct": "b"
+      },
+      {
+        "num": 37,
+        "correct": "m"
+      },
+      {
+        "num": 38,
+        "correct": "h"
+      },
+      {
+        "num": 39,
+        "correct": "o"
+      },
+      {
+        "num": 40,
+        "correct": "e"
+      }
+    ]
+  },
+  {
+    "id": 4005,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Beschwerde Reise (Set 5)",
+    "cc": "kundenservice@travel.de",
+    "betreff": "Beschwerde über die Reise 'Traumsommer'",
+    "texts": [
+      {
+        "content": "Sehr geehrte Damen und Herren,\n\nhiermit möchte ich meine Unzufriedenheit über die oben ___21___ Reise zum Ausdruck bringen, die ich vom 10. bis 22. August bei Ihnen gebucht hatte. Leider entsprachen die Leistungen vor Ort in keiner Weise Ihren ___22___.\nBereits bei der Ankunft gab es Probleme, ___23___ das gebuchte Zimmer nicht zur Verfügung stand. Statt des versprochenen Meerblicks blickte ich auf eine laute Baustelle. Zudem war die Verpflegung im Hotel ___24___ mangelhaft. Die Speisen waren oft kalt und wenig abwechslungsreich. Auf meine mehrfachen ___25___ beim Hotelpersonal wurde nur ausweichend reagiert. Auch die Reiseleitung vor Ort war kaum ___26___, um Abhilfe zu schaffen. Da ich für diese Reise einen ___27___ Betrag bezahlt habe, erwarte ich eine angemessene Entschädigung. Ich fordere Sie daher auf, mir einen Teil des Reisepreises ___28___. Bitte lassen Sie mir bis zum Ende des Monats eine entsprechende Rückmeldung ___29___. Sollten Sie meiner Forderung nicht nachkommen, sehe ich mich ___30___, rechtliche Schritte einzuleiten.\n\nMit freundlichen Grüßen\nSabine Fischer",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "beschriebene",
+        "b": "genannte",
+        "c": "kundenservice@travel.de",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "Angaben",
+        "b": "Preisen",
+        "c": "Versprechen",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "indem",
+        "b": "weil",
+        "c": "da",
+        "correct": "c"
+      },
+      {
+        "num": 24,
+        "a": "äußerst",
+        "b": "sehr",
+        "c": "ganz",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "Fragen",
+        "b": "Beschwerden",
+        "c": "Anfragen",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "verfügbar",
+        "b": "auffindbar",
+        "c": "erreichbar",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "erheblichen",
+        "b": "großen",
+        "c": "hohen",
+        "correct": "a"
+      },
+      {
+        "num": 28,
+        "a": "zurückzugeben",
+        "b": "überweisen",
+        "c": "zurückzuerstatten",
+        "correct": "c"
+      },
+      {
+        "num": 29,
+        "a": "erreichen",
+        "b": "zukommen",
+        "c": "kommen",
+        "correct": "b"
+      },
+      {
+        "num": 30,
+        "a": "bereit",
+        "b": "nötig",
+        "c": "gezwungen",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4006,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Globalisierung (Set 6)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Globalisierung",
+    "texts": [
+      {
+        "content": "B2 Level text about Globalisierung. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4007,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Ehrenamt (Set 7)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Ehrenamt",
+    "texts": [
+      {
+        "content": "B2 Level text about Ehrenamt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "id": 4008,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Künstliche Intelligenz (Set 8)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Künstliche Intelligenz",
+    "texts": [
+      {
+        "content": "B2 Level text about Künstliche Intelligenz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4009,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Mietstreitigkeiten (Set 9)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Mietstreitigkeiten",
+    "texts": [
+      {
+        "content": "B2 Level text about Mietstreitigkeiten. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 24,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 26,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 4010,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Mobilität der Zukunft (Set 10)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Mobilität der Zukunft",
+    "texts": [
+      {
+        "content": "B2 Level text about Mobilität der Zukunft. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4011,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Ernährungstrends (Set 11)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Ernährungstrends",
+    "texts": [
+      {
+        "content": "B2 Level text about Ernährungstrends. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 22,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 25,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt A",
+        "c": "Opt C",
+        "correct": "b"
+      },
+      {
+        "num": 28,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      }
+    ]
+  },
+  {
+    "id": 4012,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Umweltschutz (Set 12)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Umweltschutz",
+    "texts": [
+      {
+        "content": "B2 Level text about Umweltschutz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4013,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Lebenslanges Lernen (Set 13)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Lebenslanges Lernen",
+    "texts": [
+      {
+        "content": "B2 Level text about Lebenslanges Lernen. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 25,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "Opt A",
+        "b": "Opt C",
+        "c": "Opt B",
+        "correct": "a"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 29,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 30,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      }
+    ]
+  },
+  {
+    "id": 4014,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part2",
+    "title": "B2 Sprachbausteine - Fachkräftemangel (Set 14)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Fachkräftemangel",
+    "texts": [
+      {
+        "content": "B2 Level text about Fachkräftemangel. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
+        "gapIds": [
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 31,
+        "correct": "a"
+      },
+      {
+        "num": 32,
+        "correct": "a"
+      },
+      {
+        "num": 33,
+        "correct": "a"
+      },
+      {
+        "num": 34,
+        "correct": "a"
+      },
+      {
+        "num": 35,
+        "correct": "a"
+      },
+      {
+        "num": 36,
+        "correct": "a"
+      },
+      {
+        "num": 37,
+        "correct": "a"
+      },
+      {
+        "num": 38,
+        "correct": "a"
+      },
+      {
+        "num": 39,
+        "correct": "a"
+      },
+      {
+        "num": 40,
+        "correct": "a"
+      }
+    ],
+    "wordBank": {
+      "a": "Word0",
+      "b": "Word1",
+      "c": "Word2",
+      "d": "Word3",
+      "e": "Word4",
+      "f": "Word5",
+      "g": "Word6",
+      "h": "Word7",
+      "i": "Word8",
+      "j": "Word9",
+      "k": "Word10",
+      "l": "Word11",
+      "m": "Word12",
+      "n": "Word13",
+      "o": "Word14"
+    }
+  },
+  {
+    "id": 4015,
+    "type": "TELC",
+    "level": "B2",
+    "category": "sprachbaustein",
+    "subtype": "part1",
+    "title": "B2 Sprachbausteine - Kulturelle Vielfalt (Set 15)",
+    "cc": "info@example.com",
+    "betreff": "Thema: Kulturelle Vielfalt",
+    "texts": [
+      {
+        "content": "B2 Level text about Kulturelle Vielfalt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
+        "gapIds": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "num": 21,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 22,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 23,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 24,
+        "a": "Opt C",
+        "b": "Opt A",
+        "c": "Opt B",
+        "correct": "b"
+      },
+      {
+        "num": 25,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 26,
+        "a": "Opt C",
+        "b": "Opt B",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 27,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      },
+      {
+        "num": 28,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 29,
+        "a": "Opt A",
+        "b": "Opt B",
+        "c": "Opt C",
+        "correct": "a"
+      },
+      {
+        "num": 30,
+        "a": "Opt B",
+        "b": "Opt C",
+        "c": "Opt A",
+        "correct": "c"
+      }
+    ]
   }
 ];
