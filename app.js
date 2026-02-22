@@ -521,7 +521,7 @@ function updateProgressUI() {
   // Update logo with fixed branding
   const logoSpan = document.querySelector('.logo span');
   if (logoSpan) {
-    logoSpan.textContent = "60min";
+    logoSpan.textContent = "25min";
   }
 }
 
@@ -531,7 +531,7 @@ function updateRankDisplay() {
   // Update logo with fixed branding
   const logoSpan = document.querySelector('.logo span');
   if (logoSpan) {
-    logoSpan.textContent = "60min";
+    logoSpan.textContent = "25min";
   }
 
   // Update progress info with rank name
