@@ -846,18 +846,12 @@ function renderSprachbausteinSection(filtered, container) {
   const isB2 = currentItem.level === 'B2';
   const isC1 = currentItem.level === 'C1';
 
-  // Navigation - Circular Design for B2
-  let navHTML = `<div class="reading-nav-grid" style="margin-bottom:30px; display:flex; gap:12px; flex-wrap:wrap; justify-content:center; padding:10px;">`;
+
+  // Navigation - Uniform Design (circles)
+  let navHTML = `<div class="reading-nav-grid">`;
   filtered.forEach((_, idx) => {
     const activeClass = idx === currentExamReadingIndex ? 'active' : '';
-    const circleStyle = isB2 ? `
-      min-width:45px; height:45px; border-radius:50%; border:2px solid ${activeClass ? 'var(--secondary)' : '#ddd'}; 
-      background:${activeClass ? 'var(--secondary)' : '#fff'}; color:${activeClass ? '#fff' : '#555'}; 
-      font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: all 0.2s ease;
-    ` : `min-width:40px; height:40px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer;`;
-
-    navHTML += `<button class="reading-nav-btn ${activeClass}" style="${circleStyle}" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
+    navHTML += `<button class="reading-nav-btn ${activeClass}" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
   });
   navHTML += `</div>`;
 
@@ -1865,7 +1859,8 @@ function renderReadingSection(filtered, container) {
   const currentItem = filtered[currentExamReadingIndex];
   const total = filtered.length;
 
-  // --- 1. NAVIGATION (15 Buttons) ---
+
+  // --- 1. NAVIGATION (Uniform Design - circles) ---
   let navHTML = `<div class="reading-nav-grid">`;
   filtered.forEach((_, idx) => {
     const activeClass = idx === currentExamReadingIndex ? 'active' : '';
