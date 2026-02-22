@@ -288,32 +288,32 @@ let state = {
 /* --- RANKING SYSTEM --- */
 const ranks = {
   tr: [
-    { min: 0, max: 499, name: "Bronz", icon: "🟠" },
-    { min: 500, max: 999, name: "Gümüş", icon: "⚪" },
-    { min: 1000, max: 1499, name: "Altın", icon: "🟡" },
-    { min: 1500, max: 2499, name: "Platin", icon: "💎" },
-    { min: 2500, max: Infinity, name: "Elmas", icon: "💠" }
+    { min: 0, max: 499, name: "Bronz", icon: "⭐" },
+    { min: 500, max: 999, name: "Gümüş", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Altın", icon: "⭐" },
+    { min: 1500, max: 2499, name: "Platin", icon: "⭐" },
+    { min: 2500, max: Infinity, name: "Elmas", icon: "⭐" }
   ],
   en: [
-    { min: 0, max: 499, name: "Bronze", icon: "🟠" },
-    { min: 500, max: 999, name: "Silver", icon: "⚪" },
-    { min: 1000, max: 1499, name: "Gold", icon: "🟡" },
-    { min: 1500, max: 2499, name: "Platinum", icon: "💎" },
-    { min: 2500, max: Infinity, name: "Diamond", icon: "💠" }
+    { min: 0, max: 499, name: "Bronze", icon: "⭐" },
+    { min: 500, max: 999, name: "Silver", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Gold", icon: "⭐" },
+    { min: 1500, max: 2499, name: "Platinum", icon: "⭐" },
+    { min: 2500, max: Infinity, name: "Diamond", icon: "⭐" }
   ],
   pl: [
-    { min: 0, max: 499, name: "Brąz", icon: "🟠" },
-    { min: 500, max: 999, name: "Srebro", icon: "⚪" },
-    { min: 1000, max: 1499, name: "Złoto", icon: "🟡" },
-    { min: 1500, max: 2499, name: "Platyna", icon: "💎" },
-    { min: 2500, max: Infinity, name: "Diament", icon: "💠" }
+    { min: 0, max: 499, name: "Brąz", icon: "⭐" },
+    { min: 500, max: 999, name: "Srebro", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Złoto", icon: "⭐" },
+    { min: 1500, max: 2499, name: "Platyna", icon: "⭐" },
+    { min: 2500, max: Infinity, name: "Diament", icon: "⭐" }
   ],
   ua: [
-    { min: 0, max: 499, name: "Бронза", icon: "🟠" },
-    { min: 500, max: 999, name: "Срібло", icon: "⚪" },
-    { min: 1000, max: 1499, name: "Золото", icon: "🟡" },
-    { min: 1500, max: 2499, name: "Платина", icon: "💎" },
-    { min: 2500, max: Infinity, name: "Діамант", icon: "💠" }
+    { min: 0, max: 499, name: "Бронза", icon: "⭐" },
+    { min: 500, max: 999, name: "Срібло", icon: "⭐" },
+    { min: 1000, max: 1499, name: "Золото", icon: "⭐" },
+    { min: 1500, max: 2499, name: "Платина", icon: "⭐" },
+    { min: 2500, max: Infinity, name: "Діамант", icon: "⭐" }
   ]
 };
 
@@ -515,32 +515,29 @@ function updateProgressUI() {
   const rank = getRank(state.totalPoints);
   const starsDisplay = document.getElementById("starsDisplay");
   if (starsDisplay) {
-    starsDisplay.textContent = `${rank.icon} ${state.totalPoints} `;
+    starsDisplay.innerHTML = `⭐ <span id="rankName">${rank.name}</span> ${state.totalPoints}`;
   }
 
-  // Update rank name in status bar
-  const rankNameEl = document.getElementById("rankName");
-  if (rankNameEl) {
-    rankNameEl.textContent = rank.name;
+  // Update logo with fixed branding
+  const logoSpan = document.querySelector('.logo span');
+  if (logoSpan) {
+    logoSpan.textContent = "60min";
   }
-
-  // Update logo with current rank
-  updateRankDisplay();
 }
 
 function updateRankDisplay() {
   const rank = getRank(state.totalPoints);
 
-  // Update logo
+  // Update logo with fixed branding
   const logoSpan = document.querySelector('.logo span');
   if (logoSpan) {
-    logoSpan.textContent = rank.name;
+    logoSpan.textContent = "60min";
   }
 
-  // Update rank name in status bar
-  const rankNameEl = document.getElementById("rankName");
-  if (rankNameEl) {
-    rankNameEl.textContent = rank.name;
+  // Update progress info with rank name
+  const starsDisplay = document.getElementById("starsDisplay");
+  if (starsDisplay) {
+    starsDisplay.innerHTML = `⭐ <span id="rankName">${rank.name}</span> ${state.totalPoints}`;
   }
 }
 
@@ -846,127 +843,191 @@ function renderSprachbausteinSection(filtered, container) {
   }
 
   const currentItem = filtered[currentExamReadingIndex] || filtered[0];
+  const isB2 = currentItem.level === 'B2';
+  const isC1 = currentItem.level === 'C1';
 
-  // Navigation
-  let navHTML = `<div class="reading-nav-grid" style="margin-bottom:20px; display:flex; gap:10px; overflow-x:auto; padding-bottom:5px;">`;
+  // Navigation - Circular Design for B2
+  let navHTML = `<div class="reading-nav-grid" style="margin-bottom:30px; display:flex; gap:12px; flex-wrap:wrap; justify-content:center; padding:10px;">`;
   filtered.forEach((_, idx) => {
     const activeClass = idx === currentExamReadingIndex ? 'active' : '';
-    navHTML += `<button class="reading-nav-btn ${activeClass}" style="min-width:40px; height:40px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer;" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
+    const circleStyle = isB2 ? `
+      min-width:45px; height:45px; border-radius:50%; border:2px solid ${activeClass ? 'var(--secondary)' : '#ddd'}; 
+      background:${activeClass ? 'var(--secondary)' : '#fff'}; color:${activeClass ? '#fff' : '#555'}; 
+      font-weight:bold; cursor:pointer; display:flex; align-items:center; justify-content:center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.05); transition: all 0.2s ease;
+    ` : `min-width:40px; height:40px; border-radius:8px; border:1px solid #ddd; background:#fff; cursor:pointer;`;
+
+    navHTML += `<button class="reading-nav-btn ${activeClass}" style="${circleStyle}" onclick="setExamReadingIndex(${idx})">${idx + 1}</button>`;
   });
   navHTML += `</div>`;
 
-  // --- LEGACY FORMAT SUPPORT ---
-  if (!currentItem.texts) {
-    let optionsHtml = "";
-    if (currentItem.options && Array.isArray(currentItem.options)) {
-      currentItem.options.forEach((opt, idx) => {
-        const isCorrect = idx === currentItem.correct;
-        optionsHtml += `<button class="exam-opt" onclick="checkAnswer(this, ${isCorrect})">${idx + 1}) ${opt}</button>`;
-      });
-    }
-    container.innerHTML = navHTML + `<div class="exam-item">
-      <div class="exam-q">${currentItem.q}</div>
-      <div class="exam-options">${optionsHtml}</div>
-    </div>`;
-    return;
-  }
+  let contentHTML = `<div style="font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;">`;
 
-  // --- NEW FORMAT (PIXEL PERFECT) ---
-  const isA2 = currentItem.level === 'A2';
-  const isB1 = currentItem.level === 'B1';
-  const isB2 = currentItem.level === 'B2';
-  const isAdvanced = isA2 || isB1 || isB2;
-  const isPart2 = currentItem.subtype === 'part2';
+  // Helper to render a part (Teil 1 or Teil 2)
+  const renderPart = (partData, subtype) => {
+    const isTeil2 = subtype === 'part2';
+    let headerTitle = isTeil2 ? "Sprachbausteine Teil 2" : "Sprachbausteine Teil 1";
+    let headerDesc = isTeil2 ?
+      "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal." :
+      "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?";
 
-  let headerTitle = isAdvanced ? (isPart2 ? "Sprachbausteine Teil 2" : "Sprachbausteine Teil 1") : "1 Sprachbausteine";
-  let headerDesc = isAdvanced ?
-    (isPart2 ? "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal." : "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?") :
-    "Lesen Sie den Text und kreuzen Sie die richtige Lösung (a oder b) auf dem Antwortbogen an.";
-
-  let contentHTML = `
-    <div style="font-family: Arial, sans-serif; max-width: 900px; margin: auto; color: #333; line-height: 1.6;">
-       <h2 style="font-size: 1.4rem; font-weight: bold; margin-bottom: 5px;">${headerTitle}</h2>
-       <p style="margin-bottom: 20px; font-style: italic;">${headerDesc}</p>
-  `;
-
-  currentItem.texts.forEach((textObj, tIdx) => {
-    let textWithGaps = textObj.content;
-
-    // Replace placeholders like ___1___ with styled gap markers
-    textObj.gapIds.forEach(num => {
-      if (isPart2) {
-        textWithGaps = textWithGaps.replace(`___${num}___`, `<span id="gap-${num}" class="gap-clickable" onclick="selectWordBankGap(${num}, this)">${num}</span>`);
-      } else {
-        // B2 Part 1 uses numbers like 21, 22... in the text as well
-        textWithGaps = textWithGaps.replace(`___${num}___`, `<span style="display:inline-block; border-bottom:1px solid #333; min-width:30px; text-align:center; font-weight:bold; margin:0 5px; color:#c0392b;">${num}</span>`);
-      }
-    });
-
-    // Email Header for B2 Part 1
-    let emailHeader = "";
-    if (isB2 && !isPart2 && (currentItem.cc || currentItem.betreff)) {
-      emailHeader = `
-        <div style="background:#fff; border-bottom:1px solid #ccc; padding:15px; margin-bottom:0; font-family:Arial,sans-serif; font-size:0.9rem;">
-          <div style="display:grid; grid-template-columns: 80px 1fr; gap:10px; margin-bottom:8px;">
-            <div style="color:#666; border-right:1px solid #eee;">CC:</div>
-            <div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.cc || ""}</div>
-          </div>
-          <div style="display:grid; grid-template-columns: 80px 1fr; gap:10px;">
-            <div style="color:#666; border-right:1px solid #eee;">Betreff:</div>
-            <div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.betreff || ""}</div>
-          </div>
-        </div>
-      `;
-    }
-
-    contentHTML += `
-      <div style="background: ${isAdvanced ? '#f0f0f0' : '#e0e0e0'}; padding: 0; border: 1px solid #999; margin-bottom: 30px; position:relative; border-radius:4px; overflow:hidden;">
-        ${emailHeader}
-        <div style="padding: 30px; white-space: pre-wrap; font-size: 1.1rem; color:#1a1a1a;">${textWithGaps}</div>
-      </div>
+    let partHTML = `
+      <div class="sprachbaustein-part" style="margin-bottom:60px; background:#fff; padding:20px; border-radius:12px; box-shadow:0 10px 30px rgba(0,0,0,0.05); border:1px solid #f0f0f0;">
+        <h2 style="font-size: 1.5rem; font-weight: bold; margin-bottom: 5px; color:var(--secondary);">${headerTitle}</h2>
+        <p style="margin-bottom: 25px; font-style: italic; color:#666;">${headerDesc}</p>
     `;
 
-    if (isPart2) {
-      // Part 2: Word Bank below text
-      contentHTML += `<div class="word-bank-grid">`;
-      Object.entries(currentItem.wordBank).forEach(([key, val]) => {
-        contentHTML += `
-                <div class="word-bank-item" id="wb-${key}" onclick="selectWordBankWord('${key}', this)">
-                    <strong style="color:var(--secondary)">${key}</strong> ${val}
-                </div>
-            `;
-      });
-      contentHTML += `</div>`;
-    } else {
-      // Part 1/A1: Grid of options
-      contentHTML += `<div style="display: grid; grid-template-columns: repeat(${isAdvanced ? 4 : 2}, 1fr); gap: 20px; margin-bottom: 40px;">`;
+    partData.texts.forEach((textObj) => {
+      let textWithGaps = textObj.content;
       textObj.gapIds.forEach(num => {
-        const q = currentItem.questions.find(q => q.num === num);
-        if (q) {
-          const options = isAdvanced ? ['a', 'b', 'c'] : ['a', 'b'];
-          let optsHTML = "";
-          options.forEach(optKey => {
-            const isCorrect = q.correct === optKey;
-            optsHTML += `<button class="exam-opt" style="margin:0; padding:6px 10px; text-align:left; flex:1;" onclick="checkAnswer(this, ${isCorrect})"><strong>${optKey}</strong> ${q[optKey]}</button>`;
-          });
-
-          contentHTML += `
-                    <div style="display: flex; flex-direction: column; gap: 5px; padding:10px; border-bottom:1px solid #eee;">
-                        <strong style="font-size: 1.1rem; min-width: 25px;">${num}</strong>
-                        <div style="display: flex; flex-direction: column; gap: 5px;">
-                            ${optsHTML}
-                        </div>
-                    </div>
-                `;
+        if (isTeil2) {
+          textWithGaps = textWithGaps.replace(`___${num}___`, `<span id="gap-${num}" class="gap-clickable" onclick="selectWordBankGap(${num}, this)">${num}</span>`);
+        } else {
+          textWithGaps = textWithGaps.replace(`___${num}___`, `<span style="display:inline-block; border-bottom:2px solid var(--secondary); min-width:35px; text-align:center; font-weight:bold; margin:0 5px; color:var(--secondary);">${num}</span>`);
         }
       });
-      contentHTML += `</div>`;
-    }
-  });
+
+      let emailHeader = "";
+      if (!isTeil2 && (partData.cc || partData.betreff)) {
+        emailHeader = `
+          <div style="background:#f9f9f9; border-bottom:1px solid #eee; padding:20px; margin-bottom:0; font-family:Arial,sans-serif; font-size:0.95rem; border-radius:8px 8px 0 0;">
+            <div style="display:grid; grid-template-columns: 100px 1fr; gap:10px; margin-bottom:10px;">
+              <div style="color:#888; font-weight:bold;">CC:</div>
+              <div style="background:#fff; border:1px solid #ddd; min-height:24px; padding:4px 12px; border-radius:4px;">${partData.cc || ""}</div>
+            </div>
+            <div style="display:grid; grid-template-columns: 100px 1fr; gap:10px;">
+              <div style="color:#888; font-weight:bold;">Betreff:</div>
+              <div style="background:#fff; border:1px solid #ddd; min-height:24px; padding:4px 12px; border-radius:4px;">${partData.betreff || ""}</div>
+            </div>
+          </div>
+        `;
+      }
+
+      partHTML += `
+        <div style="background: #fdfdfd; padding: 0; border: 1px solid #eee; margin-bottom: 30px; position:relative; border-radius:8px; overflow:hidden;">
+          ${emailHeader}
+          <div style="padding: 35px; white-space: pre-wrap; font-size: 1.15rem; color:#2c3e50; line-height:1.8;">${textWithGaps}</div>
+        </div>
+      `;
+
+      if (isTeil2) {
+        partHTML += `<div class="word-bank-grid" style="display:grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap:12px; margin-top:20px;">`;
+        Object.entries(partData.wordBank).forEach(([key, val]) => {
+          partHTML += `
+            <div class="word-bank-item" id="wb-${key}" onclick="selectWordBankWord('${key}', this)" 
+                 style="padding:10px; border:1px solid #eee; border-radius:8px; cursor:pointer; background:#fff; transition:all 0.2s;">
+              <strong style="color:var(--secondary)">${key})</strong> ${val}
+            </div>
+          `;
+        });
+        partHTML += `</div>`;
+      } else {
+        partHTML += `<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 15px; margin-top: 30px;">`;
+        textObj.gapIds.forEach(num => {
+          const q = partData.questions.find(q => q.num === num);
+          if (q) {
+            let optsHTML = "";
+            const options = isC1 ? ['a', 'b', 'c', 'd'] : ['a', 'b', 'c'];
+            options.forEach(optKey => {
+              const isCorrect = q.correct === optKey;
+              optsHTML += `<button class="exam-opt" style="margin:2px 0; padding:8px 12px; text-align:left; width:100%; border-radius:6px; border:1px solid #eee; cursor:pointer;" onclick="checkAnswer(this, ${isCorrect})"><strong>${optKey})</strong> ${q[optKey]}</button>`;
+            });
+            partHTML += `
+              <div style="display: flex; flex-direction: column; gap: 8px; padding:15px; border:1px solid #f0f0f0; border-radius:10px; background:#fafafa;">
+                <strong style="font-size: 1.2rem; color:var(--secondary);">${num}</strong>
+                <div style="display: flex; flex-direction: column; gap: 4px;">${optsHTML}</div>
+              </div>
+            `;
+          }
+        });
+        partHTML += `</div>`;
+      }
+    });
+    partHTML += `</div>`;
+    return partHTML;
+  };
+
+  if (isB2 && currentItem.part1) {
+    contentHTML += `<h1 style="text-align:center; margin-bottom:40px; color:#333; font-size:1.8rem;">${currentItem.title}</h1>`;
+    contentHTML += renderPart(currentItem.part1, 'part1');
+    contentHTML += renderPart(currentItem.part2, 'part2');
+  } else {
+    // --- Fallback for A1/A2/B1 ---
+    const isA2 = currentItem.level === 'A2';
+    const isB1 = currentItem.level === 'B1';
+    const isC1 = currentItem.level === 'C1';
+    const isAdvanced = isA2 || isB1 || isB2 || isC1;
+    const isPart2 = currentItem.subtype === 'part2';
+
+    let headerTitle = isAdvanced ? (isPart2 ? "Sprachbausteine Teil 2" : "Sprachbausteine Teil 1") : "1 Sprachbausteine";
+    let headerDesc = isAdvanced ?
+      (isPart2 ? "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal." :
+        (isC1 ? "Lesen Sie den Text und schließen Sie die Lücken 25–46. Welche Lösung (a, b, c oder d) ist jeweils richtig?" :
+          "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?")) :
+      "Lesen Sie den Text und kreuzen Sie die richtige Lösung (a oder b) auf dem Antwortbogen an.";
+
+    contentHTML += `
+       <h2 style="font-size: 1.4rem; font-weight: bold; margin-bottom: 5px;">${headerTitle}</h2>
+       <p style="margin-bottom: 20px; font-style: italic;">${headerDesc}</p>
+    `;
+
+    currentItem.texts.forEach((textObj, tIdx) => {
+      let textWithGaps = textObj.content;
+      textObj.gapIds.forEach(num => {
+        if (isPart2) {
+          textWithGaps = textWithGaps.replace(`___${num}___`, `<span id="gap-${num}" class="gap-clickable" onclick="selectWordBankGap(${num}, this)">${num}</span>`);
+        } else {
+          textWithGaps = textWithGaps.replace(`___${num}___`, `<span style="display:inline-block; border-bottom:1px solid #333; min-width:30px; text-align:center; font-weight:bold; margin:0 5px; color:#c0392b;">${num}</span>`);
+        }
+      });
+
+      let emailHeader = "";
+      if (isB2 && !isPart2 && (currentItem.cc || currentItem.betreff)) {
+        emailHeader = `<div style="background:#fff; border-bottom:1px solid #ccc; padding:15px; margin-bottom:0; font-family:Arial,sans-serif; font-size:0.9rem;"><div style="display:grid; grid-template-columns: 80px 1fr; gap:10px; margin-bottom:8px;"><div style="color:#666; border-right:1px solid #eee;">CC:</div><div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.cc || ""}</div></div><div style="display:grid; grid-template-columns: 80px 1fr; gap:10px;"><div style="color:#666; border-right:1px solid #eee;">Betreff:</div><div style="background:#fcfcfc; border:1px solid #eee; min-height:20px; padding:2px 8px;">${currentItem.betreff || ""}</div></div></div>`;
+      }
+
+      contentHTML += `
+        <div style="background: ${isAdvanced ? '#f0f0f0' : '#e0e0e0'}; padding: 0; border: 1px solid #999; margin-bottom: 30px; position:relative; border-radius:4px; overflow:hidden;">
+          ${emailHeader}
+          <div style="padding: 30px; white-space: pre-wrap; font-size: 1.1rem; color:#1a1a1a;">${textWithGaps}</div>
+        </div>
+      `;
+
+      if (isPart2) {
+        contentHTML += `<div class="word-bank-grid">`;
+        Object.entries(currentItem.wordBank).forEach(([key, val]) => {
+          contentHTML += `<div class="word-bank-item" id="wb-${key}" onclick="selectWordBankWord('${key}', this)"><strong style="color:var(--secondary)">${key}</strong> ${val}</div>`;
+        });
+        contentHTML += `</div>`;
+      } else {
+        const columns = isC1 ? 3 : (isAdvanced ? 4 : 2);
+        contentHTML += `<div style="display: grid; grid-template-columns: repeat(${columns}, 1fr); gap: 20px; margin-bottom: 40px;">`;
+        textObj.gapIds.forEach(num => {
+          const q = currentItem.questions.find(q => q.num === num);
+          if (q) {
+            const options = isC1 ? ['a', 'b', 'c', 'd'] : (isAdvanced ? ['a', 'b', 'c'] : ['a', 'b']);
+            let optsHTML = "";
+            options.forEach(optKey => {
+              const isCorrect = q.correct === optKey;
+              optsHTML += `<button class="exam-opt" style="margin:2px 0; padding:8px 12px; text-align:left; width:100%; border-radius:6px; border:1px solid #eee; cursor:pointer;" onclick="checkAnswer(this, ${isCorrect})"><strong>${optKey})</strong> ${q[optKey]}</button>`;
+            });
+            contentHTML += `
+              <div style="display: flex; flex-direction: column; gap: 8px; padding:15px; border:1px solid #f0f0f0; border-radius:10px; background:#fafafa;">
+                <strong style="font-size: 1.2rem; color:var(--secondary);">${num}</strong>
+                <div style="display: flex; flex-direction: column; gap: 4px;">${optsHTML}</div>
+              </div>
+            `;
+          }
+        });
+        contentHTML += `</div>`;
+      }
+    });
+  }
 
   contentHTML += `</div>`;
   container.innerHTML = navHTML + contentHTML;
 }
+
 
 window.selectWordBankGap = function (num, btn) {
   // Check if we have a selected word
@@ -974,10 +1035,14 @@ window.selectWordBankGap = function (num, btn) {
     const currentItem = db.exam.filter(e => e.level === state.examLevel && e.category === 'sprachbaustein')[currentExamReadingIndex];
     if (!currentItem) return;
 
-    const q = currentItem.questions.find(q => q.num === num);
+    // Handle nested part2 for B2
+    const questions = (currentItem.level === 'B2' && currentItem.part2) ? currentItem.part2.questions : (currentItem.questions || []);
+    const wordBank = (currentItem.level === 'B2' && currentItem.part2) ? currentItem.part2.wordBank : (currentItem.wordBank || {});
+
+    const q = questions.find(q => q.num === num);
     if (q) {
       const isCorrect = q.correct === state.selectedWordBankWord;
-      const wordText = currentItem.wordBank[state.selectedWordBankWord];
+      const wordText = wordBank[state.selectedWordBankWord];
 
       if (isCorrect) {
         btn.innerHTML = wordText;
@@ -1175,15 +1240,16 @@ function renderExams() {
 
 // Helper to check answer for MC items
 window.checkAnswer = function (btn, isCorrect) {
-  // Remove previous classes to allow re-checking or visual reset if needed (though typically one-shot)
-  btn.classList.remove('correct', 'wrong');
+  // Clear siblings' classes if we want only one answer highlighted (optional, but good for multiple clicks)
+  const parent = btn.parentElement;
+  if (parent) {
+    parent.querySelectorAll('.exam-opt').forEach(opt => opt.classList.remove('correct', 'wrong'));
+  }
 
   if (isCorrect) {
     btn.classList.add('correct');
-    // Removed inline styles to rely on CSS classes for dark mode support
   } else {
     btn.classList.add('wrong');
-    // Removed inline styles
   }
 };
 

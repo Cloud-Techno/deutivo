@@ -70,6 +70,16 @@
       left: 0;
       width: 100%;
       z-index: 1000;
+      gap: 20px;
+    }
+
+    .slogan {
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--gray);
+      font-style: italic;
+      flex: 1;
+      text-align: center;
     }
 
     .status-bar {
@@ -166,7 +176,8 @@
 
 <body>
   <header>
-    <div class="logo">🇩🇪 <span>Bronze</span></div>
+    <div class="logo">🇩🇪 <span>60min</span></div>
+    <div class="slogan">25 Min täglich – zum Ziel!</div>
 
     <div class="header-right">
       <div class="lang-flags">
@@ -199,7 +210,7 @@
         </span>
         <span data-i18n="progress">Progress:</span>
         <strong id="learnedCount">0</strong> / <strong id="goalCount">50</strong>
-        <span class="stars-display" id="starsDisplay">⭐ 0.0</span>
+        <span class="stars-display" id="starsDisplay">⭐ <span id="rankName">Bronze</span> 0</span>
         <!-- <span data-i18n="words">Kelime</span> -->
         <!-- <span class="stars-display stars-display-desktop" id="starsDisplay">⭐ 0.0</span> -->
       </div>

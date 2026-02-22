@@ -1,5 +1,6 @@
 window.examData = [
-  { "id": 1,
+  {
+    "id": 1,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -89,7 +90,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 2,
+  {
+    "id": 2,
     "type": "TELC",
     "level": "A1",
     "category": "lesen",
@@ -102,20 +104,9 @@ window.examData = [
     ],
     "correct": 1
   },
-  { "id": 4,
-    "type": "TestDaF",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "q": "Die Entscheidung, dass wir ___, war richtig.",
-    "options": [
-      "kommen",
-      "kommen werden",
-      "kamen",
-      "gekommen sind"
-    ],
-    "correct": 1
-  },
-  { "id": 100,
+
+  {
+    "id": 100,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -123,7 +114,8 @@ window.examData = [
     "task": "Sie sind vor einer Woche nach Hamburg umgezogen und m\u00f6chten Ihrem Freund Tom davon erz\u00e4hlen. Schreiben Sie eine E-Mail an Tom.<br><br>Berichten Sie \u00fcber folgende Punkte:<br>1. Wie ist Ihre neue Wohnung? (Gr\u00f6\u00dfe, Zimmer, Lage)<br>2. Wie gef\u00e4llt Ihnen Ihre neue Arbeit?<br>3. Laden Sie Tom zu sich ein.",
     "answer": "Betreff: Hallo aus meiner neuen Stadt Hamburg!<br><br>Lieber Tom,<br><br>wie geht es dir? Mir geht es sehr gut! Ich wohne jetzt seit einer Woche in Hamburg. Meine neue Wohnung im Zentrum ist klein, aber sehr gem\u00fctlich. Ich habe zwei Zimmer und einen sch\u00f6nen Balkon mit Blumen.<br><br>Ich arbeite jetzt in einer B\u00e4ckerei. Die Arbeit macht Spa\u00df und meine Kollegen sind sehr nett.<br><br>Besuch mich doch mal! Hast du n\u00e4chstes Wochenende Zeit? Du kannst bei mir schlafen.<br><br>Viele Gr\u00fc\u00dfe<br>Dein Ali"
   },
-  { "id": 101,
+  {
+    "id": 101,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -131,7 +123,8 @@ window.examData = [
     "task": "Sie haben n\u00e4chste Woche Geburtstag und m\u00f6chten feiern. Schreiben Sie eine Einladung an Ihre Freunde.<br><br>Schreiben Sie:<br>1. Warum feiern Sie?<br>2. Wann und wo findet die Party statt?<br>3. Bitten Sie Ihre Freunde, Essen oder Getr\u00e4nke mitzubringen.",
     "answer": "Betreff: Einladung zu meiner gro\u00dfen Geburtstagsparty<br><br>Hallo ihr Lieben,<br><br>ich habe bald Geburtstag und werde endlich 25 Jahre alt! Das m\u00f6chte ich gerne gro\u00df mit euch feiern. Die Party ist am Samstag, den 20. Mai, um 19 Uhr bei mir zu Hause im Garten.<br><br>Ich mache Pizza und viele Salate. K\u00f6nnt ihr bitte Getr\u00e4nke wie Cola, Saft oder Bier mitbringen? Das w\u00e4re eine gro\u00dfe Hilfe f\u00fcr mich.<br><br>Bitte sagt mir bis Mittwoch Bescheid. Ich freue mich auf euch!<br><br>Eure Sara"
   },
-  { "id": 102,
+  {
+    "id": 102,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -139,7 +132,8 @@ window.examData = [
     "task": "Sie sind gerade im Urlaub in Spanien. Schreiben Sie eine E-Mail an Ihre Freundin Lisa.<br><br>Erz\u00e4hlen Sie:<br>1. Wo sind Sie und wie ist das Wetter?<br>2. Was machen Sie den ganzen Tag? (Strand, Essen, etc.)<br>3. Wann kommen Sie zur\u00fcck?",
     "answer": "Liebe Lisa,<br><br>viele herzliche Gr\u00fc\u00dfe aus Spanien! Ich bin jetzt seit drei Tagen hier in Barcelona. Es ist einfach traumhaft hier.<br><br>Das Wetter ist perfekt, die Sonne scheint jeden Tag und es ist sehr warm. Ich liege oft am Strand, schwimme im Meer und lese mein Buch. Das spanische Essen, besonders die Paella, schmeckt fantastisch.<br><br>Am Sonntag komme ich leider schon zur\u00fcck. Dann treffen wir uns und ich zeige dir meine Fotos.<br><br>Bis bald!<br>Deine Maria"
   },
-  { "id": 103,
+  {
+    "id": 103,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -147,7 +141,8 @@ window.examData = [
     "task": "Sie sind heute Morgen krank aufgewacht. Schreiben Sie eine formelle E-Mail an Ihren Chef, Herrn M\u00fcller.<br><br>Informieren Sie ihn:<br>1. Dass Sie krank sind und nicht kommen k\u00f6nnen.<br>2. Wie lange Sie voraussichtlich fehlen werden.<br>3. Dass Sie das Attest schicken.",
     "answer": "Betreff: Krankmeldung - Ali Yilmaz<br><br>Sehr geehrter Herr M\u00fcller,<br><br>ich muss Ihnen leider mitteilen, dass ich heute nicht zur Arbeit kommen kann. Ich bin heute Morgen mit hohem Fieber und starken Kopfschmerzen aufgewacht und f\u00fchle mich sehr schlecht.<br><br>Ich gehe sp\u00e4ter zum Arzt. Ich denke, dass ich etwa drei Tage zu Hause bleiben muss. Am Donnerstag bin ich wahrscheinlich wieder im B\u00fcro.<br><br>Das \u00e4rztliche Attest schicke ich Ihnen morgen per Post zu. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  { "id": 104,
+  {
+    "id": 104,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -155,7 +150,8 @@ window.examData = [
     "task": "Ihr Sohn Noah studiert im Ausland. Schreiben Sie ihm eine E-Mail.<br><br>Schreiben Sie:<br>1. Fragen Sie, wie es ihm geht und wie das Universit\u00e4tsleben ist.<br>2. Sagen Sie, dass Sie ihn sehr vermissen.<br>3. Fragen Sie, ob er in den Weihnachtsferien nach Hause kommt.",
     "answer": "Lieber Noah,<br><br>wie geht es dir mein Sohn? Ich hoffe, du bist gesund und das Studium im Ausland macht dir Spa\u00df.<br><br>Ich vermisse dich hier zu Hause sehr. Seit du weg bist, ist es in der Wohnung sehr ruhig. Ich denke jeden Tag an dich.<br><br>Bald ist Weihnachten. Wann beginnen deine Ferien? Kommst du \u00fcber die Feiertage nach Hause? Ich w\u00fcrde mich riesig freuen und koche dir dein Lieblingsessen.<br><br>Bitte melde dich bald!<br><br>Deine Mama Heidi"
   },
-  { "id": 105,
+  {
+    "id": 105,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -163,7 +159,8 @@ window.examData = [
     "task": "Sie m\u00f6chten Deutsch lernen. Schreiben Sie eine E-Mail an die Sprachschule.<br><br>Fragen Sie nach:<br>1. Wann der n\u00e4chste A2-Kurs beginnt.<br>2. Wie viel der Kurs kostet.<br>3. Ob es einen Einstufungstest gibt.",
     "answer": "Betreff: Anfrage zu Deutschkurs A2<br><br>Sehr geehrte Damen und Herren,<br><br>ich interessiere mich sehr f\u00fcr Ihr Kursangebot. Ich habe den A1-Kurs bereits abgeschlossen und m\u00f6chte nun A2 lernen. Wann beginnt der n\u00e4chste Abendkurs? Ich kann leider nur ab 18 Uhr kommen.<br><br>K\u00f6nnen Sie mir bitte auch sagen, wie viel der Kurs kostet und wie lange er dauert? Gibt es vor dem Kurs einen Einstufungstest?<br><br>Ich w\u00fcrde mich \u00fcber eine schnelle Antwort und weitere Informationen sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Elena Popov"
   },
-  { "id": 106,
+  {
+    "id": 106,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -171,7 +168,8 @@ window.examData = [
     "task": "Sie waren gestern bei Anna zum Essen eingeladen. Schreiben Sie ihr.<br><br>Bedanken Sie sich f\u00fcr:<br>1. Den sch\u00f6nen Abend.<br>2. Das leckere Essen.<br>3. Laden Sie Anna zu sich ein.",
     "answer": "Liebe Anna,<br><br>vielen Dank f\u00fcr den wundersch\u00f6nen Abend gestern bei dir! Es hat mir sehr viel Spa\u00df gemacht.<br><br>Das Essen war wirklich fantastisch, besonders die Lasagne war super lecker. Du bist eine tolle K\u00f6chin! Wir haben auch so viel gelacht und geredet.<br><br>N\u00e4chste Woche m\u00f6chte ich dich gerne zu mir zum Abendessen einladen. Ich koche dann etwas T\u00fcrkisches f\u00fcr uns beide. Hast du am Freitagabend Zeit? Sag mir Bescheid!<br><br>Viele Gr\u00fc\u00dfe<br>Ayse"
   },
-  { "id": 107,
+  {
+    "id": 107,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -179,7 +177,8 @@ window.examData = [
     "task": "Sie m\u00fcssen lange arbeiten und k\u00f6nnen nicht einkaufen. Schreiben Sie Ihrem Mitbewohner Paul.<br><br>Bitten Sie ihn:<br>1. F\u00fcr Sie einkaufen zu gehen.<br>2. Schreiben Sie, was er kaufen soll (Milch, Eier, Brot).<br>3. Bedanken Sie sich.",
     "answer": "Hallo Paul,<br><br>tut mir leid, ich muss heute leider viel l\u00e4nger arbeiten und schaffe es nicht mehr rechtzeitig zum Supermarkt. Der K\u00fchlschrank ist aber fast leer.<br><br>K\u00f6nntest du bitte f\u00fcr uns einkaufen gehen? Wir brauchen dringend:<br>- 1 Liter Milch<br>- Eier<br>- Brot<br>- K\u00e4se und Tomaten<br><br>Das Geld gebe ich dir heute Abend zur\u00fcck, wenn ich da bin. Du rettest mich! Vielen Dank f\u00fcr deine Hilfe. Bis sp\u00e4ter.<br><br>Gru\u00df<br>Tim"
   },
-  { "id": 108,
+  {
+    "id": 108,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -187,7 +186,8 @@ window.examData = [
     "task": "Sie haben Ihren Schl\u00fcssel im Hotel vergessen. Schreiben Sie an die Rezeption.<br><br>Geben Sie an:<br>1. Wann Sie dort waren und Ihre Zimmernummer.<br>2. Wo der Schl\u00fcssel wahrscheinlich liegt.<br>3. Bitten Sie um Zusendung per Post.",
     "answer": "Betreff: Vergessener Schl\u00fcssel - Zimmer 305<br><br>Sehr geehrte Damen und Herren,<br><br>ich war am letzten Wochenende Gast in Ihrem Hotel (Zimmer 305). Leider habe ich bei der Abreise meinen Hausschl\u00fcssel im Zimmer vergessen. Ich glaube, er liegt auf dem Tisch neben dem Bett.<br><br>K\u00f6nnten Sie bitte nachsehen, ob er da ist? Der Schl\u00fcssel hat einen blauen Anh\u00e4nger. Wenn Sie ihn finden, schicken Sie ihn mir bitte per Post an meine Adresse. Ich bezahle die Kosten gerne.<br><br>Vielen Dank f\u00fcr Ihre M\u00fche.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Thomas M\u00fcller"
   },
-  { "id": 109,
+  {
+    "id": 109,
     "type": "Writing",
     "level": "A1",
     "category": "Brief",
@@ -195,7 +195,8 @@ window.examData = [
     "task": "Ihr Freund Ali hat Sie eingeladen, aber Sie k\u00f6nnen nicht kommen. Schreiben Sie ihm.<br><br>Schreiben Sie:<br>1. Dank f\u00fcr die Einladung.<br>2. Absage mit Grund (Elternbesuch).<br>3. Vorschlag f\u00fcr ein Treffen n\u00e4chste Woche.",
     "answer": "Lieber Ali,<br><br>vielen Dank f\u00fcr die liebe Einladung zu deiner Party am Samstag! Ich habe mich sehr gefreut, dass du an mich gedacht hast.<br><br>Leider kann ich diesmal nicht kommen. Meine Eltern kommen am Wochenende zu Besuch und wir fahren zusammen weg. Das tut mir sehr leid, ich w\u00e4re gerne dabei gewesen.<br><br>Aber vielleicht k\u00f6nnen wir uns n\u00e4chste Woche mal treffen? Ich lade dich gerne auf einen Kaffee ein. Viel Spa\u00df bei der Feier!<br><br>Liebe Gr\u00fc\u00dfe<br>Can"
   },
-  { "id": 110,
+  {
+    "id": 110,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -203,7 +204,8 @@ window.examData = [
     "task": "Sie lesen eine Anzeige f\u00fcr einen Job im Caf\u00e9. Schreiben Sie eine Bewerbung.<br><br>Inhalt:<br>1. Stellen Sie sich vor (Name, Alter).<br>2. Ihre Erfahrung in der Gastronomie.<br>3. Wann k\u00f6nnen Sie arbeiten?",
     "answer": "Betreff: Bewerbung als Aushilfskellner<br><br>Sehr geehrte Damen und Herren,<br><br>mit gro\u00dfem Interesse habe ich Ihre Anzeige in der Zeitung gelesen und m\u00f6chte mich hiermit als Kellner bei Ihnen bewerben. Mein Name ist David Smith, ich bin 24 Jahre alt und studiere hier in Berlin.<br><br>Ich bringe bereits Erfahrung mit, da ich letzten Sommer drei Monate lang in einem gro\u00dfen Restaurant in M\u00fcnchen gearbeitet habe. Ich bin sehr freundlich, zuverl\u00e4ssig und spreche flie\u00dfend Deutsch sowie Englisch.<br><br>Zeitlich bin ich flexibel und k\u00f6nnte am Wochenende sowie an zwei Abenden in der Woche arbeiten. \u00dcber eine Einladung zu einem pers\u00f6nlichen Gespr\u00e4ch w\u00fcrde ich mich sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>David Smith"
   },
-  { "id": 111,
+  {
+    "id": 111,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -211,7 +213,8 @@ window.examData = [
     "task": "Sie sind aus dem Urlaub zur\u00fcck. Schreiben Sie Ihrem Freund Stefan.<br><br>Erz\u00e4hlen Sie:<br>1. Wie war das Hotel und das Essen?<br>2. Ein Problem mit dem Mietwagen.<br>3. Schlagen Sie ein Treffen vor.",
     "answer": "Hallo Stefan,<br><br>wie geht es dir? Ich bin seit gestern zur\u00fcck aus Italien! Der Urlaub war einfach toll und ich habe mich super erholt. Unser Hotel lag direkt am Meer und das Essen war ein Traum - wir haben jeden Tag Pizza, Pasta und frischen Fisch gegessen.<br><br>Nur an einem Tag hatten wir Pech: Unser Mietwagen hatte mitten auf der Stra\u00dfe eine Panne und wir mussten zwei Stunden auf den Service warten. Aber sonst war alles perfekt.<br><br>Ich habe sehr viele Fotos gemacht. Komm doch am Sonntag zum Kaffee vorbei, dann erz\u00e4hle ich dir alles genau.<br><br>Bis bald<br>Lukas"
   },
-  { "id": 112,
+  {
+    "id": 112,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -219,7 +222,8 @@ window.examData = [
     "task": "Sie k\u00f6nnen Ihren Zahnarzttermin nicht wahrnehmen. Schreiben Sie an die Praxis.<br><br>Punkte:<br>1. Termin absagen.<br>2. Grund (Arbeit).<br>3. Bitte um einen neuen Termin n\u00e4chste Woche.",
     "answer": "Betreff: Terminabsage - Maria Kurz<br><br>Sehr geehrtes Praxisteam Dr. Weber,<br><br>ich habe morgen, am 15. Mai um 14:00 Uhr, einen Kontrolltermin bei Ihnen. Leider muss ich diesen Termin kurzfristig absagen, da ich unerwartet f\u00fcr eine kranke Kollegin einspringen und lange arbeiten muss. Es tut mir sehr leid f\u00fcr die Umst\u00e4nde.<br><br>W\u00e4re es m\u00f6glich, den Termin zu verschieben? Ich h\u00e4tte n\u00e4chste Woche am Donnerstag oder Freitag Zeit, am besten vormittags. Bitte geben Sie mir Bescheid, ob das bei Ihnen passt.<br><br>Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Bem\u00fchungen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Maria Kurz"
   },
-  { "id": 113,
+  {
+    "id": 113,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -227,7 +231,8 @@ window.examData = [
     "task": "In Ihrer Wohnung ist es sehr kalt. Schreiben Sie an den Vermieter, Herrn M\u00fcller.<br><br>Beschreiben Sie:<br>1. Was ist kaputt?<br>2. Wie kalt ist es?<br>3. Bitten Sie um sofortige Reparatur.",
     "answer": "Betreff: Dringend: Heizung defekt in Wohnung 4<br><br>Sehr geehrter Herr M\u00fcller,<br><br>ich schreibe Ihnen, weil ich leider ein gro\u00dfes Problem in meiner Wohnung habe. Die Heizung im Wohnzimmer funktioniert seit gestern Abend nicht mehr. Es ist inzwischen sehr kalt in der Wohnung, das Thermometer zeigt nur noch 16 Grad an.<br><br>K\u00f6nnen Sie bitte dringend einen Handwerker schicken? Das Problem muss schnell gel\u00f6st werden, da man so nicht hier wohnen kann. Ich bin morgen den ganzen Tag zu Hause, sodass jemand vorbeikommen k\u00f6nnte. Bitte geben Sie mir kurz Bescheid.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  { "id": 114,
+  {
+    "id": 114,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -235,7 +240,8 @@ window.examData = [
     "task": "Sie sehen ein Sofa auf Facebook. Schreiben Sie dem Verk\u00e4ufer Klaus.<br><br>Fragen Sie:<br>1. Ist es noch da?<br>2. Zustand, Alter und Ma\u00dfe?<br>3. Termin zur Abholung.",
     "answer": "Hallo Klaus,<br><br>ich habe gerade deine Anzeige f\u00fcr das graue Sofa auf Facebook gesehen. Ich suche f\u00fcr meine neue Wohnung genau so eines! Ist das Sofa noch zu haben?<br><br>Ich h\u00e4tte vorab noch ein paar Fragen: Wie alt ist das Sofa ungef\u00e4hr? Hat der Stoff Flecken oder Sch\u00e4den? Und k\u00f6nntest du mir bitte die genauen Ma\u00dfe schicken? Ich muss sicher sein, dass es in mein Auto passt.<br><br>Wenn alles passt, k\u00f6nnte ich es am Samstagvormittag abholen und bar bezahlen. Geht das bei dir?<br><br>Ich freue mich auf deine Antwort.<br><br>Viele Gr\u00fc\u00dfe<br>Ahmed"
   },
-  { "id": 115,
+  {
+    "id": 115,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -243,7 +249,8 @@ window.examData = [
     "task": "Sie m\u00f6chten kochen. Laden Sie Monika ein.<br><br>Schreiben Sie:<br>1. Was kochen Sie?<br>2. Wer kommt noch?<br>3. Bitten Sie um einen Nachtisch.",
     "answer": "Hallo Monika,<br><br>na, hast du am kommenden Samstagabend schon etwas vor? Wenn nicht, lade ich dich herzlich zum Essen bei mir ein! Ich m\u00f6chte mein neues Rezept f\u00fcr Lasagne ausprobieren und dazu mache ich einen gro\u00dfen Salat. Mark und Sarah haben auch schon zugesagt.<br><br>Ich habe allerdings eine kleine Bitte: Ich bin im Backen wirklich nicht gut. K\u00f6nntest du vielleicht einen Nachtisch mitbringen? Ein Kuchen oder ein Eis w\u00e4re super lecker.<br><br>Wir fangen so gegen 19 Uhr an. Ich freue mich auf einen lustigen Abend mit dir!<br><br>Liebe Gr\u00fc\u00dfe<br>Julia"
   },
-  { "id": 116,
+  {
+    "id": 116,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -251,7 +258,8 @@ window.examData = [
     "task": "Sie ziehen um und brauchen Hilfe. Schreiben Sie an Freunde.<br><br>Infos:<br>1. Wann und wohin ziehen Sie?<br>2. Warum brauchen Sie Hilfe?<br>3. Versprechen Sie Verpflegung (Pizza/Bier).",
     "answer": "Hallo Leute,<br><br>es gibt Neuigkeiten: Ich habe endlich eine neue Wohnung in der Goethestra\u00dfe gefunden! Der gro\u00dfe Umzug ist am n\u00e4chsten Samstag, den 15. Mai.<br><br>Da ich sehr viele schwere M\u00f6bel und Kisten habe, kann ich das alleine nicht schaffen. Ich brauche dringend eure starken Arme! K\u00f6nnt ihr mir bitte helfen? Wir starten morgens um 9 Uhr.<br><br>Als Dankesch\u00f6n bestelle ich nach der Arbeit nat\u00fcrlich Pizza f\u00fcr alle und es gibt genug Bier und Getr\u00e4nke. Es wird bestimmt lustig und nicht zu anstrengend. Bitte sagt mir Bescheid, ob ihr Zeit habt.<br><br>Danke und Gru\u00df<br>Ahmed"
   },
-  { "id": 117,
+  {
+    "id": 117,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -259,7 +267,8 @@ window.examData = [
     "task": "Sie m\u00f6chten ein Zimmer buchen. Schreiben Sie an das Hotel.<br><br>Fragen Sie:<br>1. Haben sie ein Einzelzimmer frei (Datum)?<br>2. Gibt es Parkplatz und Fr\u00fchst\u00fcck?<br>3. Bitten Sie um ein Angebot.",
     "answer": "Betreff: Buchungsanfrage f\u00fcr August<br><br>Sehr geehrte Damen und Herren,<br><br>ich plane eine Reise nach M\u00fcnchen und w\u00fcrde gerne in Ihrem Hotel \u00fcbernachten. Haben Sie f\u00fcr den Zeitraum vom 10. bis 15. August noch ein ruhiges Einzelzimmer frei?<br><br>Da ich mit dem eigenen Auto anreise, w\u00fcsste ich gerne, ob Sie einen Parkplatz haben und was dieser pro Tag kostet. Au\u00dferdem ist mir wichtig zu wissen, ob das Fr\u00fchst\u00fcck im Zimmerpreis bereits inklusive ist.<br><br>K\u00f6nnten Sie mir bitte ein unverbindliches Angebot f\u00fcr diese f\u00fcnf N\u00e4chte zuschicken? Ich freue mich auf Ihre schnelle Antwort.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>John Doe"
   },
-  { "id": 118,
+  {
+    "id": 118,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -267,7 +276,8 @@ window.examData = [
     "task": "Sie ziehen um und m\u00fcssen k\u00fcndigen.<br><br>Schreiben Sie:<br>1. Dass Sie k\u00fcndigen.<br>2. Warum (Umzug/neue Arbeit).<br>3. Bitten Sie um eine Best\u00e4tigung.",
     "answer": "Betreff: K\u00fcndigung meiner Mitgliedschaft (Nr. 123456)<br><br>Sehr geehrte Damen und Herren,<br><br>hiermit k\u00fcndige ich meinen Vertrag bei Ihrem Fitnessstudio 'Fit & Stark' fristgerecht zum n\u00e4chstm\u00f6glichen Termin. Der Grund f\u00fcr meine K\u00fcndigung ist, dass ich beruflich in eine andere Stadt ziehe und Ihr Studio daher leider nicht mehr nutzen kann.<br><br>Ich war mit dem Angebot und den Trainern immer sehr zufrieden. Bitte senden Sie mir eine schriftliche Best\u00e4tigung der K\u00fcndigung zu und teilen Sie mir das genaue Datum mit, an dem mein Vertrag endet.<br><br>Vielen Dank f\u00fcr die gute Betreuung in den letzten Jahren.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Max Mustermann"
   },
-  { "id": 119,
+  {
+    "id": 119,
     "type": "Writing",
     "level": "A2",
     "category": "Brief",
@@ -275,7 +285,8 @@ window.examData = [
     "task": "Sie haben jemanden kennengelernt. Schreiben Sie Ihrer Mutter.<br><br>Erz\u00e4hlen Sie:<br>1. Wen haben Sie getroffen und wo?<br>2. Was macht er (Beruf, Hobby)?<br>3. Wann stellen Sie ihn vor?",
     "answer": "Liebe Mama,<br><br>ich muss dir unbedingt Neuigkeiten erz\u00e4hlen: Ich habe einen neuen Freund! Er hei\u00dft Leo und wir haben uns vor zwei Wochen in meinem Spanischkurs an der Volkshochschule getroffen.<br><br>Leo ist 28 Jahre alt, arbeitet als Architekt und ist sehr sympathisch. Wir haben den gleichen Humor und lachen viel. Er geht in seiner Freizeit gerne wandern, genau wie ich. Wir wollen am Wochenende zusammen ins Kino gehen.<br><br>Ich glaube, du w\u00fcrdest ihn sehr m\u00f6gen. Wenn ich dich das n\u00e4chste Mal besuche, erz\u00e4hle ich dir noch mehr von ihm.<br><br>Liebe Gr\u00fc\u00dfe<br>Deine Tochter Ana"
   },
-  { "id": 120,
+  {
+    "id": 120,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -283,7 +294,8 @@ window.examData = [
     "task": "Sie haben eine Kaffeemaschine bestellt, die defekt ankam. Schreiben Sie eine Beschwerde.<br><br>Inhalt:<br>1. Was haben Sie bestellt und wann?<br>2. Beschreiben Sie die M\u00e4ngel genau.<br>3. Fordern Sie Umtausch oder Geld zur\u00fcck.",
     "answer": "Betreff: Reklamation zu Bestellung Nr. 98765 \u2013 Defekte Kaffeemaschine<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe vor drei Tagen in Ihrem Online-Shop eine Kaffeemaschine der Marke 'BaristaPro' bestellt, die gestern bei mir geliefert wurde. Leider musste ich beim Auspacken feststellen, dass das Ger\u00e4t defekt ist. Der Wassertank hat einen gro\u00dfen Riss und das Display an der Vorderseite ist stark zerkratzt.<br><br>Da ich die Maschine dringend als Geschenk brauche, bin ich sehr entt\u00e4uscht \u00fcber die schlechte Qualit\u00e4t. Ich m\u00f6chte das Ger\u00e4t so nicht behalten.<br><br>Ich bitte Sie daher, mir umgehend ein kostenloses Retourenlabel zuzusenden und die defekte Maschine gegen ein neues, einwandfreies Ger\u00e4t umzutauschen. Sollte das nicht m\u00f6glich sein, erwarte ich die R\u00fcckerstattung des Kaufpreises.<br><br>Bitte best\u00e4tigen Sie mir den Eingang dieser Reklamation schriftlich.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Klein"
   },
-  { "id": 121,
+  {
+    "id": 121,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -291,7 +303,8 @@ window.examData = [
     "task": "Sie waren auf einem Musikfestival. Schreiben Sie einen Blogeintrag.<br><br>Berichten Sie:<br>1. Wie war die Stimmung und das Zelten?<br>2. Was war das Highlight (Band)?<br>3. Was war negativ (Preise/Hygiene)?",
     "answer": "<strong>Mein unvergessliches Wochenende beim 'Rock am Ring'!</strong><br><br>Hallo Leute! Endlich habe ich Zeit, euch von meinem Wochenende zu berichten. Ich war zum ersten Mal auf dem Rock-Festival und es war der absolute Wahnsinn! Wir haben auf dem Campingplatz gezeltet und die Stimmung dort war einfach super, alle waren gut drauf.<br><br>Das absolute Highlight war der Auftritt meiner Lieblingsband am Samstagabend. Die Lichtshow war spektakul\u00e4r und tausende Menschen haben laut mitgesungen. Das war G\u00e4nsehaut pur!<br><br>Es gab aber auch negative Seiten: Das Essen auf dem Gel\u00e4nde war extrem teuer und die Toiletten waren leider oft nicht sehr sauber. Aber die tolle Musik hat das alles wieder gutgemacht.<br><br>Ich kann so ein Festival nur jedem empfehlen! Wart ihr auch schon mal dort? Schreibt es mir!<br><br>Euer Tom"
   },
-  { "id": 122,
+  {
+    "id": 122,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -299,7 +312,8 @@ window.examData = [
     "task": "Sie nehmen an einer Diskussion \u00fcber gesunde Ern\u00e4hrung teil.<br><br>Schreiben Sie:<br>1. Wie ern\u00e4hren Sie sich?<br>2. Ihre Meinung zu Bio-Produkten (Vorteile/Nachteile).<br>3. Fazit: Ist gesundes Essen zu teuer?",
     "answer": "<strong>Thema: Ist gesunde Ern\u00e4hrung heute noch bezahlbar?</strong><br><br>Hallo zusammen, ich verfolge die Diskussion hier schon l\u00e4nger und finde das Thema sehr wichtig. Ich pers\u00f6nlich versuche, mich gesund zu ern\u00e4hren, esse viel Obst und Gem\u00fcse und koche fast t\u00e4glich frisch, weil mir das gut tut.<br><br>Ich kaufe auch gerne Bio-Produkte, weil ich \u00fcberzeugt bin, dass sie besser schmecken und ges\u00fcnder sind. Allerdings sehe ich auch das Problem: Bio ist oft sehr teuer. Nicht jede Familie kann es sich leisten, nur im Bioladen einzukaufen. Das finde ich sehr schade und ungerecht.<br><br>Meiner Meinung nach sollte gesundes Essen f\u00fcr alle Menschen bezahlbar sein. Der Staat m\u00fcsste hier vielleicht helfen. Was denkt ihr? Ist Bio notwendig oder nur Geldverschwendung?<br><br>Viele Gr\u00fc\u00dfe<br>Lukas"
   },
-  { "id": 123,
+  {
+    "id": 123,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -307,7 +321,8 @@ window.examData = [
     "task": "Sie schreiben eine Initiativbewerbung f\u00fcr ein Praktikum. Schreiben Sie an Frau Bergmann.<br><br>Punkte:<br>1. Wer sind Sie (Studium/Interesse)?<br>2. Welche Erfahrungen haben Sie (Blog/Social Media)?<br>3. Wann haben Sie Zeit?",
     "answer": "Betreff: Initiativbewerbung f\u00fcr ein Praktikum im Marketing<br><br>Sehr geehrte Frau Bergmann,<br><br>ich studiere derzeit Betriebswirtschaftslehre im 4. Semester und interessiere mich sehr f\u00fcr den Bereich Online-Marketing. Da ich die erfolgreichen Kampagnen Ihrer Agentur schon lange verfolge, m\u00f6chte ich mich hiermit initiativ um ein Praktikum bei Ihnen bewerben.<br><br>Neben meinem Studium betreibe ich einen eigenen Reise-Blog und habe dadurch bereits praktische Erfahrungen mit Social Media Management und Content Creation gesammelt. Ich bin ein sehr kreativer Mensch, arbeite gerne im Team und lerne schnell neue Dinge.<br><br>Ich h\u00e4tte im Zeitraum vom 1. August bis zum 30. Oktober Zeit, Sie tatkr\u00e4ftig zu unterst\u00fctzen. Gerne stelle ich mich Ihnen in einem pers\u00f6nlichen Gespr\u00e4ch vor und w\u00fcrde mich \u00fcber eine positive R\u00fcckmeldung sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Demir"
   },
-  { "id": 124,
+  {
+    "id": 124,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -315,7 +330,8 @@ window.examData = [
     "task": "Sie haben im Deutschkurs gefehlt. Schreiben Sie an den Lehrer.<br><br>Erkl\u00e4ren Sie:<br>1. Warum Sie gefehlt haben (Notfall).<br>2. Dass Sie wieder kommen.<br>3. Fragen Sie nach Hausaufgaben und verpasstem Stoff.",
     "answer": "Sehr geehrter Herr Koch,<br><br>bitte entschuldigen Sie vielmals, dass ich gestern und heute nicht am Deutschunterricht teilnehmen konnte. Es gab leider einen unerwarteten Notfall in meiner Familie, weshalb ich dringend f\u00fcr zwei Tage verreisen musste. Ab morgen werde ich wieder wie gewohnt am Kurs teilnehmen.<br><br>Da ich den Unterrichtsstoff der letzten zwei Tage verpasst habe, mache ich mir Sorgen, den Anschluss zu verlieren. K\u00f6nnten Sie mir bitte kurz mitteilen, welche Themen Sie behandelt haben und was die Hausaufgaben f\u00fcr morgen sind?<br><br>Ich werde versuchen, alles heute Abend noch selbstst\u00e4ndig nachzuholen. Vielen Dank f\u00fcr Ihr Verst\u00e4ndnis und Ihre Unterst\u00fctzung.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Elena Popov"
   },
-  { "id": 125,
+  {
+    "id": 125,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -323,7 +339,8 @@ window.examData = [
     "task": "Ihr Kollege Thomas wurde bef\u00f6rdert. Schreiben Sie ihm.<br><br>Inhalt:<br>1. Gratulieren Sie herzlich.<br>2. Warum hat er es verdient (Lob)?<br>3. Schlagen Sie eine Feier vor.",
     "answer": "Lieber Thomas,<br><br>ich habe gerade die fantastischen Neuigkeiten geh\u00f6rt: Herzlichen Gl\u00fcckwunsch zu deiner Bef\u00f6rderung zum Abteilungsleiter! Das ist ja gro\u00dfartig! Ich habe mich riesig f\u00fcr dich gefreut, als ich davon erfahren habe.<br><br>Du hast diese Position wirklich verdient. Du arbeitest immer so hart, bist fachlich top und motivierst das ganze Team, auch wenn es mal stressig wird. Dein Einsatz in den letzten Jahren hat sich endlich ausgezahlt.<br><br>Diesen Erfolg m\u00fcssen wir unbedingt feiern! Hast du morgen Abend Zeit? Ich w\u00fcrde dich gerne auf ein Bier oder einen Wein einladen. Lass uns gemeinsam auf deinen neuen Job ansto\u00dfen!<br><br>Viele Gr\u00fc\u00dfe und bis morgen<br>Markus"
   },
-  { "id": 126,
+  {
+    "id": 126,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -331,7 +348,8 @@ window.examData = [
     "task": "Sie organisieren eine Abschiedsparty f\u00fcr Sarah. Schreiben Sie an Freunde.<br><br>Planen Sie:<br>1. Wann und wo (Garten/Grillen)?<br>2. Wer bringt Essen/Getr\u00e4nke mit?<br>3. Geschenkideen?",
     "answer": "Hallo zusammen,<br><br>wie ihr wisst, geht unsere liebe Sarah bald f\u00fcr ein Jahr nach Australien. Deshalb wollen wir am n\u00e4chsten Freitag eine gro\u00dfe Abschiedsparty f\u00fcr sie organisieren. Wir k\u00f6nnen im gro\u00dfen Garten meiner Schwester feiern und dort grillen.<br><br>Ich brauche aber eure Hilfe bei der Planung: Wer von euch kann Salate oder Brot mitbringen? Und wer k\u00fcmmert sich um die Getr\u00e4nke? Ich besorge das Fleisch und die W\u00fcrstchen.<br><br>Au\u00dferdem brauchen wir noch ein sch\u00f6nes Abschiedsgeschenk f\u00fcr sie. Vielleicht einen Reisef\u00fchrer oder ein Fotobuch von uns allen? Habt ihr noch andere Ideen? Bitte meldet euch schnell, damit wir alles rechtzeitig planen k\u00f6nnen.<br><br>Liebe Gr\u00fc\u00dfe<br>Jan"
   },
-  { "id": 127,
+  {
+    "id": 127,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -339,7 +357,8 @@ window.examData = [
     "task": "Ihr Nachbar Herr Schmidt ist sehr laut. Schreiben Sie einen Brief.<br><br>Beschreiben Sie:<br>1. Die St\u00f6rung (Musik/Nachts).<br>2. Ihre Situation (Fr\u00fch aufstehen).<br>3. Bitten Sie h\u00f6flich um Ruhe.",
     "answer": "Sehr geehrter Herr Schmidt,<br><br>ich wende mich heute mit einer Bitte an Sie. Wir wohnen nun schon lange im selben Haus, aber leider ist es in letzter Zeit abends und nachts oft sehr laut bei Ihnen. Die laute Musik und die Gespr\u00e4che st\u00f6ren mich sehr.<br><br>Da ich beruflich jeden Morgen um 5:30 Uhr aufstehen muss, brauche ich meinen Schlaf und bin momentan tags\u00fcber sehr m\u00fcde. Die W\u00e4nde hier sind leider sehr d\u00fcnn.<br><br>Ich verstehe nat\u00fcrlich, dass man mal feiern m\u00f6chte, aber ich bitte Sie h\u00f6flich, die Musik ab 22:00 Uhr auf Zimmerlautst\u00e4rke zu stellen, so wie es auch in der Hausordnung steht. Ich hoffe auf Ihr Verst\u00e4ndnis und weiterhin gute Nachbarschaft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Klaus Meyer"
   },
-  { "id": 128,
+  {
+    "id": 128,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -347,7 +366,8 @@ window.examData = [
     "task": "Sie wurden zur Hochzeit eingeladen und sagen zu. Schreiben Sie an Anna und Peter.<br><br>Schreiben Sie:<br>1. Freude \u00fcber die Einladung.<br>2. Dass Sie kommen (mit Begleitung).<br>3. Fragen Sie nach einer Hotelempfehlung.",
     "answer": "Liebe Anna, lieber Peter,<br><br>vielen, vielen Dank f\u00fcr die wundersch\u00f6ne Einladungskarte zu eurer Hochzeit! Ich habe mich riesig gefreut, als ich sie im Briefkasten gefunden habe. Endlich ist es soweit!<br><br>Nat\u00fcrlich komme ich sehr gerne, um diesen besonderen Tag mit euch zu feiern. Ich werde nicht alleine kommen, sondern meine Freundin Lisa mitbringen, die ihr ja auch gut kennt. Wir freuen uns schon sehr auf das Fest.<br><br>Eine kleine Frage haben wir noch: Da wir ja von weiter her anreisen, brauchen wir eine Unterkunft. K\u00f6nnt ihr uns vielleicht ein nettes Hotel in der N\u00e4he der Feierlocation empfehlen? Das w\u00e4re super.<br><br>Herzliche Gr\u00fc\u00dfe<br>Michael"
   },
-  { "id": 129,
+  {
+    "id": 129,
     "type": "Writing",
     "level": "B1",
     "category": "Brief",
@@ -355,7 +375,8 @@ window.examData = [
     "task": "Ihr Freund war in Portugal. Fragen Sie ihn nach Tipps.<br><br>Fragen Sie:<br>1. Wie das Wetter im September ist.<br>2. Ob man einen Mietwagen braucht.<br>3. Was man unbedingt sehen muss.",
     "answer": "Hallo Dennis,<br><br>ich habe deine tollen Urlaubsfotos aus Portugal auf Instagram gesehen. Das sieht ja absolut traumhaft aus dort! Ich plane, im September auch dorthin zu fliegen und wollte dich um ein paar Tipps bitten.<br><br>Wei\u00dft du, wie das Wetter im September ist? Ist es da noch warm genug, um im Meer zu baden? Und wie habt ihr das mit dem Transport gemacht? Lohnt es sich, einen Mietwagen zu nehmen, um flexibel zu sein, oder sind die Busverbindungen gut?<br><br>Was war dein absolutes Highlight? Gibt es einen Ort oder Strand, den ich unbedingt sehen muss? Ich w\u00fcrde mich sehr \u00fcber deine Antworten freuen!<br><br>Viele Gr\u00fc\u00dfe<br>Timo"
   },
-  { "id": 130,
+  {
+    "id": 130,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -363,7 +384,8 @@ window.examData = [
     "task": "Ihr Urlaub war eine Katastrophe. Schreiben Sie an den Veranstalter.<br><br>Details:<br>1. Zimmer nicht wie gebucht (laut/schmutzig).<br>2. Essen mangelhaft.<br>3. Reiseleitung hat nicht geholfen.<br>4. Forderung nach Entsch\u00e4digung.",
     "answer": "Betreff: Beschwerde zur Reise nach Mallorca (Buchungsnummer: XY123)<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe meinen Urlaub im Hotel 'Seeblick' bei Ihnen gebucht, doch leider war dieser Aufenthalt eine gro\u00dfe Entt\u00e4uschung. Nichts entsprach der Beschreibung in Ihrem Katalog. Das Zimmer war bei Ankunft schmutzig und lag direkt \u00fcber einer Diskothek, sodass es bis 3 Uhr nachts extrem laut war. An Schlaf war nicht zu denken.<br><br>Auch das Essen war mangelhaft: Das Buffet war oft leer und die Speisen kalt. Als ich mich bei Ihrer Reiseleitung vor Ort beschwerte, wurde ich unfreundlich abgewiesen und erhielt keinerlei Unterst\u00fctzung.<br><br>Da diese M\u00e4ngel meinen Urlaub massiv beeintr\u00e4chtigt haben, ist dies f\u00fcr mich nicht akzeptabel. Ich fordere Sie auf, mir 30% des Reisepreises zu erstatten. Bitte \u00fcberweisen Sie den Betrag bis zum 30. Juli auf mein Konto.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Monika Muster"
   },
-  { "id": 131,
+  {
+    "id": 131,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -371,7 +393,8 @@ window.examData = [
     "task": "Sie bewerben sich f\u00fcr einen Master 'International Management'.<br><br>Begr\u00fcnden Sie:<br>1. Ihr Interesse an globalen M\u00e4rkten.<br>2. Warum dieses Programm (Praxisbezug/Englisch)?<br>3. Ihre Berufsziele (Manager).<br>4. Warum Sie geeignet sind.",
     "answer": "Sehr geehrte Damen und Herren,<br><br>hiermit bewerbe ich mich engagiert um einen Studienplatz im Masterstudiengang 'International Management' an Ihrer Universit\u00e4t. Nach meinem erfolgreichen Bachelorabschluss in BWL m\u00f6chte ich mich nun gezielt auf internationale Wirtschaftsbeziehungen spezialisieren.<br><br>Ihr Masterprogramm spricht mich besonders an, da es eine perfekte Kombination aus akademischer Theorie und Praxisbezug bietet. Vor allem die englischsprachigen Seminare und die Kooperationen mit globalen Unternehmen finde ich \u00e4u\u00dferst attraktiv. Mein klares berufliches Ziel ist es, in Zukunft als Manager in einem international t\u00e4tigen Konzern Verantwortung zu \u00fcbernehmen.<br><br>Ich bin \u00fcberzeugt, dass Ihr Studium mich optimal auf diese Herausforderungen vorbereitet. Ich bin hochmotiviert, leistungsbereit und freue mich darauf, mich fachlich weiterzuentwickeln. \u00dcber eine Zusage w\u00fcrde ich mich sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Ali Yilmaz"
   },
-  { "id": 132,
+  {
+    "id": 132,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -379,7 +402,8 @@ window.examData = [
     "task": "Diskutieren Sie \u00fcber Vor- und Nachteile von Homeoffice.<br><br>Punkte:<br>1. Vorteile (Zeit/Konzentration).<br>2. Nachteile (soziale Isolation/Ideen).<br>3. Ihr Vorschlag f\u00fcr die Zukunft (Hybrid).",
     "answer": "<strong>Thema: Die Zukunft der Arbeit - Segen oder Fluch?</strong><br><br>Liebe Kolleginnen und Kollegen, ich m\u00f6chte gerne meine Meinung zur aktuellen Diskussion \u00fcber das Homeoffice teilen. F\u00fcr mich pers\u00f6nlich \u00fcberwiegen die Vorteile deutlich: Der Wegfall des t\u00e4glichen Pendelns spart nicht nur viel Zeit und Nerven, sondern schont auch die Umwelt. Zudem kann ich zu Hause an komplexen Aufgaben oft viel konzentrierter arbeiten als im lauten Gro\u00dfraumb\u00fcro.<br><br>Nat\u00fcrlich sehe ich auch die Risiken. Der pers\u00f6nliche Kontakt zum Team fehlt, man f\u00fchlt sich manchmal isoliert und kreative Ideen entstehen oft eher im direkten Gespr\u00e4ch. Ein reines Homeoffice kann auf Dauer einsam machen.<br><br>Deshalb pl\u00e4diere ich f\u00fcr eine hybride L\u00f6sung: Zwei bis drei Tage B\u00fcro f\u00fcr Meetings und Austausch, den Rest der Woche flexible Arbeit von zu Hause. Das w\u00e4re f\u00fcr mich das ideale Modell.<br><br>Beste Gr\u00fc\u00dfe<br>Lukas"
   },
-  { "id": 133,
+  {
+    "id": 133,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -387,7 +411,8 @@ window.examData = [
     "task": "Sie hatten einen Fahrradunfall. Melden Sie den Schaden der Versicherung.<br><br>Berichten Sie:<br>1. Unfallhergang (Vorfahrt genommen).<br>2. Schuldfrage (Zeugen/zugegeben).<br>3. Schaden am Fahrrad.<br>4. Weiteres Vorgehen (Kostenvoranschlag).",
     "answer": "Betreff: Schadensmeldung Unfall am 12.05. (Vers.-Nr. 456-789)<br><br>Sehr geehrte Damen und Herren,<br><br>ich melde hiermit einen Unfall, der sich gestern gegen 17:30 Uhr ereignete. Ich war mit meinem Fahrrad auf dem Radweg unterwegs, als ein PKW aus einer Ausfahrt kam und mir die Vorfahrt nahm. Ich musste eine Vollbremsung machen und bin gest\u00fcrzt.<br><br>Der Autofahrer hat seine Schuld vor Ort sofort zugegeben. Es gibt zudem einen Zeugen, Herrn M\u00fcller, der den Vorfall beobachtet hat. Gl\u00fccklicherweise wurde ich nicht verletzt, aber mein Fahrrad ist stark besch\u00e4digt: Das Vorderrad ist verbogen und die Schaltung defekt.<br><br>Ich werde das Fahrrad morgen in eine Fachwerkstatt bringen und Ihnen den Kostenvoranschlag umgehend zusenden. Bitte informieren Sie mich \u00fcber die weiteren Schritte zur Regulierung des Schadens.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Jan M\u00fcller"
   },
-  { "id": 134,
+  {
+    "id": 134,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -395,7 +420,8 @@ window.examData = [
     "task": "Sie verlassen die Firma und bitten den Chef um ein Zeugnis.<br><br>Inhalt:<br>1. Dank f\u00fcr die Zusammenarbeit.<br>2. Bitte um Zeugnis f\u00fcr Bewerbungen.<br>3. Fristsetzung.<br>4. Wichtige Inhalte (Projekte).",
     "answer": "Sehr geehrter Herr Direktor,<br><br>wie Sie wissen, werde ich das Unternehmen Ende des Monats auf eigenen Wunsch verlassen, um mich neuen Aufgaben zu widmen. Ich m\u00f6chte mich an dieser Stelle herzlich f\u00fcr die vertrauensvolle Zusammenarbeit und die Chancen in den letzten drei Jahren bedanken.<br><br>Da ich mich bereits in aktuellen Bewerbungsprozessen befinde, ben\u00f6tige ich zeitnah ein qualifiziertes Arbeitszeugnis. W\u00e4re es Ihnen m\u00f6glich, mir dieses bis zum 25. Mai auszustellen? Das w\u00fcrde mir sehr helfen.<br><br>Besonders wichtig w\u00e4re mir, dass meine erfolgreiche Leitung des Projekts 'Digitalisierung' und meine Kenntnisse im Online-Marketing darin Erw\u00e4hnung finden. Vielen Dank f\u00fcr Ihre Unterst\u00fctzung.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Wolf"
   },
-  { "id": 135,
+  {
+    "id": 135,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -403,7 +429,8 @@ window.examData = [
     "task": "Sie lehnen ein Jobangebot h\u00f6flich ab.<br><br>Gr\u00fcnde:<br>1. Dank f\u00fcr das Angebot und Gespr\u00e4ch.<br>2. Entscheidung f\u00fcr andere Firma.<br>3. Grund (passt besser zu Zielen).<br>4. Gute W\u00fcnsche.",
     "answer": "Sehr geehrte Frau Stein,<br><br>vielen Dank f\u00fcr Ihr freundliches Jobangebot und das sehr angenehme Vorstellungsgespr\u00e4ch in der letzten Woche. Ich habe mich sehr \u00fcber Ihr Vertrauen und die angebotene Position gefreut.<br><br>Ich habe mir die Entscheidung nicht leicht gemacht, da mir Ihr Unternehmen sehr gut gefallen hat. Dennoch muss ich Ihnen heute mitteilen, dass ich mich f\u00fcr ein anderes Angebot entschieden habe. Diese Stelle passt momentan inhaltlich noch etwas besser zu meinen langfristigen Karrierezielen und meiner pers\u00f6nlichen Entwicklung.<br><br>Ich bitte um Ihr Verst\u00e4ndnis f\u00fcr meine Entscheidung. Ich w\u00fcnsche Ihnen und Ihrem Team weiterhin viel Erfolg und alles Gute f\u00fcr die Zukunft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Michael Bauer"
   },
-  { "id": 136,
+  {
+    "id": 136,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -411,7 +438,8 @@ window.examData = [
     "task": "Sie bewerben sich f\u00fcr ein Praktikum im Ausland.<br><br>Punkte:<br>1. Wer sind Sie (Student Informatik)?<br>2. Warum dieses Unternehmen (KI-L\u00f6sungen)?<br>3. Ihre Skills (Java/Englisch).<br>4. Verf\u00fcgbarkeit.",
     "answer": "Sehr geehrte Damen und Herren,<br><br>ich studiere Informatik an der TU M\u00fcnchen und verfolge die Entwicklung Ihres Unternehmens in London schon lange mit gro\u00dfem Interesse. Besonders Ihre innovativen Projekte im Bereich der K\u00fcnstlichen Intelligenz faszinieren mich. Deshalb bewerbe ich mich hiermit initiativ um ein Auslandspraktikum in Ihrer Entwicklungsabteilung.<br><br>Ich verf\u00fcge \u00fcber sehr gute Kenntnisse in Java und Python und habe als Werkstudent bereits praktische Erfahrung in der App-Entwicklung gesammelt. Zudem spreche ich flie\u00dfend Englisch und arbeite sehr gerne in internationalen Teams.<br><br>Ein Praktikum bei Ihnen w\u00e4re mein absoluter Traum, um meine F\u00e4higkeiten zu erweitern. Ich stehe ab September f\u00fcr einen Zeitraum von sechs Monaten zur Verf\u00fcgung und w\u00fcrde mich \u00fcber eine positive R\u00fcckmeldung sehr freuen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Denis Weber"
   },
-  { "id": 137,
+  {
+    "id": 137,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -419,7 +447,8 @@ window.examData = [
     "task": "Das Projekt ist zu Ende. Schreiben Sie dem Team.<br><br>Inhalt:<br>1. Danke f\u00fcr den Einsatz.<br>2. Lob f\u00fcr den Zusammenhalt.<br>3. Kritik am Zeitmanagement (\u00dcberstunden).<br>4. Positiver Ausblick.",
     "answer": "Liebes Projektteam,<br><br>es ist geschafft: Unser Projekt 'Website Relaunch' ist erfolgreich abgeschlossen! Ich m\u00f6chte diesen Moment nutzen, um euch allen f\u00fcr euren gro\u00dfartigen Einsatz in den letzten Wochen zu danken.<br><br>Besonders toll fand ich den Zusammenhalt und die Stimmung im Team. Auch als es Probleme gab, haben wir uns gegenseitig unterst\u00fctzt und L\u00f6sungen gefunden. Einen Punkt m\u00fcssen wir allerdings beim n\u00e4chsten Mal verbessern: unser Zeitmanagement. Da wir zu sp\u00e4t angefangen haben, mussten wir am Ende viele stressige \u00dcberstunden machen. Das sollten wir in Zukunft besser planen.<br><br>Ich bin trotzdem sehr stolz auf unser Ergebnis und freue mich schon auf die n\u00e4chste Zusammenarbeit mit euch!<br><br>Viele Gr\u00fc\u00dfe<br>Maria"
   },
-  { "id": 138,
+  {
+    "id": 138,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -427,7 +456,8 @@ window.examData = [
     "task": "Ein Kollege ist sauer, weil Sie ein Meeting verpasst haben.<br><br>Erkl\u00e4ren Sie:<br>1. Es war keine Absicht.<br>2. Grund (Krankheit/Mail \u00fcbersehen).<br>3. Sie haben sich informiert.<br>4. Einladung zur Wiedergutmachung.",
     "answer": "Hallo Peter,<br><br>ich habe geh\u00f6rt, dass du ver\u00e4rgert bist, weil ich gestern nicht zu unserem Meeting erschienen bin. Das tut mir wahnsinnig leid, aber es war wirklich ein bl\u00f6des Missverst\u00e4ndnis. Ich war die letzten zwei Tage krank und habe deshalb die E-Mail mit der kurzfristigen Termin\u00e4nderung gar nicht gesehen.<br><br>Es war absolut keine Absicht, dich warten zu lassen. Ich habe mir die Unterlagen inzwischen angesehen und bin wieder auf dem aktuellen Stand. Um meinen Fehler wiedergutzumachen, m\u00f6chte ich dich heute Nachmittag gerne auf einen Kaffee und ein St\u00fcck Kuchen einladen. Dann k\u00f6nnen wir alles kurz besprechen.<br><br>Bis dann<br>Stefan"
   },
-  { "id": 139,
+  {
+    "id": 139,
     "type": "Writing",
     "level": "B2",
     "category": "Brief",
@@ -435,7 +465,8 @@ window.examData = [
     "task": "Schlagen Sie dem Chef einen Ausflug vor.<br><br>Idee:<br>1. Kletterwald.<br>2. Warum gut (Teambuilding/Spa\u00df)?<br>3. Kosten und Anreise.<br>4. Alternativen f\u00fcr Nicht-Kletterer.",
     "answer": "Sehr geehrter Herr M\u00fcller,<br><br>f\u00fcr den anstehenden Betriebsausflug habe ich einen Vorschlag: Wie w\u00e4re es mit einem gemeinsamen Tag im Kletterwald? Ich denke, das w\u00e4re eine hervorragende Abwechslung zum B\u00fcroalltag und sehr gut f\u00fcr das Teambuilding.<br><br>Der Eintritt kostet ca. 25 Euro pro Person, was gut in unser Budget passt. Zudem ist der Park schnell und einfach mit der S-Bahn erreichbar. F\u00fcr Kolleginnen und Kollegen, die nicht klettern m\u00f6chten, gibt es dort auch sch\u00f6ne Wanderwege und ein gem\u00fctliches Waldcaf\u00e9.<br><br>Ich w\u00fcrde mich freuen, wenn Sie meinen Vorschlag in Betracht ziehen. Gerne kann ich die weitere Organisation \u00fcbernehmen.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Anja Schneider"
   },
-  { "id": 140,
+  {
+    "id": 140,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -443,7 +474,8 @@ window.examData = [
     "task": "Sie lesen einen Artikel, der behauptet, Tablets an Schulen w\u00fcrden Sch\u00fcler d\u00fcmmer machen. Schreiben Sie einen differenzierten Leserbrief.<br><br>Punkte:<br>1. Ihre Meinung zur These.<br>2. Vorteile digitaler Medien (Zugang zu Wissen, Medienkompetenz).<br>3. Risiken (Ablenkung) und wie man damit umgeht.<br>4. Fazit: Die Mischung macht's.",
     "answer": "Sehr geehrte Redaktion,<br><br>mit gro\u00dfem Interesse habe ich Ihren Artikel 'Machen Tablets unsere Kinder dumm?' gelesen. Die dort vertretene These, dass digitale Medien per se sch\u00e4dlich f\u00fcr den Lernerfolg seien, kann ich so nicht unwidersprochen stehen lassen. Als Vater zweier schulpflichtiger Kinder erlebe ich t\u00e4glich, welche Chancen die Digitalisierung bietet.<br><br>Richtig eingesetzt, erm\u00f6glichen Tablets einen individuellen Zugang zu Wissen, der mit klassischen Schulb\u00fcchern kaum m\u00f6glich ist. Interaktive Lern-Apps k\u00f6nnen komplexe Sachverhalte oft anschaulicher vermitteln und die Motivation der Sch\u00fcler steigern. Zudem ist Medienkompetenz in unserer heutigen Berufswelt eine Schl\u00fcsselqualifikation, die Schule vermitteln muss.<br><br>Nat\u00fcrlich darf man die Risiken nicht ignorieren. Die Gefahr der Ablenkung durch Spiele oder soziale Medien ist real. Doch die L\u00f6sung kann nicht sein, die Technik zu verbannen, sondern sinnvolle p\u00e4dagogische Konzepte zu entwickeln. Lehrer m\u00fcssen geschult werden, digitale Tools didaktisch wertvoll einzusetzen.<br><br>Mein Fazit lautet daher: Nicht das Ger\u00e4t ist das Problem, sondern die Art der Nutzung. Eine gesunde Mischung aus analogen und digitalen Lernmethoden ist der Weg in die Zukunft.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Thomas Weber"
   },
-  { "id": 141,
+  {
+    "id": 141,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -451,7 +483,8 @@ window.examData = [
     "task": "Schreiben Sie einen Essay \u00fcber die Verantwortung des Einzelnen beim Klimawandel.<br><br>Diskutieren Sie:<br>1. Kann der Einzelne \u00fcberhaupt etwas bewirken?<br>2. Die Rolle der Politik vs. Konsumenten.<br>3. Beispiele (Fliegen, Fleischkonsum).<br>4. Ihre pers\u00f6nliche Schlussfolgerung.",
     "answer": "<strong>Klimawandel: Ist mein Verzicht sinnlos?</strong><br><br>Die Debatte um den Klimawandel wird oft emotional gef\u00fchrt. Immer wieder stellt sich die Frage: Was bringt es eigentlich, wenn ich als Einzelner auf Fleisch verzichte oder nicht fliege, w\u00e4hrend die Industrie weiter CO2 ausst\u00f6\u00dft? Ist individueller Verzicht nur ein Tropfen auf den hei\u00dfen Stein?<br><br>Ich bin der Meinung, dass diese Sichtweise zu kurz greift. Nat\u00fcrlich braucht es gro\u00dfe politische Rahmenbedingungen und globale Abkommen, um den Klimawandel effektiv zu stoppen. Die Politik muss Regeln setzen, die umweltfreundliches Verhalten belohnen.<br><br>Doch Politik und Wirtschaft reagieren auf den Druck der Gesellschaft. Jeder Kassenzettel ist auch ein Stimmzettel. Wenn immer mehr Menschen weniger Fleisch essen oder auf die Bahn umsteigen, \u00e4ndert sich das Angebot. Konsumenten haben also durchaus Macht. Zudem hat unser Handeln eine Vorbildfunktion f\u00fcr andere.<br><br>Es geht nicht darum, perfekt zu sein, sondern darum, Verantwortung f\u00fcr den eigenen \u00f6kologischen Fu\u00dfabdruck zu \u00fcbernehmen. Wenn jeder wartet, bis der andere anf\u00e4ngt, wird sich nie etwas \u00e4ndern. Wir brauchen beides: Systemwandel und individuelles Umdenken.<br><br>Max Mustermann"
   },
-  { "id": 142,
+  {
+    "id": 142,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -459,7 +492,8 @@ window.examData = [
     "task": "Sie haben eine Ank\u00fcndigung zur Mieterh\u00f6hung erhalten, die Sie f\u00fcr ungerechtfertigt halten. Schreiben Sie an die Hausverwaltung.<br><br>Argumentieren Sie:<br>1. Bezug auf das Schreiben.<br>2. M\u00e4ngel in der Wohnung (Schimmel, undichte Fenster).<br>3. Vergleich zum Mietspiegel.<br>4. Ablehnung der Erh\u00f6hung und Gespr\u00e4chsangebot.",
     "answer": "Betreff: Widerspruch gegen Mieterh\u00f6hung f\u00fcr Wohnung Nr. 12<br><br>Sehr geehrte Damen und Herren,<br><br>ich beziehe mich auf Ihr Schreiben vom 20. Januar, in dem Sie eine Erh\u00f6hung meiner monatlichen Kaltmiete um 15% ank\u00fcndigen. Nach eingehender Pr\u00fcfung und Beratung muss ich Ihnen mitteilen, dass ich dieser Mieterh\u00f6hung in der vorliegenden Form widerspreche.<br><br>Zum einen verweisen Sie auf Modernisierungsma\u00dfnahmen, die in meiner Wohnung faktisch nicht stattgefunden haben. Im Gegenteil: Wie ich Ihnen bereits mehrfach schriftlich gemeldet habe, sind die Fenster im Schlafzimmer seit Monaten undicht und es bildet sich regelm\u00e4\u00dfig Feuchtigkeit an den Au\u00dfenw\u00e4nden. Diese M\u00e4ngel wurden bisher nicht beseitigt.<br><br>Zum anderen liegt die von Ihnen geforderte neue Miete deutlich \u00fcber dem aktuellen \u00f6rtlichen Mietspiegel f\u00fcr vergleichbare Wohnungen in diesem Viertel. Eine Erh\u00f6hung in diesem Umfang ist daher rechtlich nicht haltbar.<br><br>Ich zahle die Miete weiterhin unter Vorbehalt in der bisherigen H\u00f6he. Ich bin jedoch bereit, mich mit Ihnen zu einem kl\u00e4renden Gespr\u00e4ch zu treffen, um eine einvernehmliche L\u00f6sung zu finden, sobald die M\u00e4ngel behoben sind.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Sabine Wolf"
   },
-  { "id": 143,
+  {
+    "id": 143,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -467,7 +501,8 @@ window.examData = [
     "task": "Sie bewerben sich um ein Stipendium f\u00fcr Hochbegabte.<br><br>Dartsellung:<br>1. Wer sind Sie und was studieren Sie?<br>2. Ihre akademischen Leistungen und Engagement.<br>3. Warum brauchen Sie die F\u00f6rderung?<br>4. Ziele f\u00fcr die Zukunft.",
     "answer": "Sehr geehrte Damen und Herren des Auswahlkomitees,<br><br>mit diesem Schreiben m\u00f6chte ich mich um ein Stipendium Ihrer Stiftung bewerben. Als Studentin der Humanmedizin im 6. Semester habe ich nicht nur exzellente akademische Leistungen erbracht, sondern engagiere mich auch weit \u00fcber das Studium hinaus gesellschaftlich.<br><br>Mein Notendurchschnitt liegt derzeit bei 1,2. Neben dem anspruchsvollen Studium arbeite ich ehrenamtlich in einer Einrichtung f\u00fcr obdachlose Menschen, wo ich medizinische Basisversorgung unterst\u00fctze. Diese Arbeit hat mir gezeigt, wie wichtig soziale Verantwortung f\u00fcr angehende \u00c4rzte ist.<br><br>Da ich aus einer Arbeiterfamilie stamme und mein Studium bisher durch Nebenjobs finanziere, ist die Zeit f\u00fcr mein soziales Engagement und zus\u00e4tzliche Forschungsprojekte oft knapp. Ihr Stipendium w\u00fcrde mir die finanzielle Freiheit geben, mich voll auf meine Doktorarbeit im Bereich der Krebsforschung zu konzentrieren, die ich im kommenden Semester beginnen m\u00f6chte.<br><br>Ich bin \u00fcberzeugt, dass ich durch meine Leistungsbereitschaft und meine Werte gut zu Ihrer Stiftung passe. Ich m\u00f6chte sp\u00e4ter nicht nur eine gute \u00c4rztin sein, sondern auch einen Beitrag zur medizinischen Forschung leisten.<br><br>Hochachtungsvoll<br>Anna M\u00fcller"
   },
-  { "id": 144,
+  {
+    "id": 144,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -475,7 +510,8 @@ window.examData = [
     "task": "Er\u00f6rtern Sie Chancen und Risiken von KI.<br><br>Punkte:<br>1. KI im Alltag (Erleichterung).<br>2. Gefahr f\u00fcr Arbeitspl\u00e4tze?<br>3. Ethische Fragen.<br>4. Pers\u00f6nliches Fazit.",
     "answer": "<strong>K\u00fcnstliche Intelligenz: Freund oder Feind?</strong><br><br>K\u00fcnstliche Intelligenz (KI) ist l\u00e4ngst keine Science-Fiction mehr, sondern Teil unseres Alltags. Ob Sprachassistenten, Navigationssysteme oder personalisierte Werbung \u2013 Algorithmen bestimmen unser Leben. Doch diese rasante Entwicklung l\u00f6st sowohl Begeisterung als auch \u00c4ngste aus.<br><br>Auf der einen Seite bietet KI enorme Chancen. In der Medizin k\u00f6nnen komplexe Diagnosen schneller und pr\u00e4ziser gestellt werden, was Leben rettet. Im Verkehr k\u00f6nnten selbstfahrende Autos die Sicherheit erh\u00f6hen. Routinearbeiten k\u00f6nnen automatisiert werden, was uns mehr Zeit f\u00fcr kreative Aufgaben l\u00e4sst.<br><br>Auf der anderen Seite steht die Sorge um Arbeitspl\u00e4tze. Werden Maschinen uns ersetzen? Wahrscheinlich werden sich Berufsbilder wandeln, aber nicht verschwinden. Viel kritischer sehe ich ethische Fragen: Wer kontrolliert die Algorithmen? K\u00f6nnen wir sicherstellen, dass KI diskriminierungsfrei entscheidet? Die Gefahr der \u00dcberwachung und Manipulation ist real.<br><br>Meiner Ansicht nach d\u00fcrfen wir den Fortschritt nicht verteufeln, aber wir d\u00fcrfen ihn auch nicht blind akzeptieren. Wir brauchen klare gesetzliche Regeln und ethische Grenzen f\u00fcr den Einsatz von KI. Die Technik muss dem Menschen dienen, nicht umgekehrt.<br><br>Lara Croft"
   },
-  { "id": 145,
+  {
+    "id": 145,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -483,7 +519,8 @@ window.examData = [
     "task": "Ein Politiker fordert: 'Autofreie Innenst\u00e4dte bis 2030'. Nehmen Sie Stellung.<br><br>Aspekte:<br>1. Lebensqualit\u00e4t vs. Freiheit.<br>2. Probleme des Einzelhandels?<br>3. Alternativen (\u00d6PNV/Rad).<br>4. Kompromissvorschlag.",
     "answer": "<strong>Autofreie St\u00e4dte \u2013 Utopie oder Notwendigkeit?</strong><br><br>Die Forderung nach autofreien Innenst\u00e4dten sorgt f\u00fcr hitzige Diskussionen. Bef\u00fcrworter tr\u00e4umen von gr\u00fcnen Oasen mit hoher Lebensqualit\u00e4t, Gegner f\u00fcrchten das Sterben des Einzelhandels und eine Einschr\u00e4nkung der pers\u00f6nlichen Freiheit.<br><br>Ich pers\u00f6nlich unterst\u00fctze die Vision einer autoarmen Stadt. L\u00e4rm, Abgase und zugeparkte Fl\u00e4chen belasten uns alle. St\u00e4dte wie Kopenhagen oder Amsterdam zeigen, wie viel lebenswerter der urbane Raum wird, wenn Fu\u00dfg\u00e4nger und Radfahrer Vorrang haben. Zudem ist es im Hinblick auf den Klimaschutz unumg\u00e4nglich, den Individualverkehr zu reduzieren.<br><br>Allerdings darf man die berechtigten Sorgen der H\u00e4ndler nicht ignorieren. Wenn Kunden nicht mehr bequem in die City kommen, kaufen sie online. Deshalb darf ein Verbot nicht allein stehen. Wir brauchen massive Investitionen in den \u00f6ffentlichen Nahverkehr: g\u00fcnstigere Tickets, h\u00f6here Taktung und sichere Park-and-Ride-Pl\u00e4tze am Stadtrand.<br><br>Ein radikales Verbot von heute auf morgen halte ich f\u00fcr falsch. Ein schrittweiser Umbau, bessere Radwege und attraktive Alternativen sind der Schl\u00fcssel. Wir m\u00fcssen die Stadt f\u00fcr Menschen bauen, nicht f\u00fcr Autos.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Jonas"
   },
-  { "id": 146,
+  {
+    "id": 146,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -491,7 +528,8 @@ window.examData = [
     "task": "Ihr Flug wurde annulliert. Fordern Sie Ihre Rechte ein.<br><br>Inhalt:<br>1. Sachverhalt (Flugnummer, Datum).<br>2. Folgen (Hotelkosten, Termin verpasst).<br>3. Rechtslage (EU-Verordnung).<br>4. Zahlungsaufforderung.",
     "answer": "Betreff: Ausgleichszahlung wegen Flugannullierung (Flug LH456)<br><br>Sehr geehrte Damen und Herren,<br><br>ich wende mich an Sie bez\u00fcglich meines Fluges LH456 von M\u00fcnchen nach New York am 15. Mai, der von Ihrer Fluggesellschaft kurzfristig annulliert wurde. Ich wurde erst am Flughafen dar\u00fcber informiert und musste auf einen Flug am n\u00e4chsten Tag umgebucht werden.<br><br>Durch diese Versp\u00e4tung von \u00fcber 24 Stunden sind mir erhebliche Unannehmlichkeiten und Kosten entstanden. Ich musste eine \u00dcbernachtung im Flughafenhotel sowie Verpflegung selbst bezahlen. Zudem habe ich einen wichtigen Gesch\u00e4ftstermin in New York verpasst.<br><br>Gem\u00e4\u00df der EU-Fluggastrechteverordnung (EG) Nr. 261/2004 steht mir in diesem Fall eine Ausgleichszahlung zu. Da die Flugstrecke \u00fcber 3.500 km betr\u00e4gt, fordere ich Sie hiermit auf, den gesetzlich festgelegten Betrag von 600 Euro an mich zu zahlen. Zus\u00e4tzlich bestehe ich auf der Erstattung meiner Hotel- und Verpflegungskosten in H\u00f6he von 150 Euro (Belege anbei).<br><br>Ich erwarte den Zahlungseingang innerhalb von 14 Tagen auf mein Konto. Sollte die Frist verstreichen, werde ich meinen Anwalt einschalten.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Michael Recht"
   },
-  { "id": 147,
+  {
+    "id": 147,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -499,7 +537,8 @@ window.examData = [
     "task": "Schreiben Sie \u00fcber Gewinner und Verlierer der Globalisierung.<br><br>Struktur:<br>1. Definition/Einstieg.<br>2. Wirtschaftliche Vorteile (Wohlstand, Vielfalt).<br>3. Soziale/\u00d6kologische Nachteile (Ausbeutung, Transport).<br>4. Forderung nach fairer Globalisierung.",
     "answer": "<strong>Globalisierung \u2013 Ein Spiel ohne Grenzen?</strong><br><br>Wir leben in einer vernetzten Welt. Ein Klick, und wir bestellen Waren aus China; wir chatten mit Freunden in den USA und essen Bananen aus Ecuador. Globalisierung ist allgegenw\u00e4rtig. Doch bringt sie uns wirklich alle voran?<br><br>Zweifellos hat der weltweite Handel vielen L\u00e4ndern zu mehr Wohlstand verholfen. Technologischer Fortschritt und kultureller Austausch sind positive Folgen. Wir als Konsumenten profitieren von einer riesigen Produktvielfalt und g\u00fcnstigen Preisen.<br><br>Doch dieser Preis wird oft von anderen gezahlt. Die Schattenseiten sind Ausbeutung von Arbeitern in Billiglohnl\u00e4ndern und massive Umweltzerst\u00f6rung durch weltweite Transportwege. Der Wettbewerb zwingt Unternehmen oft dazu, dort zu produzieren, wo Standards am niedrigsten sind. Die Schere zwischen Arm und Reich weitet sich global gesehen zwar teilweise, aber innerhalb vieler Industrienationen w\u00e4chst die Ungleichheit.<br><br>Wir brauchen keine De-Globalisierung, sondern eine faire Globalisierung. Wir brauchen verbindliche Sozial- und Umweltstandards in Lieferketten. Nur wenn der Handel Mensch und Natur respektiert, k\u00f6nnen am Ende alle Gewinner sein. Wir als Verbraucher haben die Macht, durch bewussten Konsum Einfluss zu nehmen.<br><br>Sarah Schmidt"
   },
-  { "id": 148,
+  {
+    "id": 148,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -507,7 +546,8 @@ window.examData = [
     "task": "Sollte es ein Recht auf Homeoffice geben?<br><br>Argumente:<br>1. Modernes Arbeiten.<br>2. Vertrauen vs. Kontrolle.<br>3. Infrastruktur-Probleme.<br>4. Ihre Position.",
     "answer": "<strong>Recht auf Homeoffice \u2013 \u00dcberf\u00e4llig oder \u00fcbertrieben?</strong><br><br>Die Arbeitswelt hat sich in den letzten Jahren rasant gewandelt. Was fr\u00fcher undenkbar war, ist heute Alltag: Das B\u00fcro zu Hause. Nun diskutiert die Politik \u00fcber ein gesetzliches Recht auf Homeoffice. Ist das sinnvoll?<br><br>Ich meine: Ja, absolut. Ein modernes Arbeitsrecht muss die Realit\u00e4t abbilden. Viele Arbeitnehmer haben bewiesen, dass sie zu Hause genauso produktiv, oft sogar produktiver sind. Es erm\u00f6glicht eine bessere Vereinbarkeit von Familie und Beruf und spart Zeit und Stress auf verstopften Stra\u00dfen.<br><br>Nat\u00fcrlich gibt es Arbeitgeber, die Kontrollverlust f\u00fcrchten. Doch F\u00fchrung muss heute auf Vertrauen basieren, nicht auf Anwesenheit. Wer seine Mitarbeiter nur arbeitet sieht, wenn sie im B\u00fcro sitzen, hat ein F\u00fchrungsproblem. Nat\u00fcrlich gibt es Berufe, in denen Homeoffice nicht m\u00f6glich ist (Pflege, Handwerk). Aber dort, wo es technisch machbar ist, sollte es nicht an der Willk\u00fcr des Chefs scheitern.<br><br>Ein Recht auf Homeoffice (zumindest f\u00fcr gewisse Tage) w\u00fcrde die Digitalisierung vorantreiben und die Arbeitszufriedenheit erh\u00f6hen. Es ist Zeit f\u00fcr diesen Schritt.<br><br>Beste Gr\u00fc\u00dfe<br>Julian"
   },
-  { "id": 149,
+  {
+    "id": 149,
     "type": "Writing",
     "level": "C1",
     "category": "Brief",
@@ -516,7 +556,8 @@ window.examData = [
     "answer": "Kundennummer: DE-987654321<br>Betreff: Mangelhafte Leistung und Fristsetzung<br><br>Sehr geehrte Damen und Herren,<br><br>ich habe bei Ihnen den Tarif 'Speed-Internet 1000' gebucht, f\u00fcr den ich monatlich 49,99 Euro bezahle. Laut Vertrag garantieren Sie eine Bandbreite von bis zu 1000 Mbit/s. Die Realit\u00e4t sieht jedoch seit Wochen anders aus.<br><br>Regelm\u00e4\u00dfige Messungen zu verschiedenen Tageszeiten zeigen, dass bei mir maximal 50 Mbit/s ankommen. Das ist nur ein Bruchteil der vertraglich vereinbarten Leistung. Zudem bricht die Verbindung in den Abendstunden regelm\u00e4\u00dfig komplett zusammen, was f\u00fcr mich im Homeoffice untragbar ist.<br><br>Ich habe Ihre Hotline bereits dreimal kontaktiert, wurde aber immer nur vertr\u00f6stet. Meine Geduld ist nun am Ende. Ich fordere Sie hiermit auf, die vertraglich vereinbarte Leistung bis sp\u00e4testens zum 10. Februar vollst\u00e4ndig herzustellen.<br><br>Sollte diese Frist fruchtlos verstreichen, werde ich von meinem Sonderk\u00fcndigungsrecht Gebrauch machen und die Zahlungen entsprechend k\u00fcrzen. Ich erwarte eine schriftliche Stellungnahme zu diesem Sachverhalt.<br><br>Mit freundlichen Gr\u00fc\u00dfen<br>Hannes W\u00fctend"
   },
 
-  { "id": 212,
+  {
+    "id": 212,
     "type": "TELC",
     "level": "A1",
     "category": "Lesen",
@@ -15293,7 +15334,8 @@ window.examData = [
 `
   },
   ,
-  { "id": 1001,
+  {
+    "id": 1001,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15383,7 +15425,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1002,
+  {
+    "id": 1002,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15473,7 +15516,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1003,
+  {
+    "id": 1003,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15563,7 +15607,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1004,
+  {
+    "id": 1004,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15653,7 +15698,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1005,
+  {
+    "id": 1005,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15743,7 +15789,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1006,
+  {
+    "id": 1006,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15833,7 +15880,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1007,
+  {
+    "id": 1007,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -15923,7 +15971,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1008,
+  {
+    "id": 1008,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16013,7 +16062,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1009,
+  {
+    "id": 1009,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16103,7 +16153,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1010,
+  {
+    "id": 1010,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16193,7 +16244,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1011,
+  {
+    "id": 1011,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16283,7 +16335,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1012,
+  {
+    "id": 1012,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16373,7 +16426,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1013,
+  {
+    "id": 1013,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16463,7 +16517,8 @@ window.examData = [
       }
     ]
   },
-  { "id": 1014,
+  {
+    "id": 1014,
     "type": "TELC",
     "level": "A1",
     "category": "sprachbaustein",
@@ -16552,8 +16607,8 @@ window.examData = [
         "correct": "a"
       }
     ]
-  },,
-{
+  }, ,
+  {
     "id": 2001,
     "type": "TELC",
     "level": "A2",
@@ -17917,7 +17972,7 @@ window.examData = [
       }
     ]
   },
-{
+  {
     "id": 3001,
     "type": "TELC",
     "level": "B1",
@@ -18376,7 +18431,7 @@ window.examData = [
       }
     ]
   },
-{
+  {
     "id": 3006,
     "type": "TELC",
     "level": "B1",
@@ -18821,7 +18876,7 @@ window.examData = [
       }
     ]
   },
-{
+  {
     "id": 3011,
     "type": "TELC",
     "level": "B1",
@@ -19280,740 +19335,1457 @@ window.examData = [
       }
     ]
   },
-{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ,
+  {
     "id": 4001,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - WG-Zimmer (Set 1)",
-    "cc": "",
-    "betreff": "WG-Zimmer",
-    "texts": [
-      {
-        "content": "Hallo Rahim,\n\nvielen Dank für deine Mail und deine Fragen zu dem Zimmer in unserer WG. Wir freuen uns ___21___ dein Interesse an dem Zimmer und beantworten dir gerne alles.\nDie Wohnung befindet ___22___ im dritten Stock eines Altbaus. Sie hat zwei Badezimmer, die wir gemeinschaftlich nutzen, und eine sehr gut ausgestattete Küche – inklusive Spülmaschine. Wir haben außerdem einen großen Balkon, ___23___ man bei gutem Wetter eine super Aussicht hat. Das Zimmer, das zu vermieten ist, kann nach eigenen Wünschen gestaltet ___24___. Es ist 28 qm groß und nicht möbliert.\nWir sind übrigens keine Studenten-WG, sondern eine „Berufstätigen-WG“. Mein Mitbewohner Johannes ist Sozialarbeiter und ich beschäftige mich beruflich ___25___ der Entwicklung von Lernsoftware. Unsere Freizeitinteressen sind teilweise recht unterschiedlich. Johannes liebt Sport aller Art und ist viel unterwegs, ___26___ ich meinen Feierabend gern auf dem Sofa ausklingen lasse. Wir kochen aber oft zusammen und machen auch mal einen Spieleabend. Generell geht es bei uns eher ruhig zu. Abends trinken wir ___27___ gerne mal ein Gläschen Wein mit Freunden, aber große Partys feiern wir hier fast nie. Wir wünschen uns einen Mitbewohner, ___28___ Lebensstil zu unserem passt. Ein Nichtraucher wäre super, aber mit einem Raucher, der zum Rauchen auf den Balkon geht, könnten wir auch gut leben.\nSchön, dass du anbietest vorbeizukommen, ___29___ wir uns persönlich kennenlernen können. Morgen klappt es allerdings leider nicht. Wenn ich eher ___30___, dass du dann in der Stadt bist, hätte ich mir Zeit frei gehalten, aber so habe ich den Tag schon verplant. Könntest du vielleicht auch am Sonntag?\n\nViele Grüße\nTill",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "wegen",
-        "b": "über",
-        "c": "für",
-        "correct": "b"
+    "title": "B2 Sprachbausteine - WG-Zimmer & Zusammenleben (Set 1)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Infotext: Zusammenleben in einer Berufstätigen-WG. Wer sich für ein WG-Zimmer interessiert, hat oft viele Fragen zum gemeinschaftlichen Wohnen. Wir freuen uns ___21___ jedes Interesse an freien Zimmern und beantworten gerne alle Details.\nDie angebotene Wohnung befindet ___22___ meist in zentraler Lage. Sie hat oft mehrere Badezimmer, die gemeinschaftlich genutzt werden, und eine gut ausgestattete Küche. Viele Wohnungen haben zudem einen Balkon, ___23___ man bei gutem Wetter eine super Aussicht hat. Zimmer, die zur Vermietung stehen, können oft nach eigenen Wünschen gestaltet ___24___. In einer „Berufstätigen-WG“ beschäftigen sich die Mitbewohner beruflich oft ___25___ unterschiedlichen Themen, wie etwa der Entwicklung von Software. Die Freizeitinteressen sind dabei teilweise recht verschieden. Während manche Mitbewohner viel unterwegs sind, lassen andere ___26___ ihren Feierabend gern ruhig ausklingen. Oft kocht man zusammen oder macht Spieleabende. Abends trinken die Bewohner ___27___ gerne mal ein Gläschen Wein mit Freunden, aber große Partys werden in solchen WGs fast nie gefeiert. Man wünscht sich einen Mitbewohner, ___28___ Lebensstil zur Gemeinschaft passt. Ein persönliches Kennenlernen ist wichtig, ___29___ man sich gegenseitig einschätzen kann. Wer vorab ___30___, dass ein Termin klappt, hätte sich die Zeit sicher besser freigehalten.\n\nQuelle: Wohnportal 'Stadtleben'",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "für",
+          "b": "über",
+          "c": "wegen",
+          "correct": "b"
+        },
+        {
+          "num": 22,
+          "a": "sich",
+          "b": "man",
+          "c": "uns",
+          "correct": "a"
+        },
+        {
+          "num": 23,
+          "a": "auf der",
+          "b": "von dem",
+          "c": "für den",
+          "correct": "b"
+        },
+        {
+          "num": 24,
+          "a": "werden",
+          "b": "würden",
+          "c": "wurden",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "mit",
+          "b": "in",
+          "c": "an",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "sondern",
+          "b": "während",
+          "c": "anstatt",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "sowohl",
+          "b": "zwar",
+          "c": "entweder",
+          "correct": "b"
+        },
+        {
+          "num": 28,
+          "a": "denen",
+          "b": "seinen",
+          "c": "dessen",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "damit",
+          "b": "indem",
+          "c": "deswegen",
+          "correct": "a"
+        },
+        {
+          "num": 30,
+          "a": "gewusst hätte",
+          "b": "gewusst habe",
+          "c": "wüsste",
+          "correct": "a"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Zusammenleben in einer WG\n\nDas Wohnen in einer Wohngemeinschaft (WG) ist für viele Menschen, besonders für junge Erwachsene und Berufstätige, eine attraktive Option. Doch damit das Zusammenleben reibungslos ___31___ , müssen einige Grundregeln beachtet werden. Zunächst einmal ist die Auswahl der Mitbewohner von entscheidender ___32___ . Es ist wichtig, dass die Erwartungen an Ordnung und Sauberkeit ___33___ . Ein Putzplan kann hierbei helfen, Streitigkeiten zu vermeiden.\n___34___ man sich die Küche und oft auch das Bad teilt, ist gegenseitige Rücksichtnahme unerlässlich. Das bedeutet auch, dass man ___35___ im Voraus abspricht, wenn man Gäste empfangen möchte. Ein weiterer wichtiger Aspekt ist die ___36___ der gemeinsamen Kosten. Neben der Miete müssen auch Ausgaben für Strom, Internet und Lebensmittel fair aufgeteilt werden.\nTrotz der Herausforderungen bietet eine WG viele Vorteile. Man ist selten allein und kann ___37___ den anderen Mitbewohnern schnell Anschluss finden. In vielen Fällen entstehen daraus sogar langjährige Freundschaften. Es ist jedoch wichtig, dass jeder Teilnehmer auch die Möglichkeit hat, sich in sein eigenes Zimmer ___38___ . ___39___ das Gleichgewicht zwischen Gemeinschaft und Privatsphäre gewahrt bleibt, steht einem harmonischen Wohnen nichts im ___40___ .\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "BEDEUTUNG",
+        "b": "DA",
+        "c": "DURCH",
+        "d": "FINANZIERUNG",
+        "e": "FUNKTIONIERT",
+        "f": "GEGENSEITIG",
+        "g": "HINWEG",
+        "h": "SOFERN",
+        "i": "ÜBEREINSTIMMEN",
+        "j": "WEGE",
+        "k": "WENN",
+        "l": "ZUDEM",
+        "m": "ZUKOMMEN",
+        "n": "ZURÜCKZUZIEHEN",
+        "o": "ZWAR"
       },
-      {
-        "num": 22,
-        "a": "man",
-        "b": "uns",
-        "c": "sich",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "für den",
-        "b": "auf der",
-        "c": "von dem",
-        "correct": "c"
-      },
-      {
-        "num": 24,
-        "a": "würden",
-        "b": "werden",
-        "c": "wurden",
-        "correct": "b"
-      },
-      {
-        "num": 25,
-        "a": "an",
-        "b": "mit",
-        "c": "in",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "während",
-        "b": "anstatt",
-        "c": "sondern",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "entweder",
-        "b": "zwar",
-        "c": "sowohl",
-        "correct": "b"
-      },
-      {
-        "num": 28,
-        "a": "seinen",
-        "b": "dessen",
-        "c": "denen",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "damit",
-        "b": "deswegen",
-        "c": "indem",
-        "correct": "a"
-      },
-      {
-        "num": 30,
-        "a": "gewusst hätte",
-        "b": "wüsste",
-        "c": "gewusst habe",
-        "correct": "a"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "e"
+        },
+        {
+          "num": 32,
+          "correct": "a"
+        },
+        {
+          "num": 33,
+          "correct": "i"
+        },
+        {
+          "num": 34,
+          "correct": "b"
+        },
+        {
+          "num": 35,
+          "correct": "f"
+        },
+        {
+          "num": 36,
+          "correct": "d"
+        },
+        {
+          "num": 37,
+          "correct": "c"
+        },
+        {
+          "num": 38,
+          "correct": "n"
+        },
+        {
+          "num": 39,
+          "correct": "h"
+        },
+        {
+          "num": 40,
+          "correct": "j"
+        }
+      ]
+    }
   },
   {
     "id": 4002,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Drei Mythen über den Schlaf (Set 2)",
-    "texts": [
-      {
-        "content": "Lange schlafen ist gesund, oder etwa nicht?\n\nDrei Mythen über den Schlaf\n\nWarum träumen wir? Was passiert im Gehirn, wenn wir schlafen? Und warum müssen wir ___31___ schlafen? Während Wissenschaftler nach Antworten auf diese Fragen suchen, werden im Volksmund etliche Geschichten über den Schlaf erzählt. Viele davon sind unwahr.\n\nMythos 1: Lange schlafen ist gesund.\nImmer wieder werden wir ___32___ gewarnt, dass sich zu wenig Schlaf früher oder später negativ auf unser Wohlbefinden auswirkt. Aber kann man auch zu viel schlafen? Schlafmediziner sagen: ja. Ein internationales Forschungsteam ist zu dem Ergebnis gekommen, dass zu viel Schlaf ___33___ ungesund ist wie zu wenig. Notorische Langschläfer leiden zum Beispiel häufiger ___34___ Depressionen und haben ein erhöhtes Risiko, an Diabetes zu erkranken.\n\nMythos 2: Der Schlaf vor Mitternacht ist der beste.\nViele Menschen behaupten, dass der Schlaf vor Mitternacht besonders erholsam sei. Das ___35___ so aber nicht. Wissenschaftler haben herausgefunden, dass nicht die Uhrzeit entscheidend ist, ___36___ vielmehr die ersten Stunden nach dem Einschlafen. In dieser Zeit ___37___ ein Großteil des wertvollen Tiefschlafs statt. In den Tiefschlafphasen erholt sich unser Körper am intensivsten. Der Zeitpunkt des Einschlafens spielt dabei keine ___38___.\n\nMythos 3: Im Schlaf passiert nicht viel.\nWer glaubt, dass im Schlaf nicht ___39___ viel passiert, der täuscht sich gewaltig. Nachts, wenn der Körper zur ___40___ kommt, laufen in unserem Organismus äußerst komplexe Prozesse ab. Unser Immunsystem wird aktiviert, Wachstumshormone bauen unsere Muskeln auf, die Haut regeneriert sich und unser Gehirn läuft auf Hochtouren, um die Ereignisse des Tages zu verarbeiten.",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "wordBank": {
-      "a": "ALLZU",
-      "b": "BEDEUTUNG",
-      "c": "DARAUF",
-      "d": "DAVOR",
-      "e": "FINDET",
-      "f": "GENAUSO",
-      "g": "HIERMIT",
-      "h": "MIT",
-      "i": "NIMMT",
-      "j": "ROLLE",
-      "k": "RUHE",
-      "l": "SONDERN",
-      "m": "STIMMT",
-      "n": "ÜBERHAUPT",
-      "o": "UNTER"
+    "title": "B2 Sprachbausteine - Schlaf & Regeneration (Set 2)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Warum schlafen wir so schlecht? Ein Bericht über moderne Schlafprobleme. Viele Menschen leiden heute unter Einschlafproblemen, ___21___ sie im Alltag oft unter Zeitdruck stehen. Trotz großer Erschöpfung gelingt es vielen erst nach Stunden, innerlich zur Ruhe zu kommen. Forscher haben bereits ___22___ probiert, um die Schlafqualität der Probanden zu steigern, jedoch oft ohne durchschlagenden Erfolg. Experten haben ___23___ hingewiesen, dass vor allem die ständige Erreichbarkeit eine negative Rolle spielt. Wer beruflich sehr ___24___ ist, nimmt die Probleme oft mit ins Bett. Experten raten dazu, zunächst ein Schlaftagebuch zu ___25___ , bevor man einen Spezialisten aufsucht. Zudem stellt sich die Frage, ___26___ pflanzliche Präparate wirklich helfen können. Solche Mittel sollen den Körper beim Entspannen ___27___ , ohne ihn zu belasten. Es ist ratsam, natürliche Alternativen zu wählen, ___28___ dies medizinisch möglich ist. Ein ___29___ Termin ist jedoch in vielen Fachpraxen schwer zu bekommen. Betroffene würden sich über eine schnellere Lösung sicher ___30___.\n\nQuelle: Gesundheitsmagazin 2024",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "obwohl",
+          "b": "während",
+          "c": "da",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "manches",
+          "b": "jegliches",
+          "c": "einiges",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "darauf",
+          "b": "daran",
+          "c": "darüber",
+          "correct": "a"
+        },
+        {
+          "num": 24,
+          "a": "beansprucht",
+          "b": "gebraucht",
+          "c": "genutzt",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "schreiben",
+          "b": "machen",
+          "c": "führen",
+          "correct": "c"
+        },
+        {
+          "num": 26,
+          "a": "dass",
+          "b": "wann",
+          "c": "ob",
+          "correct": "c"
+        },
+        {
+          "num": 27,
+          "a": "unterstützen",
+          "b": "helfen",
+          "c": "fördern",
+          "correct": "a"
+        },
+        {
+          "num": 28,
+          "a": "sofern",
+          "b": "damit",
+          "c": "bevor",
+          "correct": "a"
+        },
+        {
+          "num": 29,
+          "a": "freier",
+          "b": "freie",
+          "c": "freien",
+          "correct": "a"
+        },
+        {
+          "num": 30,
+          "a": "freuen",
+          "b": "beglückwünschen",
+          "c": "bedanken",
+          "correct": "a"
+        }
+      ]
     },
-    "questions": [
-      {
-        "num": 31,
-        "correct": "n"
+    "part2": {
+      "texts": [
+        {
+          "content": "Lange schlafen ist gesund, oder etwa nicht?\n\nDrei Mythen über den Schlaf\n\nWarum träumen wir? Was passiert im Gehirn, wenn wir schlafen? Und warum müssen wir ___31___ schlafen? Während Wissenschaftler nach Antworten auf diese Fragen suchen, werden im Volksmund etliche Geschichten über den Schlaf erzählt. Viele davon sind unwahr.\n\nMythos 1: Lange schlafen ist gesund.\nImmer wieder werden wir ___32___ gewarnt, dass sich zu wenig Schlaf früher oder später negativ auf unser Wohlbefinden auswirkt. Aber kann man auch zu viel schlafen? Schlafmediziner sagen: ja. Ein internationales Forschungsteam ist zu dem Ergebnis gekommen, dass zu viel Schlaf ___33___ ungesund ist wie zu wenig. Notorische Langschläfer leiden zum Beispiel häufiger ___34___ Depressionen und haben ein erhöhtes Risiko, an Diabetes zu erkranken.\n\nMythos 2: Der Schlaf vor Mitternacht ist der beste.\nViele Menschen behaupten, dass der Schlaf vor Mitternacht besonders erholsam sei. Das ___35___ so aber nicht. Wissenschaftler haben herausgefunden, dass nicht die Uhrzeit entscheidend ist, ___36___ vielmehr die ersten Stunden nach dem Einschlafen. In dieser Zeit ___37___ ein Großteil des wertvollen Tiefschlafs statt. In den Tiefschlafphasen erholt sich unser Körper am intensivsten. Der Zeitpunkt des Einschlafens spielt dabei keine ___38___.\n\nMythos 3: Im Schlaf passiert nicht viel.\nWer glaubt, dass im Schlaf nicht ___39___ viel passiert, der täuscht sich gewaltig. Nachts, wenn der Körper zur ___40___ kommt, laufen in unserem Organismus äußerst komplexe Prozesse ab. Unser Immunsystem wird aktiviert, Wachstumshormone bauen unsere Muskeln auf, die Haut regeneriert sich und unser Gehirn läuft auf Hochtouren, um die Ereignisse des Tages zu verarbeiten.",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ALLZU",
+        "b": "BEDEUTUNG",
+        "c": "DARAUF",
+        "d": "DAVOR",
+        "e": "FINDET",
+        "f": "GENAUSO",
+        "g": "HIERMIT",
+        "h": "MIT",
+        "i": "NIMMT",
+        "j": "ROLLE",
+        "k": "RUHE",
+        "l": "SONDERN",
+        "m": "STIMMT",
+        "n": "ÜBERHAUPT",
+        "o": "UNTER"
       },
-      {
-        "num": 32,
-        "correct": "d"
-      },
-      {
-        "num": 33,
-        "correct": "f"
-      },
-      {
-        "num": 34,
-        "correct": "o"
-      },
-      {
-        "num": 35,
-        "correct": "m"
-      },
-      {
-        "num": 36,
-        "correct": "l"
-      },
-      {
-        "num": 37,
-        "correct": "e"
-      },
-      {
-        "num": 38,
-        "correct": "j"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "k"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "n"
+        },
+        {
+          "num": 32,
+          "correct": "d"
+        },
+        {
+          "num": 33,
+          "correct": "f"
+        },
+        {
+          "num": 34,
+          "correct": "o"
+        },
+        {
+          "num": 35,
+          "correct": "m"
+        },
+        {
+          "num": 36,
+          "correct": "l"
+        },
+        {
+          "num": 37,
+          "correct": "e"
+        },
+        {
+          "num": 38,
+          "correct": "j"
+        },
+        {
+          "num": 39,
+          "correct": "a"
+        },
+        {
+          "num": 40,
+          "correct": "k"
+        }
+      ]
+    }
   },
   {
     "id": 4003,
-    "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Bewerbung Marketing (Set 3)",
-    "cc": "gelesen",
-    "betreff": "Bewerbung als Marketing-Manager",
-    "texts": [
-      {
-        "content": "Sehr geehrte Frau Dr. Müller,\n\nmit großem Interesse habe ich Ihre Anzeige im Stellenmarkt ___21___ und bewerbe mich hiermit um die Position als Marketing-Manager. In meiner bisherigen Tätigkeit war ich maßgeblich ___22___ der Konzeption von digitalen Kampagnen beteiligt.\nBesonders hervorzuheben ist mein Engagement bei der Einführung der neuen Markenstrategie, ___23___ wir den Umsatz um 15 % steigern konnten. Ich verfüge über fundierte Kenntnisse im Bereich SEO und SEM, ___24___ ich mir in zahlreichen Fortbildungen angeeignet habe. Meine Arbeitsweise zeichnet sich ___25___ eine hohe Zielorientierung und Teamfähigkeit aus. Ich bin davon überzeugt, dass meine Qualifikationen ___26___ Ihren Anforderungen entsprechen. Zudem bringe ich die Bereitschaft ___27___, mich schnell in neue Aufgabengebiete einzuarbeiten. Gerne möchte ich Sie in einem persönlichen Gespräch von meiner Eignung ___28___. Einem baldigen Eintrittstermin steht meinerseits ___29___ im Wege. Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr ___30___.\n\nMit freundlichen Grüßen\nLukas Weber",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "vernommen",
-        "b": "personalabteilung@firma.de",
-        "c": "gelesen",
-        "correct": "c"
+    "title": "B2 Sprachbausteine - Bewerbung & Karriere (Set 3)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Der Weg zum Traumjob: Was im Anschreiben wirklich zählt. Wer eine Anzeige im Stellenmarkt ___21___ , möchte sich oft sofort bewerben. In der bisherigen Tätigkeit war man vielleicht schon maßgeblich ___22___ der Projektleitung beteiligt. Besonders wichtig ist es, Erfolge zu benennen, ___23___ man die eigene Kompetenz unterstreicht. Fachkenntnisse, ___24___ man sich in Fortbildungen angeeignet hat, sind ein Pluspunkt. Eine gute Bewerbung zeichnet sich ___25___ Klarheit und Struktur aus. Die Qualifikationen sollten ___26___ den Anforderungen der Firma entsprechen. Man muss zudem die Bereitschaft ___27___ , sich in neue Gebiete einzuarbeiten. Wer den Chef im Gespräch von seiner Eignung ___28___ , hat gute Chancen. Einem schnellen Arbeitsbeginn steht dann meist ___29___ im Wege. Über eine positive Antwort würde man sich am Ende sehr ___30___.\n\nRatgeber: Erfolgreich bewerben",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "gelesen",
+          "b": "beachtet",
+          "c": "vernommen",
+          "correct": "a"
+        },
+        {
+          "num": 22,
+          "a": "mit",
+          "b": "in",
+          "c": "an",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "womit",
+          "b": "wodurch",
+          "c": "woraus",
+          "correct": "b"
+        },
+        {
+          "num": 24,
+          "a": "die",
+          "b": "das",
+          "c": "welche",
+          "correct": "c"
+        },
+        {
+          "num": 25,
+          "a": "durch",
+          "b": "über",
+          "c": "wegen",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "völlig",
+          "b": "vollends",
+          "c": "voll",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "auf",
+          "b": "an",
+          "c": "mit",
+          "correct": "c"
+        },
+        {
+          "num": 28,
+          "a": "überzeugen",
+          "b": "darstellen",
+          "c": "beweisen",
+          "correct": "a"
+        },
+        {
+          "num": 29,
+          "a": "nichts",
+          "b": "nicht",
+          "c": "kaum",
+          "correct": "a"
+        },
+        {
+          "num": 30,
+          "a": "freuen",
+          "b": "gefreut",
+          "c": "beglücken",
+          "correct": "a"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Worauf es bei einer Bewerbung ankommt\n\nIn der heutigen Zeit ist es für Bewerber wichtig, sich von der Masse ___31___ . Ein professionelles Anschreiben und ein strukturierter Lebenslauf sind dabei das A und O. Es geht darum, dem Arbeitgeber zu ___32___ , dass man genau die richtige Person für die Stelle ist. Dabei sollte man nicht nur seine Qualifikationen ___33___ , sondern auch seine Motivation deutlich machen.\nViele Unternehmen legen heutzutage großen ___34___ auf die sogenannten Soft Skills, wie Teamfähigkeit und Flexibilität. Es reicht also nicht mehr aus, nur fachlich gut ___35___ zu sein. Man muss auch menschlich ins Team passen. ___36___ das Erstgespräch erfolgreich verläuft, folgt meist eine Einladung zu einem zweiten Termin oder einem Probetag.\nHier haben beide Seiten die Möglichkeit, sich besser ___37___ . Der Bewerber kann prüfen, ob die Arbeitsatmosphäre seinen Vorstellungen ___38___ . Wer sich gut vorbereitet und authentisch bleibt, erhöht seine ___39___ auf eine Zusage erheblich. Letztendlich ist eine Bewerbung immer auch eine ___40___ der Selbstdarstellung.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ABHEBEN",
+        "b": "AUFGESTELLT",
+        "c": "CHANCEN",
+        "d": "ENTSPRICHT",
+        "e": "FRAGE",
+        "f": "KENNENZULERNEN",
+        "g": "NUR",
+        "h": "SOFERN",
+        "i": "SONDERN",
+        "j": "UP-TO-DATE",
+        "k": "VERMITTELN",
+        "m": "WERT",
+        "n": "WIE",
+        "o": "ZWAR",
+        "p": "AUFZÄHLEN"
       },
-      {
-        "num": 22,
-        "a": "an",
-        "b": "in",
-        "c": "mit",
-        "correct": "a"
-      },
-      {
-        "num": 23,
-        "a": "womit",
-        "b": "wodurch",
-        "c": "woraus",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "das",
-        "b": "welche",
-        "c": "die",
-        "correct": "b"
-      },
-      {
-        "num": 25,
-        "a": "wegen",
-        "b": "über",
-        "c": "durch",
-        "correct": "c"
-      },
-      {
-        "num": 26,
-        "a": "völlig",
-        "b": "voll",
-        "c": "vollends",
-        "correct": "c"
-      },
-      {
-        "num": 27,
-        "a": "mit",
-        "b": "auf",
-        "c": "an",
-        "correct": "a"
-      },
-      {
-        "num": 28,
-        "a": "überzeugen",
-        "b": "beweisen",
-        "c": "darstellen",
-        "correct": "a"
-      },
-      {
-        "num": 29,
-        "a": "nichts",
-        "b": "kaum",
-        "c": "nicht",
-        "correct": "a"
-      },
-      {
-        "num": 30,
-        "a": "gefreut",
-        "b": "freuen",
-        "c": "beglücken",
-        "correct": "a"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "a"
+        },
+        {
+          "num": 32,
+          "correct": "k"
+        },
+        {
+          "num": 33,
+          "correct": "p"
+        },
+        {
+          "num": 34,
+          "correct": "m"
+        },
+        {
+          "num": 35,
+          "correct": "b"
+        },
+        {
+          "num": 36,
+          "correct": "h"
+        },
+        {
+          "num": 37,
+          "correct": "f"
+        },
+        {
+          "num": 38,
+          "correct": "d"
+        },
+        {
+          "num": 39,
+          "correct": "c"
+        },
+        {
+          "num": 40,
+          "correct": "e"
+        }
+      ]
+    }
   },
   {
     "id": 4004,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
     "title": "B2 Sprachbausteine - Digitalisierung am Arbeitsplatz (Set 4)",
-    "texts": [
-      {
-        "content": "Die fortschreitende Digitalisierung hat die Arbeitswelt grundlegend ___31___. Während früher Aktenberge die Schreibtische dominierten, prägen heute Computer und Software den Büroalltag. Dieser Wandel bringt sowohl Chancen ___32___ auch Herausforderungen mit sich.\nEinerseits ermöglicht der Einsatz moderner Technologien ein ___33___ effizienteres Arbeiten. Kommunikation findet in Echtzeit statt und Daten können weltweit geteilt werden. Andererseits steigen die Anforderungen an die Arbeitnehmer, die sich ständig ___34___ weiterbilden müssen. Wer den Anschluss nicht ___35___ will, kommt um lebenslanges Lernen nicht herum.\nBesonders das Home-Office hat durch die Digitalisierung an ___36___ gewonnen. Viele Mitarbeiter schätzen die Flexibilität, die mit dem Arbeiten von zu Hause ___37___ ist. Doch dabei darf die soziale Komponente nicht vernachlässigt werden. Der direkte Austausch mit den Kollegen ___38___ eine wichtige Rolle für das Betriebsklima. Es gilt also, eine gesunde Balance ___39___ digitaler Effizienz und persönlichem Kontakt zu ___40___.\n\nBeste Grüße\nEuer HR-Team",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "wordBank": {
-      "a": "ALS",
-      "b": "BEDEUTUNG",
-      "c": "DAZU",
-      "d": "EINMAL",
-      "e": "FINDEN",
-      "f": "GEGENÜBER",
-      "g": "RECHT",
-      "h": "SPIELT",
-      "i": "STARK",
-      "j": "UMGANG",
-      "k": "VERÄNDERT",
-      "l": "VERLIEREN",
-      "m": "VERBUNDEN",
-      "n": "WESENTLICH",
-      "o": "ZWISCHEN"
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Die neue Arbeitswelt: Digitalisierung im Fokus. In unserem Unternehmen werden wir ab nächster Woche ein neues System ___21___ . Diese Maßnahme hilft uns, Prozesse effizienter zu ___22___ . Uns ist bewusst, dass jede Änderung eine gewisse ___23___ erfordert. Deshalb ist eine Schulung ___24___ , an der alle teilnehmen sollten. Dort werden die Funktionen ___25___ . Mitarbeiter sollten der IT-Abteilung ___26___ , wenn sie verhindert sind. Klare Kommunikation ist wichtig, ___27___ alles reibungslos läuft. Wir hoffen auf eine ___28___ Unterstützung des Teams. Bei Fragen kann man sich ___29___ an den Support wenden. Wir freuen uns ___30___ die kommenden Veränderungen.\n\nUnternehmens-News",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "einbringen",
+          "b": "einstellen",
+          "c": "einführen",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "gestalten",
+          "b": "bilden",
+          "c": "machen",
+          "correct": "a"
+        },
+        {
+          "num": 23,
+          "a": "Einarbeitung",
+          "b": "Übung",
+          "c": "Umstellung",
+          "correct": "a"
+        },
+        {
+          "num": 24,
+          "a": "geplant",
+          "b": "gemacht",
+          "c": "angesetzt",
+          "correct": "c"
+        },
+        {
+          "num": 25,
+          "a": "gezeigt",
+          "b": "vorgestellt",
+          "c": "genannt",
+          "correct": "b"
+        },
+        {
+          "num": 26,
+          "a": "Nachricht",
+          "b": "Bescheid",
+          "c": "Antwort",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "obwohl",
+          "b": "weil",
+          "c": "damit",
+          "correct": "c"
+        },
+        {
+          "num": 28,
+          "a": "aktive",
+          "b": "tätige",
+          "c": "fleißige",
+          "correct": "a"
+        },
+        {
+          "num": 29,
+          "a": "meistens",
+          "b": "jederzeit",
+          "c": "oft",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "über",
+          "b": "an",
+          "c": "auf",
+          "correct": "c"
+        }
+      ]
     },
-    "questions": [
-      {
-        "num": 31,
-        "correct": "k"
+    "part2": {
+      "texts": [
+        {
+          "content": "Die fortschreitende Digitalisierung hat die Arbeitswelt grundlegend ___31___. Während früher Aktenberge die Schreibtische dominierten, prägen heute Computer und Software den Büroalltag. Dieser Wandel bringt sowohl Chancen ___32___ auch Herausforderungen mit sich.\nEinerseits ermöglicht der Einsatz moderner Technologien ein ___33___ effizienteres Arbeiten. Kommunikation findet in Echtzeit statt und Daten können weltweit geteilt werden. Andererseits steigen die Anforderungen an die Arbeitnehmer, die sich ständig ___34___ weiterbilden müssen. Wer den Anschluss nicht ___35___ will, kommt um lebenslanges Lernen nicht herum.\nBesonders das Home-Office hat durch die Digitalisierung an ___36___ gewonnen. Viele Mitarbeiter schätzen die Flexibilität, die mit dem Arbeiten von zu Hause ___37___ ist. Doch dabei darf die soziale Komponente nicht vernachlässigt werden. Der direkte Austausch mit den Kollegen ___38___ eine wichtige Rolle für das Betriebsklima. Es gilt also, eine gesunde Balance ___39___ digitaler Effizienz und persönlichem Kontakt zu ___40___.\n\nBeste Grüße\nEuer HR-Team",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ALS",
+        "b": "BEDEUTUNG",
+        "c": "DAZU",
+        "d": "EINMAL",
+        "e": "FINDEN",
+        "f": "GEGENÜBER",
+        "g": "RECHT",
+        "h": "SPIELT",
+        "i": "STARK",
+        "j": "UMGANG",
+        "k": "VERÄNDERT",
+        "l": "VERLIEREN",
+        "m": "VERBUNDEN",
+        "n": "WESENTLICH",
+        "o": "ZWISCHEN"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "n"
-      },
-      {
-        "num": 34,
-        "correct": "c"
-      },
-      {
-        "num": 35,
-        "correct": "l"
-      },
-      {
-        "num": 36,
-        "correct": "b"
-      },
-      {
-        "num": 37,
-        "correct": "m"
-      },
-      {
-        "num": 38,
-        "correct": "h"
-      },
-      {
-        "num": 39,
-        "correct": "o"
-      },
-      {
-        "num": 40,
-        "correct": "e"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "k"
+        },
+        {
+          "num": 32,
+          "correct": "a"
+        },
+        {
+          "num": 33,
+          "correct": "n"
+        },
+        {
+          "num": 34,
+          "correct": "c"
+        },
+        {
+          "num": 35,
+          "correct": "l"
+        },
+        {
+          "num": 36,
+          "correct": "b"
+        },
+        {
+          "num": 37,
+          "correct": "m"
+        },
+        {
+          "num": 38,
+          "correct": "h"
+        },
+        {
+          "num": 39,
+          "correct": "o"
+        },
+        {
+          "num": 40,
+          "correct": "e"
+        }
+      ]
+    }
   },
   {
     "id": 4005,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Beschwerde Reise (Set 5)",
-    "cc": "genannte",
-    "betreff": "Beschwerde über die Reise 'Traumsommer'",
-    "texts": [
-      {
-        "content": "Sehr geehrte Damen und Herren,\n\nhiermit möchte ich meine Unzufriedenheit über die oben ___21___ Reise zum Ausdruck bringen, die ich vom 10. bis 22. August bei Ihnen gebucht hatte. Leider entsprachen die Leistungen vor Ort in keiner Weise Ihren ___22___.\nBereits bei der Ankunft gab es Probleme, ___23___ das gebuchte Zimmer nicht zur Verfügung stand. Statt des versprochenen Meerblicks blickte ich auf eine laute Baustelle. Zudem war die Verpflegung im Hotel ___24___ mangelhaft. Die Speisen waren oft kalt und wenig abwechslungsreich. Auf meine mehrfachen ___25___ beim Hotelpersonal wurde nur ausweichend reagiert. Auch die Reiseleitung vor Ort war kaum ___26___, um Abhilfe zu schaffen. Da ich für diese Reise einen ___27___ Betrag bezahlt habe, erwarte ich eine angemessene Entschädigung. Ich fordere Sie daher auf, mir einen Teil des Reisepreises ___28___. Bitte lassen Sie mir bis zum Ende des Monats eine entsprechende Rückmeldung ___29___. Sollten Sie meiner Forderung nicht nachkommen, sehe ich mich ___30___, rechtliche Schritte einzuleiten.\n\nMit freundlichen Grüßen\nSabine Fischer",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "kundenservice@travel.de",
-        "b": "beschriebene",
-        "c": "genannte",
-        "correct": "c"
+    "title": "B2 Sprachbausteine - Reiseärger & Entschädigung (Set 5)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Ärger im Urlaub: Wenn die Reise zur Belastung wird. Viele Urlauber erleben während ihrer schönsten Zeit des Jahres bittere Enttäuschungen. Hiermit soll die Unzufriedenheit über eine oben ___21___ Reise zum Ausdruck kommen, die oft nicht den Erwartungen entspricht. Leider entsprechen die Leistungen vor Ort in vielen Fällen in keiner Weise den ___22___ der Reiseveranstalter.\nBereits bei der Ankunft gibt es oft Probleme, ___23___ das gebuchte Zimmer nicht zur Verfügung steht. Statt des versprochenen Meerblicks blicken Gäste dann auf eine laute Baustelle. Zudem ist die Verpflegung im Hotel oft ___24___ mangelhaft. Die Speisen sind häufig kalt und wenig abwechslungsreich. Auf mehrfache ___25___ beim Hotelpersonal wird meist nur ausweichend reagiert. Auch die Reiseleitung vor Ort ist oft kaum ___26___, um Abhilfe zu schaffen. Da Reisende für solche Trips oft einen ___27___ Betrag bezahlt haben, erwarten sie eine angemessene Entschädigung. Experten raten dazu, den Reiseveranstalter aufzufordern, einen Teil des Reisepreises ___28___. Man sollte dem Unternehmen eine Frist setzen, um eine entsprechende Rückmeldung ___29___ zu lassen. Sollten die Firmen den Forderungen nicht nachkommen, sehen sich viele Betroffene ___30___, rechtliche Schritte einzuleiten.\n\nQuelle: Reisemagazin 'Global'",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "beschriebene",
+          "b": "bekannte",
+          "c": "genannte",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "Prospekten",
+          "b": "Angaben",
+          "c": "Versprechen",
+          "correct": "b"
+        },
+        {
+          "num": 23,
+          "a": "weil",
+          "b": "indem",
+          "c": "da",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "äußerte",
+          "b": "sehr",
+          "c": "äußerst",
+          "correct": "c"
+        },
+        {
+          "num": 25,
+          "a": "Beschwerden",
+          "b": "Fragen",
+          "c": "Anfragen",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "verfügbar",
+          "b": "erreichbar",
+          "c": "anwesend",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "hohen",
+          "b": "großen",
+          "c": "erheblichen",
+          "correct": "c"
+        },
+        {
+          "num": 28,
+          "a": "überweisen",
+          "b": "zurückzuerstatten",
+          "c": "zurückzugeben",
+          "correct": "b"
+        },
+        {
+          "num": 29,
+          "a": "zukommen",
+          "b": "geben",
+          "c": "kommen",
+          "correct": "a"
+        },
+        {
+          "num": 30,
+          "a": "gezwungen",
+          "b": "nötig",
+          "c": "bereit",
+          "correct": "a"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Reiserecht und Entschädigung\n\nEin Urlaub soll eigentlich der Entspannung und Erholung dienen. Doch was passiert, wenn die Reise nicht so verläuft wie ___31___ ? In solchen Fällen haben Urlauber bestimmte Rechte, die im Reiserecht ___32___ sind. Wenn Mängel auftreten, muss der Reisende diese ___33___ vor Ort beim Reiseveranstalter melden. Nur so hat der Veranstalter die Möglichkeit, für ___34___ zu sorgen.\nSollte der Mangel nicht behoben werden, kann der Reisepreis im Nachhinein ___35___ werden. Die Höhe der Preisminderung hängt dabei von der ___36___ des Mangels ab. Hierbei dient oft die sogenannte 'Frankfurter Tabelle' als ___37___ . Es ist ratsam, Mängel durch Fotos oder Zeugenaussagen zu ___38___ , um später bessere Beweise zu haben.\nLiegt eine erhebliche Beeinträchtigung der Reise vor, kann der Kunde ___39___ vom Vertrag zurücktreten. Wichtig ist jedoch, dass alle Ansprüche innerhalb einer bestimmten ___40___ nach Ende der Reise schriftlich beim Veranstalter geltend gemacht werden müssen. Wer seine Rechte kennt, kann im Ernstfall gelassener bleiben.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ABHILFE",
+        "b": "DOKUMENTIEREN",
+        "c": "FESTGELEGT",
+        "d": "FRIST",
+        "e": "GEPLANT",
+        "f": "GEMINDERT",
+        "g": "ORIENTIERUNGSHILFE",
+        "h": "SCHWERE",
+        "i": "SOGAR",
+        "j": "SOFORT",
+        "k": "UMSTAND",
+        "l": "UNVERZÜGLICH",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "ZWAR"
       },
-      {
-        "num": 22,
-        "a": "Preisen",
-        "b": "Angaben",
-        "c": "Versprechen",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "indem",
-        "b": "da",
-        "c": "weil",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "sehr",
-        "b": "ganz",
-        "c": "äußerst",
-        "correct": "c"
-      },
-      {
-        "num": 25,
-        "a": "Anfragen",
-        "b": "Beschwerden",
-        "c": "Fragen",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "erreichbar",
-        "b": "auffindbar",
-        "c": "verfügbar",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "erheblichen",
-        "b": "großen",
-        "c": "hohen",
-        "correct": "a"
-      },
-      {
-        "num": 28,
-        "a": "überweisen",
-        "b": "zurückzuerstatten",
-        "c": "zurückzugeben",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "kommen",
-        "b": "zukommen",
-        "c": "erreichen",
-        "correct": "b"
-      },
-      {
-        "num": 30,
-        "a": "bereit",
-        "b": "nötig",
-        "c": "gezwungen",
-        "correct": "c"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "e"
+        },
+        {
+          "num": 32,
+          "correct": "c"
+        },
+        {
+          "num": 33,
+          "correct": "l"
+        },
+        {
+          "num": 34,
+          "correct": "a"
+        },
+        {
+          "num": 35,
+          "correct": "f"
+        },
+        {
+          "num": 36,
+          "correct": "h"
+        },
+        {
+          "num": 37,
+          "correct": "g"
+        },
+        {
+          "num": 38,
+          "correct": "b"
+        },
+        {
+          "num": 39,
+          "correct": "i"
+        },
+        {
+          "num": 40,
+          "correct": "d"
+        }
+      ]
+    }
   },
   {
     "id": 4006,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Globalisierung (Set 6)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Globalisierung",
-    "texts": [
-      {
-        "content": "B2 Level text about Globalisierung. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Ehrenamt & Engagement (Set 6)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Erfahrungsbericht: Mein Weg zum Ehrenamt. Vor Kurzem las ich einen Aufruf zur Unterstützung der lokalen Tafel. Da ich mich schon seit Längerem für soziales Engagement ___21___ , wollte ich mich als ehrenamtlicher Helfer beweisen.\nIn meiner Freizeit bin ich oft flexibel und könnte vor allem am Wochenende unterstützen. Ich habe bereits erste Erfahrungen gesammelt und bin ___22___ , dass ich mich gut in jedes Team einfügen werde. Mir ist bewusst, dass die Arbeit bei der Tafel viel ___23___ und Zuverlässigkeit erfordert. Besonders wichtig ist dabei der ___24___ Umgang mit den Bedürftigen. Ich bin überzeugt, dass ein ___25___ Miteinander die Basis für eine erfolgreiche Hilfe ist. Gerne möchte ich mehr über die genauen ___26___ erfahren, die auf mich zukommen könnten. Besteht die Möglichkeit, einmal bei einem Einsatz ___27___ ? So könnte ich mir ein besseres Bild von der Arbeit machen. Über eine Einladung zu einem Gespräch würde ich mich sehr ___28___ . ___29___ Sie weitere Fragen zu meiner Person haben, stehe ich jederzeit zur Verfügung. Ich freue mich schon jetzt ___30___ eine positive Rückmeldung.\n\nBericht von Markus Schmidt",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "einsetze",
+          "b": "interessiere",
+          "c": "begeistere",
+          "correct": "b"
+        },
+        {
+          "num": 22,
+          "a": "sicherlich",
+          "b": "gewiss",
+          "c": "zuversichtlich",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "Sorgfalt",
+          "b": "Wissen",
+          "c": "Geduld",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "höfliche",
+          "b": "respektvolle",
+          "c": "nette",
+          "correct": "b"
+        },
+        {
+          "num": 25,
+          "a": "ehrliches",
+          "b": "respektvolles",
+          "c": "wertschätzendes",
+          "correct": "c"
+        },
+        {
+          "num": 26,
+          "a": "Arbeiten",
+          "b": "Aufgaben",
+          "c": "Tätigkeiten",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "zuzuschauen",
+          "b": "reinzuschauen",
+          "c": "hineinzuschauen",
+          "correct": "c"
+        },
+        {
+          "num": 28,
+          "a": "freuen",
+          "b": "gefreut",
+          "c": "beglücken",
+          "correct": "a"
+        },
+        {
+          "num": 29,
+          "a": "Wenn",
+          "b": "Dass",
+          "c": "Sollten",
+          "correct": "c"
+        },
+        {
+          "num": 30,
+          "a": "über",
+          "b": "auf",
+          "c": "an",
+          "correct": "b"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Bedeutung des Ehrenamts für die Gesellschaft\n\nDas Ehrenamt ist eine tragende Säule unserer Gesellschaft. Millionen von Menschen investieren in ihrer Freizeit unentgeltlich Zeit und Energie, um anderen zu helfen oder sich für gemeinschaftliche Ziele ___31___ . Ob im Sportverein, im Umweltschutz oder in sozialen Einrichtungen – die Einsatzbereiche sind enorm ___32___ . Ohne diesen freiwilligen Einsatz würden viele Angebote, die wir heute als selbstverständlich ___33___ , schlichtweg nicht existieren.\nEin Ehrenamt bietet nicht nur der Gesellschaft einen Mehrwert, sondern auch den Freiwilligen selbst. Man kann neue Fähigkeiten erlernen, den eigenen Horizont ___34___ und wertvolle Kontakte knüpfen. Zudem stärkt das Gefühl, etwas Sinnvolles zu tun, das ___35___ . Es ist jedoch wichtig, dass das Ehrenamt nicht als Ersatz für reguläre Arbeitsplätze ___36___ wird. Eine klare Abgrenzung zwischen beruflicher Arbeit und freiwilligem Engagement ist zum ___37___ der Freiwilligen notwendig.\nDamit das Ehrenamt auch in Zukunft attraktiv bleibt, müssen die Rahmenbedingungen ___38___ . Dazu gehört auch eine stärkere gesellschaftliche ___39___ der freiwilligen Arbeit. ___40___ wir es schaffen, das Ehrenamt weiter zu fördern, wird unsere Gemeinschaft auch künftig von diesem wertvollen Engagement profitieren.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ANERKENNUNG",
+        "b": "ANSEHEN",
+        "c": "EINZUSETZEN",
+        "d": "ERWEITERN",
+        "e": "GEGENÜBER",
+        "f": "MISSBRAUCHT",
+        "g": "SCHUTZ",
+        "h": "SELBSTBEWUSSTSEIN",
+        "i": "SOFERN",
+        "j": "STIMMEN",
+        "k": "VIELFÄLTIG",
+        "l": "WAHRNEHMEN",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "ZWAR"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "c"
+        },
+        {
+          "num": 32,
+          "correct": "k"
+        },
+        {
+          "num": 33,
+          "correct": "l"
+        },
+        {
+          "num": 34,
+          "correct": "d"
+        },
+        {
+          "num": 35,
+          "correct": "h"
+        },
+        {
+          "num": 36,
+          "correct": "f"
+        },
+        {
+          "num": 37,
+          "correct": "g"
+        },
+        {
+          "num": 38,
+          "correct": "j"
+        },
+        {
+          "num": 39,
+          "correct": "a"
+        },
+        {
+          "num": 40,
+          "correct": "i"
+        }
+      ]
     }
   },
   {
     "id": 4007,
-    "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Ehrenamt (Set 7)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Ehrenamt",
-    "texts": [
-      {
-        "content": "B2 Level text about Ehrenamt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Künstliche Intelligenz (Set 7)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Künstliche Intelligenz: Wie sie unser Leben verändert. Der Einsatz von Künstlicher Intelligenz (KI) nimmt in unserem Alltag rasant ___21___ . Ob beim Online-Shopping oder in der Medizin – Algorithmen bestimmen oft schon unbemerkt unsere Entscheidungen. Experten haben oft die Frage ___22___ , wie viel Kontrolle wir dabei noch behalten. Es steht außer Frage, dass KI enorme Chancen bietet, ___23___ die Effizienz in vielen Bereichen zu steigern. Dennoch darf man die Risiken nicht außer Acht ___24___ . Besonders der Schutz persönlicher Daten muss oberste Priorität haben. Man sollte sich nicht blind auf die Technik ___25___ , sondern stets kritisch hinterfragen, welche Interessen dahinterstehen. Auch im Bildungssystem muss der ___26___ mit KI-Tools frühzeitig thematisiert werden. Schüler sollten lernen, wie man Informationen ___27___ und zwischen Fakten und Fiktion unterscheidet. Eine ethische ___28___ für die Entwicklung von KI ist unerlässlich. Wenn Forscher klare Regeln ___29___ , kann sichergestellt werden, dass die Technik dem Menschen dient. Wir dürfen auf weitere spannende ___30___ zu diesem Thema gespannt sein.\n\nKolumne: Zukunft & Technik",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "ab",
+          "b": "mit",
+          "c": "zu",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "aufgeworfen",
+          "b": "gestellt",
+          "c": "genannt",
+          "correct": "a"
+        },
+        {
+          "num": 23,
+          "a": "dass",
+          "b": "um",
+          "c": "damit",
+          "correct": "b"
+        },
+        {
+          "num": 24,
+          "a": "bringen",
+          "b": "nehmen",
+          "c": "lassen",
+          "correct": "c"
+        },
+        {
+          "num": 25,
+          "a": "vertrauen",
+          "b": "bewegen",
+          "c": "verlassen",
+          "correct": "c"
+        },
+        {
+          "num": 26,
+          "a": "Umgang",
+          "b": "Kontakt",
+          "c": "Einsatz",
+          "correct": "a"
+        },
+        {
+          "num": 27,
+          "a": "prüft",
+          "b": "bewertet",
+          "c": "sieht",
+          "correct": "b"
+        },
+        {
+          "num": 28,
+          "a": "Basis",
+          "b": "Rahmen",
+          "c": "Grundlage",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "geben",
+          "b": "festlegen",
+          "c": "machen",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "Beiträge",
+          "b": "Nachrichten",
+          "c": "Fragen",
+          "correct": "a"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Künstliche Intelligenz in der modernen Industrie\n\nDie Integration von Künstlicher Intelligenz in industrielle Prozesse hat eine neue Ära der Produktion ___31___ . Sogenannte 'Smart Factories' nutzen KI, um Maschinen vorausschauend zu warten und Produktionsabläufe in Echtzeit zu ___32___ . Dies führt zu einer deutlichen Kostensenkung und einer Steigerung der Produktqualität.\nEin wesentlicher Vorteil liegt in der Fähigkeit der KI, große Datenmengen in kürzester Zeit zu ___33___ und daraus Handlungsempfehlungen abzuleiten. ___34___ die Technik viele repetitive Aufgaben übernimmt, können sich die Mitarbeiter auf komplexere und kreative Tätigkeiten konzentrieren. Doch dieser Wandel erfordert auch eine ___35___ Qualifikation des Personals. Das lebenslange Lernen wird somit zu einer ___36___ für den beruflichen Erfolg.\nKritiker wandnen jedoch vor einem massiven Stellenabbau ___37___ die Automatisierung. Es ist daher die Aufgabe der Politik, den technologischen Fortschritt sozialverträglich zu ___38___ . ___39___ die Zusammenarbeit zwischen Mensch und Maschine gelingt, wird die KI zu einem unverzichtbaren Partner in der Arbeitswelt der Zukunft. Die gesellschaftliche Debatte über die moralischen Aspekte der KI muss dabei ___40___ weitergeführt werden.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ANALYSIEREN",
+        "b": "BEDINGUNG",
+        "c": "DURCH",
+        "d": "EINGELÄUTET",
+        "e": "GEGENÜBER",
+        "f": "GESTALTEN",
+        "g": "INTENSIV",
+        "h": "NUR",
+        "i": "OPTIMIEREN",
+        "j": "SOFERN",
+        "k": "STÄNDIGE",
+        "l": "WÄHREND",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "ZWAR"
       },
-      {
-        "num": 22,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 28,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 30,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "d"
+        },
+        {
+          "num": 32,
+          "correct": "i"
+        },
+        {
+          "num": 33,
+          "correct": "a"
+        },
+        {
+          "num": 34,
+          "correct": "l"
+        },
+        {
+          "num": 35,
+          "correct": "k"
+        },
+        {
+          "num": 36,
+          "correct": "b"
+        },
+        {
+          "num": 37,
+          "correct": "c"
+        },
+        {
+          "num": 38,
+          "correct": "f"
+        },
+        {
+          "num": 39,
+          "correct": "j"
+        },
+        {
+          "num": 40,
+          "correct": "g"
+        }
+      ]
+    }
   },
   {
     "id": 4008,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Künstliche Intelligenz (Set 8)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Künstliche Intelligenz",
-    "texts": [
-      {
-        "content": "B2 Level text about Künstliche Intelligenz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Mietrecht & Wohnen (Set 8)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Ratgeber: Mietminderung bei Wasserschäden. Ein Wasserschaden in der Wohnung ist ärgerlich, besonders wenn der Vermieter untätig bleibt. Trotz mehrfacher Aufforderung wird der Schaden oft ___21___ nicht behoben, was zu Schimmelbildung führen kann.\nAuf Schreiben der Mieter wird häufig nur mit Ausflüchten ___22___ . In solchen Fällen sollten Mieter den Vermieter schriftlich ___23___ , den Schaden bis zu einer festen Frist zu beseitigen. Geschieht dies nicht, kann man von seinem Recht auf Mietminderung ___24___ machen. Bei Schimmelbefall ist eine Minderung von bis zu 20 % oft ___25___ . Mieter sind sich jedoch oft unsicher, ob sie den Betrag direkt von der Miete ___26___ dürfen oder ob sie die Miete unter Vorbehalt zahlen sollten. Es stellt sich die Frage, welche rechtlichen ___27___ man nun unternehmen sollte. Zudem ist wichtig zu wissen, ob eine Rechtschutzversicherung die Kosten ___28___ würde. Man möchte unnötigen Streit vermeiden, ___29___ oft sieht man keinen anderen Ausweg mehr. Mietervereine bieten hierbei eine wertvolle ___30___ .\n\nQuelle: Wohnen & Recht 2024",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "immer",
+          "b": "heute",
+          "c": "bislang",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "erzählt",
+          "b": "geantwortet",
+          "c": "reagiert",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "gebeten",
+          "b": "aufgefordert",
+          "c": "genannt",
+          "correct": "b"
+        },
+        {
+          "num": 24,
+          "a": "Gebrauch",
+          "b": "Inanspruchnahme",
+          "c": "Nutzen",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "möglich",
+          "b": "zulässig",
+          "c": "denkbar",
+          "correct": "b"
+        },
+        {
+          "num": 26,
+          "a": "nehmen",
+          "b": "kürzen",
+          "c": "abziehen",
+          "correct": "c"
+        },
+        {
+          "num": 27,
+          "a": "Wege",
+          "b": "Schritte",
+          "c": "Maßnahmen",
+          "correct": "b"
+        },
+        {
+          "num": 28,
+          "a": "tragen",
+          "b": "übernehmen",
+          "c": "zahlen",
+          "correct": "b"
+        },
+        {
+          "num": 29,
+          "a": "weil",
+          "b": "obwohl",
+          "c": "aber",
+          "correct": "c"
+        },
+        {
+          "num": 30,
+          "a": "Hilfe",
+          "b": "Unterstützung",
+          "c": "Bemühungen",
+          "correct": "b"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Rechte und Pflichten von Mietern\n\nDas Verhältnis zwischen Mieter und Vermieter ist im Bürgerlichen Gesetzbuch (BGB) detailliert geregelt. Beide Seiten haben sowohl Rechte als auch Pflichten, die für ein harmonisches Mietverhältnis ___31___ sind. Eine der Hauptpflichten des Mieters ist die pünktliche ___32___ der vereinbarten Miete. Doch auch die Einhaltung der Hausordnung gehört dazu.\nDer Vermieter wiederum ist ___33___ , die Mietsache in einem zum vertragsgemäßen Gebrauch geeigneten Zustand zu erhalten. Treten Mängel auf, die nicht vom Mieter ___34___ wurden, muss der Vermieter diese beseitigen. ___35___ der Vermieter dieser Pflicht nicht nachkommt, hat der Mieter unter bestimmten Voraussetzungen das Recht zur Mietminderung. Ein wichtiger Aspekt ist auch die ___36___ der Nebenkosten. Hierüber muss der Vermieter jährlich eine Abrechnung erstellen.\nBei Auszug muss der Mieter die Wohnung in der Regel 'besenrein' ___37___ . Ob auch Schönheitsreparaturen durchgeführt werden müssen, hängt von den ___38___ im Mietvertrag ab. Oft sind starre Fristenregelungen unwirksam. ___39___ es zu Streitigkeiten kommt, empfiehlt sich oft der Gang zu einer Mieterberatung, um eine außergerichtliche Einigung zu ___40___ . Eine gute Kommunikation kann viele Probleme bereits im Keim ersticken.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ABRECHNUNG",
+        "b": "ERZIELEN",
+        "c": "ERHEBLICH",
+        "d": "FALLS",
+        "e": "GEGENÜBER",
+        "f": "ÜBERGEBEN",
+        "g": "VERANTWORTET",
+        "h": "VEREINBARUNGEN",
+        "i": "VERPFLICHTET",
+        "j": "WENN",
+        "k": "WESENTLICH",
+        "l": "WIE",
+        "m": "ZAHLUNG",
+        "n": "ZWAR",
+        "o": "AUSSCHLAGGEBEND"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "k"
+        },
+        {
+          "num": 32,
+          "correct": "m"
+        },
+        {
+          "num": 33,
+          "correct": "i"
+        },
+        {
+          "num": 34,
+          "correct": "g"
+        },
+        {
+          "num": 35,
+          "correct": "j"
+        },
+        {
+          "num": 36,
+          "correct": "a"
+        },
+        {
+          "num": 37,
+          "correct": "f"
+        },
+        {
+          "num": 38,
+          "correct": "h"
+        },
+        {
+          "num": 39,
+          "correct": "d"
+        },
+        {
+          "num": 40,
+          "correct": "b"
+        }
+      ]
     }
   },
   {
@@ -20021,184 +20793,355 @@ window.examData = [
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Mietstreitigkeiten (Set 9)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Mietstreitigkeiten",
-    "texts": [
-      {
-        "content": "B2 Level text about Mietstreitigkeiten. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
+    "title": "B2 Sprachbausteine - Mobilität & Verkehr (Set 9)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Kommentar: Warum unser Nahverkehr eine Stärkung braucht. Bürger, die sich mit Anregungen ___21___ die Stadtverwaltung wenden, fordern oft einen besseren Ausbau. Die Pläne zum Ausbau des Radwegenetzes sind begrüßenswert, doch eine gleichzeitige Stärkung des Bus- und Bahnverkehrs ist ___22___ .\nBesonders in den Randbezirken lässt die Taktung der Busse oft zu ___23___ übrig. Viele Berufstätige sind daher weiterhin auf das eigene Auto angewiesen, da die Fahrtzeiten mit dem ÖPNV schlichtweg zu lang sind. Ein attraktiver Nahverkehr zeichnet sich meiner Meinung nach ___24___ durch günstige Preise, sondern vor allem durch Zuverlässigkeit und Schnelligkeit aus. Zudem sollten mehr ___25___ für Pendler an den Bahnhöfen geschaffen werden. Es ist sinnvoll, die Taktzeiten in den Stoßzeiten zu ___26___ und die Anbindung der Vororte zu verbessern. Nur so kann die ___27___ von der Straße auf die Schiene gelingen. Auch die Digitalisierung bietet hier große Chancen, etwa durch Apps, die Fahrten verschiedener Anbieter ___28___ . Ein moderner ÖPNV ist das Rückgrat einer nachhaltigen ___29___ . Es bleibt zu hoffen, dass diese Vorschläge in die aktuelle Verkehrsplanung ___30___ werden.\n\nGastbeitrag: Andreas Berger",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "an",
+          "b": "für",
+          "c": "auf",
+          "correct": "a"
+        },
+        {
+          "num": 22,
+          "a": "notwendig",
+          "b": "wichtig",
+          "c": "unerlässlich",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "viel",
+          "b": "wenig",
+          "c": "wünschen",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "nicht nur",
+          "b": "besonders",
+          "c": "zwar",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "Parkplätze",
+          "b": "Plätze",
+          "c": "Stellen",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "verkürzen",
+          "b": "erhöhen",
+          "c": "machen",
+          "correct": "a"
+        },
+        {
+          "num": 27,
+          "a": "Verlagerung",
+          "b": "Veränderung",
+          "c": "Umstellung",
+          "correct": "a"
+        },
+        {
+          "num": 28,
+          "a": "nutzen",
+          "b": "verbinden",
+          "c": "kombinieren",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "Stadt",
+          "b": "Mobilität",
+          "c": "Zukunft",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "eingehen",
+          "b": "kommen",
+          "c": "einfließen",
+          "correct": "c"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Autonomes Fahren – Chance oder Risiko?\n\nDie Entwicklung von selbstfahrenden Autos wird die Art und Weise, wie wir uns fortbewegen, grundlegend ___31___ . Experten gehen davon aus, dass autonomes Fahren die Sicherheit im Straßenverkehr deutlich ___32___ wird, da menschliche Fehler als Hauptunfallursache ausgeschlossen werden. Zudem könnten Verkehrsflüsse besser gesteuert und Staus ___33___ werden.\nDoch neben den technischen Herausforderungen gibt es auch zahlreiche ethische Fragen, die noch ___34___ sind. Wie soll sich ein Computer in einer Extremsituation entscheiden, in der eine Kollision unvermeidbar ist? Die rechtliche ___35___ bei Unfällen mit autonomen Fahrzeugen ist ebenfalls ein komplexes Thema. ___36___ die Technik schon weit fortgeschritten ist, wird es wohl noch Jahre dauern, bis autonomes Fahren zum Alltag gehört.\nKritiker befürchten zudem einen Verlust der persönlichen ___37___ und weisen auf die Gefahr von Hackerangriffen hin. Damit die Akzeptanz in der Bevölkerung steigt, müssen die Systeme ___38___ sicher sein. Es ist die Aufgabe der Gesetzgeber, einen klaren rechtlichen ___39___ zu schaffen. ___40___ die Vorteile überwiegen, wird sich diese Technologie langfristig durchsetzen und die Mobilität nachhaltig verändern.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ABSOLUT",
+        "b": "ERHÖHEN",
+        "c": "FREIHEIT",
+        "d": "GEGENÜBER",
+        "e": "OFFEN",
+        "f": "RAHMEN",
+        "g": "REDUZIERT",
+        "h": "SOFERN",
+        "i": "UMGESTALTEN",
+        "j": "VERANTWORTUNG",
+        "k": "VERMIEDEN",
+        "l": "WENN",
+        "m": "WIE",
+        "n": "WOHL",
+        "o": "OBWOHL"
       },
-      {
-        "num": 22,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 29,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "i"
+        },
+        {
+          "num": 32,
+          "correct": "b"
+        },
+        {
+          "num": 33,
+          "correct": "k"
+        },
+        {
+          "num": 34,
+          "correct": "e"
+        },
+        {
+          "num": 35,
+          "correct": "j"
+        },
+        {
+          "num": 36,
+          "correct": "o"
+        },
+        {
+          "num": 37,
+          "correct": "c"
+        },
+        {
+          "num": 38,
+          "correct": "a"
+        },
+        {
+          "num": 39,
+          "correct": "f"
+        },
+        {
+          "num": 40,
+          "correct": "h"
+        }
+      ]
+    }
   },
   {
     "id": 4010,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Mobilität der Zukunft (Set 10)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Mobilität der Zukunft",
-    "texts": [
-      {
-        "content": "B2 Level text about Mobilität der Zukunft. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Ernährung & Gesundheit (Set 10)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Leserbrief: Vegetarische Ernährung im Trend. Im Artikel über die wachsende Beliebtheit der vegetarischen Lebensweise finden sich viele interessante Aspekte. Viele Leser möchten ihre eigenen Erfahrungen ___21___ beitragen.\nEs ist erstaunlich zu sehen, wie sehr sich das Angebot in den Supermärkten und Restaurants in letzter Zeit ___22___ hat. Früher war es oft schwierig, eine schmackhafte fleischlose Alternative zu finden, ___23___ heute die Auswahl riesig ist. Dennoch halten es Experten für wichtig, dass man sich nicht nur einseitig ernährt. Eine ausgewogene Nährstoffzufuhr ist das ___24___ für ein gesundes Leben. Besonders bei Verzicht auf Fleisch sollte man darauf ___25___ , genug Eisen und Vitamin B12 zu sich zu nehmen. Klar ist, dass der ___26___ von Fleisch auch einen positiven Effekt auf die Umwelt hat. Die Massentierhaltung ist eine der Hauptursachen für den Klimawandel. Es bleibt jedoch fragwürdig, wenn Ersatzprodukte oft viele Zusatzstoffe ___27___ . Ein bewusster Umgang mit Lebensmitteln fängt beim Kochen mit frischen Zutaten ___28___ . Viele wünschen sich, dass noch öfter über regionale ___29___ berichtet wird. Wir danken für diesen informativen ___30___ .\n\nZuschrift von Karin Weber",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "daran",
+          "b": "dazu",
+          "c": "dafür",
+          "correct": "b"
+        },
+        {
+          "num": 22,
+          "a": "gewandelt",
+          "b": "geändert",
+          "c": "vergrößert",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "obwohl",
+          "b": "da",
+          "c": "während",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "Ziel",
+          "b": "Fundament",
+          "c": "Sache",
+          "correct": "b"
+        },
+        {
+          "num": 25,
+          "a": "achten",
+          "b": "schauen",
+          "c": "sehen",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "Wegfall",
+          "b": "Verzicht",
+          "c": "Abbau",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "enthalten",
+          "b": "haben",
+          "c": "beinhalten",
+          "correct": "a"
+        },
+        {
+          "num": 28,
+          "a": "ab",
+          "b": "auf",
+          "c": "an",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "Produkte",
+          "b": "Sachen",
+          "c": "Waren",
+          "correct": "a"
+        },
+        {
+          "num": 30,
+          "a": "Text",
+          "b": "Beitrag",
+          "c": "Artikel",
+          "correct": "b"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Superfood – Wunderwaffe oder Marketinggag?\n\nIn den letzten Jahren ist ein wahrer Hype um sogenannte 'Superfoods' entstanden. Chia-Samen, Goji-Beeren oder Quinoa werden als wahre Wunderwaffen für die Gesundheit ___31___ . Sie sollen fit machen, das Immunsystem stärken und sogar beim Abnehmen helfen. Doch was ist an diesen ___32___ wirklich dran?\nErnährungswissenschaftler weisen darauf hin, dass viele dieser exotischen Produkte zwar wertvolle Inhaltsstoffe besitzen, diese aber auch in heimischen Lebensmitteln zu ___33___ sind. Leinsamen bieten beispielsweise ähnliche Vorteile wie Chia-Samen, sind jedoch deutlich ___34___ und haben eine bessere Ökobilanz. Ein weiterer kritischer Punkt ist die weite Anreise der exotischen Früchte, die die Umwelt ___35___ . Zudem werden Superfoods oft zu ___36___ Preisen verkauft, die in keinem Verhältnis zum tatsächlichen Nutzen stehen.\nEs kommt vor allem auf eine insgesamt ausgewogene Ernährung ___37___ , anstatt sich nur auf einzelne 'Wundermittel' zu verlassen. Wer viel frisches Gemüse und Obst aus der Region ___38___ , ist in der Regel bestens versorgt. Das Siegel 'Superfood' ist daher oft mehr ein geschickter Marketingzug der Lebensmittelindustrie ___39___ ein wissenschaftlich belegter Vorteil. ___40___ man sich bewusst ernährt, braucht man keine teuren Spezialprodukte aus Übersee.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ALS",
+        "b": "AN",
+        "c": "BELASTET",
+        "d": "FINDEN",
+        "e": "GEGENÜBER",
+        "f": "GÜNSTIGER",
+        "g": "HOCHPREISIGEN",
+        "h": "PREISEN",
+        "i": "SOFERN",
+        "j": "VERSPRECHEN",
+        "k": "ANGESAGTEN",
+        "l": "WANN",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "GEPRIESEN"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "o"
+        },
+        {
+          "num": 32,
+          "correct": "j"
+        },
+        {
+          "num": 33,
+          "correct": "d"
+        },
+        {
+          "num": 34,
+          "correct": "f"
+        },
+        {
+          "num": 35,
+          "correct": "c"
+        },
+        {
+          "num": 36,
+          "correct": "h"
+        },
+        {
+          "num": 37,
+          "correct": "b"
+        },
+        {
+          "num": 38,
+          "correct": "m"
+        },
+        {
+          "num": 39,
+          "correct": "a"
+        },
+        {
+          "num": 40,
+          "correct": "i"
+        }
+      ]
     }
   },
   {
@@ -20206,184 +21149,355 @@ window.examData = [
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Ernährungstrends (Set 11)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Ernährungstrends",
-    "texts": [
-      {
-        "content": "B2 Level text about Ernährungstrends. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Umwelt & Nachhaltigkeit (Set 11)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Vorschlag: Plastikvermeidung auf dem Wochenmarkt. Wer regelmäßig den Wochenmarkt besucht, bemerkt oft, dass dort erhebliche Mengen an Plastiktüten verwendet werden. Es gibt jedoch viele Möglichkeiten ___21___ , wie wir unseren Markt nachhaltiger gestalten könnten.\nIn vielen anderen Städten wurden bereits gute Erfahrungen ___22___ gemacht, Stoffbeutel an zentralen Stellen auszuleihen. Zudem könnten die Händler dazu angehalten werden, Papiertüten nur auf ausdrücklichen ___23___ auszugeben. Ein weiterer wichtiger Punkt ist die Vermeidung von Plastikverpackungen bei Obst und Gemüse. Viele Kunden sind durchaus ___24___ , für umweltfreundliche Alternativen einen kleinen Aufpreis zu zahlen. Ein 'plastikfreier Markt' wäre ein positives ___25___ für jede Stadt. Es geht darum, das Bewusstsein der Bürger für einen ___26___ Umgang mit Ressourcen zu schärfen. Sicherlich erfordert eine solche Umstellung erst einmal eine gewisse ___27___ seitens der Händler und Kunden. Es ist sinnvoll, bald eine Informationskampagne ___28___ . Viele sind bereit, sich ehrenamtlich an der ___29___ zu beteiligen. Über eine positive Resonanz auf diese Vorschläge würden sich viele Bürger ___30___ .\n\nInitiative für Nachhaltigkeit",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "geben",
+          "b": "unterbreiten",
+          "c": "sagen",
+          "correct": "b"
+        },
+        {
+          "num": 22,
+          "a": "daran",
+          "b": "darüber",
+          "c": "damit",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "Bedarf",
+          "b": "Willen",
+          "c": "Wunsch",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "fertig",
+          "b": "bereit",
+          "c": "geneigt",
+          "correct": "b"
+        },
+        {
+          "num": 25,
+          "a": "Signal",
+          "b": "Zeichen",
+          "c": "Bild",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "netten",
+          "b": "starken",
+          "c": "sorgsamen",
+          "correct": "c"
+        },
+        {
+          "num": 27,
+          "a": "Anpassung",
+          "b": "Übung",
+          "c": "Geduld",
+          "correct": "a"
+        },
+        {
+          "num": 28,
+          "a": "zu geben",
+          "b": "zu starten",
+          "c": "zu machen",
+          "correct": "b"
+        },
+        {
+          "num": 29,
+          "a": "Wirkung",
+          "b": "Umsetzung",
+          "c": "Sache",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "bedanken",
+          "b": "beglücken",
+          "c": "freuen",
+          "correct": "c"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Klimawandel – Die Rolle des Einzelnen\n\nDie globale Erwärmung ist eine der größten Herausforderungen unserer Zeit. Während die Politik und die Wirtschaft entscheidende Weichen stellen müssen, stellt sich oft die Frage, welchen Beitrag der Einzelne ___31___ kann. Viele Menschen fühlen sich angesichts der Komplexität des Problems ___32___ .\nDoch Klimaschutz beginnt im Kleinen. Durch bewussten Konsum und eine Änderung der Lebensgewohnheiten lässt sich der persönliche ökologische Fußabdruck deutlich ___33___ . Das fängt bei der Wahl der Verkehrsmittel an und reicht ___34___ zur Vermeidung von Lebensmittelabfällen. Auch der Verzicht auf Flugreisen oder der Wechsel zu einem Ökostromanbieter sind effektive ___35___ . ___36___ jeder Einzelne nur einen kleinen Teil beiträgt, summiert sich dies in der Masse zu einer erheblichen Wirkung.\nEs ist jedoch wichtig, dass Klimaschutz nicht als reiner Verzicht ___37___ wird. Vielmehr bietet ein nachhaltiger Lebensstil auch eine höhere Lebensqualität. Gesundheit durch mehr Bewegung an der frischen Luft oder eine bewusstere Ernährung sind positive Nebeneffekte. Damit der Wandel ___38___ , braucht es jedoch ein allgemeines Umdenken in der Gesellschaft. ___39___ wir jetzt konsequent handeln, können wir die Folgen des Klimawandels noch abmildern. Letztendlich tragen wir alle die ___40___ für die Zukunft unseres Planeten.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "BEITRAGEN",
+        "b": "BIS",
+        "c": "GEGENÜBER",
+        "d": "GELINGT",
+        "e": "HILFLOS",
+        "f": "LEISTEN",
+        "g": "MAẞNAHMEN",
+        "h": "REDUZIEREN",
+        "i": "SOFERN",
+        "j": "VERANTWORTUNG",
+        "k": "VERSTANDEN",
+        "l": "WANN",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "ZWAR"
       },
-      {
-        "num": 22,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 24,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 25,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "f"
+        },
+        {
+          "num": 32,
+          "correct": "e"
+        },
+        {
+          "num": 33,
+          "correct": "h"
+        },
+        {
+          "num": 34,
+          "correct": "b"
+        },
+        {
+          "num": 35,
+          "correct": "g"
+        },
+        {
+          "num": 36,
+          "correct": "m"
+        },
+        {
+          "num": 37,
+          "correct": "k"
+        },
+        {
+          "num": 38,
+          "correct": "d"
+        },
+        {
+          "num": 39,
+          "correct": "i"
+        },
+        {
+          "num": 40,
+          "correct": "j"
+        }
+      ]
+    }
   },
   {
     "id": 4012,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Umweltschutz (Set 12)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Umweltschutz",
-    "texts": [
-      {
-        "content": "B2 Level text about Umweltschutz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Lebenslanges Lernen (Set 12)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Informationsblatt: Fortbildung & Karriere. In der heutigen Arbeitswelt gewinnt das Konzept des lebenslangen Lernens immer mehr an ___21___ . Wer sich beruflich verändern möchte, sollte frühzeitig nach einer passenden Weiterbildung suchen. Viele Fachkräfte möchten ihre kaufmännischen Kenntnisse gezielt ___22___ .\nIn verschiedenen Programmen finden sich Zertifikatskurse, doch oft ist man unsicher, welcher Weg am ___23___ ist. Besonders interessant ist die Frage, ob Kurse auch berufsbegleitend absolviert werden können. Eine flexible ___24___ der Lernzeiten ist für Vollzeitberufstätige von großer Bedeutung. Zudem stellt sich die Frage, ob es staatliche ___25___ für solche Maßnahmen gibt. Häufig wird in Newslettern die finanzielle Hilfe ___26___ , doch man muss die Voraussetzungen genau prüfen. Es ist ratsam, sich Informationsmaterial ___27___ zu lassen oder einen Beratungstermin zu vereinbaren. Eine gezielte Qualifizierung wird die persönlichen ___28___ auf dem Arbeitsmarkt deutlich verbessern. Es ist wichtig, fachlich stets ___29___ zu bleiben. Bildungseinrichtungen freuen sich über jede konstruktive ___30___ .\n\nQuelle: VHS-Ratgeber 'Zukunft'",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "Wichtigkeit",
+          "b": "Sinn",
+          "c": "Bedeutung",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "machen",
+          "b": "vertiefen",
+          "c": "ausbauen",
+          "correct": "b"
+        },
+        {
+          "num": 23,
+          "a": "besten",
+          "b": "ehesten",
+          "c": "geeignetsten",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "Gestaltung",
+          "b": "Form",
+          "c": "Übung",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "Hilfen",
+          "b": "Gaben",
+          "c": "Förderungen",
+          "correct": "c"
+        },
+        {
+          "num": 26,
+          "a": "genannt",
+          "b": "erwähnt",
+          "c": "geschrieben",
+          "correct": "b"
+        },
+        {
+          "num": 27,
+          "a": "senden",
+          "b": "geben",
+          "c": "zusenden",
+          "correct": "c"
+        },
+        {
+          "num": 28,
+          "a": "Wege",
+          "b": "Stellen",
+          "c": "Chancen",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "aktuell",
+          "b": "up-to-date",
+          "c": "neu",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "Nachricht",
+          "b": "Rückmeldung",
+          "c": "Antwort",
+          "correct": "b"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Digitales Lernen – Die Zukunft der Bildung\n\nDas Internet hat die Bildungslandschaft in den letzten Jahren grundlegend ___31___ . Online-Kurse, Webinare und Lernplattformen ermöglichen es Menschen weltweit, sich unabhängig von Ort und Zeit weiterzubilden. Diese Flexibilität ist einer der Hauptvorteile des digitalen ___32___ .\nMan kann im eigenen Tempo lernen und die Inhalte bei Bedarf mehrfach ___33___ . Zudem bieten viele Plattformen interaktive Elemente wie Foren oder Quizze an, die den Lernerfolg ___34___ . Doch digitales Lernen erfordert auch ein hohes Maß an Selbstdisziplin und Eigenmotivation. Ohne eine klare Struktur läuft man Gefahr, das Ziel aus den Augen zu ___35___ . ___36___ die Technik viele Vorteile bietet, darf der soziale Austausch nicht vernachlässigt werden.\nViele Experten plädieren daher für 'Blended Learning', eine ___37___ aus Präsenzunterricht und Online-Phasen. So können die Vorteile beider Welten ___38___ genutzt werden. Es ist jedoch wichtig, dass der Zugang zu digitaler Bildung für alle Menschen ___39___ ist. Die digitale Kluft darf nicht zu neuen Bildungsungerechtigkeiten führen. ___40___ wir die Chancen der Digitalisierung klug nutzen, wird die Bildung der Zukunft inklusiver und effektiver sein.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ERLEICHTERT",
+        "b": "GEGENÜBER",
+        "c": "GEWÄHRLEISTET",
+        "d": "KOMBINATION",
+        "e": "LERNENS",
+        "f": "OPTIMAL",
+        "g": "SOFERN",
+        "h": "STEIGERN",
+        "i": "UMGESTALTET",
+        "j": "VERLIEREN",
+        "k": "WÄHREND",
+        "l": "WANN",
+        "m": "WENN",
+        "n": "WIDERHOLEN",
+        "o": "ZWAR"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "i"
+        },
+        {
+          "num": 32,
+          "correct": "e"
+        },
+        {
+          "num": 33,
+          "correct": "n"
+        },
+        {
+          "num": 34,
+          "correct": "h"
+        },
+        {
+          "num": 35,
+          "correct": "j"
+        },
+        {
+          "num": 36,
+          "correct": "k"
+        },
+        {
+          "num": 37,
+          "correct": "d"
+        },
+        {
+          "num": 38,
+          "correct": "f"
+        },
+        {
+          "num": 39,
+          "correct": "c"
+        },
+        {
+          "num": 40,
+          "correct": "g"
+        }
+      ]
     }
   },
   {
@@ -20391,184 +21505,355 @@ window.examData = [
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Lebenslanges Lernen (Set 13)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Lebenslanges Lernen",
-    "texts": [
-      {
-        "content": "B2 Level text about Lebenslanges Lernen. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
+    "title": "B2 Sprachbausteine - Fachkräftemangel & Personal (Set 13)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Analyse: Strategien gegen den Fachkräftemangel. Der zunehmende Mangel an qualifiziertem Personal stellt viele Unternehmen vor große ___21___ . In aktuellen Wirtschaftsberichten werden verschiedene Strategien ___22___ , wie man diesem Trend entgegenwirken kann. Experten möchten dazu ihre Einschätzung ___23___ .\nEs reicht oft nicht aus, nur auf die Ausbildung im eigenen Betrieb zu setzen. Unternehmen müssen auch attraktiver für qualifizierte Zuwanderer werden. Die bürokratischen ___24___ bei der Anerkennung Abschlüsse sollten dringend abgebaut werden. Zudem ist eine bessere Vereinbarkeit von Familie und Beruf ein entscheidender ___25___ , um mehr Potentiale zu gewinnen. Flexible Arbeitszeitmodelle sind hierbei ___26___ . Auch die Förderung von erfahrenen Arbeitnehmern ist ein großer ___27___ für jedes Team. Es ist wichtig, frühzeitig in die ___28___ zu investieren. Ein gutes Betriebsklima trägt maßgeblich zur Zufriedenheit ___29___ bei. Es bleibt zu hoffen, dass diese Punkte in der Debatte mehr Gehör ___30___ .\n\nQuelle: Wirtschaftsbeilage 'Industrie'",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "Sorgen",
+          "b": "Herausforderungen",
+          "c": "Probleme",
+          "correct": "b"
+        },
+        {
+          "num": 22,
+          "a": "genannt",
+          "b": "gezeigt",
+          "c": "skizziert",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "geben",
+          "b": "sagen",
+          "c": "mitteilen",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "Schritte",
+          "b": "Wege",
+          "c": "Hürden",
+          "correct": "c"
+        },
+        {
+          "num": 25,
+          "a": "Faktor",
+          "b": "Grund",
+          "c": "Aspekt",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "notwendig",
+          "b": "wichtig",
+          "c": "unerlässlich",
+          "correct": "c"
+        },
+        {
+          "num": 27,
+          "a": "Vorteil",
+          "b": "Gewinn",
+          "c": "Nutzen",
+          "correct": "b"
+        },
+        {
+          "num": 28,
+          "a": "Schule",
+          "b": "Arbeit",
+          "c": "Weiterbildung",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "zu",
+          "b": "an",
+          "c": "bei",
+          "correct": "c"
+        },
+        {
+          "num": 30,
+          "a": "haben",
+          "b": "sehen",
+          "c": "finden",
+          "correct": "c"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Employer Branding – Die Firma als Marke\n\nIm Wettbewerb um die besten Talente müssen sich Unternehmen heutzutage als attraktive Arbeitgeber ___31___ . Dieser Prozess wird als 'Employer Branding' bezeichnet. Es geht darum, eine positive Arbeitgebermarke aufzubauen und diese nach außen zu ___32___ . So sollen potenzielle Bewerber auf das Unternehmen aufmerksam gemacht werden.\nEin authentisches Employer Branding basiert auf den tatsächlichen Werten und der Kultur des Unternehmens. Es bringt wenig, ein Bild zu ___33___ , das nicht der Realität entspricht. Mitarbeiter, die sich mit ihrem Arbeitgeber identifizieren, sind nicht nur produktiver, ___34___ auch loyaler. Sie fungieren oft als Markenbotschafter und ___35___ so zum guten Ruf der Firma bei. ___36___ der Fachkräftemangel zunimmt, wird die Bindung bestehender Mitarbeiter zu einer zentralen Aufgabe.\nNeben einem angemessenen Gehalt spielen heute auch Zusatzleistungen wie Home-Office, betriebliche Altersvorsorge oder Fitnessangebote eine ___37___ Rolle. Ein modernes Arbeitsumfeld ist für viele Fachkräfte ein wichtiges ___38___ bei der Jobwahl. ___39___ ein Unternehmen es schafft, seine Einzigartigkeit hervorzuheben, wird es im 'War for Talents' erfolgreich sein. Letztendlich ist Employer Branding eine langfristige ___40___ , die sich für jedes Unternehmen auszahlt.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "ENTSCHEIDUNGSKRITERIUM",
+        "b": "GEGENÜBER",
+        "c": "INVESTITION",
+        "d": "KOMMUNIZIEREN",
+        "e": "POSITIONIEREN",
+        "f": "SONDERN",
+        "g": "SOFERN",
+        "h": "TRAGEN",
+        "i": "VERMITTELN",
+        "j": "WÄHREND",
+        "k": "WANN",
+        "l": "WENN",
+        "m": "WESENTLICHE",
+        "n": "WIE",
+        "o": "ZWAR"
       },
-      {
-        "num": 22,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 28,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      }
-    ]
+      "questions": [
+        {
+          "num": 31,
+          "correct": "e"
+        },
+        {
+          "num": 32,
+          "correct": "d"
+        },
+        {
+          "num": 33,
+          "correct": "i"
+        },
+        {
+          "num": 34,
+          "correct": "f"
+        },
+        {
+          "num": 35,
+          "correct": "h"
+        },
+        {
+          "num": 36,
+          "correct": "j"
+        },
+        {
+          "num": 37,
+          "correct": "m"
+        },
+        {
+          "num": 38,
+          "correct": "a"
+        },
+        {
+          "num": 39,
+          "correct": "g"
+        },
+        {
+          "num": 40,
+          "correct": "c"
+        }
+      ]
+    }
   },
   {
     "id": 4014,
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Fachkräftemangel (Set 14)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Fachkräftemangel",
-    "texts": [
-      {
-        "content": "B2 Level text about Fachkräftemangel. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
+    "title": "B2 Sprachbausteine - Kulturelle Vielfalt & Integration (Set 14)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Konzept: Interkulturelles Stadtteilfest für ein besseres Miteinander. In vielen Stadtteilen leben Menschen aus vielen verschiedenen Kulturen zusammen. Dies ist oft eine große Bereicherung für das ___21___ . Um das Miteinander weiter zu fördern, wurde die Idee für ein Fest entwickelt.\nEin solches Event bietet die ideale Gelegenheit, ___22___ Vorurteile abzubauen und neue Kontakte zu knüpfen. Man schlägt vor, verschiedene Stationen ___23___ , an denen man kulinarische Spezialitäten probieren kann. Zudem könnten Musikgruppen aus verschiedenen Kulturkreisen für ein abwechslungsreiches Programm ___24___ . Auch für Kinder sollten spezielle Aktivitäten ___25___ werden, um sie spielerisch heranzuführen. Es ist wichtig, dass Räume für Begegnungen ___26___ werden, in denen sich Menschen austauschen können. Ein ___27___ Dialog ist der Schlüssel für eine gelungene Integration. Sicherlich erfordert die Organisation eines solchen Festes viel ___28___ . Jeder ist eingeladen, sich aktiv zu ___29___ . Es bleibt das Ziel, dass wir gemeinsam dieses Projekt ___30___ .\n\nQuelle: Stadtteil-Journal",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "Zusammenleben",
+          "b": "Wirkungskreis",
+          "c": "Leben",
+          "correct": "a"
+        },
+        {
+          "num": 22,
+          "a": "um",
+          "b": "damit",
+          "c": "dass",
+          "correct": "a"
+        },
+        {
+          "num": 23,
+          "a": "machen",
+          "b": "einzurichten",
+          "c": "aufzubauen",
+          "correct": "b"
+        },
+        {
+          "num": 24,
+          "a": "sein",
+          "b": "sorgen",
+          "c": "machen",
+          "correct": "b"
+        },
+        {
+          "num": 25,
+          "a": "angeboten",
+          "b": "genannt",
+          "c": "geplant",
+          "correct": "a"
+        },
+        {
+          "num": 26,
+          "a": "geben",
+          "b": "bilden",
+          "c": "schaffen",
+          "correct": "c"
+        },
+        {
+          "num": 27,
+          "a": "offener",
+          "b": "netter",
+          "c": "ehrlicher",
+          "correct": "a"
+        },
+        {
+          "num": 28,
+          "a": "Engagement",
+          "b": "Mühe",
+          "c": "Arbeit",
+          "correct": "a"
+        },
+        {
+          "num": 29,
+          "a": "einbringen",
+          "b": "engagieren",
+          "c": "beteiligen",
+          "correct": "b"
+        },
+        {
+          "num": 30,
+          "a": "starten",
+          "b": "machen",
+          "c": "realisieren",
+          "correct": "c"
+        }
+      ]
+    },
+    "part2": {
+      "texts": [
+        {
+          "content": "Interkulturelle Kompetenz im Berufsleben\n\nIn einer globalisierten Wirtschaftswelt wird interkulturelle Kompetenz zu einer immer wichtigeren Schlüsselqualifikation. Teams bestehen heute oft aus Mitarbeitern mit unterschiedlichen kulturellen ___31___ . Um erfolgreich zusammenzuarbeiten, ist es notwendig, die Denk- und Verhaltensweisen der anderen zu ___32___ .\nDies erfordert ein hohes Maß an Empathie und die Bereitschaft, die eigene Perspektive zu ___33___ . Missverständnisse in der Kommunikation entstehen oft dadurch, dass Botschaften aufgrund kultureller Prägungen unterschiedlich ___34___ werden. Interkulturelle Kompetenz bedeutet jedoch nicht, die eigene Identität aufzugeben, sondern vielmehr die Fähigkeit, ___25___ verschiedenen Kulturen zu vermitteln. ___36___ ein Mitarbeiter über diese Fähigkeit verfügt, kann er maßgeblich zum Erfolg internationaler Projekten beitragen.\nViele Unternehmen bieten mittlerweile Trainings an, um die Sensibilität der Mitarbeiter für kulturelle ___37___ zu schärfen. Ein vorurteilsfreies Miteinander fördert die Kreativität und Innovationskraft eines Teams. Es ist jedoch ein ___38___ Prozess, der ständiges Lernen erfordert. ___39___ wir die Vielfalt als Chance begreifen, können wir die Herausforderungen der Globalisierung besser ___20___ . Kulturelle Vielfalt bereichert nicht nur unser Privatleben, sondern auch unsere berufliche Entwicklung.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "DRUCH",
+        "b": "GEGENÜBER",
+        "c": "HINTERGRÜNDEN",
+        "d": "HINTERFRAGEN",
+        "e": "INTERPRETIERT",
+        "f": "MEISTERN",
+        "g": "SOFERN",
+        "h": "STÄNDIGER",
+        "i": "UNTERSCHIEDE",
+        "j": "VERSTEHEN",
+        "k": "WANN",
+        "l": "WENN",
+        "m": "WIE",
+        "n": "ZWISCHEN",
+        "o": "ZWAR"
       },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "c"
+        },
+        {
+          "num": 32,
+          "correct": "j"
+        },
+        {
+          "num": 33,
+          "correct": "d"
+        },
+        {
+          "num": 34,
+          "correct": "e"
+        },
+        {
+          "num": 35,
+          "correct": "n"
+        },
+        {
+          "num": 36,
+          "correct": "g"
+        },
+        {
+          "num": 37,
+          "correct": "i"
+        },
+        {
+          "num": 38,
+          "correct": "h"
+        },
+        {
+          "num": 39,
+          "correct": "l"
+        },
+        {
+          "num": 40,
+          "correct": "f"
+        }
+      ]
     }
   },
   {
@@ -20576,1488 +21861,732 @@ window.examData = [
     "type": "TELC",
     "level": "B2",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Kulturelle Vielfalt (Set 15)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Kulturelle Vielfalt",
-    "texts": [
-      {
-        "content": "B2 Level text about Kulturelle Vielfalt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 22,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 28,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      }
-    ]
-  },
-{
-    "id": 4001,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - WG-Zimmer (Set 1)",
-    "cc": "",
-    "betreff": "WG-Zimmer",
-    "texts": [
-      {
-        "content": "Hallo Rahim,\n\nvielen Dank für deine Mail und deine Fragen zu dem Zimmer in unserer WG. Wir freuen uns ___21___ dein Interesse an dem Zimmer und beantworten dir gerne alles.\nDie Wohnung befindet ___22___ im dritten Stock eines Altbaus. Sie hat zwei Badezimmer, die wir gemeinschaftlich nutzen, und eine sehr gut ausgestattete Küche – inklusive Spülmaschine. Wir haben außerdem einen großen Balkon, ___23___ man bei gutem Wetter eine super Aussicht hat. Das Zimmer, das zu vermieten ist, kann nach eigenen Wünschen gestaltet ___24___. Es ist 28 qm groß und nicht möbliert.\nWir sind übrigens keine Studenten-WG, sondern eine „Berufstätigen-WG“. Mein Mitbewohner Johannes ist Sozialarbeiter und ich beschäftige mich beruflich ___25___ der Entwicklung von Lernsoftware. Unsere Freizeitinteressen sind teilweise recht unterschiedlich. Johannes liebt Sport aller Art und ist viel unterwegs, ___26___ ich meinen Feierabend gern auf dem Sofa ausklingen lasse. Wir kochen aber oft zusammen und machen auch mal einen Spieleabend. Generell geht es bei uns eher ruhig zu. Abends trinken wir ___27___ gerne mal ein Gläschen Wein mit Freunden, aber große Partys feiern wir hier fast nie. Wir wünschen uns einen Mitbewohner, ___28___ Lebensstil zu unserem passt. Ein Nichtraucher wäre super, aber mit einem Raucher, der zum Rauchen auf den Balkon geht, könnten wir auch gut leben.\nSchön, dass du anbietest vorbeizukommen, ___29___ wir uns persönlich kennenlernen können. Morgen klappt es allerdings leider nicht. Wenn ich eher ___30___, dass du dann in der Stadt bist, hätte ich mir Zeit frei gehalten, aber so habe ich den Tag schon verplant. Könntest du vielleicht auch am Sonntag?\n\nViele Grüße\nTill",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "über",
-        "b": "wegen",
-        "c": "für",
-        "correct": "a"
-      },
-      {
-        "num": 22,
-        "a": "uns",
-        "b": "man",
-        "c": "sich",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "für den",
-        "b": "von dem",
-        "c": "auf der",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "werden",
-        "b": "würden",
-        "c": "wurden",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "an",
-        "b": "mit",
-        "c": "in",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "während",
-        "b": "sondern",
-        "c": "anstatt",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "sowohl",
-        "b": "entweder",
-        "c": "zwar",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "seinen",
-        "b": "denen",
-        "c": "dessen",
-        "correct": "c"
-      },
-      {
-        "num": 29,
-        "a": "deswegen",
-        "b": "indem",
-        "c": "damit",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "wüsste",
-        "b": "gewusst habe",
-        "c": "gewusst hätte",
-        "correct": "c"
-      }
-    ]
-  },
-  {
-    "id": 4002,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Drei Mythen über den Schlaf (Set 2)",
-    "texts": [
-      {
-        "content": "Lange schlafen ist gesund, oder etwa nicht?\n\nDrei Mythen über den Schlaf\n\nWarum träumen wir? Was passiert im Gehirn, wenn wir schlafen? Und warum müssen wir ___31___ schlafen? Während Wissenschaftler nach Antworten auf diese Fragen suchen, werden im Volksmund etliche Geschichten über den Schlaf erzählt. Viele davon sind unwahr.\n\nMythos 1: Lange schlafen ist gesund.\nImmer wieder werden wir ___32___ gewarnt, dass sich zu wenig Schlaf früher oder später negativ auf unser Wohlbefinden auswirkt. Aber kann man auch zu viel schlafen? Schlafmediziner sagen: ja. Ein internationales Forschungsteam ist zu dem Ergebnis gekommen, dass zu viel Schlaf ___33___ ungesund ist wie zu wenig. Notorische Langschläfer leiden zum Beispiel häufiger ___34___ Depressionen und haben ein erhöhtes Risiko, an Diabetes zu erkranken.\n\nMythos 2: Der Schlaf vor Mitternacht ist der beste.\nViele Menschen behaupten, dass der Schlaf vor Mitternacht besonders erholsam sei. Das ___35___ so aber nicht. Wissenschaftler haben herausgefunden, dass nicht die Uhrzeit entscheidend ist, ___36___ vielmehr die ersten Stunden nach dem Einschlafen. In dieser Zeit ___37___ ein Großteil des wertvollen Tiefschlafs statt. In den Tiefschlafphasen erholt sich unser Körper am intensivsten. Der Zeitpunkt des Einschlafens spielt dabei keine ___38___.\n\nMythos 3: Im Schlaf passiert nicht viel.\nWer glaubt, dass im Schlaf nicht ___39___ viel passiert, der täuscht sich gewaltig. Nachts, wenn der Körper zur ___40___ kommt, laufen in unserem Organismus äußerst komplexe Prozesse ab. Unser Immunsystem wird aktiviert, Wachstumshormone bauen unsere Muskeln auf, die Haut regeneriert sich und unser Gehirn läuft auf Hochtouren, um die Ereignisse des Tages zu verarbeiten.",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "wordBank": {
-      "a": "ALLZU",
-      "b": "BEDEUTUNG",
-      "c": "DARAUF",
-      "d": "DAVOR",
-      "e": "FINDET",
-      "f": "GENAUSO",
-      "g": "HIERMIT",
-      "h": "MIT",
-      "i": "NIMMT",
-      "j": "ROLLE",
-      "k": "RUHE",
-      "l": "SONDERN",
-      "m": "STIMMT",
-      "n": "ÜBERHAUPT",
-      "o": "UNTER"
+    "title": "B2 Sprachbausteine - Globalisierung & Wirtschaft (Set 15)",
+    "part1": {
+      "cc": "",
+      "betreff": "",
+      "texts": [
+        {
+          "content": "Kolumne: Die Globalisierung und ihre Schattenseiten. Berichte über die Auswirkungen der Globalisierung auf die lokalen Märkte zeigen deutliche Trends. Es ist unbestreitbar, dass die weltweite Vernetzung viele Vorteile ___21___ , doch wir dürfen die Kehrseiten nicht vernachlässigen.\nIn vielen Regionen führt der Preisdruck dazu, dass traditionelle Handwerksbetriebe kaum noch ___22___ können. Dies hat Folgen für die kulturelle ___23___ . Internationaler Handel kann den Wohlstand fördern, ___24___ er unter fairen Bedingungen stattfindet. Es ist wichtig, dass Konsumenten ihre Macht ___25___ und Produkte aus fairem Handel bevorzugen. Auch die Politik ist ___26___ , Rahmenbedingungen zu schaffen, die soziale Standards weltweit ___27___ . Ein blindes Vertrauen in die Märkte wird oft als ___28___ eingestuft. Eine Globalisierung, die nur auf Gewinnmaximierung ___29___ ist, wird langfristig mehr Schaden anrichten. Wir danken für diesen ___30___ Beitrag.\n\nQuelle: Magazin 'Globus'",
+          "gapIds": [
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "num": 21,
+          "a": "bietet",
+          "b": "hat",
+          "c": "bringt",
+          "correct": "c"
+        },
+        {
+          "num": 22,
+          "a": "machen",
+          "b": "bestehen",
+          "c": "überleben",
+          "correct": "c"
+        },
+        {
+          "num": 23,
+          "a": "Sache",
+          "b": "Form",
+          "c": "Identität",
+          "correct": "c"
+        },
+        {
+          "num": 24,
+          "a": "sofern",
+          "b": "obwohl",
+          "c": "wenn",
+          "correct": "a"
+        },
+        {
+          "num": 25,
+          "a": "gebrauchen",
+          "b": "bewegen",
+          "c": "nutzen",
+          "correct": "c"
+        },
+        {
+          "num": 26,
+          "a": "gefragt",
+          "b": "bereit",
+          "c": "notwendig",
+          "correct": "a"
+        },
+        {
+          "num": 27,
+          "a": "geben",
+          "b": "garantieren",
+          "c": "sichern",
+          "correct": "b"
+        },
+        {
+          "num": 28,
+          "a": "falsch",
+          "b": "denkbar",
+          "c": "gefährlich",
+          "correct": "c"
+        },
+        {
+          "num": 29,
+          "a": "gerichtet",
+          "b": "orientiert",
+          "c": "ausgelegt",
+          "correct": "c"
+        },
+        {
+          "num": 30,
+          "a": "netten",
+          "b": "wichtigen",
+          "c": "kritischen",
+          "correct": "c"
+        }
+      ]
     },
-    "questions": [
-      {
-        "num": 31,
-        "correct": "n"
+    "part2": {
+      "texts": [
+        {
+          "content": "Nachhaltiger Konsum in Zeiten der Globalisierung\n\nIn einer vernetzten Welt hat unser täglicher Konsum weitreichende Konsequenzen für Menschen und Umwelt in fernen Ländern. Die Globalisierung ermöglicht uns den ___31___ auf Produkte aus aller Welt zu günstigen Preisen. Doch oft werden diese Produkte unter ___32___ Bedingungen hergestellt.\nNachhaltiger Konsum bedeutet, sich bewusst für Produkte zu entscheiden, die unter fairen und ökologischen Standards produziert wurden. Siegel wie 'Fairtrade' oder Bio-Zertifikate dienen dabei als wichtige ___33___ . Wer nachhaltig konsumiert, leistet einen Beitrag zur ___34___ von Armut und zum Schutz der natürlichen Ressourcen. Es geht darum, Qualität vor ___35___ zu setzen und langlebige Produkte zu bevorzugen. ___36___ die Umstellung der eigenen Lebensgewohnheiten erst einmal Mühe kostet, ist der langfristige Nutzen für unseren Planeten groß.\nAuch Unternehmen erkennen zunehmend ihre soziale ___37___ . Viele setzen auf Transparenz in ihren Lieferketten und bemühen sich um nachhaltigere Produktionsverfahren. Dennoch bleibt der kritische Verbraucher der wichtigste ___38___ für Veränderungen. ___39___ wir unser Konsumverhalten ändern, können wir die Richtung der Globalisierung mitgestalten. Letztendlich liegt es in unserer ___40___ , welche Spuren wir auf der Welt hinterlassen.\n",
+          "gapIds": [
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40
+          ]
+        }
+      ],
+      "wordBank": {
+        "a": "BEKÄMPFUNG",
+        "b": "GEGENÜBER",
+        "c": "HANDLUNG",
+        "d": "MANGE",
+        "e": "MENGE",
+        "f": "ORIENTIERUNGSHILFE",
+        "g": "SOFERN",
+        "h": "TREIBER",
+        "i": "UNWÜRDIGEN",
+        "j": "VERANTWORTUNG",
+        "k": "WÄHREND",
+        "l": "WANN",
+        "m": "WENN",
+        "n": "WIE",
+        "o": "ZUGRIFF"
       },
-      {
-        "num": 32,
-        "correct": "d"
-      },
-      {
-        "num": 33,
-        "correct": "f"
-      },
-      {
-        "num": 34,
-        "correct": "o"
-      },
-      {
-        "num": 35,
-        "correct": "m"
-      },
-      {
-        "num": 36,
-        "correct": "l"
-      },
-      {
-        "num": 37,
-        "correct": "e"
-      },
-      {
-        "num": 38,
-        "correct": "j"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "k"
-      }
-    ]
-  },
-  {
-    "id": 4003,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Bewerbung Marketing (Set 3)",
-    "cc": "gelesen",
-    "betreff": "Bewerbung als Marketing-Manager",
-    "texts": [
-      {
-        "content": "Sehr geehrte Frau Dr. Müller,\n\nmit großem Interesse habe ich Ihre Anzeige im Stellenmarkt ___21___ und bewerbe mich hiermit um die Position als Marketing-Manager. In meiner bisherigen Tätigkeit war ich maßgeblich ___22___ der Konzeption von digitalen Kampagnen beteiligt.\nBesonders hervorzuheben ist mein Engagement bei der Einführung der neuen Markenstrategie, ___23___ wir den Umsatz um 15 % steigern konnten. Ich verfüge über fundierte Kenntnisse im Bereich SEO und SEM, ___24___ ich mir in zahlreichen Fortbildungen angeeignet habe. Meine Arbeitsweise zeichnet sich ___25___ eine hohe Zielorientierung und Teamfähigkeit aus. Ich bin davon überzeugt, dass meine Qualifikationen ___26___ Ihren Anforderungen entsprechen. Zudem bringe ich die Bereitschaft ___27___, mich schnell in neue Aufgabengebiete einzuarbeiten. Gerne möchte ich Sie in einem persönlichen Gespräch von meiner Eignung ___28___. Einem baldigen Eintrittstermin steht meinerseits ___29___ im Wege. Über eine Einladung zu einem Vorstellungsgespräch würde ich mich sehr ___30___.\n\nMit freundlichen Grüßen\nLukas Weber",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "personalabteilung@firma.de",
-        "b": "vernommen",
-        "c": "gelesen",
-        "correct": "c"
-      },
-      {
-        "num": 22,
-        "a": "in",
-        "b": "mit",
-        "c": "an",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "womit",
-        "b": "wodurch",
-        "c": "woraus",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "das",
-        "b": "welche",
-        "c": "die",
-        "correct": "b"
-      },
-      {
-        "num": 25,
-        "a": "über",
-        "b": "durch",
-        "c": "wegen",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "voll",
-        "b": "vollends",
-        "c": "völlig",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "mit",
-        "b": "auf",
-        "c": "an",
-        "correct": "a"
-      },
-      {
-        "num": 28,
-        "a": "beweisen",
-        "b": "überzeugen",
-        "c": "darstellen",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "kaum",
-        "b": "nicht",
-        "c": "nichts",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "freuen",
-        "b": "beglücken",
-        "c": "gefreut",
-        "correct": "c"
-      }
-    ]
-  },
-  {
-    "id": 4004,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Digitalisierung am Arbeitsplatz (Set 4)",
-    "texts": [
-      {
-        "content": "Die fortschreitende Digitalisierung hat die Arbeitswelt grundlegend ___31___. Während früher Aktenberge die Schreibtische dominierten, prägen heute Computer und Software den Büroalltag. Dieser Wandel bringt sowohl Chancen ___32___ auch Herausforderungen mit sich.\nEinerseits ermöglicht der Einsatz moderner Technologien ein ___33___ effizienteres Arbeiten. Kommunikation findet in Echtzeit statt und Daten können weltweit geteilt werden. Andererseits steigen die Anforderungen an die Arbeitnehmer, die sich ständig ___34___ weiterbilden müssen. Wer den Anschluss nicht ___35___ will, kommt um lebenslanges Lernen nicht herum.\nBesonders das Home-Office hat durch die Digitalisierung an ___36___ gewonnen. Viele Mitarbeiter schätzen die Flexibilität, die mit dem Arbeiten von zu Hause ___37___ ist. Doch dabei darf die soziale Komponente nicht vernachlässigt werden. Der direkte Austausch mit den Kollegen ___38___ eine wichtige Rolle für das Betriebsklima. Es gilt also, eine gesunde Balance ___39___ digitaler Effizienz und persönlichem Kontakt zu ___40___.\n\nBeste Grüße\nEuer HR-Team",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "wordBank": {
-      "a": "ALS",
-      "b": "BEDEUTUNG",
-      "c": "DAZU",
-      "d": "EINMAL",
-      "e": "FINDEN",
-      "f": "GEGENÜBER",
-      "g": "RECHT",
-      "h": "SPIELT",
-      "i": "STARK",
-      "j": "UMGANG",
-      "k": "VERÄNDERT",
-      "l": "VERLIEREN",
-      "m": "VERBUNDEN",
-      "n": "WESENTLICH",
-      "o": "ZWISCHEN"
-    },
-    "questions": [
-      {
-        "num": 31,
-        "correct": "k"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "n"
-      },
-      {
-        "num": 34,
-        "correct": "c"
-      },
-      {
-        "num": 35,
-        "correct": "l"
-      },
-      {
-        "num": 36,
-        "correct": "b"
-      },
-      {
-        "num": 37,
-        "correct": "m"
-      },
-      {
-        "num": 38,
-        "correct": "h"
-      },
-      {
-        "num": 39,
-        "correct": "o"
-      },
-      {
-        "num": 40,
-        "correct": "e"
-      }
-    ]
-  },
-  {
-    "id": 4005,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Beschwerde Reise (Set 5)",
-    "cc": "kundenservice@travel.de",
-    "betreff": "Beschwerde über die Reise 'Traumsommer'",
-    "texts": [
-      {
-        "content": "Sehr geehrte Damen und Herren,\n\nhiermit möchte ich meine Unzufriedenheit über die oben ___21___ Reise zum Ausdruck bringen, die ich vom 10. bis 22. August bei Ihnen gebucht hatte. Leider entsprachen die Leistungen vor Ort in keiner Weise Ihren ___22___.\nBereits bei der Ankunft gab es Probleme, ___23___ das gebuchte Zimmer nicht zur Verfügung stand. Statt des versprochenen Meerblicks blickte ich auf eine laute Baustelle. Zudem war die Verpflegung im Hotel ___24___ mangelhaft. Die Speisen waren oft kalt und wenig abwechslungsreich. Auf meine mehrfachen ___25___ beim Hotelpersonal wurde nur ausweichend reagiert. Auch die Reiseleitung vor Ort war kaum ___26___, um Abhilfe zu schaffen. Da ich für diese Reise einen ___27___ Betrag bezahlt habe, erwarte ich eine angemessene Entschädigung. Ich fordere Sie daher auf, mir einen Teil des Reisepreises ___28___. Bitte lassen Sie mir bis zum Ende des Monats eine entsprechende Rückmeldung ___29___. Sollten Sie meiner Forderung nicht nachkommen, sehe ich mich ___30___, rechtliche Schritte einzuleiten.\n\nMit freundlichen Grüßen\nSabine Fischer",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "beschriebene",
-        "b": "genannte",
-        "c": "kundenservice@travel.de",
-        "correct": "b"
-      },
-      {
-        "num": 22,
-        "a": "Angaben",
-        "b": "Preisen",
-        "c": "Versprechen",
-        "correct": "a"
-      },
-      {
-        "num": 23,
-        "a": "indem",
-        "b": "weil",
-        "c": "da",
-        "correct": "c"
-      },
-      {
-        "num": 24,
-        "a": "äußerst",
-        "b": "sehr",
-        "c": "ganz",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "Fragen",
-        "b": "Beschwerden",
-        "c": "Anfragen",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "verfügbar",
-        "b": "auffindbar",
-        "c": "erreichbar",
-        "correct": "c"
-      },
-      {
-        "num": 27,
-        "a": "erheblichen",
-        "b": "großen",
-        "c": "hohen",
-        "correct": "a"
-      },
-      {
-        "num": 28,
-        "a": "zurückzugeben",
-        "b": "überweisen",
-        "c": "zurückzuerstatten",
-        "correct": "c"
-      },
-      {
-        "num": 29,
-        "a": "erreichen",
-        "b": "zukommen",
-        "c": "kommen",
-        "correct": "b"
-      },
-      {
-        "num": 30,
-        "a": "bereit",
-        "b": "nötig",
-        "c": "gezwungen",
-        "correct": "c"
-      }
-    ]
-  },
-  {
-    "id": 4006,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Globalisierung (Set 6)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Globalisierung",
-    "texts": [
-      {
-        "content": "B2 Level text about Globalisierung. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 31,
-        "correct": "a"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
+      "questions": [
+        {
+          "num": 31,
+          "correct": "o"
+        },
+        {
+          "num": 32,
+          "correct": "i"
+        },
+        {
+          "num": 33,
+          "correct": "f"
+        },
+        {
+          "num": 34,
+          "correct": "a"
+        },
+        {
+          "num": 35,
+          "correct": "e"
+        },
+        {
+          "num": 36,
+          "correct": "k"
+        },
+        {
+          "num": 37,
+          "correct": "j"
+        },
+        {
+          "num": 38,
+          "correct": "h"
+        },
+        {
+          "num": 39,
+          "correct": "g"
+        },
+        {
+          "num": 40,
+          "correct": "c"
+        }
+      ]
     }
   },
   {
-    "id": 4007,
+    "id": 5001,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Ehrenamt (Set 7)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Ehrenamt",
+    "title": "Globalisierung und lokale Identität",
     "texts": [
       {
-        "content": "B2 Level text about Ehrenamt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
+        "content": "Globalisierung: Fluch oder Segen für die lokale Kultur? In einer zunehmend vernetzten Welt stellt sich die Frage, ob die kulturelle Vielfalt ___25___ der globalen Homogenisierung zum Opfer fällt. Während Kritiker eine 'Amerikanisierung' beklagen, betonen Optimisten die Chancen des interkulturellen ___26___ . Fakt ist, dass traditionelle Lebensweisen ___27___ unter Druck geraten. Doch ist dieser Prozess wirklich ___28___ ? Viele Soziologen beobachten das Phänomen der Glokalisierung, bei dem globale Trends lokal ___29___ werden. Dies führt oft zu einer ___30___ Mischung aus Tradition und Moderne. Werden lokale Bräuche nur noch für Touristen ___31___ ? Es wäre fatal, Kultur rein als statisches Erbe zu ___32___ . Vielmehr ist sie ein dynamischer Organismus, der sich stetig ___33___ muss. Die Angst vor dem Identitätsverlust ist ___34___ begründet, doch man darf die Resilienz lokaler Gemeinschaften nicht ___35___ . oft entstehen gerade in Abgrenzung zum Globalen neue, ___36___ Subkulturen. Dennoch bleibt die Herausforderung ___37___ , kulturelle Wurzeln in einer fluiden Welt zu bewahren. Bildung spielt hierbei eine ___38___ Rolle. Nur wer seine eigene Herkunft ___39___ , kann anderen Kulturen offen ___40___ . Es gilt, einen Mittelweg zwischen Abschottung und ___41___ Beliebigkeit zu finden. Die Politik ist gefordert, Rahmenbedingungen zu ___42___ , die kulturelle Teilhabe ermöglichen. Letztlich liegt es an jedem ___43___ , wie er mit der Vielfalt ___44___ . Werden wir zu passiven Konsumenten einer Einheitskultur oder zu aktiven ___45___ einer bunten Welt? Die Antwort darauf wird die Gesellschaft von morgen ___46___ .\n\nQuelle: Soziologie Heute",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
-      {
-        "num": 21,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 22,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      }
+      { "num": 25, "a": "infolge", "b": "anstelle", "c": "trotz", "d": "unter", "correct": "a" },
+      { "num": 26, "a": "Austauschs", "b": "Wandels", "c": "Vergleichs", "d": "Abbruchs", "correct": "a" },
+      { "num": 27, "a": "zunehmend", "b": "abnehmend", "c": "gelegentlich", "d": "selten", "correct": "a" },
+      { "num": 28, "a": "unumkehrbar", "b": "unvermeidlich", "c": "unsichtbar", "d": "unwesentlich", "correct": "a" },
+      { "num": 29, "a": "interpretiert", "b": "ignoriert", "c": "abgelehnt", "d": "isoliert", "correct": "a" },
+      { "num": 30, "a": "faszinierenden", "b": "monotonen", "c": "fragwürdigen", "d": "lästigen", "correct": "a" },
+      { "num": 31, "a": "inszeniert", "b": "vergessen", "c": "geübt", "d": "verboten", "correct": "a" },
+      { "num": 32, "a": "begreifen", "b": "besitzen", "c": "bekämpfen", "d": "bewundern", "correct": "a" },
+      { "num": 33, "a": "weiterentwickeln", "b": "stillstehen", "c": "auflösen", "d": "verstecken", "correct": "a" },
+      { "num": 34, "a": "durchaus", "b": "keineswegs", "c": "kaum", "d": "nie", "correct": "a" },
+      { "num": 35, "a": "unterschätzen", "b": "überwerten", "c": "ignorieren", "d": "verlieren", "correct": "a" },
+      { "num": 36, "a": "vitale", "b": "schwache", "c": "alte", "d": "teure", "correct": "a" },
+      { "num": 37, "a": "bestehen", "b": "gelöst", "c": "verschwunden", "d": "einfach", "correct": "a" },
+      { "num": 38, "a": "entscheidende", "b": "nebensächliche", "c": "kleine", "d": "keine", "correct": "a" },
+      { "num": 39, "a": "kennt", "b": "hasst", "c": "meidet", "d": "leugnet", "correct": "a" },
+      { "num": 40, "a": "begegnen", "b": "entkommen", "c": "folgen", "d": "beurteilen", "correct": "a" },
+      { "num": 41, "a": "konturloser", "b": "fester", "c": "bewusster", "d": "starrer", "correct": "a" },
+      { "num": 42, "a": "schaffen", "b": "vernichten", "c": "umgehen", "d": "hoffen", "correct": "a" },
+      { "num": 43, "a": "Einzelnen", "b": "Lehrer", "c": "Staat", "d": "Land", "correct": "a" },
+      { "num": 44, "a": "umgeht", "b": "arbeitet", "c": "lebt", "d": "denkt", "correct": "a" },
+      { "num": 45, "a": "Gestaltern", "b": "Zuschauern", "c": "Gegnern", "d": "Opfern", "correct": "a" },
+      { "num": 46, "a": "prägen", "b": "stören", "c": "vergessen", "d": "meiden", "correct": "a" }
     ]
   },
   {
-    "id": 4008,
+    "id": 5002,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Künstliche Intelligenz (Set 8)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Künstliche Intelligenz",
+    "title": "Ethik in der Genforschung",
     "texts": [
       {
-        "content": "B2 Level text about Künstliche Intelligenz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
+        "content": "Die Büchse der Pandora? Fortschritte in der Genetik werfen fundamentale ethische Fragen ___25___ . Seit der Entschlüsselung des menschlichen Genoms ist die Manipulation von Erbgut keine ___26___ mehr. Während die Heilung von Erbkrankheiten in greifbare ___27___ rückt, wächst die Sorge vor dem Designer-Baby. Ist alles, was technisch machbar ist, auch moralisch ___28___ ? Die Grenze zwischen Therapie und Optimierung ist ___29___ . Kritiker warnen vor einer neuen Eugenik, die gesellschaftliche ___30___ verschärfen könnte. Wer hat ___31___ auf diese teuren Technologien? Es droht eine genetische Zwei-Klassen-Gesellschaft. Zudem stellt sich die Frage der ___32___ gegenüber kommenden Generationen. Eingriffe in die Keimbahn verändern den Genpool ___33___ . Können wir die Folgen wirklich ___34___ ? Viele Experten fordern ein weltweites ___35___ für solche Experimente. Dennoch schreitet die Forschung ___36___ voran. Es bedarf einer ___37___ Debatte, die über wissenschaftliche Zirkel hinausgeht. Die Politik muss klare ___38___ setzen, um Missbrauch zu verhindern. Dabei darf man den medizinischen Nutzen nicht ___39___ . Viele Patienten hoffen auf ___40___ Therapien, die bisher unheilbare Leiden lindern. Ein pauschales Verbot könnte den Fortschritt ___41___ . Es gilt, die Balance zwischen Innovationskraft und ___42___ Verantwortung zu finden. Erziehung und Aufklärung sind ___38___ , um ein kritisches Bewusstsein zu ___43___ . Letztlich ist die Genetik ein Werkzeug, dessen ___44___ von der Weisheit der Nutzer abhängt. Werden wir die Macht über das Leben ___45___ einsetzen? Die ethischen Weichen ___46___ jetzt gestellt werden.\n\nQuelle: Wissenschaft & Ethik",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
-      {
-        "num": 31,
-        "correct": "a"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
-    }
-  },
-  {
-    "id": 4009,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Mietstreitigkeiten (Set 9)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Mietstreitigkeiten",
-    "texts": [
-      {
-        "content": "B2 Level text about Mietstreitigkeiten. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 22,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 24,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 25,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 26,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 28,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 29,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      }
+      { "num": 25, "a": "auf", "b": "ein", "c": "ab", "d": "um", "correct": "a" },
+      { "num": 26, "a": "Utopie", "b": "Gefahr", "c": "Lösung", "d": "Pflicht", "correct": "a" },
+      { "num": 27, "a": "Nähe", "b": "Ferne", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 28, "a": "vertretbar", "b": "unmöglich", "c": "notwendig", "d": "billig", "correct": "a" },
+      { "num": 29, "a": "fließend", "b": "starr", "c": "klar", "d": "breit", "correct": "a" },
+      { "num": 30, "a": "Ungleichheiten", "b": "Vorteile", "c": "Chancen", "d": "Werte", "correct": "a" },
+      { "num": 31, "a": "Zugriff", "b": "Recht", "c": "Glück", "d": "Wissen", "correct": "a" },
+      { "num": 32, "a": "Verantwortung", "b": "Schuld", "c": "Hoffnung", "d": "Liebe", "correct": "a" },
+      { "num": 33, "a": "dauerhaft", "b": "kurz", "c": "kaum", "d": "nie", "correct": "a" },
+      { "num": 34, "a": "absehen", "b": "vergessen", "c": "meiden", "d": "hoffen", "correct": "a" },
+      { "num": 35, "a": "Moratorium", "b": "Geschenk", "c": "Wissen", "d": "Ziel", "correct": "a" },
+      { "num": 36, "a": "unaufhaltsam", "b": "langsam", "c": "selten", "d": "nie", "correct": "a" },
+      { "num": 37, "a": "breite", "b": "kleine", "c": "kurze", "d": "stille", "correct": "a" },
+      { "num": 38, "a": "Grenzen", "b": "Ziele", "c": "Wege", "d": "Ideen", "correct": "a" },
+      { "num": 39, "a": "verkennen", "b": "nutzen", "c": "hoffen", "d": "meiden", "correct": "a" },
+      { "num": 40, "a": "neuartige", "b": "alte", "c": "teure", "d": "falsche", "correct": "a" },
+      { "num": 41, "a": "hemmen", "b": "fördern", "c": "retten", "d": "lösen", "correct": "a" },
+      { "num": 42, "a": "moralische", "b": "technische", "c": "finanzielle", "d": "keine", "correct": "a" },
+      { "num": 43, "a": "schärfen", "b": "töten", "c": "vergessen", "d": "meiden", "correct": "a" },
+      { "num": 44, "a": "Wirkung", "b": "Preis", "c": "Form", "d": "Ziel", "correct": "a" },
+      { "num": 45, "a": "verantwortungsvoll", "b": "blind", "c": "gar nicht", "d": "falsch", "correct": "a" },
+      { "num": 46, "a": "müssen", "b": "können", "c": "dürfen", "d": "wollen", "correct": "a" }
     ]
   },
   {
-    "id": 4010,
+    "id": 5003,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Mobilität der Zukunft (Set 10)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Mobilität der Zukunft",
+    "title": "Die Zukunft der Arbeit: Remote Work",
     "texts": [
       {
-        "content": "B2 Level text about Mobilität der Zukunft. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
+        "content": "Digitalisierung verändert die Arbeitswelt radikal. Das Büro als physischer Ort verliert ___25___ an Bedeutung. Remote Work ist für viele Fachkräfte ___26___ geworden. Die Vorteile liegen auf der ___27___ : Flexibilität, keine Pendelwege und eine bessere Work-Life-Balance. Doch der Wandel birgt auch ___28___ . Viele Mitarbeiter klagen über soziale ___29___ und die Entgrenzung von Arbeit und Privatleben. Wenn der Küchentisch zum Schreibtisch wird, fällt das ___30___ schwer. Unternehmen stehen vor der Herausforderung, den Zusammenhalt im Team ___31___ zu erhalten. Virtuelle Kaffeeküchen können den persönlichen ___32___ nur bedingt ersetzen. zudem stellt sich die Frage der ___33___ : Wie können Leistungen ohne Präsenzpflicht ___34___ werden? Führung muss auf Vertrauen ___35___ , nicht auf Kontrolle. Dies erfordert ein ___36___ Mindset bei Managern. Technologische Infrastruktur ist eine ___37___ , aber nicht die einzige Voraussetzung. Datensicherheit und Datenschutz ___38___ dabei höchste Priorität. Auch steuerliche und rechtliche ___39___ müssen geklärt werden. Wer zahlt für das Homeoffice-Equipment? Dennoch ist der Trend zum hybriden Arbeiten ___40___ . Viele Arbeitnehmer wollen nicht mehr ___41___ in Vollzeit ins Büro zurückkehren. Der Kampf um die besten Talente wird oft über ___42___ Arbeitsmodelle entschieden. Städte könnten sich massiv ___43___ , wenn Büroflächen leer stehen. Es bedarf neuer Konzepte für die ___44___ Nutzung urbaner Räume. Letztlich ist Remote Work eine ___45___ , die Arbeitswelt menschlicher zu gestalten. Wir müssen lernen, die Freiheit ___46___ zu nutzen.\n\nQuelle: Wirtschaftskurier",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
-      {
-        "num": 31,
-        "correct": "a"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
-    }
-  },
-  {
-    "id": 4011,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Ernährungstrends (Set 11)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Ernährungstrends",
-    "texts": [
-      {
-        "content": "B2 Level text about Ernährungstrends. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 22,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 25,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt A",
-        "c": "Opt C",
-        "correct": "b"
-      },
-      {
-        "num": 28,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      }
+      { "num": 25, "a": "zusehends", "b": "kaum", "c": "nie", "d": "plötzlich", "correct": "a" },
+      { "num": 26, "a": "unverzichtbar", "b": "lästig", "c": "neu", "d": "selten", "correct": "a" },
+      { "num": 27, "a": "Hand", "b": "Nase", "c": "Zunge", "d": "Welt", "correct": "a" },
+      { "num": 28, "a": "Schattenseiten", "b": "Geld", "c": "Ziele", "d": "Werte", "correct": "a" },
+      { "num": 29, "a": "Isolation", "b": "Freude", "c": "Hilfe", "d": "Pflicht", "correct": "a" },
+      { "num": 30, "a": "Abschalten", "b": "Denken", "c": "Arbeiten", "d": "Lernen", "correct": "a" },
+      { "num": 31, "a": "aufrecht", "b": "kaputt", "c": "klein", "d": "gar nicht", "correct": "a" },
+      { "num": 32, "a": "Kontakt", "b": "Brief", "c": "Weg", "d": "Preis", "correct": "a" },
+      { "num": 33, "a": "Messbarkeit", "b": "Liebe", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 34, "a": "bewertet", "b": "vergessen", "c": "gekauft", "d": "meiden", "correct": "a" },
+      { "num": 35, "a": "basieren", "b": "hoffen", "c": "enden", "d": "fehlen", "correct": "a" },
+      { "num": 36, "a": "neues", "b": "altes", "c": "kein", "d": "falsches", "correct": "a" },
+      { "num": 37, "a": "Basis", "b": "Gefahr", "c": "Lösung", "d": "Pflicht", "correct": "a" },
+      { "num": 38, "a": "genießen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 39, "a": "Aspekte", "b": "Ziele", "c": "Ideen", "d": "Wege", "correct": "a" },
+      { "num": 40, "a": "unumkehrbar", "b": "langsam", "c": "selten", "d": "klein", "correct": "a" },
+      { "num": 41, "a": "komplett", "b": "kaum", "c": "nie", "d": "gerne", "correct": "a" },
+      { "num": 42, "a": "flexible", "b": "starre", "c": "teure", "d": "falsche", "correct": "a" },
+      { "num": 43, "a": "verändern", "b": "retten", "c": "meiden", "d": "hoffen", "correct": "a" },
+      { "num": 44, "a": "künftige", "b": "alte", "c": "keine", "d": "falsche", "correct": "a" },
+      { "num": 45, "a": "Chance", "b": "Gefahr", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 46, "a": "verantwortungsvoll", "b": "blind", "c": "nie", "d": "falsch", "correct": "a" }
     ]
   },
   {
-    "id": 4012,
+    "id": 5004,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Umweltschutz (Set 12)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Umweltschutz",
+    "title": "KI im Bildungswesen",
     "texts": [
       {
-        "content": "B2 Level text about Umweltschutz. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
+        "content": "Künstliche Intelligenz (KI) revolutioniert die Art und Weise, wie wir lernen. Personalisierte Lernpfade ermöglichen es, auf die individuellen Bedürfnisse jedes Schülers ___25___ . Algorithmen analysieren Lernfortschritte und bieten ___26___ Übungen an. Dies verspricht eine hocheffiziente ___27___ des Wissenserwerbs. Doch Kritiker befürchten eine ___28___ der pädagogischen Beziehung. Kann eine Maschine die Empathie eines Lehrers ___29___ ? Bildung ist mehr als reine ___30___ von Informationen; sie ist ein sozialer Prozess. Zudem stellt sich die Frage der ___31___ : Werden nur wohlhabende Schulen von dieser Technik ___32___ ? Die digitale Kluft könnte sich weiter ___33___ . Ein weiteres Problem ist die ___34___ von Inhalten. Wer kontrolliert, was die KI lehrt? Es besteht die Gefahr von Bias und ___35___ . Dennoch bietet KI enorme Chancen für die ___36___ von Lehrkräften. Administrative Aufgaben können ___37___ werden, was mehr Zeit für pädagogische Arbeit lässt. Schüler müssen lernen, KI als ___38___ zu begreifen, nicht als Ersatz für eigenes Denken. Medienkompetenz wird zur ___39___ im 21. Jahrhundert. Wir müssen kritisch hinterfragen, welche Daten ___40___ werden. Ethikunterricht sollte den Einsatz von KI ___41___ . Es gilt, die Neugier auf Technik mit ___42___ Skepsis zu paaren. Die Zukunft der Bildung wird eine Symbiose aus ___43___ Mensch und Technik sein. Wir dürfen den Fortschritt nicht ___44___ , sondern müssen ihn aktiv ___45___ . Nur so kann KI ihr volles ___46___ zur Verbesserung der Bildung entfalten.\n\nQuelle: Bildungsreport",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
-      {
-        "num": 31,
-        "correct": "a"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
-    }
-  },
-  {
-    "id": 4013,
-    "type": "TELC",
-    "level": "B2",
-    "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Lebenslanges Lernen (Set 13)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Lebenslanges Lernen",
-    "texts": [
-      {
-        "content": "B2 Level text about Lebenslanges Lernen. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
-      }
-    ],
-    "questions": [
-      {
-        "num": 21,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 22,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 25,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 26,
-        "a": "Opt A",
-        "b": "Opt C",
-        "c": "Opt B",
-        "correct": "a"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 29,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 30,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      }
+      { "num": 25, "a": "einzugehen", "b": "meiden", "c": "hoffen", "d": "fehlen", "correct": "a" },
+      { "num": 26, "a": "maßgeschneiderte", "b": "falsche", "c": "alte", "d": "teure", "correct": "a" },
+      { "num": 27, "a": "Optimierung", "b": "Gefahr", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 28, "a": "Abwertung", "b": "Hilfe", "c": "Freude", "d": "Pflicht", "correct": "a" },
+      { "num": 29, "a": "ersetzen", "b": "meiden", "c": "hoffen", "d": "fehlen", "correct": "a" },
+      { "num": 30, "a": "Vermittlung", "b": "Jagd", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 31, "a": "Chancengleichheit", "b": "Geld", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 32, "a": "profitieren", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 33, "a": "vertiefen", "b": "schließen", "c": "heilen", "d": "meiden", "correct": "a" },
+      { "num": 34, "a": "Qualität", "b": "Menge", "c": "Form", "d": "Zeit", "correct": "a" },
+      { "num": 35, "a": "Manipulation", "b": "Hilfe", "c": "Glück", "d": "Recht", "correct": "a" },
+      { "num": 36, "a": "Entlastung", "b": "Anspannung", "c": "Meidung", "d": "Pflicht", "correct": "a" },
+      { "num": 37, "a": "automatisiert", "b": "vergessen", "c": "meiden", "d": "hoffen", "correct": "a" },
+      { "num": 38, "a": "Werkzeug", "b": "Feind", "c": "Gott", "d": "Ersatz", "correct": "a" },
+      { "num": 39, "a": "Schlüsselqualifikation", "b": "Not", "c": "Lüge", "d": "Gefahr", "correct": "a" },
+      { "num": 40, "a": "erhoben", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 41, "a": "begleiten", "b": "stören", "c": "vergessen", "d": "meiden", "correct": "a" },
+      { "num": 42, "a": "gesunder", "b": "falscher", "c": "keiner", "d": "blinder", "correct": "a" },
+      { "num": 43, "a": "zwischen", "b": "ohne", "c": "gegen", "d": "trotz", "correct": "a" },
+      { "num": 44, "a": "verschlafen", "b": "retten", "c": "meiden", "d": "hoffen", "correct": "a" },
+      { "num": 45, "a": "gestalten", "b": "meiden", "c": "stoppen", "d": "vergessen", "correct": "a" },
+      { "num": 46, "a": "Potenzial", "b": "Ende", "c": "Glück", "d": "Recht", "correct": "a" }
     ]
   },
   {
-    "id": 4014,
+    "id": 5005,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part2",
-    "title": "B2 Sprachbausteine - Fachkräftemangel (Set 14)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Fachkräftemangel",
+    "title": "Nachhaltiger Tourismus",
     "texts": [
       {
-        "content": "B2 Level text about Fachkräftemangel. This text is complex and follows B2 standards. Lücken: ___31___ ___32___ ___33___ ___34___ ___35___ ___36___ ___37___ ___38___ ___39___ ___40___",
-        "gapIds": [
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37,
-          38,
-          39,
-          40
-        ]
+        "content": "Reisen ohne Reue? In Zeiten des Klimawandels steht der Tourismus vor einer gewaltigen ___25___ . Massentourismus zerstört oft genau die Natur, die er eigentlich ___26___ möchte. CO2-Emissionen durch Fernflüge tragen ___27___ zur Erderwärmung bei. Doch ist ein kompletter Verzicht auf Reisen die ___28___ ? Tourismus ist für viele Regionen die wichtigste ___29___ . Ein Weg aus dem Dilemma verspricht der nachhaltige Tourismus. Dabei geht es darum, ökologische und soziale ___30___ zu respektieren. Lokale Gemeinschaften sollten direkt vom Tourismus ___31___ . Dies erfordert ein Umdenken bei Urlaubern und ___32___ . Qualität muss vor ___33___ gehen. 'Sanfter Tourismus' setzt auf längere Aufenthalte und ___34___ Anreisen. Werden wir künftig mehr Urlaub in der ___35___ machen? Die Entdeckung der Langsamkeit ist ein ___36___ Trend. Dennoch bleibt das Bedürfnis nach fernen Welten ___37___ . Zertifikate und Siegel sollen helfen, nachhaltige Angebote zu ___38___ . Doch Vorsicht vor 'Greenwashing'! Nicht alles, was grün glänzt, ist auch ___39___ . Transparenz ist eine ___40___ für echtes Vertrauen. Wir müssen lernen, den Wert der Intaktheit ___41___ zu schätzen. Der Schutz der Biodiversität liegt im ___42___ Interesse aller Beteiligten. Tourismus kann, richtig ___43___ , zum Erhalt von Kulturgütern beitragen. Es gilt, ein kritisches ___44___ für den eigenen ökologischen Fußabdruck zu entwickeln. Letztlich ist verantwortungsvolles Reisen eine ___45___ Frage. Jeder Koffer, den wir packen, sollte mit Bedacht ___46___ werden.\n\nQuelle: Reisemagazin Global",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
-      {
-        "num": 31,
-        "correct": "a"
-      },
-      {
-        "num": 32,
-        "correct": "a"
-      },
-      {
-        "num": 33,
-        "correct": "a"
-      },
-      {
-        "num": 34,
-        "correct": "a"
-      },
-      {
-        "num": 35,
-        "correct": "a"
-      },
-      {
-        "num": 36,
-        "correct": "a"
-      },
-      {
-        "num": 37,
-        "correct": "a"
-      },
-      {
-        "num": 38,
-        "correct": "a"
-      },
-      {
-        "num": 39,
-        "correct": "a"
-      },
-      {
-        "num": 40,
-        "correct": "a"
-      }
-    ],
-    "wordBank": {
-      "a": "Word0",
-      "b": "Word1",
-      "c": "Word2",
-      "d": "Word3",
-      "e": "Word4",
-      "f": "Word5",
-      "g": "Word6",
-      "h": "Word7",
-      "i": "Word8",
-      "j": "Word9",
-      "k": "Word10",
-      "l": "Word11",
-      "m": "Word12",
-      "n": "Word13",
-      "o": "Word14"
-    }
+      { "num": 25, "a": "Herausforderung", "b": "Chance", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 26, "a": "bewundern", "b": "meiden", "c": "retten", "d": "hoffen", "correct": "a" },
+      { "num": 27, "a": "maßgeblich", "b": "kaum", "c": "nie", "d": "gerne", "correct": "a" },
+      { "num": 28, "a": "Lösung", "b": "Gefahr", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 29, "a": "Einnahmequelle", "b": "Sorge", "c": "Lüge", "d": "Gefahr", "correct": "a" },
+      { "num": 30, "a": "Belange", "b": "Ziele", "c": "Ideen", "d": "Wege", "correct": "a" },
+      { "num": 31, "a": "profitieren", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 32, "a": "Anbietern", "b": "Kindern", "c": "Gegnern", "d": "Opfern", "correct": "a" },
+      { "num": 33, "a": "Quantität", "b": "Liebe", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 34, "a": "klimafreundliche", "b": "teure", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 35, "a": "Nähe", "b": "Ferne", "c": "Stadt", "d": "Lüge", "correct": "a" },
+      { "num": 36, "a": "wachsender", "b": "sinkender", "c": "falscher", "d": "keiner", "correct": "a" },
+      { "num": 37, "a": "ungebrochen", "b": "tot", "c": "klein", "d": "nie", "correct": "a" },
+      { "num": 38, "a": "identifizieren", "b": "meiden", "c": "hoffen", "d": "fehlen", "correct": "a" },
+      { "num": 39, "a": "umweltfreundlich", "b": "billig", "c": "falsch", "d": "keiner", "correct": "a" },
+      { "num": 40, "a": "Grundvoraussetzung", "b": "Gefahr", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 41, "a": "neu", "b": "kaum", "c": "nie", "d": "falsch", "correct": "a" },
+      { "num": 42, "a": "eigenen", "b": "fremden", "c": "keinem", "d": "blinden", "correct": "a" },
+      { "num": 43, "a": "verstanden", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 44, "a": "Bewusstsein", "b": "Ende", "c": "Glück", "d": "Recht", "correct": "a" },
+      { "num": 45, "a": "ethische", "b": "billige", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 46, "a": "gepackt", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" }
+    ]
   },
   {
-    "id": 4015,
+    "id": 5006,
     "type": "TELC",
-    "level": "B2",
+    "level": "C1",
     "category": "sprachbaustein",
-    "subtype": "part1",
-    "title": "B2 Sprachbausteine - Kulturelle Vielfalt (Set 15)",
-    "cc": "info@example.com",
-    "betreff": "Thema: Kulturelle Vielfalt",
+    "title": "Wirtschaftspsychologie: Die Macht der Manipulation",
     "texts": [
       {
-        "content": "B2 Level text about Kulturelle Vielfalt. This text is complex and follows B2 standards. Lücken: ___21___ ___22___ ___23___ ___24___ ___25___ ___26___ ___27___ ___28___ ___29___ ___30___",
-        "gapIds": [
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30
-        ]
+        "content": "Warum kaufen wir, was wir kaufen? Die Wirtschaftspsychologie untersucht die verborgenen Mechanismen unseres ___25___ . Marketingexperten nutzen gezielt psychologische Erkenntnisse, um Bedürfnisse zu ___26___ . Oft entscheiden wir nicht rational, sondern lassen uns von Emotionen ___27___ . das Phänomen der künstlichen Verknappung ist ein ___28___ Beispiel dafür. 'Nur noch drei Stück auf Lager' suggeriert eine Dringlichkeit, die uns zum schnellen Kauf ___29___ . Auch der Einsatz von Düften und Musik im Einzelhandel ist kein ___30___ . Diese Reize wirken direkt auf unser Unterbewusstsein. Doch wie weit darf diese Manipulation ___31___ ? Die Grenze zwischen Information und Täuschung ist oft ___32___ . Verbraucherschützer fordern mehr Transparenz und ethische ___33___ in der Werbung. Wir müssen lernen, die Tricks der Werbeindustrie zu ___34___ . Konsumkompetenz wird in einer reizüberfluteten Welt immer ___35___ . Wissen wir wirklich, was wir ___36___ brauchen? Der Trend zum Minimalismus ist eine ___37___ auf den ständigen Konsumdruck. Viele Menschen suchen nach einem tieferen Sinn ___38___ materiellen Besitzes. Dennoch bleibt die Wirtschaft auf stetiges Wachstum ___39___ . Die Psychologie des Geldes ist ein ___40___ Feld. Nobelpreisträger wie Daniel Kahnemann haben gezeigt, wie anfällig wir für ___41___ Denkfehler sind. Ein kritisches Hinterfragen des eigenen Konsumstils ist ___42___ . Wir sollten uns bewusst machen, wer die ___43___ über unseren Geldbeutel führt. Letztlich ist jeder Kauf eine ___44___ Entscheidung. Werden wir von Konzernen ___45___ oder handeln wir als souveräne Bürger? Die Psychologie gibt uns die Werkzeuge zur ___46___ .\n\nQuelle: Psychologie & Markt",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
     ],
     "questions": [
+      { "num": 25, "a": "Konsumverhaltens", "b": "Wissens", "c": "Glaubens", "d": "Denkens", "correct": "a" },
+      { "num": 26, "a": "wecken", "b": "töten", "c": "meiden", "d": "vergessen", "correct": "a" },
+      { "num": 27, "a": "leiten", "b": "stören", "c": "retten", "d": "meiden", "correct": "a" },
+      { "num": 28, "a": "klassisches", "b": "falsches", "c": "neues", "d": "stilles", "correct": "a" },
+      { "num": 29, "a": "verleitet", "b": "warnt", "c": "stoppt", "d": "meidet", "correct": "a" },
+      { "num": 30, "a": "Zufall", "b": "Spaß", "c": "Ziel", "d": "Weg", "correct": "a" },
+      { "num": 31, "a": "gehen", "b": "stehen", "c": "rollen", "d": "fallen", "correct": "a" },
+      { "num": 32, "a": "hauchdünn", "b": "breit", "c": "klar", "d": "starr", "correct": "a" },
+      { "num": 33, "a": "Standards", "b": "Ideen", "c": "Wünsche", "d": "Wege", "correct": "a" },
+      { "num": 34, "a": "durchschauen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 35, "a": "wichtiger", "b": "seltener", "c": "teurer", "d": "falscher", "correct": "a" },
+      { "num": 36, "a": "tatsächlich", "b": "kaum", "c": "nie", "d": "falsch", "correct": "a" },
+      { "num": 37, "a": "Reaktion", "b": "Gefahr", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 38, "a": "jenseits", "b": "trotz", "c": "gegen", "d": "ohne", "correct": "a" },
+      { "num": 39, "a": "angewiesen", "b": "stolz", "c": "froh", "d": "blind", "correct": "a" },
+      { "num": 40, "a": "unerschöpfliches", "b": "kleines", "c": "stilles", "d": "falsches", "correct": "a" },
+      { "num": 41, "a": "systematische", "b": "seltene", "c": "neue", "d": "gute", "correct": "a" },
+      { "num": 42, "a": "unerlässlich", "b": "falsch", "c": "teuer", "d": "selten", "correct": "a" },
+      { "num": 43, "a": "Regie", "b": "Angst", "c": "Liebe", "d": "Not", "correct": "a" },
+      { "num": 44, "a": "politische", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 45, "a": "gesteuert", "b": "gerettet", "c": "gemieden", "d": "vergessen", "correct": "a" },
+      { "num": 46, "a": "Selbstbestimmung", "b": "Angst", "c": "Not", "d": "Lüge", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5007,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Raumfahrt und galaktische Ressourcen",
+    "texts": [
       {
-        "num": 21,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 22,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 23,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 24,
-        "a": "Opt C",
-        "b": "Opt A",
-        "c": "Opt B",
-        "correct": "b"
-      },
-      {
-        "num": 25,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 26,
-        "a": "Opt C",
-        "b": "Opt B",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 27,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
-      },
-      {
-        "num": 28,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 29,
-        "a": "Opt A",
-        "b": "Opt B",
-        "c": "Opt C",
-        "correct": "a"
-      },
-      {
-        "num": 30,
-        "a": "Opt B",
-        "b": "Opt C",
-        "c": "Opt A",
-        "correct": "c"
+        "content": "Der neue Wettlauf ins All. Die Raumfahrt erlebt derzeit eine ___25___ Renaissance. Privatunternehmen wie SpaceX fordern staatliche Organisationen ___26___ . Das Ziel ist nicht mehr nur die Erforschung, sondern die ___27___ Nutzung des Weltraums. 'Asteroid Mining' klingt nach Science-Fiction, könnte aber bald ___28___ werden. Asteroiden enthalten wertvolle Rohstoffe wie Platin und Seltene Erden in ___29___ Mengen. Diese Ressourcen sind auf der Erde ___30___ . Doch die rechtliche Lage im All ist ___31___ . Wem gehören die Schätze des Universums? Ein UN-Vertrag aus dem Jahr 1967 verbietet zwar Gebietsansprüche, lässt aber Fragen der ___32___ offen. Es droht ein 'Wilder Westen' im Kosmos. Zudem stellt die Weltraumschrott-Problematik eine ernste ___33___ dar. Tausende Wrackteile kreisen ___34___ um die Erde. Eine Kollision könnte ganze Satelliten-Netzwerke ___35___ . Die bemannte Raumfahrt zum Mars bleibt das ___36___ Ziel. Technologische Herausforderungen wie Strahlenbelastung sind noch nicht ___37___ . Dennoch investieren Nationen Milliarden in ___38___ Programme. Ist das Geld auf der Erde nicht besser ___39___ ? Befürworter betonen den Innovationsschub für die ___40___ Technik. Viele Erfindungen des Alltags stammen ursprünglich aus der ___41___ . Raumfahrt ist ein Symbol für den menschlichen ___42___ . Wir müssen jedoch darauf achten, das All nicht als ___43___ Müllkippe zu missbrauchen. Nachhaltigkeit muss auch im ___44___ gelten. Letztlich ist der Blick zu den Sternen eine ___45___ Notwendigkeit für das Überleben der Menschheit. Wir sind ___25___ auf der Suche nach neuen Horizonten. Die Erschließung des Alls wird die Geschichte ___46___ .\n\nQuelle: Space Monitor",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
       }
+    ],
+    "questions": [
+      { "num": 25, "a": "beispiellose", "b": "kleine", "c": "stille", "d": "falsche", "correct": "a" },
+      { "num": 26, "a": "heraus", "b": "ein", "c": "auf", "d": "ab", "correct": "a" },
+      { "num": 27, "a": "wirtschaftliche", "b": "stille", "c": "keine", "d": "falsche", "correct": "a" },
+      { "num": 28, "a": "Wirklichkeit", "b": "Lüge", "c": "Gefahr", "d": "Not", "correct": "a" },
+      { "num": 29, "a": "immensen", "b": "kleinen", "c": "keinen", "d": "falschen", "correct": "a" },
+      { "num": 30, "a": "erschöpflich", "b": "unendlich", "c": "gratis", "d": "franken", "correct": "a" },
+      { "num": 31, "a": "ungeklärt", "b": "starr", "c": "klar", "d": "breit", "correct": "a" },
+      { "num": 32, "a": "Ausbeutung", "b": "Liebe", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 33, "a": "Gefahr", "b": "Chance", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 34, "a": "unkontrolliert", "b": "langsam", "c": "nie", "d": "stolz", "correct": "a" },
+      { "num": 35, "a": "lahmlegen", "b": "retten", "c": "meiden", "d": "vergessen", "correct": "a" },
+      { "num": 36, "a": "ultimative", "b": "erste", "c": "kleine", "d": "falsche", "correct": "a" },
+      { "num": 37, "a": "gelöst", "b": "gekauft", "c": "gemieden", "d": "vergessen", "correct": "a" },
+      { "num": 38, "a": "ambitionierte", "b": "stille", "c": "keine", "d": "falsche", "correct": "a" },
+      { "num": 39, "a": "angelegt", "b": "verloren", "c": "gesucht", "d": "gemieden", "correct": "a" },
+      { "num": 40, "a": "terrestrische", "b": "falsche", "c": "neue", "d": "keine", "correct": "a" },
+      { "num": 41, "a": "Raumfahrt", "b": "Küche", "c": "Schule", "d": "Stadt", "correct": "a" },
+      { "num": 42, "a": "Entdeckergeist", "b": "Hass", "c": "Neid", "d": "Weg", "correct": "a" },
+      { "num": 43, "a": "exorbitante", "b": "kleine", "c": "stille", "d": "falsche", "correct": "a" },
+      { "num": 44, "a": "Orbit", "b": "Haus", "c": "Wald", "d": "Meer", "correct": "a" },
+      { "num": 45, "a": "evolutionäre", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 46, "a": "neu schreiben", "b": "stören", "c": "vergessen", "d": "meiden", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5008,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Sprachensterben und kulturelles Erbe",
+    "texts": [
+      {
+        "content": "Wenn Wörter sterben. Alle zwei Wochen verschwindet weltweit eine Sprache ___25___ . Damit geht nicht nur ein Kommunikationsmittel verloren, sondern ein ganzes ___26___ . Sprachen sind Träger von Wissen, Mythen und Weltanschauungen. Der Prozess des Sprachensterbens ist eng mit der ___27___ verknüpft. Dominante Sprachen wie Englisch oder Spanisch ___28___ kleine Mundarten. Oft geben Eltern ihre Muttersprache nicht mehr an ihre Kinder ___29___ , um deren Aufstiegschancen zu verbessern. Dieser Verlust ist ___30___ . Linguisten versuchen, bedrohte Sprachen zu ___31___ , bevor der letzte Sprecher verstummt. Digitale Archive und Sprachkurse sollen zur ___32___ beitragen. Doch kann man eine Sprache künstlich am Leben ___33___ ? Sprache braucht einen ___34___ Raum, in dem sie wachsen kann. Diversität ist auch in der Linguistik eine ___35___ . Monokultur im Denken ist die ___36___ . Viele indigene Völker kämpfen für das Recht auf muttersprachliche ___37___ . Dies ist ein Akt der ___38___ gegen kulturelle Assimilation. Auch in Europa sind viele Dialekte auf dem ___39___ . Die Standardisierung ebnet sprachliche ___40___ ein. Sollen wir diesen Prozess ___41___ hinnehmen? Sprachpflege ist kein Selbstzweck, sondern ___42___ der kulturellen Identität. Wir müssen den Wert der ___43___ wiederentdecken. Jede Sprache bietet eine eigene ___44___ auf die Welt. Wer eine Sprache lernt, gewinnt eine neue ___45___ . Letztlich ist das Bewahren der Sprachenvielfalt eine Aufgabe für die gesamte ___46___ . Wir dürfen das Echo der Vorfahren nicht überhören.\n\nQuelle: Kultur & Sprache",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "für immer", "b": "kurz", "c": "kaum", "d": "nie", "correct": "a" },
+      { "num": 26, "a": "Universum", "b": "Haus", "c": "Geld", "d": "Ziel", "correct": "a" },
+      { "num": 27, "a": "Globalisierung", "b": "Jagd", "c": "Zeit", "d": "Not", "correct": "a" },
+      { "num": 28, "a": "verdrängen", "b": "retten", "c": "meiden", "d": "vergessen", "correct": "a" },
+      { "num": 29, "a": "weiter", "b": "ein", "c": "auf", "d": "ab", "correct": "a" },
+      { "num": 30, "a": "irreversibel", "b": "klein", "c": "gut", "d": "stolz", "correct": "a" },
+      { "num": 31, "a": "dokumentieren", "b": "töten", "c": "meiden", "d": "hoffen", "correct": "a" },
+      { "num": 32, "a": "Revitalisierung", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 33, "a": "erhalten", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 34, "a": "sozialen", "b": "leeren", "c": "stillen", "d": "falschen", "correct": "a" },
+      { "num": 35, "a": "Bereicherung", "b": "Last", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 36, "a": "Folge", "b": "Ursache", "c": "Lösung", "d": "Not", "correct": "a" },
+      { "num": 37, "a": "Bildung", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 38, "a": "Selbstbehauptung", "b": "Flucht", "c": "Liebe", "d": "Weg", "correct": "a" },
+      { "num": 39, "a": "Rückzug", "b": "Vormarsch", "c": "Weg", "d": "Ziel", "correct": "a" },
+      { "num": 40, "a": "Nuancen", "b": "Steine", "c": "Türen", "d": "Wege", "correct": "a" },
+      { "num": 41, "a": "tatenlos", "b": "froh", "c": "blind", "d": "stolz", "correct": "a" },
+      { "num": 42, "a": "Schutz", "b": "Ende", "c": "Hass", "d": "Not", "correct": "a" },
+      { "num": 43, "a": "Mehrsprachigkeit", "b": "Einfachheit", "c": "Stille", "d": "Lüge", "correct": "a" },
+      { "num": 44, "a": "Perspektive", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 45, "a": "Seele", "b": "Hand", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 46, "a": "Weltgemeinschaft", "b": "Schule", "c": "Stadt", "d": "Not", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5009,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Demographischer Wandel und soziale Sicherung",
+    "texts": [
+      {
+        "content": "Die alternde Gesellschaft: Eine Zeitbombe? Der demographische Wandel stellt westliche Industrienationen vor ___25___ Probleme. Sinkende Geburtenraten und eine steigende ___26___ führen zu einer Verschiebung der Alterspyramide. 'Überalterung' ist das ___27___ , das viele Politiker beunruhigt. Wie können Rentensysteme in Zukunft ___28___ werden? Das Umlageverfahren gerät massiv unter ___29___ . Immer weniger Beitragszahler müssen immer mehr Rentner ___30___ . Eine Erhöhung des Renteneintrittsalters scheint ___31___ . Doch viele Menschen können in körperlich ___32___ Berufen nicht bis 70 arbeiten. Zudem droht ein eklatanter Fachkräftemangel in der ___33___ . Krankenhäuser und Seniorenheime finden kaum noch ___34___ . Zuwanderung könnte eine ___35___ sein, ist aber politisch oft ___36___ . Es bedarf innovativer Konzepte für das ___37___ Altern. Ehrenamtliches Engagement und Mehrgenerationenhäuser können den sozialen ___38___ fördern. Wir müssen das Bild des Alters in der Gesellschaft ___39___ . Senioren sind keine Last, sondern verfügen über wertvolles ___40___ . 'Lifelong Learning' ist eine ___41___ , um auch im Alter am gesellschaftlichen Leben teilzunehmen. Technologische Assistenzsysteme (AAL) können helfen, die ___42___ in den eigenen vier Wänden zu bewahren. Dennoch bleibt die finanzielle ___43___ eine Herkulesaufgabe. Es gilt, einen neuen Generationenvertrag zu ___44___ . Gerechtigkeit zwischen Jung und Alt ist die ___45___ . Letztlich ist der demographische Wandel ein ___25___ Schicksal, sondern eine gestaltbare ___46___ . Wir müssen heute die Weichen für morgen stellen.\n\nQuelle: Sozialforum",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "existenzielle", "b": "kleine", "c": "stille", "d": "falsche", "correct": "a" },
+      { "num": 26, "a": "Lebenserwartung", "b": "Not", "c": "Lüge", "d": "Gefahr", "correct": "a" },
+      { "num": 27, "a": "Schlagwort", "b": "Glück", "c": "Wissen", "d": "Ziel", "correct": "a" },
+      { "num": 28, "a": "finanziert", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 29, "a": "Druck", "b": "Spaß", "c": "Licht", "d": "Weg", "correct": "a" },
+      { "num": 30, "a": "finanzieren", "b": "retten", "c": "meiden", "d": "vergessen", "correct": "a" },
+      { "num": 31, "a": "unvermeidlich", "b": "falsch", "c": "leicht", "d": "stolz", "correct": "a" },
+      { "num": 32, "a": "anstrengenden", "b": "leichten", "c": "stilen", "d": "falschen", "correct": "a" },
+      { "num": 33, "a": "Pflege", "b": "Bank", "c": "Schule", "d": "Stadt", "correct": "a" },
+      { "num": 34, "a": "Personal", "b": "Geld", "c": "Bücher", "d": "Freunde", "correct": "a" },
+      { "num": 35, "a": "Lösung", "b": "Gefahr", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 36, "a": "umstritten", "b": "klar", "c": "starr", "d": "stolz", "correct": "a" },
+      { "num": 37, "a": "aktive", "b": "stille", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 38, "a": "Zusammenhalt", "b": "Bruch", "c": "Hass", "d": "Neid", "correct": "a" },
+      { "num": 39, "a": "revidieren", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 40, "a": "Erfahrungswissen", "b": "Gold", "c": "Geld", "d": "Hass", "correct": "a" },
+      { "num": 41, "a": "Notwendigkeit", "b": "Lüge", "c": "Gefahr", "d": "Not", "correct": "a" },
+      { "num": 42, "a": "Autonomie", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 43, "a": "Last", "b": "Freude", "c": "Hilfe", "d": "Pflicht", "correct": "a" },
+      { "num": 44, "a": "schließen", "b": "meiden", "c": "öffnen", "d": "hoffen", "correct": "a" },
+      { "num": 45, "a": "Messlatte", "b": "Angst", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 46, "a": "Herausforderung", "b": "Not", "c": "Lüge", "d": "Gefahr", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5010,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Erneuerbare Energien und die globale Wende",
+    "texts": [
+      {
+        "content": "Abschied vom Ölzeitalter. Der Übergang zu einer nachhaltigen Energieversorgung ist ___25___ . Fossile Brennstoffe sind nicht nur ___26___ , sondern zerstören durch CO2-Emissionen das Klima. Die Energiewende ist somit eine ___27___ Aufgabe. Sonne, Wind und Wasser bieten ___28___ Quellen für sauberen Strom. Doch der Ausbau der Infrastruktur ___29___ auf Widerstände. 'NIMBY' (Not In My Backyard) ist ein ___30___ Argument gegen neue Windparks. Zudem stellt die Speicherung von Energie eine technologische ___31___ dar. Wie können wir Strom für windstille Nächte ___32___ halten? Wasserstoff gilt als der Hoffnungsträger der ___33___ . Viele Nationen investieren massiv in die ___34___ dieser Technologie. Dennoch ist der Weg zur Klimaneutralität ___35___ . Es bedarf einer globalen ___36___ , da das Klima keine Grenzen kennt. Industrieländer müssen eine ___37___ einnehmen. Aber auch Schwellenländer brauchen ___38___ , um den Sprung ins grüne Zeitalter zu ___39___ . Energieeffizienz ist eine weitere ___40___ . Wir müssen lernen, mit weniger Energie mehr zu ___41___ . Ein kritisches Hinterfragen des eigenen Lebensstils ist ___42___ . Dezentrale Energieversorgung kann die ___43___ der Bürger stärken. Letztlich ist die Energiewende eine ___44___ Notwendigkeit. Werden wir rechtzeitig ___45___ ? Die Technik ist bereit, der politische Wille ist die ___46___ Variable. Wir müssen die Sonne für uns arbeiten lassen.\n\nQuelle: Energie & Zukunft",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "unumgänglich", "b": "klein", "c": "stolz", "d": "falsch", "correct": "a" },
+      { "num": 26, "a": "endlich", "b": "gratis", "c": "billig", "d": "schön", "correct": "a" },
+      { "num": 27, "a": "epochale", "b": "kleine", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 28, "a": "unerschöpfliche", "b": "kleine", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 29, "a": "stößt", "b": "rollt", "c": "fällt", "d": "meidet", "correct": "a" },
+      { "num": 30, "a": "häufiges", "b": "stilles", "c": "neues", "d": "falsches", "correct": "a" },
+      { "num": 31, "a": "Hürde", "b": "Tür", "c": "Weg", "d": "Idee", "correct": "a" },
+      { "num": 32, "a": "bereit", "b": "kaum", "c": "nie", "d": "falsch", "correct": "a" },
+      { "num": 33, "a": "Zukunft", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 34, "a": "Entwicklung", "b": "Meidung", "c": "Jagd", "d": "Not", "correct": "a" },
+      { "num": 35, "a": "steinig", "b": "leicht", "c": "kurz", "d": "stolz", "correct": "a" },
+      { "num": 36, "a": "Kooperation", "b": "Hass", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 37, "a": "Vorreiterrolle", "b": "Ecke", "c": "Pause", "d": "Meidung", "correct": "a" },
+      { "num": 38, "a": "Anreize", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 39, "a": "schaffen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 40, "a": "Stellschraube", "b": "Tür", "c": "Wand", "d": "Gefahr", "correct": "a" },
+      { "num": 41, "a": "erreichen", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 42, "a": "geboten", "b": "falsch", "c": "billig", "d": "selten", "correct": "a" },
+      { "num": 43, "a": "Teilhabe", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 44, "a": "moralische", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 45, "a": "umsteuern", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 46, "a": "entscheidende", "b": "kleine", "c": "falsche", "d": "keine", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5011,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Urbane Architektur der Zukunft",
+    "texts": [
+      {
+        "content": "Wie wollen wir künftig wohnen? Das Gesicht unserer Städte wird sich in den kommenden Jahrzehnten ___25___ verändern. Angesichts knapper Flächen und des Klimawandels sind neue architektonische Konzepte ___26___ . Urbane Verdichtung ist das ___27___ des 21. Jahrhunderts. 'Vertical Farming' und begrünte Fassaden sollen die Natur zurück in die City ___28___ . Doch wie lässt sich bezahlbarer Wohnraum mit ___29___ Architektur vereinbaren? Die Schere zwischen Luxus-Lofts und sozialen Brennpunkten darf nicht weiter ___30___ . Architekten experimentieren mit modularem Bauen und ___31___ Materialien wie Holz oder Lehm. Diese Stoffe sind nicht nur nachhaltig, sondern sorgen auch für ein gesundes ___32___ . Zudem müssen Gebäude flexibel ___33___ sein, um auf demographische Veränderungen zu reagieren. Die Stadt der Zukunft sollte eine Stadt der ___34___ Wege sein. Das bedeutet eine enge Verknüpfung von Wohnen, Arbeiten und ___35___ . 'Smart Cities' nutzen digitale Daten, um Verkehrsströme zu ___36___ . Doch wer hat die Hoheit über diese ___37___ Informationen? Der Schutz der Privatsphäre im öffentlichen Raum ist ein ___38___ Thema. Architektur ist niemals neutral; sie ___39___ das soziale Miteinander. Plätze und Parks sind essentielle ___40___ für die Zivilgesellschaft. Wir müssen darauf achten, dass Städte nicht zu seelenlosen ___41___ aus Glas und Stahl werden. Ästhetik und Funktion sollten eine harmonische ___42___ eingehen. Der Erhalt historischer Bausubstanz ist dabei kein ___43___ , sondern eine Bereicherung. Wir brauchen Räume, die zum ___44___ einladen. Letztlich ist Architektur gebaute ___45___ . Die Entscheidung, wie wir bauen, prägt das Leben künftiger ___46___ . Wir sollten mutig genug für neue Visionen sein.\n\nQuelle: Architektur & Stadt",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "grundlegend", "b": "kaum", "c": "nie", "d": "falsch", "correct": "a" },
+      { "num": 26, "a": "gefragt", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 27, "a": "Leitmotiv", "b": "Glück", "c": "Wissen", "d": "Ziel", "correct": "a" },
+      { "num": 28, "a": "holen", "b": "bringen", "c": "stellen", "d": "legen", "correct": "a" },
+      { "num": 29, "a": "ökologischer", "b": "teurer", "c": "falscher", "d": "keiner", "correct": "a" },
+      { "num": 30, "a": "auseinandergehen", "b": "schließen", "c": "retten", "d": "meiden", "correct": "a" },
+      { "num": 31, "a": "nachwachsenden", "b": "statuaren", "c": "alten", "d": "keinen", "correct": "a" },
+      { "num": 32, "a": "Raumklima", "b": "Geld", "c": "Hass", "d": "Ziel", "correct": "a" },
+      { "num": 33, "a": "nutzbar", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 34, "a": "kurzen", "b": "langen", "c": "stillen", "d": "falschen", "correct": "a" },
+      { "num": 35, "a": "Freizeit", "b": "Jagd", "c": "Not", "d": "Lüge", "correct": "a" },
+      { "num": 36, "a": "optimieren", "b": "stören", "c": "meiden", "d": "vergessen", "correct": "a" },
+      { "num": 37, "a": "sensiblen", "b": "groben", "c": "keine", "d": "falschen", "correct": "a" },
+      { "num": 38, "a": "hochaktuelles", "b": "altes", "c": "stilles", "d": "falsches", "correct": "a" },
+      { "num": 39, "a": "beeinflusst", "b": "rettet", "c": "stört", "d": "meidet", "correct": "a" },
+      { "num": 40, "a": "Begegnungsorte", "b": "Straßen", "c": "Wände", "d": "Ziele", "correct": "a" },
+      { "num": 41, "a": "Wüsten", "b": "Oasen", "c": "Häuser", "d": "Ziele", "correct": "a" },
+      { "num": 42, "a": "Verbindung", "b": "Trennung", "c": "Gefahr", "d": "Not", "correct": "a" },
+      { "num": 43, "a": "Hindernis", "b": "Glück", "c": "Weg", "d": "Ziel", "correct": "a" },
+      { "num": 44, "a": "Verweilen", "b": "Laufen", "c": "Arbeiten", "d": "Meiden", "correct": "a" },
+      { "num": 45, "a": "Philosophie", "b": "Not", "c": "Lüge", "d": "Angst", "correct": "a" },
+      { "num": 46, "a": "Generationen", "b": "Kinder", "c": "Leute", "d": "Greise", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5012,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Digitale Ethik und Datenschutz",
+    "texts": [
+      {
+        "content": "Gläserne Bürger im Netz. In der digitalen Ära sind Daten das neue ___25___ . Jeder Klick, jede Suche und jedes Like hinterlassen digitale ___26___ . Große Tech-Konzerne nutzen diese Informationen, um präzise ___27___ ihrer Nutzer zu erstellen. Dies ermöglicht extrem personalisierte Werbung, birgt aber auch die Gefahr der ___28___ . Werden wir zu Marionetten der Algorithmen? Digitale Ethik hinterfragt die moralischen ___29___ der Datennutzung. Das Recht auf informationelle ___30___ ist ein hohes Gut in einer freien Gesellschaft. Doch wie lässt sich dieses Recht in einer ___31___ Welt technisch durchsetzen? Die Datenschutz-Grundverordnung (DSGVO) war ein wichtiger Schritt zur ___32___ . Dennoch finden Unternehmen immer wieder ___33___ , um Regelungen zu umgehen. Ein weiteres Problem ist 'Cambridge Analytica' – die Beeinflussung von Wahlen durch gezielte ___34___ . Dies bedroht das Fundament der ___35___ . Transparenz über die Funktionsweise von Algorithmen ist daher ___36___ . Wir müssen verstehen, warum uns bestimmte Inhalte ___37___ werden. Echo-Kammern und Filterblasen können die gesellschaftliche ___38___ gefährden. Ein kritisches Hinterfragen von Informationen ist ___39___ . Medienkompetenz sollte bereits in der ___40___ vermittelt werden. Kinder müssen lernen, verantwortungsvoll mit ihren Daten ___41___ . Aber auch Erwachsene sind oft zu ___42___ beim Akzeptieren von AGBs. Bequemlichkeit darf nicht vor ___43___ gehen. Wir sollten alternative, datenschutzfreundliche Dienste für uns ___44___ . Letztlich ist Datenschutz ein ___45___ gegen unkontrollierte Macht. Die digitale Welt braucht einen ethischen ___46___ , der den Menschen ins Zentrum stellt.\n\nQuelle: Netzpolitik & Ethik",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "Gold", "b": "Licht", "c": "Problem", "d": "Ziel", "correct": "a" },
+      { "num": 26, "a": "Spuren", "b": "Steine", "c": "Blumen", "d": "Wege", "correct": "a" },
+      { "num": 27, "a": "Profile", "b": "Bilder", "c": "Häuser", "d": "Fragen", "correct": "a" },
+      { "num": 28, "a": "Manipulation", "b": "Hilfe", "c": "Glück", "d": "Freude", "correct": "a" },
+      { "num": 29, "a": "Dimensionen", "b": "Preise", "c": "Mengen", "d": "Zeiten", "correct": "a" },
+      { "num": 30, "a": "Selbstbestimmung", "b": "Gefahr", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 31, "a": "vernetzten", "b": "leeren", "c": "stillen", "d": "falschen", "correct": "a" },
+      { "num": 32, "a": "Regulierung", "b": "Meidung", "c": "Hass", "d": "Not", "correct": "a" },
+      { "num": 33, "a": "Schlupflöcher", "b": "Türen", "c": "Fenster", "d": "Wege", "correct": "a" },
+      { "num": 34, "a": "Desinformation", "b": "Wahrheit", "c": "Liebe", "d": "Hilfe", "correct": "a" },
+      { "num": 35, "a": "Demokratie", "b": "Angst", "c": "Lüge", "d": "Gefahr", "correct": "a" },
+      { "num": 36, "a": "unerlässlich", "b": "falsch", "c": "billig", "d": "egal", "correct": "a" },
+      { "num": 37, "a": "angezeigt", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 38, "a": "Kohäsion", "b": "Bruch", "c": "Hass", "d": "Not", "correct": "a" },
+      { "num": 39, "a": "überlebenswichtig", "b": "falsch", "c": "egal", "d": "stolz", "correct": "a" },
+      { "num": 40, "a": "Schule", "b": "Jagd", "c": "Ecke", "d": "Stille", "correct": "a" },
+      { "num": 41, "a": "umzugehen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 42, "a": "nachlässig", "b": "stolz", "c": "starr", "d": "froh", "correct": "a" },
+      { "num": 43, "a": "Sicherheit", "b": "Preis", "c": "Spaß", "d": "Not", "correct": "a" },
+      { "num": 44, "a": "entdecken", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 45, "a": "Schutzwall", "b": "Ende", "c": "Hass", "d": "Not", "correct": "a" },
+      { "num": 46, "a": "Kompass", "b": "Ende", "c": "Hass", "d": "Not", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5013,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Meeresbiologie und Klimawandel",
+    "texts": [
+      {
+        "content": "Die Lunge der Erde in Gefahr? Die Ozeane bedecken über 70 Prozent unseres Planeten und sind für das Klima von ___25___ Bedeutung. Sie speichern Wärme und ___26___ enorme Mengen an CO2. Doch die Erwärmung des Meerwassers führt zu fatalen ___27___ . Das Korallensterben (Bleiche) ist ein sichtbarer ___28___ der Krise. Riffe sind die 'Regenwälder der Meere' und beherbergen eine unglaubliche ___29___ . Ihr Verschwinden bedroht ganze ___30___ . Zudem führt die Versauerung des Wassers dazu, dass Schalentiere ihre Skelette nicht mehr richtig ___31___ können. Die Überfischung ist eine weitere ___32___ für die marine Biodiversität. Industrielle Fischerei leert die Meere schneller, als sie sich ___33___ können. Plastikmüll stellt eine tödliche ___34___ für Seevögel und Meeressäuger dar. 'Microplastics' gelangen über die Nahrungskette letztlich auch ___35___ Menschen. Es bedarf strenger internationaler ___36___ zum Schutz der Meere. Marine Schutzzonen müssen ausgeweitet und ___37___ werden. Tiefseebergbau ist eine neue ___38___ , deren Folgen noch völlig ___39___ sind. Die Forschung muss die komplexen ___40___ im Meer besser verstehen lernen. Meeresschutz ist ___41___ Klimaschutz. Wir dürfen die Meere nicht länger als ___42___ Müllhalde betrachten. Ein nachhaltiger Umgang mit den maritimen ___43___ ist überlebenswichtig. Der Erhalt der Fischbestände sichert die Ernährung für Millionen ___44___ . Letztlich ist der Schutz der Ozeane eine ___45___ Notwendigkeit. Wir sitzen alle im selben ___46___ , und das Meer bestimmt den Kurs.\n\nQuelle: Ocean Reports",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "essenzieller", "b": "kleiner", "c": "stiller", "d": "falscher", "correct": "a" },
+      { "num": 26, "a": "absorbieren", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 27, "a": "Folgen", "b": "Wegen", "c": "Ideen", "d": "Fragen", "correct": "a" },
+      { "num": 28, "a": "Indikator", "b": "Hass", "c": "Preis", "d": "Weg", "correct": "a" },
+      { "num": 29, "a": "Artenvielfalt", "b": "Stille", "c": "Leere", "d": "Gefahr", "correct": "a" },
+      { "num": 30, "a": "Ökosysteme", "b": "Häuser", "c": "Städte", "d": "Klassen", "correct": "a" },
+      { "num": 31, "a": "aufbauen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 32, "a": "Bedrohung", "b": "Hilfe", "c": "Glück", "d": "Liebe", "correct": "a" },
+      { "num": 33, "a": "regenerieren", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 34, "a": "Gefahr", "b": "Lösung", "c": "Not", "d": "Hilfe", "correct": "a" },
+      { "num": 35, "a": "zum", "b": "auf", "c": "vor", "d": "ohne", "correct": "a" },
+      { "num": 36, "a": "Abkommen", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 37, "a": "überwacht", "b": "meiden", "c": "vergessen", "d": "stören", "correct": "a" },
+      { "num": 38, "a": "Herausforderung", "b": "Lüge", "c": "Gefahr", "d": "Not", "correct": "a" },
+      { "num": 39, "a": "unklar", "b": "klar", "c": "starr", "d": "froh", "correct": "a" },
+      { "num": 40, "a": "Kreisläufe", "b": "Häuser", "c": "Wege", "d": "Ziele", "correct": "a" },
+      { "num": 41, "a": "gelebter", "b": "stiller", "c": "falscher", "d": "keiner", "correct": "a" },
+      { "num": 42, "a": "grenzenlose", "b": "kleine", "c": "stille", "d": "falsche", "correct": "a" },
+      { "num": 43, "a": "Ressourcen", "b": "Angst", "c": "Lüge", "d": "Not", "correct": "a" },
+      { "num": 44, "a": "Menschen", "b": "Fische", "c": "Bäume", "d": "Steine", "correct": "a" },
+      { "num": 45, "a": "globale", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 46, "a": "Boot", "b": "Haus", "c": "Fluss", "d": "Berg", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5014,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Philosophie des Glücks in der Moderne",
+    "texts": [
+      {
+        "content": "Was macht ein gutes Leben aus? Die Suche nach dem Glück ist ___25___ Menschheitsthema. In der modernen Leistungsgesellschaft ist Glück jedoch oft zum ___26___ geworden. Wer nicht glücklich ist, gilt als ___27___ . Dieser Druck kann paradoxerweise zu ___28___ führen. Glücksforschung (Positive Psychologie) zeigt, dass materieller Reichtum ab einer gewissen ___29___ nur noch wenig zum Wohlbefinden beiträgt. Viel wichtiger sind soziale ___30___ und ein empfundener Sinn im Leben. 'Ikigai', das japanische Konzept für Lebenssinn, ist ein ___31___ Ansatz. Es geht um die Schnittmenge aus Leidenschaft, Berufung und Nutzen für die ___32___ . Doch wie findet man seinen Weg in einer Welt ___33___ Möglichkeiten? Die Qual der Wahl ist ein ___34___ Problem unserer Zeit. Ständige Selbstoptimierung führt oft zu ___35___ . Wir müssen lernen, mit Unvollkommenheit ___36___ . Achtsamkeit und Resilienz sind ___37___ , um dem Stress des Alltags zu begegnen. Ist Glück ein ___38___ oder eine Entscheidung? Philosophen wie Epikur betonten die Lust an der ___39___ . Moderne Hedonisten hingegen suchen eher den schnellen ___40___ . Nachhaltiges Glück jedoch braucht ___41___ . Dankbarkeit ist eine ___42___ Übung, um den Blick auf das Positive zu richten. Wir sollten uns weniger an anderen ___43___ . 'Social Comparison' auf Instagram ist ein ___44___ für das Selbstwertgefühl. Letztlich ist das Glück eine ___45___ Reise, kein Zielort. Jeder Moment bietet die ___46___ , inneren Frieden zu finden.\n\nQuelle: Philosophie Heute",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "ein zeitloses", "b": "neues", "c": "falsches", "d": "stilles", "correct": "a" },
+      { "num": 26, "a": "Diktat", "b": "Glück", "c": "Recht", "d": "Wunsch", "correct": "a" },
+      { "num": 27, "a": "Versager", "b": "Held", "c": "Gott", "d": "Freund", "correct": "a" },
+      { "num": 28, "a": "Unglück", "b": "Erfolg", "c": "Geld", "d": "Spaß", "correct": "a" },
+      { "num": 29, "a": "Schwelle", "b": "Menge", "c": "Form", "d": "Zeit", "correct": "a" },
+      { "num": 30, "a": "Bindungen", "b": "Häuser", "c": "Steine", "d": "Wege", "correct": "a" },
+      { "num": 31, "a": "hilfreicher", "b": "falscher", "c": "teurer", "d": "keiner", "correct": "a" },
+      { "num": 32, "a": "Gesellschaft", "b": "Schule", "c": "Bank", "d": "Stadt", "correct": "a" },
+      { "num": 33, "a": "unendlicher", "b": "leerer", "c": "stiller", "d": "falscher", "correct": "a" },
+      { "num": 34, "a": "bekanntes", "b": "stilles", "c": "neues", "d": "falsches", "correct": "a" },
+      { "num": 35, "a": "Erschöpfung", "b": "Freude", "c": "Glück", "d": "Recht", "correct": "a" },
+      { "num": 36, "a": "umzugehen", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 37, "a": "Schlüssel", "b": "Türen", "c": "Wände", "d": "Gefahren", "correct": "a" },
+      { "num": 38, "a": "Privileg", "b": "Weg", "c": "Ziel", "d": "Wunsch", "correct": "a" },
+      { "num": 39, "a": "Genügsamkeit", "b": "Jagd", "c": "Angst", "d": "Not", "correct": "a" },
+      { "num": 40, "a": "Kick", "b": "Weg", "c": "Ende", "d": "Hass", "correct": "a" },
+      { "num": 41, "a": "Tiefe", "b": "Breite", "c": "Leere", "d": "Lüge", "correct": "a" },
+      { "num": 42, "a": "kraftvolle", "b": "schwache", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 43, "a": "messen", "b": "retten", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 44, "a": "Gift", "b": "Heil", "c": "Weg", "d": "Ziel", "correct": "a" },
+      { "num": 45, "a": "individuelle", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 46, "a": "Möglichkeit", "b": "Gefahr", "c": "Lüge", "d": "Not", "correct": "a" }
+    ]
+  },
+  {
+    "id": 5015,
+    "type": "TELC",
+    "level": "C1",
+    "category": "sprachbaustein",
+    "title": "Neurowissenschaften und Lernen",
+    "texts": [
+      {
+        "content": "Wie unser Gehirn lernt. Die moderne Hirnforschung hat unser Verständnis von Bildung ___25___ . Das Konzept der Neuroplastizität zeigt, dass das Gehirn bis ins hohe Alter ___26___ ist. Wir sind keine Opfer unserer ___27___ ; wir können unser Gehirn aktiv ___28___ . Lernen bedeutet das Knüpfen neuer ___29___ zwischen Neuronen. Emotionen spielen dabei eine ___30___ Rolle. Was uns begeistert, bleibt besser ___31___ . Angst hingegen blockiert den ___32___ . 'Zustandsabhängiges Lernen' ist ein wichtiges ___33___ . Zudem wissen wir heute, wie schädlich chronischer ___34___ für die Merkfähigkeit ist. Das Gehirn braucht Pausen zur ___35___ . Im Schlaf wird das Gelernte vom Kurzzeit- ins Langzeitgedächtnis ___36___ . Mehrkanaliges Lernen spricht verschiedene ___37___ an und ist daher hocheffektiv. Doch wie nutzen wir diese ___38___ in der Schule? Viele Bildungssysteme hängen noch veralteten ___39___ nach. Frontalunterricht widerspricht oft der ___40___ des Gehirns. Es bedarf einer ___41___ Pädagogik, die auf Freude an der Entdeckung setzt. Die Digitalisierung bietet neue ___42___ für interaktives Lernen. Aber auch hier gilt: Das Gehirn braucht ___43___ , keine reine Berieselung. Selbstwirksamkeit ist ein ___44___ Motor für den Lernerfolg. Letztlich ist Lernen ein ___45___ Prozess. Wer neugierig bleibt, hält sein Gehirn ___46___ . Wir sollten das Potential unseres Geistes niemals unterschätzen.\n\nQuelle: Gehirn & Geist",
+        "gapIds": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+      }
+    ],
+    "questions": [
+      { "num": 25, "a": "umgekrempelt", "b": "meiden", "c": "gekauft", "d": "stolz", "correct": "a" },
+      { "num": 26, "a": "formbar", "b": "starr", "c": "tot", "d": "lehr", "correct": "a" },
+      { "num": 27, "a": "Gene", "b": "Ideen", "c": "Freunde", "d": "Häuser", "correct": "a" },
+      { "num": 28, "a": "trainieren", "b": "meiden", "c": "hassen", "d": "vergessen", "correct": "a" },
+      { "num": 29, "a": "Verbindungen", "b": "Wände", "c": "Steine", "d": "Türen", "correct": "a" },
+      { "num": 30, "a": "zentrale", "b": "kleine", "c": "falsche", "d": "keine", "correct": "a" },
+      { "num": 31, "a": "haften", "b": "fallen", "c": "gehen", "d": "stehen", "correct": "a" },
+      { "num": 32, "a": "Lernerfolg", "b": "Hass", "c": "Neid", "d": "Weg", "correct": "a" },
+      { "num": 33, "a": "Phänomen", "b": "Glück", "c": "Wissen", "d": "Ziel", "correct": "a" },
+      { "num": 34, "a": "Stress", "b": "Spaß", "c": "Lauf", "d": "Weg", "correct": "a" },
+      { "num": 35, "a": "Konsolidierung", "b": "Meidung", "c": "Jagd", "d": "Not", "correct": "a" },
+      { "num": 36, "a": "überführt", "b": "meiden", "c": "vergessen", "d": "hoffen", "correct": "a" },
+      { "num": 37, "a": "Sinne", "b": "Schulen", "c": "Lehrer", "d": "Bücher", "correct": "a" },
+      { "num": 38, "a": "Erkenntnisse", "b": "Geld", "c": "Angst", "d": "Lüge", "correct": "a" },
+      { "num": 39, "a": "Paradigmen", "b": "Ideen", "c": "Wegen", "d": "Zeiten", "correct": "a" },
+      { "num": 40, "a": "Natur", "b": "Bank", "c": "Ecke", "d": "Stille", "correct": "a" },
+      { "num": 41, "a": "gehirngerechte", "b": "falsche", "c": "blinde", "d": "keine", "correct": "a" },
+      { "num": 42, "a": "Optionen", "b": "Gefahren", "c": "Lügen", "d": "Not", "correct": "a" },
+      { "num": 43, "a": "Interaktion", "b": "Stille", "c": "Leere", "d": "Hass", "correct": "a" },
+      { "num": 44, "a": "starker", "b": "schwacher", "c": "falscher", "d": "keiner", "correct": "a" },
+      { "num": 45, "a": "lebenslanger", "b": "kurzer", "c": "stiller", "d": "falscher", "correct": "a" },
+      { "num": 46, "a": "jung", "b": "alt", "c": "tot", "d": "froh", "correct": "a" }
     ]
   }
 ];
