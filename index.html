@@ -348,16 +348,9 @@
 
       <!-- PHRASES -->
       <section id="phrases" class="section">
-        <h2 data-i18n="phrasesTitle">Günlük Kalıplar</h2>
-        <p data-i18n="phrasesDesc">Konuşma kalıpları burada listelenecek.</p>
-
         <div class="filter-container">
-          <div class="filter-row">
-            <button class="glass-btn active" onclick="setPhraseLevel('A1', this)">A1</button>
-            <button class="glass-btn" onclick="setPhraseLevel('A2', this)">A2</button>
-            <button class="glass-btn" onclick="setPhraseLevel('B1', this)">B1</button>
-            <button class="glass-btn" onclick="setPhraseLevel('B2', this)">B2</button>
-            <button class="glass-btn" onclick="setPhraseLevel('C1', this)">C1</button>
+          <div id="phrasesTopicFilter" class="filter-row" style="flex-wrap: wrap; justify-content: center; gap: 8px;">
+            <!-- Topics will be injected here via JS -->
           </div>
         </div>
 

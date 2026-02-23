@@ -70,6 +70,22 @@ const translations = {
     comingSoonBadge: "YAKINDA",
     comingSoonTitle: "Çok Yakında!",
     comingSoonMsg: "Bu sınav bölümü için içerikler hazırlanıyor. Yakında burada olacak! 🚀",
+    phrasesNotAvailable: "Henüz bu konu için kalıp eklenmedi.",
+    learned: "Öğrenildi",
+    points: "Puan",
+    topics: {
+      ALLTAG: "Günlük Yaşam",
+      ARBEIT: "İş Dünyası",
+      BILDUNG: "Eğitim",
+      EINKAUF: "Alışveriş",
+      GESUNDHEIT: "Sağlık",
+      MEDIEN: "Medya",
+      MEINUNG: "Fikir Belirtme",
+      REISE: "Seyahat",
+      RESTAURANT: "Restoran",
+      TANISMA: "Tanışma",
+      UMWELT: "Çevre"
+    }
   },
   en: {
     logoTitle: "DeutschMaster",
@@ -134,6 +150,22 @@ const translations = {
     comingSoonBadge: "SOON",
     comingSoonTitle: "Coming Soon!",
     comingSoonMsg: "Content for this exam section is being prepared. It will be available soon! 🚀",
+    phrasesNotAvailable: "No phrases added for this topic yet.",
+    learned: "Learned",
+    points: "Points",
+    topics: {
+      ALLTAG: "Daily Life",
+      ARBEIT: "Work",
+      BILDUNG: "Education",
+      EINKAUF: "Shopping",
+      GESUNDHEIT: "Health",
+      MEDIEN: "Media",
+      MEINUNG: "Opinion",
+      REISE: "Travel",
+      RESTAURANT: "Restaurant",
+      TANISMA: "Meeting People",
+      UMWELT: "Environment"
+    }
   },
   pl: {
     logoTitle: "DeutschMaster",
@@ -198,6 +230,22 @@ const translations = {
     comingSoonBadge: "WKRÓTCE",
     comingSoonTitle: "Wkrótce!",
     comingSoonMsg: "Treści dla tej sekcji egzaminacyjnej są w przygotowaniu. Wkrótce dostępne! 🚀",
+    phrasesNotAvailable: "Nie dodano jeszcze zwrotów dla tego tematu.",
+    learned: "Nauczone",
+    points: "Punktów",
+    topics: {
+      ALLTAG: "Życie codzienne",
+      ARBEIT: "Praca",
+      BILDUNG: "Edukacja",
+      EINKAUF: "Zakupy",
+      GESUNDHEIT: "Zdrowie",
+      MEDIEN: "Media",
+      MEINUNG: "Opinia",
+      REISE: "Podróż",
+      RESTAURANT: "Restauracja",
+      TANISMA: "Poznawanie ludzi",
+      UMWELT: "Środowisko"
+    }
   },
   ua: {
     logoTitle: "DeutschMaster",
@@ -262,6 +310,22 @@ const translations = {
     comingSoonBadge: "НЕЗАБАРОМ",
     comingSoonTitle: "Незабаром!",
     comingSoonMsg: "Вміст для цього розділу іспиту готується. Він буде доступний незабаром! 🚀",
+    phrasesNotAvailable: "Для цієї теми ще не додано фраз.",
+    learned: "Вивчено",
+    points: "Балів",
+    topics: {
+      ALLTAG: "Повсякденне життя",
+      ARBEIT: "Робота",
+      BILDUNG: "Освіта",
+      EINKAUF: "Покупки",
+      GESUNDHEIT: "Здоров'я",
+      MEDIEN: "Медіа",
+      MEINUNG: "Думка",
+      REISE: "Подорож",
+      RESTAURANT: "Ресторан",
+      TANISMA: "Знайомство",
+      UMWELT: "Довкілля"
+    }
   },
 };
 
@@ -281,7 +345,7 @@ let state = {
   totalPoints: 0, // Total points earned
   learnedGrammar: [], // Grammar topics learned
   completedTimers: 0, // Number of 25-min sessions completed
-  phraseFilter: "A1", // Default Phrase level
+  phraseTopic: "TANISMA", // Default Phrase topic
   selectedWordBankWord: null, // For A2 Part 2
 };
 
@@ -382,6 +446,8 @@ function setLanguage(lang) {
   renderGrammar();
   renderExams();
   renderReading();
+  renderPhrasesTopics();
+  renderPhrases();
 
   // Update rank display in new language - IMPORTANT!
   updateRankDisplay();
@@ -714,8 +780,9 @@ function renderGrammar() {
       : "";
 
     const isLearned = state.learnedGrammar.includes(g.id);
+    const texts = translations[state.lang];
     const learnedClass = isLearned ? 'grammar-learned' : '';
-    const learnedBadge = isLearned ? '<span style="color:#28a745; margin-left:10px;">✓ Öğrenildi</span>' : '';
+    const learnedBadge = isLearned ? `<span style="color:#28a745; margin-left:10px;">✓ ${texts.learned}</span>` : '';
 
     const item = document.createElement("div");
     item.className = `grammar-item ${learnedClass}`;
@@ -732,7 +799,7 @@ function renderGrammar() {
         <p>${text}</p>
         ${examplesHTML}
         ${!isLearned ? `<button class="btn-learn" onclick="markGrammarLearned(${g.id}, this)" style="margin-top:15px;">
-          <i class="fas fa-check"></i> Öğrendim (+2 Puan)
+          <i class="fas fa-check"></i> ${texts.btnLearn || (texts.learned + ' (+2 ' + texts.points + ')')}
         </button>` : ''}
       </div>
     `;
@@ -1476,7 +1543,10 @@ function switchTab(id, el) {
   el.classList.add("active");
 
   if (id === "admin") document.querySelector(".admin-tab").click();
-  if (id === "phrases") renderPhrases();
+  if (id === "phrases") {
+    renderPhrasesTopics();
+    renderPhrases();
+  }
 
   // Close mobile menu if open
   if (window.innerWidth <= 768) {
@@ -1936,8 +2006,28 @@ function toggleReadingAnswer(btn) {
 }
 
 /* --- PHRASES LOGIC --- */
-function setPhraseLevel(level, btn) {
-  state.phraseFilter = level;
+function renderPhrasesTopics() {
+  const filterRow = document.getElementById("phrasesTopicFilter");
+  if (!filterRow) return;
+
+  // Get unique topics
+  const topics = [...new Set((window.phrasesData || []).map(p => p.topic))];
+
+  filterRow.innerHTML = "";
+  topics.forEach(topic => {
+    const btn = document.createElement("button");
+    const texts = translations[state.lang];
+    const topicLabel = texts.topics?.[topic] || topic;
+
+    btn.className = `glass-btn ${state.phraseTopic === topic ? 'active' : ''}`;
+    btn.innerHTML = `🔹 ${topicLabel}`;
+    btn.onclick = () => setPhraseTopic(topic, btn);
+    filterRow.appendChild(btn);
+  });
+}
+
+function setPhraseTopic(topic, btn) {
+  state.phraseTopic = topic;
   const parent = btn.parentElement;
   parent.querySelectorAll(".glass-btn").forEach((b) => b.classList.remove("active"));
   btn.classList.add("active");
@@ -1949,29 +2039,78 @@ function renderPhrases() {
   if (!container) return;
   container.innerHTML = "";
 
-  const filtered = (window.phrasesData || []).filter(p => p.level === state.phraseFilter);
+  const texts = translations[state.lang];
+  const filtered = (window.phrasesData || []).filter(p => p.topic === state.phraseTopic);
 
   if (filtered.length === 0) {
-    container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; padding:20px; color:#999;">Henüz bu seviye için kalıp eklenmedi.</p>`;
+    container.innerHTML = `<p style="grid-column: 1/-1; text-align:center; padding:20px; color:#999;">${texts.phrasesNotAvailable}</p>`;
     return;
   }
 
+  // Define organic level names based on language
+  const levelNames = {
+    tr: { GRUNDNIVEAU: "Temel Kalıplar", FORTGESCHRITTEN: "Profesyonel / Sınav Kalıpları" },
+    en: { GRUNDNIVEAU: "Basic Phrases", FORTGESCHRITTEN: "Professional / Exam Phrases" },
+    de: { GRUNDNIVEAU: "Basis-Redemittel", FORTGESCHRITTEN: "Profi- / Prüfungs-Redemittel" },
+    ua: { GRUNDNIVEAU: "Базові фрази", FORTGESCHRITTEN: "Професійні / Екзаменаційні фрази" },
+    pl: { GRUNDNIVEAU: "Podstawowe zwroty", FORTGESCHRITTEN: "Zwroty profesjonalne / egzaminacyjne" }
+  };
+
   filtered.forEach(p => {
-    const card = document.createElement("div");
-    card.className = "phrase-card";
+    const section = document.createElement("div");
+    section.className = "phrase-section";
+    section.style.gridColumn = "1 / -1";
+    section.style.marginBottom = "40px";
+    section.style.background = "var(--white)";
+    section.style.padding = "30px";
+    section.style.borderRadius = "20px";
+    section.style.boxShadow = "0 10px 30px rgba(0,0,0,0.05)";
 
-    // Use TR as fallback for translation if specific language missing
-    const translation = p[state.lang] || p.tr || "";
-    const category = p.category || "Alltag";
+    const translationDesc = p.description?.[state.lang] || p.description?.tr || p.description || "";
+    const organicLevel = levelNames[state.lang]?.[p.level] || p.level;
+    const topicLabel = texts.topics?.[p.topic] || p.topic;
 
-    card.innerHTML = `
-      <div class="phrase-badge">${p.level}</div>
-      <div class="phrase-cat">${category}</div>
-      <div class="phrase-de">${p.de}</div>
-      <div class="phrase-translation">${translation}</div>
+    let phrasesHtml = "";
+    p.phrases.forEach(item => {
+      const trans = item[state.lang] || item.tr || "";
+      phrasesHtml += `
+        <div class="phrase-item" style="padding:12px; border-bottom:1px solid #f0f0f0; display:flex; justify-content:space-between; align-items:center; gap:15px;">
+          <div style="font-weight:600; color:var(--dark); flex:1;">${item.de}</div>
+          <div style="color:var(--gray); font-style:italic; flex:1; text-align:right; font-size:0.9rem;">${trans}</div>
+        </div>
+      `;
+    });
+
+    const dialogDe = p.dialog?.de || "";
+    const dialogTrans = p.dialog?.[state.lang] || p.dialog?.tr || "";
+
+    const extraText = p.extra?.[state.lang] || p.extra?.tr || p.extra || "";
+
+    section.innerHTML = `
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px; border-bottom: 2px solid var(--primary); padding-bottom: 10px;">
+        <h2 style="color:var(--secondary); font-size:1.8rem; font-weight:800; margin:0;">${topicLabel} <small style="font-size: 1rem; color: var(--gray); font-weight: 400;">(${organicLevel})</small></h2>
+      </div>
+      <p style="color:#555; line-height:1.6; margin-bottom:25px; font-size:1.1rem; border-left:4px solid var(--primary); padding-left:15px;">${translationDesc}</p>
+      
+      <div class="phrases-list" style="margin-bottom:30px; display:grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap:0 30px;">
+        ${phrasesHtml}
+      </div>
+
+      <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap:20px;">
+        <div class="phrase-dialog" style="background:#f9f9f9; padding:20px; border-radius:12px; border:1px dashed #ddd;">
+          <h4 style="margin-top:0; color:var(--dark);"><i class="fas fa-comments"></i> DIALOG</h4>
+          <div style="white-space:pre-wrap; font-family:monospace; font-size:0.95rem; color:#444; margin-bottom:10px;">${dialogDe}</div>
+          <div style="border-top:1px solid #eee; padding-top:10px; font-style:italic; font-size:0.85rem; color:#777;">${dialogTrans}</div>
+        </div>
+        
+        <div class="phrase-extra" style="background:#fff4e5; padding:20px; border-radius:12px; border:1px solid #ffe0b2;">
+          <h4 style="margin-top:0; color:#e65100;"><i class="fas fa-star"></i> EXTRA / TIPS</h4>
+          <p style="margin:0; font-size:0.95rem; color:#5d4037; line-height:1.5;">${extraText}</p>
+        </div>
+      </div>
     `;
 
-    container.appendChild(card);
+    container.appendChild(section);
   });
 }
 
