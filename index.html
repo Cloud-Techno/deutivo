@@ -5,9 +5,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Deutivo - German Learning Platform</title>
+
+  <!-- SEO & Performance -->
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+
+  <!-- Prioritize Critical Scripts -->
+  <link rel="preload" href="app.min.js" as="script">
+  <link rel="preload" href="style.min.css" as="style">
+
   <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" />
+    onload="this.onload=null;this.rel='stylesheet'" fetchpriority="low" />
   <noscript>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   </noscript>
@@ -49,6 +57,7 @@
       margin: 0;
       padding: 0;
       font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-display: swap;
     }
 
     body {
@@ -189,9 +198,9 @@
       }
     }
   </style>
-  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'" />
+  <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'" />
   <noscript>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.min.css">
   </noscript>
 </head>
 
@@ -786,12 +795,12 @@
   </footer>
 
 
-  <script src="data/vocab.js" defer></script>
-  <script src="data/grammar.js" defer></script>
-  <script src="data/reading.js" defer></script>
-  <script src="data/phrases.js" defer></script>
-  <script src="data/exam.js" defer></script>
-  <script src="app.js" defer></script>
+  <script src="data/vocab.min.js" defer fetchpriority="low"></script>
+  <script src="data/grammar.min.js" defer fetchpriority="low"></script>
+  <script src="data/reading.min.js" defer fetchpriority="low"></script>
+  <script src="data/phrases.min.js" defer fetchpriority="low"></script>
+  <script src="data/exam.min.js" defer fetchpriority="low"></script>
+  <script src="app.min.js" defer fetchpriority="high"></script>
 </body>
 
 </html>
