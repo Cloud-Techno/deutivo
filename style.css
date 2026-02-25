@@ -2418,3 +2418,141 @@ header {
   transform: scale(1.1);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* --- FOOTER --- */
+.site-footer {
+  background: var(--white);
+  padding: 40px 20px;
+  margin-top: 60px;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: var(--gray);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+  font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+  color: var(--secondary);
+}
+
+.copyright {
+  color: #999;
+  font-size: 0.85rem;
+}
+
+/* --- LEGAL CARDS (About, Contact, Imprint, Privacy) --- */
+.legal-card {
+  background: var(--white);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 900px;
+  margin: 30px auto;
+  line-height: 1.6;
+}
+
+.legal-card h2 {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  color: var(--dark);
+  border-bottom: 3px solid var(--primary);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.legal-content h3 {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  color: var(--dark);
+  font-size: 1.2rem;
+}
+
+.legal-content p {
+  margin-bottom: 15px;
+  color: var(--gray);
+}
+
+.legal-content ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  color: var(--gray);
+}
+
+.legal-content li {
+  margin-bottom: 8px;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.1rem;
+  color: var(--dark);
+}
+
+.contact-item i {
+  color: var(--secondary);
+  font-size: 1.4rem;
+  width: 25px;
+}
+
+/* DARK MODE FOR LEGAL & FOOTER */
+[data-theme="dark"] .site-footer {
+  background: #111;
+  border-top-color: #222;
+}
+
+[data-theme="dark"] .legal-card {
+  background: #1e1e1e;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .legal-card h2,
+[data-theme="dark"] .legal-content h3,
+[data-theme="dark"] .contact-item {
+  color: #eee;
+}
+
+[data-theme="dark"] .legal-content p,
+[data-theme="dark"] .legal-content ul,
+[data-theme="dark"] .footer-links a,
+[data-theme="dark"] .copyright {
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .legal-card {
+    padding: 25px;
+    margin: 15px;
+  }
+
+  .footer-links {
+    gap: 15px;
+  }
+}

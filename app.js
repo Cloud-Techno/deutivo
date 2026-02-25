@@ -73,6 +73,14 @@ const translations = {
     phrasesNotAvailable: "Henüz bu konu için kalıp eklenmedi.",
     learned: "Öğrenildi",
     points: "Puan",
+    footerAbout: "Hakkımda",
+    footerContact: "İletişim",
+    footerImprint: "Künye",
+    footerPrivacy: "Gizlilik",
+    aboutTitle: "Hakkımda / Deutivo Hakkında",
+    contactTitle: "İletişim",
+    imprintTitle: "Künye (Impressum)",
+    privacyTitle: "Gizlilik Politikası",
     topics: {
       ALLTAG: "Günlük Yaşam",
       ARBEIT: "İş Dünyası",
@@ -153,6 +161,14 @@ const translations = {
     phrasesNotAvailable: "No phrases added for this topic yet.",
     learned: "Learned",
     points: "Points",
+    footerAbout: "About Me",
+    footerContact: "Contact",
+    footerImprint: "Imprint",
+    footerPrivacy: "Privacy",
+    aboutTitle: "About Me / About Deutivo",
+    contactTitle: "Contact Us",
+    imprintTitle: "Imprint",
+    privacyTitle: "Privacy Policy",
     topics: {
       ALLTAG: "Daily Life",
       ARBEIT: "Work",
@@ -233,6 +249,14 @@ const translations = {
     phrasesNotAvailable: "Nie dodano jeszcze zwrotów dla tego tematu.",
     learned: "Nauczone",
     points: "Punktów",
+    footerAbout: "O mnie",
+    footerContact: "Kontakt",
+    footerImprint: "Nota prawna",
+    footerPrivacy: "Prywatność",
+    aboutTitle: "O mnie / O Deutivo",
+    contactTitle: "Kontakt",
+    imprintTitle: "Impressum (Nota prawna)",
+    privacyTitle: "Polityka prywatności",
     topics: {
       ALLTAG: "Życie codzienne",
       ARBEIT: "Praca",
@@ -313,6 +337,14 @@ const translations = {
     phrasesNotAvailable: "Для цієї теми ще не додано фраз.",
     learned: "Вивчено",
     points: "Балів",
+    footerAbout: "Про мене",
+    footerContact: "Контакт",
+    footerImprint: "Вихідні дані",
+    footerPrivacy: "Конфіденційність",
+    aboutTitle: "Про мене / Про Deutivo",
+    contactTitle: "Контакти",
+    imprintTitle: "Impressum (Вихідні дані)",
+    privacyTitle: "Політика конфіденційності",
     topics: {
       ALLTAG: "Повсякденне життя",
       ARBEIT: "Робота",
@@ -1536,11 +1568,21 @@ function switchTab(id, el) {
   document
     .querySelectorAll(".section")
     .forEach((s) => s.classList.remove("active"));
-  document.getElementById(id).classList.add("active");
+
+  const targetSection = document.getElementById(id);
+  if (targetSection) targetSection.classList.add("active");
+
   document
     .querySelectorAll(".nav-item")
     .forEach((n) => n.classList.remove("active"));
-  el.classList.add("active");
+
+  // Only add active class if it's a sidebar nav item
+  if (el && el.classList.contains("nav-item")) {
+    el.classList.add("active");
+  }
+
+  // Scroll to top when switching tabs
+  window.scrollTo({ top: 0, behavior: 'smooth' });
 
   if (id === "admin") document.querySelector(".admin-tab").click();
   if (id === "phrases") {
