@@ -218,10 +218,10 @@
 
     <div class="header-right">
       <div class="lang-flags">
-        <button class="flag-btn active" onclick="setLanguage('en')">🇬🇧</button>
-        <button class="flag-btn" onclick="setLanguage('tr')">🇹🇷</button>
-        <button class="flag-btn" onclick="setLanguage('pl')">🇵🇱</button>
-        <button class="flag-btn" onclick="setLanguage('ua')">🇺🇦</button>
+        <button class="flag-btn active" onclick="setLanguage('en', this)">🇬🇧</button>
+        <button class="flag-btn" onclick="setLanguage('tr', this)">🇹🇷</button>
+        <button class="flag-btn" onclick="setLanguage('pl', this)">🇵🇱</button>
+        <button class="flag-btn" onclick="setLanguage('ua', this)">🇺🇦</button>
       </div>
       <button class="theme-toggle" onclick="toggleTheme()">🌓</button>
       <button class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</button>
@@ -305,7 +305,7 @@
       <section id="vocabulary" class="section active">
         <div class="filter-container">
           <div class="filter-row">
-            <button class="glass-btn type-active" onclick="setFilter('type', 'verb', this)" data-i18n="verb">
+            <button class="glass-btn active" onclick="setFilter('type', 'verb', this)" data-i18n="verb">
               Verb
             </button>
             <button class="glass-btn" onclick="setFilter('type', 'noun', this)" data-i18n="noun">
@@ -322,16 +322,16 @@
             <button class="glass-btn active" onclick="setFilter('level', 'A1', this)">
               A1
             </button>
-            <button class="glass-btn active" onclick="setFilter('level', 'A2', this)">
+            <button class="glass-btn" onclick="setFilter('level', 'A2', this)">
               A2
             </button>
-            <button class="glass-btn active" onclick="setFilter('level', 'B1', this)">
+            <button class="glass-btn" onclick="setFilter('level', 'B1', this)">
               B1
             </button>
-            <button class="glass-btn active" onclick="setFilter('level', 'B2', this)">
+            <button class="glass-btn" onclick="setFilter('level', 'B2', this)">
               B2
             </button>
-            <button class="glass-btn active" onclick="setFilter('level', 'C1', this)">
+            <button class="glass-btn" onclick="setFilter('level', 'C1', this)">
               C1
             </button>
           </div>
@@ -807,7 +807,7 @@
   <script src="data/reading.min.js" defer fetchpriority="low"></script>
   <script src="data/phrases.min.js" defer fetchpriority="low"></script>
   <script src="data/exam.min.js" defer fetchpriority="low"></script>
-  <script src="app.min.js" defer fetchpriority="high"></script>
+  <script src="app.js" defer fetchpriority="high"></script>
 </body>
 
 </html>

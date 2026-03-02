@@ -458,12 +458,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* --- LANGUAGE SWITCH --- */
-function setLanguage(lang) {
+function setLanguage(lang, btn) {
   state.lang = lang;
   document
     .querySelectorAll(".flag-btn")
     .forEach((b) => b.classList.remove("active"));
-  event.target.classList.add("active");
+  btn.classList.add("active");
 
   const texts = translations[lang];
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -740,18 +740,17 @@ function renderFlashcards() {
 
 function setFilter(cat, val, btn) {
   state.filters[cat] = val;
-  if (cat === "level") {
-    btn.classList.remove("active");
-    btn.classList.add("active");
-  } else {
-    const parent = btn.parentElement;
-    parent.querySelectorAll(".glass-btn").forEach((b) => {
+
+  // Find the closest filter row to clear siblings
+  const row = btn.closest('.filter-row') || btn.parentElement;
+  if (row) {
+    row.querySelectorAll(".glass-btn").forEach((b) => {
       b.classList.remove("active", "type-active");
     });
   }
 
-  if (cat === "type") btn.classList.add("type-active");
-  else btn.classList.add("active");
+  // Use 'active' class for all types of filters
+  btn.classList.add("active");
 
   // Scroll to top of the page when level changes to show the first card clearly
   if (cat === "level") {
